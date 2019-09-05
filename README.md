@@ -1,2 +1,2 @@
-CrystalIDEA Uninstall Tool releases. Latest - [3.5.4] (https://github.com/crystalidea/uninstall-tool/releases)
+CrystalIDEA Uninstall Tool [releases](https://github.com/crystalidea/uninstall-tool/releases)
 
