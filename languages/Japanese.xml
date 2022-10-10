@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.0" LangID="1041" Author="Nardog">
+    <MainMenu>
+        <mnuFile>ファイル(&amp;F)</mnuFile>
+        <mnuFileExport>HTML へエクスポート(&amp;E)...</mnuFileExport>
+        <mnuFileExit>終了(&amp;X)</mnuFileExit>
+        <mnuAction>動作(&amp;A)</mnuAction>
+        <mnuActionUninstall>アンインストール(&amp;U)...</mnuActionUninstall>
+        <mnuActionModify>変更(&amp;M)...</mnuActionModify>
+        <mnuActionDelete>強制削除(&amp;F)</mnuActionDelete>
+        <mnuActionDeleteBatch>Batch &amp;Force Removal</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>エントリの削除(&amp;E)</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>Batch Remove &amp;Entries</mnuActionRemoveEntryBatch>
+        <mnuTracedData>トレース データ</mnuTracedData>
+        <mnuTracedDataAsXML>XML として表示...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>トレースを元に戻す</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Append traced data (Install and Trace)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>レジストリ エントリ(&amp;R)</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>インストール フォルダー(&amp;I)</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>プログラムの Web サイト(&amp;P)</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>場所の参照...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>ソースの参照...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>ググる</mnuActionGoogleFor>
+        <mnuView>表示(&amp;V)</mnuView>
+        <mnuViewMainToolbar>メイン ツール バー</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>メイン ツール バーの表示</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>アイコンの下にボタン ラベルを表示</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>セカンダリ ツール バー</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>更新(&amp;R)</mnuViewRefresh>
+        <mnuViewListColumnsReset>列のリセット</mnuViewListColumnsReset>
+        <mnuViewLanguage>インターフェイス言語</mnuViewLanguage>
+        <mnuTools>ツール(&amp;T)</mnuTools>
+        <mnuToolsSystemTools>システム ツール</mnuToolsSystemTools>
+        <mnuToolsAddRemove>プログラムの追加と削除(&amp;A)...</mnuToolsAddRemove>
+        <mnuToolsComponents>Windows コンポーネント(&amp;C)...</mnuToolsComponents>
+        <mnuToolsSystemRestore>システムの復元</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>セキュリティ センター</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>システムのプロパティ</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>システム情報</mnuToolsSystemInfo>
+        <mnuToolsDefrag>ディスク デフラグ</mnuToolsDefrag>
+        <mnuToolsServices>サービス</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>環境設定(&amp;P)...</mnuToolsOptions>
+        <mnuHelp>ヘルプ(&amp;H)</mnuHelp>
+        <mnuHelpOnline>目次(&amp;C)...</mnuHelpOnline>
+        <mnuHelpHomePage>Home Page</mnuHelpHomePage>
+        <mnuHelpSupport>Support</mnuHelpSupport>
+        <mnuHelpBuyNow>購入(&amp;P)...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>キーの入力(&amp;E)...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>更新のチェック(&amp;U)...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>バージョン情報(&amp;A)...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>プログラム名</columnProgramName>
+        <columnSize>サイズ</columnSize>
+        <columnInstallationDate>インストール日</columnInstallationDate>
+        <columnTraced>トレース</columnTraced>
+        <staticNoItemsMatchingFilterTip>検索フィルターを&lt;a&gt;リセット&lt;/a&gt;する (Esc キー) か他のカテゴリを参照します</staticNoItemsMatchingFilterTip>
+        <staticLoading>Loading, please wait...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>状態</columnStatus>
+        <columnSource>ソース</columnSource>
+        <columnCompany>会社名</columnCompany>
+        <sourceHKLMRun>HKLM Run</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM RunOnce</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU Run</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
+        <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
+        <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems>Windows の起動時に自動的に実行されるプログラムはありません</staticNoStartupItems>
+        <staticNoStartupItemsTip>手動で&lt;a&gt;新しいプログラムを追加する&lt;/a&gt;ことができます</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>アンインストーラー</btnUninstaller>
+        <btnUninstallerToolTip>既存のプログラムをアンインストールするか新しいソフトウェアをトレースします</btnUninstallerToolTip>
+        <btnStartup>スタートアップ</btnStartup>
+        <btnStartupToolTip>起動時に自動的に実行されるアプリケーション</btnStartupToolTip>
+        <btnRefresh>更新</btnRefresh>
+        <btnRefreshToolTip>アプリケーションの一覧の更新</btnRefreshToolTip>
+        <btnPrefs>環境設定</btnPrefs>
+        <btnPrefsToolTip>[環境設定] ダイアログの表示</btnPrefsToolTip>
+        <btnHelp>ヘルプ</btnHelp>
+        <btnHelpToolTip>プログラムのヘルプの表示</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>アプリケーション</btnApps>
+        <btnAppsToolTip>アプリケーション</btnAppsToolTip>
+        <btnSystem>システム</btnSystem>
+        <btnSystemToolTip>システムのコンポーネントと更新</btnSystemToolTip>
+        <btnHidden>隠しコンポーネント</btnHidden>
+        <btnHiddenToolTip>隠しコンポーネント</btnHiddenToolTip>
+        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>最近のインストール (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>最近インストール/更新されたアイテム</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>インストールとトレース</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>新しいプログラムをインストールしてファイル システムとレジストリへのすべての変更を監視します</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>アンインストール</itemUninstallIt>
+        <itemModifyIt>変更</itemModifyIt>
+        <itemDelete>強制削除</itemDelete>
+        <itemBatchDelete>Batch force removal of all traces</itemBatchDelete>
+        <itemBatchRemoveEntry>Batch remove entries from the list</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>You selected %u items but maximum number of items in a batch operation is limited to %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>キャンセル</itemCancelWaiting>
+        <itemSearch>検索</itemSearch>
+        <itemShortSearchTip>入力するとプログラムを検索します</itemShortSearchTip>
+        <itemVersion>バージョン:</itemVersion>
+        <itemInstalledOn>インストール日:</itemInstalledOn>
+        <itemPublisher>発行元:</itemPublisher>
+        <itemRegistryEntry>レジストリ エントリの表示</itemRegistryEntry>
+        <itemUninstallInProgress>アンインストール中</itemUninstallInProgress>
+        <itemUninstallInProgressTip>%s をアンインストールしています、アンインストール処理が完了するまでお待ちください...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>変更中</itemModifyInProgress>
+        <itemModifyInProgressTip>%s を変更しています、変更処理が完了するまでお待ちください...</itemModifyInProgressTip>
+        <itemNothingFound>見つかりません!</itemNothingFound>
+        <itemNoItemsMatchingFilter>'%s' in the %s カテゴリに一致するプログラムは ありません</itemNoItemsMatchingFilter>
+        <itemGroup>これはプログラムのグループです</itemGroup>
+        <itemNoUninstall>通常の方法ではプログラムをアンインストールできません、代わりに [強制削除] を試行できます。</itemNoUninstall>
+        <itemTracedOnly>トレースのセットによって定義されたカスタム エントリです。[強制削除] 機能よってのみ削除できます。</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>起動時の実行を無効にする</itemDisableRunning>
+        <itemEnableRunning>起動時の実行を有効にする</itemEnableRunning>
+        <itemDeleteStartupItem>強制削除</itemDeleteStartupItem>
+        <itemDisableSelected>選択されたアイテムを無効にする</itemDisableSelected>
+        <itemEnableSelected>選択されたアイテムを有効にする</itemEnableSelected>
+        <itemDeleteSelected>一覧から選択されたアイテムを削除する</itemDeleteSelected>
+        <itemMultiplSelected>%u 個のアイテムが選択されています</itemMultiplSelected>
+        <itemAddNewStartupItem>新しいプログラムを追加する...</itemAddNewStartupItem>
+        <itemStatusCaption>状態:</itemStatusCaption>
+        <itemStatusRunning>実行中</itemStatusRunning>
+        <itemStatusNotRunning>非実行中</itemStatusNotRunning>
+        <itemStatusDisabled>無効</itemStatusDisabled>
+        <itemStatusInvalid>Invalid</itemStatusInvalid>
+        <itemCommandLineCaption>コマンド ライン:</itemCommandLineCaption>
+        <itemSourceCaption>ソース:</itemSourceCaption>
+        <itemSourceRun_HKLM>すべてのユーザー レジストリの実行キー</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>現在のユーザー レジストリの実行キー</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>すべてのユーザー レジストリの一回実行キー</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>現在のユーザー レジストリの一回実行キ</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>すべてのユーザーの自動実行スタート メニュー</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>現在のユーザーの自動実行スタート メニュー</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>新しいスタートアップ プログラムの追加</DlgAddNewStartupProgramCaption>
+        <labelStartupType>スタートアップの種類:</labelStartupType>
+        <labelPathToExecutableFile>実行ファイルへのパス:</labelPathToExecutableFile>
+        <labelArguments>引数 (オプション):</labelArguments>
+        <filterExecutableFiles>実行ファイル</filterExecutableFiles>
+        <filterAllFiles>すべてのファイル</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>環境設定</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>一般</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>プログラムの起動時に更新をチェックする</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Check for beta versions</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>インターフェイス言語:</staticInterfaceLanguage>
+        <checkControlPanelIcon>コントロール パネルに Uninstall Tool のアイコンを表示する</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>Total Commander を使用してプログラムのディレクトリを操作する</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>インターフェイス</categoryInterface>
+        <checkToolBarCaptions>ツール バー ボタンの文字を表示する</checkToolBarCaptions>
+        <categoryAppList>アプリケーションの一覧</categoryAppList>
+        <checkSmallIcons>小さいアイコン</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>配色</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Tree-like software updates (sub-items):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>ソフトウェアの更新を表示する(&amp;D)</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Initially collapsed</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Initially expanded</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Always expanded</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Parent items can be expanded/collapsed with mouse or using Left/Right keyboard keys. \n\n'Initially collapsed' is recommended option, but users are able to set 'Initially expanded' to display all updates initially. Users who get used to Uninstall Tool versions prior to 3.3 can choose 'Always expanded' option which also disables expand/collapse functionality. \n\nWhen using search filter collapsed items are expanded automatically if one or more sub-items matches the filter.</subitemsHelpText>
+        <staticRecentlyInstalled>最近インストールされたプログラム:</staticRecentlyInstalled>
+        <checkDisplayPopup>最近インストールされたアプリケーションのポップアップ ウィンドウを表示する</checkDisplayPopup>
+        <checkHighlighRecent>最近インストールされたアプリケーションをハイライトする</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>セカンダリ ツール バーに最近のプログラムを表示する</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Uninstall Wizard</categoryUninstallWizard>
+        <staticWizardDesctiption>アプリケーションをアンインストールするとき、ビルトイン アンインストール プログラムの実行後に Uninstall Wizard ™ は使用されないレジストリ エントリとファイルのためにシステム レジストリとファイル システムのディープ スキャンを実行することが出来ます。自動的に実行するか、Uninstall Wizard を無効にするか、起動するかを毎回質問させるかを選択できます。Uninstall Wizard は常にトレース プログラムのためにに実行します。</staticWizardDesctiption>
+        <staticWizardUsage>Uninstall Wizard ™ の使用:</staticWizardUsage>
+        <comboItemWizardOption1>起動前に質問する</comboItemWizardOption1>
+        <comboItemWizardOption2>常に</comboItemWizardOption2>
+        <comboItemWizardOption3>しない</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Uninstall Wizard</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>%s のすべてのトレースの削除 - UninstallWizard ™</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>残されたファイル、フォルダーおよびレジストリ アイテムをスキャンしています...</statusScanning>
+        <statusScanningTraced>Generating the list of leftover traced items, please wait...</statusScanningTraced>
+        <statusForceRemoval>Force removal of '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>いくつかの残されたトレースが見つかりました!</statusLeftOverTracesFound>
+        <statusNothingFound>残されたトレースが見つかりませんでした。</statusNothingFound>
+        <statusAllTracesRemoved>すべてのトレースが削除されました</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>プログラムのトレースを削除しています...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Uninstall Tool は以下のプログラムのトレースがコンピューターに残されていることを検出しました。慎重に確認して選択されたアイテムを削除する準備ができたら、'完了' をクリックしてください。</staticScanStatusFound>
+        <staticScanStatusRemoved>%s は正常に削除されました。</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>All selected leftovers have been successfully removed.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>トレースの一覧を生成しています...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>ファイル システム (%d 個のアイテム)</treeItemFileSystem>
+        <treeItemRegistry>レジストリ (%d 個のアイテム)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>参照...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d 個のファイル (%s) と %d 個のレジストリ アイテムがコンピューターに残されています</staticOverallInfo>
+        <btnFinish>完了</btnFinish>
+        <btnCancel>キャンセル</btnCancel>
+        <btnClose>閉じる</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>いくつかのファイルは削除されませんでした</Title>
+        <Instruction1>以下のファイルはシステムによって使用中であるため削除されませんでした:</Instruction1>
+        <Instruction2>これらのファイルは次のシステムの再起動時に自動的に削除されます。</Instruction2>
+        <btnReboot>今すぐ再起動</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>実行中のプロセスを強制終了しますか?</Title>
+        <Instruction1>以下のプロセスが検出されました:</Instruction1>
+        <Instruction2>削除前に手動で終了することが推奨されますが、Uninstall Wizard は強制終了することができます。</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>インストール トラッカー</InstallTrackerLocalizedName>
+        <Title>プログラムのインストールとトレース</Title>
+        <TitleAppend>Install and Trace, append traced data to '%s'</TitleAppend>
+        <staticPathToProgram>セットアップ ファイルへのパス (.exe、.msi):</staticPathToProgram>
+        <staticInstallProgress>インストールの進行状況:</staticInstallProgress>
+        <checkMinimize>インストール中は Uninstall Tool をシステム トレイへ最小化する</checkMinimize>
+        <btnInstall>インストールとトレース</btnInstall>
+        <btnStop>中止</btnStop>
+        <btnSave>保存</btnSave>
+        <btnSaveLog>ログの保存...</btnSaveLog>
+        <btnNoAndRevert>No + Revert</btnNoAndRevert>
+        <staticRevertInfo>Revert option attepts to delete all file system/registry items created during the installation tracing</staticRevertInfo>
+        <installTip1>Uninstall Tool が監視している間通常はインストールを続行します。すべてのプロセスの完了時にトレースが自動的に終了しない場合はセットアップの完了時に手動で中止する必要があります</installTip1>
+        <installTip2>他のインストールが現在実行中でないことを確実にしてください</installTip2>
+        <installTip3>このプログラムの以前のバージョンが既にインストールされている場合、新しいバージョンのインストール前に先に削除する必要があります</installTip3>
+        <trayIconTitle>'%s' をインストールしています...</trayIconTitle>
+        <trayIconTooltip>中止またはトレース ログを表示するには右クリック メニューをご覧ください</trayIconTooltip>
+        <trayIconText>Uninstall Tool が監視している間通常はインストールを続行します。すべてのプロセスの完了時にトレースが自動的に終了しない場合はセットアップの完了時に手動 (右クリック メニュー) で中止する必要があります</trayIconText>
+        <trayIconMenuProgress>インストールの進行状況</trayIconMenuProgress>
+        <trayIconMenuStop>中止</trayIconMenuStop>
+        <readMore>詳細</readMore>
+        <installationFiles>インストール ファイル</installationFiles>
+        <textFiles>テキスト ファイル</textFiles>
+        <selectInstallFile>インストール ファイルの選択</selectInstallFile>
+        <contextMenuCopy>コピー</contextMenuCopy>
+        <logEventCreateFile>ファイルの作成</logEventCreateFile>
+        <logEventCreateFolder>フォルダの作成</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>キーの作成</logEventCreateKey>
+        <logEventDeleteKey>キーの削除</logEventDeleteKey>
+        <logEventSetValue>値の設定</logEventSetValue>
+        <logEventProcessCreated>プロセスが作成されました</logEventProcessCreated>
+        <logEventProcessKilled>プロセスが終了されました</logEventProcessKilled>
+        <logEventDeleteOperation>Delete</logEventDeleteOperation>
+        <logStartingService>Install Tracker サービスを開始しています...</logStartingService>
+        <logStartingServiceError1>エラー: CisUtMonitor サービスがまだ停止しています</logStartingServiceError1>
+        <logStartingServiceError2>エラー: CisUtMonitor の起動がタイムアウトしました</logStartingServiceError2>
+        <logStartingServiceError3>エラー: CisUtMonitor サービスを開始できません (error %u)</logStartingServiceError3>
+        <logStartingServiceError4>エラー: CisUtMonitor サービスを開けません。プログラムを再インストールしてください。</logStartingServiceError4>
+        <logServiceStopped>トラッキング サービスが中止されました</logServiceStopped>
+        <logServiceStopError>エラー: トラッキング サービスの中止に失敗しました</logServiceStopError>
+        <logServiceVersion>サービスのバージョン: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>モニターのバージョン: 0x%x、0x%x が適切です。プログラムを再インストールしてください。</logServiceVersionOlder>
+        <logServiceMonitorRunning>警告: アクティブ モニターを停止しています...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>インストール モニターが開始されました</logServiceMonitorStarted>
+        <logTrackingStarting>%s を開始しています...</logTrackingStarting>
+        <logTrackingStartingEror>エラー: セットアップ プロセスを起動できません (エラー %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>エラー: モニターを起動できません。プログラムを再インストールしてください。</logTrackingCannotStart>
+        <logTrackingStoppedByUser>トレースはユーザーによって中止されました</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>すべてのインストール プロセスが完了しました</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>セットアップが完了しました</logTrackingCompleted>
+        <logTracingAnalyzing>インストールを解析しています、お待ちください...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>%u 個のインストール エントリが検出されました</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u new installation entries detected:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Done</logTrackingDone>
+        <logReverting>Reverting changes...</logReverting>
+        <logCompleted>Completed</logCompleted>
+        <logMSIServiceWarning>警告: MSI サービスが無効です</logMSIServiceWarning>
+        <logMSIServiceError1>エラー: MSI サービスを開くのに失敗しました</logMSIServiceError1>
+        <logMSIServiceError2>エラー: MSI サービスを開始できません</logMSIServiceError2>
+        <logMSIServiceError3>エラー: MSI サービスの状態をクエリできません</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>トレース中に新しいインストール エントリは見つかりませんでした。これは一般にプログラムが正しくインストールされていないことを意味しますが、インストールが完了したことが確実である場合には [アプリケーション] の一覧に新しいカスタム プログラムを作成することができます。すべての現在見つかったトレースはそれに帰属します。</Title>
+        <staticName>名前:</staticName>
+        <checkCreateCustomEntry>一覧にカスタム アイテムを作る</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>複数のインストール エントリが検出されました</Caption>
+        <Title>インストール後に Windows レジストリから複数のインストール エントリが検出されました。[トレース] 列の特別なアイコン付きで [アプリケーション] の一覧に表示するメイン アイテムを選択してください。メイン アイテムのトレース データを削除するとき、Uninstall Tool はすべての依存アイテムのトレース データも削除することを考慮してください。</Title>
+        <btnSelect>選択</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s 個のトレース データ</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>'%s' のアンインストール</Title>
+        <Instruction>依存アイテムも削除しますか?</Instruction>
+        <Footer>あなたは Install Tracker のトレースを有効にして '%s' をインストールし、上のアイテムも同様にインストールされました。これは Uninstall Wizard の使用時にすべての依存トレース コンポーネントも削除されることを意味します。現在のアイテムのみの削除を選択すると、トレース データは無視され Uninstall Wizard はこのプログラムを参照する残されたデータをスキャンします。</Footer>
+        <btnOnlyCurrent>%s のみ</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>ビルトイン アンインストーラーはその仕事を完了しました。残された使用されないレジストリ エントリとファイルのためにシステム レジストリとファイル システムのディープ スキャンを実行しますか?</staticConfirm>
+        <learnMoreAboutWizard>Uninstall Wizard の詳細</learnMoreAboutWizard>
+        <btnYes>はい</btnYes>
+        <btnNo>いいえ</btnNo>
+        <checkDontAskAgain>選択を記憶して再び質問しない ([環境設定] で変更できます)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Uninstall Tool のバージョン情報</DlgAboutCaption>
+        <staticWebSite>Web サイト</staticWebSite>
+        <staticSupport>サポート</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>このプログラムのライセンス先:</staticRegisteredTo>
+        <staticChangeKey>Change License Key</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>試用中です</UnregDlgReminder>
+        <UnregDlgExpired>試用が満了しました</UnregDlgExpired>
+        <staticExpired>この試用バージョンは満了しました。あなたは 30 日間でソフトウェアの完全な機能をテストすることができました。\n\nソフトウェアがお気に入りで使用の続行をお望みの場合は、'購入' をクリックします。</staticExpired>
+        <staticTrial>Uninstall Tool の無料評価バージョンは 30 日間使用できます。この期間の後はプログラムを購入するかコンピューターから削除しなければなりません。</staticTrial>
+        <btnWebSite>Web サイト</btnWebSite>
+        <staticDaysLeft>評価は残り %d 日です</staticDaysLeft>
+        <btnBuyNow>今すぐ購入</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>登録キーの入力</EnterKeyDlgCaption>
+        <Title>登録電子メールから名前とコードを入力してください:</Title>
+        <staticName>登録名:</staticName>
+        <staticKey>登録キー:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>アンインストール処理に失敗しました。\nレジストリからこのプログラムのエントリを削除してそのファイルを削除しますか?</msgUninstallFailed>
+        <msgForceRemovalTitle>Force Removal of '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Batch Force Removal</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>このプログラムの強制削除を実行してもよろしいですか?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Are you sure you want to perform force removal of the following programs?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>アプリケーションの強制削除は関連付けされたアンインストーラーは実行せず、プログラムに帰属する全ての見つかったファイル システムとレジストリのアイテムを抹消するだけです。この機能は古いまたは不正なエントリにのみ使用してください。</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>Force removal of a traced program will perform ultra fast and thorough removal without running its associated uninstaller. It will erase all file system and registry items traced during installation.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Batch Force Removal is an advanced feature and should be used carefuly. It will not run associated uninstallers and will only scan for leftover file system/registry items and display them in a merged list that requires a precise review. The most thorough and accurate removal is performed for programs traced with Install Tracker.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>dependent</msgForceRemovalItemDependent>
+        <msgLearnMore>Learn more</msgLearnMore>
+        <msgForceRemovalCheck>Ok, I understand the responsibility</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>コンピューターから Uninstall Tool を削除してもよろしいですか?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>このエントリを削除してもよろしいですか?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Are you sure you want to remove these entries?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>この機能は一覧からアイテムを削除するだけです。残されたレジストリやファイル システムは削除されません。この機能は古いまたは不正な一覧のエントリにのみ試用してください。</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>このアイテムのレジストリ エントリの削除に失敗しました。\nおそらくアクセス権限がありません。</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>このプログラムのアンインストールを強制的に取り消してもよろしいですか?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>強制キャンセルは既定のアンインストール プログラムがフリーズしているか緊急的にすべての現在実行中のアンインストール処理を中止する必要があるときにのみ実行してください。強制キャンセルは予期しない効果を引き起こすことがあるのでプログラムの既定のアンインストーラーで適切に取り消してください。</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>トレース アイテム '%s' が 'トレース' 列の特別なアイコン付きでプログラムの一覧に表示されるようになりました。</msgTracedItem>
+        <msgTracedItemAppended>Traced data is now added to the previously traced item '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Please note that new installation items will be treated as dependent entries and can be removed later together with '%s' (upon confirmation).</msgTracedItemAppendedNote>
+        <msgUndoTracing>Uninstall Tool にこのプログラムのすべてのトレース データを忘れさせてもよろしいですか?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>CisUtMonitor サービスを開けません。プログラムを再インストールしてください</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Uninstall Tool トラッキング サービス ('CisUtMonitor') はこのシステムにインストールされていません。\n\n今すぐインストールしますか?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Uninstall Tool トラッキング サービス ('CisUtMonitor') はこのシステムにインストールされていません。</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>サービスは正常にインストールされました。\n\n'RemoveService.cmd' ファイルを使用して後からアンインストールできます。</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>サービス情報がタイムアウトしました: エラー コード %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>サービスのインストールに失敗しました - 不明な理由です、詳細はサポートにお問い合わせください。</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Uninstall Tool トラッキング サービス ('CisUtMonitor') はこのコンピューターからアンインストールされました。</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>インストールされた 'CisUtMonitor' サービスのバージョン (%u) は最新のもの (%u) より古いです。\n\n更新しますか?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>サービスの最新のバージョンは正常にインストールされました。Install Tracker を使用する前にコンピューターを再起動する必要があります。</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>トレース プログラムがインストールされていない (ファイル/レジストリ アイテムを残さなかった) ため保存するものがありません</msgNothingToSave>
+        <msgCancelTracing>現在のインストールのトレースを取り消しますか?</msgCancelTracing>
+        <msgStopTracing>インストールのトレースは今すぐ中止されます。現在のトレース結果を保存しますか?</msgStopTracing>
+        <msgEntryAlreadyExists>プログラム '%s' は既に一覧に存在しますので、別の名前を選択してください。</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>これはシステム レジストリ (スタート メニュー) からこのエントリを完全に抹消します。\n\nこれをしてもよろしいですか?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>新しいアイテムの追加エラーです、管理者権限をチェックするかプログラム サポートにお問い合わせください。</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>このエントリのプロパティを変更できません。おそらく権限がありません。\n\nシステムの管理者に連絡してください。</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>これらのアイテムを削除してもよろしいですか?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>これはシステム レジストリ (スタート メニュー) から上のアイテムを削除します、それらは二度と Windows の起動時に実行しません。</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>登録を完了するにはプログラムを再起動する必要があります。\n\n今すぐプログラムを終了しますか?</msgRegRestartRequired>
+        <msgNewVersionAvailable>新しいバージョン %s が利用可能です:</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>現在のバージョン: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>What's New:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Portable version download link</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>プログラムの最新のバージョンを使用しています</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>crystalidea.com のウェブサイトへ接続できません、インターネット接続をチェックしてください</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>You're not supposed to run 32-bit version of Uninstall Tool on 64-bit Windows as it displays only 32-bit applications and has a wide range of limitations. It's highly recommended to download and reinstall Uninstall Tool on this machine (it will automatically choose 64-bit version when installing on a 64-bit Windows).</msgRunningInWow64>
+        <msgRunningInWow64Title>Running in WoW64 environment</msgRunningInWow64Title>
+        <msgCannotStartHelper>Unable to start 'UninstallToolHelper.exe' process. \n\nPlease reintall the program.</msgCannotStartHelper>
+        <msgUninstallingMyself>Do you want to remove Uninstall Tool preferences and all data about traced installations?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Unable to create file:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>未登録バージョン</txtUnregisteredBig>
+        <msgNotAvailableInTrial>この機能はプログラムの登録済みバージョンのみで利用可能です。</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>残されたデータを保存して一覧から '%s' アイテムの [強制削除] 機能を使用して後からそれを削除することがでます。</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>後で残されたデータを保存および削除する</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML ファイル</htmlFiles>
+        <allFiles>すべてのファイル</allFiles>
+        <generatedByOn>%s によって %s に生成されました</generatedByOn>
+        <installedPrograms>インストールされているプログラム (%s)</installedPrograms>
+        <startupPrograms>スタートアップ プログラム</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>OK</btnOK>
+        <btnCancel>キャンセル</btnCancel>
+        <btnHelp>ヘルプ</btnHelp>
+        <btnYes>はい</btnYes>
+        <btnNo>いいえ</btnNo>
+        <btnClose>閉じる</btnClose>
+        <statusTotalInfo>合計で %d 個 (%s) のプログラム</statusTotalInfo>
+        <statusUnknown>不明</statusUnknown>
+        <statusRecentItems>最近インストール</statusRecentItems>
+        <statusRecentItemsTip>最近インストール/変更されたプログラムを表示します</statusRecentItemsTip>
+        <statusStartupTotalInfo>全体で %d 個のプログラム、%d が現在実行中</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>使用サイズを計算しています... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>新しいバージョンが利用可能です:</statusNewVersionAvailable>
+        <popupNewProgramsFound>%d 個の新しいプログラムが見つかりました!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Windows の更新プログラム</WindowsUpdatesText>
+        <UninstallToolDescription>プログラムの完全なインストール、スタートアップ プログラムの管理</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>インストールして Install Tracker でトレース...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>インストールしてプログラムのコンピューターへのすべての変更をトレースします</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Unhandled Exception</msgTitleTemplate>
+        <msgTemplate>We're sorry but an unhandled exception has occurred and \n%app_name% has become unstable. \nPlease send us an e-mail to '%email%'\nattaching the following crash dump file:\n\n%dump_file%\n\nAfter pressing 'Send Report' button, a default mailer program \nwill be opened with composed message.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file %dump_file%)\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <btnSend>Send Report (Recommended)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>その他のタスク:</other_tasks>
+        <install_service>トレース サービス ('インストールとトレース' 機能) のインストール</install_service>
+        <control_panel_icon_text>コントロール パネルに Uninstall Tool のアイコンを追加する</control_panel_icon_text>
+        <installing_driver>カーネル ドライバーをインストールしています...</installing_driver>
+        <ut_initializing>Uninstall Tool は初期化中です...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

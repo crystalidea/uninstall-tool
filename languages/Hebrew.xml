@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.3" LangID="1037" Author="Oren Peretz" RightToLeft="1">
+    <MainMenu>
+        <mnuFile>&amp;קובץ</mnuFile>
+        <mnuFileExport>&amp; ייצא ל HTML...</mnuFileExport>
+        <mnuFileExit>&amp;יציאה</mnuFileExit>
+        <mnuAction>&amp;פעולה</mnuAction>
+        <mnuActionUninstall>&amp;הסרת התקנה...</mnuActionUninstall>
+        <mnuActionModify>&amp;התאם...</mnuActionModify>
+        <mnuActionDelete>&amp;הסרה כפויה</mnuActionDelete>
+        <mnuActionDeleteBatch>מקבץ &amp;הסרה בכוח</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>הסרת &amp;ערך</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>הסרת קבוצת &amp;ערכים</mnuActionRemoveEntryBatch>
+        <mnuTracedData>נתונים נעקבים</mnuTracedData>
+        <mnuTracedDataAsXML> צפייה כ XML...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>בטל פעולת עיקוב</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Append traced data (Install and Trace)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;רישום רגיסטרי</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>&amp;תיקיית התקנה</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>&amp;אתר האינטרנט של התוכנה</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>אתר מיקום...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>אתר מקור...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>גגל עבור</mnuActionGoogleFor>
+        <mnuView>&amp;תצוגה</mnuView>
+        <mnuViewMainToolbar>סרגל כלים ראשי</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>הצג סרגל כלים ראשי</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>הצג תוויות לחצן מתחת לצלמיות</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>סרגל כלים משני</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;ריענון</mnuViewRefresh>
+        <mnuViewListColumnsReset>אפס עמודות</mnuViewListColumnsReset>
+        <mnuViewLanguage>שפת ממשק</mnuViewLanguage>
+        <mnuTools>&amp;כלים</mnuTools>
+        <mnuToolsSystemTools>כלי מערכת</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;הוספת/הסרת תוכניות...</mnuToolsAddRemove>
+        <mnuToolsComponents>רכיבי &amp;Windows...</mnuToolsComponents>
+        <mnuToolsSystemRestore>שיחזור מערכת</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>מרכז אבטחה</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>תכונות מערכת</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>מידע מערכת</mnuToolsSystemInfo>
+        <mnuToolsDefrag>מאחה דיסק</mnuToolsDefrag>
+        <mnuToolsServices>שרותים</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;העדפות...</mnuToolsOptions>
+        <mnuHelp>&amp;עזרה</mnuHelp>
+        <mnuHelpOnline>&amp;תוכן העניינים...</mnuHelpOnline>
+        <mnuHelpHomePage>דף הבית</mnuHelpHomePage>
+        <mnuHelpSupport>תמיכה</mnuHelpSupport>
+        <mnuHelpBuyNow>&amp;קנייה...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>&amp;רישום מפתח התקנה...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>בדוק אודות &amp;עדכונים...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;אודות...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>שם תוכנה</columnProgramName>
+        <columnSize>גודל</columnSize>
+        <columnInstallationDate>הותקנה ב-</columnInstallationDate>
+        <columnTraced>נעקב</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;איפוס&lt;/a&gt; חפש פילטר (מקש אסקייפ) או נסה לעלעל בקטגוריות אחרות</staticNoItemsMatchingFilterTip>
+        <staticLoading>טוען, אנא המתן...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>סטטוס</columnStatus>
+        <columnSource>מקור</columnSource>
+        <columnCompany>חברה</columnCompany>
+        <sourceHKLMRun>HKLM הרצת</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM הרצה חד-פעמית של</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU הרצת</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU הרצה חד-פעמית של</sourceHKCURunOnce>
+        <sourceStartMenuAll>All התחל תפריט</sourceStartMenuAll>
+        <sourceStartMenuCU>CU התחל תפריט</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems> אין תוכנות המורצות אוטומטית עם התחלת Windows</staticNoStartupItems>
+        <staticNoStartupItemsTip>אתה יכול ידנית &lt;a&gt;להוסיף תוכנה חדשה&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>מסיר התקנה</btnUninstaller>
+        <btnUninstallerToolTip>הסר התקנת תוכניות קיימות או התקן ועקוב אחר תוכנה חדשה</btnUninstallerToolTip>
+        <btnStartup>אתחול</btnStartup>
+        <btnStartupToolTip>יישומים הרצים אוטומטית במהלך אתחול</btnStartupToolTip>
+        <btnRefresh>רענון</btnRefresh>
+        <btnRefreshToolTip>רענן רשימת תוכניות</btnRefreshToolTip>
+        <btnPrefs>העדפות</btnPrefs>
+        <btnPrefsToolTip>הסר התקנת העדפות כלי</btnPrefsToolTip>
+        <btnHelp>עזרה</btnHelp>
+        <btnHelpToolTip>הצג עזרת תוכנית</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>יישומים</btnApps>
+        <btnAppsToolTip>יישומים</btnAppsToolTip>
+        <btnSystem>מערכת</btnSystem>
+        <btnSystemToolTip>מרכיבי מערכת ועדכונים</btnSystemToolTip>
+        <btnHidden>חבויים</btnHidden>
+        <btnHiddenToolTip>מרכיבים חבויים</btnHiddenToolTip>
+        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>(%u) הותקנו לאחרונה</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>פריטים אשר הותקנו/עודכנו לאחרונה</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>התקן ועקוב</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>התקן תוכנית חדשה וצפה בכל השינויים שהיא מחוללת למערכת ההפעלה ולרגיסטרי</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>הסר התקנה</itemUninstallIt>
+        <itemModifyIt>שנה</itemModifyIt>
+        <itemDelete>הסרה בכוח של כל העקבות</itemDelete>
+        <itemBatchDelete>הסרה בכוח של כל עקבות הקבוצה</itemBatchDelete>
+        <itemBatchRemoveEntry>הסרת קבוצת ערכים מהרשימה</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>אתה בחרת %u פריטים אבל המספר המקסימלי של פריטים בפעולה קבוצתית מוגבל ל %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>בטל</itemCancelWaiting>
+        <itemSearch>חיפוש</itemSearch>
+        <itemShortSearchTip>הקלד לחיפוש תוכנית</itemShortSearchTip>
+        <itemVersion>גרסא:</itemVersion>
+        <itemInstalledOn>הותקן/עודכן ב:</itemInstalledOn>
+        <itemPublisher>מוציא לאור:</itemPublisher>
+        <itemRegistryEntry>צפה בערך רגיסטרי</itemRegistryEntry>
+        <itemUninstallInProgress>הסרת התקנה בתהליך</itemUninstallInProgress>
+        <itemUninstallInProgressTip>מסיר התקנה %s, אנא המתן בשעה שתהליך הסרת ההתקנה מסתיים...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>שינוי בתהליך</itemModifyInProgress>
+        <itemModifyInProgressTip>משנה %s, אנא המתן בשעה שתהליך השינוי מסתיים...</itemModifyInProgressTip>
+        <itemNothingFound>!לא נמצא דבר</itemNothingFound>
+        <itemNoItemsMatchingFilter>אין תוכניות תואמות '%s' בתוך ה %s קטגוריה</itemNoItemsMatchingFilter>
+        <itemGroup>זוהי קבוצה של תוכניות</itemGroup>
+        <itemNoUninstall>לא ניתן להסיר את התוכנית בדרך רגילה, אתה יכול לנסות הסרה בכוח במקום זאת.</itemNoUninstall>
+        <itemTracedOnly>רישום מותאם אישית הוגדר על-ידי סט של עקבות. ניתן להסרה רק בעזרת תכונת הסרה בכוח.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>נטרל הפעלה באתחול המחשב</itemDisableRunning>
+        <itemEnableRunning>אפשר הפעלה באתחול המחשב</itemEnableRunning>
+        <itemDeleteStartupItem>מחק מהרשימה</itemDeleteStartupItem>
+        <itemDisableSelected>נטרל פריטים נבחרים</itemDisableSelected>
+        <itemEnableSelected>אפשר פריטים נבחרים</itemEnableSelected>
+        <itemDeleteSelected>מחק פריטים נבחרים מן הרשימה</itemDeleteSelected>
+        <itemMultiplSelected>%u פריטים נבחרו</itemMultiplSelected>
+        <itemAddNewStartupItem>הוסף תוכנית חדשה...</itemAddNewStartupItem>
+        <itemStatusCaption>סטטוס:</itemStatusCaption>
+        <itemStatusRunning>מופעל</itemStatusRunning>
+        <itemStatusNotRunning>אינו מופעל</itemStatusNotRunning>
+        <itemStatusDisabled>מנוטרל</itemStatusDisabled>
+        <itemStatusInvalid>Invalid</itemStatusInvalid>
+        <itemCommandLineCaption>שורת הפקודה:</itemCommandLineCaption>
+        <itemSourceCaption>מקור:</itemSourceCaption>
+        <itemSourceRun_HKLM>מפתח הפעלה רגיסטרי של כל המשתמשים</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>מפתח הפעלה רגיסטרי של משתמש נוכחי</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>מפתח הפעלה חד-פעמי רגיסטרי של כל המשתמשים</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>מפתח הפעלה חד-פעמי רגיסטרי של משתמש נוכחי</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>תפריט התחלה מסוג הפעלה אוטומטית של כל המשתמשים</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>תפריט התחלה מסוג הפעלה אוטומטית של משתמש נוכחי</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>התקן תוכנית התקנה חדשה</DlgAddNewStartupProgramCaption>
+        <labelStartupType>אופן התחלה:</labelStartupType>
+        <labelPathToExecutableFile>נתיב אל קובץ הפעלה:</labelPathToExecutableFile>
+        <labelArguments>ארגומנטים (אופציונלי):</labelArguments>
+        <filterExecutableFiles>קבצי הפעלה</filterExecutableFiles>
+        <filterAllFiles>כל הקבצים</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>העדפות</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>כללי</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>בדוק עדכונים בהתחלת התוכנית</checkCheckForUpdates>
+        <checkCheckForBetaVersions>חפש אחר גרסאות בטא</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>שפת ממשק:</staticInterfaceLanguage>
+        <checkControlPanelIcon>הראה צלמית כלי הסרת התקנה בלוח הבקרה</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>אם מותקן Total Commander נווט בעזרתו אל ספריית התוכניות</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>ממשק</categoryInterface>
+        <checkToolBarCaptions>הצג כותרות לחצני סרגל הכלים</checkToolBarCaptions>
+        <categoryAppList>רשימת יישומים:</categoryAppList>
+        <checkSmallIcons>צלמיות קטנות</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>מערך צבעים:</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>עדכוני תוכנה בתצוגת עץ (תתי פריטים):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>הצג עדכוני תוכנה</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>כווץ בתחילה</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>הרחב בתחילה</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>תמיד הרחב</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>פריטי אב ניתנים להרחבה או כיווץ על ידי העכבר או החצים ימינה שמאלה שבמקלדת. \n\nהיא אופציה מומלצת אולם משתמשים יכולים לבחור 'הרחב בתחילה לשם הצגת כל העדכונים בתחילה. משתמשים שמורגלים להשתמש בגרסת התוכנה טרם גרסא 3.3 יכולים לבחור את אופציית 'תמיד הרחב' שגם מנטרלת את הפונקציונליות של הרחב/כווץ. 'מוטט בתחילה' \n\nכאשר משתמשים בפילטר חיפוש פריטים שכווצו מורחבים אוטומטית במקרה של אחד או יותר תת פריטים תואמים את מחרוזת החיפוש.</subitemsHelpText>
+        <staticRecentlyInstalled>תוכנות שהותקנו לאחרונה:</staticRecentlyInstalled>
+        <checkDisplayPopup>הצג חלון קופץ עם יישומים שהותקנו לאחרונה</checkDisplayPopup>
+        <checkHighlighRecent>הדגש תוכניות שהותקנו לאחרונה</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>הצג תוכניות עדכניות בסרגל הכלים המשני</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>אשף הסרת התקנה</categoryUninstallWizard>
+        <staticWizardDesctiption>Uninstall Wizard ™ בעת הסרת יישום, לאחר הפעלת תוכנת ההסרה \nעשויה לבצע סריקה יסודית של רישום המערכת ומערכת הקבצים לחיפוש אחר מפתחות רישום וקבצים שאינם בשימוש. באפשרותך לבחור להפעיל זאת אוטומטית, נטרל את אשף הסרת ההתקנה או שתישאל בכל פעם אם להפעילו או לא. אשף הסרת ההתקנה תמיד מופעל עבור תוכניות במעקב</staticWizardDesctiption>
+        <staticWizardUsage>שימוש ב Uninstall Wizard ™:</staticWizardUsage>
+        <comboItemWizardOption1>שאל לפני הפעלה</comboItemWizardOption1>
+        <comboItemWizardOption2>אוטומטית</comboItemWizardOption2>
+        <comboItemWizardOption3>נטרל</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>אשף הסרת ההתקנה</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>הסר כל עקבות של %s - UninstallWizard ™</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>סורק אחר שאריות קבצים, תיקיות ופריטי רישום...</statusScanning>
+        <statusScanningTraced>מפיק את רשימת שארית הפריטים שנעקבו...</statusScanningTraced>
+        <statusForceRemoval> '%s' הסרה בכוח של</statusForceRemoval>
+        <statusLeftOverTracesFound>!נמצאו שאריות של עקבות אחדים</statusLeftOverTracesFound>
+        <statusNothingFound>לא נמצאו שאריות של עקבות.</statusNothingFound>
+        <statusAllTracesRemoved>כל העקבות הוסרו</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>מחיקת עקבות תוכנית...</statusDeletingProgramTraces>
+        <staticScanStatusFound>כלי הסרת ההתקנה איתר עקבות תוכנית אשר נותרו במחשבך. אנא בדוק אותם בזהירות וכשתהיה מוכן להסירן, לחץ על 'סיים'.</staticScanStatusFound>
+        <staticScanStatusRemoved>%s הוסרו בהצלחה</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>כל השאריות שנבחרו הוסרו בהצלחה.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>יצירת רשימת עקבות...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>מערכת קבצים (%d פריטים)</treeItemFileSystem>
+        <treeItemRegistry>מערכת רישום (%d פריטים)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>עיון...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d קבצים (%s) ו %d פריטי רישום אשר עדיין נותרו במחשבך</staticOverallInfo>
+        <btnFinish>סיים</btnFinish>
+        <btnCancel>ביטול</btnCancel>
+        <btnClose>סגור</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>מספר קבצים לא נמחקו</Title>
+        <Instruction1>הקבצים הבאים לא נמחקו משום שהם עדיין בשימוש על-ידי המערכת:</Instruction1>
+        <Instruction2>הקבצים הללו יוסרו אוטומטית באתחול הבא של המערכת.</Instruction2>
+        <btnReboot>אתחל מחדש כעת</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>לסיים בכוח תהליכים רצים?</Title>
+        <Instruction1>נתגלו התהליכים הבאים:</Instruction1>
+        <Instruction2>מומלץ לסיים פעולתם ידנית בטרם ההסרה, אולם אשף הסרת ההתקנה יכול גם ללא סיום פעולתם להסירם בכוח.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>התקנת גשש</InstallTrackerLocalizedName>
+        <Title>התקן ועקוב אחר תוכנית</Title>
+        <TitleAppend>Install and Trace, append traced data to '%s'</TitleAppend>
+        <staticPathToProgram> נתיב אל קובץ התקנה (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>תהליך התקנה:</staticInstallProgress>
+        <checkMinimize>צמצם את כלי הסרת ההתקנה למגש המערכת במהלך ההתקנה עצמה:</checkMinimize>
+        <btnInstall>התקן ועקוב</btnInstall>
+        <btnStop>עצור</btnStop>
+        <btnSave>שמור</btnSave>
+        <btnSaveLog>שמור יומן רישום</btnSaveLog>
+        <btnNoAndRevert>לא + לחזור למצב קודם</btnNoAndRevert>
+        <staticRevertInfo>החזר למצב קודם את כל נסיונות מחיקת כל פריטי קבצי המערכת או הרגיסטרי אשר נוצרו במהלך המעקב אחר ההתקנה.</staticRevertInfo>
+        <installTip1>המשך עם ההתקנה כרגיל בזמן שכלי הסרת ההתקנה עוקב אחר התהליך .המעקב יופסק אוטומטית כאשר כל התהליכים הסתיימו או שתצטרך לסיים התהליך ידנית כאשר ההתקנה תסתיים.</installTip1>
+        <installTip2>אנא וודא ששום התקנה אחרת פועלת במקביל</installTip2>
+        <installTip3>אם גרסא מוקדמת של תוכנית זו מותקנת כבר, עליך קודם להסירה בטרם תתקין גרסא חדשה</installTip3>
+        <trayIconTitle> '%s' מתקין...</trayIconTitle>
+        <trayIconTooltip>עבור לתפריט קליק-ימני לשם עצירה או צפייה ביומן רישום המעקב</trayIconTooltip>
+        <trayIconText>המשך עם ההתקנה כרגיל בזמן שכלי הסרת ההתקנה עוקב אחר התהליך. המעקב יופסק אוטומטית כאשר כול התהליכים הסתיימו או שתצטרך לסיים התהליך ידנית באמצעות תפריט קליק-ימני כאשר ההתקנה תסתיים.</trayIconText>
+        <trayIconMenuProgress>תהליך ההתקנה</trayIconMenuProgress>
+        <trayIconMenuStop>עצור</trayIconMenuStop>
+        <readMore>קרא יותר</readMore>
+        <installationFiles>קבצי התקנה</installationFiles>
+        <textFiles>קבצי טקסט</textFiles>
+        <selectInstallFile>בחר קובץ התקנה</selectInstallFile>
+        <contextMenuCopy>העתק</contextMenuCopy>
+        <logEventCreateFile>צור קובץ</logEventCreateFile>
+        <logEventCreateFolder>צור תיקייה</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>צור מפתח</logEventCreateKey>
+        <logEventDeleteKey>מחק מפתח</logEventDeleteKey>
+        <logEventSetValue>קבע ערך</logEventSetValue>
+        <logEventProcessCreated>תהליך נוצר</logEventProcessCreated>
+        <logEventProcessKilled>תהליך נעצר</logEventProcessKilled>
+        <logEventDeleteOperation>מחק</logEventDeleteOperation>
+        <logStartingService>מתחיל שרות מעקב התקנה...</logStartingService>
+        <logStartingServiceError1>עדיין עוצר CisUtMonitor שגיאה: שרות</logStartingServiceError1>
+        <logStartingServiceError2>להתחיל פעולתו, חלף CisUtMonitor שגיאה: משך הזמן הסביר הלוקח לשרות</logStartingServiceError2>
+        <logStartingServiceError3>עקב שגיאה לא ברורה CisUtMonitor שגיאה: לא ניתן להתחיל את שרות (error %u)</logStartingServiceError3>
+        <logStartingServiceError4>אנא התקן את התוכנית שוב .CisUtMonitor service שגיאה: לא ניתן לפתוח את שרות</logStartingServiceError4>
+        <logServiceStopped>שרות המעקב נעצר</logServiceStopped>
+        <logServiceStopError>שגיאה: עצירת שרות המעקב נכשלה</logServiceStopError>
+        <logServiceVersion> 0x%x גרסת השרות היא:</logServiceVersion>
+        <logServiceVersionOlder>גרסת תוכנית הפיקוח 0x%x נכונה בעוד שגרסא 0x%x אינה כזו</logServiceVersionOlder>
+        <logServiceMonitorRunning>אזהרה: הפסקת ניטור פעיל...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>ניטור ההתקנה התחיל</logServiceMonitorStarted>
+        <logTrackingStarting> %s מתחיל...</logTrackingStarting>
+        <logTrackingStartingEror>לא ניתן להתחיל את תהליך ההתקנה ( %u שגיאה)</logTrackingStartingEror>
+        <logTrackingCannotStart>שגיאה: לא ניתן להריץ את מערכת הניטור, אנא התקן מחדש את התוכנית.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>המעקב הופסק ע"י המשתמש</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>כל תהליכי ההתקנה הסתיימו</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>ההתקנה הושלמה</logTrackingCompleted>
+        <logTracingAnalyzing>מנתח את תהליך ההתקנה, אנא המתן...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>%u רשומות התקנה נתגלו</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u new installation entries detected:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Done</logTrackingDone>
+        <logReverting>מחזיר בחזרה את השינויים למצבם קודם...</logReverting>
+        <logCompleted>הושלם</logCompleted>
+        <logMSIServiceWarning>מנוטרל MSI אזהרה: שרות</logMSIServiceWarning>
+        <logMSIServiceError1>MSI שגיאה: נכשל בפתיחת שרות</logMSIServiceError1>
+        <logMSIServiceError2>MSI שגיאה: לא ניתן להתחיל את שרות</logMSIServiceError2>
+        <logMSIServiceError3>MSI שגיאה: לא ניתן לערוך שאילתא אודות שרות</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>לא נמצאו יותר רשומות התקנה חדשות במהלך המעקב. בכלליות זה אומר שהתוכנית אינה מותקנת כהלכה, אולם אם אתה בטוח שתהליך ההתקנה היה תקין אתה יכול ליצור תוכנית חדשה מותאמת אישית ברשימת האפליקציות. כל העקבות הנוכחיים אשר נמצאו ייוחסו אליה.</Title>
+        <staticName>שם:</staticName>
+        <checkCreateCustomEntry>ברצוני ליצור ברשימה פריט מותאם אישית</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>רישומי התקנות מרובים נתגלו</Caption>
+        <Title>רשומות התקנה מרובות נתגלו במערכת הרישום של חלונות לאחר ההתקנה. בחר בבקשה את הפריט העיקרי להצגה ברשימת האפליקציות עם צלמית ייחודית בעמודה 'נעקב'. קח בחשבון שכאשר מסירים נתונים שנעקבו של הפריט העיקרי, כלי הסרת ההתקנה יסיר גם כן נתונים שנעקבו של כל הפריטים הנתמכים.</Title>
+        <btnSelect>בחר</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>נתונים במעקב %s</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>'%s' הסר התקנה</Title>
+        <Instruction>?האם להסיר פריטים תלויים</Instruction>
+        <Footer>פריטים בעזרת אופציית המעקב של עוקב ההתקנה מופעלת יחד עם הפריטים שמעל. המשמעות של כך היא שכאשר יעשה שימוש באשף הסרת ההתקנה כל מרכיב נתמך שנעקב יוסר גם כן. בעת בחירת הסרה בלבד של פריט נוכח, לא יתחשבו בנתוני המעקב ואשף הסרת ההתקנה יבצע סריקה בחיפוש אחר שאריות נתונים של התוכנית. '%s' הותקנו</Footer>
+        <btnOnlyCurrent>%s רק</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>?מסיר ההתקנה המובנה סיים את עבודתו. האם ברצונך לבצע סריקה עמוקה של מערכת הקבצים ומערכת הרישום של מחשבך לחיפוש קבצים ומפתחות רישום אשר נותרו ואינם בשימוש יותר</staticConfirm>
+        <learnMoreAboutWizard>למד עוד אודות אשף הסרת ההתקנה</learnMoreAboutWizard>
+        <btnYes>כן</btnYes>
+        <btnNo>לא</btnNo>
+        <checkDontAskAgain>(זכור את בחירתי ואל תשאל אותי שוב (ניתן לשינוי בהעדפות</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>אודות כלי הסרת ההתקנה</DlgAboutCaption>
+        <staticWebSite>אתר האינטרנט</staticWebSite>
+        <staticSupport>תמיכה</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>תוכנה זו רשומה ברישיון ל:</staticRegisteredTo>
+        <staticChangeKey>החלף מפתח רשיון</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>תזכורת לכך שזו גרסת נסיון</UnregDlgReminder>
+        <UnregDlgExpired>תקופת הנסיון תמה</UnregDlgExpired>
+        <staticExpired>.גרסת מבחן זו פגה. ניתן לך לבדוק את הפונקציונאליות המלאה של התוכנה למשך 30 יום\n\n.'אם התוכנה מצאה חן בענייך תוכל להמשיך ולהשתמש בה ע"י הקלקה על הלחצן 'קנה עכשיו</staticExpired>
+        <staticTrial>גרסא חינמית להערכה של כלי הסרת ההתקנה ניתנת לשימוש למשך 30 יום. בתום משך זמן זה עליך לרכוש את התוכנה או להסירה ממחשבך</staticTrial>
+        <btnWebSite>אתר האינטרנט</btnWebSite>
+        <staticDaysLeft> מספר הימים שנותרו בהם תוכל להעריך את התוכנה: %d </staticDaysLeft>
+        <btnBuyNow>קנה עכשיו</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>הפעלת כלי הסרת ההתקנה</EnterKeyDlgCaption>
+        <Title>אנא הקלד את שמך וקוד הרישום המצויים בהודעת הדואר האלקטרוני שקיבלת</Title>
+        <staticName>שם בעל הרישיון:</staticName>
+        <staticKey>מספר הרישיון:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>תהליך הסרת ההתקנה ניכשל. \nהאם אתה רוצה לנקות את רשומת תוכנית זו מיומן הרישום ואת קבציה גם כן?</msgUninstallFailed>
+        <msgForceRemovalTitle> '%s' כפה הסרה של</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>הסרת קבוצה בכוח</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>האם אתה בטוח שברצונך לבצע הסרה בכוח של תוכנית זו?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>האם אתה בטוח שברצונך לבצע הסרה בכוח של התוכנות הבאות?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>הסרה בכוח של היישום לא תפעיל את מנגנון הסרת ההתקנה שלו, הפעולה תמחק רק את כל פריטי הרישום וקבצי המערכת של התוכנית. עליך להשתמש באופן הסרה זה רק עבור רשומות מיושנות וחסרות תוקף.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>הסרה בכוח של תוכנה שבוצע עיקוב אחר התקנתה תבצע הסרה מהירה ויסודית של התוכנה מבלי להפעיל את תוכנת ההסרה העצמית שלו. תהליך זה ימחוק את כל קבצי התוכנה ופריטי הרגיסטרי שנרשמו במהלך המעקב אחר ההתקנה.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>הסרה בכוח בשרשרת היא אופציה מתקדמת ונדרש להפעילה בזהירות רבה. בדרך זו לא יופעלו תוכנות ההסרה העצמיות של האפליקציות המוסרות אלא רק יסרק אחר שאריות פרטי קבצים ומפתחות רגיסטרי והם יוצגו ברשימה מעורבת הדורשת עיון רב. תהליך ההסרה והמדוייק ביותר יבוצע אך ורק על אפליקציות אשר הופעל לגביהן מלכתחילה תהליך של מעקב אחר ההתקנה.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>תלוי</msgForceRemovalItemDependent>
+        <msgLearnMore>למד עוד</msgLearnMore>
+        <msgForceRemovalCheck>טוב, אני מבין את מידת האחריות</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>האם אתה בטוח שברצונך להסיר את כלי הסרת ההתקנה ממחשבך?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>האם אתה בטוח שברצונך להסיר רשומה זו?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>האם אתה בטוח שברצונך להסיר ערכים אלו?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>פעולה זו רק תסיר את הפריט מהרשימה. לא ימחקו כל שאריות קבצי מערכת או פריטי רישום. עליך להשתמש בפעולה זו רק על ערכי רשימה חסרי תוקף ומיושנים בלבד.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>מחיקת ערך הרישום של פריט זה ניכשלה. \nבטח אין לך גישה לבצע זאת.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>האם אתה בטוח שברצונך לבטל בכוח את הסרת ההתקנה של תוכנית זו?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>ביטול בכוח יבוצע רק כאשר אופציית ברירת המחדל של מנגנון הסרת ההתקנה של התוכנית קפא או כאשר אתה חייב לעצור בדחיפות את כל תהליכי הסרת ההתקנה הרצים כעת. ביטול נכון אמור להעשות בבאופציית ברירת המחדל של מנגנון הסרת ההתקנה של תוכנית משום שביטול בכוח עלול לגרום לתוצאות שאינן ניתנות לחיזוי.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>מוצג כרגע ברשימת התוכנית עם צלמית ייחודית בעמודה 'נעקב'. '%s' הפריט הנעקב</msgTracedItem>
+        <msgTracedItemAppended>Traced data is now added to the previously traced item '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Please note that new installation items will be treated as dependent entries and can be removed later together with '%s' (upon confirmation).</msgTracedItemAppendedNote>
+        <msgUndoTracing>האם אתה בטוח שברצונך שכלי הסרת ההתקנה ישכח את כל הנתונים שנעקבו אודות תוכנית זו?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>אנא התקן מחדש את התוכנית. ,CisUtMonitor לא יכול לפתוח את שרות</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>אינו מותקן במערכת זו. ('CisUtMonitor') שרות המעקב של כלי הסרת ההתקנה \n\nהאם אתה מעוניין להתקינו כעת?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>אינו מותקן במערכת זו. ('CisUtMonitor') שרות המעקב של כלי הסרת ההתקנה</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>השרות הותקן בהצלחה. \n\n 'RemoveService.cmd' תוכל להסירו מאוחר יותר בעזרת הקובץ</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>%d :משך הזמן שהוקצב להתקנת השרות תם. קוד שגיאה</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>ניכשל בהתקנת השרות - הסיבה אינה ידועה, אנא פנה לשרות התמיכה לקבלת עזרה.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>הוסר ממחשב זה. ('CisUtMonitor') שרות המעקב של כלי הסרת ההתקנה</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>(%u) חדשה יותר מזו המותקנת (%u) 'CisUtMonitor' הגרסא העדכנית של \n\nהאם ברצונך לעדכן?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>הגרסא העדכנית ביותר של השרות הותקנה בהצלחה. עליך לאתחל את מחשבך לפני השימוש בהתקנת מעקב.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>(אין מה לשמור משום שהתוכנית שבמעקב לא הותקנה (לא נשארו קבצים/פריטי רישום</msgNothingToSave>
+        <msgCancelTracing>האם ברצונך לבטל את המעקב אחר תהליך ההתקנה הנוכחי?</msgCancelTracing>
+        <msgStopTracing>המעקב אחר תהליך ההתקנה יפסק כעת. \n\nהאם ברצונך לישמור את תוצאות המעקב הנוכחי?</msgStopTracing>
+        <msgEntryAlreadyExists>כבר קיימת ברשימה, לכן בחר בבקשה שם אחר. '%s' התוכנית</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>(פעולה זו תסיר לגמרי רשומה זו מיומן הרישום של המערכת שלך (תפריט ההתחלה. \n\nהאם אתה בטוח שברצונך לעשות זאת?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>שגיאה בהוספת פריט לתהליך התחלת המערכת, וודא כי יש לך הרשאות מנהל או פנה לתמיכה לקבלת עזרה.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>לא ניתן לשנות את מאפייני רשומה זו. כנראה אין לך הרשאה מתאימה לעשות כן.\n\nאנא צור קשר עם מנהל המערכת שלך לקבלת סיוע.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>האם אתה בטוח שברצונך להסיר את הפריטים הללו?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>פעולה זו תסיר את הפריטים מלמעלה מיומן הרישום של המערכת ומתפריט ההתחלה והם לא יפעלו יותר יחד עם הפעלת חלונות.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>להשלמת הרישום יש צורך לאתחל את התוכנית. \n\nהאם ברצונך לבצע זאת כעת?</msgRegRestartRequired>
+        <msgNewVersionAvailable>קיימת %s גרסא חדשה</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>%s :הגרסא הנוכחית היא</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>מה חדש:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>קישור להורדת גירסא לניידים</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>אתה משתמש בגרסא העדכנית ביותר של התוכנה</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>אנא בדוק את חיבור האינטרנט שלך .crystalidea.com אין אפשרות להתחבר לאתר של</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>.על חלונות 64 ביט משום שהיא תציג רק תוכנות 32 ביט ויש לה טווח רב של הגבלות Uninstall Tool אינך אמור להריץ את גרסת 32 ביט של \nזה מאוד מומלץ להוריד ולהתקין שוב את תוכנת ההסרה במחשב זה (אופציית ה 64 ביט תיבחר אוטומטית בעת התקנה בחלונות 64 ביט)</msgRunningInWow64>
+        <msgRunningInWow64Title> WoW64 פועל בסביבת</msgRunningInWow64Title>
+        <msgCannotStartHelper>.(מסייע לחלונות 64 ביט) 'x64helper.exe' לא ניתן להפעיל את תהליך \n\nאנא התקן מחדש את התוכנה.</msgCannotStartHelper>
+        <msgUninstallingMyself>וכול נתוני מעקב ההתקנות Uninstall Tool האם ברצונך להסיר את העדפות תוכנת?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Unable to create file:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>גרסא לא רשומה</txtUnregisteredBig>
+        <msgNotAvailableInTrial>תכונה זו מאופשרת רק בגרסא הרשומה של התוכנית.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>ברשימת התוכנות '%s' אתה יכול לשמור את שאריות הנתונים ולמחוק אותם אח"כ ע"י שימוש בתכונה הסרה בכוח בפריט מספר</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>שמור ומחק את שאריות הנתונים אח"כ</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML קבצי</htmlFiles>
+        <allFiles>כל הקבצים</allFiles>
+        <generatedByOn>נוצר על-ידי %s ב %s</generatedByOn>
+        <installedPrograms>תוכניות מותקנות (%s)</installedPrograms>
+        <startupPrograms>תוכניות אתחול</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>אשר</btnOK>
+        <btnCancel>בטל</btnCancel>
+        <btnHelp>עזרה</btnHelp>
+        <btnYes>כן</btnYes>
+        <btnNo>לא</btnNo>
+        <btnClose>סגור</btnClose>
+        <statusTotalInfo>%d תוכניות, בנפח כולל של %s </statusTotalInfo>
+        <statusUnknown>לא ידוע</statusUnknown>
+        <statusRecentItems>הותקן לאחרונה</statusRecentItems>
+        <statusRecentItemsTip>צפה בתוכניות שהותקנו/שונו לאחרונה</statusRecentItemsTip>
+        <statusStartupTotalInfo>%d תוכניות סה"כ, %d מופעלים כרגע</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize> %s מחשב גודל תפוס...</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>קיימת גרסא חדשה:</statusNewVersionAvailable>
+        <popupNewProgramsFound>! %d תוכניות חדשות נמצאו</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>עדכוני חלונות</WindowsUpdatesText>
+        <UninstallToolDescription>הסרת התקנת תוכניות לגמרי. תוכנת התקן ועקוב. נהל תוכניות התחלה</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>התקן ועקוב עם עוקב התקנה...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>התקן ועקוב אחר כל השינויים שתוכנית מבצעת במחשבך</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - חריגה שלא טופלה</msgTitleTemplate>
+        <msgTemplate>.הפכה בלתי יציבה \n%app_name% אנחנו מצטערים אבל נוצרה חריגה שלא טופלה והתוכנה \n '%email%' אנא שלח אלינו מייל ל \n בצרוף קובץ מצבור פרטי הקריסה הבא:\n\n%dump_file% .תוכנת ברירת המחדל של הדואר תפתח עם ההודעה המורכבת \n ,'לאחר לחיצה על כפתור 'שלח דו"ח </msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% דו"ח תקלות</MailSubjectTemplate>
+        <MailBodyTemplate>( %dump_file% אל תשכח לצרף את קובץ מצבור פרטי הקריסה) \n .קובץ מצבור פרטי הקריסה מצורף \n .%app_name% יש לי בעיה עם \n\n .תמיכה, שלום \n\n גירסת תוכנת (ופעולותיי לפני הבעיה היו... (הרחב כאן מעט \n %winver% החלונות שלי היא </MailBodyTemplate>
+        <btnSend>(שלח דו"ח (מומלץ</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>משימות אחרות:</other_tasks>
+        <install_service>התקן שירותי מעקב (מאפיין 'התקן ועקוב') כאופציה</install_service>
+        <control_panel_icon_text>הוסף צלמית כלי הסרת התקנה ללוח הבקרה</control_panel_icon_text>
+        <installing_driver>מתקין מנהל התקן של הליבה...</installing_driver>
+        <ut_initializing>כלי הסרת התקנה מאותחל...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

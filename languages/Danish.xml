@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.2" LangID="1030" Author="John W Hansen">
+    <MainMenu>
+        <mnuFile>&amp;Fil</mnuFile>
+        <mnuFileExport>&amp;Eksportér til HTML...</mnuFileExport>
+        <mnuFileExit>&amp;Afslut</mnuFileExit>
+        <mnuAction>&amp;Kør</mnuAction>
+        <mnuActionUninstall>&amp;Afinstallér...</mnuActionUninstall>
+        <mnuActionModify>&amp;Ændre...</mnuActionModify>
+        <mnuActionDelete>&amp;Tving Fjernelse</mnuActionDelete>
+        <mnuActionDeleteBatch>Batch &amp;Tving Fjernelse</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>Fjern &amp;Post</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>Batch Fjern &amp;Titler</mnuActionRemoveEntryBatch>
+        <mnuTracedData>Sporet Data</mnuTracedData>
+        <mnuTracedDataAsXML>Vis som XML...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>Fortryd Sporring</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Append traced data (Install and Trace)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;Register Post</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>&amp;Installations Mappe</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>&amp;Programmets Website</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Gennemse Placering...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>Gennemse Kilde...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Google efter</mnuActionGoogleFor>
+        <mnuView>&amp;Vis</mnuView>
+        <mnuViewMainToolbar>Hoved Værktøjsbjælke</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>Vis Hoved Værktøjsbjælke</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>Vis knap titler under ikoner</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>Sekundær Værktøjsbjælke</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;Opdatér</mnuViewRefresh>
+        <mnuViewListColumnsReset>Nulstil Kolloner</mnuViewListColumnsReset>
+        <mnuViewLanguage>Program Sprog</mnuViewLanguage>
+        <mnuTools>&amp;Værktøjer</mnuTools>
+        <mnuToolsSystemTools>System Værktøjer</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;Tilføj/Fjern Programmer...</mnuToolsAddRemove>
+        <mnuToolsComponents>Windows &amp;Komponenter...</mnuToolsComponents>
+        <mnuToolsSystemRestore>System Gendannelse</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>Sikkerheds Center</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>System Egenskaber</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>System Information</mnuToolsSystemInfo>
+        <mnuToolsDefrag>Disk Defragmentéring</mnuToolsDefrag>
+        <mnuToolsServices>Servicer</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;Præferencer...</mnuToolsOptions>
+        <mnuHelp>&amp;Hjælp</mnuHelp>
+        <mnuHelpOnline>&amp;Indhold...</mnuHelpOnline>
+        <mnuHelpHomePage>&amp;Hjemme Side</mnuHelpHomePage>
+        <mnuHelpSupport>&amp;Support</mnuHelpSupport>
+        <mnuHelpBuyNow>&amp;Køb...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>&amp;Indtast Nøgle...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>Tjek for &amp;opdatéringer...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;Om...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>Program Navn</columnProgramName>
+        <columnSize>Str.</columnSize>
+        <columnInstallationDate>Installéret d.</columnInstallationDate>
+        <columnTraced>Sporret</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;Nulstil&lt;/a&gt; søge filter (Esc tast) el. prøv at gennemse andre kategorier</staticNoItemsMatchingFilterTip>
+        <staticLoading>Indlæser, vent venligst...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>Status</columnStatus>
+        <columnSource>Kilde</columnSource>
+        <columnCompany>Firma</columnCompany>
+        <sourceHKLMRun>HKLM Run</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM RunOnce</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU Run</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
+        <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
+        <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems>Der er ingen programmer som automatisk kører under Windows start</staticNoStartupItems>
+        <staticNoStartupItemsTip>Du kan manuelt &lt;a&gt;tilføje et nyt program&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>Afinstallér</btnUninstaller>
+        <btnUninstallerToolTip>Afinstallér eksisterende programmer el. installére og spore nyt software</btnUninstallerToolTip>
+        <btnStartup>Opstart</btnStartup>
+        <btnStartupToolTip>Programmer som automatisk kører under opstart</btnStartupToolTip>
+        <btnRefresh>Opdatér</btnRefresh>
+        <btnRefreshToolTip>Opdatér program listen</btnRefreshToolTip>
+        <btnPrefs>Præferencer</btnPrefs>
+        <btnPrefsToolTip>Uninstall Tool præferencer</btnPrefsToolTip>
+        <btnHelp>Hjælp</btnHelp>
+        <btnHelpToolTip>Vis online hjælp</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>Programmer</btnApps>
+        <btnAppsToolTip>Programmer</btnAppsToolTip>
+        <btnSystem>System</btnSystem>
+        <btnSystemToolTip>System Komponenter og Opdatéringer</btnSystemToolTip>
+        <btnHidden>Skjult</btnHidden>
+        <btnHiddenToolTip>Skjulte Komponenter</btnHiddenToolTip>
+        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>Nyeligt Installéret (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Nyeligt installéret/opdatéret emner</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Installér og spor</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Installér et nyt program og se alle ændringer der foretages i fil systemet og registret</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>Afinstallér</itemUninstallIt>
+        <itemModifyIt>Ændre</itemModifyIt>
+        <itemDelete>Tving fjernelse af alle spor</itemDelete>
+        <itemBatchDelete>Batch tving fjernelse af alle spor</itemBatchDelete>
+        <itemBatchRemoveEntry>Batch fjern angivelser på listen</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>Du har valgt %u emner men det maksimale antal af emner i en batch handling er begrænset til %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>Annullér</itemCancelWaiting>
+        <itemSearch>Søg</itemSearch>
+        <itemShortSearchTip>Type to find a program</itemShortSearchTip>
+        <itemVersion>Version:</itemVersion>
+        <itemInstalledOn>Installéret/Opdatéret d.:</itemInstalledOn>
+        <itemPublisher>Udgiver:</itemPublisher>
+        <itemRegistryEntry>Vis Register Angivelse</itemRegistryEntry>
+        <itemUninstallInProgress>Afinstallérings fremskridt</itemUninstallInProgress>
+        <itemUninstallInProgressTip>Afinstallérer %s, vent venligst til afinstallérings processen er udført...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>Ændring i gang</itemModifyInProgress>
+        <itemModifyInProgressTip>Ændrer %s, vent venligst til ændrings processen er udført...</itemModifyInProgressTip>
+        <itemNothingFound>Intet fundet!</itemNothingFound>
+        <itemNoItemsMatchingFilter>Der er ingen programmer som passer til '%s' i %s kategorien</itemNoItemsMatchingFilter>
+        <itemGroup>Dette er en gruppe af programmer</itemGroup>
+        <itemNoUninstall>Dette program kan ikke afinstalleres på normal måde, du kan prøve Tving Fjernelse istedet.</itemNoUninstall>
+        <itemTracedOnly>Tilpasset angivelse definéret af et sæt af sporinger. Kan kun fjernes med Tving Fjernelse featuren.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>Undlad kørsel ved opstart</itemDisableRunning>
+        <itemEnableRunning>Tillad kørsel ved opstart</itemEnableRunning>
+        <itemDeleteStartupItem>Slet på listen</itemDeleteStartupItem>
+        <itemDisableSelected>Undlad valgte emner</itemDisableSelected>
+        <itemEnableSelected>Tillad valgte emner</itemEnableSelected>
+        <itemDeleteSelected>Slet valgte emner på listen</itemDeleteSelected>
+        <itemMultiplSelected>%u emner valgt</itemMultiplSelected>
+        <itemAddNewStartupItem>Tilføj et nyt program...</itemAddNewStartupItem>
+        <itemStatusCaption>Status:</itemStatusCaption>
+        <itemStatusRunning>Kører</itemStatusRunning>
+        <itemStatusNotRunning>Kører Ikke</itemStatusNotRunning>
+        <itemStatusDisabled>Undladt</itemStatusDisabled>
+        <itemStatusInvalid>Invalid</itemStatusInvalid>
+        <itemCommandLineCaption>Kommando Linie:</itemCommandLineCaption>
+        <itemSourceCaption>Kilde:</itemSourceCaption>
+        <itemSourceRun_HKLM>Alle Brugere Register Run Angivelse</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Aktuel Bruger Register Run Angivelse</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>Alle Brugere Register Run Once Angivelse</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>Aktuel Bruger Register Run Once Angivelse</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>Alle Brugere Autokør Start Menu</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>Aktuel Bruger Autokør Start Menu</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>Tilføj et nyt opstarts program</DlgAddNewStartupProgramCaption>
+        <labelStartupType>Opstarts type:</labelStartupType>
+        <labelPathToExecutableFile>Sti til eksekvérbar fil:</labelPathToExecutableFile>
+        <labelArguments>Argumenter (valgfrit):</labelArguments>
+        <filterExecutableFiles>Eksekvérbare Filer</filterExecutableFiles>
+        <filterAllFiles>Alle Filer</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>Præferencer</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>Generelt</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>Tjek for opdatéringer ved program opstart</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Tjek ligeledes for beta versioner</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>Interface sprog:</staticInterfaceLanguage>
+        <checkControlPanelIcon>Vis Uninstall Tool ikonet i Kontrol Panelet</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>Gå til program mappen v.hj.a. Total Commander (hvis installéret)</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>Interface</categoryInterface>
+        <checkToolBarCaptions>Vis værktøjsbjælke knappernes tekst</checkToolBarCaptions>
+        <categoryAppList>Program liste</categoryAppList>
+        <checkSmallIcons>Kompakt liste med programmer</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>Farve Skema</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Tree-like software updates (sub-items):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>Vis Software Opdatéringer</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Initially collapsed</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Initially expanded</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Always expanded</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Parent items can be expanded/collapsed with mouse or using Left/Right keyboard keys. \n\n'Initially collapsed' is recommended option, but users are able to set 'Initially expanded' to display all updates initially. Users who get used to Uninstall Tool versions prior to 3.3 can choose 'Always expanded' option which also disables expand/collapse functionality. \n\nWhen using search filter collapsed items are expanded automatically if one or more sub-items matches the filter.</subitemsHelpText>
+        <staticRecentlyInstalled>Nyeligt Installéret Programmer:</staticRecentlyInstalled>
+        <checkDisplayPopup>Vis popup vindue med nyeligt installérede programmer</checkDisplayPopup>
+        <checkHighlighRecent>Fremhæv nyeligt installérede programmer</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>Vis seneste programmer på den sekundære knapbjælke</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Afinstallérings Guide</categoryUninstallWizard>
+        <staticWizardDesctiption>Når der afinstalléres et program, efter kørsel af det indbyggede afinstallérings program, kan Afinstallérings Guiden ™ udføre en dybde skanning af systemets register og fil system for ubenyttede register angivelser og filer. Du kan vælge at køre den automatisk, fraslå Afinstallérings Guiden ™ el. spørge dig hvergang, om du vil starte den eller ej. Afinstallérings Guiden ™ vil altid følge sporrede programmer.</staticWizardDesctiption>
+        <staticWizardUsage>Brug af Afinstallérings Guiden ™:</staticWizardUsage>
+        <comboItemWizardOption1>Spørg før den køres</comboItemWizardOption1>
+        <comboItemWizardOption2>Automatisk</comboItemWizardOption2>
+        <comboItemWizardOption3>Fraslå</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Afinstallérings Guide</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>Fjern alle spor af %s - AfinstalléringsGuide ™</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>Skanner for tilbageblevne filer, mapper og register emner...</statusScanning>
+        <statusScanningTraced>Generérer en liste af tilbageblevne spor emner, vent venligst...</statusScanningTraced>
+        <statusForceRemoval>Tving fjernelse af '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>Nogle tilbageblevne spor fundet!</statusLeftOverTracesFound>
+        <statusNothingFound>Ingen tilbageblevne spor fundet.</statusNothingFound>
+        <statusAllTracesRemoved>Alle Spor Fjernet</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>Sletter program spor...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Uninstall Tool fandt at det følgende program's spor stadigvæk er på din computer. Gennemse dem venligst nøje og når du er klar til at fjerne de valgte emner, klik på 'Færdig'.</staticScanStatusFound>
+        <staticScanStatusRemoved>%s er succesfuldt blevet fjernet.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>Alle valgte tilbageblevne emner er succesfuldt blevet fjernet.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>Generérer spor liste...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>Fil System (%d emner)</treeItemFileSystem>
+        <treeItemRegistry>Register (%d emner)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>Gennemse...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d filer (%s) og %d register emner er stadigvæk tilbage på din computer</staticOverallInfo>
+        <btnFinish>Færdig</btnFinish>
+        <btnCancel>Annullér</btnCancel>
+        <btnClose>Luk</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>Nogle filer blev ikke slettet</Title>
+        <Instruction1>De følgende filer blev ikke slettet da de er i brug af systemet:</Instruction1>
+        <Instruction2>Disse filer vil blive fjernet automatisk ved næste system opstart.</Instruction2>
+        <btnReboot>Genstart nu</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>Tving afslutning af kørende processer?</Title>
+        <Instruction1>De følgende processer blev detektéret:</Instruction1>
+        <Instruction2>Det anbefales at afslutte dem manuelt før fjernelse, men Afinstallérings Guiden kan tvinge en afslutning af dem.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>Installérings Tracker</InstallTrackerLocalizedName>
+        <Title>Installér og Spor et Program</Title>
+        <TitleAppend>Install and Trace, append traced data to '%s'</TitleAppend>
+        <staticPathToProgram>Sti til en setup fil (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>Installations Forløb:</staticInstallProgress>
+        <checkMinimize>Minimér Uninstall Tool til proceslinien under installationen</checkMinimize>
+        <btnInstall>Installér og Spor</btnInstall>
+        <btnStop>Stop</btnStop>
+        <btnSave>Gem</btnSave>
+        <btnSaveLog>Gem Log...</btnSaveLog>
+        <btnNoAndRevert>Nej + Tilbage</btnNoAndRevert>
+        <staticRevertInfo>Tilbage valget forsøger at slette alle fil system/register angivelser oprettet under installations sporingen</staticRevertInfo>
+        <installTip1>Fortsæt med installationen på sædvanlig vis, imens vil Uninstall Tool overvåge dette. Sporingen vil stoppe automatisk når alle processer er udført, ellers skal du stoppe det manuelt når installationen er udført</installTip1>
+        <installTip2>Sikre dig venligst at der ikke samtidigt kører andre installationer</installTip2>
+        <installTip3>Hvis den tidligere version af dette program allerede er installéret, bør du afinstallérer dette først før du installérer en nyere version</installTip3>
+        <trayIconTitle>Installérer '%s'...</trayIconTitle>
+        <trayIconTooltip>Brug højre-kliks menuen for at stoppe el. se sporings log</trayIconTooltip>
+        <trayIconText>Fortsæt med installationen på sædvanlig vis, imens vil Uninstall Tool overvåge det. Sporing vil blive stoppet automatisk når alle processer er udført, ellers skal du stoppe manuelt (højre-kliks menu) når installationen er udført</trayIconText>
+        <trayIconMenuProgress>Installations Forløb</trayIconMenuProgress>
+        <trayIconMenuStop>Stop</trayIconMenuStop>
+        <readMore>Læs Mere</readMore>
+        <installationFiles>Installations Filer</installationFiles>
+        <textFiles>Tekst Filer</textFiles>
+        <selectInstallFile>Vælg en installations fil</selectInstallFile>
+        <contextMenuCopy>Kopiér</contextMenuCopy>
+        <logEventCreateFile>Opret Fil</logEventCreateFile>
+        <logEventCreateFolder>Opret Mappe</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>Opret Key</logEventCreateKey>
+        <logEventDeleteKey>Slet Key</logEventDeleteKey>
+        <logEventSetValue>Sæt Værdi</logEventSetValue>
+        <logEventProcessCreated>Proces Oprettet</logEventProcessCreated>
+        <logEventProcessKilled>Proces Stoppet</logEventProcessKilled>
+        <logEventDeleteOperation>Slet</logEventDeleteOperation>
+        <logStartingService>Starter Installations Sporings servicen...</logStartingService>
+        <logStartingServiceError1>Fejl: CisUtMonitor servicen stopper stadigvæk</logStartingServiceError1>
+        <logStartingServiceError2>Fejl: CisUtMonitor opstart er udløbet</logStartingServiceError2>
+        <logStartingServiceError3>Fejl: Kan ikke starte CisUtMonitor servicen (fejl %u)</logStartingServiceError3>
+        <logStartingServiceError4>Fejl: Kan ikke åbne CisUtMonitor servicen. Geninstallér venligst programmet.</logStartingServiceError4>
+        <logServiceStopped>Sporings servicen er stoppet</logServiceStopped>
+        <logServiceStopError>Fejl: Kunne ikke stoppe sporings servicen</logServiceStopError>
+        <logServiceVersion>Service versionen er: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>Overvågnings versionen er: 0x%x, burde være 0x%x. Geninstallér venligst programmet.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Advarsel: Stopper den aktive overvågning...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>Installations overvågning startet</logServiceMonitorStarted>
+        <logTrackingStarting>Starter %s...</logTrackingStarting>
+        <logTrackingStartingEror>Fejl: Kan ikke starte installations processen (fejl %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>Fejl: Kan ikke køre overvårning. Geninstallér venligst programmet.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>Sporing stoppet af brugeren</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>Alle installations processer blev udført</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>Installation blev udført</logTrackingCompleted>
+        <logTracingAnalyzing>Analysere installationen, vent venligst...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>%u installations adgange detectéret</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u new installation entries detected:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Done</logTrackingDone>
+        <logReverting>Fortryder ændringer...</logReverting>
+        <logCompleted>Udført</logCompleted>
+        <logMSIServiceWarning>Advarsel: MSI service er fraslået</logMSIServiceWarning>
+        <logMSIServiceError1>Fejl: Kunne ikke åbne MSI service</logMSIServiceError1>
+        <logMSIServiceError2>Fejl: Kunne ikke starte MSI service</logMSIServiceError2>
+        <logMSIServiceError3>Fejl: Kan ikke forespørge MSI service status</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>Ingen ny installations angivelse blev fundet under sporingen. Generelt betyder dette at programmet ikke blev installéret korrekt, men hvis du er sikker på at installationen blev udført korrekt kan du oprette et nyt tilpasset program i program listen. Alle nuværende fundne spor vil da referere til det.</Title>
+        <staticName>Navn:</staticName>
+        <checkCreateCustomEntry>Jeg vil gerne oprette et tilpasset emne på listen</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>Adskillige installations angivelser detektéret</Caption>
+        <Title>Adskillige installations angivelser blev detekteret i Windows Register efter installationen. Vælg venligst hoved emnet der skal vises i program listen med et specielt ikon i 'Sporet' kolonnen. Tag hensyn til at når der fjernes sporet data af hoved emnet, vil Uninstall Tool også fjerne sporede data af alle afhængige emner.</Title>
+        <btnSelect>Vælg</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s sporet data</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>Afinstallér '%s'</Title>
+        <Instruction>Fjern også afhængige emner?</Instruction>
+        <Footer>Du installérede '%s' med Installérings Sporer tilladt og emnerne herover også blev installéret. Dette betyder at når du bruger Afinstallérings Guide vil enhver afhængig sporet komponent også blive fjernet. Når der kun vælges fjernelse af det aktuelle emne, vil sporings data blive ignoréret og Afinstallérings Guiden skanne for tilbageblevne data som refererer til dette program.</Footer>
+        <btnOnlyCurrent>Kun %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>Den indbyggede afinstallere har udført sit job. Vil du nu udføre en dybde skanning af dit systems register og fil system for ubrugte register angivelser og tilbageblevne filer?</staticConfirm>
+        <learnMoreAboutWizard>Lær mere om Afinstallérings Guiden</learnMoreAboutWizard>
+        <btnYes>Ja</btnYes>
+        <btnNo>Nej</btnNo>
+        <checkDontAskAgain>Husk mit valg og spørg mig ikke igen (kan ændres i Præferencer)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Om Uninstall Tool</DlgAboutCaption>
+        <staticWebSite>Webside</staticWebSite>
+        <staticSupport>Support</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>Dette produkt er givet i licens til:</staticRegisteredTo>
+        <staticChangeKey>Skift Licens Nøgle</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>Prøvetids Påmindelse</UnregDlgReminder>
+        <UnregDlgExpired>Prøvetiden er Udløbet</UnregDlgExpired>
+        <staticExpired>Denne prøveversion er nu udløbet. Du kunne teste den fulde funktionalitet af softwaren i 30 dage.\n\nHvis du kan lide softwaren og fortsat ønsker at bruge den, klik på 'Køb Nu'.</staticExpired>
+        <staticTrial>En Gratis evaluérings version af Uninstall Tool må benyttes i 30 dage. Efter denne periode bør du købe programmet el. fjerne det fra din computer.</staticTrial>
+        <btnWebSite>Webside</btnWebSite>
+        <staticDaysLeft>%d dages prøvetid tilbage</staticDaysLeft>
+        <btnBuyNow>Køb Nu</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Uninstall Tool Aktivéring</EnterKeyDlgCaption>
+        <Title>Indtast venligst dit Navn og Koden fra registrérings email'en:</Title>
+        <staticName>Registrérings Navn:</staticName>
+        <staticKey>Registrérings Kode:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>Afinstallationen fejlede. \nVil du fjerne dette programs angivelse fra registret og rense ud i tilhørende filer?</msgUninstallFailed>
+        <msgForceRemovalTitle>Tving Fjernelse af '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Batch Tving Fjernelse</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>Er du sikker på at du vil udføre en tvungen fjernelse af dette program?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Er du sikker på at du vil udføre en tvungen fjernelse af de følgende programmer?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>En tvungen fjernelse af dette program vil ikke køre det's associérede afinstallérer, det vil kun slette alle de fundne system filer og register emner som tilhøre programmet. Bør kun bruges til ufuldstændige og ugyldige angivelser.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>Tvungen fjernelse af et sporet program vil udføres utroligt hurtigt og hele vejen igennem fjernelse uden at køre det's associérede afinstallérer. Det vil slette alle system filer og register emner sporet under installationen.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Batch Tving Fjernelse er en avanceret feature og bør bruges med omtanke. Det vil ikke køre associérede afinstallerer og vil kun skanne for tilbageblevne system filer/register emner og vise dem i en indsat liste som kræver et præcist overblik. Den mest fuldstændige og præcise fjernelse udføres for programmer sporet med Installérings Sporer.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>afhængig</msgForceRemovalItemDependent>
+        <msgLearnMore>Lær mere</msgLearnMore>
+        <msgForceRemovalCheck>Ok, jeg forstår ansvaret</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>Er du sikker på at du vil fjerne Uninstall Tool fra din computer?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>Er du sikker på at du vil fjerne denne angivelse?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Er du sikker på at du vil fjerne disse angivelser?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>Denne funktion vil kun fjerne et emne på listen. Ingen tilbageblevne register el. system fil emner vil blive slettet. Bør kun bruges til ufuldstændige og ugyldige angivelser.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>Fejlede sletning af register angivelse af dette emne. \nDu har muligvis ingen rettigheder til at gøre dette.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>Er du sikker på at du vil tvangs annullére afinstallationen af dette program?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>Tvangs annulléring bør kun udføres når standard afinstallérings programmet fryser el. du alvorligt er nødt til at stoppe alle for tiden kørende afinstallations processer. Korrekt annulléring bør kun gøres med programmet's standard afinstallerer fordi tvangs annulléring kan forårsage uforudsigelige følger.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>Sporet emne '%s' vises nu på listen med et specielt ikon i 'Sporet' kolonnen.</msgTracedItem>
+        <msgTracedItemAppended>Traced data is now added to the previously traced item '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Please note that new installation items will be treated as dependent entries and can be removed later together with '%s' (upon confirmation).</msgTracedItemAppendedNote>
+        <msgUndoTracing>Er du sikker på at du vil have Uninstall Tool til at glemme alle sporede data af dette program?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>Kan ikke åbne CisUtMonitor servicen. Geninstallér venligst programmet</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Uninstall Tool sporings servicen ('CisUtMonitor') er ikke installéret på dette system. \n\nVil du installére det nu?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Uninstall Tool sporings servicen ('CisUtMonitor') er ikke installeret på dette system.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>Servicen er successfuldt installéret. \n\nDu kan afinstallére det senere v.hj.a. 'RemoveService.cmd' filen.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>Service installations timeout: fejl kode %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>Fejlede installation af service - ukendt årsag, kontakt venligst support for assistance.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Uninstall Tool sporings servicen ('CisUtMonitor') er afinstalléret fra denne computer.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>Den installérede 'CisUtMonitor' service version (%u) er ældre end den nuværende (%u). \n\nØnsker du at opdatére?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>Den seneste version af servicen er successfuldt installéret. Du skal genstarte din computer før du bruger Installations Sporing.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>Der er intet at gemme da det sporede program ikke blev installéret (efterlod ingen filer/register emner)</msgNothingToSave>
+        <msgCancelTracing>Vil du annullére den nuværende installations sporing?</msgCancelTracing>
+        <msgStopTracing>Installations sporingen vil blive stoppet nu. Vil du gemme de nuværende sporings resultater?</msgStopTracing>
+        <msgEntryAlreadyExists>Dette program '%s' findes allerede på listen, vælg venligst et andet navn.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>Dette vil fuldstændigt slette denne angivelse i dit system register (start menu). \n\nEr du sikker på at du vil gøre dette?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>Fejl ved tilføjelse af nyt opstarts emne, tjek venligst dine administrative rettigheder el. kontakt program supporten for assistance.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>Kan ikke ændre denne angivelse's egenskaber. Du har muligvis ikke nok administrative rettigheder el. noget sikkerheds software blokérer adgang.\n\nKontakt venligst din system administrator for assistance.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>Er du sikker på at du vil fjerne disse emner?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>Dette vil fjerne emnet herover i dit system's register (start menu) og vil ikke køres når dit Windows starter.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>For komplet registréring skal du genstarte programmet. \n\nVil du gøre dette nu?</msgRegRestartRequired>
+        <msgNewVersionAvailable>Ny version %s er tilgængelig</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>Nuværende version: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>Hvad er Nyt:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Bærbar version's download link</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>Du bruger den seneste version af programmet</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>Kan ikke forbinde til crystalidea.com websiden, tjek venligst din Internet forbindelse</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>Du må ikke køre en 32-bit version af Uninstall Tool på et 64-bit Windows system eftersom det kun vil vise 32-bit programmer og har en bred vifte af begrænsninger. Det anbefales kraftigt at downloade og geninstallére Uninstall Tool på denne maskine (det vil automatisk vælge 64-bit versionen når der installéres i et 64-bit Windows).</msgRunningInWow64>
+        <msgRunningInWow64Title>Kører i et WoW64 miljø</msgRunningInWow64Title>
+        <msgCannotStartHelper>Kan ikke starte 'UninstallToolHelper.exe' processen. \n\nGeninstallér venligst programmet.</msgCannotStartHelper>
+        <msgUninstallingMyself>Do you want to remove Uninstall Tool preferences and all data about traced installations?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Unable to create file:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>UREGISTRÉRET VERSION</txtUnregisteredBig>
+        <msgNotAvailableInTrial>Denne feature er kun tilgængelig i den registrérede version af programmet.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>Du kan gemme tilbageblevne data og slette det senere v.hj.a. Tving Fjernelse featuren på '%s' emnet i program listen.</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>Gem og slet tilbageblevne data senere</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML Filer</htmlFiles>
+        <allFiles>Alle Filer</allFiles>
+        <generatedByOn>Generéret af %s på %s</generatedByOn>
+        <installedPrograms>Installérede Programmer (%s)</installedPrograms>
+        <startupPrograms>Opstarts Programmer</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>OK</btnOK>
+        <btnCancel>Annullér</btnCancel>
+        <btnHelp>Hjælp</btnHelp>
+        <btnYes>Ja</btnYes>
+        <btnNo>Nej</btnNo>
+        <btnClose>Luk</btnClose>
+        <statusTotalInfo>%d programmer af %s str. totalt</statusTotalInfo>
+        <statusUnknown>ukendt</statusUnknown>
+        <statusRecentItems>senest installérede</statusRecentItems>
+        <statusRecentItemsTip>Vis senest installérede/ændrede programmer</statusRecentItemsTip>
+        <statusStartupTotalInfo>%d programmer totalt, %d kører i øjeblikket</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>Beregner optaget str.... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>Ny version tilgængelig:</statusNewVersionAvailable>
+        <popupNewProgramsFound>%d nye(t) program(mer) fundet!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Windows Updates</WindowsUpdatesText>
+        <UninstallToolDescription>Afinstallér Programmer Fuldstændigt. Installérings og Sporings Software. Håndtér Opstarts Programmer</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>Installér og spor med Installérings Tracker...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>Installér og spor alle de ændringer et program foretager på din computer</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Unhandled Exception</msgTitleTemplate>
+        <msgTemplate>We're sorry but an unhandled exception has occurred and \n%app_name% has become unstable. \nPlease send us an e-mail to '%email%'\nattaching the following crash dump file:\n\n%dump_file%\n\nAfter pressing 'Send Report' button, a default mailer program \nwill be opened with composed message.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file %dump_file%)\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <btnSend>Send Report (Recommended)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>Andre Opgaver:</other_tasks>
+        <install_service>Installér sporings servicen ('Installér og Spor' feature)</install_service>
+        <control_panel_icon_text>Tilføj et Uninstall Tool ikon i Kontrol Panelet</control_panel_icon_text>
+        <installing_driver>Installérer kernel driver...</installing_driver>
+        <ut_initializing>Uninstall Tool initialisére...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

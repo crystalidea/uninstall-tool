@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.6" LangID="1058" Author="Oleksii Koval">
+    <MainMenu>
+        <mnuFile>&amp;Файл</mnuFile>
+        <mnuFileExport>&amp;Експортувати список в html...</mnuFileExport>
+        <mnuFileExit>&amp;Вихід</mnuFileExit>
+        <mnuAction>&amp;Дія</mnuAction>
+        <mnuActionUninstall>&amp;Деінсталяція...</mnuActionUninstall>
+        <mnuActionModify>&amp;Змінити...</mnuActionModify>
+        <mnuActionDelete>&amp;Примусове видалення</mnuActionDelete>
+        <mnuActionDeleteBatch>&amp;Пакетне примусове видалення</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>&amp;Видалити запис</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>&amp;Пакетне видалення записів</mnuActionRemoveEntryBatch>
+        <mnuTracedData>Відстежені дані</mnuTracedData>
+        <mnuTracedDataAsXML>Подивитись як xml...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>Скасувати відстеження</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Додати відстежені дані (встановити та відстежувати)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;Запис у реєстрі</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>&amp;Папка програми</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>&amp;Веб-сайт програми</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Відкрити у Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Папка програми...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>Джерело запуску...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Шукати в Google</mnuActionGoogleFor>
+        <mnuView>&amp;Вигляд</mnuView>
+        <mnuViewMainToolbar>Панель інструментів</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>Показувати панель інструментів</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>Відображати підписи під кнопками</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>Додаткова панель інструментів</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;Оновити</mnuViewRefresh>
+        <mnuViewListColumnsReset>Скинути стовпці</mnuViewListColumnsReset>
+        <mnuViewLanguage>Мова інтерфейсу</mnuViewLanguage>
+        <mnuTools>&amp;Інструменти</mnuTools>
+        <mnuToolsSystemTools>Системні інструменти</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;Програми та засоби</mnuToolsAddRemove>
+        <mnuToolsComponents>&amp;Засоби Windows</mnuToolsComponents>
+        <mnuToolsSystemRestore>Відновлення системи</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>Обслуговування та безпека</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>Властивості системи</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>Системна інформація</mnuToolsSystemInfo>
+        <mnuToolsDefrag>Дефрагментація диску</mnuToolsDefrag>
+        <mnuToolsServices>Служби</mnuToolsServices>
+        <mnuToolsTaskScheduler>Планувальник завдань</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;Налаштування</mnuToolsOptions>
+        <mnuHelp>&amp;Допомога</mnuHelp>
+        <mnuHelpOnline>&amp;Допомога online</mnuHelpOnline>
+        <mnuHelpHomePage>Домашня сторінка</mnuHelpHomePage>
+        <mnuHelpSupport>Підтримка</mnuHelpSupport>
+        <mnuHelpBuyNow>&amp;Купити</mnuHelpBuyNow>
+        <mnuHelpEnterKey>&amp;Ввести ключ</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>Пошук оновлень</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;Про програму</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>Програма</columnProgramName>
+        <columnSize>Розмір</columnSize>
+        <columnInstallationDate>Встановлено</columnInstallationDate>
+        <columnTraced>Відстежено</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;Скиньте&lt;/a&gt; пошуковий фільтр (клавіша Esc) або спробуйте переглянути інші категорії</staticNoItemsMatchingFilterTip>
+        <staticLoading>Завантаження, будь ласка, зачекайте...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>Статус</columnStatus>
+        <columnSource>Джерело</columnSource>
+        <columnCompany>Видавник</columnCompany>
+        <sourceHKLMRun>HKLM Run</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM RunOnce</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU Run</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
+        <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
+        <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
+        <sourceWindowsTask>Завдання</sourceWindowsTask>
+        <sourceWindowsStoreTask>Програма Windows Store</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>В категорії '%s' немає програм</staticNoProgramsInCategory>
+        <staticNoStartupItems>Не знайдено програм, що запускаються автоматично при старті Windows</staticNoStartupItems>
+        <staticNoStartupItemsTip>Ви можете власноруч &lt;a&gt;додати нову програму&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-біт)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>Деінсталятор</btnUninstaller>
+        <btnUninstallerToolTip>Видалення існуючих програм або встановлення та відстеження нових</btnUninstallerToolTip>
+        <btnStartup>Автозапуск</btnStartup>
+        <btnStartupToolTip>Програми, що автоматично запускаються при старті</btnStartupToolTip>
+        <btnRefresh>Оновити</btnRefresh>
+        <btnRefreshToolTip>Оновити список програм</btnRefreshToolTip>
+        <btnPrefs>Налаштування</btnPrefs>
+        <btnPrefsToolTip>Налаштування програми</btnPrefsToolTip>
+        <btnHelp>Допомога</btnHelp>
+        <btnHelpToolTip>Показати online-допомогу</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>Програми</btnApps>
+        <btnAppsToolTip>Програми</btnAppsToolTip>
+        <btnSystem>Системні</btnSystem>
+        <btnSystemToolTip>Системні компоненти та оновлення</btnSystemToolTip>
+        <btnHidden>Приховані</btnHidden>
+        <btnHiddenToolTip>Приховані компоненти</btnHiddenToolTip>
+        <btnStoreApps>Програми з Windows Store</btnStoreApps>
+        <btnStoreAppsToolTip>Програми, встановлені з магазина Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>Недавно встановлено (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Недавно встановлені/оновлені програми</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Встановити і відстежувати</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Встановити нову програму з відстеженням змін в файловій системі та реєстрі</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>Деінсталяція</itemUninstallIt>
+        <itemModifyIt>Змінити</itemModifyIt>
+        <itemDelete>Примусове видалення всіх залишків</itemDelete>
+        <itemBatchDelete>Пакетне примусове видалення всіх залишків</itemBatchDelete>
+        <itemBatchRemoveEntry>Пакетне видалення записів зі списку</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>Ви вибрали %u елементів, але максимальна кількість елементів у пакетній операції обмежена %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>Відмінити</itemCancelWaiting>
+        <itemSearch>Пошук</itemSearch>
+        <itemShortSearchTip>Введіть слово для пошуку</itemShortSearchTip>
+        <itemVersion>Версія:</itemVersion>
+        <itemInstalledOn>Встановлено/оновлено:</itemInstalledOn>
+        <itemPublisher>Видавник:</itemPublisher>
+        <itemRegistryEntry>Переглянути запис реєстру</itemRegistryEntry>
+        <itemUninstallInProgress>Виконується деінсталяція</itemUninstallInProgress>
+        <itemUninstallInProgressTip>Видалення %s, будь ласка, зачекайте, поки процес деінсталяції завершиться...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Виконується пакетне видалення, будь ласка, зачекайте його завершення</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>Виконується зміна</itemModifyInProgress>
+        <itemModifyInProgressTip>Зміна %s, будь ласка, зачекайте завершення процесу...</itemModifyInProgressTip>
+        <itemNothingFound>Нічого не знайдено!</itemNothingFound>
+        <itemNoItemsMatchingFilter>У категорії %s немає програм, які відповідають '%s'</itemNoItemsMatchingFilter>
+        <itemGroup>Це група програм</itemGroup>
+        <itemNoUninstall>Програму неможливо видалити звичайним способом, спробуйте примусове видалення.</itemNoUninstall>
+        <itemTracedOnly>Користувацький запис визначається набором залишків. Може бути видалений лише за допомогою функції примусового видалення.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>Вимкнути запуск</itemDisableRunning>
+        <itemEnableRunning>Увімкнути запуск</itemEnableRunning>
+        <itemDeleteStartupItem>Видалити зі списку</itemDeleteStartupItem>
+        <itemDisableSelected>Вимкнути вибрані елементи</itemDisableSelected>
+        <itemEnableSelected>Увімкнути вибрані елементи</itemEnableSelected>
+        <itemDeleteSelected>Видалити вибрані елементи зі списку</itemDeleteSelected>
+        <itemMultiplSelected>Вибрано %u елементів</itemMultiplSelected>
+        <itemAddNewStartupItem>Додати нову програму...</itemAddNewStartupItem>
+        <itemStatusCaption>Статус:</itemStatusCaption>
+        <itemStatusRunning>Виконується</itemStatusRunning>
+        <itemStatusNotRunning>Не виконується</itemStatusNotRunning>
+        <itemStatusDisabled>Відключена</itemStatusDisabled>
+        <itemStatusInvalid>Недійсний</itemStatusInvalid>
+        <itemCommandLineCaption>Командна строка:</itemCommandLineCaption>
+        <itemSourceCaption>Джерело:</itemSourceCaption>
+        <itemSourceRun_HKLM>Реєстр (всі користувачі)</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Реєстр (поточний користувач)</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>Ключ одноразового запуску в реєстрі для всіх користувачів</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>Ключ одноразового запуску в реєстрі для поточного користувача</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>Меню Пуск (всі користувачі)</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>Меню Пуск (поточний користувач)</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Завдання Windows, заплановане під час входу</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Завдання запуску програми Windows Store</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>Додати нову програму в автозапуск</DlgAddNewStartupProgramCaption>
+        <labelStartupType>Тип запуску:</labelStartupType>
+        <labelPathToExecutableFile>Шлях до виконуваного файлу:</labelPathToExecutableFile>
+        <labelArguments>Аргументи (не обов'язково):</labelArguments>
+        <filterExecutableFiles>Виконувані файли</filterExecutableFiles>
+        <filterAllFiles>Всі файли</filterAllFiles>
+        <checkHighestPriviledges>Запускати завдання з найвищими правами</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>Налаштування</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>Основні</categoryGeneral>
+        <checkSkipUAC>Використовувати планувальник завдань Windows, щоб обійти діалогове вікно підтвердження контролю облікових записів користувачів (якщо необхідно)</checkSkipUAC>
+        <checkSkipUACHelpText>Активація цієї опції дозволяє обійти підтвердження UAC під час запуску Uninstall Tool («Ви хочете дозволити цій програмі вносити зміни на вашому пристрої?»). Ця опція може бути дуже корисною, коли інструмент видалення часто запускається. \n\nЯкщо ввімкнено, інструмент видалення створює розширене завдання Планувальника завдань Windows, яке виконується щоразу, коли ви хочете запустити програму. \n\nЗастосовується до Windows Vista та новіших версій, коли UAC увімкнено.</checkSkipUACHelpText>
+        <checkCheckForUpdates>Перевіряти наявність нової версії при запуску програми</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Також перевіряти наявність бета-версій</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>Мова інтерфейсу:</staticInterfaceLanguage>
+        <checkControlPanelIcon>Показувати значок Uninstall Tool в Панелі керування</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>Переходити в папку програми, використовуючи Total Commander (якщо встановлено)</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>Інтерфейс</categoryInterface>
+        <checkToolBarCaptions>Показувати підписи до кнопок у панелі інструментів</checkToolBarCaptions>
+        <categoryAppList>Список програм</categoryAppList>
+        <checkSmallIcons>Компактний список програм</checkSmallIcons>
+        <checkMark32bitApps>Помічати 32-бітові програми</checkMark32bitApps>
+        <frameColorScheme>Кольорова схема</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Деревоподібне відображення оновлень програм (підпункти):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>&amp;Показувати оновлення програм</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Спочатку згорнутими</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Спочатку розгорнутими</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Завжди розгорнутими</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Батьківські елементи можна розгорнути/згорнути за допомогою миші або за допомогою клавіш на клавіатурі вліво/вправо. \n\nРекомендований варіант "Спочатку згорнуто", але користувачі можуть налаштувати "Спочатку розгорнуто", щоб спочатку відображати всі оновлення. Користувачі, які звикли до версії Uninstall Tool нижче 3.3, можуть вибрати параметр "Завжди розгорнутий", який також вимикає функцію розгортання/згортання. \n\nПід час використання фільтра пошуку згорнуті елементи автоматично розгортаються, якщо один або кілька підпунктів відповідає фільтру.</subitemsHelpText>
+        <staticRecentlyInstalled>Нещодавно встановлені програми:</staticRecentlyInstalled>
+        <checkDisplayPopup>Відображати спливаюче вікно з нещодавно встановленими програмами</checkDisplayPopup>
+        <checkHighlighRecent>Підсвічувати нещодавно встановлені програми</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>Недавно встановлені програми в додатковій панелі інструментів</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Майстер видалення</categoryUninstallWizard>
+        <staticWizardDesctiption>При видаленні програми, після запуску вбудованої програми видалення, майстер видалення може виконати глибоке сканування системного реєстру та файлової системи для невикористаних записів реєстру та файлів. Ви можете вибрати запускати його автоматично, вимкнути майстра видалення або запитувати вас кожного разу, запускати його чи ні. Для відстежених програм майстер видалення запускається завжди.</staticWizardDesctiption>
+        <staticWizardUsage>Запуск майстра видалення після виконання вбудованої програми видалення:</staticWizardUsage>
+        <comboItemWizardOption1>Запитувати перед запуском</comboItemWizardOption1>
+        <comboItemWizardOption2>Автоматично</comboItemWizardOption2>
+        <comboItemWizardOption3>Не запускати</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Майстер видалення</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>Виданення залишків %s - Майстер видалення</UninstallWizardCaption>
+        <captionQuestionUninstall>Ви хочете видалити '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Бажаєте видалити %u вибраних програм?</captionQuestionUninstallBatch>
+        <captionUninstalling>Видалення %s...</captionUninstalling>
+        <statusUninstallInfo>Майстер видалення спочатку запускає відповідну програму деінсталяції за умовчанням, і після цього очищає залишки.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Майстер видалення спочатку запускає відповідну програму деінсталяції за умовчанням для кожної програми. Потім він відображає список всіх залишків для очищення. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Виконання стандартного видалення за допомогою вбудованого деінсталятора, що може вимагати участі користувача.</statusPerformingUninstall>
+        <statusScanning>Сканування залишків файлів, папок та елементів реєстру...</statusScanning>
+        <statusScanningTraced>Створення списку відстежених залишків елементів, будь ласка, зачекайте...</statusScanningTraced>
+        <statusForceRemoval>Примусове видалення '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>Знайдені деякі залишки програми!</statusLeftOverTracesFound>
+        <statusNothingFound>Залишків програми не знайдено</statusNothingFound>
+        <statusAllTracesRemoved>Всі залишки видалені</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>Видалення залишків програми...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Uninstall Tool виявила, що наступні залишки програми все ще залишаються на комп'ютері. Будь ласка, уважно перегляньте їх і коли будете готові видалити вибрані елементи, натисніть "Готово".</staticScanStatusFound>
+        <staticScanStatusRemoved>%s успішно видалено з вашого комп'ютера.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>Усі вибрані залишки успішно видалені.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>Складання списку елементів...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Журнал видалення</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Створити детальний файл журналу видалення та відкрити його</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Експортувати в XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Експортувати результати сканування у файл XML</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>Файлова система (%d елементів)</treeItemFileSystem>
+        <treeItemRegistry>Реєстр (%d елементів)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>Переглянути...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d файлів (%s) та %d елементів реєстру все ще залишаються на комп'ютері</staticOverallInfo>
+        <btnFinish>Завершити</btnFinish>
+        <btnCancel>Відмінити</btnCancel>
+        <btnClose>Закрити</btnClose>
+        <btnUninstall>Видалити</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>Деякі файли не видалені</Title>
+        <Instruction1>Наступні файли не були видалені, оскільки вони використовуються системою:</Instruction1>
+        <Instruction2>Ці файли будуть видалені автоматично після перезавантаження системи.</Instruction2>
+        <btnReboot>Перезавантажити зараз</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>Припинити запущені процеси примусово?</Title>
+        <Instruction1>Були виявлені такі процеси:</Instruction1>
+        <Instruction2>Рекомендується припинити їх вручну перед видаленням, але майстер видалення може припинити їх виконання примусово.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>Монітор встановлення</InstallTrackerLocalizedName>
+        <Title>Встановити та відстежити програму</Title>
+        <TitleAppend>Встановити та відстежити, додати відстежені дані до '%s'</TitleAppend>
+        <staticPathToProgram>Шлях до інсталяційного файлу (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>Хід встановлення:</staticInstallProgress>
+        <checkMinimize>Згорнути Uninstall Tool в системний трей під час встановлення</checkMinimize>
+        <btnInstall>Встановити та відстежити</btnInstall>
+        <btnStop>Стоп</btnStop>
+        <btnSave>Зберегти</btnSave>
+        <btnSaveLog>Зберегти лог...</btnSaveLog>
+        <btnNoAndRevert>Ні + Повернути</btnNoAndRevert>
+        <staticRevertInfo>Параметр "Повернути" намагається видалити всі елементи файлової системи/реєстру, створені під час відстеження встановлення</staticRevertInfo>
+        <installTip1>Продовжуйте встановлення в звичайному режимі, поки Uninstall Tool стежить за цим. Відстеження буде зупинено автоматично, якщо всі процеси будуть завершені, в іншому випадку зупиніть його вручну після завершення встановлення.</installTip1>
+        <installTip2>Будь ласка, переконайтеся, що на даний момент не виконується жодна інша інсталяція</installTip2>
+        <installTip3>Якщо попередня версія цієї програми вже встановлена, вам слід спочатку видалити її перед встановленням новішої версії</installTip3>
+        <trayIconTitle>Встановлення '%s'...</trayIconTitle>
+        <trayIconTooltip>Перегляньте меню правою кнопкою миші, щоб зупинити або переглянути журнал відстеження</trayIconTooltip>
+        <trayIconText>Продовжуйте інсталяцію, як зазвичай, поки Uninstall Tool стежить за цим. Відстеження буде зупинено автоматично, якщо всі процеси будуть завершені, в іншому випадку зупиніть його вручну (меню правою кнопкою миші) після завершення встановлення</trayIconText>
+        <trayIconMenuProgress>Хід встановлення</trayIconMenuProgress>
+        <trayIconMenuStop>Зупинити</trayIconMenuStop>
+        <readMore>Дізнатися більше</readMore>
+        <installationFiles>Інсталяційні файли</installationFiles>
+        <textFiles>Текстові файли</textFiles>
+        <selectInstallFile>Виберіть інсталяційний файл</selectInstallFile>
+        <contextMenuCopy>Копіювати</contextMenuCopy>
+        <logEventCreateFile>Створити файл</logEventCreateFile>
+        <logEventCreateFolder>Створити папку</logEventCreateFolder>
+        <logEventRenameFile>Перейменувати файл</logEventRenameFile>
+        <logEventRenameFolder>Перейменувати папку</logEventRenameFolder>
+        <logEventCreateKey>Створити ключ</logEventCreateKey>
+        <logEventDeleteKey>Видалити ключ</logEventDeleteKey>
+        <logEventSetValue>Встановити значення</logEventSetValue>
+        <logEventProcessCreated>Процес створений</logEventProcessCreated>
+        <logEventProcessKilled>Просес завершений</logEventProcessKilled>
+        <logEventDeleteOperation>Видалити</logEventDeleteOperation>
+        <logStartingService>Запуск служби монітору встановлення...</logStartingService>
+        <logStartingServiceError1>Помилка: служба CisUtMonitor все ще зупиняється</logStartingServiceError1>
+        <logStartingServiceError2>Помилка: минув час очікування запуску CisUtMonitor</logStartingServiceError2>
+        <logStartingServiceError3>Помилка: не вдається запустити службу CisUtMonitor (помилка %u)</logStartingServiceError3>
+        <logStartingServiceError4>Помилка: не вдається відкрити службу CisUtMonitor. Будь ласка, перевстановіть програму.</logStartingServiceError4>
+        <logServiceStopped>Службу відстеження зупинено</logServiceStopped>
+        <logServiceStopError>Помилка: не вдалося зупинити службу відстеження</logServiceStopError>
+        <logServiceVersion>Версія служби: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>Версія монітору: 0x%x, повинна бути 0x%x. Будь ласка, перевстановіть програму.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Попередження: зупинка активного монітора...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>Монітор встановлення запущено</logServiceMonitorStarted>
+        <logTrackingStarting>Запускається %s...</logTrackingStarting>
+        <logTrackingStartingEror>Помилка: Не вдається запустити процес (Помилка %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>Помилка: не вдається запустити монітор. Будь ласка, перевстановіть програму.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>Відстеження зупинено користувачем</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>Всі процеси установки завершені</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>Встановлення завершено</logTrackingCompleted>
+        <logTracingAnalyzing>Аналіз встановлення, будь ласка, зачекайте...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>Виявлено %u записів установки</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>Виявлено %u нових записів встановлення:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Готово</logTrackingDone>
+        <logReverting>Відкат змін...</logReverting>
+        <logCompleted>Завершено</logCompleted>
+        <logMSIServiceWarning>Попередження: служба MSI вимкнена</logMSIServiceWarning>
+        <logMSIServiceError1>Помилка: не вдалося відкрити службу MSI</logMSIServiceError1>
+        <logMSIServiceError2>Помилка: не вдається запустити службу MSI</logMSIServiceError2>
+        <logMSIServiceError3>Помилка: не вдається запитати статус служби MSI</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>Під час відстеження не знайдено нових записів про встановлення. Зазвичай це означає, що програма встановлена неправильно, але якщо ви впевнені, що встановлення пройшло нормально, ви можете створити нову власну програму в списку програм. Усі знайдені на даний момент сліди будуть посилатися на нього.</Title>
+        <staticName>Ім'я:</staticName>
+        <checkCreateCustomEntry>Я хочу зтворити власний елемент в списку програм</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>Виявлено кілька записів встановлення</Caption>
+        <Title>Після встановлення в реєстрі Windows було виявлено кілька записів про встановлення. Будь ласка, виберіть основний елемент для відображення у списку програм зі спеціальним значком у стовпці "Відстежено". Враховуйте, що під час видалення відстежених даних основного елемента Uninstall Tool також видалить відстежені дані всіх залежних елементів.</Title>
+        <btnSelect>Вибрати</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>Відстежені зміни програми %s</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>Видалити '%s'</Title>
+        <Instruction>Видалити також залежні елементи?</Instruction>
+        <Footer>Ви встановили '%s' з увімкненим монітором відстеження, а також були встановлені наведені вище елементи. Це означає, що під час використання майстра видалення кожен залежний відстежений компонент також буде видалений. Якщо вибрати видалення лише поточного елемента, дані трасування ігноруватимуться, а майстер видалення буде сканувати дані, що залишилися, які посилаються на цю програму..</Footer>
+        <btnOnlyCurrent>Тільки %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Видалити '%s'</Title>
+        <Instruction>Наведені нижче програми пов'язані, а це означає, що видалення будь-якої з них призведе до видалення всіх інших. Ви впевнені, що хочете видалити всі ці програми?</Instruction>
+        <btnUninstallAll>Видалити все</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>Вбудований деінсталятор завершив свою роботу. Чи бажаєте ви виконати глибоке сканування системного реєстру та файлової системи на предмет невикористаних записів реєстру та файлів, що залишилися?</staticConfirm>
+        <learnMoreAboutWizard>Дізнатися більше про Uninstall Wizard</learnMoreAboutWizard>
+        <btnYes>Так</btnYes>
+        <btnNo>Ні</btnNo>
+        <checkDontAskAgain>Запам'ятати мій вибір і більше не запитувати мене (можна змінити в налаштуваннях)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Про програму Uninstall Tool</DlgAboutCaption>
+        <staticWebSite>Веб-сайт</staticWebSite>
+        <staticSupport>Підтримка</staticSupport>
+        <staticEULA>Ліцензійна угода з кінцевим користувачем (EULA)</staticEULA>
+        <staticPrivacyPolicy>Політика конфіденційності</staticPrivacyPolicy>
+        <staticRegisteredTo>Ця програма зареєстрована на:</staticRegisteredTo>
+        <staticChangeKey>Змінити ліцензійний ключ</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>Нагадування про випробування</UnregDlgReminder>
+        <UnregDlgExpired>Термін дії пробної версії закінчився</UnregDlgExpired>
+        <staticExpired>Термін дії цієї пробної версії закінчився. Ви змогли протестувати повну функціональність програмного забезпечення протягом 30 днів.\n\nЯкщо вам подобається програмне забезпечення і ви бажаєте продовжувати ним користуватися, натисніть "Купити зараз".</staticExpired>
+        <staticTrial>Безкоштовну пробну версію Uninstall Tool можна використовувати протягом 30 днів. Після закінчення цього терміну вам слід придбати програму або видалити її зі свого комп'ютера.</staticTrial>
+        <btnWebSite>Веб-сайт</btnWebSite>
+        <staticDaysLeft>Залишилося %d днів оцінки</staticDaysLeft>
+        <btnBuyNow>Придбати зараз</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Активація Uninstall Tool</EnterKeyDlgCaption>
+        <Title>Будь ласка, введіть ваше ім'я та код з листа про реєстрацію:</Title>
+        <staticName>Реєстраційне ім'я:</staticName>
+        <staticKey>Реєстраційний ключ:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>Помилка процесу видалення. \nБажаєте очистити запис цієї програми з реєстру та очистити її файли?</msgUninstallFailed>
+        <msgForceRemovalTitle>Примусове видалення '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Пакетне примусове видалення</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>Ви впевнені, що хочете виконати примусове видалення цієї програми?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Ви впевнені, що хочете виконати примусове видалення наступних програм?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>Примусове видалення програми не запустить пов'язаний з нею деінсталятор, а лише видалить усі знайдені файли й елементи реєстру, що належать програмі. Цю функцію слід використовувати лише для застарілих або недійсних записів.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>Примусове видалення відстеженої програми виконає надшвидке та ретельне видалення без запуску пов'язаної з нею програми видалення. Це видалить усі елементи файлової системи та реєстру, відстежені під час встановлення.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Пакетне примусове видалення є розширеною функцією, і її слід використовувати обережно: пов'язані деінсталятори при цьому не запускаються, а скануються лише елементи файлової системи/реєстру, що залишилися, і відображються їх у об'єднаному списку, який потребує точного перегляду. Найбільш ретельне і точне видалення виконується для програм, відстежених за допомогою монітора відстеження.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>залежний</msgForceRemovalItemDependent>
+        <msgLearnMore>Дізнатися більше</msgLearnMore>
+        <msgForceRemovalCheck>Добре, я розумію відповідальність</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>Ви впевнені, що хочете видалити Uninstall Tool зі свого комп'ютера?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>Ви впевнені, що хочете видалити цей запис?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Ви впевнені, що хочете видалити ці записи?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>Ця функція видаляє лише елемент зі списку. Жодні залишки реєстру або елементів файлової системи не буде видалено. Його слід використовувати лише для застарілих або недійсних записів списку.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>Не вдалося видалити запис реєстру цього елемента. \nМожливо, у вас немає доступу, щоб зробити це.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>Ви впевнені, що хочете примусово скасувати видалення цієї програми?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>Примусове скасування слід виконувати лише тоді, коли програма деінсталяції за замовчуванням зависає або вам терміново потрібно зупинити всі запущені процеси видалення. Правильне скасування має бути зроблено в деінсталяторі програми за замовчуванням, оскільки примусове скасування може призвести до непередбачуваних наслідків.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>Відстежений елемент '%s' тепер відображається в списку програм зі спеціальним значком у стовпці "Відстежено".</msgTracedItem>
+        <msgTracedItemAppended>Відстежені дані тепер додаються до попередньо відстеженого елемента '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Зверніть увагу, що нові елементи встановлення розглядатимуться як залежні записи та можуть бути видалені пізніше разом із '%s' (після підтвердження).</msgTracedItemAppendedNote>
+        <msgUndoTracing>Ви впевнені, що хочете, щоб Uninstall Tool забула усі відстежені дані цієї програми?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>Не вдається відкрити службу CisUtMonitor. Будь ласка, перевстановіть програму</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Служба відстеження Uninstall Tool ('CisUtMonitor') не встановлена в цій системі. \n\nБажаєте встановити її зараз?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Служба відстеження Uninstall Tool ('CisUtMonitor') не встановлена в цій системі.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>Служба успішно встановлена. \n\nВи можете видалити її пізніше за допомогою файлу 'RemoveService.cmd'.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>Тайм-аут встановлення служби: код помилки %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>Не вдалося встановити службу - невідома причина, будь ласка, зв'яжіться зі службою підтримки для отримання допомоги.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Службу відстеження Uninstall Tool ('CisUtMonitor') видалено з цього комп'ютера.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>Встановлена версія служби 'CisUtMonitor' (%u) старіша за поточну (%u). \n\nБажаєте оновити?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>Остання версія служби успішно встановлена. Перед використанням Монітора встановлення необхідно перезавантажити комп'ютер.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>Нема чого зберігати, тому що відстежена програма не була встановлена (не залишила файлів/елементів реєстру)</msgNothingToSave>
+        <msgCancelTracing>Бажаєте скасувати поточне відстеження встановлення?</msgCancelTracing>
+        <msgStopTracing>Відстеження встановлення зараз буде припинено. Ви бажаєте зберегти поточні результати відстеження?</msgStopTracing>
+        <msgEntryAlreadyExists>Програма '%s' вже існує у списку, тому виберіть іншу назву.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>Це повністю видалить цей запис із вашого системного реєстру (меню "Пуск"). \in\Ви впевнені, що хочете це зробити?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>Помилка додавання нового елемента запуску. Перевірте свої права адміністрування або зверніться до служби підтримки програми для отримання допомоги.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>Неможливо змінити властивості цього запису. Можливо, у вас недостатньо адміністративних прав або якесь програмне забезпечення безпеки блокує доступ.\n\nЗверніться по допомогу до свого системного адміністратора.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>Ви впевнені, що хочете видалити ці елементи?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>Це видалить наведені вище елементи з вашого системного реєстру (меню "Пуск"), і вони ніколи не запускатимуться під час запуску Windows.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>Для завершення реєстрації необхідно перезапустити програму. \n\nБажаєте зробити це зараз?</msgRegRestartRequired>
+        <msgNewVersionAvailable>Доступна нова версія %s</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>Поточна версія: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>Що нового:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Скачати зараз</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Посилання для скачування портативної версії</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>Ви використовуєте останню версію програми</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>Не вдається підключитися до веб-сайту crystalidea.com, перевірте підключення до інтернету</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>Ви не повинні запускати 32-розрядну версію Uninstall Tool на 64-розрядній Windows, оскільки вона відображає лише 32-розрядні програми та має широкий спектр обмежень. Настійно рекомендується завантажити і перевстановити Uninstall Tool на цій машині (установник автоматично вибере 64-розрядну версію під час встановлення на 64-розрядній Windows).</msgRunningInWow64>
+        <msgRunningInWow64Title>Працює в середовищі WoW64</msgRunningInWow64Title>
+        <msgCannotStartHelper>Не вдається запустити процес 'UninstallToolHelper.exe'. \n\nБудь ласка, перевстановіть програму.</msgCannotStartHelper>
+        <msgUninstallingMyself>Ви хочете видалити налаштування Uninstall Tool та всі дані про відстежені інсталяції?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Неможливо створити файл:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>НЕЗАРЕЄСТРОВАНА ВЕРСІЯ</txtUnregisteredBig>
+        <msgNotAvailableInTrial>Ця можливість доступна тільки в зареєстрованій версії програми.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>Ви можете зберегти дані, що залишилися, і видалити їх пізніше за допомогою функції примусового видалення в пункті '%s' у списку програм.</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>Зберегти та видалити залишки даних пізніше</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML файли</htmlFiles>
+        <allFiles>Всі файли</allFiles>
+        <generatedByOn>Створено %s на %s</generatedByOn>
+        <installedPrograms>Встановлені програми (%s)</installedPrograms>
+        <startupPrograms>Програми автозапуску</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>ОК</btnOK>
+        <btnCancel>Скасувати</btnCancel>
+        <btnHelp>Допомога</btnHelp>
+        <btnYes>Так</btnYes>
+        <btnNo>Ні</btnNo>
+        <btnClose>Закрити</btnClose>
+        <statusTotalInfo>Загалом %d програм розміром %s</statusTotalInfo>
+        <statusUnknown>невідомо</statusUnknown>
+        <statusRecentItems>нещодавно встановлено</statusRecentItems>
+        <statusRecentItemsTip>Перегляд нещодавно встановлені/змінені програми</statusRecentItemsTip>
+        <statusStartupTotalInfo>Всього програм: %d, зараз запущено: %d</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>Розрахунок зайнятого розміру... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>Доступна нова версія:</statusNewVersionAvailable>
+        <popupNewProgramsFound>Знайдено %d нових програм!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Не сповіщайте мене наступного разу</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Оновлення Windows</WindowsUpdatesText>
+        <UninstallToolDescription>Повністю видаляє програми. Встановлює та відстежує програмне забезпечення. Керує програмами автозапуску</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>Встановити та відстежувати за допомогою Монітору Встановлення...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>Встановити і відстежувати всі зміни, які програма вносить на вашому комп'ютері</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% – необроблений виняток</msgTitleTemplate>
+        <msgTemplate>Вибачте, але стався необроблений виняток, і \n%app_name% стало нестабільним. \nБудь ласка, надішліть нам електронного листа на адресу '%email%'\nдодавши такий аварійний дамп файл:\n\n%dump_file%\n\nПісля натискання кнопки 'Надіслати звіт' поштова програма за замовчуванням \nвідкриється із складеним повідомленням.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
+        <MailBodyTemplate>Привіт, служба підтримки.\n\nУ мене проблема з %app_name%. Файл дампу додається.\n(не забудьте прикріпити файл %dump_file%)\n\nМоя версія Windows %winver%, і мої дії до проблеми були... (кілька слів будь ласка)</MailBodyTemplate>
+        <btnSend>Надіслати звіт (рекомендовано)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>Інші завдання:</other_tasks>
+        <install_service>Установити службу відстеження (функція "Встановити та відстежити")</install_service>
+        <control_panel_icon_text>Додати значок Uninstall Tool до Панелі Керування</control_panel_icon_text>
+        <installing_driver>Встановлення драйвера режиму ядра...</installing_driver>
+        <ut_initializing>Ініціалізація Uninstall Tool...</ut_initializing>
+        <pin_to_taskbar_text>Закріпити значок Uninstall Tool в панелі завдань</pin_to_taskbar_text>
+        <skip_uac_option>Спростити запуск програми за допомогою планувальника завдань Windows, щоб обійти підтвердження контролю облікових записів користувачів</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

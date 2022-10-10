@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.5" LangID="0421" Author="Zalzala Zilzal">
+    <MainMenu>
+        <mnuFile>&amp;Berkas</mnuFile>
+        <mnuFileExport>&amp;Ekspor ke HTML...</mnuFileExport>
+        <mnuFileExit>&amp;Keluar</mnuFileExit>
+        <mnuAction>Tin&amp;dakan</mnuAction>
+        <mnuActionUninstall>&amp;Hapus Program...</mnuActionUninstall>
+        <mnuActionModify>&amp;Suting...</mnuActionModify>
+        <mnuActionDelete>Hapus &amp;Paksa</mnuActionDelete>
+        <mnuActionDeleteBatch>&amp;Batch Hapus Paksa</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>Hapus &amp;Entri</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>Batch &amp;Hapus Entri</mnuActionRemoveEntryBatch>
+        <mnuTracedData>Data Penelusuran</mnuTracedData>
+        <mnuTracedDataAsXML>Lihat sebagai XML...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>Urungkan Penelusuran</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Lampirkan data penelusuran (Pasang dan Telusuri)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;Entri Registri</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>&amp;Folder Pemasangan</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>&amp;Situs Program</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Buka di Bursa Windows</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Jelajahi Lokasi...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>Jelajahi Sumber...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Google untuk</mnuActionGoogleFor>
+        <mnuView>&amp;Tampilan</mnuView>
+        <mnuViewMainToolbar>Toolbar Utama</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>Tampilkan toolbar utama</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>Tampilkan label tombol pada ikon</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>Toolbar Kedua</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;Segarkan</mnuViewRefresh>
+        <mnuViewListColumnsReset>Standarkan Kolom</mnuViewListColumnsReset>
+        <mnuViewLanguage>Tampilan Bahasa</mnuViewLanguage>
+        <mnuTools>&amp;Alat</mnuTools>
+        <mnuToolsSystemTools>Alat Sistem</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;Tambah/Hapus Program...</mnuToolsAddRemove>
+        <mnuToolsComponents>Komponen &amp;Windows...</mnuToolsComponents>
+        <mnuToolsSystemRestore>Pemulihan Sistem</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>Pusat Keamanan</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>Properti Sistem</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>Informasi Sistem</mnuToolsSystemInfo>
+        <mnuToolsDefrag>Disk Defragmenter</mnuToolsDefrag>
+        <mnuToolsServices>Layanan</mnuToolsServices>
+        <mnuToolsTaskScheduler>Penjadwal Tugas</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;Pengaturan...</mnuToolsOptions>
+        <mnuHelp>Ba&amp;ntuan</mnuHelp>
+        <mnuHelpOnline>Bantuan Online...</mnuHelpOnline>
+        <mnuHelpHomePage>&amp;Situs Program</mnuHelpHomePage>
+        <mnuHelpSupport>&amp;Dukungan</mnuHelpSupport>
+        <mnuHelpBuyNow>&amp;Beli Online...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>&amp;Masukkan Kunci...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>&amp;Periksa Pembaruan...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;Tentang...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>Nama Program</columnProgramName>
+        <columnSize>Ukuran</columnSize>
+        <columnInstallationDate>Tanggal Pasang</columnInstallationDate>
+        <columnTraced>Penelusuran</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;Ubah&lt;/a&gt; saringan pencarian (tombol Esc) atau coba kunjungi kategori lain</staticNoItemsMatchingFilterTip>
+        <staticLoading>Memuat, silahkan tunggu...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>Status</columnStatus>
+        <columnSource>Sumber</columnSource>
+        <columnCompany>Perusahaan</columnCompany>
+        <sourceHKLMRun>HKLM Run</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM RunOnce</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU Run</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
+        <sourceStartMenuAll>Semua StartMenu</sourceStartMenuAll>
+        <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
+        <sourceWindowsTask>Tugas Windows</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>Tidak ada program pada kategori '%s'</staticNoProgramsInCategory>
+        <staticNoStartupItems>Tidak ada program yang mulai otomatis saat Window mulai</staticNoStartupItems>
+        <staticNoStartupItemsTip>Anda dapat secara manual &lt;a&gt;menambah program baru&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>Penghapus</btnUninstaller>
+        <btnUninstallerToolTip>Hapus program yang ada atau pasang dan telusuri software baru</btnUninstallerToolTip>
+        <btnStartup>Mulai</btnStartup>
+        <btnStartupToolTip>Aplikasi yang dijalankan secara otomatis saat Windows mulai</btnStartupToolTip>
+        <btnRefresh>Segarkan</btnRefresh>
+        <btnRefreshToolTip>Muat ulang daftar program</btnRefreshToolTip>
+        <btnPrefs>Pengaturan</btnPrefs>
+        <btnPrefsToolTip>Jendela pengaturan Uninstall Tool</btnPrefsToolTip>
+        <btnHelp>Bantuan</btnHelp>
+        <btnHelpToolTip>Menampilkan bantuan secara online</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>App</btnApps>
+        <btnAppsToolTip>Aplikasi</btnAppsToolTip>
+        <btnSystem>Sistem</btnSystem>
+        <btnSystemToolTip>Komponen Sistem dan Pembaruan</btnSystemToolTip>
+        <btnHidden>Tersembunyi</btnHidden>
+        <btnHiddenToolTip>Komponen Tersembunyi</btnHiddenToolTip>
+        <btnStoreApps>App Bursa Windows</btnStoreApps>
+        <btnStoreAppsToolTip>App terpasang dari Bursa Windows</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>Riwayat Terpasang (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Riwayat terbaru item terpasang/pembaruan</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Pasang dan telusuri</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Pasang program baru dan telusuri semua perubahan pada sistem berkas dan registri</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>Hapus Program</itemUninstallIt>
+        <itemModifyIt>Suting</itemModifyIt>
+        <itemDelete>Hapus Paksa Semua Jejak</itemDelete>
+        <itemBatchDelete>Batch hapus paksa semua jejak</itemBatchDelete>
+        <itemBatchRemoveEntry>Batch hapus entri dari daftar</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>Anda memilih %u item namun jumlah maksimum dari item dalam operasi batch dibatasi ke %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>Batal</itemCancelWaiting>
+        <itemSearch>Pencarian</itemSearch>
+        <itemShortSearchTip>Ketik untuk mencari sebuah program</itemShortSearchTip>
+        <itemVersion>Versi:</itemVersion>
+        <itemInstalledOn>Dipasang/pembaruan:</itemInstalledOn>
+        <itemPublisher>Penerbit:</itemPublisher>
+        <itemRegistryEntry>Lihat entri registri</itemRegistryEntry>
+        <itemUninstallInProgress>Penghapusan dalam proses</itemUninstallInProgress>
+        <itemUninstallInProgressTip>Menghapus %s, silahkan tunggu hingga proses penghapusan selesai...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Penghapusan batch dalam proses, silahkan tunggu hingga penghapusan semua app selesai...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>Penyutingan dalam proses</itemModifyInProgress>
+        <itemModifyInProgressTip>Penyutingan %s, silahkan tunggu hingga proses modifikasi selesai...</itemModifyInProgressTip>
+        <itemNothingFound>Tak menemukan apapun!</itemNothingFound>
+        <itemNoItemsMatchingFilter>Tidak ada masalah yang cocok dengan '%s' dalam kategori %s</itemNoItemsMatchingFilter>
+        <itemGroup>Ini adalah kelompok program</itemGroup>
+        <itemNoUninstall>Program tidak dapat dihapus dengan cara normal, sebaliknya Anda dapat mencoba fitur Hapus Paksa.</itemNoUninstall>
+        <itemTracedOnly>Entri buatan ditentukan oleh beberapa penelusuran. Hanya dapat dihapus menggunakan fitur Hapus Paksa.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>Nonaktifkan saat Mulai</itemDisableRunning>
+        <itemEnableRunning>Aktifkan saat Mulai</itemEnableRunning>
+        <itemDeleteStartupItem>Hapus dari Daftar</itemDeleteStartupItem>
+        <itemDisableSelected>Nonaktifkan item terpilih</itemDisableSelected>
+        <itemEnableSelected>Aktifkan item terpilih</itemEnableSelected>
+        <itemDeleteSelected>Hapus item terpilih dari daftar</itemDeleteSelected>
+        <itemMultiplSelected>%u item terpilih</itemMultiplSelected>
+        <itemAddNewStartupItem>Tambah Program Baru...</itemAddNewStartupItem>
+        <itemStatusCaption>Status:</itemStatusCaption>
+        <itemStatusRunning>Berjalan</itemStatusRunning>
+        <itemStatusNotRunning>Tidak berjalan</itemStatusNotRunning>
+        <itemStatusDisabled>Nonaktif</itemStatusDisabled>
+        <itemStatusInvalid>Tidak valid</itemStatusInvalid>
+        <itemCommandLineCaption>Perintah baris:</itemCommandLineCaption>
+        <itemSourceCaption>Sumber:</itemSourceCaption>
+        <itemSourceRun_HKLM>Kunci Registri Run Semua Pengguna</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Kunci Registri Run Pengguna Saat Ini</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>Kunci Registri Run Once Semua Pengguna</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>Kunci Registri Run Once Pengguna Saat Ini</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>Kunci Autorun Menu Mulai Semua Pengguna</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>Kunci Autorun Menu Mulai Pengguna Saat Ini</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Tugas Windows Terjadwal pada Saat Logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>Tambah program mulai baru</DlgAddNewStartupProgramCaption>
+        <labelStartupType>Tipe mulai:</labelStartupType>
+        <labelPathToExecutableFile>Lokasi berkas eksekutabel:</labelPathToExecutableFile>
+        <labelArguments>Argumen (tambahan):</labelArguments>
+        <filterExecutableFiles>Berkas Eksekutabel</filterExecutableFiles>
+        <filterAllFiles>Semua Berkas</filterAllFiles>
+        <checkHighestPriviledges>Jalankan tugas dengan hak privasi tertinggi</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>Pengaturan</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>Umum</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>Periksa pembaruan saat program mulai</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Periksa juga versi beta</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>Tampilan bahasa:</staticInterfaceLanguage>
+        <checkControlPanelIcon>Tampilkan ikon Uninstall Tool pada Kontrol Panel</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>Navigasi ke direktori program memakai Total Commander (jika terpasang)</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>Tampilan</categoryInterface>
+        <checkToolBarCaptions>Tampilkan nama tombol toolbar</checkToolBarCaptions>
+        <categoryAppList>Daftar aplikasi</categoryAppList>
+        <checkSmallIcons>Ringkaskan tampilan daftar aplikasi</checkSmallIcons>
+        <checkMark32bitApps>Tandai 32-bit app</checkMark32bitApps>
+        <frameColorScheme>Skema warna</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Tampilan pembaruan software seperti-pohon (sub-item):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>Tampilan pembaruan software</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Dari Awal Ciutkan</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Dari Awal Luaskan</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Selalu Luaskan</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Induk item dapat diluaskan/diciutkan dengan mouse atau memakai tombol keyboard Kiri/Kanan. \n\n'Dari Awal Ciutkan' adalah opsi disarankan, namun pengguna dapat mengatur 'Dari Awal Luaskan' untuk menampilkan semua pembaruan dari awal. Pengguna yang menggunakan Uninstall Tool untuk versi 3.3 dapat memilih opsi 'Selalu Luaskan' dimana menonaktifkan fungsi luaskan/ciutkan. \n\nSaat menggunakan saringan pencarian, item tersembunyi akan diluaskan secara otomatis jika satu atau lebih sub-item cocok dengan penyaring.</subitemsHelpText>
+        <staticRecentlyInstalled>Riwayat program terpasang:</staticRecentlyInstalled>
+        <checkDisplayPopup>Tampilkan jendela popup berisi riwayat aplikasi terpasang</checkDisplayPopup>
+        <checkHighlighRecent>Warnai program yang baru terpasang</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>Tampilkan riwayat program pada toolbar kedua</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Uninstall Wizard</categoryUninstallWizard>
+        <staticWizardDesctiption>Saat menghapus sebuah aplikasi, setelah menjalankan penghapus program bawaan, Uninstall Wizard™ akan melakukan pemindaian mendalam pada registri dan sistem berkas untuk mencari entri registri dan berkas tak tepakai. Anda dapat memilih untuk memulai otomatis, menonaktifkan Uninstall Wizard atau Anda akan ditanya setiap saat apa Anda ingin menjalankan atau tidak. Uninstall Wizard akan selalu dijalankan untuk menelusuri program.</staticWizardDesctiption>
+        <staticWizardUsage>Jalankan Uninstall Wizard setelah menjalankan penghapus program bawaan:</staticWizardUsage>
+        <comboItemWizardOption1>Tanya Sebelum Dijalankan</comboItemWizardOption1>
+        <comboItemWizardOption2>Otomatis</comboItemWizardOption2>
+        <comboItemWizardOption3>Tidak Aktif</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Uninstall Wizard </UninstallWizardLocalizedName>
+        <UninstallWizardCaption>Hapus semua jejak %s - UninstallWizard™</UninstallWizardCaption>
+        <captionQuestionUninstall>Apakah Anda ingin menghapus '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Apakah Anda ingin menghapus %u app terpilih?</captionQuestionUninstallBatch>
+        <captionUninstalling>Penghapusan %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard menjalankan standar penghapus progarm pertama kali kemudian membersihkan sisa yang ditinggalkan.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard menjalankan standar penghapus program pertama kali untuk setiap app. Kemudian menampilkan daftar dari sisa yang ditinggalkan lalu dibersihkan. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Melakukan penghapusan standar memakai penghapus bawaanm yang mungkin membutuhkan interaksi pengguna.</statusPerformingUninstall>
+        <statusScanning>Memindai sisa berkas, folder dan item registri...</statusScanning>
+        <statusScanningTraced>Membuat daftar item sisa jejak, silahkan tunggu...</statusScanningTraced>
+        <statusForceRemoval>Hapus Paksa dari '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>Beberapa sisa jejak ditemukan!</statusLeftOverTracesFound>
+        <statusNothingFound>Tidak ditemukan sisa jejak program.</statusNothingFound>
+        <statusAllTracesRemoved>Semua jejak telah terhapus</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>Menghapus jejak program...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Uninstall Tool mendeteksi jejak program berikut yang masih berada pada komputer Anda. Silahkan perhatikan dengan seksama dan setelah Anda siap untuk menghapus item terpilih, klik 'Selesai'.</staticScanStatusFound>
+        <staticScanStatusRemoved>%s telah berhasil dihapus dengan sukses.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>Semua sisa berkas terpilih telah berhasil dihapus dengan sukses.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>Membuat daftar jejak...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Catatan penghapusan</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Buat berkas catatan penghapusan mendetail lalu membukanya</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Ekspor ke XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Ekspor hasil pindaian ke berkas XML</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>Berkas sistem (%d item)</treeItemFileSystem>
+        <treeItemRegistry>Registri (%d item)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>Jelajahi...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d berkas (%s) dan %d item registri masih tertinggal pada komputer Anda</staticOverallInfo>
+        <btnFinish>Selesai</btnFinish>
+        <btnCancel>Batal</btnCancel>
+        <btnClose>Tutup</btnClose>
+        <btnUninstall>Penghapusan</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>Beberapa berkas tidak terhapus</Title>
+        <Instruction1>Berkas berikut tidak dapat dihapus karena masih digunakan oleh sistem:</Instruction1>
+        <Instruction2>Berkas ini akan terhapus secara otomatis saat sistem dihidupkan berikutnya.</Instruction2>
+        <btnReboot>Reboot segera</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>Paksa matikan proses yang sedang berjalan?</Title>
+        <Instruction1>Proses berikut telah terdeteksi:</Instruction1>
+        <Instruction2>Disarankan untuk mematikannya secara manual sebelum penghapusan, namun Wisaya Uninstall dapat memaksa mematikanya.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>Install Tracker</InstallTrackerLocalizedName>
+        <Title>Pasang dan Telusuri Program</Title>
+        <TitleAppend>Pasang dan Telusuri, telah melampirkan data ke '%s'</TitleAppend>
+        <staticPathToProgram>Lokasi berkas setup (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>Progres pemasangan:</staticInstallProgress>
+        <checkMinimize>Minimalkan Uninstall Tool ke sistem tray selama proses pemasangan</checkMinimize>
+        <btnInstall>Pasang dan Telusuri</btnInstall>
+        <btnStop>Berhenti</btnStop>
+        <btnSave>Simpan</btnSave>
+        <btnSaveLog>Simpan Log...</btnSaveLog>
+        <btnNoAndRevert>Kosong + Kembalikan</btnNoAndRevert>
+        <staticRevertInfo>Opsi kembalikan mencoba menghapus semua berkas sistem/item registri yang dibuat selama penelusuran pemasangan</staticRevertInfo>
+        <installTip1>Memproses pemasangan seperti biasa namun di pantau oleh Uninstall Tool. Penelusuran akan berhenti secara otomatis saat semua proses selesai, atau Anda bisa menghentikan secara manual saat penyetelan selesai.</installTip1>
+        <installTip2>Silahkan pastikan bahwa tidak ada pemasangan lain yang sedang berjalan</installTip2>
+        <installTip3>Jika versi sebelumnya dari program telah di pasang, Anda harus menghapusnya terlebih dahulu sebelum memasang versi terbaru</installTip3>
+        <trayIconTitle>Memasang '%s'...</trayIconTitle>
+        <trayIconTooltip>Lihat menu klik-kanan untuk menghentikan atau melihat log penelusuran</trayIconTooltip>
+        <trayIconText>Memproses pemasangan seperti biasa namun dipantau oleh Uninstall Tool. Penelusuran akan berhenti secara otomatis saat semua proses selesai, atau Anda bisa menghentikan secara manual (menu klik-kanan) saat penyetelan selesai.</trayIconText>
+        <trayIconMenuProgress>Progres Pemasangan</trayIconMenuProgress>
+        <trayIconMenuStop>Berhenti</trayIconMenuStop>
+        <readMore>Baca Lainnya</readMore>
+        <installationFiles>Berkas pemasangan</installationFiles>
+        <textFiles>Berkas teks</textFiles>
+        <selectInstallFile>Pilih sebuah berkas pemasangan</selectInstallFile>
+        <contextMenuCopy>Salin</contextMenuCopy>
+        <logEventCreateFile>Buat berkas</logEventCreateFile>
+        <logEventCreateFolder>Buat folder</logEventCreateFolder>
+        <logEventRenameFile>Ubah Nama Berkas</logEventRenameFile>
+        <logEventRenameFolder>Ubah Nama Folder</logEventRenameFolder>
+        <logEventCreateKey>Buat kunci</logEventCreateKey>
+        <logEventDeleteKey>Hapus kunci</logEventDeleteKey>
+        <logEventSetValue>Atur nilai</logEventSetValue>
+        <logEventProcessCreated>Proses dibuat</logEventProcessCreated>
+        <logEventProcessKilled>Proses dimatikan</logEventProcessKilled>
+        <logEventDeleteOperation>Hapus</logEventDeleteOperation>
+        <logStartingService>Menjalankan layanan Penelusuran pemasangan...</logStartingService>
+        <logStartingServiceError1>Kesalahan: Layanan CisUtMonitor masih dihentikan</logStartingServiceError1>
+        <logStartingServiceError2>Kesalahan: Waktu mulai CisUtMonitor habis</logStartingServiceError2>
+        <logStartingServiceError3>Kesalahan: Tidak dapat memulai layanan CisUtMonitor (kesalahan %u)</logStartingServiceError3>
+        <logStartingServiceError4>Kesalahan: Tidak dapat membuka layanan CisUtMonitor. Silahkan pasang ulang program.</logStartingServiceError4>
+        <logServiceStopped>Layanan penelusuran sedang dihentikan</logServiceStopped>
+        <logServiceStopError>Kesalahan: Gagal menghentikan layanan penelusuran</logServiceStopError>
+        <logServiceVersion>Versi layanan: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>Versi termonitor: 0x%x, seharusnya 0x%x. Silahkan pasang ulang program.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Peringatan: Menghentikan pemantau aktif...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>Pemantau pemasangan dijalankan</logServiceMonitorStarted>
+        <logTrackingStarting>Memulai %s...</logTrackingStarting>
+        <logTrackingStartingEror>Kesalahan: Tidak dapat memulai proses penyetelan (kesalahan %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>Kesalahan: Tidak dapat menjalankan pemantau. Silahkan instal ulang program.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>Penelusuran dihentikan oleh pengguna</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>Semua proses pemasangan telah selesai</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>Setup telah selesai</logTrackingCompleted>
+        <logTracingAnalyzing>Menganalisa pemasangan, silahkan tunggu...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>Terdeteksi %u entri pemasangan</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>Terdeteksi %u entri pemasangan baru:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Selesai</logTrackingDone>
+        <logReverting>Mengembalikan perubahan...</logReverting>
+        <logCompleted>Selesai</logCompleted>
+        <logMSIServiceWarning>Peringatan: layanan MSI telah dinonaktifkan</logMSIServiceWarning>
+        <logMSIServiceError1>Kesalahan: Gagal membuka layanan MSI</logMSIServiceError1>
+        <logMSIServiceError2>Kesalahan: Tidak dapat memulai layanan MSI</logMSIServiceError2>
+        <logMSIServiceError3>Kesalahan: Tidak dapat mengambil status layanan MSI</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>Tidak ada entri instalasi baru ditemukan selama proses penelusuran. Umumnya berarti bahwa program tidak terpasang dengan baik, namun jika Anda yakin proses instalasi berjalan baik, Anda bisa membuat program buatan dalam daftar aplikasi. Semua penelusuran yang ditemukan akan mengarah kesana.</Title>
+        <staticName>Nama:</staticName>
+        <checkCreateCustomEntry>Saya ingin membuat item buatan didalam daftar</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>Terdeteksi multi entri instalasi</Caption>
+        <Title>Multi instalasi telah terdeteksi dalam Registri Windows setelah proses instalasi. Silahkan pilih item utama untuk ditampilkan dalam daftar App dengan ikon khusus pada kolom 'Tertelusuri'. Anggap bahwa saat menghapus data penelusuran dari item utama, Uninstall Tool juga akan menghapus data penelusuran pada semua item bersangkutan.</Title>
+        <btnSelect>Pilih</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s data penelusuran</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>Hapus '%s'</Title>
+        <Instruction>Hapus juga item bersangkutan?</Instruction>
+        <Footer>Anda memasang '%s' menggunakan Install Tracker dengan mengaktifkan penelusuran dan item diatas telah terpasang dangan baik. Ini berarti saat memakai Uninstall Wizard setiap komponen penelusuran yang bersangkutan akan dihapus juga. Saat memilih hapus hanya item sekarang, data penelusuran akan diabaikan dan Uninstall Wizard akan memindai sisa data yang mengarah ke program ini.</Footer>
+        <btnOnlyCurrent>Hanya %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Penghapusan '%s'</Title>
+        <Instruction>App berikut saling berkaitan yang berarti menghapus salah satunya akan menghapus yang lainnya. Apakah Anda yakin ingin menghapus semua dari app ini?</Instruction>
+        <btnUninstallAll>Hapus Semua</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>Penghapus bawaan telah menyelesaikan tugasnya. Apakah Anda ingin melakukan pemindaian pada registri dan sistem berkas Anda dari entri tak terpakai dan sisa berkas?</staticConfirm>
+        <learnMoreAboutWizard>Baca lainnya tentang Uninstall Wizard</learnMoreAboutWizard>
+        <btnYes>Ya</btnYes>
+        <btnNo>Tidak</btnNo>
+        <checkDontAskAgain>Selalu ingat pilihan saya dan jangan tanyakan kembali (dapat diubah di Pengaturan)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Tentang Uninstall Tool</DlgAboutCaption>
+        <staticWebSite>Situs</staticWebSite>
+        <staticSupport>Pendukung</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>Produk ini terlisensi kepada:</staticRegisteredTo>
+        <staticChangeKey>Ubah kunci Lisensi</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>Pengingat Percobaan</UnregDlgReminder>
+        <UnregDlgExpired>Percobaan telah habis</UnregDlgExpired>
+        <staticExpired>Versi percobaan ini telah habis. Anda hanya dapat mencoba fungsi lengkap software untuk 30 hari saja.\nJika Anda menyukai software ini dan ingin lanjut menggunakannya, klik 'Beli Segera'.</staticExpired>
+        <staticTrial>Versi evaluasi gratis dari Uninstall Tool hanya dipakai selama 30 hari. Setelah periode ini Anda harus membeli program ini atau menghapusnya dari komputer Anda.</staticTrial>
+        <btnWebSite>Situs</btnWebSite>
+        <staticDaysLeft>Sisa evaluasi %d hari</staticDaysLeft>
+        <btnBuyNow>Beli Segera</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Aktivasi Uninstall Tool</EnterKeyDlgCaption>
+        <Title>Silahkan masukkan nama dan kode Anda sesuai e-mail pendaftaran:</Title>
+        <staticName>Nama pendaftar:</staticName>
+        <staticKey>Kunci pendaftaran:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>Proses penghapusan gagal. \nApakah Anda ingin membersihkan entri program ini dari registri dan menghapus berkasnya?</msgUninstallFailed>
+        <msgForceRemovalTitle>Hapus Paksa '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Batch Hapus Paksa</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>Apakah Anda yakin ingin melakukan hapus paksa program ini?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Apakah Anda yakin ingin melakukan hapus paksa program berikut?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>Memaksa menghapus aplikasi tidak akan menjalankan penghapus bersangkutan, hal ini hanya akan menghapus semua berkas sistem dan item registri yang ditemukan milik program. Gunakan fungsi ini hanya untuk entri lama atau entri tidak benar.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>Memaksa menghapus program tertelusuri akan melakukan penghapusan sangat cepat tanpa menjalankan penghapus bersangkutan. Hal ini akan menghapus semua berkas sistem dan item registri tertelusuri selama instalasi.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Batch hapus paksa adalah fitur lanjutan dan harus dipakai dengan hati-hati. Fitur ini tidak menjalankan penghapus bersangkutan dan hanya memindai sisa berkas sistem/item registri dan menampilkanya dalam daftar yang memerlukan perhatian khusus. Penghapussan yang paling tepat dan akurat adalah melakukan penelusuran program mengunakan Install Tracker.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>bersangkutan</msgForceRemovalItemDependent>
+        <msgLearnMore>Pelajari lainnya</msgLearnMore>
+        <msgForceRemovalCheck>Ok, Saya mengerti tanggungjawab saya</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>Apakah Anda ingin menghapus Uninstall Tool dari komputer anda?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>Apakah Anda yakin ingin menghapus entri ini?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Apakah Anda yakin ingin menghapus entri ini?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>Fungsi ini hanya akan menghapus item dari daftar saja. Tidak ada sisa item registri atau berkas sistem akan dihapus. Gunakan fungsi ini hanya untuk entri lama atau daftar entri tidak benar.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>Gagal menghapus entri registri dari item ini. \nKemungkinan Anda tidak memiliki hak akses untuk melakukanya.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>Apakah Anda yakin ingin memaksa membatalkan penghapusan program ini?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>Paksa pembatalan hanya dilakukan saat standar penghapus program tidak berjalan atau Anda terdesak harus menutup semua proses penghapusan yang berjalan. Pembatalan yang benar dapat dilakukan pada standar penghapus program, karena memaksa membatalkan akan menyebabkan efek tak terprediksi.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>Item penelusuran '%s' sekarang ditampilkan pada daftar program memakai ikon khusus pada kolom 'Tertelusuri'.</msgTracedItem>
+        <msgTracedItemAppended>Data tertelusuri telah ditambahkan ke item terjejaki '%s' sebelumnya.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Perlu dicatat bahwa instalasi item baru akan dianggap sebagai entri independen dan dapat dihapus nantinya bersama dengan '%s' (ada konfirmasi).</msgTracedItemAppendedNote>
+        <msgUndoTracing>Apakah Anda yakin menginginkan Uninstall Tool melupakan semua data penelusuran program ini?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>Tidak dapat membuka layanan CisUtMonitor. Silahkan instal ulang program</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Layanan Penelusur Uninstall Tool ('CisUtMonitor') tidak terpasang pada sistem ini. \n\nApakah Anda ingin menginstalnya sekarang?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Layanan penelusur Uninstall Tool ('CisUtMonitor') tidak terpasang pada sistem ini.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>Layanan telah berhasil dipasang. \n\nAnda dapat menghapusnya nanti menggunakan berkas 'RemoveService.cmd'.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>Waktu instalasi layanan habis: kode kesalahan %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>Gagal memasang layanan - alasan tak dikenal, silahkan hubungi pendukung untuk bantuan.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Layanan penelusur Uninstall Tool ('CisUtMonitor') telah dihapus dari komputer ini.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>Versi layanan 'CisUtMonitor' (%u) yang terpasang sudah lama dari yang sekarang (%u). \n\nApakah Anda ingin memperbarui?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>Versi terbaru layanan telah berhasil dipasang. Anda harus merestart komputer Anda sebelum menggunakan Install Tracker.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>Tidak ada yang disimpan karena program tertelusuri tidak terpasang (tidak menyisakan berkas/item registri)</msgNothingToSave>
+        <msgCancelTracing>Apakah Anda ingin membatalkan penelusuran instalasi yang sekarang?</msgCancelTracing>
+        <msgStopTracing>Penelusuran instalasi akan dihentikan sekarang. Apakah Anda ingin menyimpan hasil penelusuran sekarang?</msgStopTracing>
+        <msgEntryAlreadyExists>Program '%s' sudah ada dalam daftar, jadi silahkan pilih nama yang lain.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>Hal ini akan menghapus keseluruhan entri ini dari sistem registri Anda (start menu). \n\nApakah Anda ingin melakukan hal ini?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>Kesalahan saat menambah item startup baru, silahkan periksa hak administrator Anda atau hubungi pendukung untuk minta bantuan.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>Tidak dapat memodifikasi properti entri. Kemungkinan Anda tidak memiliki cukup hak administrator atau beberapa software keamanan memblok akses.n\n\Silahkan hubungi sistem administrator Anda untuk minta bantuan.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>Apakah Anda yakin ingin menghapus item ini?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>Ini akan menghapus item diatas dari sistem registri (start menu) dan ia tidak akan dijalankan saat Windows mulai.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>Untuk menyelesaikan pendaftaran Anda harus merestart program. \n\nApakah Anda ingin melakukanya sekarang?</msgRegRestartRequired>
+        <msgNewVersionAvailable>Versi baru program %s telah tersedia</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>Versi sekarang: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>Apa yang baru:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Unduh segera</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Tautan unduhan versi portable</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>Anda menggunakan versi terbaru dari program</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>Tidak dapat tersambung ke situs crystalidea.com, silahkan periksa koneksi internet Anda</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>Anda tidak disarankan untuk menjalankan versi 32-bit dari Uninstall Tool pada Windows 64-bit, yang mana hanya menampilkan aplikasi 32-bit saja dan memiliki batasan yang luas. Sangat disarankan untuk mengunduh dan mengistal kembali Uninstall Tool pada mesin ini (akan dipilih secara otomatis versi 64-bit saat memasang pada Windows 64-bit).</msgRunningInWow64>
+        <msgRunningInWow64Title>Berjalan pada lingkungan WoW64</msgRunningInWow64Title>
+        <msgCannotStartHelper>Gagal memulai proses 'UninstallToolHelper.exe'. \n\nSilahkan pasang ulang program.</msgCannotStartHelper>
+        <msgUninstallingMyself>Apakah Anda ingin menghapus pengaturan Uninstall Tool dan semua data tentang penelusuran pemasangan?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Tidak bisa membuat berkas:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>VERSI BELUM TERDAFTAR</txtUnregisteredBig>
+        <msgNotAvailableInTrial>Fitur ini hanya tersedia pada versi terdaftar dari program.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>Anda dapat menyimpan sisa data nantinya dengan menggunakan fitur Paksa Hapus pada item '%s' pada daftar aplikasi.</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>Simpan dan hapus sisa data nanti</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>Berkas HTML</htmlFiles>
+        <allFiles>Semua Berkas</allFiles>
+        <generatedByOn>Dibuat oleh %s pada %s</generatedByOn>
+        <installedPrograms>Program Terpasang (%s)</installedPrograms>
+        <startupPrograms>Program Mulai</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>OK</btnOK>
+        <btnCancel>Batal</btnCancel>
+        <btnHelp>Bantuan</btnHelp>
+        <btnYes>Ya</btnYes>
+        <btnNo>Tidak</btnNo>
+        <btnClose>Tutup</btnClose>
+        <statusTotalInfo>%d program dari %s ukuran total</statusTotalInfo>
+        <statusUnknown>tak dikenal</statusUnknown>
+        <statusRecentItems>baru diinstal</statusRecentItems>
+        <statusRecentItemsTip>Tampilkan instalasi program terbaru/tersuting</statusRecentItemsTip>
+        <statusStartupTotalInfo>Total %d program, %d sedang berjalan</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>Mengalkulasi ukuran kedudukan... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>Versi baru tersedia:</statusNewVersionAvailable>
+        <popupNewProgramsFound>%d program baru ditemukan!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Jangan beritau saya lain waktu</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Pembaruan Windows</WindowsUpdatesText>
+        <UninstallToolDescription>Penghapusan Program Menyeluruh. Pasang dan Telusuri software. Kelola Startup Program</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>Pasang dan Telusuri Pakai Install Tracker...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>Pasang dan Telusuri semua perubahan yang dibuat program pada komputer</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Eksepsi tak dapat ditangani</msgTitleTemplate>
+        <msgTemplate>Kami minta maaf telah terjadi eksepsi yang tak bisa ditangani dan\n%app_name% menjadi tidak stabil.\nSilahkan kirim e-mail ke '%email%'\ndengan melampirkan berkas crash dump berikut:\n\n%dump_file%\n\nSetelah menekan tombol "Kirim laporan' standar program\ne-mail akan dibuka pada jendela kompose pesan.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file %dump_file%)\n\nMy Windows version is %winver% and my actions before the problem were... (tolong masukkan beberapa kata)</MailBodyTemplate>
+        <btnSend>Kirim laporan (disarankan)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>Tugas lain:</other_tasks>
+        <install_service>Pasang layanan penelusur (fitur 'Pasang dan Telusuri')</install_service>
+        <control_panel_icon_text>Tambah ikon Uninstall Tool di Panel Kontrol</control_panel_icon_text>
+        <installing_driver>Memasang kernel driver...</installing_driver>
+        <ut_initializing>Memulai Uninstall Tool...</ut_initializing>
+        <pin_to_taskbar_text>Semat ikon Uninstall Tool ke taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

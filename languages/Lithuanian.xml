@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.0" LangID="1063" Author="Tomas Misevičius (ciuvasas)">
+    <MainMenu>
+        <mnuFile>&amp;Failas</mnuFile>
+        <mnuFileExport>&amp;Eksportuoti HTML formatu...</mnuFileExport>
+        <mnuFileExit>&amp;Išeiti</mnuFileExit>
+        <mnuAction>&amp;Veiksmai</mnuAction>
+        <mnuActionUninstall>Š&amp;alinti...</mnuActionUninstall>
+        <mnuActionModify>&amp;Pakeisti...</mnuActionModify>
+        <mnuActionDelete>&amp;Priverstinai pašalinti</mnuActionDelete>
+        <mnuActionDeleteBatch>Batch &amp;Force Removal</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>&amp;Pašalinti įrašą</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>Batch Remove &amp;Entries</mnuActionRemoveEntryBatch>
+        <mnuTracedData>Stebėti duomenys</mnuTracedData>
+        <mnuTracedDataAsXML>Peržiūrėti XML formatu...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>Atšaukti stebėjimą</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Append traced data (Install and Trace)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;Įrašas registre</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>&amp;Programos aplankas</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>&amp;Programos tinklalapis</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>&amp;Programos aplankas...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>&amp;Paleisties šaltinis...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Ieškoti per Google</mnuActionGoogleFor>
+        <mnuView>&amp;Vaizdas</mnuView>
+        <mnuViewMainToolbar>Įrankių juosta</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>Rodyti įrankių juostą</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>Rodyti tekstą po piktogramomis</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>Papildoma įrankių juosta</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;Atnaujinti</mnuViewRefresh>
+        <mnuViewListColumnsReset>Atstatyti sąrašo stulpelius</mnuViewListColumnsReset>
+        <mnuViewLanguage>Kalba</mnuViewLanguage>
+        <mnuTools>&amp;Įrankiai</mnuTools>
+        <mnuToolsSystemTools>Sistemos įrankiai</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;Programų diegimas ir šalinimas...</mnuToolsAddRemove>
+        <mnuToolsComponents>&amp;Windows komponentai...</mnuToolsComponents>
+        <mnuToolsSystemRestore>Sistemos atkūrimas</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>Saugos centras</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>Sistemos ypatybės</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>Sistemos informacija</mnuToolsSystemInfo>
+        <mnuToolsDefrag>Disko defragmentavimas</mnuToolsDefrag>
+        <mnuToolsServices>Tarnybos</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;Nustatymai...</mnuToolsOptions>
+        <mnuHelp>&amp;Pagalba</mnuHelp>
+        <mnuHelpOnline>&amp;Turinys...</mnuHelpOnline>
+        <mnuHelpHomePage>Home Page</mnuHelpHomePage>
+        <mnuHelpSupport>Support</mnuHelpSupport>
+        <mnuHelpBuyNow>&amp;Pirkti...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>&amp;Aktyvuoti...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>Tikrinti atnaujinimus...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;Apie programą...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>Programa</columnProgramName>
+        <columnSize>Dydis</columnSize>
+        <columnInstallationDate>Įdiegta</columnInstallationDate>
+        <columnTraced>Stebėta</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;Atšaukti&lt;/a&gt; paieškos filtrą (Esc) arba ieškoti kitose programų grupėse</staticNoItemsMatchingFilterTip>
+        <staticLoading>Loading, please wait...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>Būklė</columnStatus>
+        <columnSource>Šaltinis</columnSource>
+        <columnCompany>Gamintojas</columnCompany>
+        <sourceHKLMRun>Registras (visi vartotojai)</sourceHKLMRun>
+        <sourceHKLMRunOnce>Registras vieną kartą (visi vartotojai)</sourceHKLMRunOnce>
+        <sourceHKCURun>Registras (dabartinis vartotojas)</sourceHKCURun>
+        <sourceHKCURunOnce>Registras vieną kartą (dabartinis vartotojas)</sourceHKCURunOnce>
+        <sourceStartMenuAll>START meniu (visi vartotojai)</sourceStartMenuAll>
+        <sourceStartMenuCU>START meniu (dabartinis vartotojas)</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems>Nėra su Windows automatiškai paleidžiamų programų</staticNoStartupItems>
+        <staticNoStartupItemsTip>Galite rankiniu būdu &lt;a&gt;įkelti naują programą&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>Šalinimas</btnUninstaller>
+        <btnUninstallerToolTip>Šalinti programą arba diegti ir stebėti diegimą</btnUninstallerToolTip>
+        <btnStartup>Paleistis</btnStartup>
+        <btnStartupToolTip>Automatiškai paleidžiamos programos startavus sistemai</btnStartupToolTip>
+        <btnRefresh>Atnaujinti</btnRefresh>
+        <btnRefreshToolTip>Atnaujinti programų sąrašą</btnRefreshToolTip>
+        <btnPrefs>Nustatymai</btnPrefs>
+        <btnPrefsToolTip>Rodyti nustatymų langą</btnPrefsToolTip>
+        <btnHelp>Pagalba</btnHelp>
+        <btnHelpToolTip>Rodyti pagalbą</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>Programos</btnApps>
+        <btnAppsToolTip>Programos</btnAppsToolTip>
+        <btnSystem>Sistema</btnSystem>
+        <btnSystemToolTip>Sistemos komponentai ir atnaujinimai</btnSystemToolTip>
+        <btnHidden>Paslėpti</btnHidden>
+        <btnHiddenToolTip>Paslėptos programos</btnHiddenToolTip>
+        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>Neseniai įdiegtos (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Neseniai įdiegtos/atnaujintos</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Įdiegti ir sekti</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Diegti ir stebėti visus pasikeitimus failų sistemoje ir registre</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>Šalinti</itemUninstallIt>
+        <itemModifyIt>Keisti</itemModifyIt>
+        <itemDelete>Priverstinai pašalinti</itemDelete>
+        <itemBatchDelete>Batch force removal of all traces</itemBatchDelete>
+        <itemBatchRemoveEntry>Batch remove entries from the list</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>You selected %u items but maximum number of items in a batch operation is limited to %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>Atšaukti</itemCancelWaiting>
+        <itemSearch>Ieškoti</itemSearch>
+        <itemShortSearchTip>Įveskite žodį</itemShortSearchTip>
+        <itemVersion>Versija:</itemVersion>
+        <itemInstalledOn>Įdiegta/atnaujinta:</itemInstalledOn>
+        <itemPublisher>Leidėjas:</itemPublisher>
+        <itemRegistryEntry>Įrašas registre</itemRegistryEntry>
+        <itemUninstallInProgress>Programos šalinamas</itemUninstallInProgress>
+        <itemUninstallInProgressTip>Šalinama programa %s, palaukite, kol bus baigta...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>Komponentų keitimas</itemModifyInProgress>
+        <itemModifyInProgressTip>Komponentų keitimas %s, palaukite, kol bus baigta...</itemModifyInProgressTip>
+        <itemNothingFound>Nieko nerasta</itemNothingFound>
+        <itemNoItemsMatchingFilter>Nėra programų, atitinkančių filtrą '%s' grupėje %s</itemNoItemsMatchingFilter>
+        <itemGroup>Tai programų grupė</itemGroup>
+        <itemNoUninstall>Įprastiniu būdu programos pašalinti nepavyks.Jūs galite panaudoti priverstinį pašalinimą.</itemNoUninstall>
+        <itemTracedOnly>Vartotojo įrašas, gautas stebint visus elementus. Pašalinti galima tik naudojant priverstinį šalinimą.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>Neleisti jungtis startuojant sistemai</itemDisableRunning>
+        <itemEnableRunning>Leisti jungtis startuojant sistemai</itemEnableRunning>
+        <itemDeleteStartupItem>Pašalinti iš sąrašo</itemDeleteStartupItem>
+        <itemDisableSelected>Neleisti jungtis visoms pasirinktoms programoms</itemDisableSelected>
+        <itemEnableSelected>Leisti jungtis visoms pasirinktoms programoms</itemEnableSelected>
+        <itemDeleteSelected>Šalinti visas pasirinktas programas</itemDeleteSelected>
+        <itemMultiplSelected>Pasirinktos %u programos (-ų)</itemMultiplSelected>
+        <itemAddNewStartupItem>Pridėti programą...</itemAddNewStartupItem>
+        <itemStatusCaption>Būklė:</itemStatusCaption>
+        <itemStatusRunning>Paleista</itemStatusRunning>
+        <itemStatusNotRunning>Nepaleista</itemStatusNotRunning>
+        <itemStatusDisabled>Atjungta</itemStatusDisabled>
+        <itemStatusInvalid>Invalid</itemStatusInvalid>
+        <itemCommandLineCaption>Komandinė eilutė:</itemCommandLineCaption>
+        <itemSourceCaption>Šaltinis:</itemSourceCaption>
+        <itemSourceRun_HKLM>Registras (visi vartotojai)</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Registras (dabartinis vartotojas)</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>Registras vieną kartą (visi vartotojai)</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>Registras vieną kartą (dabartinis vartotojas)</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>START meniu (visi vartotojai)</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>START meniu (dabartinis vartotojas)</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>Pridėti naują programą į paleistį</DlgAddNewStartupProgramCaption>
+        <labelStartupType>Paleisties tipas:</labelStartupType>
+        <labelPathToExecutableFile>Ieškoti vykdomojo (exe) failo:</labelPathToExecutableFile>
+        <labelArguments>Nustatymai (nebūtina):</labelArguments>
+        <filterExecutableFiles>Vykdomieji (exe) failai</filterExecutableFiles>
+        <filterAllFiles>Visi failai</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>Nustatymai</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>Pagrindiniai</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>Tikrinti atnaujinimus įjungus programą</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Check for beta versions</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>Kalba:</staticInterfaceLanguage>
+        <checkControlPanelIcon>Rodyti Uninstall Tool piktogramą Valdymo skyde</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>Į programos aplanką eiti naudojant Total Commander</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>Vaizdas</categoryInterface>
+        <checkToolBarCaptions>Rodyti tekstą po piktogramomis įrankių juostoje</checkToolBarCaptions>
+        <categoryAppList>Programų sąrašas</categoryAppList>
+        <checkSmallIcons>Mažos piktogramos</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>Spalvų schema</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Tree-like software updates (sub-items):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>&amp;Rodyti programų atnaujinimus</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Initially collapsed</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Initially expanded</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Always expanded</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Parent items can be expanded/collapsed with mouse or using Left/Right keyboard keys. \n\n'Initially collapsed' is recommended option, but users are able to set 'Initially expanded' to display all updates initially. Users who get used to Uninstall Tool versions prior to 3.3 can choose 'Always expanded' option which also disables expand/collapse functionality. \n\nWhen using search filter collapsed items are expanded automatically if one or more sub-items matches the filter.</subitemsHelpText>
+        <staticRecentlyInstalled>Neseniai įdiegtos programos:</staticRecentlyInstalled>
+        <checkDisplayPopup>Rodyti iššokantį langą su neseniai įdiegtomis programomis</checkDisplayPopup>
+        <checkHighlighRecent>Paryškinti neseniai įdiegtas programas</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>Rodyti naujausias programas papildomoje įrankių juostoje</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Programų šalinimas</categoryUninstallWizard>
+        <staticWizardDesctiption>Baigus šalinti programą standartiniu būdu, Šalinimo vedlys ™ gali atlikti pilną sistemos ir registro skanavimą, ieškodamas paliktų pėdsakų. Galite nustatyti automatinį vedlio paleidimą, atjungti jį arba kiekvieną kartą prieš paleidžiant klausti.</staticWizardDesctiption>
+        <staticWizardUsage>Šalinimo vedlio paleidimas:</staticWizardUsage>
+        <comboItemWizardOption1>Klausti</comboItemWizardOption1>
+        <comboItemWizardOption2>Automatiškai</comboItemWizardOption2>
+        <comboItemWizardOption3>Išjungti</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Šalinimo vedlys</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>%s likučių šalinimas - Šalinimo vedlys ™</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>Likusių failų/aplankų, registro įrašų paieška...</statusScanning>
+        <statusScanningTraced>Generating the list of leftover traced items, please wait...</statusScanningTraced>
+        <statusForceRemoval>Force removal of '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>Rasta programos likučių</statusLeftOverTracesFound>
+        <statusNothingFound>Nieko nerasta</statusNothingFound>
+        <statusAllTracesRemoved>Visi programos likučiai panaikinti</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>Likučių šalinimas...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Uninstall Tool rado šiuos programos likučius kompiuteryje. Atidžiai peržiūrėkite šiuos elementus prieš šalindami.</staticScanStatusFound>
+        <staticScanStatusRemoved>%s sėkmingai pašalinta iš kompiuterio</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>All selected leftovers have been successfully removed.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>Elementų sąrašo generavimas...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>Failų sistema (%d elementų)</treeItemFileSystem>
+        <treeItemRegistry>Registras (%d elementų)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>Peržiūrėti...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>Rasti %d failai(-ų)/aplankai(-ų) (%s) ir %d registro įrašai(-ų)</staticOverallInfo>
+        <btnFinish>Šalinti</btnFinish>
+        <btnCancel>Atšaukti</btnCancel>
+        <btnClose>Uždaryti</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>Liko nepašalintų failų</Title>
+        <Instruction1>Šiuo metu sistemos naudojami failai, kurių negalima pašalinti:</Instruction1>
+        <Instruction2>Failai bus automatiškai pašalinti perkrovus kompiuterį.</Instruction2>
+        <btnReboot>Perkrauti dabar</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>Priverstinai stabdyti paleistus procesus?</Title>
+        <Instruction1>Rasti šie paleisti procesai:</Instruction1>
+        <Instruction2>Šalinimo vedlys gali priverstinai stabdyti paleistus procesus, bet mes rekomenduojame tai padaryti rankiniu būdų (jei tai įmanoma).</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>Diegimo stebėjimas</InstallTrackerLocalizedName>
+        <Title>Diegti ir sekti programą</Title>
+        <TitleAppend>Install and Trace, append traced data to '%s'</TitleAppend>
+        <staticPathToProgram>Diegimo failas (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>Diegimo eiga:</staticInstallProgress>
+        <checkMinimize>Minimizuoti Uninstall Tool į pranešimų sritį diegimo metu</checkMinimize>
+        <btnInstall>Diegti ir sekti</btnInstall>
+        <btnStop>Baigti</btnStop>
+        <btnSave>Išsaugoti</btnSave>
+        <btnSaveLog>Išsaugoti žurnalą...</btnSaveLog>
+        <btnNoAndRevert>No + Revert</btnNoAndRevert>
+        <staticRevertInfo>Revert option attepts to delete all file system/registry items created during the installation tracing</staticRevertInfo>
+        <installTip1>Diekite programą įprastai, tuo tarpu Uninstall Tool stebės pakitimus. Pasibaigus visiems procesams, stebėjimas baigsis automatiškai arba galėsite tai padaryti rankiniu būdu</installTip1>
+        <installTip2>Įsitikinkite, kad nevyksta joks kitas diegimas</installTip2>
+        <installTip3>Jei yra įdiegta kita (senesnė) programos versija - reikia ją pašalinti</installTip3>
+        <trayIconTitle>Diegiama '%s'...</trayIconTitle>
+        <trayIconTooltip>Kontekstinis meniu (deš. pelės klav.)stebėjimo žurnalui sekti arba stabdyti</trayIconTooltip>
+        <trayIconText>Diekite programą įprastai, tuo tarpu Uninstall Tool stebės pakitimus. Pasibaigus visiems procesams, stebėjimas baigsis automatiškai arba galėsite tai padaryti rankiniu būdu kontekstiniame meniu (deš. pelės klav.)</trayIconText>
+        <trayIconMenuProgress>Diegimo eiga</trayIconMenuProgress>
+        <trayIconMenuStop>Atšaukti</trayIconMenuStop>
+        <readMore>Skaityti daugiau</readMore>
+        <installationFiles>Diegimo failai</installationFiles>
+        <textFiles>Tekstiniai failai</textFiles>
+        <selectInstallFile>Pasirinkite diegimo failą</selectInstallFile>
+        <contextMenuCopy>Kopijuoti</contextMenuCopy>
+        <logEventCreateFile>Sukurtas failas</logEventCreateFile>
+        <logEventCreateFolder>Sukurtas aplankas</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>Sukurtas įrašas</logEventCreateKey>
+        <logEventDeleteKey>Ištrintas įrašas</logEventDeleteKey>
+        <logEventSetValue>Nustatyta reikšmė</logEventSetValue>
+        <logEventProcessCreated>Sukurtas procesas</logEventProcessCreated>
+        <logEventProcessKilled>Procesas baigtas</logEventProcessKilled>
+        <logEventDeleteOperation>Delete</logEventDeleteOperation>
+        <logStartingService>Paleidžiama diegimo stebėjimo tarnyba...</logStartingService>
+        <logStartingServiceError1>Klaida: CisUtMonitor tarnyba dar vis sustabdyta</logStartingServiceError1>
+        <logStartingServiceError2>Klaida: Baigėsi CisUtMonitor tarnybos paleidimui skirtas laikas</logStartingServiceError2>
+        <logStartingServiceError3>Klaida: Negalima paleisti CisUtMonitor tarnybos (klaida %u)</logStartingServiceError3>
+        <logStartingServiceError4>Klaida: Negalima atidaryti CisUtMonitor tarnybos. Bandykite dar kartą.</logStartingServiceError4>
+        <logServiceStopped>Stebėjimo tarnyba sustabdyta</logServiceStopped>
+        <logServiceStopError>Klaida: Negalima sustabdyti stebėjimo tarnybos</logServiceStopError>
+        <logServiceVersion>Tarnybos versija: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>Diegimo lango versija: 0x%x, turi būti 0x%x. Bandykite dar kartą.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Dėmesio: Atidaryti diegimo lango negalima...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>Diegimo langas atidarytas</logServiceMonitorStarted>
+        <logTrackingStarting>Paleidžiama %s...</logTrackingStarting>
+        <logTrackingStartingEror>Klaida: Negalima paleisti diegimo proceso (klaida %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>Klaida: Atidaryti diegimo lango negalima. Bandykite dar kartą.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>Stebėjimą sustabdė vartotojas</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>Visi diegimo procesai baigti</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>Diegimas baigtas</logTrackingCompleted>
+        <logTracingAnalyzing>Diegimo analizavimas, prašome palaukti...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>Aptikta %u naujų(-as) įrašų(-as)</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u new installation entries detected:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Done</logTrackingDone>
+        <logReverting>Reverting changes...</logReverting>
+        <logCompleted>Completed</logCompleted>
+        <logMSIServiceWarning>Dėmesio: MSI tarnyba atjungta</logMSIServiceWarning>
+        <logMSIServiceError1>Klaida: Negalima atidaryti MSI tarnybos</logMSIServiceError1>
+        <logMSIServiceError2>Klaida: Negalima paleisti MSI tarnybos</logMSIServiceError2>
+        <logMSIServiceError3>Klaida: Negalima siųsti užklausos dėl statuso MSI tarnybai</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>Baigus programos diegimą nerasta įrašo apie naują programą. Programa gali būti blogai įdiegta. Bet jei Jūs įsitikinęs atvirkščiai, galite pats pasirinkti įrašą. Visi rasti failų sistemos ir registro įrašai bus priskirti Jūsų programai.</Title>
+        <staticName>Pavadinimas:</staticName>
+        <checkCreateCustomEntry>Taip, aš noriu sukurti savo įrašą</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>Rasti keli nauji įrašai</Caption>
+        <Title>Rasti keli nauji įrašai Windows registre. Pasirinkite pagrindinį elementą iš sąrašo - būtent jis bus rodomas stulpelyje "Stebėta". Atminkite, kad pašalinus jį bus pašalinti ir visi kiti tuo pačiu metu rasti įrašai.</Title>
+        <btnSelect>Rinktis</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>Programos %s stebėti duomenys XML formatu</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>'%s' šalinimas</Title>
+        <Instruction>Taip pat visus priskirtus duomenis?</Instruction>
+        <Footer>Programa '%s' buvo įdiegta įjungus stebėjimą. Taip pat įdiegti sąraše žemiau išvardinti elementai. Šalinimo vedlys juos taip pat pašalins. Jei pasirinksite tik pačios programos šalinimą, vedlys pats atliks likučių paiešką ir šalinimą.</Footer>
+        <btnOnlyCurrent>Tik %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>Programa baigė savo darbą. Norite pilnai skanuoti failų sistemą ir registrą ieškodami likučių?</staticConfirm>
+        <learnMoreAboutWizard>Sužinoti daugiau apie Šalinimo vedlį</learnMoreAboutWizard>
+        <btnYes>Taip</btnYes>
+        <btnNo>Ne</btnNo>
+        <checkDontAskAgain>Atsiminti nustatymus ir nebeklausti (galima keisti Nustatymuose)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Apie programą Uninstall Tool</DlgAboutCaption>
+        <staticWebSite>Tinklalapis</staticWebSite>
+        <staticSupport>Palaikymas</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>Licenzijos savininkas:</staticRegisteredTo>
+        <staticChangeKey>Change License Key</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>Priminimas</UnregDlgReminder>
+        <UnregDlgExpired>Bandomasis laikotarpis baigesi</UnregDlgExpired>
+        <staticExpired>Bandomasis laikotarpis baigėsi. Turėjote 30 dienų išbandyti programos funkcionalumą.\n\nJei programa patiko ir norite naudoti ją toliau, spauskite 'Pirkti dabar'.</staticExpired>
+        <staticTrial>Įdiegus programą taikomas 30 dienų bandomasis laikotarpis. Paskui programą reikia užregistruoti arba pašalinti iš kompiuterio.</staticTrial>
+        <btnWebSite>Tinklalapis</btnWebSite>
+        <staticDaysLeft>Liko %d bandomojo laikotarpio dienų (-os)</staticDaysLeft>
+        <btnBuyNow>Pirkti</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Programos registracija</EnterKeyDlgCaption>
+        <Title>Įrašykite vardą ir kodą, kuriuos gavote baigę registraciją:</Title>
+        <staticName>Vardas:</staticName>
+        <staticKey>Kodas:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>Programos šalinimas buvo nekorektiškas. \nNorite naikinti visus jai priklausančius failus ir įrašus registre?</msgUninstallFailed>
+        <msgForceRemovalTitle>Force Removal of '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Batch Force Removal</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>Tikrai norite priverstinai pašalinti šią programą?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Are you sure you want to perform force removal of the following programs?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>Priverstinis šio įrašo pašalinimas neįjungs standartinės šalinimo programos, o tik pašalins visus rastus elementus failų sistemoje ir registre, priklausančius šiai programai. Naudokite šią funkciją tik pasenusiems ir klaidingiems įrašams šalinti.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>Force removal of a traced program will perform ultra fast and thorough removal without running its associated uninstaller. It will erase all file system and registry items traced during installation.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Batch Force Removal is an advanced feature and should be used carefuly. It will not run associated uninstallers and will only scan for leftover file system/registry items and display them in a merged list that requires a precise review. The most thorough and accurate removal is performed for programs traced with Install Tracker.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>dependent</msgForceRemovalItemDependent>
+        <msgLearnMore>Learn more</msgLearnMore>
+        <msgForceRemovalCheck>Ok, I understand the responsibility</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>Tikrai norite pašalinti Uninstall Tool iš kompiuterio?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>Pašalinti įrašą iš programų sąrašo?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Are you sure you want to remove these entries?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>Ši funkcija pašalins tik įrašą iš programų sąrašo (iš registro). Jokie failai ir registro elementai pašalinti nebus. Naudokite šią funkciją tik klaidingiems ir pasenusiems įrašams.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>Įrašas iš registro nepašalintas. \nGreičiausiai neturite tam teisių.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>Tikrai priverstinai stabdyti programos šalinimą?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>Priverstinai programos šalinimas stabdomas tik tada, kai jos pačios šalinimo vedlys nebeatsako arba norite greitai nutraukti visus šalinimo procesus. Korektiškas stabdymas galimas tik pačios programos vedlyje, kitaip tai gali turėti nepageidaujamų pasekmių.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>Stebėta programa '%s' dabar rodoma pažymėta specialiu ženklu sąrašo stulpelyje "Stebėta".</msgTracedItem>
+        <msgTracedItemAppended>Traced data is now added to the previously traced item '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Please note that new installation items will be treated as dependent entries and can be removed later together with '%s' (upon confirmation).</msgTracedItemAppendedNote>
+        <msgUndoTracing>Tikrai norite, kad Uninstall Tool pamirštų visus šios programos stebėtus duomenis?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>Negalima atidaryti CisUtMonitor tarnybos. Bandykite diegti dar kartą</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Uninstall Tool stebėjimo tarnyba ('CisUtMonitor') neįdiegta. \n\nNorite įdiegti dabar?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Uninstall Tool stebėjimo tarnyba ('CisUtMonitor') neįdiegta.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>Tarnyba sėkmingai įdiegta. \n\nPašalinti galėsite vėliau, panaudoję 'RemoveService.cmd' failą.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>Tarnybos diegimas nutrauktas: klaidos kodas %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>Tarnybos diegimas nutrauktas dėl nežinomos klaidos - prašome kreiptis į Uninstall Tool gamintojus.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Uninstall Tool stebėjimo tarnyba ('CisUtMonitor') pašalinta iš šio kompiuterio.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>Įdiegta 'CisUtMonitor' tarnybos versija (%u) yra naujesnė už esamą (%u). \n\nNorite atnaujinti?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>Naujausia tarnybos versija sėkmingai įdiegta. Prieš naudojant diegimo stebėjimą reikia perkrauti kompiuterį.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>Nėra ką išsaugoti, nes stebėta programa nepaliko jokių failų/aplankų ir registro įrašų</msgNothingToSave>
+        <msgCancelTracing>Baigti dabartinio diegimo stebėjimą?</msgCancelTracing>
+        <msgStopTracing>Diegimo stebėjimas bus sustabdytas. Norite išsaugoti esamus stebėjimo rezultatus?</msgStopTracing>
+        <msgEntryAlreadyExists>Programa '%s' jau yra sąraše, pasirinkite kitą pavadinimą.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>Įrašas bus visiškai pašalintas iš registro (paleisties). \n\nTikrai to norite?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>Klaida pridedant naują paleisties programą. Patikrinkite savo teises atlikti šiam veiksmui arba susisiekite su mūsų tech.palaikymu.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>Šio įrašo savybių keisti negalima. Greičiausiai neturite teisių atlikti šį veiksmą.\n\nSusisiekite su sistemos administratoriumi.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>Tikrai norite naikinti šiuos elementus?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>Šis veiksmas pašalins pasirinktus elementus iš sistemos registro (paleisties).</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>Registracijos užbaigimui programą reikia paleisti iš naujo. \n\nDaryti tai dabar?</msgRegRestartRequired>
+        <msgNewVersionAvailable>Yra nauja versija %s.</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>Esama versija: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>Kas naujo:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Portable version download link</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>Jūs naudojate naujausią versiją</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>Negaliu prisijungti prie crystalidea.com, patikrinkite interneto ryšį.</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>You're not supposed to run 32-bit version of Uninstall Tool on 64-bit Windows as it displays only 32-bit applications and has a wide range of limitations. It's highly recommended to download and reinstall Uninstall Tool on this machine (it will automatically choose 64-bit version when installing on a 64-bit Windows).</msgRunningInWow64>
+        <msgRunningInWow64Title>Running in WoW64 environment</msgRunningInWow64Title>
+        <msgCannotStartHelper>Unable to start 'UninstallToolHelper.exe' process. \n\nPlease reintall the program.</msgCannotStartHelper>
+        <msgUninstallingMyself>Do you want to remove Uninstall Tool preferences and all data about traced installations?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Unable to create file:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>NEUŽREGISTRUOTA VERSIJA</txtUnregisteredBig>
+        <msgNotAvailableInTrial>Ši funkcija galima tik užregistruotoje programos versijoje.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>Galite išsaugoti likusius duomenis ir ištrinti juos vėliau, naudodami programos '%s' Priverstinį šalinimą programų sąraše.</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>Išsaugoti ir pašalint duomenis vėliau</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML failai</htmlFiles>
+        <allFiles>Visi failai</allFiles>
+        <generatedByOn>Sukurta su %s (data %s)</generatedByOn>
+        <installedPrograms>Įdiegtos programos (%s)</installedPrograms>
+        <startupPrograms>Paleisties programos</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>ОК</btnOK>
+        <btnCancel>Atšaukti</btnCancel>
+        <btnHelp>Pagalba</btnHelp>
+        <btnYes>Taip</btnYes>
+        <btnNo>Ne</btnNo>
+        <btnClose>Uždaryti</btnClose>
+        <statusTotalInfo>%d programų, visas dydis - %s</statusTotalInfo>
+        <statusUnknown>nežinoma</statusUnknown>
+        <statusRecentItems>nesenai įdiegtų</statusRecentItems>
+        <statusRecentItemsTip>Žiūrėti neseniai įdiegtas/keistas programas</statusRecentItemsTip>
+        <statusStartupTotalInfo>Viso programų: %d,dabar veikiančių: %d</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>Skaičiuojama užimama vieta... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>Yra nauja versija:</statusNewVersionAvailable>
+        <popupNewProgramsFound>Naujų programų: %d</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Windows atnaujinimai</WindowsUpdatesText>
+        <UninstallToolDescription>Programų šalinimas, paleisties nustatymas</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>Diegti naudojant Diegimo stebėjimą...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>Diegti ir stebėti visus programos daromus pakitimus kompiuteryje</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Unhandled Exception</msgTitleTemplate>
+        <msgTemplate>We're sorry but an unhandled exception has occurred and \n%app_name% has become unstable. \nPlease send us an e-mail to '%email%'\nattaching the following crash dump file:\n\n%dump_file%\n\nAfter pressing 'Send Report' button, a default mailer program \nwill be opened with composed message.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file %dump_file%)\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <btnSend>Send Report (Recommended)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>Kiti veiksmai:</other_tasks>
+        <install_service>Install tracing service ('Install and Trace' feature)</install_service>
+        <control_panel_icon_text>Pridėti Uninstall Tool piktogramą Valdymo skyde</control_panel_icon_text>
+        <installing_driver>Diegti branduolio tvarkykles (drivers)...</installing_driver>
+        <ut_initializing>Uninstall Tool pradeda darbą...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

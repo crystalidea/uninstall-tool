@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.5" LangID="5121,15361,3073,2049,11265,13313,12289,4097,6145,8193,16385,1025,10241,7169,14337,9217" Author="alyzeed  ترجمة اليزيد للحاسبات" RightToLeft="1">
+    <MainMenu>
+        <mnuFile>&amp;ملف</mnuFile>
+        <mnuFileExport>&amp; التصـدير الـى HTML </mnuFileExport>
+        <mnuFileExit>&amp;خروج</mnuFileExit>
+        <mnuAction>&amp;الخيارات</mnuAction>
+        <mnuActionUninstall>&amp;ازالــة</mnuActionUninstall>
+        <mnuActionModify>&amp;اصلاح</mnuActionModify>
+        <mnuActionDelete>&amp;حذف اجباري</mnuActionDelete>
+        <mnuActionDeleteBatch>Batch &amp;Force Removal</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>ازالة الدخول</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>ازالة المجموعة والادخالات</mnuActionRemoveEntryBatch>
+        <mnuTracedData>البيانات التي تم تتبعها</mnuTracedData>
+        <mnuTracedDataAsXML>XML عرض باسم...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>تراجع عن التتبع</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>ذيل البيانات التي تم تتبعها (تثبيت و تتتبع)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;مدخل التسجيلات</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>&amp;مجلد التنصيب</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>&amp;الصفحة الرئيسية للبرنامج</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>فتح في مخزن الوندوز</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>استعراض الموقع</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>استعراض المصدر</mnuActionBrowseSource>
+        <mnuActionGoogleFor>البحث في</mnuActionGoogleFor>
+        <mnuView>&amp;عرض</mnuView>
+        <mnuViewMainToolbar>شريط الادوات الرئيسي</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>عرض شريط الادوات الرئيسية</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>عرض اسماء الازرار تحت الايقونات</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>شريط الادوات الثانوية</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;تحــديث</mnuViewRefresh>
+        <mnuViewListColumnsReset>تعيين الجداول الافتراضية</mnuViewListColumnsReset>
+        <mnuViewLanguage>لغة الواجهة</mnuViewLanguage>
+        <mnuTools>&amp;ادوات</mnuTools>
+        <mnuToolsSystemTools>ادوات النظام</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;اضافــة /ازالــة البرامج</mnuToolsAddRemove>
+        <mnuToolsComponents>الوندوز &amp;مكونات</mnuToolsComponents>
+        <mnuToolsSystemRestore>استعادة النظام</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>مركز الامان</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>خصائص النظام</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>معلومات النظام</mnuToolsSystemInfo>
+        <mnuToolsDefrag>الغاء تجزئة القرص</mnuToolsDefrag>
+        <mnuToolsServices>الخدمات</mnuToolsServices>
+        <mnuToolsTaskScheduler>جدولة المهام</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;الاعــدادات</mnuToolsOptions>
+        <mnuHelp>&amp;تعليمات</mnuHelp>
+        <mnuHelpOnline>&amp;المحتويات</mnuHelpOnline>
+        <mnuHelpHomePage>الصفحة الرئيسية</mnuHelpHomePage>
+        <mnuHelpSupport>الدعم</mnuHelpSupport>
+        <mnuHelpBuyNow>شراء</mnuHelpBuyNow>
+        <mnuHelpEnterKey>&amp;ادخال المفتاح</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>التحقق من وجود تحديثات</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;حول</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>اسم البرنامج</columnProgramName>
+        <columnSize>الحجم</columnSize>
+        <columnInstallationDate>مثبت على</columnInstallationDate>
+        <columnTraced>تم تتبعة</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt; &gt; &lt;/a &gt; اعادة تعيين عامل تصفية البحث (مفتاح الهروب) او محاولة استعراض فئات اخرى</staticNoItemsMatchingFilterTip>
+        <staticLoading>التحميل، الرجاء الانتظار...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>الحالة</columnStatus>
+        <columnSource>المصدر</columnSource>
+        <columnCompany>الشركة</columnCompany>
+        <sourceHKLMRun>HKLM تشغيل</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM تشغيل مرة واحدة لـ</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU تشغيل</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU تشغيل مرة واحدة لـ</sourceHKCURunOnce>
+        <sourceStartMenuAll>كل قائمة البدء</sourceStartMenuAll>
+        <sourceStartMenuCU>المحدد من قائمة البدء</sourceStartMenuCU>
+        <sourceWindowsTask>مهام الوندوز</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>الفئة '%s' ليس هنالك برامج في</staticNoProgramsInCategory>
+        <staticNoStartupItems>ليس هناك برامج يتم تشغيلها تلقائيا عند بدء التشغيل</staticNoStartupItems>
+        <staticNoStartupItemsTip>يمكنك يدويا اضافة برنامج جديد</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>برنامج الغاء التثبيت</btnUninstaller>
+        <btnUninstallerToolTip>الغاء تثبيت البرامج القائمة او تثبيت وتتبع البرمجيات الجديدة</btnUninstallerToolTip>
+        <btnStartup>بدء التشغيل</btnStartup>
+        <btnStartupToolTip>البرامج التي تعمل تلقائيا عند بدء التشغيل</btnStartupToolTip>
+        <btnRefresh>تحديث</btnRefresh>
+        <btnRefreshToolTip>تحديث قائمة البرامج</btnRefreshToolTip>
+        <btnPrefs>خيـــارات</btnPrefs>
+        <btnPrefsToolTip>اظهار نافذة الخيـــارات و الاعدادات</btnPrefsToolTip>
+        <btnHelp>التعليمات</btnHelp>
+        <btnHelpToolTip>اظهار نافذة التعليمات</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>التطبيقات</btnApps>
+        <btnAppsToolTip>التطبيقات</btnAppsToolTip>
+        <btnSystem>النظام</btnSystem>
+        <btnSystemToolTip>تحديثات النظام و البرامج الموجودة</btnSystemToolTip>
+        <btnHidden>المخفي</btnHidden>
+        <btnHiddenToolTip>جميع التطبيقات المنصبة و المخفية في نظامك</btnHiddenToolTip>
+        <btnStoreApps>تطبيقات متجر ويندوز</btnStoreApps>
+        <btnStoreAppsToolTip>تطبيقات مثبتة من متجر وندوز</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>(%u) ثبت مؤخرا</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>ثبت مؤخرا/ تحديث المواد</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>تثبيت وتتبع</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>ثبت برنامج جديد، ومشاهدة جميع التغييرات التي يقوم بها ملف النظام ومكتب التسجيل</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>الغاء تثبيت</itemUninstallIt>
+        <itemModifyIt>تعديل</itemModifyIt>
+        <itemDelete>حذف اجباري لكل المتعلقات</itemDelete>
+        <itemBatchDelete>دفعة بقوة لازالة كل الاثار</itemBatchDelete>
+        <itemBatchRemoveEntry>دفعة لازالة الادخالات من قائمة</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>اخترت %u مواد لكن العدد الاقصى من المواد في عملية الدفع اقتصر على %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>الغاء الامر</itemCancelWaiting>
+        <itemSearch>بحث</itemSearch>
+        <itemShortSearchTip>ضع حرف او كلمة من اسم البرنامج للبحث عنه</itemShortSearchTip>
+        <itemVersion>الاصدار:</itemVersion>
+        <itemInstalledOn>تاريخ التثبيت:</itemInstalledOn>
+        <itemPublisher>المصنع:</itemPublisher>
+        <itemRegistryEntry>اظهار مداخل التسجيلات</itemRegistryEntry>
+        <itemUninstallInProgress>تقدم عملية الازالة</itemUninstallInProgress>
+        <itemUninstallInProgressTip>الرجاء الانتظار %s, ازالة البرنامج</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>دفع الغاء التثبيت مستمرة، الرجاء الانتظار بينما يتم ازالة كل التطبيقات...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>اصلاح البرنامج في تقدم</itemModifyInProgress>
+        <itemModifyInProgressTip>الرجاء الانتظار %s, اصلاح البرنامج</itemModifyInProgressTip>
+        <itemNothingFound>لم يفلح البحث</itemNothingFound>
+        <itemNoItemsMatchingFilter>صنف %s في'%s'ليس هناك برامج مطابقة</itemNoItemsMatchingFilter>
+        <itemGroup>هذه هي مجموعة البرامج</itemGroup>
+        <itemNoUninstall>لا يمكن الغاء تثبيت البرنامج بطريقة عادية، يمكنك محاولة ازالتة اجباري بدلا من ذلك</itemNoUninstall>
+        <itemTracedOnly>دخول مخصص تحدده مجموعة من اثار. يمكن ازالتة فقط مع ميزة ازالة اجباري</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>تعطيل عمل البرنامج عند بدء التشغيل</itemDisableRunning>
+        <itemEnableRunning>تمكين عمل البرنامج عند بدء التشغيل</itemEnableRunning>
+        <itemDeleteStartupItem>حذف اجباري</itemDeleteStartupItem>
+        <itemDisableSelected>عطل مواد محددة</itemDisableSelected>
+        <itemEnableSelected>مكن مواد محددة</itemEnableSelected>
+        <itemDeleteSelected>حذف مواد حددت من القائمة</itemDeleteSelected>
+        <itemMultiplSelected>مواد حددت %u</itemMultiplSelected>
+        <itemAddNewStartupItem>اضافة برنامج جديد</itemAddNewStartupItem>
+        <itemStatusCaption>الحالة:</itemStatusCaption>
+        <itemStatusRunning>يعمل</itemStatusRunning>
+        <itemStatusNotRunning>لا يعمل</itemStatusNotRunning>
+        <itemStatusDisabled>معطل</itemStatusDisabled>
+        <itemStatusInvalid>عاجز</itemStatusInvalid>
+        <itemCommandLineCaption>خـط الاوامــر:</itemCommandLineCaption>
+        <itemSourceCaption>المصدر:</itemSourceCaption>
+        <itemSourceRun_HKLM>مدخلات التسجيل لكل المستخدمين</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>مدخلات التسجيل للمستخم الحالي</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>مدخلات التسجيل للعمل مرة واحدة لدى كل المستخدمين</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>مدخلات تسجيل العمل مرة واحدة للمستخدم الحالي</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>تشغيل تلقائي لقائمة ابدا لدى كل المستخدمين</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>تشغيل تلقائي لقائمة ابدا لدى المستخدم الحالي</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>تكيلف الوندوز بمهمة جدولة تسجيل الدخول</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>اضافة برنامج جديد لبدء التشغيل</DlgAddNewStartupProgramCaption>
+        <labelStartupType>نوع بدء التشغيل</labelStartupType>
+        <labelPathToExecutableFile>مسار الملف التنفيذي</labelPathToExecutableFile>
+        <labelArguments>الامر (اختياري )</labelArguments>
+        <filterExecutableFiles>الملفات التنفيذية</filterExecutableFiles>
+        <filterAllFiles>كل الملفات</filterAllFiles>
+        <checkHighestPriviledges>تشغيل المهمة باستخدام امتيازات اعلى</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>الاعدادات</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>اعدادات عامة</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>التحقق من تحديثات البرنامج عند بدء التشغيل</checkCheckForUpdates>
+        <checkCheckForBetaVersions>مراقبة للاصدارات الاولية</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>لغــة البرنــامج:</staticInterfaceLanguage>
+        <checkControlPanelIcon>اظهار ايقونة البرنامج في لوحة التحكم</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>للتحكم باعدادات برامج قائد المجموعة استعراض مسارات البرامج باستخدام</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>الواجهة</categoryInterface>
+        <checkToolBarCaptions>اظهار ازرار التحكم</checkToolBarCaptions>
+        <categoryAppList>لائحة البرامج</categoryAppList>
+        <checkSmallIcons>ايقونات صغيرة</checkSmallIcons>
+        <checkMark32bitApps>وضع علامة على تطبيقات 32-بت</checkMark32bitApps>
+        <frameColorScheme>اللون</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>تحديثات البرامج مثل شجرة (البنود الفرعية):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>&amp;اظهار تحديثات البرامج</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>انهار في البداية</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>وسعت في البداية</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>وسعت دائما</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>عند استخدام افلترة البحث انهارت يتم توسيع العناصر تلقائيا اذا كان واحد او اكثر من البنود الفرعية تطابق الفلترة.\n\n 'في البداية انهارت' نوصى بالخيار، ولكن المستخدمين قادرين على تعيين 'الموسع في البداية' لعرض كافة التحديثات في البداية. يمكن للمستخدمين الذين حصول على استخدامها "اداة الغاء تثبيت" الاصدارات السابقة 3.3 اختيار خيار 'توسيع دائم' الذي يعطل ايضا وظيفة توسيع/طي.\n\n يمكن ان تكون العناصر الاصل توسيع/طي مع الماوس او باستخدام مفاتيح لوحة المفاتيح يسار/يمين.</subitemsHelpText>
+        <staticRecentlyInstalled>برامج مثبتة مؤخرا:</staticRecentlyInstalled>
+        <checkDisplayPopup>اظهار نافذة اعلى البرامج الجديدة</checkDisplayPopup>
+        <checkHighlighRecent>اضاءة البرامج الجديدة</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>عرض البرامج الاخيرة في شريط الادوات الثانوية</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>معالج الازالــة</categoryUninstallWizard>
+        <staticWizardDesctiption>بعـــد ازالــة برنامج او التطبيق بامكانك وضع خيارات الفحص العميق لازالة كافة مدخلات التسجيلات الخاصة بالتطبيق المزال لكي لا يؤثر على عمل النظام او يبقى له اي اثر معالج الغاء التثبيت يعمل دائما للبرامج ثم تتبعها.</staticWizardDesctiption>
+        <staticWizardUsage>حالــة معالــج الازالــة</staticWizardUsage>
+        <comboItemWizardOption1>اسال قبل التشغيل</comboItemWizardOption1>
+        <comboItemWizardOption2>تلقـــائي</comboItemWizardOption2>
+        <comboItemWizardOption3>معطـــل</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>معالج الغاء التثبيت</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>%s - ازالــــة جميـــع مدخـــلات</UninstallWizardCaption>
+        <captionQuestionUninstall>'%s'هل تريد الغاء تثبيت?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>المحدد %u هل تريد الغاء تثبيت تطبيقات؟</captionQuestionUninstallBatch>
+        <captionUninstalling>%s الغاء تثبيت...</captionUninstalling>
+        <statusUninstallInfo>اطلاق الغاء تثبيت اول معالج افتراضي مقترن بالغاء تثبيت البرنامج وينظف البقايا بعد ذلك.</statusUninstallInfo>
+        <statusUninstallInfoBatch>معالج الغاء تثبيت تطلق اولا برنامج الغاء التثبيت الافتراضية المقترنة لكل من التطبيق. ثم تعرض القائمة في كافة البقايا للتنظيف.</statusUninstallInfoBatch>
+        <statusPerformingUninstall>اداء الغاء القياسي باستخدام المدمج في الغاء التثبيت، التي قد تتطلب تفاعل المستخدم</statusPerformingUninstall>
+        <statusScanning>البحث عن ملفات و مجلدات و مداخل مكتب التسجيل المتبقية</statusScanning>
+        <statusScanningTraced>انشاء قائمة من بنود تعقب البقايا، يرجى الانتظار ...</statusScanningTraced>
+        <statusForceRemoval>'%s' ازالة بقوة</statusForceRemoval>
+        <statusLeftOverTracesFound>وجد بعض المخلفات</statusLeftOverTracesFound>
+        <statusNothingFound>لا يوجد اي اثار باقية.</statusNothingFound>
+        <statusAllTracesRemoved>تم ازالة جميع اثار المخلفات</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>تم حذف مخلفات البرنامج</statusDeletingProgramTraces>
+        <staticScanStatusFound>البرنامج وجد ان مخلفات البرنامج مازالت باقية في نظامك قم باعادة النظر جيدا و عندما تكون جاهز احذف المواد المحددة بالضغط على انهاء.</staticScanStatusFound>
+        <staticScanStatusRemoved>تم ازالته بنجاح %s.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>تم ازالة كل البقايا المختارة بنجاح</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>معالجة قائمــة المخلفات</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>ازالة السجل</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>انشاء ملف سجل ازالة مفصل وفتحه</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport> XML تصدير الى</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>XML تصدير نتائج المسح الى ملف </staticHyperlinkExportTooltip>
+        <treeItemFileSystem>ملفات نظام (%d عناصر)</treeItemFileSystem>
+        <treeItemRegistry>مدخلات تسجيل (%dعناصر)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>استعراض</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d ملفات (%s) و %d عناصر مدخلا بقيت في جهازك</staticOverallInfo>
+        <btnFinish>انهاء</btnFinish>
+        <btnCancel>الغــاء الامر</btnCancel>
+        <btnClose>اغــلاق</btnClose>
+        <btnUninstall>الغاء التثبيت</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>بعض الملفات لم تحذف</Title>
+        <Instruction1>الملفات التالية لم تحذف لانهم قيد الاستخدام بالنظام:</Instruction1>
+        <Instruction2>هذه الملفات ستزال اليا عند اعادة تشغيل النظام التالية.</Instruction2>
+        <btnReboot>اعادة تشغيل النظام</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>اجبار انهاء العمليات التي قيد التشغيل؟</Title>
+        <Instruction1>العمليات التالية اكتشفت:</Instruction1>
+        <Instruction2>نوصي بانهاء العمل بها يدويا قبل الازالة، ولكن يمكنك معالج الغاء التثبيت فرض انهاء العمل بها</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>تثبيت جهاز تتبع</InstallTrackerLocalizedName>
+        <Title>تثبيت وتتبع البرنامج</Title>
+        <TitleAppend>'%s' تثبيت والتتبع، الحاق بيانات تتبع</TitleAppend>
+        <staticPathToProgram>(.exe، msi.)المسار الى ملف الاعداد:</staticPathToProgram>
+        <staticInstallProgress>تقدم عملية التثبيت:</staticInstallProgress>
+        <checkMinimize>التقليل الى ادنى حد اداة الغاء تثبيت لصينية النظام اثناء التثبيت</checkMinimize>
+        <btnInstall>تثبيت وتتبع</btnInstall>
+        <btnStop>قف</btnStop>
+        <btnSave>حفظ</btnSave>
+        <btnSaveLog>حفظ السجل...</btnSaveLog>
+        <btnNoAndRevert>لا + عودة</btnNoAndRevert>
+        <staticRevertInfo>تعود تجارب الخيار لحذف كافة عناصر ملف النظام/التسجيل التي تم انشاؤه خلال اقتفاء اثر التثبيت </staticRevertInfo>
+        <installTip1>متابعة التثبيت كالمعتاد بينما يراقب اداة الغاء تثبيت لها. سيتم ايقاف التتبع تلقائيا عندما يتم الانتهاء من جميع العمليات او لديك الى ايقاف يدويا عند اكتمال الاعداد</installTip1>
+        <installTip2>الرجاء التاكد من لا منشاة اخرى قيد التشغيل حاليا</installTip2>
+        <installTip3>اذا تم تثبيت اصدار سابق من هذا البرنامج مسبقا، فينبغي ازالتها اولا قبل تثبيت اصدار احدث</installTip3>
+        <trayIconTitle>'%s'تثبيت...</trayIconTitle>
+        <trayIconTooltip>شاهد القائمة بالنقر بالزر الايمن للتوقف او عرض سجل التتبع</trayIconTooltip>
+        <trayIconText>متابعة التثبيت كالمعتاد بينما يراقب اداة الغاء تثبيت لها. سيتم ايقاف التتبع تلقائيا عندما يتم الانتهاء من جميع العمليات لديك او الى ايقاف يدويا (القائمة بزر الماوس الايمن) عند اكتمال الاعداد</trayIconText>
+        <trayIconMenuProgress>تقدم عملية التثبيت</trayIconMenuProgress>
+        <trayIconMenuStop>قف</trayIconMenuStop>
+        <readMore>اقرا المزيد</readMore>
+        <installationFiles>ملفات التثبيت</installationFiles>
+        <textFiles>ملفات نصية</textFiles>
+        <selectInstallFile>حدد ملف التثبيت</selectInstallFile>
+        <contextMenuCopy>نسخ</contextMenuCopy>
+        <logEventCreateFile>انشا ملف</logEventCreateFile>
+        <logEventCreateFolder>انشا مجلد</logEventCreateFolder>
+        <logEventRenameFile>اعادة تسمية الملف</logEventRenameFile>
+        <logEventRenameFolder>اعادة تسمية المجلد</logEventRenameFolder>
+        <logEventCreateKey>انشا مفتاح</logEventCreateKey>
+        <logEventDeleteKey>حذف مفتاح</logEventDeleteKey>
+        <logEventSetValue>وضع القيمة</logEventSetValue>
+        <logEventProcessCreated>العملية انشئت</logEventProcessCreated>
+        <logEventProcessKilled>العملية قتلت</logEventProcessKilled>
+        <logEventDeleteOperation>حذف</logEventDeleteOperation>
+        <logStartingService>بدء تشغيل خدمة تعقب تثبيت...</logStartingService>
+        <logStartingServiceError1>ما زالت تتوقفCisUtMonitor خدمة:الخطا</logStartingServiceError1>
+        <logStartingServiceError2>بدء الموقتCisUtMonitor :الخطا</logStartingServiceError2>
+        <logStartingServiceError3>(error %u)CisUtMonitor الخطا: لا يستطيع بدء خدمة</logStartingServiceError3>
+        <logStartingServiceError4>رجاء ثبت البرنامج ثانية CisUtMonitor الخطا: لا يستطيع فتح خدمة</logStartingServiceError4>
+        <logServiceStopped>تتبع الخدمة توقف</logServiceStopped>
+        <logServiceStopError>خطا: اخفق في توقف خدمة التتبع</logServiceStopError>
+        <logServiceVersion>0x%x:نسخة الخدمة</logServiceVersion>
+        <logServiceVersionOlder>رجاء ثبت البرنامج ثانية0x%x.يجب ان يكون0x%x:نسخة المرقاب</logServiceVersionOlder>
+        <logServiceMonitorRunning>تحذير: ايقاف المرقاب النشيط...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>بدء مراقبة التثبيت</logServiceMonitorStarted>
+        <logTrackingStarting>%sبدء...</logTrackingStarting>
+        <logTrackingStartingEror>(error %u) اخطا: لا يستطيع بدء عملية الاعداد</logTrackingStartingEror>
+        <logTrackingCannotStart>خطا: لا يمكن تشغيل جهاز العرض. الرجاء اعادة تثبيت البرنامج</logTrackingCannotStart>
+        <logTrackingStoppedByUser>ايقاف التتبع من قبل المستخدم</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>الانتهاء من كافة عمليات التثبيت</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>اكتمال الاعداد</logTrackingCompleted>
+        <logTracingAnalyzing>تحليل التثبيت، الرجاء الانتظار...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>مداخل تثبيت اكتشفت %u</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>الكشف عن ادخالات التثبيت الجديد %u:</logNewUninstallEntriesDetected>
+        <logTrackingDone>انجز</logTrackingDone>
+        <logReverting>تراجع عن اي تغييرات...</logReverting>
+        <logCompleted>مكتمل</logCompleted>
+        <logMSIServiceWarning>MSI تحذير: يتم تعطيل خدمة</logMSIServiceWarning>
+        <logMSIServiceError1>MSI خطا: فشل في فتح خدمة</logMSIServiceError1>
+        <logMSIServiceError2>MSI خطا: لا يمكن بدء خدمة</logMSIServiceError2>
+        <logMSIServiceError3>MSI خطا: لا يمكن الاستعلام عن حالة الخدمة</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>لم يتم العثور على ادخالات التثبيت الجديد اثناء التعقب. عموما فانه يعني ان البرنامج غير مثبت بشكل صحيح، ولكن اذا كنت متاكدا من ان التثبيت ذهب بشكل جيد قد تقوم بانشاء برنامج مخصص جديد في قائمة تطبيقات. حاليا الجميع العثور على اثار سيتم الاشارة اليه</Title>
+        <staticName>الاسم:</staticName>
+        <checkCreateCustomEntry>اود ان انشاء عنصر مخصص في قائمة</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>الكشف عن العديد من مداخل التثبيت</Caption>
+        <Title>تم اكتشاف عدة ادخالات التثبيت في مكتب تسجيل الوندوز بعد التثبيت. الرجاء تحديد المادة الرئيسية للعرض في قائمة تطبيقات مع رمز خاص في العمود 'المتتبع'. النظر ان عند ازالة تتبع بيانات البند الرئيسي، اداة الغاء تثبيت ستقوم ايضا بازالة البيانات تم تتبعها لكافة العناصر التابعة</Title>
+        <btnSelect>حدد</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>البيانات التي تم تتبعها %s</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>'%s' الغاء تثبيت</Title>
+        <Instruction>ازالة ايضا مواد تعتمد؟</Instruction>
+        <Footer>مع تثبيت المتعقب تتبع ممكن وتم تثبيتها في المواد المذكورة اعلاه، وكذلك. وهذا يعني انه عند استخدام معالج الغاء تثبيت كل المعتمدة على اقتفاء الاثر ستتم ازالة مكون جدا. عند اختيار ازالة فقط للعنصر الحالي، سيتم تجاهل بيانات التتبع و معالج الغاء تثبيت سوف التفحص بحثا عن بقايا البيانات المشار اليها هذا البرنامج'%s' قمت بتثبيت</Footer>
+        <btnOnlyCurrent> %s فقط</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title> '%s'الغاء تثبيت </Title>
+        <Instruction>ترتبط التطبيقات التالية وهو ما يعني ان الغاء منهم سيزيل كل كل الاخرين. هل تريد ازالة كل هذه التطبيقات؟</Instruction>
+        <btnUninstallAll>الغاء تثبيت الكل</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>ملف ازالة التنصيب انهى عمله هل ترغب في بدء الفحص العميق بحثا عن اي اثار مخلفات في التسجيلات او الملفات المتروكة من البرنامج المزال</staticConfirm>
+        <learnMoreAboutWizard>تعلم المزيد عن خصائص البرنامج و عمله</learnMoreAboutWizard>
+        <btnYes>نعم</btnYes>
+        <btnNo>لا</btnNo>
+        <checkDontAskAgain>تذكر خياري و اجعله الافتراضي</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>حول</DlgAboutCaption>
+        <staticWebSite>الموقــع</staticWebSite>
+        <staticSupport>الـــدعم الفنــي</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>البرنامج مسجل لــ:</staticRegisteredTo>
+        <staticChangeKey>تغيير مفتاح الترخيص</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>رسالة تذكير التجريبي</UnregDlgReminder>
+        <UnregDlgExpired>الفترة التجريبية منتهية</UnregDlgExpired>
+        <staticExpired>اليزيد للحاسبات يحذرك بان الرخصة التجريبية صالحة لمدة 30 يوما فقط اضغط على زر شراء لتحصل على النسخة الكاملة من البرنامج.</staticExpired>
+        <staticTrial>اليزيد للحاسبات يحذرك بان النسخة التجريبية صالحة لمدة 30 يوما فقط بعدها اما ان تشتري النسخة الكاملة او تزيل البرنامج من نظامك.</staticTrial>
+        <btnWebSite>موقع البرنامج</btnWebSite>
+        <staticDaysLeft>باقــي على انتهاء النسخة التجريبية%d</staticDaysLeft>
+        <btnBuyNow>اشتري الان</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>ادخال مفتاح الرخصة</EnterKeyDlgCaption>
+        <Title>رجاء ادخل اسمك و الشيفرة من بريد التسجيل الالكتروني:</Title>
+        <staticName>الاسم:</staticName>
+        <staticKey>مفتاح الرخصة:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>عملية الازالة فشلت هل تريد بازالة جميع مدخلات التسجيلات و القيام بحذف اجباري</msgUninstallFailed>
+        <msgForceRemovalTitle>ازالة بقوة '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>دفعة للازالة بقوة </msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>هل انت متاكد من عملية الحذف الاجباري لهذا التطبيق</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>هل انت تريد اجراء الازالة بقوة البرامج التالية؟</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>الحذف الاجباري سيقوم بازالة جميع مدخلات التسجيلات \nعليك باستخدام هذا الخيار في حال كان هناك اثار متبقية من البرنامج المزال.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>للازالة بقوة برنامج تتبع سوف تؤدي لازالة سريعة ودقيقة جدا دون تشغيل الغاء التثبيت المقترنة به. فانه سوف يمحو كل ملف التسجيل ونظام العناصر تتبع اثناء التثبيت.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch> دفعة للازالة بقوة هذة ميزة متقدمة، وينبغي ان تستخدم بعناية. لن تشغيل الغاء التثبيتات المرتبطة بها وسوف تفحص فقط لملف بقايا النظام/مكتب التسجيل الأصناف وعرضها في قائمة مدمجة تتطلب استعراضا دقيقا. يتم ازالة الاكثر شمولية ودقيقة لبرامج تتبع مع تثبيت المقتفي</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>التابع</msgForceRemovalItemDependent>
+        <msgLearnMore>تعلم اكثر</msgLearnMore>
+        <msgForceRemovalCheck>نعم، انا افهم المسؤولية</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>هل انت متاكد من ازالة البرنامج من جهازك</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>هل تريد حذف مدخلات التسجيلات</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>هل تريد ازالة هذه الادخالات؟</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>هذه الخاصية ستقوم بازالة البرنامج فقط,بدون ازالة اي شيء من ملفات التسجيلات او من من الملفات المرتبطة مع النظام.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>فشل في حذف مدخلات التسجيلات لهذا العنصر \nربما لا تملك الصلاحية للتحكم به.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>هل انت متاكد من انك تريد فرض الغاء الغاء التثبيت لهذا البرنامج؟</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>يجب ان يتم تنفيذ الالغاء اجباري فقط عندما يكون برنامج الغاء التثبيت الافتراضي هو مجمد او يمكنك على وجه السرعة بحاجة الى ايقاف تشغيل كل الغاء العمليات الحالية . ينبغي ان يتم الغاء الصحيح في الافتراضي للبرنامج الغاء تثبيت لان الالغاء اجباري قد تسبب اثارا لا يمكن التنبؤ بها</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>يعرض الان في قائمة البرنامج بايقونة خاصة في العمود 'المتتبع '%s' المادة المتتبعة</msgTracedItem>
+        <msgTracedItemAppended>'%s' البيانات التي تم تتبعها تضاف الان الى المادة التي تم تتبعها سابقا </msgTracedItemAppended>
+        <msgTracedItemAppendedNote>(بعد تاكيد).'%s' يرجى ملاحظة ان عناصر التثبيت الجديدة سوف يعامل كادخالات تعتمد ويمكن ازالتها بعد ذلك جنبا الى جنب مع</msgTracedItemAppendedNote>
+        <msgUndoTracing>هل تريد ازالة اداة الغاء التثبيت من حاسوبك؟</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>الرجاء اعادة تثبيت البرنامج CisUtMonitor لا يمكن فتح خدمة</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>هل ترغب في تثبيته الان \n\n لم يتم تثبيت على هذا النظام ('CisUtMonitor' )خدمة التعقب اداة الغاء التثبيت</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>غير مثبت على هذا النظام ('CisUtMonitor')خدمة اداة تتبع</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>'RemoveService.cmd'.يمكنك الغاء تثبيت لاحقا باستخدام الملف\n\n تم بنجاح تثبيت الخدمة</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>%d مهلة خدمة التثبيت: رمز الخطا</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>فشل تثبيت الخدمة-السبب غير معروف، الرجاء الاتصال بالدعم للمساعدة.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>من هذا الحاسوب ('CisUtMonitor') يتم الغاء تثبيت اداة الغاء التثبيت تعقب الخدمة</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>هل ترغب في تحديث (%u). \n\n اقدم من الحالي(%u)اصدار الخدمة'CisUtMonitor'المثبتة</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>يتم تثبيت احدث اصدار من الخدمة بنجاح. يجب ان تعيد تشغيل حاسوبك قبل استخدام تعقب تثبيت</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>(لا يوجد شيء لانقاذ لانه لم يتم تثبيت البرنامج تم تتبعها (لم يتبقى اي ملفات/مكتب التسجيل</msgNothingToSave>
+        <msgCancelTracing>هل ترغب في الغاء تتبع التثبيت الحالي؟</msgCancelTracing>
+        <msgStopTracing>هل ترغب في حفظ نتائج التتبع الحالية\n\n سيتم ايقاف تتبع التثبيت الان</msgStopTracing>
+        <msgEntryAlreadyExists>موجود بالفعل في القائمة، لذا الرجاء اختيار اسم اخر '%s'برنامج</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>هذا سيقوم بازالة جميع المدخلات بشكل كامل و ازالة الاختصارات في قائمة ابدا \n\nهل تريد فعل هذا ؟</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>حدث خطا لدى اضافة عنصرجديد لبدء التشغيل تاكد من صلاحياتك و خياراتك في النظام</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>لا يمكن اصلاح اعدادات المدخلات ربما لانك لا تملك التحكم بذلك.\n\قم بالاتصال بمدير النظام بحثا عن الحل.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>هل تريد ان تزيل هذه المواد؟</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>هذه ستزيل المواد فوق من مكتب تسجيل نظامك (قائمة ابدا) وهم لن يشتغلوا عند بدء تشغيل الوندوز</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>لاكمال عملية التسجيل عليك اعادة تشغيل البرنامج. \n\nهل تريد فعل هذا ؟</msgRegRestartRequired>
+        <msgNewVersionAvailable>متوفر %s اصدار جديد من:</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>%s:النسخة الحالية:</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>ما الجديد:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>التحميل الان</msgNewVersionDownload>
+        <msgNewVersionPortableLink>رابط تحميل النسخة المحمولة</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>انت تستخدم احدث اصدار من البرنامج</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>لا يمكن الاتصال بسيرفر البرنامج تحقق من اتصال الانترنت لديك او من الاعدادات</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>من المفترض عدم تشغيل اصدار 32-بت من اداة الغاء تثبيت ويندوز 64-بت كما يعرض فقط تطبيقات 32-بت ومجموعة واسعة من القيود. من المستحسن بدرجة عالية لتحميل وتثبيت اداة الغاء تثبيت على هذا الجهاز (سوف يختار تلقائيا اصدار 64-بت عند تثبيت على ويندوز 64-بت).</msgRunningInWow64>
+        <msgRunningInWow64Title>WoW64 قيد التشغيل في بيئة </msgRunningInWow64Title>
+        <msgCannotStartHelper>الرجاء اعادة تثبيت البرنامج.\n\n عملية (مساعد لنظام ويندوز 64-بت).'x64helper.exe'غير قادر على بدء تشغيل </msgCannotStartHelper>
+        <msgUninstallingMyself>هل تريد ازالة تفضيلات اداة الغاء التثبيت وجميع البيانات حول منشات التتبع؟</msgUninstallingMyself>
+        <msgUnableToCreateFile>\n%s :غير قادر على انشاء الملف</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>نسخة غير مسجلة</txtUnregisteredBig>
+        <msgNotAvailableInTrial>هذه الميزات مخصصة فقط للمستخدمين اصحاب الرخص الكاملة.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>في قائمة تطبيقات.'%s' يمكنك حفظ البيانات المتبقية وحذفها لاحقا باستخدام ميزة ازالة القوة بشان البند</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>حفظ وحذف البيانات المتبقية في وقت لاحق</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>ملفات HTML</htmlFiles>
+        <allFiles>كل الملفات</allFiles>
+        <generatedByOn>%s on %sولد من قبل</generatedByOn>
+        <installedPrograms>(%s) البرامج المثبتة</installedPrograms>
+        <startupPrograms>برامج بدء التشغيل</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>موافق</btnOK>
+        <btnCancel>الغاء الامر</btnCancel>
+        <btnHelp>تعليمات</btnHelp>
+        <btnYes>نعم</btnYes>
+        <btnNo>لا</btnNo>
+        <btnClose>اغلاق</btnClose>
+        <statusTotalInfo>حجم %d برامج %s</statusTotalInfo>
+        <statusUnknown>غير معروف</statusUnknown>
+        <statusRecentItems>المثبت مؤخرا</statusRecentItems>
+        <statusRecentItemsTip>اظهار البرامج المثبتة و المعدلة مؤخرا</statusRecentItemsTip>
+        <statusStartupTotalInfo>تعمل حاليا %d مجموع البرامج %d</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>%s جمع الحجم النهائي لـ</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>النسخة الجديدة متوفرة:</statusNewVersionAvailable>
+        <popupNewProgramsFound>%d البرامج الجديدة الموجودة</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>لا تشعرني في المرة القادمة</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>تحديثات الوندوز</WindowsUpdatesText>
+        <UninstallToolDescription>ازلة البرامج تماما بدون ترك اثر , التحكم باعدادات بدء التشغيل بالكامل</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>تثبيت وتعقبها مع تعقب التثبيت...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>تثبيت وتتبع جميع التغييرات التي يجريها البرنامج على حاسوبك</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>% اسم_التطبيق% - استثناء غير معالج</msgTitleTemplate>
+        <msgTemplate>We're sorry but an unhandled exception has occurred and \n%app_name% has become unstable. \nPlease send us an e-mail to '%email%'\nattaching the following crash dump file:\n\n%dump_file%\n\nAfter pressing 'Send Report' button, a default mailer program \nwill be opened with composed message.</msgTemplate>
+        <MailSubjectTemplate>% اسم _ الطبيق% %نسخة_التطبيق % تقرير بق</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file '%dump_file%')\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <btnSend>ارسل تقرير (موصى به)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>مهام اخرى:</other_tasks>
+        <install_service>(تثبيت خدمة التتبع (ميزة 'تثبيت وتتبع'</install_service>
+        <control_panel_icon_text>اضافة رمز اداة الغاء تثبيت لوحة التحكم</control_panel_icon_text>
+        <installing_driver>تثبيت برنامج تشغيل النواة...</installing_driver>
+        <ut_initializing>اداة الغاء التثبيت تتم تهيئتها...</ut_initializing>
+        <pin_to_taskbar_text>تثبيت ايقونة اداة الغاء التثبيت في شريط المهام</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

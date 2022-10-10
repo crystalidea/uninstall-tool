@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.5" LangID="1038" Author="Zityi&apos;s Translator Te@m">
+    <MainMenu>
+        <mnuFile>&amp;Fájl</mnuFile>
+        <mnuFileExport>&amp;Exportálás HTML formátumba...</mnuFileExport>
+        <mnuFileExit>Kilépés</mnuFileExit>
+        <mnuAction>Művelet</mnuAction>
+        <mnuActionUninstall>Eltávolítás...</mnuActionUninstall>
+        <mnuActionModify>&amp;Módosítás...</mnuActionModify>
+        <mnuActionDelete>Kényszerített eltávolítás</mnuActionDelete>
+        <mnuActionDeleteBatch>Csoportos &amp;kényszerített eltávolítás</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>Bejegyzés törlése</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>&amp;Bejegyzések csoportos eltávolítása</mnuActionRemoveEntryBatch>
+        <mnuTracedData>Felügyelt adat</mnuTracedData>
+        <mnuTracedDataAsXML>Megjelenítés XML fájlként...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>Felügyelet visszavonása</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Felügyelt adat hozzáfűzése (Telepítés és felügyelet)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;Rendszerleíró bejegyzés</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>Telepítési mappa</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>&amp;Program weboldal</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Megnyitás a Windows Store-ban</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Hely keresése...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>Forrás keresése...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Google</mnuActionGoogleFor>
+        <mnuView>Nézet</mnuView>
+        <mnuViewMainToolbar>Fő eszköztár</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>Fő eszköztár megjelenítése</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>Gombfeliratok megjelenítése az ikonok alatt</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>Másodlagos eszköztár</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>Frissítés</mnuViewRefresh>
+        <mnuViewListColumnsReset>Oszlopok visszaállítása</mnuViewListColumnsReset>
+        <mnuViewLanguage>Felhasználói felület nyelve</mnuViewLanguage>
+        <mnuTools>Eszközök</mnuTools>
+        <mnuToolsSystemTools>Rendszereszközök</mnuToolsSystemTools>
+        <mnuToolsAddRemove>Programok hozzáadása/eltávolítása...</mnuToolsAddRemove>
+        <mnuToolsComponents>Windows összetevők...</mnuToolsComponents>
+        <mnuToolsSystemRestore>Rendszer-visszaállítás</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>Biztonsági központ</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>Rendszer tulajdonságok</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>Rendszerinformáció</mnuToolsSystemInfo>
+        <mnuToolsDefrag>Lemez töredezettségmentesítő</mnuToolsDefrag>
+        <mnuToolsServices>Szolgáltatások</mnuToolsServices>
+        <mnuToolsTaskScheduler>Feladatütemező</mnuToolsTaskScheduler>
+        <mnuToolsOptions>Beállítások...</mnuToolsOptions>
+        <mnuHelp>Súgó</mnuHelp>
+        <mnuHelpOnline>Online súgó..</mnuHelpOnline>
+        <mnuHelpHomePage>Weboldal</mnuHelpHomePage>
+        <mnuHelpSupport>Támogatás</mnuHelpSupport>
+        <mnuHelpBuyNow>Vásárlás...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>Kód megadása</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>Frissítések ellenőrzése...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>Névjegy...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>Programnév</columnProgramName>
+        <columnSize>Méret</columnSize>
+        <columnInstallationDate>Telepítve</columnInstallationDate>
+        <columnTraced>Felügyelt</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;Állítsa vissza&lt;/a&gt; a keresési szűrőt (Esc key) vagy próbáljon meg más kategóriákban böngészni</staticNoItemsMatchingFilterTip>
+        <staticLoading>Betöltés, kis türelmet...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>Állapot</columnStatus>
+        <columnSource>Forrás</columnSource>
+        <columnCompany>Cég</columnCompany>
+        <sourceHKLMRun>HKLM Run</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM RunOnce</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU Run</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
+        <sourceStartMenuAll>StartMenu összes felhasználó</sourceStartMenuAll>
+        <sourceStartMenuCU>StartMenu jelenlegi felhasználó</sourceStartMenuCU>
+        <sourceWindowsTask>Windows feladat</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>Nincsenek programok a(z) '%s' kategóriában</staticNoProgramsInCategory>
+        <staticNoStartupItems>Nincsenek a Windows indításakor automatikusan betöltődő programok.</staticNoStartupItems>
+        <staticNoStartupItemsTip>Manuálisan is &lt;a&gt;hozzáadhat egy új programot&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>Eltávolító</btnUninstaller>
+        <btnUninstallerToolTip>Létező programok eltávolítása vagy új szoftverek telepítése és felügyelete</btnUninstallerToolTip>
+        <btnStartup>Indítópult</btnStartup>
+        <btnStartupToolTip>Rendszerindításkor automatikusan induló programok</btnStartupToolTip>
+        <btnRefresh>Frissítés</btnRefresh>
+        <btnRefreshToolTip>Programlista frissítése</btnRefreshToolTip>
+        <btnPrefs>Beállítások</btnPrefs>
+        <btnPrefsToolTip>Uninstall Tool beállítások</btnPrefsToolTip>
+        <btnHelp>Súgó</btnHelp>
+        <btnHelpToolTip>A program súgójának megjelenítése</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>Alkalmazások</btnApps>
+        <btnAppsToolTip>Alkalmazások</btnAppsToolTip>
+        <btnSystem>Rendszer</btnSystem>
+        <btnSystemToolTip>Rendszer összetevők és frissítések</btnSystemToolTip>
+        <btnHidden>Rejtett</btnHidden>
+        <btnHiddenToolTip>Rejtett összetevők</btnHiddenToolTip>
+        <btnStoreApps>Windows Store alkalmazások</btnStoreApps>
+        <btnStoreAppsToolTip>Alkalmazások telepítve a Windows Store-ból</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>Legutóbb telepített (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Legutóbb telepített/frissített elemek</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Telepítés és felügyelet</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Egy új program telepítése és a fájlrendszerben illetve rendszerleíróban bekövetkező összes módosítás figyelése</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>Eltávolítás</itemUninstallIt>
+        <itemModifyIt>Módosítás</itemModifyIt>
+        <itemDelete>Az összetevők kényszerített eltávolítása</itemDelete>
+        <itemBatchDelete>Az összes nyom csoportos kényszerített eltávolítása</itemBatchDelete>
+        <itemBatchRemoveEntry>Bejegyzések csoportos eltávolítása a listáról</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>%u elem lett kijelölve, de a csoportos végrehajtási módban az elemek maximális száma korlátozva van erre: %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>Mégse</itemCancelWaiting>
+        <itemSearch>Keresés</itemSearch>
+        <itemShortSearchTip>Adja meg a keresendő programot</itemShortSearchTip>
+        <itemVersion>Verzió:</itemVersion>
+        <itemInstalledOn>Telepítési/frissítési dátum:</itemInstalledOn>
+        <itemPublisher>Kiadó:</itemPublisher>
+        <itemRegistryEntry>Rendszerleíró bejegyzés megtekintése</itemRegistryEntry>
+        <itemUninstallInProgress>Eltávolítás folyamatban</itemUninstallInProgress>
+        <itemUninstallInProgressTip>A(z) %s eltávolítása folyamatban, kérjük, várjon míg az eltávolítási folyamat befejeződik...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>A csoportos eltávolítás folyamatban van. Várja meg, amíg az összes alkalmazás eltávolítása befejeződik...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>A módosítás folyamatban</itemModifyInProgress>
+        <itemModifyInProgressTip>A(z) %s módosítása folyamatban, kérjük, várjon míg a módosítási folyamat befejeződik......</itemModifyInProgressTip>
+        <itemNothingFound>Nincs találat!</itemNothingFound>
+        <itemNoItemsMatchingFilter>Nincsenek egyező '%s' programok a(z) %s kategóriában</itemNoItemsMatchingFilter>
+        <itemGroup>Ez egy programokból álló csoport</itemGroup>
+        <itemNoUninstall>A program nem távolítható el normál módon, helyette próbálja meg a Kényszerített eltávolítást.</itemNoUninstall>
+        <itemTracedOnly>Egyéni készlet definiálva egy felügyelt készlet által. Csak a Kényszerített eltávolítás funkció segítségével távolítható el..</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>Indításkor történő futtatás tiltása</itemDisableRunning>
+        <itemEnableRunning>Indításkor történő futtatás engedélyezése</itemEnableRunning>
+        <itemDeleteStartupItem>Törlés a listáról</itemDeleteStartupItem>
+        <itemDisableSelected>A kijelölt elemek letiltása</itemDisableSelected>
+        <itemEnableSelected>A kijelölt elemek engedélyezése</itemEnableSelected>
+        <itemDeleteSelected>A kijelölt elemek törlése a listáról</itemDeleteSelected>
+        <itemMultiplSelected>%u elem kiválasztva</itemMultiplSelected>
+        <itemAddNewStartupItem>Új program hozzáadása...</itemAddNewStartupItem>
+        <itemStatusCaption>Állapot:</itemStatusCaption>
+        <itemStatusRunning>Fut</itemStatusRunning>
+        <itemStatusNotRunning>Nem fut</itemStatusNotRunning>
+        <itemStatusDisabled>Letiltva</itemStatusDisabled>
+        <itemStatusInvalid>Érvénytelen</itemStatusInvalid>
+        <itemCommandLineCaption>Parancssor:</itemCommandLineCaption>
+        <itemSourceCaption>Forrás:</itemSourceCaption>
+        <itemSourceRun_HKLM>Minden felhasználó rendszerleíró Run kulcs</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Jelenlegi felhasználó rendszerleíró Run kulcs</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>Minden felhasználó rendszerleíró Run Once kulcs</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>Jelenlegi felhasználó rendszerleíró Run Once kulcs</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>Minden felhasználó Autorun start menü</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>Jelenlegi felhasználó Autorun start menü</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows feladat ütemezve bejelentkezéskor</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>Új automatikusan induló program hozzáadása</DlgAddNewStartupProgramCaption>
+        <labelStartupType>Indítás típusa:</labelStartupType>
+        <labelPathToExecutableFile>Exe fájl helye:</labelPathToExecutableFile>
+        <labelArguments>Paraméterek (nem kötelező):</labelArguments>
+        <filterExecutableFiles>Exe fájlok</filterExecutableFiles>
+        <filterAllFiles>Minden fájl</filterAllFiles>
+        <checkHighestPriviledges>Feladat futtatása a legmagasabb jogosultságokkal</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>Beállítások</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>Általános</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>Frissítések ellenőrzése programindításkor</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Béta-verziók ellenőrzése</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>Felhasználói felület nyelve:</staticInterfaceLanguage>
+        <checkControlPanelIcon>Uninstall Tool ikon megjelenítés a Vezérlőpultban</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>A programkönyvtár megnyitása a Total Commander használatával (ha telepítve van)</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>Felület</categoryInterface>
+        <checkToolBarCaptions>Eszköztár gombfeliratok megjelenítése</checkToolBarCaptions>
+        <categoryAppList>Alkalmazás lista</categoryAppList>
+        <checkSmallIcons>Kis ikonok</checkSmallIcons>
+        <checkMark32bitApps>32-bites alkalmazások megjelölése</checkMark32bitApps>
+        <frameColorScheme>Színséma</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Fa-szerű szoftverfrissítések (al-elemek):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>Szoftverfrissítések megjelenítése</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Alaphelyzetben összezárt</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Alaphelyzetben kiterjesztett</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Mindig kiterjesztett</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>A szülőelemek listája kiterjeszthető/összevonható az egérrel vagy a billentyűzeten lévő jobbra/balra nyilak segítségével. \n\nA 'Kezdetben összevonva' az alapértelmezett opció, de a felhasználók be tudják állítani a 'Kezdetben kiterjesztett' opciót is az összes frissítés megjelenítéséhez. Az Uninstall Tool 3.3 változatnál korábbi verziót használók a 'Mindig kiterjesztve' opciót használhatják, amely letiltja a kiterjesztés/összevonás szolgáltatást. \n\nHa a keresési szűrőt az összevont tételeknél használja, az automatikusan kiterjesztésre kerül, ha egy vagy több alelem egyezik a szűrővel.</subitemsHelpText>
+        <staticRecentlyInstalled>Legutóbb telepített programok:</staticRecentlyInstalled>
+        <checkDisplayPopup>Felugró ablak megjelenítés a legutóbb telepített programoknál</checkDisplayPopup>
+        <checkHighlighRecent>A legutóbb telepített programok kiemelése</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>Legutóbbi programok megjelenítése a másodlagos eszköztáron</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Eltávolítási varázsló</categoryUninstallWizard>
+        <staticWizardDesctiption>Egy alkalmazás eltávolításakor a beépített Eltávolítási varázsló ™ futtatásával végrehajtható a rendszerleíró és fájlrendszer mélyvizsgálata, a használatlan rendszerleíró bejegyzések és fájlok felderítéséhez. Lehetőség van az automatikus futtatás kiválasztására, letiltható vagy akár megadható az is, hogy minden alkalommal kérdezzen rá az Eltávolítás varázsló futtatására. Az eltávolítás varázsló a felügyelt programoknál minden esetben futtatható.</staticWizardDesctiption>
+        <staticWizardUsage>Eltávolítási varázsló ™ használat:</staticWizardUsage>
+        <comboItemWizardOption1>Indítás elött kérdezzen rá</comboItemWizardOption1>
+        <comboItemWizardOption2>Automatikusan</comboItemWizardOption2>
+        <comboItemWizardOption3>Letiltás</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Eltávolítás varázsló</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>A(z) %s összetevőinek eltávolítása - Eltávolítás Varázsló ™</UninstallWizardCaption>
+        <captionQuestionUninstall>Valóban eltávolítja a(z)a következőt: '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Valóban eltávolítja a(z) %u kiválasztott alkalmazást?</captionQuestionUninstallBatch>
+        <captionUninstalling>%s eltávolítása...</captionUninstalling>
+        <statusUninstallInfo>Az Uninstall Wizard először elindítja az alapértelmezett társított eltávolító programot, és törli a visszamaradt elemeket.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Az Uninstall Wizard először elindítja az alapértelmezett társított eltávolító programot minden alkalmazás esetén. Ezután megjeleníti a visszamaradt elemeket a tisztításhoz. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Normál eltávolítás végrehajtása a beépített eltávolítóval, amely lehet, hogy felhasználói beavatkozást igényel.</statusPerformingUninstall>
+        <statusScanning>A szükségtelen fájlok, mappák és rendszerleíró elemek keresése...</statusScanning>
+        <statusScanningTraced>Az észlelt felesleges elemek listájának létrehozása, kis türelmet...</statusScanningTraced>
+        <statusForceRemoval>A(z) '%s' kényszerített eltávolítása</statusForceRemoval>
+        <statusLeftOverTracesFound>Néhány szükségtelen összetevő még maradt a rendszerben!</statusLeftOverTracesFound>
+        <statusNothingFound>Nem maradt szükségtelen összetevő a rendszerben.</statusNothingFound>
+        <statusAllTracesRemoved>Minden összetevő törölve lett</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>A programösszetevők törlése...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Az Uninstall Tool észlelte, hogy a következő programösszetevők a számítógépen maradtak. Kérjük, vizsgálja át át figyelmesen azokat, majd a kijelölt elemek törléséhez, kattintson a 'Befejezés' gombra.</staticScanStatusFound>
+        <staticScanStatusRemoved>A(z) %s sikeresen el lett távolítva.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>Az összes kiválasztott szükségtelen fájl el lett távolítva.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>Összetevők lista generálása...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Eltávolítási napló</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Részletes eltávolítási naplófájl létrehozása és megnyitása</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Exportálás XML-be</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Vizsgálati eredmények exportálása XML-fájlba</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>Fájlrendszer (%d elem)</treeItemFileSystem>
+        <treeItemRegistry>Rendszerleíró (%d elem)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>Tallózás...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d fájl (%s) és %d rendszerleíró elem maradt a számítógépen</staticOverallInfo>
+        <btnFinish>Befejezés</btnFinish>
+        <btnCancel>Mégse</btnCancel>
+        <btnClose>Bezárás</btnClose>
+        <btnUninstall>Eltávolítás</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>Néhány fájl nem törölhető</Title>
+        <Instruction1>A következő fájlok nem lettek törölve, mivel azokat a rendszer használja:</Instruction1>
+        <Instruction2>Ezek a fájlok automatikusan törlődni fognak a rendszer következő újraindításakor.</Instruction2>
+        <btnReboot>Újraindítás most</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>Kényszeríti a futó folyamatok leállítását?</Title>
+        <Instruction1>A következő folymatok észlelhetők:</Instruction1>
+        <Instruction2>Eltávolítás előtt ajánlott a manuális leállítás, de az Eltávolítás varázslót is használhatja annak kényszerített leállítására.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>Telepítésfelügyelő</InstallTrackerLocalizedName>
+        <Title>Egy program telepítése és felügyelete</Title>
+        <TitleAppend>Telepítés és felügyelet, felügyelt adat hozzáfűzése ehhez: '%s'</TitleAppend>
+        <staticPathToProgram>A telepítőfájl (.exe, .msi) helye:</staticPathToProgram>
+        <staticInstallProgress>Telepítési folyamat:</staticInstallProgress>
+        <checkMinimize>Az Uninstall Tool minimalizálása a tálcára telepítés közben</checkMinimize>
+        <btnInstall>Telepítés és felügyelet</btnInstall>
+        <btnStop>Leállítás</btnStop>
+        <btnSave>Mentés</btnSave>
+        <btnSaveLog>Napló mentése...</btnSaveLog>
+        <btnNoAndRevert>Nem + Visszaállítás</btnNoAndRevert>
+        <staticRevertInfo>A visszaállítás opció kisérletet tesz a telepítés nyomkövetése során az összes fájl rendszer/rendszerleíró elem törlésére</staticRevertInfo>
+        <installTip1>Hajtsa végre a telepítést a szokásos módon, ezalatt az Uninstall Tool nyomon fogja követni azt. A felügyelet automatikusan le lesz állítva, ha az összes folyamat befejeződött vagy manuálisan is leállítható a telepítés végén</installTip1>
+        <installTip2>Kérjük, győződjön meg róla, hogy jelenleg nem fut-e másik telepítési folyamat</installTip2>
+        <installTip3>Ha a jelenlegi program előző veriója telepítve van, elöször el kell távolítania azt az új verzió telepítése elött</installTip3>
+        <trayIconTitle>A(z) '%s' telepítése...</trayIconTitle>
+        <trayIconTooltip>Nézze meg a jobb gombos menüt a leállításhoz vagy tekintse meg a felügyeleti naplót</trayIconTooltip>
+        <trayIconText>Hajtsa végre a telepítést a szokásos módon, ezalatt az Uninstall Tool nyomon fogja követni azt. A felügyelet automatikusan le lesz állítva, ha az összes folyamat befejeződött, vagy manuálisan is leállítható (jobb gombos menü) a telepítés végén</trayIconText>
+        <trayIconMenuProgress>Telepítési folyamat</trayIconMenuProgress>
+        <trayIconMenuStop>Leállítás</trayIconMenuStop>
+        <readMore>További információk</readMore>
+        <installationFiles>Telepítési fájlok</installationFiles>
+        <textFiles>Szövegfájlok</textFiles>
+        <selectInstallFile>Válasszon egy telepítési fájlt</selectInstallFile>
+        <contextMenuCopy>Másolás</contextMenuCopy>
+        <logEventCreateFile>Fájl létrehozása</logEventCreateFile>
+        <logEventCreateFolder>Mappa létrehozása</logEventCreateFolder>
+        <logEventRenameFile>Fájl átnevezése</logEventRenameFile>
+        <logEventRenameFolder>Mappa átnevezése</logEventRenameFolder>
+        <logEventCreateKey>Kulcs létrehozása</logEventCreateKey>
+        <logEventDeleteKey>Kulcs törlése</logEventDeleteKey>
+        <logEventSetValue>Érték beállítása</logEventSetValue>
+        <logEventProcessCreated>Folyamat létrehozva</logEventProcessCreated>
+        <logEventProcessKilled>Folyamat leállítva</logEventProcessKilled>
+        <logEventDeleteOperation>Törlés</logEventDeleteOperation>
+        <logStartingService>Telepítésfelügyeleti szolgáltatás indítása...</logStartingService>
+        <logStartingServiceError1>Hiba: A CisUtMonitor szolgáltatás is leáll</logStartingServiceError1>
+        <logStartingServiceError2>Hiba: CisUtMonitor indítási időtúllépés</logStartingServiceError2>
+        <logStartingServiceError3>Hiba: Nem indítható a CisUtMonitor szolgáltatás (error %u)</logStartingServiceError3>
+        <logStartingServiceError4>Hiba: Nem lehet megnyitni a CisUtMonitor szolgáltatást. Telepítse újra a programot.</logStartingServiceError4>
+        <logServiceStopped>A felügyeleti szolgáltatás le lett állítva</logServiceStopped>
+        <logServiceStopError>Hiba: Nem sikerült leállítani a felügyeleti szolgáltatást</logServiceStopError>
+        <logServiceVersion>Szolgáltatás verzió: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>Felügyeleti verzió: 0x%x, szükséges: 0x%x. Kérjük, telepítse újra a programot.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Figyelem: Az aktív felügyelet leállítása...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>A telepítésfigyelő elindult</logServiceMonitorStarted>
+        <logTrackingStarting>'%s' indítása...</logTrackingStarting>
+        <logTrackingStartingEror>Hiba: A telepítési folyamat nem indítható el (%u hiba)</logTrackingStartingEror>
+        <logTrackingCannotStart>Hiba: A felügyelet nem futtatható. Kérjük, telepítse újra a programot.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>A felügyelet le lett állítva a felhasználó által</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>Az összes telepítési folyamat befejeződött</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>A telepítés befejeződött</logTrackingCompleted>
+        <logTracingAnalyzing>Telepítés elemzése, kis türelmet...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>%u telepítési bejegyzés észlelve</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u telepítési bejegyzés észlelhető:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Kész</logTrackingDone>
+        <logReverting>Módosítások visszaállítása...</logReverting>
+        <logCompleted>Befejeződött</logCompleted>
+        <logMSIServiceWarning>Figyelem: Az MSI-szolgáltatás le van tiltva</logMSIServiceWarning>
+        <logMSIServiceError1>Hiba: Nem sikerült megnyitni az MSI szolgáltatást</logMSIServiceError1>
+        <logMSIServiceError2>Hiba: Nem lehet elindítani az MSI szolgáltatást</logMSIServiceError2>
+        <logMSIServiceError3>Hiba: Nem lehet lekérni az MSI szolgáltatás állapotát</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>Nem volt új telepítési bejegyzés találat a felügyelet során. Általában ez azt jelenti, hogy a program nincs megfelelően telepítve. Azonban, ha biztos abban, hogy a telepítés gond nélkül zajlott, létrehozhat egy új egyéni programot az Alkalmazás listában. Az összes jelenleg talált összetevő, hivatkozni fog rá.</Title>
+        <staticName>Név:</staticName>
+        <checkCreateCustomEntry>Szeretnék létrehozni egy egyéni elemet a listában</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>Többszörös telepítési bejegyzés észlelhető</Caption>
+        <Title>Több telepítési bejegyzés észlelhető a telepítés után a Windows rendszerleíróban. Kérjük, válassza ki a Alkalmazás listában megjelenítendő fő elemet egy speciális ikonnal a 'Felügyelt' oszlopban. Vegye figyelembe, hogy a fő elem felügyelt adatainak eltávolításakor az Uninstall Tool is el fogja távolítani az összes kapcsolódó elem felügyelt elemeit.</Title>
+        <btnSelect>Kiválasztás</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s felügyelt adat</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>A(z) '%s' eltávolítása</Title>
+        <Instruction>Eltávolítja a kapcsolódó elemeket is?</Instruction>
+        <Footer>A(z) '%s' telepítésekor a felügyelet engedélyezése esetén a fenti elemek szintén telepítve lettek. Ez azt jelenti, hogy az Eltávolítás varázsló használatakor minden kapcsolódó felügyelt összetevőt szintén el fognak távolítani. Amikor csak a jelenlegi elem eltávolítását választja, a felügyelt adat figyelmen kivül lesz hagyva és az Eltávolítás varázsló átvizsgálja a jelenlegi programra hivatkozó visszamaradt adatokat.</Footer>
+        <btnOnlyCurrent>Csak %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>'%s' eltávolítása</Title>
+        <Instruction>A következő alkalmazások kapcsolatban állnak egymással, ami azt jelenti, hogy eltávolításuk esetén az összes többi is eltávolításra kerül. Valóban el szeretné távolítani ezeket az alkalmazásokat?</Instruction>
+        <btnUninstallAll>Összes eltávolítása</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>A beépített eltávolító befejezte a feladatot. Végrehajtja a rendszer mélyvizsgálatát a használatlan rendszerleíró bejegyzések és fájlok felderítéséhez?</staticConfirm>
+        <learnMoreAboutWizard>További információ az Eltávolítás varázslóról</learnMoreAboutWizard>
+        <btnYes>Igen</btnYes>
+        <btnNo>Nem</btnNo>
+        <checkDontAskAgain>Jegyezze meg a választásomat és ne kérdezze meg többé (a Beállításokban módosítható)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Az Uninstall Tool névjegye</DlgAboutCaption>
+        <staticWebSite>Weboldal</staticWebSite>
+        <staticSupport>Támogatás</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>A terméket regisztrálta:</staticRegisteredTo>
+        <staticChangeKey>Licenckulcs módosítása</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>Próba-emlékeztető</UnregDlgReminder>
+        <UnregDlgExpired>A próba lejárt</UnregDlgExpired>
+        <staticExpired>A próbaidőszak lejárt. Az alkalmazás tesztelésére 30 napig volt lehetősége.\n\nHa megkedvelte a programot és továbbra is használni szeretné, kattintson a 'Vásárlás' gombra.</staticExpired>
+        <staticTrial>Az Uninstall Tool használatára 30 napig van lehetősége. A próbaidőszak lejárta után, meg kell vásárolnia vagy törölnie kell a számítógépéről.</staticTrial>
+        <btnWebSite>Weboldal</btnWebSite>
+        <staticDaysLeft>%d nap maradt még a kiértékelésből</staticDaysLeft>
+        <btnBuyNow>Vásárlás</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Uninstall Tool aktiválás</EnterKeyDlgCaption>
+        <Title>Kérjük, adja meg a regisztrációs email-ben szereplő nevet és kódot:</Title>
+        <staticName>Regisztrációs név:</staticName>
+        <staticKey>Regisztrációs kulcs:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>Az eltávolítási folyamat sikertelen. \nSzeretné törölni a programbejegyzéseket a rendszerleíró adatbázisból és törli a fájlokat?</msgUninstallFailed>
+        <msgForceRemovalTitle>A(z) '%s' kényszerített eltávolítása</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Csoportos kényszerített eltávolítás</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>Valóban végrehajtja a program kényszerített eltávolítását?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Valóban végrehajtja a következő programok kényszerített eltávolítását?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>A lista bejegyzés kényszerített eltávolításához nem a társított eltávolító lesz használva. Ez csak a programhoz tartozó fájlrendszer és rendszerleíró elemeket fogja törölni. Ez a funkció csak a nem használt vagy érvénytelen lista bejegyzések törlésére használható.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>A felügyelt program kényszerített eltávolítója, ultra gyors és alapos eltávolítást hajt végre a társított eltávolító futtatása nélkül. Ez törli a telepítés során nyomon követett összes fájlt és rendszerleíró elemet.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>A csoportos kényszerített eltávolító nagy körültekintést igénylő speciális funkció. Ez nem fogja futtatni a társított eltávolítókat illetve csak ellenőrzi a hátramaradt fájl rendszer/rendszerleíró elemeket és megjeleníti azokat egy összevont listában, amely precíz felülvizsgálatot igényel. A legalaposabb és legpontosabb eltávolító a programok nyomon követését a telepítésfelügyelővel végzi.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>függő</msgForceRemovalItemDependent>
+        <msgLearnMore>További információk</msgLearnMore>
+        <msgForceRemovalCheck>Rendben, megértem a felelősséget</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>Valóban eltávolítja az Uninstall Tool programot a számítógépről?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>Valóban törli ezt a bejegyzést?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Valóban eltávolítja ezeket a bejegyzéseket?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>Ez a funkció csak az elemet fogja eltávolítani a listáról. A hátramaradó rendszerleíró vagy fájlrendszer elemek nem lesznek törölve. Csak az elárvult vagy érvénytelen listabejegyzések eltávolítására használja ezt a funkciót.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>Nem sikerült törölni az elem rendszerleíró bejegyzését. \nValószínűleg nincs megfelelő jogosultsága a művelet végrehajtásához.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>Valóban megszakítja a jelenlegi program kényszerített eltávolítását?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>A kényszerített megszakítás csak akkor alkalmazható, ha az alapértelmezett eltávolító program lefagy vagy ha Önnek sürgősen le kell állítania az összes jelenleg futó eltávolítási folyamatot. A helyes megszakítási módnak készen kell állnia a program alapértelmezett eltávolítójában, mivel a kényszerített megszakítás kiszámíthatatlan hatásokat okozhat.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>A felügyelt '%s' elem a programok listájában egy speciális ikonnal jelenik meg a "Felügyelt" oszlopban.</msgTracedItem>
+        <msgTracedItemAppended>A felügyelt adat hozzá lett adva az előzőleg felügyelt '%s' elemhez.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Kérjük, vegye figyelembe, hogy az új telepítési elemek függő tételként lesznek kezelve, és később eltávolíthatja azokat közösen az '%s' programmal (jóváhagyás után).</msgTracedItemAppendedNote>
+        <msgUndoTracing>Valóban azt szeretné, hogy az Uninstall Tool törölje a jelenlegi program összes felügyelt adatát?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>Nem lehet megnyitni a CisUtMonitor szolgáltatást. Telepítse újra a programot.</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Az Uninstall Tool felügyeleti szolgáltatás ('CisUtMonitor') nincs telepítve ezen a rendszeren. \n\nSzeretné most telepíteni?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Az Uninstall Tool felügyeleti szolgáltatás ('CisUtMonitor') nincs telepítve ezen a rendszeren.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>A szolgáltatás sikeresen telepítve lett. \n\nAzt később eltávolítható a 'RemoveService.cmd' fájl használatával.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>Szolgáltatás telepítési időtúllépés: %d hibakód</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>A szolgáltatás nem telepíthető - az ok ismeretlen. Kérjük, lépjen kapcsolatba az ügyfélszolgálattal.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Az Uninstall Tool felügyeleti szolgáltatása ('CisUtMonitor') el lett távolítva a számítógépről.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>A telepített 'CisUtMonitor' szolgáltatás verzió (%u) régebbi mint a jelenlegi (%u). \n\nSzeretné frissíteni?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>A legfrissebb szolgáltatás verzió sikeresen telepítve lett. A telepítésfelügyelő futtatása elött újra kell indítani a számítógépet.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>Nem menthető, mivel a felügyelt program nem lett telepítve (nem maradtak fájlok/rendszerleíró elemek)</msgNothingToSave>
+        <msgCancelTracing>Valóban megszakítja a jelenlegi telepítésfelügyeletet?</msgCancelTracing>
+        <msgStopTracing>A telepítésfelügyelet most le fog állni. Menteni szeretné a jelenlegi felügyeleti eredményeket?</msgStopTracing>
+        <msgEntryAlreadyExists>A(z) '%s' program már szerepel a listán, kérjük, válasszon egy másik nevet.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>Ez a művelet teljesen törölni fogja a bejegyzést a rendszerleíróból (start menü). \n\nValóban végrehajtja ezt a műveletet?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>Hiba történt az új automatikusan induló elem hozzáadásakor. Kérjük, ellenőrizze a rendszergazdai jogosultságokat vagy lépjen kapcsolatba ügyfélszolgálatunkkal.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>Nem lehet módosítani ezeket a tulajdonság bejegyzéseket. Lehetséges, hogy nincs elegendő jogosultsága.\n\nSegítségért, lépjen kapcsolatba a rendszergazdával.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>Valóban eltávolítja ezeket az elemeket?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>Ez el fogja távolítani az elemeket a rendszerleíróból (start menü) és azok többé nem fognak futni a Windows indításakor.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>A regisztráció érvényesítéséhez újra kell indítani a programot. \n\nÚjraindítja most?</msgRegRestartRequired>
+        <msgNewVersionAvailable>Új %s verzió érhető el.</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>Jelenlegi verzió: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>Újdonságok:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Letöltés most</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Portable verzió letöltési link</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>Jelenleg a legfrissebb verziót használja.</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>Nem lehet csatlakozni a crystalidea.com weboldalához. Kérjük, ellenőrizze az internetkapcsolatot</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>Az Uninstall Tool 32-bites verziója nem futtatható 64-bit Windows-on, mivel csak a 32-bites alkalmazásokat jeleniti meg és széles körű korlátozásokkal rendelkezik. Erősen ajánlott, hogy töltse le és telepítse újra az Uninstall Tool programot ezen a gépen (ez automatikusan ki fogja választani 64 bites verziót a 64 bites Windows észlelése esetén).</msgRunningInWow64>
+        <msgRunningInWow64Title>Futtatás WOW64-es környezetben</msgRunningInWow64Title>
+        <msgCannotStartHelper>Az 'UninstallToolHelper.exe' folyamat nem indítható. \n\nKérjük, telepítse újra a programot.</msgCannotStartHelper>
+        <msgUninstallingMyself>Valóban eltávolítja az Uninstall Tool beállításait és az összes adatot a felügyelt telepítésekről?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Nem lehet létrehozni a fájlt:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>REGISZTRÁLATLAN VERZIÓ</txtUnregisteredBig>
+        <msgNotAvailableInTrial>Ez a funkció, csak a program regisztrált verziójában érhető el.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>Mentheti a hátramaradt adatot és törölheti azt később a Kényszerített eltávolítási funkció használatával a(z) '%s' elemnél az Alkalmazás listában.</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>Mentés és a fennmaradó adatok törlése később</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML fájlok</htmlFiles>
+        <allFiles>Minden fájl</allFiles>
+        <generatedByOn>%s által létrehozva itt: %s</generatedByOn>
+        <installedPrograms>Telepített programok (%s)</installedPrograms>
+        <startupPrograms>Automatikusan induló programok</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>OK</btnOK>
+        <btnCancel>Mégse</btnCancel>
+        <btnHelp>Súgó</btnHelp>
+        <btnYes>Igen</btnYes>
+        <btnNo>Nem</btnNo>
+        <btnClose>Bezárás</btnClose>
+        <statusTotalInfo>%d program %s összesen</statusTotalInfo>
+        <statusUnknown>ismeretlen</statusUnknown>
+        <statusRecentItems>legutóbb telepített</statusRecentItems>
+        <statusRecentItemsTip>Legutóbb telepített/módosított programok megjelenítése</statusRecentItemsTip>
+        <statusStartupTotalInfo>Összesen %d program, %d fut jelenleg</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>Lefoglalt méret kiszámítása... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>Elérhető új verzió:</statusNewVersionAvailable>
+        <popupNewProgramsFound>%d új program található!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Ne értesítsen legközelebb</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Windows frissítések</WindowsUpdatesText>
+        <UninstallToolDescription>Programok teljes eltávolítása. Szoftvertelepítés és felügyelet. Automatikusan induló programok kezelése</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>Telepítés és felügyelet a Telepítésfigyelővel...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>Telepítés és a program által a számítógépen végrehajtott összes módosítás figyelése</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Kezeletlen kivétel</msgTitleTemplate>
+        <msgTemplate>Sajnáljuk, de egy kezeletlen kivétel történt és az \n%app_name% instabillá vált. \nKérjük, küldjön egy e-mailt a '%email%' címre\ncsatolva a következő fájlt:\n\n%dump_file%\n\nA 'Jelentés küldése' gomb megnyomása után, az alapértelmezett levelező program \nfogja megnyitni az összeállított üzenetet.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% hibajelentés</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file '%dump_file%')\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <btnSend>Jelentés küldése (Ajánlott)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>Egyéb feladatok:</other_tasks>
+        <install_service>Telepítésfelügyeleti szolgáltatás ('Telepítés és felügyelet' funkció)</install_service>
+        <control_panel_icon_text>Uninstall Tool ikon hozzáadása a Vezérlőpulthoz</control_panel_icon_text>
+        <installing_driver>Kernel-illesztőprogram telepítése...</installing_driver>
+        <ut_initializing>Az Uninstall Tool előkészítése...</ut_initializing>
+        <pin_to_taskbar_text>Uninstall Tool ikon rögzítése a tálcán</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

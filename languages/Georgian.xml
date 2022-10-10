@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.2" LangID="1079" Author="WTF905: mirza.b.1695@gmail.com">
+    <MainMenu>
+        <mnuFile>&amp;ფაილი</mnuFile>
+        <mnuFileExport>&amp;HTML-ში ექსპორტირება...</mnuFileExport>
+        <mnuFileExit>გ&amp;ამოსვლა</mnuFileExit>
+        <mnuAction>&amp;მოქმედება</mnuAction>
+        <mnuActionUninstall>&amp;დეინსტალაცია...</mnuActionUninstall>
+        <mnuActionModify>&amp;შეცვლა...</mnuActionModify>
+        <mnuActionDelete>&amp;იძულებითი დეინსტალაცია</mnuActionDelete>
+        <mnuActionDeleteBatch>ერთდროული &amp;იძულებითი დეინსტალაცია</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>ჩანაწერის &amp;მოცილება</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>ერთდროული ჩანაწერების &amp;მოცილება</mnuActionRemoveEntryBatch>
+        <mnuTracedData>დაკვირვების ინფორმაცია</mnuTracedData>
+        <mnuTracedDataAsXML>ნახვა როგორც XML...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>დაკვირვების გაუქმება</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Append traced data (Install and Trace)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;რეესტრის ჩანაწერი</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>&amp;შემცველი საქაღალდის გახსნა</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>&amp;პროგრამის ვებ-გვერდი</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>შემცველი საქაღალდის გახსნა...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>წყაროს ნახვა...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Google-ში ძებნა</mnuActionGoogleFor>
+        <mnuView>&amp;ხედი</mnuView>
+        <mnuViewMainToolbar>მთავარი ხელსაწყოთა პანელი</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>მთავარი ხელსაწყოთა პანელის ჩვენება</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>ღილაკებზე ტექსტის გამოჩენა</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>მეორადი ხელსაწყოთა პანელი</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;განახლება</mnuViewRefresh>
+        <mnuViewListColumnsReset>სვეტების ჩამოყრა</mnuViewListColumnsReset>
+        <mnuViewLanguage>ენა</mnuViewLanguage>
+        <mnuTools>&amp;ხელსაწყოები</mnuTools>
+        <mnuToolsSystemTools>სისტემური ხელსაწყოები</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;პროგრამის დამატება/მოცილება...</mnuToolsAddRemove>
+        <mnuToolsComponents>Windows-ის &amp;კომპონენტები...</mnuToolsComponents>
+        <mnuToolsSystemRestore>სისტემის აღდგენა</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>დაცვის ცენტრი</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>სისტემის პარამეტრები</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>ინფორმაცია სისტემაზე</mnuToolsSystemInfo>
+        <mnuToolsDefrag>დისკის დეფრაგმეტატორი</mnuToolsDefrag>
+        <mnuToolsServices>სერვისები</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;პარამეტრები...</mnuToolsOptions>
+        <mnuHelp>&amp;დახმარება</mnuHelp>
+        <mnuHelpOnline>&amp;დახმარების ფაილი...</mnuHelpOnline>
+        <mnuHelpHomePage>&amp;საწყისი გვერდი</mnuHelpHomePage>
+        <mnuHelpSupport>&amp;მხარდაჭერა</mnuHelpSupport>
+        <mnuHelpBuyNow>&amp;ყიდვა...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>&amp;კოდის შეყვანა...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>განახლების &amp;შემოწმება...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;პროგრამის შესახებ...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>პროგრამის სახელი</columnProgramName>
+        <columnSize>ზომა</columnSize>
+        <columnInstallationDate>ინსტალაციის თარიღი</columnInstallationDate>
+        <columnTraced>დაკვირვებული</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;ჩამოყარეთ&lt;/a&gt; ძებნის ფილტრი (Esc ღილაკით) ან სცადეთ სხვა კატეგორიებში ძებნა</staticNoItemsMatchingFilterTip>
+        <staticLoading>იტვირთება, გთხოვთ დაელოდეთ...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>მდგომარეობა</columnStatus>
+        <columnSource>წყარო</columnSource>
+        <columnCompany>მწარმოებელი</columnCompany>
+        <sourceHKLMRun>HKLM - გაშვება</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM - ერთჯერადი გაშვება</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU - გაშვება</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU - ერთჯერადი გაშვება</sourceHKCURunOnce>
+        <sourceStartMenuAll>სტარტ-მენიუ - ყველა მომხმარებელი</sourceStartMenuAll>
+        <sourceStartMenuCU>სტარტ-მენიუ - მიმდინარე მომხმარებელი</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems>არ არის პროგრამები რომლებიც ავტომატურად ეშვებიან სისტემის ჩართვისას</staticNoStartupItems>
+        <staticNoStartupItemsTip>თქვენ შეგიძლიათ თვითონ &lt;a&gt;დაამატოთ ახალი პროგრამა&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>დეინსტალატორი</btnUninstaller>
+        <btnUninstallerToolTip>არსებული პროგრამის წაშლა ან ახალი პროგრამის დაყენება და დაკვირვება</btnUninstallerToolTip>
+        <btnStartup>ავტოგაშვება</btnStartup>
+        <btnStartupToolTip>პროგრამები, რომლებიც სისტემასთან ერთად ეშვებიან</btnStartupToolTip>
+        <btnRefresh>განახლება</btnRefresh>
+        <btnRefreshToolTip>პროგრამათა სიის განახლება</btnRefreshToolTip>
+        <btnPrefs>პარამეტრები</btnPrefs>
+        <btnPrefsToolTip>პროგრამის პარამეტრებში შესვლა</btnPrefsToolTip>
+        <btnHelp>დახმარება</btnHelp>
+        <btnHelpToolTip>დახმარების ფაილის გახსნა</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>პროგრამები</btnApps>
+        <btnAppsToolTip>პროგრამები</btnAppsToolTip>
+        <btnSystem>სისტემა</btnSystem>
+        <btnSystemToolTip>სისტემის განახლებები და კომპონენტები</btnSystemToolTip>
+        <btnHidden>უჩინარი</btnHidden>
+        <btnHiddenToolTip>უჩინარი კომპონენტები</btnHiddenToolTip>
+        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>ახლად დაინსტალირებული (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>ახლად დაინსტალირებული/განახლებული ელემენტები</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>დააყენე და დააკვირდი</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>ახალი პროგრამის ინსტალაცია და დაკვირვება ცვლილებებზე ფაილურ სისტემასა და რეესტრში</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>დეინსტალაცია</itemUninstallIt>
+        <itemModifyIt>მოდიფიკაცია</itemModifyIt>
+        <itemDelete>იძულებითი დეინსტალაცია</itemDelete>
+        <itemBatchDelete>ყველა ელემენტის ერთდროული იძულებითი დეინსტალაცია</itemBatchDelete>
+        <itemBatchRemoveEntry>ჩანაწერების ერთდროული მოცილება სიიდან</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>თქვენ აირჩიეთ %u ელემენტი მაგრამ ერთდროულ ოპერაციებში ელემენტების მაქსიმალური რიცხვი შეზღუდულია %u-მდე</itemBatchLimitationWarning>
+        <itemCancelWaiting>გაუქმება</itemCancelWaiting>
+        <itemSearch>ძებნა</itemSearch>
+        <itemShortSearchTip>პროგრამის ძებნა</itemShortSearchTip>
+        <itemVersion>ვერსია:</itemVersion>
+        <itemInstalledOn>ინსტალაციის თარიღი:</itemInstalledOn>
+        <itemPublisher>მწარმოებელი:</itemPublisher>
+        <itemRegistryEntry>რეესტრის ჩანაწერის ნახვა</itemRegistryEntry>
+        <itemUninstallInProgress>მიმდინარეობს დეინსტალაცია</itemUninstallInProgress>
+        <itemUninstallInProgressTip>მიმდინარეობს %s-ის დეინსტალაცია. გთხოვთ, მოიცადოთ სანამ დეინსტალაციის პროცესი დასრულდება...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>მიმდინარეობს მოდიფიკაცია</itemModifyInProgress>
+        <itemModifyInProgressTip>მიმდინარეობს %s-ის მოდიფიკაცია. გთხოვთ, მოიცადოთ სანამ მოდიფიკაციის პროცესი დასრულდება...</itemModifyInProgressTip>
+        <itemNothingFound>არაფერი მოიძებნა!</itemNothingFound>
+        <itemNoItemsMatchingFilter>არ მოიძებნა პროგრამები რომლებიც ემთხვევა საძიებო სიტყვას '%s' კატეგორიაში - %s</itemNoItemsMatchingFilter>
+        <itemGroup>ეს არის პროგრამების ჯგუფი</itemGroup>
+        <itemNoUninstall>შეუძლებელია პროგრამის წაშლა ნორმალური გზით. თქვენ შეგიძლიათ ისარგებლოთ იძულებითი დეინსტალაციის ფუნქციით.</itemNoUninstall>
+        <itemTracedOnly>მომხმარებლის ჩანაწერი, განსაზღვრული დაკვირვების ინფორმაციით. წაშლა შესაძლებელია მხოლოდ იძულებითი დესინტალაციის გზით.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>ავტოგაშვების გათიშვა</itemDisableRunning>
+        <itemEnableRunning>ავტოგაშვების ჩართვა</itemEnableRunning>
+        <itemDeleteStartupItem>სიიდან წაშლა</itemDeleteStartupItem>
+        <itemDisableSelected>არჩეული ელემენტების გამორთვა</itemDisableSelected>
+        <itemEnableSelected>არჩეული ელემენტების ჩართვა</itemEnableSelected>
+        <itemDeleteSelected>არჩეული ელემენტების წაშლა სიიდან</itemDeleteSelected>
+        <itemMultiplSelected>არჩეულია %u ელემენტი</itemMultiplSelected>
+        <itemAddNewStartupItem>პროგრამის დამატება...</itemAddNewStartupItem>
+        <itemStatusCaption>მდგომარეობა:</itemStatusCaption>
+        <itemStatusRunning>გაშვებულია</itemStatusRunning>
+        <itemStatusNotRunning>არ არის გაშვებული</itemStatusNotRunning>
+        <itemStatusDisabled>გათიშულია</itemStatusDisabled>
+        <itemStatusInvalid>Invalid</itemStatusInvalid>
+        <itemCommandLineCaption>ბრძანების ხაზი:</itemCommandLineCaption>
+        <itemSourceCaption>წყარო:</itemSourceCaption>
+        <itemSourceRun_HKLM>რეესტრი (ყველა მომხმარებელი)</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>რეესტრი (მიმდინარე მომხმარებელი)</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>რეესტრი - ერთჯერადი გაშვება (ყველა მომხმარებელი)</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>რეესტრი - ერთჯერადი გაშვება (მიმდინარე მომხმარებელი)</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>სტარტ-მენიუ\ავტოგაშვება (ყველა მომხმარებელი)</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>სტარტ-მენიუ\ავტოგაშვება (მიმდინარე მომხმარებელი)</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>ავტოგაშვების ჩანაწერის დამატება</DlgAddNewStartupProgramCaption>
+        <labelStartupType>ავტოგაშვების რეჟიმი:</labelStartupType>
+        <labelPathToExecutableFile>გამშვები ფაილის მისამართი:</labelPathToExecutableFile>
+        <labelArguments>პარამეტრები (სავალდებულო არ არის):</labelArguments>
+        <filterExecutableFiles>გამშვები ფაილები</filterExecutableFiles>
+        <filterAllFiles>ყველა ფაილი</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>პარამეტრები</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>მთავარი</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>განახლებაზე შემოწმება პროგრამის ჩართვისას</checkCheckForUpdates>
+        <checkCheckForBetaVersions>ბეტა ვერსიების შემოწმება</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>ენა:</staticInterfaceLanguage>
+        <checkControlPanelIcon>Uninstall Tool-ის ხატულის დამატება მართვის პანელში</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>პროგრამის საქაღალდის Total Commander-ით გახსნა (თუ დაინსტალირებულია)</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>იერსახე</categoryInterface>
+        <checkToolBarCaptions>ხელსაწყოთა პანელში ღილაკებზე ტექსტის გამოჩენა</checkToolBarCaptions>
+        <categoryAppList>პროგრამათა სია</categoryAppList>
+        <checkSmallIcons>პატარა ხატულები</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>ფერები</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Tree-like software updates (sub-items):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>&amp;პროგრამების განახლების ჩვენება</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Initially collapsed</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Initially expanded</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Always expanded</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Parent items can be expanded/collapsed with mouse or using Left/Right keyboard keys. \n\n'Initially collapsed' is recommended option, but users are able to set 'Initially expanded' to display all updates initially. Users who get used to Uninstall Tool versions prior to 3.3 can choose 'Always expanded' option which also disables expand/collapse functionality. \n\nWhen using search filter collapsed items are expanded automatically if one or more sub-items matches the filter.</subitemsHelpText>
+        <staticRecentlyInstalled>ახლად დაინსტალირებული პროგრამები:</staticRecentlyInstalled>
+        <checkDisplayPopup>ახლად დაინსტალირებული პროგრამების მცირე ფანჯარაში ჩვენება</checkDisplayPopup>
+        <checkHighlighRecent>ახლად დაინსტალირებული პროგრამების გამოყოფა</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>ახლად დაინსტალირებული პროგრამების ჩვენება მეორად ხელსაწყოთა პანელში</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>დეინსტალაციის ოსტატი</categoryUninstallWizard>
+        <staticWizardDesctiption>პროგრამის დეინსტალაციისას, ჩაშენებული დეინსტალატორის მუშაობის დასრულების შემდეგ, დეინსტალაციის ოსტატის მეშვებით შესაძლებელია ნარჩენი ფაილებისა და რეესტრის ჩანაწერების ძებნა. შესაძლებელია ამ ფუნქციის ავტომატურად გაშვება, გათიშვა ან ყოველი პროგრამის დეინსტალაციისას თქვენგან დამოწმების მოთხოვნა.</staticWizardDesctiption>
+        <staticWizardUsage>დეინსტალაციის ოსტატის მოხმარება:</staticWizardUsage>
+        <comboItemWizardOption1>დამეკითხე ვიდრე გაუშვებ</comboItemWizardOption1>
+        <comboItemWizardOption2>ავტომატურად</comboItemWizardOption2>
+        <comboItemWizardOption3>გათიშვა</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>დეინსტალაციის ოსტატი</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>%s-ის ნარჩენი ელემენტების მოცილება - დეინსტალაციის ოსტატი</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>მიმდინარეობს ნარჩენი ფაილების, საქაღალდების და რეესტრის ჩანაწერების ძებნა...</statusScanning>
+        <statusScanningTraced>მიმდინარეობს დაკვირვების ინფორმაციის გენერირება, გთხოვთ დაელოდეთ...</statusScanningTraced>
+        <statusForceRemoval>'%s'-ის იძულებითი დეინსტალაცია</statusForceRemoval>
+        <statusLeftOverTracesFound>ნაპოვნია რამდენიმე ნარჩენი ელემენტი!</statusLeftOverTracesFound>
+        <statusNothingFound>ნარჩენი ელემენტები არ მოიძებნა.</statusNothingFound>
+        <statusAllTracesRemoved>მოცილებულია ყველა ნარჩენი ელემენტი</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>მიმდინარეობს პროგრამის ნარჩენების წაშლა...</statusDeletingProgramTraces>
+        <staticScanStatusFound>კომპიუტერში აღმოჩენილია პროგრამის ნარჩენი ფაილები. მონიშნეთ ელემენტები, რომელთა წაშლაც გსურთ და დააჭირეთ ღილაკს 'დასრულება'.</staticScanStatusFound>
+        <staticScanStatusRemoved>%s-(ი) წაიშალა.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>All selected leftovers have been successfully removed.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>მიმდინარეობს ნარჩენი ელემენტების სიის შედგენა...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>ფაილური სისტემა (%d ელემენტი)</treeItemFileSystem>
+        <treeItemRegistry>რეესტრი (%d ელემენტი)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>მითითება...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>კომპიუტერში დატოვებულია %d ფაილი (%s) და %d რეესტრის ჩანაწერი</staticOverallInfo>
+        <btnFinish>დასრულება</btnFinish>
+        <btnCancel>გაუქმება</btnCancel>
+        <btnClose>დახურვა</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>ზოგიერთი ფაილი არ წაიშალა</Title>
+        <Instruction1>შემდეგი ფაილები ამ მომენტისათვის არიან სისტემის მოქმედების ქვეშ და მათი წაშლა შეუძლებელია:</Instruction1>
+        <Instruction2>ეს ფაილები ავტომატურად წაიშლება სისტემის მომდევნო ჩართვისას.</Instruction2>
+        <btnReboot>გადატვირთვა ახლა</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>გსურთ გაშვებული პროცესების იძულებითი დასრულება?</Title>
+        <Instruction1>აღნოჩენილია შემდეგი მიმდინარე პროცესები:</Instruction1>
+        <Instruction2>რეკომენდირებულია მათი ხელით დასრულება (თუ შესაძლებელია) პროგრამის წაშლამდე, თუმცა დეინსტალაციის ოსტატს შეუძლია მათი იძულებითი დასრულება.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>ინსტალაციის მონიტორი</InstallTrackerLocalizedName>
+        <Title>პროგრამის ინსტალაცია და დაკვირვება</Title>
+        <TitleAppend>Install and Trace, append traced data to '%s'</TitleAppend>
+        <staticPathToProgram>საინსტალაციო პროგრამის გზა (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>ინსტალაციის პროგრესი:</staticInstallProgress>
+        <checkMinimize>Uninstall Tool-ის tray-ში ჩაკეცვა ინსტალაციის პროცესში</checkMinimize>
+        <btnInstall>ინსტალაცია და დაკვირვება</btnInstall>
+        <btnStop>გაჩერება</btnStop>
+        <btnSave>შენახვა</btnSave>
+        <btnSaveLog>ლოგის შენახვა...</btnSaveLog>
+        <btnNoAndRevert>არა + დაბრუნება</btnNoAndRevert>
+        <staticRevertInfo>დაბრუნების ფუნქცია შეეცდება წაშალოს ყველა ფაილი/რეესტრის გასაღები, რომლებიც შეიქმნენ ინსტალაციის პროცესში</staticRevertInfo>
+        <installTip1>მიყევით ინსტალაციას ჩვეულებრივად სანამ Uninstall Tool-ი ახდენს მის მონიტორინგს. მონიტორინგი გაჩერდება ავტომატურად როცა ყველა პროცესი დასრულდება ან თქვენ უნდა გააჩეროთ ის როცა ინსტალაცია დასრულდება</installTip1>
+        <installTip2>გთხოვთ დარწმუნდით, რომ არ მიმდინარეობს სხვა ინსტალაციის პროცესი</installTip2>
+        <installTip3>თუ ამ პროგრამის სხვა ვერსია უკვე დაინსტალირებულია, თქვენ უნდა წაშალოთ ის ახალი ვერსიის ჩაწერამდე</installTip3>
+        <trayIconTitle>მიმდინარეობს '%s'-ის ინსტალაცია...</trayIconTitle>
+        <trayIconTooltip>ნახეთ კონტექსტური მენიუ რომ შეაჩეროთ ან იხილოთ ინსტალაციის პროცესი</trayIconTooltip>
+        <trayIconText>მიყევით ინსტალაციას ჩვეულებრივად სანამ Uninstall Tool-ი ახდენს მის მონიტორინგს. მონიტორინგი გაჩერდება ავტომატურად როცა ყველა პროცესი დასრულდება ან თქვენ უნდა გააჩეროთ ის (კონტექსტური მენიუდან) როცა ინსტალაცია დასრულდება</trayIconText>
+        <trayIconMenuProgress>ინსტალაციის პროგრესი</trayIconMenuProgress>
+        <trayIconMenuStop>შეჩერება</trayIconMenuStop>
+        <readMore>მეტის გაგება</readMore>
+        <installationFiles>საინსტალაციო ფაილები</installationFiles>
+        <textFiles>ტექსტური ფაილები</textFiles>
+        <selectInstallFile>აირჩიეთ საინსტალაციო ფაილი</selectInstallFile>
+        <contextMenuCopy>კოპირება</contextMenuCopy>
+        <logEventCreateFile>Create File</logEventCreateFile>
+        <logEventCreateFolder>Create Folder</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>Create Key</logEventCreateKey>
+        <logEventDeleteKey>Delete Key</logEventDeleteKey>
+        <logEventSetValue>Set Value</logEventSetValue>
+        <logEventProcessCreated>Process Created</logEventProcessCreated>
+        <logEventProcessKilled>Process Killed</logEventProcessKilled>
+        <logEventDeleteOperation>წაშლა</logEventDeleteOperation>
+        <logStartingService>ინსტალაციის მონიტორის დაწყება...</logStartingService>
+        <logStartingServiceError1>შეცდომა: CisUtMonitor სერვისი ისევ შეჩერების მდგომარეობაშია</logStartingServiceError1>
+        <logStartingServiceError2>შეცდომა: CisUtMonitor startup is timed out</logStartingServiceError2>
+        <logStartingServiceError3>შეცდომა: შეუძლებელია CisUtMonitor სერვისის დაწყება (შეცდომა %u)</logStartingServiceError3>
+        <logStartingServiceError4>შეცდომა: შეუძლებელია CisUtMonitor სერვისის გახსნა. გთხოვთ დააინსტალირეთ პროგრამა ხელახლა.</logStartingServiceError4>
+        <logServiceStopped>მონიტორის სერვისის შეჩერება</logServiceStopped>
+        <logServiceStopError>შეცდომა: შეუძლებელია მონიტორის სერვისის შეჩერება</logServiceStopError>
+        <logServiceVersion>სერვისის ვერსია არის: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>მონიტორის ვერსია არის: 0x%x, უნდა იყოს 0x%x. გთხოვთ დააინსტალირეთ პროგრამა ხელახლა.</logServiceVersionOlder>
+        <logServiceMonitorRunning>გაფრთხილება: აქტიური მონიტორინგის შეჩერება...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>ინსტალაციის მონიტორი დაწყებულია</logServiceMonitorStarted>
+        <logTrackingStarting>%s-ის დაწყება...</logTrackingStarting>
+        <logTrackingStartingEror>შეცდომა: შეუძლებელია ინსტალაციის პროცესის დაწყება (შეცდომა %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>შეცდომა: შეუძლებელია მონიტორის გაშვება. გთხოვთ დააინსტალირეთ პროგრამა ხელახლა.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>მონიტორინგი შეჩერებულია მომხმარებლის მიერ</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>ყველა საინსტალაციო პროცესი დასრულებულია</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>ინსტალაცია დასრულებულია</logTrackingCompleted>
+        <logTracingAnalyzing>მიმდინარეობს ინსტალაციის ანალიზი, გთხოვთ დაელოდეთ...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>აღმოჩენილია %u ინსტალაციის ჩანაწერი</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u new installation entries detected:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Done</logTrackingDone>
+        <logReverting>ცვლილებების გაუქმება...</logReverting>
+        <logCompleted>დასრულებულია</logCompleted>
+        <logMSIServiceWarning>გაფრთხილება: MSI სერვისი გამორთულია</logMSIServiceWarning>
+        <logMSIServiceError1>შეცდომა: შეუძლებელია MSI სერვისის გახსნა</logMSIServiceError1>
+        <logMSIServiceError2>შეცდომა: შეუძლებელია MSI სერვისის გაშვება</logMSIServiceError2>
+        <logMSIServiceError3>შეცდომა: შეუძლებელია MSI სერვისის სტატუსის მიღება</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>ინსტალაციის შემდეგ ვერ იქნა ნაპოვნი ახალი საინსტალაციო ჩანაწერი რეესტრში. ჩვეულებრივ ეს მიუთითებს პროგრამის არასწორ ინსტალაციაზე, მაგრამ თუ თქვენ დარწმუნებული ხართ მის სისწორეში, თქვენ შეგიძლიათ შექმნათ ჩანაწერი პროგრამების სიაში. ყველა ნაპოვნი დაკვირვების ინფორმაცია მიეკუთვნება მას.</Title>
+        <staticName>სახელი:</staticName>
+        <checkCreateCustomEntry>მსურს საკუთარი ელემენტის შექმნა სიაში</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>აღმოჩენილია რამოდენიმე ინსტალაციის ჩანაწერი</Caption>
+        <Title>ინსტალაციის შემდეგ აღმოჩენილია რამოდენიმე საინსტალაციო ჩანაწერი რეესტრში. გთხოვთ, აირჩიეთ მთავარი ელემენტი, რომელიც დაემატება პროგრამების სიაში სპეციალური ნიშნით სვეტში 'დაკვირვებული'. გაითვალისწინეთ, რომ მთავარი ელემენტის წაშლისას Uninstall Tool-ი ასევე წაშლის ყველაფერს რაც დაკავშირებულია მასთან.</Title>
+        <btnSelect>არჩევა</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s-ის დაკვირვების ინფორმაცია</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>'%s'-ის დეინსტალაცია</Title>
+        <Instruction>გსურთ დამოკიდებული პროგრამების მოშლა?</Instruction>
+        <Footer>პროგრამა '%s' დაინსტალირდა ინსტალაციის მონიტორით. ასევე დაინსტალირდა სიაში მოცემული დამოკიდებული პროგრამები. ეს ნიშნავს, რომ დეინსტალაციის დროს ასევე წაიშლება დამოკიდებული პროგრამებიც. თუ აირჩევთ მხოლოდ ამ პროგრამის მოშლას, დაკვირვების ინფორმაცია იქნება იგნორირებული და დეინსტალაციის ოსტატი შეეცდება მოძებნოს ამ პროგრამის ნარჩენები სისტემაში.</Footer>
+        <btnOnlyCurrent>მხოლოდ %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>პროგრამის ჩაშენებულმა დეინსტალატორმა მუშაობა დაასრულა. გსურთ რეესტრის და ფაილური სისტემის გულდასმით შემოწმება და უსარგებლო რეესტრის ჩანაწერებისა და ნარჩენი ფაილებს მოძებნა?</staticConfirm>
+        <learnMoreAboutWizard>ვრცლად, დეინსტალაციის ოსტატის შესახებ</learnMoreAboutWizard>
+        <btnYes>დიახ</btnYes>
+        <btnNo>არა</btnNo>
+        <checkDontAskAgain>დაიმახსოვრე ჩემი არჩევანი და მომავალში აღარ მკითხო (შეცვლა შესაძლებელია პარამეტრებიდან)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Uninstall Tool-ის შესახებ</DlgAboutCaption>
+        <staticWebSite>ვებ-გვერდი</staticWebSite>
+        <staticSupport>მხარდაჭერა</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>პროგრამა რეგისტრირებულია:</staticRegisteredTo>
+        <staticChangeKey>სალიცენზიო კოდის შეცვლა</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>საცდელი ვერსიის მაცნე</UnregDlgReminder>
+        <UnregDlgExpired>საცდელი ვერსიის ვადა გავიდა</UnregDlgExpired>
+        <staticExpired>საცდელი პერიოდი დასრულდა. პროგრამის გამოყენება შეგეძლოთ 30 დღის განმავლობაში.\n\nთუ მოგეწონათ პროგრამა და გსურთ მისი გამოყენება, დააჭირეთ ღილაკს 'შეძენა'.</staticExpired>
+        <staticTrial>Uninstall Tool-ის საცდელი ვერსიის გამოყენება შესაძლებელია 30 დღის განმავლობაში. საცდელი პერიოდის ამოწურვის შემდეგ, უნდა შეიძინოთ იგი, ან წაშალოთ კომპიუტერიდან.</staticTrial>
+        <btnWebSite>ვებ-გვერდი</btnWebSite>
+        <staticDaysLeft>დარჩენილია %d დღე</staticDaysLeft>
+        <btnBuyNow>შეძენა</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>სარეგისტრაციო კოდის შეყვანა</EnterKeyDlgCaption>
+        <Title>გთხოვთ შეიყვანეთ თქვენი სახელი და კოდი რომელიც გამოგეგზავნათ e-mail-ით:</Title>
+        <staticName>სახელი:</staticName>
+        <staticKey>სარეგისტრაციო კოდი:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>დეინსტალაციის პროცესი შეწყდა. \nგსურთ ამ პროგრამის რეესტრის ჩანაწერებისა და ფაილების წაშლა?</msgUninstallFailed>
+        <msgForceRemovalTitle>'%s'-ის იძულებითი დეინსტალაცია</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>ერთდროული იძულებითი დეინსტალაცია</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>ნამდვილად გინდათ ამ პროგრამის იძულებითი წაშლა?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>ნამდვილად გინდათ შემდეგი პროგრამების იძულებითი წაშლა?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>იძულებითი დეინტალაცია არ გაუშვებს პროგრამის ჩაშენებულ დეინსტალატორს. იგი წაშლის მხოლოდ პროგრამის ფაილებს და რეესტრის ჩანაწერებს. ამ ფუნქციის გამოყენება სასურველია მხოლოდ იმ შემთხვევაში, თუ ჩანაწერი დაზიანებულია ან ძველია.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>დაკვირვებული პროგრამის იძულებითი დეინსტალაცია წარმართავს ძალიან სწრაფ და სრულ დეინსტალაციას ჩაშენებული დეინსტალატორის გაშვების გარეშე. მოიშლება ყველა ფაილური სისტემისა და რეესტრის ელემენტი, რომლებიც ნაპოვნი იქნა პროგრამის ინსტალაციის მონიტორინგის დროს.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>ერთდროული იძულებითი დეინსტალაცია არის დამატებითი შესაძლებლობა და გამოყენებულ უნდა იქნას ფრთხილად. ის არ გაუშვებს პროგრამების შესაბამის დეინსტალატორებს. მხოლოდ შეამოწმებს პროგრამის დარჩენილ ფაილებს/რეესტრის ჩანაწერებს და აჩვენებს მათ გაერთიანებულ სიაში, რომელიც მოითხოვს დაწვრილებით გადახედვას. ყველაზე სრული და ზუსტი წაშლა შესრულდება პროგრამებისთვის, რომლებიც დაინსტალირდნენ ინსტალაციის მონიტორით.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>დამოკიდებული</msgForceRemovalItemDependent>
+        <msgLearnMore>მეტის გაგება</msgLearnMore>
+        <msgForceRemovalCheck>დიახ, მე გავივე ყველა პასუხისმგებლობა</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>ნამდვილად გინდათ Uninstall Tool-ის დეინსტალაცია?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>ნამდვილად გინდათ ამ ჩანაწერის მოცილება?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>ნამდვილად გინდათ ამ ჩანაწერების მოცილება?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>ამ ფუნქციის გამოყენებით უსარგებლო რეესტრის ჩანაწერები და ნარჩენი ფაილები არ წაიშლება. წაიშლება მხოლოდ ჩანაწერი ამ სიიდან. ამ ფუნქციის გამოყენება სასურველია მხოლოდ იმ შემთხვევაში, თუ ჩანაწერი დაზიანებულია ან ძველია.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>ამ ელემენტის რეესტრის ჩანაწერის წაშლა ვერ ხერხდება. \nშესაძლოა არ გაქვთ მასთან წვდომის უფლება.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>ნამდვილად გინდათ პროგრამის დეინსტალაციის შეწყვეტა?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>დეინსტალაციის იძულებითი შეწყვეტა შეიძლება განხორციელდეს მხოლოდ იმ შემთხვევაში, როცა ჩაშენებული დეინსტალატორი შეჩერებულია ან თქვენ სასწრაფოდ გინდათ შეწყვიტოთ დეინსტალაციის პროცესი. პროგრამის დეინსტალატორის მუშაობის სწორი შეწყვეტა შესაძლებელია პირდაპირ მასში, რადგან იძულებითმა შეწყვეტამ შეიძლება გამოიწვიოს არასასურველი შედეგები.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>დაკვირვებული ელემენტი '%s' ახლა სიაში აღნიშნულია სპეციალური ნიშნით სვეტში 'დაკვირვებული'.</msgTracedItem>
+        <msgTracedItemAppended>Traced data is now added to the previously traced item '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Please note that new installation items will be treated as dependent entries and can be removed later together with '%s' (upon confirmation).</msgTracedItemAppendedNote>
+        <msgUndoTracing>ნამდვილად გინდათ რომ Uninstall Tool-მა წაშალოს ყველა დაკვირვების ინფორმაცია ამ პროგრამისათვის?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>შეუძლებელია CisUtMonitor სერვისის გახსნა. გთხოვთ დააინსტალიროთ პროგრამა ხელახლა</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Uninstall Tool-ის მონიტორის სერვისი ('CisUtMonitor') არ არის დაყენებული ამ სისტემაში. \n\nგინდათ მისი დაყენება ახლა?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Uninstall Tool-ის მონიტორის სერვისი ('CisUtMonitor') არ არის დაყენებული ამ სისტემაში.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>სერვისი წარმატებით დაინსტალირდა. \n\nთქვენ შეგიძლიათ წაშალოთ ის მოგვიანებით 'RemoveService.cmd' ფაილის დახმარებით.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>სერვისის ინსტალაციის ტაიმაუტი: შეცდომის კოდი %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>უცნობი მიზეზების გამო შეუძლებელია სერვისის დაყენება, გთხოვთ მიმართეთ დახმარებისთვის პროგრამის ტექნიკურ მხარდაჭერას.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Uninstall Tool-ის მონიტორინგის სერვისი ('CisUtMonitor') წაიშალა თქვენი კომპიუტერიდან.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>დაყენებული 'CisUtMonitor' სერვისის ვერსია (%u) უფრო ძველია ვიდრე მიმდინარე (%u). \n\nგინდათ სერვისის განახლება?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>სერვისის უახლესი ვერსია წარმატებით დაინსტალირდა. თქვენ უნდა გადატვირთოთ კომპიუტერი ინსტალაციის მონიტორის გამოყენებამდე.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>შესანახი არაფერია რადგან დაკვირვებული პროგრამა არ იყო დაინსტალირებული (არ არის დარჩენილი ფაილები/რეესტრის ჩანაწერები)</msgNothingToSave>
+        <msgCancelTracing>ნამდვილად გინდათ შეწყვიტოთ მიმდინარე ინსტალაციის მონიტორინგი?</msgCancelTracing>
+        <msgStopTracing>ინსტალაციის მონიტორინგი ახლა გაჩერდება. \n\nგინდათ მიმდინარე დაკვირვების შედეგების შენახვა?</msgStopTracing>
+        <msgEntryAlreadyExists>პროგრამა '%s' უკვე არსებობს სიაში. გთხოვთ, მიუთითეთ სხვა სახელი.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>ნამდვილად გინდათ ავტოგაშვების ჩანაწერის წაშლა?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>ახალი ავტოგაშვების ჩანაწერის დამატების შეცდომა. დარწმუნდით, რომ გაქვთ ადმინისტრატორის უფლებები ან მიმართეთ დახმარებისთვის პროგრამის ტექნიკურ მხარდაჭერას.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>ჩანაწერის თვისების შეცვლა შეუძლებელია. შესაძლოა არ გაქვთ მასთან წვდომის უფლება.\n\nდახმარებისთვის მიმართეთ თქვენი სისტემის ადმინისტრატორს.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>ნამდვილად გინდათ ამ ელემენტების წაშლა?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>ეს წაშლის ზემოთ მოცემულ ელემენტებს რეესტრიდან (სტარტ-მენიუდან) და ისინი აღარ ჩაირთვებიან Windows-ის ჩართვისას.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>რეგისტრაციის დასასრულებლად საჭიროა პროგრამის გადატვირთვა. \n\nგსურთ პროგრამის გადატვირთვა ახლა?</msgRegRestartRequired>
+        <msgNewVersionAvailable>ხელმისაწვდომია %s-ის ახალი ვერსია:</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>მიმდინარე ვერსია: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>რა არის ახალი:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>ბმული პორტატული ვერსიისთვის</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>თქვენ იყენებთ პროგრამის უახლეს ვერსიას</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>CrystalIdea-ს ვებ-გვერდთან დაკავშირება ვერ ხერხდება. შეამოწმეთ თქვენი ინტერნეტ-კავშირი.</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>არ არის რეკომენდირებული Uninstall Tool-ის 32-ბიტიანი ვერსიის გაშვება 64-ბიტიან Windows-ზე, რადგან ის აჩვენებს მხოლოდ 32-ბიტიან პროგრამებს და აქვს ბევრი შეზღუდვები. რეკომენდირებულია გადმოიწეროთ და ხელახლა დააყენოთ Uninstall Tool-ი ამ კომპიუტერზე (ინსტალატორი ავტომატურად დააყენებს 64-ბიტიან ვერსიას).</msgRunningInWow64>
+        <msgRunningInWow64Title>WoW64 გარემოში გაშვება</msgRunningInWow64Title>
+        <msgCannotStartHelper>შეუძლებელია 'x64helper.exe'-ის გაშვება (დამხმარე 64-ბიტიანი Windows-ისათვის). \n\nგთხოვთ დააინსტალიროთ პროგრამა ხელახლა.</msgCannotStartHelper>
+        <msgUninstallingMyself>Do you want to remove Uninstall Tool preferences and all data about traced installations?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Unable to create file:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>საცდელი ვერსია</txtUnregisteredBig>
+        <msgNotAvailableInTrial>ეს შესაძლებლობა ხემისაწვდომია მხოლოდ პროგრამის სრულ ვერსიაში.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>თქვენ შეგიძლიათ შეინახოთ ნარჩენების ინფორმაცია და წაშალოთ ის იძულებითი დეინსტალატორის დახმარებით ელემენტისათვის '%s'. (პროგრამების სიაში)</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>ნარჩენების ინფორმაციის შენახვა და წაშლა მოგვიანებით</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML ფაილები</htmlFiles>
+        <allFiles>ყველა ფაილები</allFiles>
+        <generatedByOn>სია გენერირებულია %s-ის მიერ. გენერირების თარიღი: %s</generatedByOn>
+        <installedPrograms>ინსტალირებული პროგრამები (%s)</installedPrograms>
+        <startupPrograms>ავტოგაშვების პროგრამები</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>კარგი</btnOK>
+        <btnCancel>გაუქმება</btnCancel>
+        <btnHelp>დახმარება</btnHelp>
+        <btnYes>კარგი</btnYes>
+        <btnNo>არა</btnNo>
+        <btnClose>დახურვა</btnClose>
+        <statusTotalInfo>ნაპოვნია %d პროგრამა. მათი საერთო ზომაა: %s</statusTotalInfo>
+        <statusUnknown>უცნობია</statusUnknown>
+        <statusRecentItems>ახლად დაინსტალირებულია</statusRecentItems>
+        <statusRecentItemsTip>ახლად დაინსტალირებული/მოდიფიცირებული პროგრამების ნახვა</statusRecentItemsTip>
+        <statusStartupTotalInfo>სულ %d პროგრამა, ამ მომენტში გაშვებულია %d</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>მიმდინარეობს დაკავებული სივრცის გამოთვლა... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>ხელმისაწვდომია ახალი ვერსია:</statusNewVersionAvailable>
+        <popupNewProgramsFound>ნაპოვნია %d ახალი პროგრამა!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Windows-ის განახლებები</WindowsUpdatesText>
+        <UninstallToolDescription>პროგრამების სრული დეინსტალაცია. პროგრამების ინსტალაცია და დაკვირვება. ავტოგაშვების ჩანაწერების მართვა</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>ინსტალაციის მონიტორი...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>ინსტალაცია და დაკვირვება ყველა ცვლილებზე, რომელსაც განახორციელებს პროგრამა</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Unhandled Exception</msgTitleTemplate>
+        <msgTemplate>We're sorry but an unhandled exception has occurred and \n%app_name% has become unstable. \nPlease send us an e-mail to '%email%'\nattaching the following crash dump file:\n\n%dump_file%\n\nAfter pressing 'Send Report' button, a default mailer program \nwill be opened with composed message.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file %dump_file%)\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <btnSend>Send Report (Recommended)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>სხვა დავალებები:</other_tasks>
+        <install_service>მონიტორის სერვისის ინსტალაცია ('დააყენე და დააკვირდი' ფუნქცია)</install_service>
+        <control_panel_icon_text>Uninstall Tool-ის ხატულის დამატება მართვის პანელში</control_panel_icon_text>
+        <installing_driver>მიმდინარეობს kernel-ის დრაივერის ინსტალაცია...</installing_driver>
+        <ut_initializing>Uninstall Tool-ის ინიციალიზაცია...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

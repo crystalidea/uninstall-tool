@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.3" LangID="1068" Author="Namiq Bandali (a.k.a BNM) (xwingerm@gmail.com)">
+    <MainMenu>
+        <mnuFile>Fayl</mnuFile>
+        <mnuFileExport>HTML kimi yadda saxla...</mnuFileExport>
+        <mnuFileExit>Çıxış</mnuFileExit>
+        <mnuAction>İcra</mnuAction>
+        <mnuActionUninstall>Sil</mnuActionUninstall>
+        <mnuActionModify>Dəyiş...</mnuActionModify>
+        <mnuActionDelete>Reyestrdən sil</mnuActionDelete>
+        <mnuActionDeleteBatch>Batch &amp;Force Removal</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>Yazını sil</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>Kütləvi silinmə &amp;Entries</mnuActionRemoveEntryBatch>
+        <mnuTracedData>İzlənmiş məlumatlar</mnuTracedData>
+        <mnuTracedDataAsXML>XML kimi bax...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>izləmədən imtina</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Append traced data (Install and Trace)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>Reyestr yazısı</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>Proqramın qovluğu</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>Proqramın Veb Səhifəsi</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Proqramın qovluğu...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>Mənbəyə baxış...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Google-da axtar</mnuActionGoogleFor>
+        <mnuView>Görünüş</mnuView>
+        <mnuViewMainToolbar>Əsas alətlər paneli</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>Əsas alətlər panelini göstər</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>Düymələrin altında altyazı göstər</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>Əlavə alətlər paneli</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>Yenilə</mnuViewRefresh>
+        <mnuViewListColumnsReset>Sütunların vəziyyətini sıfırla</mnuViewListColumnsReset>
+        <mnuViewLanguage>Dil seçimi</mnuViewLanguage>
+        <mnuTools>Alətlər</mnuTools>
+        <mnuToolsSystemTools>Sistem alətləri</mnuToolsSystemTools>
+        <mnuToolsAddRemove>Standart "Proqramları Əlavə et/Sil"</mnuToolsAddRemove>
+        <mnuToolsComponents>Windows Komponentləri...</mnuToolsComponents>
+        <mnuToolsSystemRestore>Sistem Bərpası</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>Güvənlik mərkəzi</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>Sistem xüsusiyyətləri</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>Sistem Məlumatı</mnuToolsSystemInfo>
+        <mnuToolsDefrag>Disk Defraqmentçi</mnuToolsDefrag>
+        <mnuToolsServices>Servislər</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>Xüsusiyyətlər...</mnuToolsOptions>
+        <mnuHelp>Kömək</mnuHelp>
+        <mnuHelpOnline>Mündəricat...</mnuHelpOnline>
+        <mnuHelpHomePage>Veb səhifə</mnuHelpHomePage>
+        <mnuHelpSupport>Dəstək</mnuHelpSupport>
+        <mnuHelpBuyNow>Satın al...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>Açarı yaz...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>Yenilənməni yoxla...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>Haqqında...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>Proqram adı</columnProgramName>
+        <columnSize>Ölçü</columnSize>
+        <columnInstallationDate>Qurulma tarixi</columnInstallationDate>
+        <columnTraced>İzlənmişlər</columnTraced>
+        <staticNoItemsMatchingFilterTip>Süzgəcləri &lt;a&gt;Sıfırla&lt;/a&gt; (Esc düyməsi) və ya axtarışı digər proqram qrupunda təkrarlayın</staticNoItemsMatchingFilterTip>
+        <staticLoading>Yüklənir, gözləyin...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>Status</columnStatus>
+        <columnSource>Mənbə</columnSource>
+        <columnCompany>İstehsalçı</columnCompany>
+        <sourceHKLMRun>HKLM işə sal</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM bircə dəfə işə sal</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU işə sal</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU bircə dəfə işə sal</sourceHKCURunOnce>
+        <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
+        <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems>Kompüter işə düşdükdə, sistemlə birlikdə yüklənən proqram tapplmadı.Windows start</staticNoStartupItems>
+        <staticNoStartupItemsTip>Yeni proqram &lt;a&gt;Əlavə et&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>Silici</btnUninstaller>
+        <btnUninstallerToolTip>Hazırki proqramı sil və ya yeni proqramı izləyərək yaz</btnUninstallerToolTip>
+        <btnStartup>Avtobaşlama</btnStartup>
+        <btnStartupToolTip>Sistemlə birlikdə avtomatik yüklənən proqramlar</btnStartupToolTip>
+        <btnRefresh>Yenilə</btnRefresh>
+        <btnRefreshToolTip>Proqram siyahısını yenilə</btnRefreshToolTip>
+        <btnPrefs>Xüsusiyyətlər</btnPrefs>
+        <btnPrefsToolTip>Xüsusiyyətlər pəncərəsini göstər</btnPrefsToolTip>
+        <btnHelp>Kömək</btnHelp>
+        <btnHelpToolTip>Proqram köməkçisi</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>Proqram</btnApps>
+        <btnAppsToolTip>Proqramlar</btnAppsToolTip>
+        <btnSystem>Sistem</btnSystem>
+        <btnSystemToolTip>Sistem komponentləri və yenilənmələri</btnSystemToolTip>
+        <btnHidden>Gizli</btnHidden>
+        <btnHiddenToolTip>Gizli Komponentlər</btnHiddenToolTip>
+        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>Ən son quraşdırılan (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Ən son quraşdırılan/yenilənən proqramlar</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Quraşdır və izlə</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Fayl sistemində və reyestrdə nə dəyişiklik etdiyinə nəzarət edərək, yeni proqram quraşdır</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>Sil</itemUninstallIt>
+        <itemModifyIt>Düzəliş</itemModifyIt>
+        <itemDelete>Məcburi silinmə</itemDelete>
+        <itemBatchDelete>Bütün izləmələrin kütləvi məcburi silinməsi</itemBatchDelete>
+        <itemBatchRemoveEntry>Yazıların reyestrən məcburi kütləvi silinməsi</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>Siz %u element seçmisiniz. Ancaq kütləvi silinmə üçün maksimum element sayı limiti var %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>İmtina</itemCancelWaiting>
+        <itemSearch>Axtar</itemSearch>
+        <itemShortSearchTip>Axtarış üçün sözü daxil edin</itemShortSearchTip>
+        <itemVersion>Versiya:</itemVersion>
+        <itemInstalledOn>Qurulma tarixi:</itemInstalledOn>
+        <itemPublisher>İstehsalçı:</itemPublisher>
+        <itemRegistryEntry>Reyestrdəki yazıya bax</itemRegistryEntry>
+        <itemUninstallInProgress>Silinmə prosesi</itemUninstallInProgress>
+        <itemUninstallInProgressTip>Silinmə %s! Xahiş olunur silinmə başa çatana qədər gözləyəsiniz...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>Komponentlərin dəyişdirilməsi</itemModifyInProgress>
+        <itemModifyInProgressTip>Komponentlərin dəyişdirilməsi %s, Xahiş olunur proses başa çatana qədər gözləyəsiniz...</itemModifyInProgressTip>
+        <itemNothingFound>Heç nə tapılmadı!</itemNothingFound>
+        <itemNoItemsMatchingFilter>%s kateqoriyasında '%s' uyğun gələn heç nə tapılmadı</itemNoItemsMatchingFilter>
+        <itemGroup>Bu proqramlar qrupudur</itemGroup>
+        <itemNoUninstall>Bu proqram normal üsulla silinə bilmir, məcburi silinmədən istifadə edə bilərsiniz.</itemNoUninstall>
+        <itemTracedOnly>Fayl sisteminin və reyestrin izlənməsi dəstindən yaranmış istifadəçi yazısı. Yalnız Məcburi silnmə ilə silinə bilər.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>Başlanğıcda işədüşməni yığışdır</itemDisableRunning>
+        <itemEnableRunning>Başlanğıcda işədüşməni aktivləşdir</itemEnableRunning>
+        <itemDeleteStartupItem>Sil</itemDeleteStartupItem>
+        <itemDisableSelected>Seçilmiş elementləri deaktiv et</itemDisableSelected>
+        <itemEnableSelected>Seçilmiş elementləri aktiv et</itemEnableSelected>
+        <itemDeleteSelected>Seçilmiş elementləri siyahıdan sil</itemDeleteSelected>
+        <itemMultiplSelected>%u element seçilib</itemMultiplSelected>
+        <itemAddNewStartupItem>Yeni proqram əlavə et...</itemAddNewStartupItem>
+        <itemStatusCaption>Status:</itemStatusCaption>
+        <itemStatusRunning>Başlayıb</itemStatusRunning>
+        <itemStatusNotRunning>Başlamayıb</itemStatusNotRunning>
+        <itemStatusDisabled>Passiv</itemStatusDisabled>
+        <itemStatusInvalid>Invalid</itemStatusInvalid>
+        <itemCommandLineCaption>Əmr sətri:</itemCommandLineCaption>
+        <itemSourceCaption>Mənbə:</itemSourceCaption>
+        <itemSourceRun_HKLM>Reyestr (bütün istifadəçilər)</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Reyestr (hazırki istifadəçi)</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>Reyestr -&gt; bir dəfə (bütün istifadəçilər)</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>Reyestr -&gt; bir dəfə (hazırki istifadəçi)</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>Baş menyu (bütün istifadəçilər)</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>Baş menyu (hazırki istifadəçi)</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>Avtobaşlamaya yeni proqram əlavə et</DlgAddNewStartupProgramCaption>
+        <labelStartupType>İcra tipi:</labelStartupType>
+        <labelPathToExecutableFile>İcra faylına olan yol:</labelPathToExecutableFile>
+        <labelArguments>Arqumentlər (qeyri-vacib):</labelArguments>
+        <filterExecutableFiles>İcra olunan fayllar</filterExecutableFiles>
+        <filterAllFiles>Bütün fayllar</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>Xüsusiyyətlər</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>Ümumi</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>Proqramı işə saldıqda proqram yenilənmələrini yoxla</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Beta versiyaları yoxla</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>Proqram dili:</staticInterfaceLanguage>
+        <checkControlPanelIcon>Uninstall Tool işarəsini tapşırıqlar panelində göstər</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>Total Commander istifadə edərək proqramın qovluğuna keç</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>İnterfeys</categoryInterface>
+        <checkToolBarCaptions>Alətlər panelindəki düymələrə altyazı göstər</checkToolBarCaptions>
+        <categoryAppList>Proqram siyahısı</categoryAppList>
+        <checkSmallIcons>Kiçik işarələr</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>Rəng sxemi</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Proqram yenilənmələri şaxəli şəkildə (alt elementlər):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>Proqram yenilənmələrini göstər</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Əvvəlcə bükülmüş</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Əvvəlcə açılmış</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Həmişə açılmış</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Elementləri solunda olan düyməyə siçan vasitəsilə klikləyərək və ya klaviaturanın sola/sağa klavişlərinin köməyi ilə açmaq/bükmək mümkündür.\n\n Elementləri yerə qənaət üçün əvvəlcə bükülmüş halda əks etdirmək tövsiyə edilir, ancaq siz onları proqram işə düşəndə bütün siyahını görmək üçün əvvəlcə açılmış təyin edə bilərsiniz. Uninstall Tool-un 3.3 versiyasından köhnə versiyalarına öyrəşən İstifadəçilər, versiyaların -ə öyrəşmişlər 'Həmişə açılmış' seçimini təyin edib ümumiyyətlə elementlərin qatlanma/açmasını kəsə bilərlər. \n\n Axtarış filtrindən istifadə zamanı əgər bükülmüş elementlərdə uyğun nəticə varsa bükülmüş elementlər avtomatik açılırlar.</subitemsHelpText>
+        <staticRecentlyInstalled>Ən son qurulmuş proqramlar:</staticRecentlyInstalled>
+        <checkDisplayPopup>Ən son qurulmuş proqramlar üçün ayrıca pəncərə göstər</checkDisplayPopup>
+        <checkHighlighRecent>Son qurulmuş proqramları rəngli göstər</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>Ən son qurulmuş proqramları əlavə alətlər panelində göstər</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Silmə ustası</categoryUninstallWizard>
+        <staticWizardDesctiption>Proqramı standart "Proqramları Əlavə et/Sil" vasitəsilə sildikdən sonra Silmə ustası™ proqramın qalıqlarını tapıb silmək üçün Reyestri gözdən keçirə bilər. Silmə ustasının iş rejimini avtomatik olaraq təyin edə bilərsiniz, işləyib işləməməsini seçə bilərsiniz, yaxud işə başlamaq istədikdə sizdən icazə tələb etməsini edə bilərsiniz.</staticWizardDesctiption>
+        <staticWizardUsage>Silmə ustasınını başlat:</staticWizardUsage>
+        <comboItemWizardOption1>Başlamağı soruş</comboItemWizardOption1>
+        <comboItemWizardOption2>Avtomatik</comboItemWizardOption2>
+        <comboItemWizardOption3>Başlatma</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Silmə Ustası</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>Qalıqların silinməsi %s - Silmə ustası ™</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>Faylların/Qovluqların, Reyestr qalıqlarının gözdən keçirilməsi...</statusScanning>
+        <statusScanningTraced>İzlənmiş fayl/qovluqların reyestr qalıqlarının siyahısı yaradılır. Gözləyin...</statusScanningTraced>
+        <statusForceRemoval>MƏcburi silinmə '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>Proqramın bəzi hissələri qalıb</statusLeftOverTracesFound>
+        <statusNothingFound>Proqramın heç bir hissəsi qalmayıb</statusNothingFound>
+        <statusAllTracesRemoved>Proqramın bütün qalıqları silindi</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>Elementlərin silinməsi...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Uninstall Tool təyin etdi ki, bu proqram qalıqları hələ də kompüterinizdə qalmaqdadır. Seçilmiş elementləri silməmişdən öncə diqqətlə araşdırın və silinməyə hazır olduğunda "Sil" düyməsinə basın.</staticScanStatusFound>
+        <staticScanStatusRemoved>%s Uğurla silindi</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>Bütün seçilmiş elementlər silindi.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>Elementlər siyahısı yarat...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>Fayl sistemi (%d element)</treeItemFileSystem>
+        <treeItemRegistry>Reyestr (%d element)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>Baxış...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d Fayl/Qovluq (%s) və %d Reyestr Elementi</staticOverallInfo>
+        <btnFinish>Sil</btnFinish>
+        <btnCancel>İmtina</btnCancel>
+        <btnClose>Bağla</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>Bəzi fayllar silinmədi</Title>
+        <Instruction1>Bu fayllar hazırda sistem tərəfindən istifadə olunur və silinə bilmir:</Instruction1>
+        <Instruction2>Bu fayllar sistem yenidən başladılanda, avtomatik silinəcəklər.</Instruction2>
+        <btnReboot>Yenidən başlat</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>İşləyən prosesləri məcburi dayandır?</Title>
+        <Instruction1>Bu proseslər təyin edildi:</Instruction1>
+        <Instruction2>Prosesləri özünüzün dayandırmanız məsləhət görülür, əks halda Silmə Ustası bunu məcburi olaraq edəcək.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>Quraşdırma izləyicisi</InstallTrackerLocalizedName>
+        <Title>Proqramı quraşdır və izlə</Title>
+        <TitleAppend>Install and Trace, append traced data to '%s'</TitleAppend>
+        <staticPathToProgram>quraşdırma faylının ünvanı (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>Quraşdırma prosesi:</staticInstallProgress>
+        <checkMinimize>Uninstall Tool-u quraşdırma zamanı tapşırıqlar panelinə bük.</checkMinimize>
+        <btnInstall>Quraşdır və izlə</btnInstall>
+        <btnStop>Dayandır</btnStop>
+        <btnSave>Yaddaşa yaz</btnSave>
+        <btnSaveLog>Loqu yaddaşa yaz...</btnSaveLog>
+        <btnNoAndRevert>Yox + İmtina</btnNoAndRevert>
+        <staticRevertInfo>İmtina özündə qurma vaxtı yaradılmış fayl sisteminin və reyestrin bütün elementlərini silmək cəhdini nəzərdə tutur</staticRevertInfo>
+        <installTip1>Proqramları adi qaydada quraşdırın, Uninstall Tool quraşdırma prosesini izləyəcək. İzləmə, bütün quraşdırma prosesi başa çatdıqda avtomatik dayanacaq yaxud siz özünüz onu saxlaya bilərsiniz.</installTip1>
+        <installTip2>Hazırda başqa bir proqram quraşdırmasının aktiv olmadığından əmin olun.</installTip2>
+        <installTip3>Əgər bu proqramın hər hansı versiyası kompüterinizdə artıq quraşdırılıbsa, yeni versiyanı quraşdırmadan əvvəl onu silin.</installTip3>
+        <trayIconTitle>Quraşdırma '%s'...</trayIconTitle>
+        <trayIconTooltip>Quraşdırma prosesini izləmək və ya dayandırmaq üçün siçanın sağ düyməsini sıxın.</trayIconTooltip>
+        <trayIconText>Proqramları adi qaydada quraşdırın, Uninstall Tool quraşdırma prosesini izləyəcək. İzləmə, bütün quraşdırma prosesi başa çatdıqda avtomatik dayanacaq yaxud siz özünüz onu saxlaya bilərsiniz.</trayIconText>
+        <trayIconMenuProgress>Quraşdırma prosesi</trayIconMenuProgress>
+        <trayIconMenuStop>Dayandır</trayIconMenuStop>
+        <readMore>Daha çox</readMore>
+        <installationFiles>Quraşdırma faylları</installationFiles>
+        <textFiles>Mətn faylları</textFiles>
+        <selectInstallFile>Quraşdırma faylını seçin</selectInstallFile>
+        <contextMenuCopy>Köçür</contextMenuCopy>
+        <logEventCreateFile>Fayl yarat</logEventCreateFile>
+        <logEventCreateFolder>Qovluq yarat</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>Açara yarat</logEventCreateKey>
+        <logEventDeleteKey>Açarı sil</logEventDeleteKey>
+        <logEventSetValue>Dəyəri seç</logEventSetValue>
+        <logEventProcessCreated>Proses yaradırldı</logEventProcessCreated>
+        <logEventProcessKilled>Proses dayandırıldı</logEventProcessKilled>
+        <logEventDeleteOperation>Sil</logEventDeleteOperation>
+        <logStartingService>Quraşdırma izləyicisi işə düşür...</logStartingService>
+        <logStartingServiceError1>Xəta: CisUtMonitor xidməti hələ də dayandırılma ərəfəsindədir</logStartingServiceError1>
+        <logStartingServiceError2>Xəta: CisUtMonitor xidməti işə düşməsində VaxtBitti</logStartingServiceError2>
+        <logStartingServiceError3>Xəta: CisUtMonitor xidmətini işə salmaq olmur (səhv %u)</logStartingServiceError3>
+        <logStartingServiceError4>Xəta: CisUtMonitor xidmətini işə salmaq olmur . Proqramı yenidən quraşdırın.</logStartingServiceError4>
+        <logServiceStopped>İzləmə xidməti dayandırıldı</logServiceStopped>
+        <logServiceStopError>Xəta: İzləmə xidmətini dayandırmaq mümkün deyil</logServiceStopError>
+        <logServiceVersion>İzləmə xidmətinin versiyası: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>İzləmə xidmətinin versiyası: 0x%x, Ancaq əslində 0x%x olmalıdır. Proqramı yenidən quraşdırın.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Xəbərdarlıq: Aktiv izləmənin dayandırılması...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>Quraşdırma izləyicisi işə düşdü</logServiceMonitorStarted>
+        <logTrackingStarting>%s işə düşür...</logTrackingStarting>
+        <logTrackingStartingEror>Xəta: Quraşdırma prosesini işə salmaq mümkün deyil (Xəta kodu %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>Xəta: Quraşdırma izləyicisini işə salmaq mümkün deyil. Proqramı yenidən quraşdırın.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>İzləmə, istifadəçi tərəfindən dayandırıldı</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>Qütün quraşdırma prosesləri başa çatdı</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>Quraşdırma başa çatdı</logTrackingCompleted>
+        <logTracingAnalyzing>Quraşdırma analizi, zəhmət olmasa gözləyin...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>%u quraşdırılmış proqram tapıldı</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u new installation entries detected:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Done</logTrackingDone>
+        <logReverting>Dəyişikliklərdən imtina...</logReverting>
+        <logCompleted>Başa çatdı</logCompleted>
+        <logMSIServiceWarning>Xəbərdarlıq: MSI xidməti deaktivdir</logMSIServiceWarning>
+        <logMSIServiceError1>Xəta: MSI xidməti açmaq mümkün deyil</logMSIServiceError1>
+        <logMSIServiceError2>Xəta: MSI xidməti işə salmaq mümkün deyil</logMSIServiceError2>
+        <logMSIServiceError3>Xəta: MSI xidmətin statusunu işə salmaq mümkün deyil</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>İzlənmə zamanı heç bir yeni quraşdırma yazısı tapılmadı. Yəqin ki, bu proqram düzgün quraşdırılmayıb. Ancaq siz bununla razı deyilsinizsə, bu prqorama aid özəl yazını siyahıdan seçə bilərsiniz, belə ki, fayl sistemində və reyestrdə edilən dəyişikliklər, seçdiyiniz yazıya aid olacaq.</Title>
+        <staticName>Ad:</staticName>
+        <checkCreateCustomEntry>Bəli, mən mən proqramlar siyahısında özəl yazı yaratma istəyirəm</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>Bir neçə quraşdırılmış proqram tapıldı</Caption>
+        <Title>Windows reyestrində quraşdırlmış proqramlara aid bir neçə yazı tapıldı.ZƏhmət olmasa əsas elementi siyahıdan seçin - məhz o, proqramlar siyahısında 'İzlənənlər' sütununda, xüsusi simvolla görsənəcək. Nəzərə alın ki, əsas elementi silərkən, Uninstall Tool siyahıdakı onunla əlaqəli bütün proqramları siləcək.</Title>
+        <btnSelect>Seç</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s İzlənmə məlumatı</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>'%s' Silinir</Title>
+        <Instruction>Həmçinin asılı proqramları sil?</Instruction>
+        <Footer>'%s' proqramı Quraşdırma İzləyicisi vasitəsilə quraşdırılıb. Həmçinin aşağıdakı siyahıda göstərilən asılı prqoramlar da quraşdırılıb. Bu o dmeəkdir ki, Silmə Ustası silmə zamanı onları da siləcək. Əgər siz acaq bu proqramı silməyi seçsəniz, Silmə Ustasi asılı proqramları silməyəcək və ancaq bu proqramı qalıqlarıyla birlikdə siləcək.</Footer>
+        <btnOnlyCurrent>Ancaq %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>Yerləşdirlilmiş Silmə proqramı işini başa vurdu. Proqrama aid qalıqları tapmaq üçün fayl sistemini və Reyestri axtarmaq istəyirsiniz?</staticConfirm>
+        <learnMoreAboutWizard>Silmə ustası barədə daha çox məlumat</learnMoreAboutWizard>
+        <btnYes>Hə</btnYes>
+        <btnNo>Yox</btnNo>
+        <checkDontAskAgain>Seçimimi yadda saxla və bir daha soruşma (Sonradan dəyişmək mümkündür)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Haqqında</DlgAboutCaption>
+        <staticWebSite>Veb Səhifə</staticWebSite>
+        <staticSupport>Dəstək</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>Qeydiyyat məlumatı:</staticRegisteredTo>
+        <staticChangeKey>Lisenziya açarını dəyiş</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>Xatırlatma</UnregDlgReminder>
+        <UnregDlgExpired>Yoxlama müddəti bitib</UnregDlgExpired>
+        <staticExpired>Proqramın yoxlama müddəti sona çatdı. 30 gün müddətində proqramın bütün funksiyalarını test etdiniz. Proqramı bəyəndinizsə və istifadə etmək istəyirsinizsə "SATIN AL" düyməsinə basın.</staticExpired>
+        <staticTrial>Uninstall Tool-un pulsuz test versiyası 30 gün istifadə oluna bilər. Bu müddət bitdikdən sonra ya proqramı almalı yaxud kompüterinizdən silməlisiniz.</staticTrial>
+        <btnWebSite>Veb Səhifə:</btnWebSite>
+        <staticDaysLeft>%d test günü qalıb</staticDaysLeft>
+        <btnBuyNow>Satın al</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Qeydiyyat kodunu yaz</EnterKeyDlgCaption>
+        <Title>Zəhmət olmasa qeydiyyat məktubundakı ad və kodu daxil edin:</Title>
+        <staticName>Qeydiyyat adı:</staticName>
+        <staticKey>Qeydiyyat kodu:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>Silmə əməliyyatı yerinə yetmədi. \nBu proqramın qovluqlarını və Reyestr açarlarını silmək istəyirsiniz?</msgUninstallFailed>
+        <msgForceRemovalTitle>MƏcburi silinmə '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Kütləvi məcburi silinmə</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>Siz həqiqətən bu proqramın məcburi silinməsini istəyirsiniz?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Siz həqiqətən növbəti proqramların məcburi silinməsini istəyirsiniz?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>Bu qeydi sihayıdan silməklə, proqram sərt diskinizdən silinməyəcək. Bu funksiyanı ancaq istifadə olunmayan Reyestr qeydlərində istifadə etməlisiniz.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>İzlənmiş proqramın məcburi silinməsi, proqramın standar silinməni işə salınmadanç proqramı çox sürətli və tam siləcək. Quraşdırma monitorinqində tapılan hər şey silinəcək.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Kütləvi məcburi silinmə - irəliləmiş funksiyadır, onu xüsusi ehtiyatlılıqla istifadə etmək lazımdır. PRoqramların standart silinməsi işə salınmayacaq, fayl sistemi və reyestr skan olunacaq, və tapılmış ümumiyyətlə siyahı əks etdiriləcək. Son dərəcə diqqətli olun, təsdiqləməzdən əvvəl bu siyahını yoxlayın. Ən dəqiq və təmiz silinmə, 'Quraşdır və İzlə' funksiyasından istifadə edərək quraşdırılan proqramlar üçün mümkündür.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>asılı</msgForceRemovalItemDependent>
+        <msgLearnMore>Daha çox</msgLearnMore>
+        <msgForceRemovalCheck>Bəli, mən bütün məsuliyyəti anlayıram</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>Uninstall Tool-u kompüterinizdən silmək istədiyinizə əminsiniz?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>Davam etmək istəyirsiniz?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Həqiqətən bu yazıları silmək istəyirsiniz?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>Bu funksiya proqramı, yalnız proqramlar siyahısından (Reyestrdən) siləcək. Heç bir fayl və ya Reyestr elementi silinməyəcək. Siz bu funksiyadan yalnız köhnəlmiş və ya xarab yazılar üçün istifadə etməlisiniz.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>Reyestrdən yazıların silməsi uğursuz oldu. Ehtimal ki, bunu etmək üçün yetərli hüquqa malik deyilsiniz..</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>Proqramın silinməsinin məcburi dayandırılmasını istəyirsiniz?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>Məcburi imtina, əgər əsas silici donubsa, yaxud siz qisinmə prosseslərini məcburi dayandırmaq istəyirsinizsə istifadə edilə bilər. Silicinin düzgün dayandırılması bilavasitə onun özü vasitəsilə edilməlidir, belə ki, əks halda istənilməyən nəticələr verə bilər.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>İzlənmiş proqram '%s' proqram siyahısında 'İzlənmişlər' sütununda xüsusi simvolla göstərilir..</msgTracedItem>
+        <msgTracedItemAppended>Traced data is now added to the previously traced item '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Please note that new installation items will be treated as dependent entries and can be removed later together with '%s' (upon confirmation).</msgTracedItemAppendedNote>
+        <msgUndoTracing>Uninstall Tool-un bu proqramla bağlı izləmə məlumatlarını unutmasını istəyirsiniz?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>CisUtMonitor xidmətini açmaq olmur. Proqramı yenidən quraşdırın</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Uninstall Tool izləmə xidməti ('CisUtMonitor') sistemdə quraşdırılmayıb. \n\nİndi quraşdırmaq istəyirsiniz?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Uninstall Tool izləmə xidməti ('CisUtMonitor') sistemdə quraşdırılmayıb.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>Xidmət uğurla quraşdırıldı. \n\nLazım olarsa xidməti, 'RemoveService.cmd' faylı casitəsilə silə bilərsiniz.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>Xidmət quraşdırılmasında VaxtBitti: Xəta kodu %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>Xidmətin quraşdırılmasında bilinməyən xəta, zəhmət olmasa texniki dəstəklə əlaqə saxlayın.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Uninstall Tool izləmə xidməti ('CisUtMonitor') kompüterdən silindi.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>Quraşdırılmış 'CisUtMonitor' xidmətinin versiyası (%u) sistemdə olan (%u) versiyadn daha yenidir. \n\nYeniləmək istəyirsiniz?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>Xidmətin ən son versiyası uğurla quraşdırıldı. Quraşdırma izləyicisini istifadə etməzdən öncə, kompüterinizi yenidən başlatmalısınız.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>Saxlanılası heç nə yoxdur çünki, proqram heç bir iz qoymayıb (heç bir fayl sistemi və reyestr dəyişikliyi)</msgNothingToSave>
+        <msgCancelTracing>Hazırki quraşdırmanın izlənməsindən imtina etməyə əminsiniz?</msgCancelTracing>
+        <msgStopTracing>Quraşdırma izlənməsi indi dayandırılacaq. Hazırki izləmə nəticələrini saxlamaq istəyirsiniz?</msgStopTracing>
+        <msgEntryAlreadyExists>'%s' adda proqram, artıq siyahıda mövcuddur, başqa ad seçin.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>Bu qeyd, sistem qeyd dəftərindən tamamilə silinəcək. \n\nBunu etmək istədiyinizə əminsiniz?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>Avtobaşlamaya yeni proqram əlavəetmədə səhv baş verdi, zəhmət olmasa administrator səlahiyyətlərinizi yoxlayın və ya müştərilər üçün proqram dəstəyi ilə əlaqə saxlayın.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>Bu yazının xüsusiyyətlərini dəyişmək mümkün deyil. Ola bilsin ki, bunu etməyə səlahiyyətiniz yoxdur.\n\nAdministratora müraciət edin.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>Bu elementləri silmək istədiyinizə əminsiniz?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>Bu əməliyyat seçilmiş elementləri reyestrdən siləcək (start menu) və onlar bir daha Windows işə düşdükdə açılmayacaqlar.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>Qeydiyyatın tamamlanması üçün proqramı bağlayıb yenidən işə salmalısınız. \n\nProgramdan indi çıxmaq istəyirsiniz?</msgRegRestartRequired>
+        <msgNewVersionAvailable>Yeni versiya %s mövcuddur.</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>Haızrki versiya: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>Nələr yenidir:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Portable version download link</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>Siz ən son versiyadan istifadə edirsiniz.</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>crystalidea.com saytına qoşulma uğursuz oldu, zəhmət olmasa internet bağlantınızı yoxlayın.</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>You're not supposed to run 32-bit version of Uninstall Tool on 64-bit Windows as it displays only 32-bit applications and has a wide range of limitations. It's highly recommended to download and reinstall Uninstall Tool on this machine (it will automatically choose 64-bit version when installing on a 64-bit Windows).</msgRunningInWow64>
+        <msgRunningInWow64Title>WoW64 altsistemində çalışma</msgRunningInWow64Title>
+        <msgCannotStartHelper>'x64helper.exe' prossesi işə salına bilmədi (64-bit Windows üçün köməkçi). \n\nProqramı yenidən quraşdırın.</msgCannotStartHelper>
+        <msgUninstallingMyself>Siz Uninstall Tool xüsusiyyətlərini və izlənmiş proqramlar haqda məlumatları silmək istəyirsiniz?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Unable to create file:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>QEYDİYYATSIZ VERSİYA</txtUnregisteredBig>
+        <msgNotAvailableInTrial>Bu funksiya ancaq qeydiyyatlı versiyada işləkdir</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>Siz qalan məlumatları saxlaya və onları daha sonra proqramlar siyahısından onları '%s' elementlərin Məcburi sililnmə-si vasitəsilə silə bilərsiniz..</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>Məlumatları daha sonra saxla və sil</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML fayllar</htmlFiles>
+        <allFiles>Bütün fayllar</allFiles>
+        <generatedByOn>%s vasitəsilə %s tarixdə yaradılıb</generatedByOn>
+        <installedPrograms>Quraşdırılmış proqramlar (%s)</installedPrograms>
+        <startupPrograms>Avtobaşlayan proqramlar</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>OK</btnOK>
+        <btnCancel>İmtina</btnCancel>
+        <btnHelp>Kömək</btnHelp>
+        <btnYes>Hə</btnYes>
+        <btnNo>Yox</btnNo>
+        <btnClose>Bağla</btnClose>
+        <statusTotalInfo>%d proqram, ümumi həcm %s</statusTotalInfo>
+        <statusUnknown>naməlum</statusUnknown>
+        <statusRecentItems>ən son qurulan</statusRecentItems>
+        <statusRecentItemsTip>Ən son qurlulan/dəyişdirlən proqramlara bax</statusRecentItemsTip>
+        <statusStartupTotalInfo>Ümumi proqram sayı - %d, hazırda işləyənlər - %d</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>İstifadə olunan yerin hesablanması... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>Yeni versiya mövcuddur:</statusNewVersionAvailable>
+        <popupNewProgramsFound>%d yeni proqram tapıldı!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Windows yenilənmələri</WindowsUpdatesText>
+        <UninstallToolDescription>Proqramların tamamilə silinməsi, avtobaşlamadakı proqramları idarə</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>Quraşdırma İzləyicisi ilə quraşdır...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>Quraşdır və proqramın kompüterinizdə hansı dəyişikliklər etdiyini öyrən</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Qəza sonlandırması</msgTitleTemplate>
+        <msgTemplate>Təəssüf, işlənməmiş istisna oldu, \n%app_name% işi dayandırılacaq. \nZəhmət olmasa, bizə '%email%'\nünvanına \n\n%dump_file%\n\n ünvanında yerləşən dump faylı bərkidərək email göndərin. 'Bildirişi göndər' düyməsinə basdıqdan sonra \nsizin kompüteriznidəki email prqoqram hazırlan məktubla birlikdə açılacaq.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file %dump_file%)\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <btnSend>Bildirişi göndər (Məsləhət görülür)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>Digər icralar:</other_tasks>
+        <install_service>Quraşdırma izləyicisi xidməti (Bu xidmətsiz, proqram quraşdırmasını izləmək mümkün deyil)</install_service>
+        <control_panel_icon_text>Uninstall Tool ikonunu İdarə panelinə əlavə et</control_panel_icon_text>
+        <installing_driver>Nüvə sürücüsü quraşdırılır...</installing_driver>
+        <ut_initializing>Uninstall Tool quraşdırılır...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.2" LangID="1062" Author="Eduard Ambartsumov">
+    <MainMenu>
+        <mnuFile>&amp;Fails</mnuFile>
+        <mnuFileExport>&amp;Eksportēt uz HTML...</mnuFileExport>
+        <mnuFileExit>&amp;Beigt</mnuFileExit>
+        <mnuAction>&amp;Darbība</mnuAction>
+        <mnuActionUninstall>&amp;Atinstalēt...</mnuActionUninstall>
+        <mnuActionModify>&amp;Modificēt...</mnuActionModify>
+        <mnuActionDelete>&amp;Izmest piespiedu kārtā</mnuActionDelete>
+        <mnuActionDeleteBatch>Batch &amp;Force Removal</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>Noņemt &amp;Entry</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>Batch Remove &amp;Entries</mnuActionRemoveEntryBatch>
+        <mnuTracedData>Izsekot datu</mnuTracedData>
+        <mnuTracedDataAsXML>Skatīt kā XML...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>Atsaukt Izsekot</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Append traced data (Install and Trace)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;Reģistra ieraksts</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>I&amp;nstalēšanas mape</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>&amp;;Programmas mājas lapa</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Pārlūkot Atrašanās vieta...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>Pārlūkot avots...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Google par</mnuActionGoogleFor>
+        <mnuView>&amp;Izskats</mnuView>
+        <mnuViewMainToolbar>Galvenā rīkjosla</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>Rādīt galveno rīkjoslu</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>Parādīt pogu etiķetes zem ikonām</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>Vidusskolas rīkjosla</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;Pārlasīt</mnuViewRefresh>
+        <mnuViewListColumnsReset>Atiestatīt kolonnas</mnuViewListColumnsReset>
+        <mnuViewLanguage>Saskarnes valoda</mnuViewLanguage>
+        <mnuTools>&amp;Rīki</mnuTools>
+        <mnuToolsSystemTools>Sistēmas rīki</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;Pievienot/noņemt programmas...</mnuToolsAddRemove>
+        <mnuToolsComponents>&amp;Windows sastāvdaļas...</mnuToolsComponents>
+        <mnuToolsSystemRestore>Sistēmas atjaunošana</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>Drošības centrs</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>Sistēmas īpašības</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>Sistēma informācijas</mnuToolsSystemInfo>
+        <mnuToolsDefrag>Disk Defragmenter</mnuToolsDefrag>
+        <mnuToolsServices>Pakalpojumi</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;Uzstādījumi...</mnuToolsOptions>
+        <mnuHelp>&amp;Palīdzība</mnuHelp>
+        <mnuHelpOnline>&amp;Saturs...</mnuHelpOnline>
+        <mnuHelpHomePage>Home Page</mnuHelpHomePage>
+        <mnuHelpSupport>Support</mnuHelpSupport>
+        <mnuHelpBuyNow>&amp;Iegādāties...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>I&amp;evadīt atslēgu..</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>Meklēt &amp;atjauninājumus...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;Par...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>Programmas nosaukums</columnProgramName>
+        <columnSize>Izmērs</columnSize>
+        <columnInstallationDate>Instalēta</columnInstallationDate>
+        <columnTraced>Izsekot</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;Atiestatīt&lt;/a&gt; meklēšanas filtru (Esc taustiņu) vai izmēģināt pārlūkojot citas kategorijas</staticNoItemsMatchingFilterTip>
+        <staticLoading>Loading, please wait...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>Status</columnStatus>
+        <columnSource>Avots</columnSource>
+        <columnCompany>Sabiedrība</columnCompany>
+        <sourceHKLMRun>HKLM vadīt</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM RunOnce</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU vadīt</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
+        <sourceStartMenuAll>StartMenu Visi</sourceStartMenuAll>
+        <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems>Nav programmu, kas automātiski darbojas uz Windows sākumu</staticNoStartupItems>
+        <staticNoStartupItemsTip>Jūs varat manuāli &lt;a&gt;pievienot jaunu programmu&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>Atinstalētājs</btnUninstaller>
+        <btnUninstallerToolTip>Atinstalēt esošās programmas vai instalēt un izsekot jaunu programmatūru</btnUninstallerToolTip>
+        <btnStartup>Palaišanās</btnStartup>
+        <btnStartupToolTip>Programmas, kas automātiski palaižās sistēmai palaižoties</btnStartupToolTip>
+        <btnRefresh>Pārlasīt</btnRefresh>
+        <btnRefreshToolTip>Pārlasīt programmu sarakstu</btnRefreshToolTip>
+        <btnPrefs>Uzstādījumi</btnPrefs>
+        <btnPrefsToolTip>Parādīt uzstādījumu dialoglogu</btnPrefsToolTip>
+        <btnHelp>Palīdzība</btnHelp>
+        <btnHelpToolTip>Parādīt programmas rokasgrāmatu</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>Piet</btnApps>
+        <btnAppsToolTip>Pieteikumi</btnAppsToolTip>
+        <btnSystem>Sistēma</btnSystem>
+        <btnSystemToolTip>Sistēmas sastāvdaļas un uzlabojumi</btnSystemToolTip>
+        <btnHidden>Slēpts</btnHidden>
+        <btnHiddenToolTip>Slēptās sastāvdaļas</btnHiddenToolTip>
+        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>Nesen uzstādīta (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Nesen instalētās/updated preces</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Instalēt un izsekot</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Instalēt jaunu programmu un noskatīties visas izmaiņas to padara iesniegt sistēmu un reģistru</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>Atinstalēt</itemUninstallIt>
+        <itemModifyIt>Modificēt</itemModifyIt>
+        <itemDelete>Izmest piespiedu kārtā</itemDelete>
+        <itemBatchDelete>Batch force removal of all traces</itemBatchDelete>
+        <itemBatchRemoveEntry>Batch remove entries from the list</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>You selected %u items but maximum number of items in a batch operation is limited to %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>Atcelt</itemCancelWaiting>
+        <itemSearch>Meklēšana</itemSearch>
+        <itemShortSearchTip>Ierakstiet atrast programmu</itemShortSearchTip>
+        <itemVersion>Versija:</itemVersion>
+        <itemInstalledOn>Uzstādīšanas datums:</itemInstalledOn>
+        <itemPublisher>Publicētājs:</itemPublisher>
+        <itemRegistryEntry>Apskatīt reģistra ierakstu</itemRegistryEntry>
+        <itemUninstallInProgress>Notiek atinstalēšan</itemUninstallInProgress>
+        <itemUninstallInProgressTip>Notiek %s atinstalēšana, lūdzu uzgaidiet, līdz atinstalēšana tiek pabeigta...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>Mainīt notiekošo</itemModifyInProgress>
+        <itemModifyInProgressTip>Pārveidojot %s, Lūdzu uzgaidiet, kamēr modificēt process ir pabeigts...</itemModifyInProgressTip>
+        <itemNothingFound>Nekas nav atrasts!</itemNothingFound>
+        <itemNoItemsMatchingFilter>Nav programmu atbilstības '%s' šajā %s kategorijā</itemNoItemsMatchingFilter>
+        <itemGroup>Šī ir grupa, programmas</itemGroup>
+        <itemNoUninstall>Programmu nevar atinstalēt normālā veidā, jūs varat mēģināt Spēks aizvākšana vietā.</itemNoUninstall>
+        <itemTracedOnly>Pasūtījuma ieraksts nosaka ar virkni zīmju. Var noņemt tikai ar Spēku noņemšanas līdzekli.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>Atslēgt automātisko palaišanos</itemDisableRunning>
+        <itemEnableRunning>Ieslēgt automātisko palaišanos</itemEnableRunning>
+        <itemDeleteStartupItem>Izmešana piespiedu kārtā</itemDeleteStartupItem>
+        <itemDisableSelected>Atslēgt atlasītos vienumus</itemDisableSelected>
+        <itemEnableSelected>Iespējot atlasītos vienumus</itemEnableSelected>
+        <itemDeleteSelected>Dzēst atlasītos vienumus no saraksta</itemDeleteSelected>
+        <itemMultiplSelected>%u Atlasītie vienumi</itemMultiplSelected>
+        <itemAddNewStartupItem>Pievienot jaunu programmu...</itemAddNewStartupItem>
+        <itemStatusCaption>Stāvoklis:</itemStatusCaption>
+        <itemStatusRunning>Darbojas</itemStatusRunning>
+        <itemStatusNotRunning>Nedarbojas</itemStatusNotRunning>
+        <itemStatusDisabled>Atslēgts</itemStatusDisabled>
+        <itemStatusInvalid>Invalid</itemStatusInvalid>
+        <itemCommandLineCaption>Komandrinda:</itemCommandLineCaption>
+        <itemSourceCaption>Avots:</itemSourceCaption>
+        <itemSourceRun_HKLM>Visi lietotāji reģistra vadīt atslēga</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Pašreizējais Lietotājs reģistra vadīt atslēga</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>Visi lietotāji reģistra vadīt reiz atslēga</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>Pašreizējais Lietotājs reģistra vadīt reiz atslēga</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>Visi lietotāji Autorun sākt izvēle</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>Pašreizējais Lietotājs Autorun sākt izvēle</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>Pievienot jaunu starta programma</DlgAddNewStartupProgramCaption>
+        <labelStartupType>Startēšanas veids:</labelStartupType>
+        <labelPathToExecutableFile>Ceļš uz izpildāmo failu:</labelPathToExecutableFile>
+        <labelArguments>Argumenti (pēc izvēles):</labelArguments>
+        <filterExecutableFiles>Izpildāmos failus</filterExecutableFiles>
+        <filterAllFiles>Visi faili</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>Uzstādījumi</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>Vispārējie</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>Pārbaudīt atjauninājumus par programmas startēšanas</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Check for beta versions</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>Saskares valoda:</staticInterfaceLanguage>
+        <checkControlPanelIcon>Rādīt Uninstall Tool jo Control Panel</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>Pārvietoties uz programmas mapi ar Total Commander</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>Saskare</categoryInterface>
+        <checkToolBarCaptions>Parādīt rīku joslas pogu nosaukumus</checkToolBarCaptions>
+        <categoryAppList>Programmu saraksts</categoryAppList>
+        <checkSmallIcons>Nelielas ikonas</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>Krāsu shēma</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Tree-like software updates (sub-items):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>&amp;Rādīt Programmatūras atjauninājumi</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Initially collapsed</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Initially expanded</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Always expanded</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Parent items can be expanded/collapsed with mouse or using Left/Right keyboard keys. \n\n'Initially collapsed' is recommended option, but users are able to set 'Initially expanded' to display all updates initially. Users who get used to Uninstall Tool versions prior to 3.3 can choose 'Always expanded' option which also disables expand/collapse functionality. \n\nWhen using search filter collapsed items are expanded automatically if one or more sub-items matches the filter.</subitemsHelpText>
+        <staticRecentlyInstalled>Nesen instalētās programmas:</staticRecentlyInstalled>
+        <checkDisplayPopup>Parādīt uzpeldošu logu ar nesen uzstādītām programmām</checkDisplayPopup>
+        <checkHighlighRecent>Izgaismot nesen uzstādītās programmas</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>Parādītu jaunākos programmas otrreizējā rīkjoslā</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Atinstalēt vednis</categoryUninstallWizard>
+        <staticWizardDesctiption>Atinstalēt vednis ™ ļauj noņemt kādu nevēlamu programmatūru no jūsu sistēmas pilnīgi bez paļauties uz savu iebūvēto atinstalētājs, kas var atstāt faili un / vai reģistra objektus atpaliek. Pēc darbības noklusējuma atinstalēt programmu Atinstalēt vednis veic dziļu skenējot sistēmas reģistra un failu sistēma par neizmantoto reģistra ierakstiem un failiem.</staticWizardDesctiption>
+        <staticWizardUsage>Atinstalēt vednis ™ lietošana:</staticWizardUsage>
+        <comboItemWizardOption1>Jautāt pirms uzsākt</comboItemWizardOption1>
+        <comboItemWizardOption2>Vienmēr</comboItemWizardOption2>
+        <comboItemWizardOption3>Nē</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Atinstalēt vednis</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>Noņemt visas pēdas %s - Atinstalēt vednis ™</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>Skenēšana uz leftover failus, mapes un reģistra posteņiem...</statusScanning>
+        <statusScanningTraced>Radīt sarakstā leftover izsekot posteņiem, lūdzu, uzgaidiet...</statusScanningTraced>
+        <statusForceRemoval>Spēks noņemšana '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>Daži atliekas pēdas atrasts!</statusLeftOverTracesFound>
+        <statusNothingFound>Nav atliekas pēdas atrasts.</statusNothingFound>
+        <statusAllTracesRemoved>Visas pēdas Noņemts</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>Dzēšanas programmu pēdas...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Uninstall Tool konstatē, ka šādas programmas pēdas saglabājušās datorā. Lūdzu, pārskatiet tos uzmanīgi un, kad esat gatavs noņemt atlasītos vienumus, noklikšķiniet uz "Apdare".</staticScanStatusFound>
+        <staticScanStatusRemoved>%s ir veiksmīgi noņemts.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>Visi atlasītie pārpalikumi ir veiksmīgi noņemts.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>Radīt pēdas saraksts...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>Failu sistēmas (%d preces)</treeItemFileSystem>
+        <treeItemRegistry>Registry (%d preces)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>Pārlūkot...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d faili (%s) un %d Reģistra ieraksti vēl palicis datorā</staticOverallInfo>
+        <btnFinish>Apdare</btnFinish>
+        <btnCancel>Atcelt</btnCancel>
+        <btnClose>Aizvērt</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>Daži faili netika dzēsti</Title>
+        <Instruction1>Šādi faili netika dzēsti, jo tie tiek izmantoti ar sistēmu:</Instruction1>
+        <Instruction2>Šie faili tiks automātiski izņemti no nākamā sistēmas atsāknēšana.</Instruction2>
+        <btnReboot>Reboot tagad</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>Piespiest izbeigt darbojas procesi?</Title>
+        <Instruction1>Šādi procesi konstatēti:</Instruction1>
+        <Instruction2>Tas ir ieteicams tos izbeigt manuāli pirms aizvešanas, bet Atinstalēt vednis var piespiest izbeigt tos.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>Instalēt Tracker</InstallTrackerLocalizedName>
+        <Title>Instalēt un izsekot Program</Title>
+        <TitleAppend>Install and Trace, append traced data to '%s'</TitleAppend>
+        <staticPathToProgram>Ceļš uz uzstādīšana neizdodas (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>Uzstādīšana progress:</staticInstallProgress>
+        <checkMinimize>Minimizēt Uninstall Tool uz sistēmas teknē uzstādīšanas laikā</checkMinimize>
+        <btnInstall>Instalēt un izsekot</btnInstall>
+        <btnStop>Apstāties</btnStop>
+        <btnSave>Izņemot</btnSave>
+        <btnSaveLog>Saglabāt Pieteikties...</btnSaveLog>
+        <btnNoAndRevert>Nē + Atgriezt</btnNoAndRevert>
+        <staticRevertInfo>Atgriezties opciju attepts izdzēst visas failu sistēmas/reģistra vienības izveidoti instalēšanas laikā izsekošanas</staticRevertInfo>
+        <installTip1>Rīkoties ar uzstādīšanu, kā ierasts, bet Uninstall Tool vēro to. Sekošanas tiks pārtraukta automātiski, kad visi procesi tiek pabeigta vai Jums jāpārtrauc to manuāli, kad uzstādīšana ir pabeigta</installTip1>
+        <installTip2>Lūdzu pārliecinieties, nekā nē cita iekārta šobrīd darbojas</installTip2>
+        <installTip3>Ja iepriekšējā versija šīs programmas ir jau uzstādītas, jums vajadzētu noņemt to 1. pirms instalēšanas jaunāku versiju</installTip3>
+        <trayIconTitle>Instalēšana '%s'...</trayIconTitle>
+        <trayIconTooltip>Skatīt peles labo pogu izvēlni, lai apturētu vai apskatītu izsekošanas žurnālu</trayIconTooltip>
+        <trayIconText>Rīkoties ar uzstādīšanu, kā ierasts, bet Uninstall Tool vēro to. Sekošanas tiks pārtraukta automātiski, kad visi procesi tiek pabeigta vai Jums jāpārtrauc manuāli (ar peles labo pogu noklikšķiniet uz izvēlnes), kad uzstādīšana ir pabeigta</trayIconText>
+        <trayIconMenuProgress>Instalēšana progress</trayIconMenuProgress>
+        <trayIconMenuStop>Apstāties</trayIconMenuStop>
+        <readMore>Lasīt vairāk</readMore>
+        <installationFiles>Instalēšana faili</installationFiles>
+        <textFiles>Teksta faili</textFiles>
+        <selectInstallFile>Izvēlieties instalācijas failu</selectInstallFile>
+        <contextMenuCopy>Kopēt</contextMenuCopy>
+        <logEventCreateFile>Izveidot failu</logEventCreateFile>
+        <logEventCreateFolder>Izveidot mapi</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>Izveidot atslēgu</logEventCreateKey>
+        <logEventDeleteKey>Dzēšanas taustiņš</logEventDeleteKey>
+        <logEventSetValue>Noteikt vērtību</logEventSetValue>
+        <logEventProcessCreated>Process Izveidoja</logEventProcessCreated>
+        <logEventProcessKilled>Process nelaikā</logEventProcessKilled>
+        <logEventDeleteOperation>Delete</logEventDeleteOperation>
+        <logStartingService>Sākot Instalēt tracker pakalpojums...</logStartingService>
+        <logStartingServiceError1>Kļūda: CisUtMonitor pakalpojums tiek joprojām apstāšanās</logStartingServiceError1>
+        <logStartingServiceError2>Kļūda: CisUtMonitor starta ir iztecējis</logStartingServiceError2>
+        <logStartingServiceError3>Kļūda: Nevar sākt CisUtMonitor dienests (kļūda %u)</logStartingServiceError3>
+        <logStartingServiceError4>Kļūda: Nevar atvērt CisUtMonitor pakalpojums. Lūdzu, atkārtoti instalējiet programmu.</logStartingServiceError4>
+        <logServiceStopped>Sekošanas pakalpojums tiek pārtraukta</logServiceStopped>
+        <logServiceStopError>Kļūda: Nespēja pārtraukt sekošanas pakalpojums</logServiceStopError>
+        <logServiceVersion>Pakalpojums versija ir: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>Monitors versija ir: 0x%x, vajadzētu būt 0x%x. Lūdzu, atkārtoti instalējiet programmu.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Brīdinājums: Apstāšanās aktīvo monitoru...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>Uzstādīšana monitors sāk</logServiceMonitorStarted>
+        <logTrackingStarting>Sākot %s...</logTrackingStarting>
+        <logTrackingStartingEror>Kļūda: Nevar startēt iestatīšanas procesu (kļūda %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>Kļūda: Nevar palaist monitoru. Lūdzu, atkārtoti instalējiet programmu.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>Iezīmēšana tiek pārtraukta ar lietotāju</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>Visus montāžas procesi ir pabeigti</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>Uzstādīšana ir pabeigta</logTrackingCompleted>
+        <logTracingAnalyzing>Analizējot uzstādīšanu, lūdzu uzgaidiet...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>%u uzstādīšanas ieraksti atklāts</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u new installation entries detected:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Done</logTrackingDone>
+        <logReverting>Atgriežoties izmaiņas...</logReverting>
+        <logCompleted>Pabeigts</logCompleted>
+        <logMSIServiceWarning>Brīdinājums: MSI pakalpojums tiek atslēgts</logMSIServiceWarning>
+        <logMSIServiceError1>Kļūda: Neizdevās atvērt MSI pakalpojumu</logMSIServiceError1>
+        <logMSIServiceError2>Kļūda: Nevaru palaist MSI pakalpojumu</logMSIServiceError2>
+        <logMSIServiceError3>Kļūda: Nevar izpildīt vaicājumus MSI pakalpojumu statusu</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>Jaunas iekārtas darbi tika konstatēts izsekošanā. Parasti tas nozīmē, ka programma nav instalēta pareizi, bet, ja jūs esat pārliecināts, ka iekārta gāja labi jūs varat izveidot jaunu pielāgotu programmu Piet. sarakstā. Visas pašlaik atrasti pēdas būs grupā.</Title>
+        <staticName>Nosaukums:</staticName>
+        <checkCreateCustomEntry>Es gribētu, lai izveidotu pielāgotu objektu sarakstā</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>Vairāki uzstādīšana ieraksti atklāts</Caption>
+        <Title>Vairāki uzstādīšanas darbi tika konstatētas Windows reģistrā pēc uzstādīšanas. Lūdzu, izvēlieties galveno elementu, lai parādītu tajā Apps sarakstā ar īpašu ikonu 'Izsekot' kolonna. Uzskata, ka, noņemot fiksēt datus galveno posteni, Uninstall Tool tiks noņemti arī fiksēt datus par visiem apgādājamiem posteņiem.</Title>
+        <btnSelect>Atlasīt</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s izsekot datiem</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>Atinstalēt '%s'</Title>
+        <Instruction>Noņemt arī atkarīgās preces?</Instruction>
+        <Footer>Instalējāt '%s' ar Instalēt Tracker meklēšanu iespējota, un iepriekš minētos posteņus bija uzstādīta arī. Tas nozīmē, ka, lietojot Uninstall Wizard katru apgādībā izsekot komponents tiks noņemts pārāk. Izvēloties noņemšanu vien konkrētās pozīcijas, pauspapīrs, dati tiks ignorētas un Atinstalēt vednis skenēs leftover minētās ziņas šajā programmā.</Footer>
+        <btnOnlyCurrent>Tikai %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>Iebūvēto atinstalētājs ir pabeidzis savu darbu. Whoul vēlaties veic dziļu skenējot jūsu sistēmas reģistra un failu sistēmu neizmantoto reģistra ierakstus un failus palikuši?</staticConfirm>
+        <learnMoreAboutWizard>Uzzināt vairāk par Atinstalēt vednis</learnMoreAboutWizard>
+        <btnYes>Jā</btnYes>
+        <btnNo>Nē</btnNo>
+        <checkDontAskAgain>Atcerēties manu izvēli un nejautā man vēlreiz (var tikt mainīts Preferences)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Par Uninstall Tool</DlgAboutCaption>
+        <staticWebSite>Mājas lapa</staticWebSite>
+        <staticSupport>Atbalsts</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>Šo izstrādājumu ir reģistrējis:</staticRegisteredTo>
+        <staticChangeKey>Change License Key</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>Izmēģinājuma Atgādinājums</UnregDlgReminder>
+        <UnregDlgExpired>Izmēģinājums beidzies</UnregDlgExpired>
+        <staticExpired>Šai izmēģinājuma versijai ir beidzies izmēģināšanas laiks. Jums bija iespēja pilnīgu šīs programmas darbību izmēģināt 30 dienas.\n\nJa jums šī programma patīk un vēlaties turpināt to izmantot, klikšķiniet 'Iegādāties'.</staticExpired>
+        <staticTrial>Uninstall Tool izmēģinājuma versiju par brīvu var izmantot 30 dienas. Pēc šī laika jums programma ir jāiegādājas vai jāizdzēš tā no jūsu datora.</staticTrial>
+        <btnWebSite>Mājas lapa</btnWebSite>
+        <staticDaysLeft>Izmēģināšanai atlikušas %d dienas</staticDaysLeft>
+        <btnBuyNow>Nopirkt tagad</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Ievadiet reģistrēšanas atslēgu</EnterKeyDlgCaption>
+        <Title>Lūdzu, ievadiet savu vārdu un kodu no reģistrācijas e-pasta:</Title>
+        <staticName>Reģistrētāja vārds:</staticName>
+        <staticKey>Reģistrēšanas atslēga:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>Atinstalēšana ir neveiksmīga. \nVai vēlaties iztīrīt šīs programmas ierakstu no reģistra un arī tās failus?</msgUninstallFailed>
+        <msgForceRemovalTitle>Spēks noņemšana'%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Partijas grupa aizvākšana</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>Vai tiešām vēlaties veikt spēka atcelt šo programmu?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Vai tiešām vēlaties veikt spēku izvešanu no šīm programmām?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>Spēks izņemšana no pieteikuma nedarbosies ar to saistīto atinstalētājs, tas būs tikai dzēst visu atrasto failu sistēmu un reģistru priekšmetus, kas pieder pie šīs programmas. Jums vajadzētu izmantot šo funkciju tikai novecojušu vai nederīgu ierakstu.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>Spēku izvešana no izsekot programmu uzstāsies ultra ātru un pamatīgu noņemšanu bez gaitas ar to saistīto atinstalētājs. Tas izdzēsīs visus failu sistēmu un reģistru priekšmetus apvilkto instalēšanas laikā.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Partijas grupa Pārcelšanās ir uzlabotas iezīme, un ir jāizmanto uzmanīgi. Tas nedarbosies saistītos uninstallers un būs tikai meklēt leftover failu sistēmas / reģistra posteņiem un parādīt tos apvienotā saraksta, kas prasa precīzu pārskatu. Visvairāk rūpīgu un precīzu noņemšana tiek veikta programmām izsekot ar Instalēt Tracker.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>dependent</msgForceRemovalItemDependent>
+        <msgLearnMore>Uzzināt vairāk</msgLearnMore>
+        <msgForceRemovalCheck>Ok, es saprotu atbildību</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>Vai Jūs tiešām vēlaties aizvākt Uninstall Tool no datora?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>Vai tiešām vēlaties dzēst šo ierakstu?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Vai tiešām vēlaties noņemt šos ierakstus?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>Šī funkcija būs tikai noņemtu vienumu no saraksta. Nē atliekas reģistra vai failu sistēmas vienumi tiks dzēsti. Jums vajadzētu izmantot šo funkciju tikai uz novecojušiem vai nederīgu saraksta ierakstiem.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>Neizdevās izdzēst reģistra ierakstu, šajā postenī. \nJūs, iespējams, nav pieejama, lai to izdarītu.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>Vai tiešām vēlaties piespiest atcelt atinstalēšanu šīs programmas?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>Spēks atcelšana būtu perfomed tikai tad, ja noklusējuma atinstalēt programmu freezed vai jums ir steidzami nepieciešams apturēt visus pašlaik darbojas uninstall procesus. Pareizs atcelšana jāveic programmas noklusējuma atinstalētājs jo spēks atcelšana var izraisīt neparedzamas sekas.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>Atrod prece '%s' tagad redzams programmu sarakstā ar īpašu ikonu 'Izsekot' sleja.</msgTracedItem>
+        <msgTracedItemAppended>Traced data is now added to the previously traced item '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Please note that new installation items will be treated as dependent entries and can be removed later together with '%s' (upon confirmation).</msgTracedItemAppendedNote>
+        <msgUndoTracing>Vai tiešām vēlaties atinstalēt rīks aizmirst visu iespējams noskaidrot informāciju par šo programmu?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>Nevar atvērt CisUtMonitor pakalpojums. Lūdzu, atkārtoti instalējiet programmu</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Uninstall Tool sekošanas pakalpojums ('CisUtMonitor') nav uzstādīta šajā sistēmā. \n\nVai jūs vēlaties instalēt to tagad?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Uninstall Tool sekošanas pakalpojums ('CisUtMonitor')nav uzstādīta šajā sistēmā.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>Pakalpojums tiek veiksmīgi instalēta. \n\nJūs varat atinstalēt to vēlāk, izmantojot 'RemoveService.cmd' fails.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>Pakalpojuma ierīkošana timeout: kļūdas koda %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>Neizdevās instalēt pakalpojumu - nezināmu iemeslu dēļ, lūdzu, sazinieties ar atbalsta palīdzību.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Uninstall Tool sekošanas pakalpojums ('CisUtMonitor') ir atinstalēta no šī datora.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>Uzstādīta 'CisUtMonitor' pakalpojums versija (%u) ir vecāks par pašreizējo (%u). \n\nVai jūs vēlaties atjaunināt??</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>Jaunāko pakalpojums ir veiksmīgi instalēta. Jums ir atsāknēšana datoru, pirms lietojat Instalēt Tracker.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>Nekas, lai saglabātu, jo izsekot programma nav instalēta (atstājuši failus/reģistra objektus)</msgNothingToSave>
+        <msgCancelTracing>Vai vēlaties, lai atceltu pašreizējo instalāciju izsekošanas?</msgCancelTracing>
+        <msgStopTracing>Uzstādīšana sekošanas tiks pārtraukta tagad. \n\nVai jūs vēlaties saglabāt pašreizējo izsekošanas rezultātus?</msgStopTracing>
+        <msgEntryAlreadyExists>Programma '%s' jau eksistē sarakstā, tāpēc, lūdzu, izvēlieties citu nosaukumu.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>Lai pabeigtu reģistrēšanu, jums ir jāpārstartē šī programma. \n\nVai vēlaties beigt darbu ar to tūlīt?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>Kļūda pievienojot jaunu starta vienumu, lūdzu, pārbaudiet savas administratīvās tiesības vai sazinieties ar programmas atbalstu palīdzības.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>Nevar modificēt šo ierakstu īpašības. Iespējams jums nav tiesību to darīt.\n\nLūdzu, sazinieties ar sistēmas administratoru.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>Vai tiešām vēlaties noņemt šos vienumus?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>Tas noņems priekšmetus virs no jūsu sistēmas reģistrā (start ēdienkarte) un viņi nekad palaist, kad Windows sāk.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>Lai pabeigtu reģistrēšanu, jums ir jāpārstartē šī programma. \n\nVai vēlaties beigt darbu ar to tūlīt?</msgRegRestartRequired>
+        <msgNewVersionAvailable>Jaunā versija %s ir pieejams:</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>Pašreizējā versija: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>Kas jauns:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Portable version download link</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>Jūs izmantojat jaunāko programmas versiju</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>Nevar izveidot savienojumu ar crystalidea.com mājas, lūdzu, pārbaudiet savu interneta pieslēgumu</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>Jūs neesat vajadzēja palaist 32 bitu versiju Uninstall Tool gada 64 bitu Windows, kā tas parāda tikai 32-bitu programmas, un tam ir plašs ierobežojumiem. Tas ir ļoti ieteicams lejupielādēt un pārinstalēt Uninstall Tool par šo mašīnu (tas automātiski izvēlas 64-bitu versija, uzstādot uz 64-bitu Windows).</msgRunningInWow64>
+        <msgRunningInWow64Title>Darbojas WoW64 vidē</msgRunningInWow64Title>
+        <msgCannotStartHelper>Nevar sākt 'UninstallToolHelper.exe' procesā. \n\nLūdzu reintall programmu.</msgCannotStartHelper>
+        <msgUninstallingMyself>Do you want to remove Uninstall Tool preferences and all data about traced installations?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Unable to create file:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>NEREĢISTRĒTA VERSIJA</txtUnregisteredBig>
+        <msgNotAvailableInTrial>Šī iespēja ir pieejama tikai reģistrētajā programmas versijā.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>Jūs varat saglabāt leftover datus un izdzēst to vēlāk, izmantojot spēku noņemšanas funkciju '%s' postenis sarakstā.</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>Saglabāt un dzēst leftover dati vēlāk</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML faili</htmlFiles>
+        <allFiles>Visi faili</allFiles>
+        <generatedByOn>Ko rada %s uz %s</generatedByOn>
+        <installedPrograms>Instalētās programmas (%s)</installedPrograms>
+        <startupPrograms>Startup programmas</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>Labi</btnOK>
+        <btnCancel>Atcelt</btnCancel>
+        <btnHelp>Palīdzība</btnHelp>
+        <btnYes>Jā</btnYes>
+        <btnNo>Nē</btnNo>
+        <btnClose>Aizvērt</btnClose>
+        <statusTotalInfo>%d programmas %s lieluma kopā</statusTotalInfo>
+        <statusUnknown>nezināms</statusUnknown>
+        <statusRecentItems>nesen uzstādīta</statusRecentItems>
+        <statusRecentItemsTip>Skatīt nesen uzstādīta/pārveidota programmas</statusRecentItemsTip>
+        <statusStartupTotalInfo>%d programmas kopā, %d šobrīd darbojas</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>Aprēķinot apdzīvotas izmēru... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>Jaunā versija ir pieejama:</statusNewVersionAvailable>
+        <popupNewProgramsFound>Atrasta(s) %d jauna(s) programma(s)!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Windows Updates</WindowsUpdatesText>
+        <UninstallToolDescription>Atinstalēt programmas Pilnīgi, pārvaldīšana Startup programmas</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>Instalēt un Izsekot ar Instalēt tracker...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>Instalēt un Izsekot visas izmaiņas, programma ļauj datorā</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Unhandled Exception</msgTitleTemplate>
+        <msgTemplate>We're sorry but an unhandled exception has occurred and \n%app_name% has become unstable. \nPlease send us an e-mail to '%email%'\nattaching the following crash dump file:\n\n%dump_file%\n\nAfter pressing 'Send Report' button, a default mailer program \nwill be opened with composed message.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file %dump_file%)\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <btnSend>Send Report (Recommended)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>Citi uzdevumi:</other_tasks>
+        <install_service>Instalējiet izsekošanas pakalpojums ('Instalēt un Izsekot' iezīme)</install_service>
+        <control_panel_icon_text>Pievienot Uninstall Tool ikona Control Panel</control_panel_icon_text>
+        <installing_driver>Instalēšanas kodola draiveri...</installing_driver>
+        <ut_initializing>Uninstall Tool inicializēšanas...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

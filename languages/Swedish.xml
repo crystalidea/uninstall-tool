@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="2.7" LangID="1053,2077" Author="Carlad Studios (www.carlad.se)">
+    <MainMenu>
+        <mnuFile>&amp;Arikv</mnuFile>
+        <mnuFileExport>&amp;Exportera till HTML...</mnuFileExport>
+        <mnuFileExit>A&amp;vsluta</mnuFileExit>
+        <mnuAction>A&amp;ktiviteter</mnuAction>
+        <mnuActionUninstall>Av&amp;installera...</mnuActionUninstall>
+        <mnuActionModify>&amp;Modifiera...</mnuActionModify>
+        <mnuActionDelete>&amp;Tvinga avinstallation</mnuActionDelete>
+        <mnuActionDeleteBatch>Batch &amp;Force Removal</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>Ta bort post&amp;en</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>Batch Remove &amp;Entries</mnuActionRemoveEntryBatch>
+        <mnuTracedData>Traced Data</mnuTracedData>
+        <mnuTracedDataAsXML>View as XML...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>Undo Tracing</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Append traced data (Install and Trace)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>Öppna &amp;registerpost</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>Öppna in&amp;stallationskatalog</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>&amp;Hå till programmets hemsida</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Välj plats...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>Välj källa...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Google for</mnuActionGoogleFor>
+        <mnuView>Vi&amp;sa</mnuView>
+        <mnuViewMainToolbar>Main Toolbar</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>Show Main Toolbar</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>Show button labels below icons</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>Secondary Toolbar</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;Uppdatera</mnuViewRefresh>
+        <mnuViewListColumnsReset>Återställ kolumner</mnuViewListColumnsReset>
+        <mnuViewLanguage>Interface Language</mnuViewLanguage>
+        <mnuTools>&amp;Verktyg</mnuTools>
+        <mnuToolsSystemTools>System Tools</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;Lägg till/Ta bort program...</mnuToolsAddRemove>
+        <mnuToolsComponents>Windows&amp;komponenter...</mnuToolsComponents>
+        <mnuToolsSystemRestore>System Restore</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>Security Center</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>System Properties</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>System Information</mnuToolsSystemInfo>
+        <mnuToolsDefrag>Disk Defragmenter</mnuToolsDefrag>
+        <mnuToolsServices>Services</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;Inställningar...</mnuToolsOptions>
+        <mnuHelp>&amp;Hjälp</mnuHelp>
+        <mnuHelpOnline>&amp;Innehåll...</mnuHelpOnline>
+        <mnuHelpHomePage>Home Page</mnuHelpHomePage>
+        <mnuHelpSupport>Support</mnuHelpSupport>
+        <mnuHelpBuyNow>K&amp;öp...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>Re&amp;gistrera...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>Check for &amp;updates...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;Om...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>Programnamn</columnProgramName>
+        <columnSize>Storlek</columnSize>
+        <columnInstallationDate>Installationsdatum</columnInstallationDate>
+        <columnTraced>Traced</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;Reset&lt;/a&gt; search filter (Esc key) or try browsing other categories</staticNoItemsMatchingFilterTip>
+        <staticLoading>Loading, please wait...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>Status</columnStatus>
+        <columnSource>Källa</columnSource>
+        <columnCompany>Company</columnCompany>
+        <sourceHKLMRun>HKLM Kör</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM Kör en gång</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU Kör</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU Kör en gång</sourceHKCURunOnce>
+        <sourceStartMenuAll>Startmeny alla</sourceStartMenuAll>
+        <sourceStartMenuCU>Startmeny användare</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems>There're no programs that automatically run on Windows start</staticNoStartupItems>
+        <staticNoStartupItemsTip>You can manually &lt;a&gt;add a new program&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>Uninstaller</btnUninstaller>
+        <btnUninstallerToolTip>Uninstall existing programs or install and trace new software</btnUninstallerToolTip>
+        <btnStartup>Uppstart</btnStartup>
+        <btnStartupToolTip>Program som automatistkt startas vid uppstart</btnStartupToolTip>
+        <btnRefresh>Uppdatera</btnRefresh>
+        <btnRefreshToolTip>Uppdatera programlistan</btnRefreshToolTip>
+        <btnPrefs>Installningar</btnPrefs>
+        <btnPrefsToolTip>Visar inställningar för programmet</btnPrefsToolTip>
+        <btnHelp>Hjälp</btnHelp>
+        <btnHelpToolTip>Visar hjälpavsnitt för programmet</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>Apps</btnApps>
+        <btnAppsToolTip>Applications</btnAppsToolTip>
+        <btnSystem>Systemprogram</btnSystem>
+        <btnSystemToolTip>Systemkomponenter och uppdateringar</btnSystemToolTip>
+        <btnHidden>Dolda program</btnHidden>
+        <btnHiddenToolTip>Dolda program och komponenter</btnHiddenToolTip>
+        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>Recently Installed (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Recently installed/updated items</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Install and trace</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Install a new program and watch all changes it makes to file system and registry</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>Uninstall</itemUninstallIt>
+        <itemModifyIt>Modify</itemModifyIt>
+        <itemDelete>Tvinga avinstallation</itemDelete>
+        <itemBatchDelete>Batch force removal of all traces</itemBatchDelete>
+        <itemBatchRemoveEntry>Batch remove entries from the list</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>You selected %u items but maximum number of items in a batch operation is limited to %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>Cancel</itemCancelWaiting>
+        <itemSearch>Sök</itemSearch>
+        <itemShortSearchTip>Sök program</itemShortSearchTip>
+        <itemVersion>Version:</itemVersion>
+        <itemInstalledOn>Installationsdatum:</itemInstalledOn>
+        <itemPublisher>Utgivare:</itemPublisher>
+        <itemRegistryEntry>Visa registerpost</itemRegistryEntry>
+        <itemUninstallInProgress>Avinstallation pågår</itemUninstallInProgress>
+        <itemUninstallInProgressTip>Avinstallerar %s, vänligen vänta medan avinstallationen slutförs...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>Modifiering pågår</itemModifyInProgress>
+        <itemModifyInProgressTip>Modifierar %s, vänligen vänta medan processen slutförs...</itemModifyInProgressTip>
+        <itemNothingFound>Inga poster hittades!</itemNothingFound>
+        <itemNoItemsMatchingFilter>There are no programs matching '%s' in the %s category</itemNoItemsMatchingFilter>
+        <itemGroup>Detta är en samling program</itemGroup>
+        <itemNoUninstall>The program cannot be uninstalled in a normal way, you can try Force Removal instead.</itemNoUninstall>
+        <itemTracedOnly>Custom entry defined by a set of traces. Can be removed only with Force Removal feature.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>Inaktivera körning vid uppstart</itemDisableRunning>
+        <itemEnableRunning>Aktivera körning vid uppstart</itemEnableRunning>
+        <itemDeleteStartupItem>Tvinga avinstallation</itemDeleteStartupItem>
+        <itemDisableSelected>Disable selected items</itemDisableSelected>
+        <itemEnableSelected>Enable selected items</itemEnableSelected>
+        <itemDeleteSelected>Delete selected items from the list</itemDeleteSelected>
+        <itemMultiplSelected>%u items selected</itemMultiplSelected>
+        <itemAddNewStartupItem>Add a new program...</itemAddNewStartupItem>
+        <itemStatusCaption>Status:</itemStatusCaption>
+        <itemStatusRunning>Igång</itemStatusRunning>
+        <itemStatusNotRunning>Körs ej</itemStatusNotRunning>
+        <itemStatusDisabled>Inaktiverat</itemStatusDisabled>
+        <itemStatusInvalid>Invalid</itemStatusInvalid>
+        <itemCommandLineCaption>Kommandorad:</itemCommandLineCaption>
+        <itemSourceCaption>Källa:</itemSourceCaption>
+        <itemSourceRun_HKLM>Uppstartsvärde i registret för alla användare</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Uppstartsvärde i registret för aktuell användare</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>"Kör en gång"-värde i registret för alla användare</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>"Kör en gång"-värde i registret för aktuell användare</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>Autostart-meny för alla användare</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>Autostart-meny för aktuell användare</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>Add a new startup program</DlgAddNewStartupProgramCaption>
+        <labelStartupType>Startup type:</labelStartupType>
+        <labelPathToExecutableFile>Path to executable file:</labelPathToExecutableFile>
+        <labelArguments>Arguments (optional):</labelArguments>
+        <filterExecutableFiles>Executable Files</filterExecutableFiles>
+        <filterAllFiles>All Files</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>Inställningar</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>Allmänt</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>Check for updates on program startup</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Check for beta versions</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>Språk:</staticInterfaceLanguage>
+        <checkControlPanelIcon>Show Uninstall Tool icon in Control Panel</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>Gå till programkatalogen med Total Commander</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>Gränssnitt</categoryInterface>
+        <checkToolBarCaptions>Visa text på verktygsfältet</checkToolBarCaptions>
+        <categoryAppList>Programlista</categoryAppList>
+        <checkSmallIcons>Små ikoner</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>Färgschema</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Tree-like software updates (sub-items):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>Visa programupp&amp;dateringar</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Initially collapsed</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Initially expanded</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Always expanded</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Parent items can be expanded/collapsed with mouse or using Left/Right keyboard keys. \n\n'Initially collapsed' is recommended option, but users are able to set 'Initially expanded' to display all updates initially. Users who get used to Uninstall Tool versions prior to 3.3 can choose 'Always expanded' option which also disables expand/collapse functionality. \n\nWhen using search filter collapsed items are expanded automatically if one or more sub-items matches the filter.</subitemsHelpText>
+        <staticRecentlyInstalled>Recently Installed Programs:</staticRecentlyInstalled>
+        <checkDisplayPopup>Visa pupup-fönster med senast installerade program</checkDisplayPopup>
+        <checkHighlighRecent>Markera senast installerade program</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>Display recent programs in the secondary toolbar</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Avinstallationsguide</categoryUninstallWizard>
+        <staticWizardDesctiption>Avinstallationsguiden™ låter dig ta bort oönskade program från systemet helt oberoende av programmets egna avinstallation som kan lämna kvar filer och registerposter. Efter att det vanliga avinstallationsprogrammet körts utför Avinstallationsguiden en djupgenomsökning i datorns filsystem och register efter oanvända filer och registerposter. Uninstall Wizard always runs for traced programs.</staticWizardDesctiption>
+        <staticWizardUsage>Använd Avinstallationsguiden™:</staticWizardUsage>
+        <comboItemWizardOption1>Fråga före start</comboItemWizardOption1>
+        <comboItemWizardOption2>Alltid</comboItemWizardOption2>
+        <comboItemWizardOption3>Nej</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Uninstall Wizard</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>Ta bort alla spår av %s - Avinstallationsguiden™</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>Letar efter kvarlämnade filer, mappar och registerposter...</statusScanning>
+        <statusScanningTraced>Generating the list of leftover traced items, please wait...</statusScanningTraced>
+        <statusForceRemoval>Force removal of '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>Några kvarlämnade spår hittades!</statusLeftOverTracesFound>
+        <statusNothingFound>Inga spår hittades.</statusNothingFound>
+        <statusAllTracesRemoved>Alla spår har raderats</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>Tar bort spår av programmet...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Uninstall Tool upptäckte att följande spår förblev kvar på din dator. Vänligen kontrollera dem noga och klicka sedan på 'Slutför' för att ta bort de markerade posterna.</staticScanStatusFound>
+        <staticScanStatusRemoved>%s har tagits bort.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>All selected leftovers have been successfully removed.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>Genererar lista över spår...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>Filsystem (%d poster)</treeItemFileSystem>
+        <treeItemRegistry>Register (%d poster)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>Bläddra...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d filer (%s) och %d registerposter finns fortfarande kvar på din dator</staticOverallInfo>
+        <btnFinish>Slutför</btnFinish>
+        <btnCancel>Avbryt</btnCancel>
+        <btnClose>Stäng</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>Some files were not deleted</Title>
+        <Instruction1>The following files were not deleted because they are in use by the system:</Instruction1>
+        <Instruction2>These files will be removed automatically on next system reboot.</Instruction2>
+        <btnReboot>Reboot now</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>Force terminate running processes?</Title>
+        <Instruction1>The following processes were detected:</Instruction1>
+        <Instruction2>It's recommended to terminate them manually before removal, but Uninstall Wizard can force terminate them.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>Install Tracker</InstallTrackerLocalizedName>
+        <Title>Install and Trace a Program</Title>
+        <TitleAppend>Install and Trace, append traced data to '%s'</TitleAppend>
+        <staticPathToProgram>Path to a setup file (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>Installation Progress:</staticInstallProgress>
+        <checkMinimize>Minimize Uninstall Tool to system tray during installation</checkMinimize>
+        <btnInstall>Install and Trace</btnInstall>
+        <btnStop>Stop</btnStop>
+        <btnSave>Save</btnSave>
+        <btnSaveLog>Save Log...</btnSaveLog>
+        <btnNoAndRevert>No + Revert</btnNoAndRevert>
+        <staticRevertInfo>Revert option attepts to delete all file system/registry items created during the installation tracing</staticRevertInfo>
+        <installTip1>Proceed with installation as usual while Uninstall Tool is watching for it. Tracing will be stopped automatically when all processes are finished or you have to stop it manually when setup is completed</installTip1>
+        <installTip2>Please make sure than no other installation is currently running</installTip2>
+        <installTip3>If a previous version of this program is already installed, you should remove it first before installing a newer version</installTip3>
+        <trayIconTitle>Installing '%s'...</trayIconTitle>
+        <trayIconTooltip>See right-click menu to stop or view tracing log</trayIconTooltip>
+        <trayIconText>Proceed with installation as usual while Uninstall Tool is watching for it. Tracing will be stopped automatically when all processes are finished or you have to stop it manually (right-click menu) when setup is completed</trayIconText>
+        <trayIconMenuProgress>Installation Progress</trayIconMenuProgress>
+        <trayIconMenuStop>Stop</trayIconMenuStop>
+        <readMore>Read More</readMore>
+        <installationFiles>Installation Files</installationFiles>
+        <textFiles>Text Files</textFiles>
+        <selectInstallFile>Select an installation file</selectInstallFile>
+        <contextMenuCopy>Copy</contextMenuCopy>
+        <logEventCreateFile>Create File</logEventCreateFile>
+        <logEventCreateFolder>Create Folder</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>Create Key</logEventCreateKey>
+        <logEventDeleteKey>Delete Key</logEventDeleteKey>
+        <logEventSetValue>Set Value</logEventSetValue>
+        <logEventProcessCreated>Process Created</logEventProcessCreated>
+        <logEventProcessKilled>Process Killed</logEventProcessKilled>
+        <logEventDeleteOperation>Delete</logEventDeleteOperation>
+        <logStartingService>Starting Install Tracker service...</logStartingService>
+        <logStartingServiceError1>Error: CisUtMonitor service is still stopping</logStartingServiceError1>
+        <logStartingServiceError2>Error: CisUtMonitor startup is timed out</logStartingServiceError2>
+        <logStartingServiceError3>Error: Cannot start the CisUtMonitor service (error %u)</logStartingServiceError3>
+        <logStartingServiceError4>Error: Cannot open the CisUtMonitor service. Please reinstall the program.</logStartingServiceError4>
+        <logServiceStopped>Tracking service is stopped</logServiceStopped>
+        <logServiceStopError>Error: Failed to stop the tracking service</logServiceStopError>
+        <logServiceVersion>Service version is: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>Monitor version is: 0x%x, should be 0x%x. Please reinstall the program.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Warning: Stopping active monitor...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>Installation monitor is started</logServiceMonitorStarted>
+        <logTrackingStarting>Starting %s...</logTrackingStarting>
+        <logTrackingStartingEror>Error: Cannot start the setup process (error %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>Error: Cannot run the monitor. Please reinstall the program.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>Tracing is stopped by a user</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>All installation processes are finished</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>Setup is completed</logTrackingCompleted>
+        <logTracingAnalyzing>Analyzing installation, please wait...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>%u installation entries detected</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u new installation entries detected:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Done</logTrackingDone>
+        <logReverting>Reverting changes...</logReverting>
+        <logCompleted>Completed</logCompleted>
+        <logMSIServiceWarning>Warning: MSI service is disabled</logMSIServiceWarning>
+        <logMSIServiceError1>Error: Failed to open MSI service</logMSIServiceError1>
+        <logMSIServiceError2>Error: Cannot start the MSI service</logMSIServiceError2>
+        <logMSIServiceError3>Error: Cannot query MSI service status</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>No new installation entries were found during the tracing. Generally it means that the program is not installed correctly, but if you're sure that installation went fine you may create a new custom program in the Apps list. All currently found traces will belong to it.</Title>
+        <staticName>Name:</staticName>
+        <checkCreateCustomEntry>I'd like to create a custom item in the list</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>Multiple installation entries detected</Caption>
+        <Title>Multiple installation entries were detected in Windows Registry after the installation. Please select the main item to display in the Apps list with a special icon in the 'Traced' column. Consider that when removing traced data of the main item, Uninstall Tool will also remove traced data of all dependent items.</Title>
+        <btnSelect>Select</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s traced data</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>Remove also dependent items?</Instruction>
+        <Footer>You installed '%s' with Install Tracker tracing enabled and the items above were installed as well. It means that when using Uninstall Wizard every dependent traced component will be removed too. When selecting removal only of current item, tracing data will be ignored and Uninstall Wizard will scan for leftover data referred to this program.</Footer>
+        <btnOnlyCurrent>Only %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>Programmets egna avinstallation är klar. Vill du utföra en djupgenomsökning av din dators register och filsystem för att hitta oanvända data från programmet?</staticConfirm>
+        <learnMoreAboutWizard>Learn more about Uninstall Wizard</learnMoreAboutWizard>
+        <btnYes>Ja</btnYes>
+        <btnNo>Nej</btnNo>
+        <checkDontAskAgain>Kom ihåg mitt val och fråga mig inte igen. (Kan ändras under Inställningar)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Om Uninstall Tool</DlgAboutCaption>
+        <staticWebSite>Hemsida</staticWebSite>
+        <staticSupport>Support</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>Denna produkt är licencierad till:</staticRegisteredTo>
+        <staticChangeKey>Change License Key</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>Trial Reminder</UnregDlgReminder>
+        <UnregDlgExpired>Trial Expired</UnregDlgExpired>
+        <staticExpired>Utvärderingsperioden är över.\nDu har utvärderat programmet med full funktionalitet i 30 dagar\n\n Om du vill fortsätta använda programmet, klicka på 'Köp'.</staticExpired>
+        <staticTrial>Denna utvärderingsversion av Uninstall Tool kan användas i 30 dagar. Efter perioden måste du köpa programmet eller avinstallera det från din dator.</staticTrial>
+        <btnWebSite>Hemsida</btnWebSite>
+        <staticDaysLeft>%d dagar kvar av utvärdering</staticDaysLeft>
+        <btnBuyNow>Buy Now</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Ange produktnyckel</EnterKeyDlgCaption>
+        <Title>Please enter your name and code from the registration e-mail:</Title>
+        <staticName>Namn:</staticName>
+        <staticKey>Produktnyckel:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>Avinstallationsprocessen misslyckades.\nVill du ta bort programinformation från registret och rensa upp dess filer?</msgUninstallFailed>
+        <msgForceRemovalTitle>Force Removal of '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Batch Force Removal</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>Are you sure you want to perform force removal of this program?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Are you sure you want to perform force removal of the following programs?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>Tvingad borttagning av denna post kommer inte att köra den associerade avinstalleraren. Den kommer endast radera alla filer och registerposter som tillhör programmet. Du bör endast använda denna funktion på otillgängliga eller felaktiga poster.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>Force removal of a traced program will perform ultra fast and thorough removal without running its associated uninstaller. It will erase all file system and registry items traced during installation.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Batch Force Removal is an advanced feature and should be used carefuly. It will not run associated uninstallers and will only scan for leftover file system/registry items and display them in a merged list that requires a precise review. The most thorough and accurate removal is performed for programs traced with Install Tracker.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>dependent</msgForceRemovalItemDependent>
+        <msgLearnMore>Learn more</msgLearnMore>
+        <msgForceRemovalCheck>Ok, I understand the responsibility</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>Är du säker att du vill ta bort Uninstall Tool från din dator?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>Are you sure you want to remove this entry?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Are you sure you want to remove these entries?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>Funktion tar endast bort posten från listan.Inga kvarlämnade filer eller registerposter kommer att tas bort. Du bör endast använda denna funktion otillgängliga eller felaktiga poster.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>Misslyckades att ta bort registerposten för denna post.\nDu har säkert inte tillgång till den.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>Are you sure you want to force cancel uninstallation of this program?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>Force cancelletion should be perfomed only when default uninstall program is freezed or you urgently need to stop all currently running uninstall processes. Correct cancellation should be done in program's default uninstaller because force cancellation may cause unpredictable effects.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>Traced item '%s' is now displayed in the program list with a special icon in the 'Traced' column.</msgTracedItem>
+        <msgTracedItemAppended>Traced data is now added to the previously traced item '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Please note that new installation items will be treated as dependent entries and can be removed later together with '%s' (upon confirmation).</msgTracedItemAppendedNote>
+        <msgUndoTracing>Are you sure you want Uninstall Tool to forget all traced data of this program?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>Cannot open the CisUtMonitor service. Please reinstall the program</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>The Uninstall Tool tracking service ('CisUtMonitor') is not installed on this system. \n\nDo you wish to install it now?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>The Uninstall Tool tracking service ('CisUtMonitor') is not installed on this system.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>The service is successfully installed. \n\nYou can uninstall it later using the 'RemoveService.cmd' file.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>Service installation timeout: error code %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>Failed to install a service - unknown reason, please contact support for assistance.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>The Uninstall Tool tracking service ('CisUtMonitor') is uninstalled from this computer.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>The installed 'CisUtMonitor' service version (%u) is older than current (%u). \n\nDo you wish to update?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>The latest version of service is successfully installed. You must reboot your computer before using Install Tracker.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>There's nothing to save because the traced program was not installed (left no files/registry items)</msgNothingToSave>
+        <msgCancelTracing>Do you wish to cancel current installation tracing?</msgCancelTracing>
+        <msgStopTracing>Installation tracing will be stopped now. Do you wish to save current tracing results?</msgStopTracing>
+        <msgEntryAlreadyExists>The program '%s' already exists in the list, so please choose another name.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>Detta raderar posten helt från systemregistret (Auto-start).\n\nÄr du säker att du vill fortsätta?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>Error adding new startup item, please check your administration rights or contact program support for assistance.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>Kan inte modifiera denna posts egenskaper. Eventuellt har du inte tillräckligt med befogenheter.\n\nVänligen kontakta din lokala systemadministratör för assistans.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>Are you sure you want to remove these items?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>This will remove the items above from your system registry (start menu) and they will never run when your Windows starts.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>För att slutföra registreringen måste programmet startas om.\n\nVill du avsluta programmet nu?</msgRegRestartRequired>
+        <msgNewVersionAvailable>Ny version (%s) finns tillgänglig.</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>Current version: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>What's New:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Portable version download link</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>Du använder den senaste versionen.</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>Cannot connect to crystalidea.com website, please check your Internet connection</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>You're not supposed to run 32-bit version of Uninstall Tool on 64-bit Windows as it displays only 32-bit applications and has a wide range of limitations. It's highly recommended to download and reinstall Uninstall Tool on this machine (it will automatically choose 64-bit version when installing on a 64-bit Windows).</msgRunningInWow64>
+        <msgRunningInWow64Title>Running in WoW64 environment</msgRunningInWow64Title>
+        <msgCannotStartHelper>Unable to start 'UninstallToolHelper.exe' process. \n\nPlease reintall the program.</msgCannotStartHelper>
+        <msgUninstallingMyself>Do you want to remove Uninstall Tool preferences and all data about traced installations?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Unable to create file:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>UTVäRDERINGSEXEMPLAR</txtUnregisteredBig>
+        <msgNotAvailableInTrial>Denna funktion är endast tillgänglig i den registrerade versionen av programmet.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>You can save the leftover data and delete it later by using Force Removal feature on the '%s' item in the list.</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>Save and delete the leftover data later</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML Files</htmlFiles>
+        <allFiles>All Files</allFiles>
+        <generatedByOn>Generated by %s on %s</generatedByOn>
+        <installedPrograms>Installed Programs (%s)</installedPrograms>
+        <startupPrograms>Startup Programs</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>OK</btnOK>
+        <btnCancel>Avbryt</btnCancel>
+        <btnHelp>Hjälp</btnHelp>
+        <btnYes>Yes</btnYes>
+        <btnNo>No</btnNo>
+        <btnClose>Close</btnClose>
+        <statusTotalInfo>%d programs of %s size in total</statusTotalInfo>
+        <statusUnknown>unknown</statusUnknown>
+        <statusRecentItems>recently installed</statusRecentItems>
+        <statusRecentItemsTip>View recently installed/modified programs</statusRecentItemsTip>
+        <statusStartupTotalInfo>%d programs total, %d are currently running</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>Calculating occupied size... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>New version available:</statusNewVersionAvailable>
+        <popupNewProgramsFound>%d nya program hittades!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Windowsuppdateringar</WindowsUpdatesText>
+        <UninstallToolDescription>Uninstall Programs Completely, Manage Startup Programs</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>Install and trace with Install Tracker...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>Install and trace all the changes a program makes on your computer</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Unhandled Exception</msgTitleTemplate>
+        <msgTemplate>We're sorry but an unhandled exception has occurred and \n%app_name% has become unstable. \nPlease send us an e-mail to '%email%'\nattaching the following crash dump file:\n\n%dump_file%\n\nAfter pressing 'Send Report' button, a default mailer program \nwill be opened with composed message.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file %dump_file%)\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <btnSend>Send Report (Recommended)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>Other Tasks:</other_tasks>
+        <install_service>Install tracing service ('Install and Trace' feature)</install_service>
+        <control_panel_icon_text>Add Uninstall Tool icon to Control Panel</control_panel_icon_text>
+        <installing_driver>Installing kernel driver...</installing_driver>
+        <ut_initializing>Uninstall Tool is initializing...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

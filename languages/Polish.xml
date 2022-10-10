@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.4" LangID="1045" Author="Maciej Haudek &amp; Mr.O &amp; Maciej Bojakowski">
+    <MainMenu>
+        <mnuFile>&amp;Plik</mnuFile>
+        <mnuFileExport>&amp;Eksportuj do HTML...</mnuFileExport>
+        <mnuFileExit>&amp;Zakończ</mnuFileExit>
+        <mnuAction>&amp;Zadanie</mnuAction>
+        <mnuActionUninstall>&amp;Odinstaluj...</mnuActionUninstall>
+        <mnuActionModify>&amp;Zmień...</mnuActionModify>
+        <mnuActionDelete>&amp;Usuń program (wymuszone)</mnuActionDelete>
+        <mnuActionDeleteBatch>Wymuszone usunięcie &amp;wielu programów</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>Usuń &amp;wpis z listy</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>Usuń wiele &amp;programów</mnuActionRemoveEntryBatch>
+        <mnuTracedData>Monitorowane dane</mnuTracedData>
+        <mnuTracedDataAsXML>Podejrzyj jako XML...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>Cofnij monitorowanie</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Dodaj monitorowane dane (Zainstaluj i monitoruj)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>Wpis w &amp;rejestrze</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>Folder &amp;aplikacji</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>Strona &amp;internetowa aplikacji</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Przeglądaj położenie...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>Przeglądaj źródło...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Szukaj w Google</mnuActionGoogleFor>
+        <mnuView>&amp;Widok</mnuView>
+        <mnuViewMainToolbar>Główny pasek narzędzi</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>Pokaż główny pasek narzędzi</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>Pokaż etykiety ikon</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>Dodatkowy pasek narzędzi</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;Odśwież</mnuViewRefresh>
+        <mnuViewListColumnsReset>Resetuj kolumny</mnuViewListColumnsReset>
+        <mnuViewLanguage>Język interfejsu</mnuViewLanguage>
+        <mnuTools>&amp;Narzędzia</mnuTools>
+        <mnuToolsSystemTools>Narzędzia systemowe</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;Dodaj lub usuń programy...</mnuToolsAddRemove>
+        <mnuToolsComponents>&amp;Składniki systemu Windows...</mnuToolsComponents>
+        <mnuToolsSystemRestore>Przywracanie systemu</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>Centrum bezpieczeństwa</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>Właściwości systemu</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>Informacje o systemie</mnuToolsSystemInfo>
+        <mnuToolsDefrag>Defragmentacja dysków</mnuToolsDefrag>
+        <mnuToolsServices>Usługi</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;Preferencje...</mnuToolsOptions>
+        <mnuHelp>Pomo&amp;c</mnuHelp>
+        <mnuHelpOnline>&amp;Spis treści...</mnuHelpOnline>
+        <mnuHelpHomePage>Strona producenta</mnuHelpHomePage>
+        <mnuHelpSupport>Support</mnuHelpSupport>
+        <mnuHelpBuyNow>&amp;Zakup...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>&amp;Wpisz klucz...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>Sprawdź &amp;uaktualnienia...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;Uninstall Tool - informacje...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>Nazwa programu</columnProgramName>
+        <columnSize>Rozmiar</columnSize>
+        <columnInstallationDate>Data instalacji</columnInstallationDate>
+        <columnTraced>Monitorowane</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;Wyczyść&lt;/a&gt; filtr wyszukiwania (przycisk Esc) lub spróbuj wyszukać inne kategorie</staticNoItemsMatchingFilterTip>
+        <staticLoading>Ładowanie, proszę czekać...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>Status</columnStatus>
+        <columnSource>Źródło</columnSource>
+        <columnCompany>Firma</columnCompany>
+        <sourceHKLMRun>HKLM Run</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM RunOnce</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU Run</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
+        <sourceStartMenuAll>Menu Start (wszyscy)</sourceStartMenuAll>
+        <sourceStartMenuCU>Menu Start (aktualny użytkownik)</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems>Brak programów automatycznie uruchamianych podczas startu systemu Windows</staticNoStartupItems>
+        <staticNoStartupItemsTip>Możesz ręcznie &lt;a&gt; dodać nowy program&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>Odinstaluj</btnUninstaller>
+        <btnUninstallerToolTip>Odinstaluj istniejące programy lub zainstaluj nowe z użyciem funkcji monitorowania</btnUninstallerToolTip>
+        <btnStartup>Autostart</btnStartup>
+        <btnStartupToolTip>Aplikacje uruchamiane podczas startu systemu</btnStartupToolTip>
+        <btnRefresh>Odśwież</btnRefresh>
+        <btnRefreshToolTip>Odśwież listę aplikacji</btnRefreshToolTip>
+        <btnPrefs>Preferencje</btnPrefs>
+        <btnPrefsToolTip>Wyświetl okienko z preferencjami</btnPrefsToolTip>
+        <btnHelp>Pomoc</btnHelp>
+        <btnHelpToolTip>Wyświetl pomoc do programu</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>Programy</btnApps>
+        <btnAppsToolTip>Programy</btnAppsToolTip>
+        <btnSystem>Systemowe</btnSystem>
+        <btnSystemToolTip>Składniki systemu Windows i uaktualnienia</btnSystemToolTip>
+        <btnHidden>Ukryte</btnHidden>
+        <btnHiddenToolTip>Ukryte składniki systemu Windows</btnHiddenToolTip>
+        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>Ostatnio zainstalowane (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Ostatnio zainstalowane/aktualizowane</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Instaluj i monitoruj</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Zainstaluj nowy program i monitoruj wszystkie zmiany jakie wykonuje w plikach systemu i rejestrze</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>Odinstaluj</itemUninstallIt>
+        <itemModifyIt>Zmień</itemModifyIt>
+        <itemDelete>Usuń wpis z listy</itemDelete>
+        <itemBatchDelete>Usuń zaznaczone programy</itemBatchDelete>
+        <itemBatchRemoveEntry>Usuń zaznaczone programy z listy</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>Wybrano %u pozycji ale maksymalna ilość pozycji w usuwwaniu hurtowym (wiele programów na raz) posiada limit ograniczony do %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>Anuluj</itemCancelWaiting>
+        <itemSearch>Znajdź</itemSearch>
+        <itemShortSearchTip>Zacznij pisać, aby znaleźć program</itemShortSearchTip>
+        <itemVersion>Wersja:</itemVersion>
+        <itemInstalledOn>Data instalacji:</itemInstalledOn>
+        <itemPublisher>Wydawca:</itemPublisher>
+        <itemRegistryEntry>Wpis w rejestrze</itemRegistryEntry>
+        <itemUninstallInProgress>Trwa odinstalowywanie</itemUninstallInProgress>
+        <itemUninstallInProgressTip>Odinstalowywanie %s, proszę poczekać aż proces odinstalowania zostanie zakończony...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>Trwa zmiana instalacji</itemModifyInProgress>
+        <itemModifyInProgressTip>Zmieniam %s, proszę czekać na zakończenie zadania...</itemModifyInProgressTip>
+        <itemNothingFound>Nic nie znaleziono!</itemNothingFound>
+        <itemNoItemsMatchingFilter>Nie znaleziono programów dopasowanych '%s' w tej %s kategorii</itemNoItemsMatchingFilter>
+        <itemGroup>To jest grupa programów</itemGroup>
+        <itemNoUninstall>Program nie może zostać odinstalowany w normalny sposób, możesz spróbować wymusić jego odinstalowanie.</itemNoUninstall>
+        <itemTracedOnly>Zdefiniowane przez użytkownika ślady po programach mogą być usunięte tylko przy użyciu wymuszonej deinstalacji.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>Wyłącz uruchamianie podczas startu systemu</itemDisableRunning>
+        <itemEnableRunning>Włącz uruchamianie podczas startu systemu</itemEnableRunning>
+        <itemDeleteStartupItem>Wymuszone usunięcie</itemDeleteStartupItem>
+        <itemDisableSelected>Wyłącz wybrane pozycje</itemDisableSelected>
+        <itemEnableSelected>Włącz wybrane pozycje</itemEnableSelected>
+        <itemDeleteSelected>Usuń wybrane pozycje z listy</itemDeleteSelected>
+        <itemMultiplSelected>zaznaczonych pozycji : %u</itemMultiplSelected>
+        <itemAddNewStartupItem>Dodaj nowy program...</itemAddNewStartupItem>
+        <itemStatusCaption>Stan:</itemStatusCaption>
+        <itemStatusRunning>Uruchomiony</itemStatusRunning>
+        <itemStatusNotRunning>Nie uruchomiony</itemStatusNotRunning>
+        <itemStatusDisabled>Wyłączony</itemStatusDisabled>
+        <itemStatusInvalid>Nieprawidłowy</itemStatusInvalid>
+        <itemCommandLineCaption>Linia poleceń:</itemCommandLineCaption>
+        <itemSourceCaption>Źródło:</itemSourceCaption>
+        <itemSourceRun_HKLM>Klucz rejestru Run dla wszystkich użytkowników</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Klucz rejestru Run dla aktualnego użytkownika</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>Klucz rejestru Run Once dla wszystkich użytkowników</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>Klucz rejestru Run Once dla aktualnego użytkownika</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>Autostart w Menu Start dla wszystkich użytkowników</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>Autostart w Menu Start dla aktualnego użytkownika</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>Dodaj nowy program do Autostartu</DlgAddNewStartupProgramCaption>
+        <labelStartupType>Typ Autostartu:</labelStartupType>
+        <labelPathToExecutableFile>Ścieżka do pliku wykonywalnego:</labelPathToExecutableFile>
+        <labelArguments>Parametry (opcjonalnie):</labelArguments>
+        <filterExecutableFiles>Pliki wykonywalne</filterExecutableFiles>
+        <filterAllFiles>Wszystkie pliki</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>Preferencje</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>Ogólne</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>Sprawdzaj aktualizacje podczas uruchamiania programu</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Sprawdzaj dostępność wersji beta</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>Język aplikacji:</staticInterfaceLanguage>
+        <checkControlPanelIcon>Pokaż ikonę programu Uninstall Tool w Panelu sterowania</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>Przechodź do katalogu aplikacji używając Total Commandera</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>Wygląd</categoryInterface>
+        <checkToolBarCaptions>Wyświetl etykiety tekstowe pod ikonami</checkToolBarCaptions>
+        <categoryAppList>Lista aplikacji</categoryAppList>
+        <checkSmallIcons>Małe ikony</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>Schemat kolorów</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Widok drzewa-jak aktualizacje programu (podpozycje):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>&amp;Wyświetl uaktualnione oprogramowanie</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Początkowo zwinięte</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Początkowo rozszerzone</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Zawsze rozszerzone</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Głowne pozycje można rozszerzyć\zwinąć używając myszki lub za pomocą przycisków lewo/prawo na klawiaturze. \n\nOpcja 'Początkowo zwinięte' jest zalecana, ale użytkownicy mogą także użyć 'Początkowo rozwinięte' aby wyświetlić wszystkie aktualizacje. Użytkownicy którzy przyzwyczaili się do widoku w Uninstall Tool 3.3 i wcześniesjzych mogą użyć opcji 'Zawsze rozszerzony' która wyłącza funkcję zwijania i rozszerzania. \n\nPodczas korzystania z filtru wyszukiwania zwinięte elementy są automatycznie rozwijane wtedy gdy jedna lub więcej podpozycji pasuje do filtru.</subitemsHelpText>
+        <staticRecentlyInstalled>Ostatnio zainstalowane programy:</staticRecentlyInstalled>
+        <checkDisplayPopup>Wyświetl wyskakujące okienko z ostatnio zainstalowanymi aplikacjami</checkDisplayPopup>
+        <checkHighlighRecent>Podświetlenie ostatnio zainstalowanych aplikacji</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>Wyświetl ostatnie programy na dodatkowym pasku narzędzi</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Uninstall Wizard</categoryUninstallWizard>
+        <staticWizardDesctiption>Uninstall Wizard ™ pozwala na całkowite usunięcie niechcianego oprogramowania z systemu bez używania do tego dołączonego do programu dodatku odinstalowującego, który może pozostawić niepotrzebne pliki lub wpisy w rejestrze. Po uruchomieniu domyślnego programu odinstalowującego Uninstall Wizard wykona szczegółowe skanowanie rejestru i plików systemowych, aby wykryć nieużywane pliki i wpisy w rejestrze. Uninstall Wizard - Kreator deinstalacji zostaje zawsze uruchomiony dla monitorowanych aplikacji.</staticWizardDesctiption>
+        <staticWizardUsage>Używaj Uninstall Wizard ™:</staticWizardUsage>
+        <comboItemWizardOption1>Pytaj przed uruchomieniem</comboItemWizardOption1>
+        <comboItemWizardOption2>Zawsze</comboItemWizardOption2>
+        <comboItemWizardOption3>Nie</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Kreator dezinstalacji</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>Usuń wszystkie pozostałości po %s - UninstallWizard ™</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>Skanowanie pozostawionych plików, folderów i wpisów w rejestrze...</statusScanning>
+        <statusScanningTraced>Tworzenie listy pozostałości, proszę czekać...</statusScanningTraced>
+        <statusForceRemoval>Wymuś usunięcie '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>Znaleziono kilka pozostałości!</statusLeftOverTracesFound>
+        <statusNothingFound>Nie znaleziono żadnych pozostałości.</statusNothingFound>
+        <statusAllTracesRemoved>Usunięto wszystkie pozostałości</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>Usuwanie pozostałości po programie...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Uninstall Tool wykrył następujące elementy które jeszcze pozostały po odinstalowanym programie na Twoim komputerze. Proszę obejrzeć je uważnie i jeśli jesteś gotowy do usunięcia wybranych elementów, kliknij 'Zakończ'.</staticScanStatusFound>
+        <staticScanStatusRemoved>%s został pomyślnie usunięty.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>Wszystkie zaznaczone pozostałości zostały usunięte.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>Generuję listę pozostałości...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Dziennik usuwania</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Tworzy szczegółowy plik dziennika usuwania i otwiera go</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Eksport do pliku XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Eksportuje wyniki skanowania do pliku XML</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>Pliki systemowe (%d elementy(ów))</treeItemFileSystem>
+        <treeItemRegistry>Rejestr (%d elementy(ów))</treeItemRegistry>
+        <treeItemPopopMenuBrowse>Przeglądaj...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d pliki(ów) (%s) i %d wpisy(ów) w rejestrze pozostało jeszcze na twoim komputerze</staticOverallInfo>
+        <btnFinish>Zakończ</btnFinish>
+        <btnCancel>Anuluj</btnCancel>
+        <btnClose>Zamknij</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>Niektóre pliki nie zostały skasowane</Title>
+        <Instruction1>Te pliki nie zostały skasowanie ponieważ są używane przez system:</Instruction1>
+        <Instruction2>Pliki te zostaną automatycznie skasowane przy następnym uruchomieniu systemu.</Instruction2>
+        <btnReboot>Uruchom ponownie teraz</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>Wymusić zamknięcie uruchomionych procesów?</Title>
+        <Instruction1>Wykryto następujące procesy:</Instruction1>
+        <Instruction2>Zalecane jest aby wyłączyć je ręcznie przed usunięciem, ale Uninstall Wizard - kreator deinstalacji może wymusić ich zamknięcie.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>Monitorowanie instalacji</InstallTrackerLocalizedName>
+        <Title>Zainstaluj i monitoruj program</Title>
+        <TitleAppend>Zainstaluj i monitoruj, dodaj monitorowane dane do '%s'</TitleAppend>
+        <staticPathToProgram>Ścieżka do instalatora (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>Postęp instalacji:</staticInstallProgress>
+        <checkMinimize>Minimalizuj program Uninstall Tool do ikonki w zasobniku systemowym podczas instalacji</checkMinimize>
+        <btnInstall>Zainstaluj i monitoruj</btnInstall>
+        <btnStop>Zatrzymaj</btnStop>
+        <btnSave>Zapisz</btnSave>
+        <btnSaveLog>Zapisz log...</btnSaveLog>
+        <btnNoAndRevert>Nie + Cofnij</btnNoAndRevert>
+        <staticRevertInfo>Opcja cofnięcia próbuje usunąć wszystkie pliki systemowe / wpisy które zostały utworzone podczas monitorowania instalacji</staticRevertInfo>
+        <installTip1>Kontynuuj instalację jak zawsze, w tym czasie Uninstall Tool będzie monitorował instalację programu. Monitorowanie zostanie automatycznie zakończone kiedy wszystkie procesy instalacji zostaną zakończone, możesz także ręcznie zakończyć monitorowanie.</installTip1>
+        <installTip2>Upewnij się, że w tle nie przebiega inna instalacja</installTip2>
+        <installTip3>Jeśli wcześniejsza wersja tego programu jest zainstalowana, to powinno się ją usunąć przed instalowaniem nowszej wersji.</installTip3>
+        <trayIconTitle>Instalacja '%s'...</trayIconTitle>
+        <trayIconTooltip>Kliknij prawym przyciskiem myszy na menu, aby zatrzymać lub podejrzeć log utworzony podczas monitorowana</trayIconTooltip>
+        <trayIconText>Kontynuuj instalację jak zawsze, w tym czasie Uninstall Tool będzie monitorował instalację programu. Monitorowanie zostanie automatycznie zakończone kiedy wszystkie procesy instalacji zostaną zakończone, możesz także ręcznie zakończyć monitorowanie.</trayIconText>
+        <trayIconMenuProgress>Postęp instalacji</trayIconMenuProgress>
+        <trayIconMenuStop>Stop</trayIconMenuStop>
+        <readMore>Więcej</readMore>
+        <installationFiles>Pliki instalacyjne</installationFiles>
+        <textFiles>Pliki tekstowe</textFiles>
+        <selectInstallFile>Wybierz plik instalacji</selectInstallFile>
+        <contextMenuCopy>Kopiuj</contextMenuCopy>
+        <logEventCreateFile>Utwórz plik</logEventCreateFile>
+        <logEventCreateFolder>Utwórz folder</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>Utwórz klucz</logEventCreateKey>
+        <logEventDeleteKey>Usuń klucz</logEventDeleteKey>
+        <logEventSetValue>Ustaw wartość</logEventSetValue>
+        <logEventProcessCreated>Proces utworzony</logEventProcessCreated>
+        <logEventProcessKilled>Proces zatrzymany</logEventProcessKilled>
+        <logEventDeleteOperation>Usuń</logEventDeleteOperation>
+        <logStartingService>Uruchamianie usługi Install Tracker-Monitorowania instalacji...</logStartingService>
+        <logStartingServiceError1>Błąd: usługa CisUtMonitor jest jeszcze zatrzymana</logStartingServiceError1>
+        <logStartingServiceError2>Błąd: CisUtMonitor przekroczono czas uruchamiania</logStartingServiceError2>
+        <logStartingServiceError3>Błąd: Nie można uruchomić usługi CisUtMonitor (błąd %u)</logStartingServiceError3>
+        <logStartingServiceError4>Błąd: Nie można uruchomić usługi CisUtMonitor. Proszę przeinstalować program.</logStartingServiceError4>
+        <logServiceStopped>Usługa monitorowania jest zatrzymana</logServiceStopped>
+        <logServiceStopError>Błąd: Niepowodzenie podczas zatrzymywania usługi monitorowania</logServiceStopError>
+        <logServiceVersion>Wersja usługi: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>Wersja monitora : 0x%x, powinna być 0x%x. Proszę przeinstalować program.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Uwaga: Zatrzymywanie monitorowania...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>Monitorowanie instalacji monitor uruchomione</logServiceMonitorStarted>
+        <logTrackingStarting>Uruchamianie %s...</logTrackingStarting>
+        <logTrackingStartingEror>Błąd: Nie można rozpocząć procesu uruchamiania (błąd %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>Błąd: Nie można uruchomić monitorowania. Proszę przeinstalować program.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>Monitorowanie zatrzymane przez użytkownika</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>Procesy instalacji zakończone</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>Konfiguracja jest zakończona</logTrackingCompleted>
+        <logTracingAnalyzing>Analiza instalacji, proszę czekać...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>Wykryto %u wpisów instalacyjnych</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>Wykryto %u nowych wpisów instalacyjnych:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Gotowe</logTrackingDone>
+        <logReverting>Cofanie zmian...</logReverting>
+        <logCompleted>Zakończono</logCompleted>
+        <logMSIServiceWarning>Uwaga: usługa MSI jest wyłączona</logMSIServiceWarning>
+        <logMSIServiceError1>Błąd: Nie można uruchomić usługi MSI</logMSIServiceError1>
+        <logMSIServiceError2>Błąd: Nie można uruchomić usługi MSI</logMSIServiceError2>
+        <logMSIServiceError3>Błąd: Nie można wysłać zapytania o status usługi MSI</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>Podczas monitorowania nie wykryto żadnych nowych zmian. Generalnie oznacza to że program nie zainstalował się prawidłowo, ale jeśli jesteś pewny że instalacja przebiegła prawidłowo możesz utworzyć nowy program w liście programów. Wszystkie znalezione ślady należą do niego.</Title>
+        <staticName>Nazwa:</staticName>
+        <checkCreateCustomEntry>Utwórz nową pozycję na liście</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>Wielokrotne wpisy instalacji zostały wykryte</Caption>
+        <Title>Wielokrotne wpisy instalacji zostały wykryte w rejestrze po instalacji. Proszę wybrać główny element, aby wyświetlić na liście programów specjalną ikonkę w kolumnie monitorowanych. Uważają, podczas usuwania monitorowanych danych z głównych pozycji, Uninstall Tool usuwa także monitorowane dane wszystkich elementów zależnych.</Title>
+        <btnSelect>Wybierz</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s monitorowanych danych</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>Odinstaluj '%s'</Title>
+        <Instruction>Usunąć powiązane elementy?</Instruction>
+        <Footer>Zainstalowałeś '%s' używając Monitora instalacji. Dzięki temu podczas jeśli użyjesz Kreatora deinstalacji wszystkie jego monitorowane dane zostaną usunięte. Jeśli wybierzesz opcję normalnego usuwania, to wszystkie dane wykryte podczas monitorowania pozostaną, zawsze możesz potem uruchomić kreator deinstalacji który wyszuka i usunie pozostałości po tym programie.</Footer>
+        <btnOnlyCurrent>Tylko %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>Wbudowany program odinstalowujący zakończył działanie. Czy wykonać szczegółowe skanowanie rejestru systemowego oraz plików systemowych w poszukiwaniu nieużywanych wpisów w rejestrze i niepotrzebnych plików?</staticConfirm>
+        <learnMoreAboutWizard>Dowiedz się więcej o Uninstall Wizard - Kreatorze Deinstalacji</learnMoreAboutWizard>
+        <btnYes>Tak</btnYes>
+        <btnNo>Nie</btnNo>
+        <checkDontAskAgain>Zapamiętaj mój wybór i nie pytaj mnie podobnie (to ustawienie może być zmienione w Preferencjach)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Uninstall Tool - informacje</DlgAboutCaption>
+        <staticWebSite>Witryna www</staticWebSite>
+        <staticSupport>Pomoc techniczna</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>Ta aplikacja jest zarejestrowana dla:</staticRegisteredTo>
+        <staticChangeKey>Zmień klucz licencji</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>Przypomnienie o wersji testowej</UnregDlgReminder>
+        <UnregDlgExpired>Wersja testowa wygasła</UnregDlgExpired>
+        <staticExpired>Wersja testowa wygasła. Testowałeś aplikację z pełną funkcjonalnością przez 30 dni.\n\nJeśli chcesz korzystać z tej aplikacji, kliknij 'Zakup'.</staticExpired>
+        <staticTrial>Bezpłatna testowa wersja Uninstall Tool może być używana przez 30 dni. Po tym czasie powinieneś zakupić program lub usunąć go z systemu.</staticTrial>
+        <btnWebSite>Witryna www</btnWebSite>
+        <staticDaysLeft>%d dni pozostało do testowania</staticDaysLeft>
+        <btnBuyNow>Kup Teraz</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Wpisz klucz rejestracyjny</EnterKeyDlgCaption>
+        <Title>Proszę wpisać imię i klucz rejestracyjny z wiadomości e-mail:</Title>
+        <staticName>Nazwa użytkownika:</staticName>
+        <staticKey>Numer seryjny:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>Proces odinstalowania nie powiódł się. \nCzy chciałbyś usunąć wpis w rejestrze dotyczący tej aplikacji i usunąć pozostałe pliki?</msgUninstallFailed>
+        <msgForceRemovalTitle>Wymuś usunięcie '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Wymuś usunięcie wielu programów</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>Czy na pewno chcesz wykonać wymuszone usunięcie tego programu?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Czy na pewno chcesz wykonać wymuszone usunięcie tych programów?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>Wymuszone usunięcie nie uruchamia przypisanego programu odinstalowującego. Usunięte zostaną jedynie wszystkie znalezione pliki oraz wpisy w rejestrze przypisane do tego programu. Z tej funkcji powinno się korzystać jedynie przy przestarzałych lub błędnych wpisach na liście.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>Wymuszone usunięcie monitorowanego programu przeprowadzi ultra szybkie skanowanie bez użycia wbudowanego w program monitorowany modułu do usuwania. Usunie wszystkie pliki i wpisy w rejestrze które zostały zapisane podczas monitorowanej instalacji.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Wymuszone usuwanie wielu pozycji (programów) to zaawansowana funkcja z której powinno korzystać się ostrożnie. Nie zostaną uruchomione wbudowane w programy moduły do usuwania, natomiast zostanie przeprowadzone szczegółowe skanowanie w poszukiwaniu pozostałości plików i wpisów w rejestrze. Znalezione pliki/wpisy zostaną wyświetlone jako lista którą należy szczegółowo przejrzeć. Najbardziej gruntowne i dokładne usuwanie jest wykonywane dla programów które zostały zainstalowane za pomocą funkcji Install Tracker.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>zależny</msgForceRemovalItemDependent>
+        <msgLearnMore>Dowiedz się więcej</msgLearnMore>
+        <msgForceRemovalCheck>Ok, zrozumiałem i zgadzam się</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>Czy na pewno chcesz usunąć Uninstall Tool z systemu?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>Czy na pewno chcesz usunąć ten element?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Czy na pewno chcesz usunąć te wpisy?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>Ta funkcja usunie jedynie ten element z listy. Nie zostaną dokonane żadne zmiany w rejestrze i nie zostaną usunięte żadne pliki systemowe. Z tej funkcji powinno się korzystać jedynie przy przestarzałych lub błędnych wpisach na liście.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>Nie powiodło się usunięcie wpisu w rejestrze dotyczącego tego elementu. \nPrawdopodobnie nie masz uprawnień administratora do wykonania tego zadania.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>Czy na pewno chcesz wymusić anulowanie deinstalacji tego programu?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>Wymuszenie anulowania powinno być wykonywane tylko gdy domyślne odinstalowanie zostało zatrzymane z niewiadomych powodów.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>Monitorowane elementy '%s' zostaną teraz wyświetlone w postaci listy ze specjalną ikonką 'Monitorowane' w kolumnie .</msgTracedItem>
+        <msgTracedItemAppended>Monitorowane dane zostaną dodane do wcześniej monitorowanych pozycji '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Proszę pamiętać, że nowe elementy instalacji będą traktowane jako wpisy zależne i mogą być później usunięte wraz z '%s' (po potwierdzeniu).</msgTracedItemAppendedNote>
+        <msgUndoTracing>Czy na pewno chcesz aby Uninstall Tool nie pamiętał wszystkich monitorowanych danych tego programu?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>Nie można otworzyć usługi CisUtMonitor. Proszę przeinstalować program</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Usługa monitorowania ('CisUtMonitor') nie jest zainstalowana. \n\nCzy chcesz ją zainstalować?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Usługa monitorowania ('CisUtMonitor') nie jest zainstalowana na tym systemie.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>Zainstalowano pomyślnie usługę. \n\nMożesz ją później odinstalować, używając pliku 'RemoveService.cmd'.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>Błąd instalacji usługi : kod błędu %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>Nie udało się zainstalować usługi - przyczyna jest nieznana, proszę skontaktować się z pomocą techniczną.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Usługa monitorowania ('CisUtMonitor') została odinstalowana.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>Zainstalowana wersja usługi 'CisUtMonitor' (%u) jest starsza od (%u). \n\nCzy chcesz ją zaktualizować?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>Zainstalowano pomyślnie najnowszą wersję usługi. Przed użyciem Install Tracker - Monitora instalacji, należy uruchomić komputer ponownie.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>Nie wykryto żadnych zmian ponieważ monitorowany program nie został zainstalowany (nie pozostawił żadnych plików/wpisów w rejestrze)</msgNothingToSave>
+        <msgCancelTracing>Czy chcesz anulować bieżące monitorowanie instalacji?</msgCancelTracing>
+        <msgStopTracing>Monitorowanie instalacji zostanie teraz zatrzymane. Czy chcesz zapisać dotychczasowe wyniki monitorowania?</msgStopTracing>
+        <msgEntryAlreadyExists>Program '%s' istnieje już na liście, proszę wybrać inną nazwę.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>Ta opcja całkowicie usunie wpis w rejestrze lub w Menu Start dotyczący tego elementu. \n\nCzy na pewno chcesz to zrobić?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>Wystąpił błąd podczas dodawania nowego elementu Autostartu, proszę sprawdzić swoje uprawienia administracyjne lub skontaktuj się z pomocą techniczną programu.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>Nie mogę zmienić właściwości tego wpisu. Możliwe, że nie posiadasz uprawnień do takiej zmiany.\n\nSkontaktuj się z administratorem systemu, aby uzyskać pomoc.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>Czy na pewno chcesz usunąć te pozycje?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>Zostaną usunięte pozycje z rejestru (start menu) a programy te nie będą uruchamianie podczas startu systemu.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>Aby zakończyć proces rejestracji, wymagany jest restart aplikacji. \n\nCzy chciałbyś teraz wyjść z programu?</msgRegRestartRequired>
+        <msgNewVersionAvailable>Dostępna jest nowa wersja %s.</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>Aktualna wersja: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>Co nowego:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Link do pobrania wersji przenośnej (portable)</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>Używasz aktualnej wersji.</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>Nie mogę połączyć się z witryną crystalidea.com, proszę sprawdzić swoje połączenie z Internetem</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>Nie powinno się uruchamiać 32-bitowej wersji Uninstall Tool na systemie 64-bitowym ponieważ Uninstall Tool będzie wyświetlał tylko 32-bitowe zainstalowane programy. Zaleca się odwiedzić stronę producenta i pobrać oraz zainstalować wersję Uninstall Tool przeznaczoną dla systemów 64-bitowych (wersja 64-bitowa programu Uninstall Tool zostanie automatycznie wybrana dla 64-bitowego systemu Windows).</msgRunningInWow64>
+        <msgRunningInWow64Title>Praca w środowisku WoW64</msgRunningInWow64Title>
+        <msgCannotStartHelper>Błąd podczas uruchamiania procesu 'UninstallToolHelper.exe'. \n\nProszę przeinstalować program.</msgCannotStartHelper>
+        <msgUninstallingMyself>Czy chcesz usunąć preferencje Uninstall Tool i wszystkie informacje dotyczące monitorowanych instalacji?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Nie można utworzyć pliku:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>WERSJA NIEZAREJESTROWANA</txtUnregisteredBig>
+        <msgNotAvailableInTrial>Ta opcja jest dostępna jedynie w zarejestrowanej wersji programu.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>Możesz zapisać pozostałości po programie i usunąć je później używając wymuszonej deinstalacji '%s' z listy.</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>Zapisz i usuń pozostałości później</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>Pliki HTML</htmlFiles>
+        <allFiles>Wszystkie pliki</allFiles>
+        <generatedByOn>Utworzone przez %s w %s</generatedByOn>
+        <installedPrograms>Zainstalowanych programów (%s)</installedPrograms>
+        <startupPrograms>Programy grupy Autostart</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>OK</btnOK>
+        <btnCancel>Anuluj</btnCancel>
+        <btnHelp>Pomoc</btnHelp>
+        <btnYes>Tak</btnYes>
+        <btnNo>Nie</btnNo>
+        <btnClose>Zamknij</btnClose>
+        <statusTotalInfo>%d programów, które w sumie zajmują %s</statusTotalInfo>
+        <statusUnknown>nieznane</statusUnknown>
+        <statusRecentItems>ostatnio zainstalowane(ych)</statusRecentItems>
+        <statusRecentItemsTip>Przeglądnij ostatnio zainstalowane/zmodyfikowane programy</statusRecentItemsTip>
+        <statusStartupTotalInfo>%d wszystkich programów, w tym %d uruchomionych</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>Obliczanie zajmowanego miejsca... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>Nowa wersja dostępna:</statusNewVersionAvailable>
+        <popupNewProgramsFound>Nowe programy: %d</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Aktualizacje Windows</WindowsUpdatesText>
+        <UninstallToolDescription>Całkowite odinstalowanie programów, zarządzanie Autostartem</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>Zainstaluj i monitoruj z funkcją Install Tracker...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>Zainstaluj i monitoruj wszystkie zmiany jakie program będzie wykonywał na komputerze</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Nieoczekiwany błąd</msgTitleTemplate>
+        <msgTemplate>Przepraszamy wystąpił nieoczekiwany błąd i \n%app_name% działa niestabilnie. \nWyślij wiadomość do '%email%'\nzałączając plik zrzutu błędu:\n\n%dump_file%\n\nPotem kliknij przycisk 'Wyślij raport' , domyślny program pocztowy \nzostanie otwarty aby wysłać wiadomość.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Zgłoszenie błędu</MailSubjectTemplate>
+        <MailBodyTemplate>Witam, Support.\n\nMam problem z programem %app_name%. Plik zrzutu załączony.\n(Nie zapomnij załączyć pliku zrzutu błędu %dump_file%)\n\nMój system to %winver% i działania wykonywane przed wystąpieniem problemu... (wpisz informację)</MailBodyTemplate>
+        <btnSend>Wyślij raport (Zalecane)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>Inne zadania:</other_tasks>
+        <install_service>Zainstaluj usługę monitorowania instalowanych programów (funkcja 'Zainstaluj i Monitoruj')</install_service>
+        <control_panel_icon_text>Dodaj ikonkę Uninstall Tool do Panelu Sterowania</control_panel_icon_text>
+        <installing_driver>Instalowanie sterownika...</installing_driver>
+        <ut_initializing>Uruchamianie Uninstall Tool...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

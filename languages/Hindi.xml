@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.3" LangID="1081" Author="Ashwin Chandarana - अश्विन चंदाराणा">
+    <MainMenu>
+        <mnuFile>फाइल</mnuFile>
+        <mnuFileExport>HTML में निकास...</mnuFileExport>
+        <mnuFileExit>बंद करें</mnuFileExit>
+        <mnuAction>कार्य</mnuAction>
+        <mnuActionUninstall>विस्थापन...</mnuActionUninstall>
+        <mnuActionModify>सुधारें...</mnuActionModify>
+        <mnuActionDelete>बलपूर्वक हटाएं</mnuActionDelete>
+        <mnuActionDeleteBatch>समूह में बलपूर्वक हटाएं</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>प्रविष्टि हटाएं</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>समूह में प्रविष्टि हटाएं</mnuActionRemoveEntryBatch>
+        <mnuTracedData>ख़ोजी हुई सामग्री</mnuTracedData>
+        <mnuTracedDataAsXML>XML स्वरूप में दिखाएं...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>ख़ोज अनकिया करें</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Append traced data (Install and Trace)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>रजिस्ट्री प्रविष्टि</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>&amp;स्थापन फोल्डर</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>प्रोग्राम वेबसाइट</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>स्थान खोजें ...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>मूल खोजें...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>गूगल करें...</mnuActionGoogleFor>
+        <mnuView>दिखाएं</mnuView>
+        <mnuViewMainToolbar>मूख्य उपकरण पट्टी</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>मूख्य उपकरण पट्टी दिखाएं</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>आइकन के नीचे बटन के लेबल दिखाएं</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>गौण उपकरण पट्टी</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>ताज़ा करें</mnuViewRefresh>
+        <mnuViewListColumnsReset>स्तंभ रिसेट करें</mnuViewListColumnsReset>
+        <mnuViewLanguage>अंतराफलक भाषा</mnuViewLanguage>
+        <mnuTools>उपकरण</mnuTools>
+        <mnuToolsSystemTools>सिस्टम उपकरण</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;प्रोग्राम जोड़ें/निकालें...</mnuToolsAddRemove>
+        <mnuToolsComponents>विन्डोझ के घटक...</mnuToolsComponents>
+        <mnuToolsSystemRestore>सिस्टम पुनःस्थापन</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>सुरक्षा केन्द्र</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>सिस्टम की प्रकृति</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>सिस्टम की जानकारी</mnuToolsSystemInfo>
+        <mnuToolsDefrag>डिस्क डीफ्रेग्मेन्टर</mnuToolsDefrag>
+        <mnuToolsServices>सेवाएं</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;प्राथमिकताएं...</mnuToolsOptions>
+        <mnuHelp>मदद</mnuHelp>
+        <mnuHelpOnline>विषय वस्तु...</mnuHelpOnline>
+        <mnuHelpHomePage>होम पेज</mnuHelpHomePage>
+        <mnuHelpSupport>सहायता</mnuHelpSupport>
+        <mnuHelpBuyNow>ख़रीदें...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>कुंजी प्रविष्ट करें...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>नवीनीकरण के लिए जांचें...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;विस्थापन उपकरण के बारे में...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>प्रोग्राम का नाम</columnProgramName>
+        <columnSize>नाप</columnSize>
+        <columnInstallationDate>स्थापना दिनः</columnInstallationDate>
+        <columnTraced>ख़ोजा हुआ</columnTraced>
+        <staticNoItemsMatchingFilterTip>खोज फिल्टर रिसेट करें (एस्केप की से), या दूसरे वर्गों के लिए ख़ोजें</staticNoItemsMatchingFilterTip>
+        <staticLoading>खूल रहा है, कृपया राह देखें...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>स्थिति</columnStatus>
+        <columnSource>स्रोत</columnSource>
+        <columnCompany>कंपनी</columnCompany>
+        <sourceHKLMRun>HKLM रन</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM एक बार रन</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU रन</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU एक बार रन</sourceHKCURunOnce>
+        <sourceStartMenuAll>StartMenu सब</sourceStartMenuAll>
+        <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems>कोई प्रोग्राम विन्डोझ के साथ रन होने वाला नहीं है।</staticNoStartupItems>
+        <staticNoStartupItemsTip>आप नया प्रोग्राम जोड सकते हैं</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>विस्थापक</btnUninstaller>
+        <btnUninstallerToolTip>वर्तमान प्रोग्राम को विस्थापित करें या नये सोफ्टवेर को स्थापित कर के उसके सुराग रखें</btnUninstallerToolTip>
+        <btnStartup>स्टार्ट-अप</btnStartup>
+        <btnStartupToolTip>स्टार्ट-अप के समय स्वयं रन होने वाली एप्लिकेशन्स</btnStartupToolTip>
+        <btnRefresh>ताज़ा करें</btnRefresh>
+        <btnRefreshToolTip>प्रोग्राम सूची को ताज़ा करें</btnRefreshToolTip>
+        <btnPrefs>प्राथमिकताएं</btnPrefs>
+        <btnPrefsToolTip>विस्थापन उपकरण प्राथमिकताएं</btnPrefsToolTip>
+        <btnHelp>मदद</btnHelp>
+        <btnHelpToolTip>ओन-लाइन मदद दिखाएं</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>एप्स</btnApps>
+        <btnAppsToolTip>एप्लिकेशन्स</btnAppsToolTip>
+        <btnSystem>सिस्टम</btnSystem>
+        <btnSystemToolTip>सिस्टम के घटक तथा नविनीकरण</btnSystemToolTip>
+        <btnHidden>गोपनीय</btnHidden>
+        <btnHiddenToolTip>गोपनीय घटक</btnHiddenToolTip>
+        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>नूतन स्थापन (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>नूतन स्थापित/नविनीकृत चीजें</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>स्थापित कर के सुराग रखें</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>नया प्रोग्राम स्थापित करें, तथा उसके द्वारा फाइल सिस्टम तथा रजिस्ट्री में किये जा रहे बदलाव के सुराग रखें</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>विस्थापन</itemUninstallIt>
+        <itemModifyIt>परिवर्तन</itemModifyIt>
+        <itemDelete>सभी सूरागों को बलपूर्वक हटाएं</itemDelete>
+        <itemBatchDelete>समूह में सभी सूरागों को बलपूर्वक हटाएं</itemBatchDelete>
+        <itemBatchRemoveEntry>समूह में सभी प्रविष्टिओं को सूची से हटाएं</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>आपने %u चीजों का चयन किया है, किंतु समूह कार्य के लिए महत्तम संख्या %u तक सीमित है</itemBatchLimitationWarning>
+        <itemCancelWaiting>रद्द</itemCancelWaiting>
+        <itemSearch>ख़ोजें</itemSearch>
+        <itemShortSearchTip>प्रोग्राम ख़ोजने के लिए लिखें</itemShortSearchTip>
+        <itemVersion>संस्करण:</itemVersion>
+        <itemInstalledOn>स्थापना/नविनीकरण दिन:</itemInstalledOn>
+        <itemPublisher>प्रकाशक:</itemPublisher>
+        <itemRegistryEntry>रजिस्ट्री प्रविष्टि दिखाएं</itemRegistryEntry>
+        <itemUninstallInProgress>विस्थापन प्रक्रिया जारी है</itemUninstallInProgress>
+        <itemUninstallInProgressTip>विस्थापन %s, विस्थापन प्रक्रिया संपूर्ण होने तक कृपया राह देखें...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>परिवर्तन जारी है</itemModifyInProgress>
+        <itemModifyInProgressTip>परिवर्तन %s, परिवर्तन प्रक्रिया संपूर्ण होने तक कृपया राह देखें...</itemModifyInProgressTip>
+        <itemNothingFound>कुछ नहीं मिला!</itemNothingFound>
+        <itemNoItemsMatchingFilter>'%s' से मिलता कोई भी प्रोग्राम %s वर्ग में नहीं है</itemNoItemsMatchingFilter>
+        <itemGroup>यह प्रोग्राम का एक वर्ग है</itemGroup>
+        <itemNoUninstall>इस प्रोग्राम को साधारण रीति से विस्थापित नहीं किया जा सकता है, आप इस के बदले में बलपूर्वक निकाल का प्रयत्न कर सकते हैं।</itemNoUninstall>
+        <itemTracedOnly>सुरगों के समुच्चय के द्वारा निश्चित प्रविष्टि। मात्र बलपूर्वक निकाल ही संभव है।</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>स्टार्टअप रन असमर्थ करें</itemDisableRunning>
+        <itemEnableRunning>स्टार्टअप रन समर्थ करें</itemEnableRunning>
+        <itemDeleteStartupItem>सूची से मिटाएं</itemDeleteStartupItem>
+        <itemDisableSelected>चयन चीज़ों को असमर्थ करें</itemDisableSelected>
+        <itemEnableSelected>चयन चीज़ों को समर्थ करें</itemEnableSelected>
+        <itemDeleteSelected>चयन चीज़ों को सूची से मिटाएं</itemDeleteSelected>
+        <itemMultiplSelected>%u चीज़ों का चयन</itemMultiplSelected>
+        <itemAddNewStartupItem>नया प्रोग्राम जोडें...</itemAddNewStartupItem>
+        <itemStatusCaption>स्थिति:</itemStatusCaption>
+        <itemStatusRunning>चल रहा है</itemStatusRunning>
+        <itemStatusNotRunning>चल नहीं रहा है</itemStatusNotRunning>
+        <itemStatusDisabled>असमर्थ</itemStatusDisabled>
+        <itemStatusInvalid>Invalid</itemStatusInvalid>
+        <itemCommandLineCaption>कमांड लाइन:</itemCommandLineCaption>
+        <itemSourceCaption>स्रोत:</itemSourceCaption>
+        <itemSourceRun_HKLM>सभी उपयोगकर्ता की रजिस्ट्री रन कुंजी</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>वर्तमान उपयोगकर्ता की रजिस्ट्री रन कुंजीCurrent User Registry Run Key</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>सभी उपयोगकर्ता की रजिस्ट्री एकबार रन कुंजी</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>वर्तमान उपयोगकर्ता की रजिस्ट्री एकबार रन कुंजी</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>सभी उपयोगकर्ता ओटोरन स्टार्ट सूची</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>वर्तमान उपयोगकर्ता ओटोरन स्टार्ट सूची</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>नया स्टार्टअप प्रोग्राम जोडें</DlgAddNewStartupProgramCaption>
+        <labelStartupType>स्टार्टअप प्रकार:</labelStartupType>
+        <labelPathToExecutableFile>एक्झीक्यूटेबल फाइल का पता:</labelPathToExecutableFile>
+        <labelArguments>आर्ग्युमेन्ट्स (वैकल्पिक):</labelArguments>
+        <filterExecutableFiles>एक्झीक्यूटेबल फाइल्स</filterExecutableFiles>
+        <filterAllFiles>सभी फाइल्स</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>प्राथमिकताएं</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>सामान्य</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>प्रोग्राम स्टार्टअप पर नविनीकरण के लिए जांचें</checkCheckForUpdates>
+        <checkCheckForBetaVersions>बीटा-संस्करण के लिए भी जांचें</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>अंतराफलक भाषा:</staticInterfaceLanguage>
+        <checkControlPanelIcon>कंट्रोल पेनल में अनइन्स्टाल टूल को दिखाएं</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>टोटल कमान्डर स्थापित होने पर, प्रोग्राम डिरेक्टरी देखने के लिए उसका प्रयोग करें</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>अंतराफलक</categoryInterface>
+        <checkToolBarCaptions>उपकरण पट्टी के बटन के नाम दिखाएं</checkToolBarCaptions>
+        <categoryAppList>एप्लिकेशन सूची</categoryAppList>
+        <checkSmallIcons>एप्स के साथ की सूची को संक्षिप्त करें</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>रंग योजना</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>ट्री जैसा सोफ्टवेर नविनीकरण (उप चीजें):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>सोफ्टवेर नविनीकरण दिखाएं</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>शुरु में संकुचित</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>शुरु में विस्तृत</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>हंमेशा विस्तृत</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>मूल चीजें माउस या बांयीं/दांयीं कुंजीओं से विस्तृत/संकुचित हो सकती है। \n\n'शुरु में संकुचित' की सलाह दि जाती है, परंतु शुरुआत में सभी नविनीकरण दिखाने के लिए उपयोगकर्ता इसे 'शुरु में विस्तृत' रख सकते हैं। जो वपराशकर्ता, अनइन्स्टाल टूल के संस्करण 3.3 से अभ्यस्त हैं, वह 'हंमेशा विस्तृत' विकल्प के उपयोग से विस्तृत/संकुचित को असमर्थ बना सकते हैं। \n\n खोज फिल्टर के उपयोग के समय एकाधिक उप-चीजों के मिलने पर संकुचित चीजें स्वयं विस्तृत बन जाती है। </subitemsHelpText>
+        <staticRecentlyInstalled>हाल में स्थापित प्रोग्राम्स:</staticRecentlyInstalled>
+        <checkDisplayPopup>हाल में स्थापित एप्लिकेशन्स के साथे पोप-अप विन्डो दिखाएं</checkDisplayPopup>
+        <checkHighlighRecent>हाल में स्थापित प्रोग्राम्स को अंकित करें</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>हाल में स्थापित प्रोग्राम्स को गौण उपकरण पट्टी पर दर्शाएं</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>अनइन्स्टाल विझर्ड</categoryUninstallWizard>
+        <staticWizardDesctiption>एप्लिकेशन को विस्थापित करते समय, एप्लिकेशन के आंतरिक विस्थापक को रन करने के बाद, अनइन्स्टाल विझर्ड अनुपयोगी रजिस्ट्री प्रविष्टि तथा फाइलों को ढूंढने के लिए सिस्टम रजिस्ट्री तथा फाइल सिस्टम की गहरी खोज कर सकता है। इसे स्वयं रन करना, अनइन्स्टाल विझर्ड को असमर्थ करना या प्रत्येक समय आप को पूछने के विकल्पों का आप चयन कर सकते हैं। सुराग वाले प्रोग्राम के लिए अनइन्स्टाल विझर्ड हंमेशा रन होता है।</staticWizardDesctiption>
+        <staticWizardUsage>एप्लिकेशन के आंतरिक विस्थापक बाद, अनइन्स्टाल विझर्ड को रन करेंः</staticWizardUsage>
+        <comboItemWizardOption1>शुरु करने से पहले पूछें</comboItemWizardOption1>
+        <comboItemWizardOption2>स्वयंचालित</comboItemWizardOption2>
+        <comboItemWizardOption3>असमर्थ</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>अनइन्स्टाल विझर्ड</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>%s के सभी सुरागो कों मिटाएं - UninstallWizard ™</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>बची हुई फाइल्स, फोल्डर्स तथा रजिस्ट्री चीजों के लिए तलाश जारी है...</statusScanning>
+        <statusScanningTraced>बचे हुए सुरागों की यादी बन रही कै, कृपया राह देखें...</statusScanningTraced>
+        <statusForceRemoval>'%s' का बलपूर्वक निकाल</statusForceRemoval>
+        <statusLeftOverTracesFound>बची हुई चीजों के कुछ सुराग मीले है!</statusLeftOverTracesFound>
+        <statusNothingFound>बची हुई चीजों के कोई सुराग नहीं मीले।</statusNothingFound>
+        <statusAllTracesRemoved>सभी सुराग हटाए गएं</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>प्रोग्रा के सुराग मिट रहे हैं...</statusDeletingProgramTraces>
+        <staticScanStatusFound>अनइन्स्टाल टूल ने ख़ोजा है, की यहां दिखाए गएं प्रोग्राम के सुराग अभी भी मौजुद है। इन्हें ध्यान से जांचें, तथा इन का निकाल तय होने पर 'निकालें' पर क्लिक करें।</staticScanStatusFound>
+        <staticScanStatusRemoved>%s का सफलतापूर्वक निकाल हुआ।</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>बचे हुए सभी सुराग सगलतापूर्वक निकाले गए हैं।</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>सुरागों की सूची बन रही है...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>फाइल सिस्टम (%d चीजें)</treeItemFileSystem>
+        <treeItemRegistry>रजिस्ट्री (%d चीजें)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>खोजें...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d फाइल्स (%s) तथा %d रजिस्ट्री चीजें अभी भी आप के कंप्युटर में बची है।</staticOverallInfo>
+        <btnFinish>निकालें</btnFinish>
+        <btnCancel>रद्द</btnCancel>
+        <btnClose>बंद करें</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>कुछ फाइल्स मिटाई नहीं गई है।</Title>
+        <Instruction1>निम्न लिखित फाइलें सिस्टम के उपयोग में होने के कारण मिटाई नहीं गई है:</Instruction1>
+        <Instruction2>सिस्टम के अगले रीबूट पर इन्हें मिटाई जाएंगी।</Instruction2>
+        <btnReboot>अभी रीबूट करें</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>चालु प्रक्रियाओं को बलपूर्वक बंद करें?</Title>
+        <Instruction1>निम्नलिखित प्रक्रियाएं पाई गई हैं:</Instruction1>
+        <Instruction2>निकाल से पहले इन्हें बंद करने की सलाह दि जाती है, परंतु अनइन्स्टाल विझर्ड इन्हें बलपूर्वक बंद कर सकता है।</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>ट्रेकर स्थापित करें</InstallTrackerLocalizedName>
+        <Title>स्थापित कर के प्रोग्राम के सुराग रखें</Title>
+        <TitleAppend>Install and Trace, append traced data to '%s'</TitleAppend>
+        <staticPathToProgram>सेटअप फाइल का पता (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>स्थापना प्रगति:</staticInstallProgress>
+        <checkMinimize>स्थापन के दरम्यान अनइन्स्टाल टूल को ट्रे में मिनिमाइझ करें</checkMinimize>
+        <btnInstall>स्थापन तथा सुराग</btnInstall>
+        <btnStop>रूकें</btnStop>
+        <btnSave>सेव</btnSave>
+        <btnSaveLog>लोग सेव करें...</btnSaveLog>
+        <btnNoAndRevert>ना + वापस</btnNoAndRevert>
+        <staticRevertInfo>नाकाम-विकल्प, स्थापना सुराग के समय बनाए गए सभी फाइल सिस्टम/रजिस्ट्री चीजों को मिटाने के कार्य को नाकाम करने का करता है।</staticRevertInfo>
+        <installTip1>अनइन्स्टाल टूल की देखरेख में हो रहे स्थापन कार्य में सामान्यतः आगे बढें। सभी प्रक्रिया पूर्ण होने पर सुराग-खोज स्वयं बंद हो जाएगी, या प्रकिर्या के अंत में आप को इसे बंद करना पडेगा।</installTip1>
+        <installTip2>कृपया, निश्चित करें, कि अन्य कोई स्थापना-कार्य चल नहीं रहा है।</installTip2>
+        <installTip3>यदि इस प्रोग्राम का अगला संस्करण स्थापि है, तो उसे पहले विस्थापित करने के बाद ही नया संस्करण स्थापित करें।</installTip3>
+        <trayIconTitle>'%s'स्थापित हो रहा है...</trayIconTitle>
+        <trayIconTooltip>बंद करने के लिए या सुरागों की सूची देखने के लिए मेनू को राइट-क्लिक करें</trayIconTooltip>
+        <trayIconText>अनइन्स्टाल टूल की देखरेख में हो रहे स्थापन कार्य में सामान्यतः आगे बढें। सभी प्रक्रिया पूर्ण होने पर सुराग-खोज स्वयं बंद हो जाएगी, या प्रकिर्या के अंत में (राइट-क्लिक मेनू)। </trayIconText>
+        <trayIconMenuProgress>स्थापना प्रगति</trayIconMenuProgress>
+        <trayIconMenuStop>बंद</trayIconMenuStop>
+        <readMore>आगे पढें</readMore>
+        <installationFiles>स्थापना फाइलें</installationFiles>
+        <textFiles>टेक्स्ट फाइलें</textFiles>
+        <selectInstallFile>स्थापना फाइल का चयन करें</selectInstallFile>
+        <contextMenuCopy>कोपी</contextMenuCopy>
+        <logEventCreateFile>फाइल बनाएं</logEventCreateFile>
+        <logEventCreateFolder>फोल्डर बनाएं</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>कुजी बनाएं</logEventCreateKey>
+        <logEventDeleteKey>कुजी मिटाएं</logEventDeleteKey>
+        <logEventSetValue>मूल्य निश्चित करें</logEventSetValue>
+        <logEventProcessCreated>प्रक्रिया बनाएं</logEventProcessCreated>
+        <logEventProcessKilled>प्रक्रिया मिटाएं</logEventProcessKilled>
+        <logEventDeleteOperation>मिटाएं</logEventDeleteOperation>
+        <logStartingService>इन्स्टाल सर्विस सेवा शुरु हो रही है...</logStartingService>
+        <logStartingServiceError1>दोषः CisUtMonitor service अभी बंद हो रही है</logStartingServiceError1>
+        <logStartingServiceError2>दोषः CisUtMonitor startup का समय पूरा हो चूका है</logStartingServiceError2>
+        <logStartingServiceError3>दोष: CisUtMonitor service शुरु करना संभव नहीं है ( दोष %u)</logStartingServiceError3>
+        <logStartingServiceError4>दोष: CisUtMonitor service खोलना संभव नहीं है। कृपया प्रोग्राम दोबारा इन्स्टाल करें।</logStartingServiceError4>
+        <logServiceStopped>ट्रेसिंग सर्विस बंद हो गई है</logServiceStopped>
+        <logServiceStopError>दोषः ट्रेसिंग सर्विस बंद करने में असफल</logServiceStopError>
+        <logServiceVersion>सर्विस संस्करण: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>मोनिटर संस्करण: 0x%x, आवश्यकता है 0x%x की। कृपया प्रोग्राम दोबारा इन्स्टाल करें।</logServiceVersionOlder>
+        <logServiceMonitorRunning>चेतावनी: सक्रिय मोनिटर बंद हो रहा है...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>इन्स्टोलेशन मोनिटर शुरु हुआ है</logServiceMonitorStarted>
+        <logTrackingStarting>शुरुआत %s...</logTrackingStarting>
+        <logTrackingStartingEror>दोष: सेट-अप प्रक्रिया शुरु नही कर सकते (दोष %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>दोष: मोनिटर रन कर सकते। कृपया दोबारा इन्स्टाल करें।</logTrackingCannotStart>
+        <logTrackingStoppedByUser>उपयोगकर्ता द्वारा ट्रेसिंग बंद किया गया है</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>इन्स्टोलेशन की सभी प्रक्रियाएं समाप्त</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>सेट-अप समाप्त</logTrackingCompleted>
+        <logTracingAnalyzing>इन्स्टोलेशन का विश्लेषण हो रहा है, कृपया राह देखें...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>%u इन्स्टोलेशन प्रविष्टियां मिटाई गई।</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u new installation entries detected:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Done</logTrackingDone>
+        <logReverting>परिवर्तन उलटा रहे हैं...</logReverting>
+        <logCompleted>समाप्त</logCompleted>
+        <logMSIServiceWarning>चेतावनी: MSI सर्विस असमर्थ</logMSIServiceWarning>
+        <logMSIServiceError1>दोषः MSI सर्विस खोलने में असफल</logMSIServiceError1>
+        <logMSIServiceError2>दोषः MSI सर्विस शुरु नहीं कर सकते</logMSIServiceError2>
+        <logMSIServiceError3>दोष: Cannot query MSI सर्विस स्थिति से जानकारी उपलब्ध नहीं है</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>ट्रेसिंग के दौरान कोई नये इन्स्टोलेशन की प्रविष्टि नहीं मिली। इसका सामान्य अर्थ यह है, कि प्रोग्राम ठीक से इन्स्टोल नहीं हुआ है। यदि आप को यकिन है कि इन्स्टोलेशन ठीक हुआ है, तो एप्प्स की सूचीमें नया प्रोग्राम बनाएं. वर्तमान में मिले सुराग उससे संदर्भ रखेगा।</Title>
+        <staticName>नाम:</staticName>
+        <checkCreateCustomEntry>में सूची में अपनी चीज बनाना चाहता हुं</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>इन्स्टोलेशन की एकाधिक प्रविष्टि उपलब्ध</Caption>
+        <Title>इन्स्टोलेशन के पश्चात रजिस्ट्री में इन्स्टोलेशन की एकाधिक प्रविष्टि उपलब्ध है। एप्स सूची में दर्शाने के लिए, 'सुराग' स्तंभ में खास आइकन के साथ मुख्य चीज का चयन करें। मुख्य चीज के सुराग कि जानकारी के निकाल के समय इसे ध्यान में रखें, अनईन्स्टोल टूल भी सभी निर्भर चीजों के सुराग की जानकारी का निकाल कर देगा। </Title>
+        <btnSelect>Select</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s सुराग जानकारी</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>अनईन्स्टोल '%s'</Title>
+        <Instruction>निर्भर चीजों का निकाल भी करें?</Instruction>
+        <Footer>इन्स्टोल ट्रेकर के ट्रेसिंग समर्थन के साथ आपने '%s' इन्स्टोल किया है तथा उपरोक्त चीजें भी इन्स्टोल हुई है। अनईन्स्टोल विझर्ड का उपयोग करते समय ट्रेस किया गया प्रत्येक निर्भर घटक भी निकाल दिया जाएगा। मात्र वर्तमान चीज के निकाल का चयन करते समय, ट्रेसिंग जानकारी को उपेक्षित किया जाएगा तथा अनईन्स्टोल विझर्ड इस प्रोग्राम संबंधी बची-खुची जानकारी के लिए ही जांचेगा।</Footer>
+        <btnOnlyCurrent>मात्र %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>आंतरिक अनइन्स्टोलर का कार्य समाप्त हो गया है। क्या आप खाली रजिस्ट्री तथा बची हुई फाइल्स के लिए आपकी सिस्टम रजिस्ट्री तथा फाइल सिस्टम की गहरी जांच करना चाहते हैं?</staticConfirm>
+        <learnMoreAboutWizard>अनईन्स्टोल विझर्ड के बारे में ज्यादा जानकारी प्राप्त करें</learnMoreAboutWizard>
+        <btnYes>हां</btnYes>
+        <btnNo>ना</btnNo>
+        <checkDontAskAgain>मेरा चयन याद रखें, तथा आगे से इस के बारे में न पूछें। (विकल्प के द्वारा इसे बदला जा सकता है)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>अनइन्स्टोल टूल के बारे में</DlgAboutCaption>
+        <staticWebSite>वेबसाईट</staticWebSite>
+        <staticSupport>सहायता ई-मेइल</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>इस प्रोग्राम का अनुज्ञापत्रधारी:</staticRegisteredTo>
+        <staticChangeKey>अनुज्ञापत्र कुजी बदलें</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>परीक्षण की चेतावनी</UnregDlgReminder>
+        <UnregDlgExpired>परीक्षण समाप्त</UnregDlgExpired>
+        <staticExpired>यह परीक्षण संस्करण समाप्त हो गया है। इस सोफ्टवेर की संपूर्ण विशेषताओं को आप 30 दिनो के लिए परख़ सके हैं।\n\nयदि आपको यह सोफ्टवेर पसंद है, तथा आगे भी इसका उपयोग करना चाहते हैं, तो 'अभी खरीदें' बटन पर क्लिक करें।</staticExpired>
+        <staticTrial>अनइन्स्टोल टूल का निःशुल्क परीक्षण संस्करण 30 दिनों के लिए हो सकता है। इस अवधि के बाद आप को यह प्रोग्राम खरीदना चाहिए, या आपके कम्प्युटर से निकाल देना चाहिए।</staticTrial>
+        <btnWebSite>वेबसाईट</btnWebSite>
+        <staticDaysLeft>परीक्षण के %d दिन बाकी</staticDaysLeft>
+        <btnBuyNow>अभी खरीदें</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>अनईन्स्टोल टूल कार्यशीलन</EnterKeyDlgCaption>
+        <Title>पंजीकरण ई-मेईल से आपका नाम तथा कुजी प्रविष्ट करें:</Title>
+        <staticName>पंजीकरण नाम:</staticName>
+        <staticKey>पंजीकरण कुजी:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>अनईन्स्टोलेशन प्रक्रिया असफल। \n क्या आप इस प्रोग्राम प्रविष्टि को रजिस्ट्री से हटा कर इसकी फाइल्स साफ करना चाहते है?</msgUninstallFailed>
+        <msgForceRemovalTitle>'%s' का बलपूर्वक निकाल</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>समुह बलपूर्वक निकाल</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>क्या आप इस प्रोग्राम का बलपूर्वक निकाल करना चाहते है?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>क्या आप नीचे के सभी प्रोग्राम्स का बलपूर्वक निकाल करना चाहते है?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>प्रोग्राम का बलपूर्वक निकाल, प्रोग्राम के आंतरिक अनईन्स्टोलर को रन नहीं करेगा. वह प्रोग्राम के संबंधित मिली प्रत्येक फाइल सिस्टम तथा रजिस्ट्री चीजों को मिटा देगा. मात्र पूरानी तथा अवैध प्रविष्टिओं के निकाल के लिए ही इसे उपयोग में लाना चाहिएं।</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>प्रोग्राम का बलपूर्वक निकाल, प्रोग्राम के आंतरिक अनईन्स्टोलर को रन किए सिवा ही अत्यंत गती से तथा संपूर्ण निकाल का कार्य करेगा। इन्स्टाल के दरम्यान मिली प्रत्येक फाइल सिस्टम तथा रजिस्ट्री चीजों का निकाल करेगा।</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>सामुहिक प्रोग्राम का बलपूर्वक निकाल, एक आधुनिक विशेषता है, तथा इसे ध्यानपूर्वक उपयोग में लाना चाहिएं। यह प्रोग्राम के आंतरिक अनईन्स्टोलर को रन नहीं करेगा, तथा प्रोग्राम के बची-खूची फाइल सिस्टम/रजिस्ट्री प्रविष्टि को ही ढूंढेगा तथा उन्हें एक संयुक्त यादी के स्वरूप में दिखाएगा, जिसे ध्यानपूर्वक देखना आवश्यक है। इन्स्टाल ट्रेकर से ट्रए किये गये प्रोग्राम का संपूर्ण तथा सही निकाल होता है।</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>आधारित</msgForceRemovalItemDependent>
+        <msgLearnMore>अतिरिक्त जानकारी</msgLearnMore>
+        <msgForceRemovalCheck>ठीक है, मैं जिम्मेदारी समजता हुं।</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>क्या आप अनईन्स्टोल टूल को आप के कम्प्यूटर से निकालना चाहते हैं?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>क्या आप इस प्रविष्टि को निकालना चाहते हैं?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>क्या आप इस प्रविष्टिओं को निकालना चाहते हैं?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>इससे सूची में से इस प्रविष्टि का मात्र नाम ही मिटेगा। बची-खूची रजिस्ट्री तथा फाइल सिस्टम चीजें नहीं मिटेगी। इसे मात्र पुरानी तथा अवैध प्रविष्टि के लिए ही प्रयोग किया जाना जाहिए।</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>इस चीज की रजिस्ट्री प्रविष्टि हटाने में असफल। \nकदाचित आपको इस कार्य के लिए उपयुक्त अधिकार नहीं है।</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>क्या आप इस प्रोग्राम का अनईन्स्टोल बलपूर्वक रद्द करना चाहते हैं?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>आंतरिक अनईन्स्टोल के फ्रिझ होने पर, या आप सभी वर्तमान अनईन्स्टोल प्रोसेस को बंद करना चाहते हो, तभी बलपूर्वक रद्द करना चाहिये। आंतरिक अनईन्स्टोलर से हि अनईन्स्टोल करना चाहिये क्युंकि बलपूर्वक रद्द करने से अपूर्वानुमेय परीणाम मिलने की संभावना है।</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>ट्रेसड चीजें '%s' अब प्रोग्राम की सूची में ट्रेस्ड स्तंभ में खास आइकन के साथ दर्शायी जा रही है।</msgTracedItem>
+        <msgTracedItemAppended>Traced data is now added to the previously traced item '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Please note that new installation items will be treated as dependent entries and can be removed later together with '%s' (upon confirmation).</msgTracedItemAppendedNote>
+        <msgUndoTracing>क्या आप चाहते हैं, कि अनईन्स्टोल टूल इस प्रोग्राम की सभी ट्रेस्ड जानकारी को भूल जाये?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>CisUtMonitor सर्विस खूल नहीं सकती। कृपया प्रोग्राम को दोबारा इन्स्टाल करें।</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>अनईन्स्टोल टूल ट्रेकिंग सर्विस ('CisUtMonitor') सिस्टम में इन्स्टोल नहीं है। \n\nक्या आप इन्स्टोल करना चाहते हैं?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>अनईन्स्टोल टूल ट्रेकिंग सर्विस ('CisUtMonitor') सिस्टम में इन्स्टोल नहीं है।</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>सर्विस सफलतापूर्वक इन्टोल हुई है। \n\n बाद में आप इसे 'RemoveService.cmd' फाईल से अनइन्स्टोल कर सकते हैं।</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>सर्विस अनईन्स्टोल सपय समाप्तः दोष कोड %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>सर्विस ईन्स्टोल करने में असफल - अनजान कारण, कृपया सहायता के लिए संपर्क करें।</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>अनईन्स्टोल टूल ट्रेकिंग सर्विस ('CisUtMonitor') इस कम्प्यूटर से निष्कासित।</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>ईन्स्टाल 'CisUtMonitor' सर्विस संस्करण (%u) वर्तमान संस्करण से पूराना है (%u). \n\nक्या आप इसे अपग्रेड करना चाहेंगें?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>सर्विस का वर्तमान संस्करण ईन्स्टोल हो गया है। ट्रेकर के उपयोग से पहले आप को कम्प्यूटर रिबूट कर लेना चाहिए।</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>ट्रेस्ड प्रोग्राम ईन्स्टॉल न होने के कारण सेव करने योग्य कुछ नहीं है (कोई फाइल या रजिस्ट्री चीजें नहीं छोडी है।)</msgNothingToSave>
+        <msgCancelTracing>क्या आप वर्तमान ईन्स्टोलेशन ट्रेसिंग को रद्द करना चाहते है?</msgCancelTracing>
+        <msgStopTracing>ईन्स्टोलेशन ट्रेसिंग Installation tracing will be stopped now. Do you wish to save current tracing results?</msgStopTracing>
+        <msgEntryAlreadyExists>यह प्रोग्राम '%s' सूची में पहले से सामिल है, इसलिये कृपया दूसरा नाम चयन करें।</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>इससे यह प्रविष्ठि आप की सिस्टम रजिस्ट्री से हमेशा के लिए मिट जाएगी (स्टार्ट मेनू)। \n\n क्या आप यह करना चाहते हैं?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>नयी स्टार्ट-अप चीज जोडने में दोष।, कृपया आप के एड्मिनिस्ट्रेशन राईट्स जांचे या प्रोग्राम सहायता के लिये संपर्क करें।</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>इन प्रविष्ठि विशिष्टताओं को बदल नहीं सकतें। शायद आपको पर्याप्त एड्मिनिस्ट्रेटिव राइट्स नहीं है, या कोई सिक्यूरिटी सोफ्टवेर आप के एक्सेस को रोक रहा है।\n\nकृपया सहायता के लिए आपके सिस्टम एड्मिनिस्ट्रेटर का संपर्क करें।</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>क्या आप यह चीजों को निकालना चाहते हैं?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>इससे उपरकी चीजें सिस्टम रजिस्ट्री से निकल जायेंगी (स्टार्ट मेनू) तथा विन्डोक्ष के साथ वह कभी रन नहीं होगी।</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>पंजीकरण संपूर्ण करन एके लिए प्रोग्राम को दोबारा शुरु करें। \n\nक्या आप अभी यह करना चाहते हैं?</msgRegRestartRequired>
+        <msgNewVersionAvailable>नया संस्करण %s उपलब्ध है</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>वर्तमान संस्करण: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>नया क्या है:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>पोर्टेबल संस्करण डाउनलोड लिंक</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>आप प्रोग्राम के आधुनिक संस्करण उपयोग कर रहे है</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>crystalidea.com वेबसाइट से जुड़ नहीं सकते।, आपका इन्टरनेट कनेक्शन जांचें</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>आप 64 बिट विन्डोझ पर अनईन्स्टोल टूल का 32 बिट संस्करण नहीं चला सकते, क्योंकी इसमे मात्र 32 बिट एप्लिकेशन्स ही देखाई देंगें, तथा इसकी कई मर्यादाएं है। अनईन्स्टोल टूल को डाऊनलोड कर के दोबारा इन्स्टोल करने का सूझाव दिया जाता है। 64 बिट विन्डोक्ष पर 64 बिट संस्करण स्वयं चयन हो जायेगा।)</msgRunningInWow64>
+        <msgRunningInWow64Title>WoW64 एन्वाइरन्मेन्ट में चल रहा है।</msgRunningInWow64Title>
+        <msgCannotStartHelper>'x64helper.exe' शुरु करने में असफल (64-बिट विन्डोझ का हेल्पर प्रोसेस) \n\nप्रोग्राम को दोबारा इन्स्टोल करें।</msgCannotStartHelper>
+        <msgUninstallingMyself>क्या आप अनईन्स्टोल टूल की प्राथमिकताओं को तथा ट्रेस्ड इन्स्टोलेशन्स की सभी जानकारीओं को मिटाना चाहते हैं?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Unable to create file:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>अपंजिकृत संस्करण</txtUnregisteredBig>
+        <msgNotAvailableInTrial>यह विशेषता इस प्रोग्राम के मात्र पंजिकृत संस्करण में ही उपलब्ध है।</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>बची-खूची जानकारी को आप सेव कर सकते है, तथा बाद में बलपूर्वक के निकास के द्वारा एप्प्स सूची में '%s' चीज को मिटा सकते हैं।</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>बची-खूची जानकारी को आप सेव कर केबाद में मिटाएं</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML फाइल्स</htmlFiles>
+        <allFiles>सभी फाइल्स</allFiles>
+        <generatedByOn>%s के द्वारा बनाया गया %s के उपर</generatedByOn>
+        <installedPrograms>इन्स्टोल्ड प्रोग्राम्स (%s)</installedPrograms>
+        <startupPrograms>स्टार्टअप प्रोग्राम्स</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>ठीक</btnOK>
+        <btnCancel>रद्द</btnCancel>
+        <btnHelp>मदद</btnHelp>
+        <btnYes>हां</btnYes>
+        <btnNo>ना</btnNo>
+        <btnClose>बंद</btnClose>
+        <statusTotalInfo>कुल %d प्रोग्राम %s नाप के</statusTotalInfo>
+        <statusUnknown>अनजान</statusUnknown>
+        <statusRecentItems>अभी-अभी इन्स्टॉल हुएं</statusRecentItems>
+        <statusRecentItemsTip>अभी-अभी इन्स्टॉल्ड/मोडिफाइड प्रोग्राम दिखाएं</statusRecentItemsTip>
+        <statusStartupTotalInfo>%d कुल %d प्रोग्राम चालु है</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>अधिकृत नाप की गिनती... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>नया संस्करण उपलब्ध:</statusNewVersionAvailable>
+        <popupNewProgramsFound>%d नये प्रोग्राम मिलें!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>विन्डोझ अपडेट</WindowsUpdatesText>
+        <UninstallToolDescription>प्रोग्राम को संपूर्ण अनईन्स्टाल करें। सोफ्टवेर को इन्स्टोल तथा ट्रेस करें। स्टार्टअप प्रोग्राम व्यवस्थापन</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>ईन्स्टोल ट्रेकर से ईन्स्टोल तथा ट्रेस करें...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>इन्स्टोल के समय आप के कम्प्यूटर पर प्रोग्राम के द्वारा किये गये सभी बदलाव को ट्रेस करें</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Unhandled Exception</msgTitleTemplate>
+        <msgTemplate>हमें खेद है, लेकिन कुछ अनपेक्षित अपवाद हुआ है तथा \n%app_name% अस्थिर हो गया है। \nकृपया हमें यहां इ-मेईल करें '%email%'\nसाथ में इस डम्प फाइल को अटेच करें:\n\n%dump_file%\n\n'रिपोर्ट भेजें' बटन दबाने से आपका वर्तमान मेईलर प्रोग्राम \nकंपोझ्ड मेसेज के साथ खूल जायेगा।</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% दोष की जानकारी</MailSubjectTemplate>
+        <MailBodyTemplate>नमस्कार, सहायता।\n\nमुझे इस प्रोग्राम्स के साथ समस्या है %app_name%। साथ में डम्प फाइल अटेच किया है।\n('%dump_file%' फाइल को अटेच करना न भूलें)\n\nमेरा विन्डोझ संस्करण %winver% है तथा समस्या से पहले का मेरा कार्य यह था... (कृपया यहां कुछ जानकारी दें)</MailBodyTemplate>
+        <btnSend>रिपोर्ट भेजें (सलाह)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>अन्य कार्य:</other_tasks>
+        <install_service>ट्रेसिंग सर्विस इन्स्टोल करें (ईन्स्टोल तथा ट्रेस विशेषता)</install_service>
+        <control_panel_icon_text>अनईन्स्टोल टूल का आइकन कंट्रोल पेनल में जोडें</control_panel_icon_text>
+        <installing_driver>कर्नेल ड्राइवर इन्स्टोल हो रहा है...</installing_driver>
+        <ut_initializing>अनईन्स्टोल टूल शुरु हो रहा है...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

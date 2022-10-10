@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.4" LangID="1055" Author="Mustafa Enver OKAY">
+    <MainMenu>
+        <mnuFile>&amp;Dosya</mnuFile>
+        <mnuFileExport>&amp;HTML Olarak Ver...</mnuFileExport>
+        <mnuFileExit>&amp;Çıkış</mnuFileExit>
+        <mnuAction>&amp;Eylem</mnuAction>
+        <mnuActionUninstall>&amp;Kaldır...</mnuActionUninstall>
+        <mnuActionModify>&amp;Değiştir...</mnuActionModify>
+        <mnuActionDelete>&amp;Zorla Kaldır...</mnuActionDelete>
+        <mnuActionDeleteBatch>&amp;Yığın Zorla Kaldır</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>&amp;Listeden Sil...</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>&amp;Girdileri Yığın Kaldır</mnuActionRemoveEntryBatch>
+        <mnuTracedData>İzleme Verisi</mnuTracedData>
+        <mnuTracedDataAsXML>XML Olarak Görüntüle...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>İzleme Verisini Sil</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>İzleme Verisini Ekle (Kur ve İzle)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;Kayıt Defteri Girdisi</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>&amp;Kurulum Klasörü</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>&amp;Program Ana Sayfası</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Windows Mağazasında Aç</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Klasörü Aç...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>Kaynağı Aç...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Google ile Ara</mnuActionGoogleFor>
+        <mnuView>&amp;Görünüm</mnuView>
+        <mnuViewMainToolbar>Ana Araç Çubuğu</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>Ana araç çubuğunu görüntüle</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>Simge altında etiketleri görüntüle</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>Yardımcı Araç Çubuğu</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;Yenile</mnuViewRefresh>
+        <mnuViewListColumnsReset>Sütunları Sıfırla</mnuViewListColumnsReset>
+        <mnuViewLanguage>Arayüz Dili</mnuViewLanguage>
+        <mnuTools>&amp;Araçlar</mnuTools>
+        <mnuToolsSystemTools>Sistem Araçları</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;Program Ekle/Kaldır...</mnuToolsAddRemove>
+        <mnuToolsComponents>&amp;Windows Bileşenleri...</mnuToolsComponents>
+        <mnuToolsSystemRestore>Sistem Geri Yükleme</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>Güvenlik Merkezi</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>Sistem Özellikleri</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>Sistem Bilgisi</mnuToolsSystemInfo>
+        <mnuToolsDefrag>Disk Birleştirme</mnuToolsDefrag>
+        <mnuToolsServices>Hizmetler</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;Tercihler...</mnuToolsOptions>
+        <mnuHelp>&amp;Yardım</mnuHelp>
+        <mnuHelpOnline>&amp;İçindekiler...</mnuHelpOnline>
+        <mnuHelpHomePage>Ana Sayfa</mnuHelpHomePage>
+        <mnuHelpSupport>Destek</mnuHelpSupport>
+        <mnuHelpBuyNow>&amp;Satın Al...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>&amp;Kayıt Kodu Gir...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>&amp;Güncellemeler...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;Hakkında...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>Program Adı</columnProgramName>
+        <columnSize>Boyut</columnSize>
+        <columnInstallationDate>Kurulum Tarihi</columnInstallationDate>
+        <columnTraced>İzleme</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;Sıfırla&lt;/a&gt; Arama filtrelerini sıfırlayın (Esc tuşu) veya diğer kategorilere bakın.</staticNoItemsMatchingFilterTip>
+        <staticLoading>Loading, please wait...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>Durum</columnStatus>
+        <columnSource>Kaynak</columnSource>
+        <columnCompany>Üretici</columnCompany>
+        <sourceHKLMRun>HKLM Run</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM RunOnce</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU Run</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
+        <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
+        <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems>Windows açılışında yüklenen program bulunmuyor</staticNoStartupItems>
+        <staticNoStartupItemsTip>Kendiniz &lt;a&gt;yeni bir program ekleyin&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>Kaldırma</btnUninstaller>
+        <btnUninstallerToolTip>Mevcut bir programı kaldırma veya yeni program kurup izleme</btnUninstallerToolTip>
+        <btnStartup>Açılış</btnStartup>
+        <btnStartupToolTip>Windows açılışında yüklenen uygulamalar</btnStartupToolTip>
+        <btnRefresh>Yenile</btnRefresh>
+        <btnRefreshToolTip>Program listesini yenile</btnRefreshToolTip>
+        <btnPrefs>Tercihler</btnPrefs>
+        <btnPrefsToolTip>Uninstall Tool tercihleri</btnPrefsToolTip>
+        <btnHelp>Yardım</btnHelp>
+        <btnHelpToolTip>Program yardımını başlat</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>Uygulama</btnApps>
+        <btnAppsToolTip>Uygulamalar</btnAppsToolTip>
+        <btnSystem>Sistem</btnSystem>
+        <btnSystemToolTip>Sistem bileşenleri ve güncellemeler</btnSystemToolTip>
+        <btnHidden>Gizli</btnHidden>
+        <btnHiddenToolTip>Gizli bileşenler</btnHiddenToolTip>
+        <btnStoreApps>Windows Mağazası Uygulamaları</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>Son Kurulumlar (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Son kurulan/güncellenen maddeler</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Kur ve İzle</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Yeni program kurulumunda, dosya sistemi ve kayıt defterindeki tüm değişiklikleri izleme</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>Kaldır</itemUninstallIt>
+        <itemModifyIt>Değiştir</itemModifyIt>
+        <itemDelete>Tüm izleri zorla kaldır</itemDelete>
+        <itemBatchDelete>Tüm izleri yığın zorla kaldır</itemBatchDelete>
+        <itemBatchRemoveEntry>Tüm girdileri yığın zorla kaldır</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>%u adet madde seçtiniz, ancak yığın kaldırılacak madde %u adet ile sınırlıdır</itemBatchLimitationWarning>
+        <itemCancelWaiting>İptal</itemCancelWaiting>
+        <itemSearch>Ara</itemSearch>
+        <itemShortSearchTip>Aranacak programı yazın</itemShortSearchTip>
+        <itemVersion>Sürüm :</itemVersion>
+        <itemInstalledOn>Kurulum/Güncelleme Tarihi :</itemInstalledOn>
+        <itemPublisher>Yayıncı :</itemPublisher>
+        <itemRegistryEntry>Kayıt Defteri Girdilerini Görüntüle</itemRegistryEntry>
+        <itemUninstallInProgress>Kaldırma yürütülüyor</itemUninstallInProgress>
+        <itemUninstallInProgressTip>%s kaldırılıyor, lütfen işlem tamamlanana dek bekleyiniz...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>Değiştir yürütülüyor</itemModifyInProgress>
+        <itemModifyInProgressTip>%s değiştiriliyor, lütfen işlem tamamlanana dek bekleyiniz...</itemModifyInProgressTip>
+        <itemNothingFound>Hiçbirşey bulunamadı!</itemNothingFound>
+        <itemNoItemsMatchingFilter>'%s' kelimesi ile eşleşen program, %s kategorisinde bulunamadı.</itemNoItemsMatchingFilter>
+        <itemGroup>Bu bir programlar grubudur</itemGroup>
+        <itemNoUninstall>Normal yolla kaldırılamıyor, Zorla Kaldır seçeneğini deneyin.</itemNoUninstall>
+        <itemTracedOnly>İz takibi ile özel girdi tespit edildi, sadece Zorla Kaldır seçeneği uygulanabilir.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>Açılışta Yükleme</itemDisableRunning>
+        <itemEnableRunning>Açılışta Yükle</itemEnableRunning>
+        <itemDeleteStartupItem>Listeden Sil</itemDeleteStartupItem>
+        <itemDisableSelected>Seçili maddeyi yükleme</itemDisableSelected>
+        <itemEnableSelected>Seçili maddeyi yükle</itemEnableSelected>
+        <itemDeleteSelected>Seçili maddeleri listeden sil</itemDeleteSelected>
+        <itemMultiplSelected>%u madde seçildi</itemMultiplSelected>
+        <itemAddNewStartupItem>Yeni program ekle...</itemAddNewStartupItem>
+        <itemStatusCaption>Durum :</itemStatusCaption>
+        <itemStatusRunning>Çalışıyor</itemStatusRunning>
+        <itemStatusNotRunning>Çalışmıyor</itemStatusNotRunning>
+        <itemStatusDisabled>Yüklenmiyor</itemStatusDisabled>
+        <itemStatusInvalid>Geçersiz</itemStatusInvalid>
+        <itemCommandLineCaption>Komut Satırı :</itemCommandLineCaption>
+        <itemSourceCaption>Kaynak :</itemSourceCaption>
+        <itemSourceRun_HKLM>All Users Registry Run Key</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Current User Registry Run Key</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>All Users Registry RunOnce Key</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>Current User Registry RunOnce Key</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>All Users Autorun Start Menu</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>Current User Autorun Start Menu</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>Açılışta yüklenen yeni bir program ekle</DlgAddNewStartupProgramCaption>
+        <labelStartupType>Açılış tipi :</labelStartupType>
+        <labelPathToExecutableFile>Çalıştırılabilir dosya yolu :</labelPathToExecutableFile>
+        <labelArguments>Parametreler (isteğe bağlı) :</labelArguments>
+        <filterExecutableFiles>Çalıştırılabilir Dosyalar</filterExecutableFiles>
+        <filterAllFiles>Tüm Dosyalar</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>Tercihler</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>Genel</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>Program başlangıcında güncellemeleri araştır</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Beta sürümleri kontrol et</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>Arayüz Dili</staticInterfaceLanguage>
+        <checkControlPanelIcon>Uninstall Tool simgesini Denetim Masasında görüntüle</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>Program klasörünü, (kurulu ise) Total Commander ile görüntüle</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>Arayüz</categoryInterface>
+        <checkToolBarCaptions>Araç çubuğunda düğme başlıklarını görüntüle</checkToolBarCaptions>
+        <categoryAppList>Uygulama Listesi</categoryAppList>
+        <checkSmallIcons>Küçük simgeler</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>Renk Şeması</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Güncellemeleri (alt madde) ağaç yapısında göster</staticTreeLikeUpdates>
+        <checkDisplayUpdates>Yazılım değişikliklerini görüntüle :</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Ön Gruplanmış</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Ön Genişletilmiş</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Daima Genişletilmiş</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Gruplar fare veya sol/sağ klavye tuşu ile genişletilip, yeniden gruplanabilir. \n\n'Ön Gruplanmış' seçeneği tavsiye edilir, ancak kullanıcı diğerlerini de tercih edebilir. Uninstall Tool 3.3 ve öncesi sürümlerde genişletme/gruplama fonksiyonu henüz bulunmadığından 'Daima Genişletilmiş' seçeneğinden yararlanılabilir. \n\nAranan filtre ile uyuşan alt maddeler bulunduğunda, gruplar otomatik olarak genişleyecektir.</subitemsHelpText>
+        <staticRecentlyInstalled>Son Kurulan Programlar</staticRecentlyInstalled>
+        <checkDisplayPopup>Son kurulan programları popup pencerede görüntüle</checkDisplayPopup>
+        <checkHighlighRecent>Son kurulan programları işaretle</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>Son kurulan programları yardımcı araç çubuğunda görüntüle</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Kaldırma Sihirbazı</categoryUninstallWizard>
+        <staticWizardDesctiption>Programı yerleşik uygulama yardımıyla kaldırıp, dosya sistemi ve kayıt defterindeki girdileri Kaldırma Sihirbazı™ ile bulabilirsiniz. Kaldırma Sihirbazının kapalı olmasını, otomatik olarak çalışmasını veya her çalışmadan önce sizi uyarmasını tercih edebilirsiniz. Kaldırma Sihirbazı, izlenen programlar için mutlaka kullanılmalıdır.</staticWizardDesctiption>
+        <staticWizardUsage>Kaldırma Sihirbazı™ kullanımı :</staticWizardUsage>
+        <comboItemWizardOption1>Çalışmadan önce sor</comboItemWizardOption1>
+        <comboItemWizardOption2>Otomatik</comboItemWizardOption2>
+        <comboItemWizardOption3>Kapalı</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Kaldırma Sihirbazı</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>%s izlerini Kaldırma Sihirbazı ile sil</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>Kalıntı dosya, klasör ve kayıt defteri girdileri aranıyor...</statusScanning>
+        <statusScanningTraced>İz listesi oluşturuluyor, lütfen bekleyiniz...</statusScanningTraced>
+        <statusForceRemoval>'%s' programını kaldırmaya zorla</statusForceRemoval>
+        <statusLeftOverTracesFound>Kalıntı izleri bulundu!</statusLeftOverTracesFound>
+        <statusNothingFound>Kalıntı izleri bulunamadı.</statusNothingFound>
+        <statusAllTracesRemoved>Tüm İzler Kaldırıldı</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>Program izleri siliniyor...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Uninstall Tool bilgisayarınızda aşağıdaki program izlerini tespit etti. Lütfen kaldırma öncesinde dikkatlice gözden geçirin, hazır olduğunuzda ilgili maddeleri seçip 'Bitir' düğmesine basın.</staticScanStatusFound>
+        <staticScanStatusRemoved>%s başarılı bir şekilde kaldırıldı.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>Tüm izler başarılı bir şekilde kaldırıldı.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>İzler listesi oluşturuluyor...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Kaldırma kaydı</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Detaylı kaldırma kaydı oluştur ve görüntüle</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>XML olarak ver</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Tarama sonucunu XML olarak ver</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>Dosya Sistemi (%d madde)</treeItemFileSystem>
+        <treeItemRegistry>Kayıt Defteri (%d madde)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>Gözat...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>Bilgisayarınızda halen %d dosya (%s) ve %d kayıt defteri girdisi bulunuyor.</staticOverallInfo>
+        <btnFinish>Bitir</btnFinish>
+        <btnCancel>İptal</btnCancel>
+        <btnClose>Kapat</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>Bazı dosyalar silinemedi</Title>
+        <Instruction1>Sistem tarafından kullanıldığı için aşağıdaki dosyalar silinemedi :</Instruction1>
+        <Instruction2>Aşağıdaki dosyalar bilgisayar yeniden başlatıldığında otomatik olarak kaldırılacak.</Instruction2>
+        <btnReboot>Yeniden başlat</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>Çalışan hizmetler zorla iptal edilsin mi?</Title>
+        <Instruction1>Aşağıdaki hizmetler bulundu :</Instruction1>
+        <Instruction2>Kaldırma öncesinde manuel olarak iptal etmeniz önerilir, Kaldırma Sihirbazı kullanıldığında otomatik olarak zorla iptal gerçekleşecektir.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>Kurulum İzleyici</InstallTrackerLocalizedName>
+        <Title>Bir Program Kurun ve İzleyin</Title>
+        <TitleAppend>Kur ve İzle, '%s' 'i izleme verisine ekle</TitleAppend>
+        <staticPathToProgram>Kurulum dosyası yolu (.exe, .msi) :</staticPathToProgram>
+        <staticInstallProgress>Kurulum İşlemi :</staticInstallProgress>
+        <checkMinimize>Kurulum esnasında Uninstall Tool'u sistem tepsisine küçült</checkMinimize>
+        <btnInstall>Kur ve İzle</btnInstall>
+        <btnStop>Dur</btnStop>
+        <btnSave>Kaydet</btnSave>
+        <btnSaveLog>Günlüğü Kaydet...</btnSaveLog>
+        <btnNoAndRevert>İptal + Geri al</btnNoAndRevert>
+        <staticRevertInfo>Geri al ile kurulum sırasında oluşan tüm dosya/kayıt defteri izleri silinecektir.</staticRevertInfo>
+        <installTip1>Normal olarak, Uninstall Tool kurulum işlemini izleyecektir. İzleme, tüm işlemler bittiğinde otomatik olarak sonlanacaktır. Dilerseniz kurulum tamamlandığında (sağ tuş menüsü ile) kendiniz de sonlandırabilirsiniz.</installTip1>
+        <installTip2>Lütfen, devam eden farklı bir kurulum olmadığından emin olunuz.</installTip2>
+        <installTip3>Programın yeni sürümünü kurmadan önce, mevcut eski sürümü kaldırınız.</installTip3>
+        <trayIconTitle>'%s' kuruluyor...</trayIconTitle>
+        <trayIconTooltip>Sağ tuş menüsü ile izlemeyi durdurabilir veya günlüğü görüntüleyebilirsiniz.</trayIconTooltip>
+        <trayIconText>Normal olarak, Uninstall Tool kurulum işlemini izleyecektir. İzleme, tüm işlemler bittiğinde otomatik olarak sonlanacaktır. Dilerseniz kurulum tamamlandığında (sağ tuş menüsü ile) kendiniz de sonlandırabilirsiniz.</trayIconText>
+        <trayIconMenuProgress>Kurulum İşlemi</trayIconMenuProgress>
+        <trayIconMenuStop>Dur</trayIconMenuStop>
+        <readMore>Daha Fazla Bilgi</readMore>
+        <installationFiles>Kurulum Dosyaları</installationFiles>
+        <textFiles>Metin Dosyaları</textFiles>
+        <selectInstallFile>Kurulum dosyasını seçin</selectInstallFile>
+        <contextMenuCopy>Kopyala</contextMenuCopy>
+        <logEventCreateFile>Dosya Oluştur</logEventCreateFile>
+        <logEventCreateFolder>Klasör Oluştur</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>Anahtar Oluştur</logEventCreateKey>
+        <logEventDeleteKey>Anahtar Sil</logEventDeleteKey>
+        <logEventSetValue>Ayar Değeri</logEventSetValue>
+        <logEventProcessCreated>Hizmet Oluşturuldu</logEventProcessCreated>
+        <logEventProcessKilled>Hizmet Durduruldu</logEventProcessKilled>
+        <logEventDeleteOperation>Sil</logEventDeleteOperation>
+        <logStartingService>İzleme servisi başlatılıyor...</logStartingService>
+        <logStartingServiceError1>Hata: İzleme servisi sonlandırılıyor.</logStartingServiceError1>
+        <logStartingServiceError2>Hata: İzleme servisi başlatma zaman aşımına uğradı.</logStartingServiceError2>
+        <logStartingServiceError3>Hata: İzleme servisi başlatılamıyor (hata %u).</logStartingServiceError3>
+        <logStartingServiceError4>Hata: İzleme servisi açılamıyor. Lütfen programı yeniden kurun.</logStartingServiceError4>
+        <logServiceStopped>İzleme servisi durduruldu.</logServiceStopped>
+        <logServiceStopError>Hata: İzleme servisi sonlandırılamıyor.</logServiceStopError>
+        <logServiceVersion>İzleme servisi sürümü: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>İzleme servisi sürümü: 0x%x, 0x%x sürümüne güncellenmeli. Lütfen programı yeniden kurun.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Uyarı: İzleme durduruluyor...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>İzleme servisi başlatıldı.</logServiceMonitorStarted>
+        <logTrackingStarting>Başlatılıyor %s...</logTrackingStarting>
+        <logTrackingStartingEror>Hata: Kurulum başlatılamıyor (hata %u).</logTrackingStartingEror>
+        <logTrackingCannotStart>Hata: İzleme servisi çalıştırılamıyor. Lütfen programı yeniden kurun.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>İzleme kullanıcı tarafından durduruldu.</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>Tüm kurulum işlemleri tamamlandı.</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>Kurulum tamamlandı.</logTrackingCompleted>
+        <logTracingAnalyzing>Kurulum analiz ediliyor, lütfen bekleyin...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>%u kurulum girdisi bulundu</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u yeni kurulum girdisi bulundu</logNewUninstallEntriesDetected>
+        <logTrackingDone>İzleniyor</logTrackingDone>
+        <logReverting>Değişiklikler geri alınıyor...</logReverting>
+        <logCompleted>Tamamlandı</logCompleted>
+        <logMSIServiceWarning>Uyarı: MSI servisi devre dışı</logMSIServiceWarning>
+        <logMSIServiceError1>Hata: MSI servisi</logMSIServiceError1>
+        <logMSIServiceError2>Hata: MSI servisi başlatılamıyor</logMSIServiceError2>
+        <logMSIServiceError3>Hata: MSI servis durumu sorgulanamıyor</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>İzleme esnasında yeni kurulum girdisi bulunamadı. Bu genellikle kurulumun yarıda kesildiğini gösterir. Kurulumun gerçekleştiğinden eminseniz, uygulama listesinde yeni özel bir madde oluşturabilirsiniz. Bulunan izler bu madde ile ilişkilendirilecektir.</Title>
+        <staticName>Ad :</staticName>
+        <checkCreateCustomEntry>Listede özel madde oluştur</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>Çok sayıda kurulum girdisi bulundu</Caption>
+        <Title>Kurulum sonrasında Windows Kayıt Defterinde çok sayıda girdi oluştu. Kaldırma için uygulama listesinde 'İzleme' sütünu işaretli ana maddeyi seçin. Ana maddeye bağlı izli veri kaldırıldığında, Uninstall Tool tarafından ilişkili tüm verinin de silineceğini gözönünde bulundurun.</Title>
+        <btnSelect>Seç</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s izleme verileri</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>'%s' Kaldırılıyor</Title>
+        <Instruction>İlişkili maddeler de kaldırılsın mı?</Instruction>
+        <Footer>İzleyici yardımıyla kurulan '%s' izleri tam olarak kaydedildi. Bu, Kaldırma Sihirbazı ile programla ilişkili tüm bileşenlerin silinmesini sağlayacaktır. Sadece seçili maddeyi kaldırmak isterseniz, izleme verisi gözardı edilecek ve Kaldırma Sihirbazı programla ilişkili verileri arayacaktır.</Footer>
+        <btnOnlyCurrent>Sadece %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>Yerleşik kaldırıcı işlemi tamamladı. Kalıntı dosya ve kayıt defteri girdileri için derin arama uygulamak ister misiniz?</staticConfirm>
+        <learnMoreAboutWizard>Kaldırma Sihirbazı hakkında daha fazlasını öğrenin</learnMoreAboutWizard>
+        <btnYes>Evet</btnYes>
+        <btnNo>Hayır</btnNo>
+        <checkDontAskAgain>Seçimimi hatırla ve tekrar sorma \n\n(Tercihler Menüsünden değiştirilebilir)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Uninstall Tool Hakkında</DlgAboutCaption>
+        <staticWebSite>Ana Sayfa</staticWebSite>
+        <staticSupport>Destek</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>Kayıtlı Kişi :</staticRegisteredTo>
+        <staticChangeKey>Lisans Anahtarını Değiştir :</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>Deneme Süresi Hatırlatıcı</UnregDlgReminder>
+        <UnregDlgExpired>Deneme Süresi Doldu</UnregDlgExpired>
+        <staticExpired>Yazılımın 30 günlük tüm özellikleriyle ücretsiz kullanım süresi sona erdi. \n\nProgramı kullanıma devam etmek için 'Şimdi Satın Al' düğmesine basın.</staticExpired>
+        <staticTrial>Uninstall Tool ücretsiz olarak 30 gün kullanılabilir. Ardından programı satın almalı veya bilgisayarınızdan kaldırmalısınız.</staticTrial>
+        <btnWebSite>Ana Sayfa</btnWebSite>
+        <staticDaysLeft>%d deneme günü kaldı</staticDaysLeft>
+        <btnBuyNow>Şimdi Satın Al</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Uninstall Tool Etkinleştirme</EnterKeyDlgCaption>
+        <Title>Lütfen kayıt e-postasında verilen ad ve kodu yazın :</Title>
+        <staticName>Kayıt Adı :</staticName>
+        <staticKey>Kayıt Kodu :</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>Kaldırma işlemi başarısız oldu. \nBu programa ait klasör ve kayıt defteri girdilerinin temizlemek ister misiniz?</msgUninstallFailed>
+        <msgForceRemovalTitle>'%s' zorla kaldırılıyor</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Yığın Zorla Kaldırma</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>Bu programı zorla kaldırmak istediğinize emin misiniz?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Bu programları zorla kaldırmak istediğinize emin misiniz?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>Zorla kaldırma yerleşik kaldırıcıyı kullanmaz, dosya ve kayıt defterindeki programla ilişkili maddeleri bulur. Bu özelliği, sadece kullanılmayan ve hatalı girdileri temizlemek için tercih edin.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>İzlenen programların zorla kaldırılması, çok hızlı ve kapsamlı bir şekilde ilişkili kaldırıcı kullanılmadan gerçekleşir. Böylece dosya/kayıt defteri izlerinin tümü silinir.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Yığın Zorla Kaldırma dikkatle kullanılması gereken gelişmiş bir özelliktir. Bu özellik ilişkili kaldırıcıları çalıştırmaz. Sadece kalıntı dosya/kayıt defteri izlerini tarayarak, titizlikle gözden geçirdikten sonra toplu listeler. Daha kapsamlı ve doğru kaldırma 'Kur ve İzle' ile gerçekleşir.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>ilişkili</msgForceRemovalItemDependent>
+        <msgLearnMore>Daha Fazla Bilgi</msgLearnMore>
+        <msgForceRemovalCheck>Evet, sorumluluklarımı kabul ediyorum.</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>Uninstall Tool'u bilgisayarınızdan kaldırmak istediğinize emin misiniz?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>Bu programı listeden silmek istediğinize emin misiniz?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Bu girdileri kaldırmak istediğinize emin misiniz?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>Bu uygulama sadece maddeyi listeden kaldırır. Dosya ve kayıt defterindeki kalıntılar silinmez. Bu özelliği, sadece kullanılmayan ve hatalı girdileri temizlemek için tercih edin.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>Bu maddenin kayıt defteri girdisinin silinmesi başarısız oldu. \nBu girdiye ulaşamayabilirsiniz.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>Bu programı kaldırmayı zorla iptal etmek istediğinize emin misiniz?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>Zorla iptal, sedece yerleşik kaldırma uygulaması kilitlendiğinde veya kaldırma aniden kesildiğinde uygulanmalıdır. Doğru iptal, yerleşik kaldırıcı ile uygulanmalıdır. Aksi halde beklenmeyen etkilere neden olabilir.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>'%s', 'İzleme' sütunu işaretlenerek program listesine yerleştirildi.</msgTracedItem>
+        <msgTracedItemAppended>İzleme verisi, önceki izleme maddesine '%s' eklendi.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Lütfen dikkat: yeni kurulum öğeleri eskileriyle ilişkilendirilecek ve (onay verdiğinizde) '%s' ile birlikte kaldırılacaktır.</msgTracedItemAppendedNote>
+        <msgUndoTracing>Uninstall Tool'un program izleme verisini silmesini istediğinize emin misiniz?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>İzleme servisi açılamıyor. Lütfen programı yeniden kurun</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Uninstall Tool izleme servisi ('CisUtMonitor') sisteme kurulmamış. \n\nŞimdi kurmak ister misiniz?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Uninstall Tool izleme servisi ('CisUtMonitor') sisteme kurulmamış.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>İzleme servisi başarılı bir şekilde kuruldu. \n\nDilediğiniz zaman 'RemoveService.cmd' dosyası ile kaldırabilirsiniz.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>İzleme servisi kurulumu zaman aşımına uğradı: hata kodu %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>Bir servis kurulumu başarısız oldu - bilinmeyen hata, lütfen teknik destek hattına başvurun.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Uninstall Tool izleme servisi ('CisUtMonitor') bilgisayardan kaldırıldı.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>İzleme servisi 'CisUtMonitor' sürümü (%u) güncel sürümden (%u) daha eski. \n\nGüncellemek ister misiniz?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>İzleme servisi son sürümü başarılı bir şekilde kuruldu. İzleme servisini kullanmak için önce bilgisayarı yeniden başlatmalısınız.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>İzlenen program kurulmadığından (kalıntı dosya/kayıt defteri girdisi yok) kayıt yapılmadı.</msgNothingToSave>
+        <msgCancelTracing>Mevcut izlemeyi iptal etmek ister misiniz?</msgCancelTracing>
+        <msgStopTracing>İzleme durduruldu. Mevcut izleme sonuçlarını kaydetmek ister misiniz?</msgStopTracing>
+        <msgEntryAlreadyExists>'%s' listede mevcut, başka bir ad belirleyin.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>Bu işlem girdileri kayıt defterinden (başlat menüsü) kalıcı olarak silecektir. \n\nUygulamak istediğinize emin misiniz?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>Yeni açılış maddesi ekleme hatalı oldu, yönetici haklarına sahip olduğunuza emin olun veya teknik destek hattına başvurun.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>Bu girdinin özellikleri değiştirilemiyor. Yönetici haklarına sahip olmamanız neden olabilir. \n\nlütfen teknik destek için sistem yöneticinize başvurun.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>Bu maddeleri silmek istediğinize emin misiniz?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>Yukarıdaki maddeler kayıt defterinden (başlat menüsü) silinecek ve Windows açıldığında tekrar yüklenmeyecektir.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>Kayıt işleminin tamamlanması için program yeniden başlatılmalıdır. \n\nŞimdi yeniden başlatılsın mı?</msgRegRestartRequired>
+        <msgNewVersionAvailable>Yeni sürüm (%s) mevcut</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>Güncel sürüm: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>Yenilikler :</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Katılımsız sürüm indirme bağlantısı :</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>Programın son sürümünü kullanıyorsunuz</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>Crystalidea ana sayfasına bağlanılamıyor, lütfen internet bağlantınızı kontrol ediniz.</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>64-bit Windows işletim sistemlerinde 32 bit Uninstall Tool sürümü çalıştırıldığında birçok kısıtlama ile sadece 32 bit uygulamalar görüntülenir. Uninstall Tool 'u indirerek yeniden kurmanız tavsiye edilir (işletim sistemine uygun şekilde otomatik olarak 64-bit sürüm kurulacaktır).</msgRunningInWow64>
+        <msgRunningInWow64Title>WoW64 ortamında çalışıyor</msgRunningInWow64Title>
+        <msgCannotStartHelper>'UninstallToolHelper.exe' başlatamıyor. \n\nLütfen programı yeriden kurun.</msgCannotStartHelper>
+        <msgUninstallingMyself>Uninstall Tool ayarlarını ve kayıtlı tüm izleri kaldırmak istediğinize emin misiniz?</msgUninstallingMyself>
+        <msgUnableToCreateFile>:\n%s dosyası oluşturulamıyor</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>KAYITSIZ SÜRÜM</txtUnregisteredBig>
+        <msgNotAvailableInTrial>Bu özellik sadece programın kayıtlı sürümünde mevcuttur.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>Uygulama listesindeki '%s' maddeyi Zorla Kaldır özelliği ile kalıntı veriyi kaydedip daha sonra silebilirsiniz.</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>Kalıntı veriyi Kaydet ve ardından Sil</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML Dosyaları</htmlFiles>
+        <allFiles>Tüm Dosyalar</allFiles>
+        <generatedByOn>%s oluşturuluyor %s hakkında</generatedByOn>
+        <installedPrograms>Kurulu Programlar (%s)</installedPrograms>
+        <startupPrograms>Açılış Programları</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>OK</btnOK>
+        <btnCancel>İptal</btnCancel>
+        <btnHelp>Yardım</btnHelp>
+        <btnYes>Evet</btnYes>
+        <btnNo>Hayır</btnNo>
+        <btnClose>Kapat</btnClose>
+        <statusTotalInfo>%d programın toplam boyutu %s</statusTotalInfo>
+        <statusUnknown>bilinmeyen</statusUnknown>
+        <statusRecentItems>son kurulumlar</statusRecentItems>
+        <statusRecentItemsTip>Son kurulan/değiştirilen programları görüntüle</statusRecentItemsTip>
+        <statusStartupTotalInfo>toplam %d program, açılışta yüklenen %d program</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>Dolu alan boyutu hesaplanıyor... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>Yeni sürüm bulundu :</statusNewVersionAvailable>
+        <popupNewProgramsFound>%d yeni program bulundu!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Windows Güncellemeleri</WindowsUpdatesText>
+        <UninstallToolDescription>Programların Kaldırılması Tamamlandı. Yazılım Kurun ve İzleyin. Açılış Programlarını Yönetin.</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>Kurulum İzleyici...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>Programın bilgisayarınızda oluşturduğu tüm değişiklikleri izleyin</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - İşleme Hatası</msgTitleTemplate>
+        <msgTemplate>Üzgünüz, işleme hatası oluştu ve \n%app_name% kurulumu tutarsız gözüküyor. \nLütfen :\n\n%dump_file%\n\n döküm dosyasını ekleyerek '%email%'\n adresine e-posta ile iletiniz. 'Raporu İlet' düğmesine basınca, varsayılan e-posta programınız \n ile mesajınız sıkıştırılarak iletilecektir.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Hata Raporu</MailSubjectTemplate>
+        <MailBodyTemplate>Merhaba, Teknik Destek.\n\n%app_name% konusunda problem yaşıyorum. Döküm dosyası ektedir.\n(%dump_file% dosyasını eklemeyi unutmayınız)\n\nWindows işletim sistemim %winver% olup problem öncesindeki işlemlerim... (lütfen açıklayınız)</MailBodyTemplate>
+        <btnSend>Raporu İlet (tavsiye edilir)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>Diğer Görevler :</other_tasks>
+        <install_service>İzleme Servisi ('Kur ve İzle' özelliği)</install_service>
+        <control_panel_icon_text>Uninstall Tool simgesini Denetim Masasında görüntüle</control_panel_icon_text>
+        <installing_driver>Kernel sürücüsü kuruluyor...</installing_driver>
+        <ut_initializing>Uninstall Tool başlatılıyor...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

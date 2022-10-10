@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.0" LangID="1061" Author="logard.&amp;co">
+    <MainMenu>
+        <mnuFile>&amp;Fail</mnuFile>
+        <mnuFileExport>&amp;Ekspordi HTML-ist...</mnuFileExport>
+        <mnuFileExit>Väl&amp;ju</mnuFileExit>
+        <mnuAction>&amp;Tegevus</mnuAction>
+        <mnuActionUninstall>&amp;Eemalda...</mnuActionUninstall>
+        <mnuActionModify>&amp;Muuda...</mnuActionModify>
+        <mnuActionDelete>&amp;Jõuga eemaldamine</mnuActionDelete>
+        <mnuActionDeleteBatch>Batch &amp;Force Removal</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>Eemalda &amp;sisestus</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>Batch Remove &amp;Entries</mnuActionRemoveEntryBatch>
+        <mnuTracedData>Jälgitavad andmed</mnuTracedData>
+        <mnuTracedDataAsXML>Vaata XML-is...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>Tühista jälgimine</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Append traced data (Install and Trace)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;Registri sisestus</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>&amp;Paigaldamise kaust</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>&amp;Programmi veebileht</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Otsi asukohta...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>Otsi allikat...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Otsi Googlist</mnuActionGoogleFor>
+        <mnuView>&amp;Vaade</mnuView>
+        <mnuViewMainToolbar>Peamine tööriistariba</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>Näita peamist tööriistariba</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>Näita nupu märgiseid ikooni all</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>Teine tööriistariba</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;Värskenda</mnuViewRefresh>
+        <mnuViewListColumnsReset>Vali kõik</mnuViewListColumnsReset>
+        <mnuViewLanguage>Töökeskkonna keel</mnuViewLanguage>
+        <mnuTools>&amp;Tööriistad</mnuTools>
+        <mnuToolsSystemTools>Süsteemi tööriistad</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;Lisa/Eemalda programmid...</mnuToolsAddRemove>
+        <mnuToolsComponents>Windows-i &amp;komponendid...</mnuToolsComponents>
+        <mnuToolsSystemRestore>Süsteemi taastamine</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>Turvalisus</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>Süsteemi omadused</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>Süsteemi info</mnuToolsSystemInfo>
+        <mnuToolsDefrag>Ketta korrastaja</mnuToolsDefrag>
+        <mnuToolsServices>Teenused</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;Seaded...</mnuToolsOptions>
+        <mnuHelp>&amp;Abi</mnuHelp>
+        <mnuHelpOnline>&amp;Abi...</mnuHelpOnline>
+        <mnuHelpHomePage>Home Page</mnuHelpHomePage>
+        <mnuHelpSupport>Support</mnuHelpSupport>
+        <mnuHelpBuyNow>&amp;Omasta...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>&amp;Sisesta võti...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>Kontrolli &amp;uuendusi...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;Teave...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>Programmi nimi</columnProgramName>
+        <columnSize>Suurus</columnSize>
+        <columnInstallationDate>Paigaldatud</columnInstallationDate>
+        <columnTraced>Jälgida</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;Lähtesta&lt;/a&gt; otsingu filter (Esc klahviga) või proovida sirvimist teistes kategooriates</staticNoItemsMatchingFilterTip>
+        <staticLoading>Loading, please wait...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>Olek</columnStatus>
+        <columnSource>Allikas</columnSource>
+        <columnCompany>Kompanii</columnCompany>
+        <sourceHKLMRun>HKLM Run</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM RunOnce</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU Run</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
+        <sourceStartMenuAll>Stardimenüü kõik</sourceStartMenuAll>
+        <sourceStartMenuCU>Stardimenüü CU</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems>Pole ühtegi programmi, mis automaatselt käivituvad Windows</staticNoStartupItems>
+        <staticNoStartupItemsTip>Sa saad käsitisi &lt;a&gt;lisada uue programmi&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>Eemaldaja</btnUninstaller>
+        <btnUninstallerToolTip>Eemalda olemasolevad programmid või paigalda ja jälgi tarkavara uuendamist</btnUninstallerToolTip>
+        <btnStartup>Käivituvad winni-ga</btnStartup>
+        <btnStartupToolTip>Rakendused mis automaatselt alustavad tööd käivitumisel</btnStartupToolTip>
+        <btnRefresh>Värskenda</btnRefresh>
+        <btnRefreshToolTip>Värskenda rakenduse loendit</btnRefreshToolTip>
+        <btnPrefs>Seaded</btnPrefs>
+        <btnPrefsToolTip>Kuva seadistuse dialoogiakent</btnPrefsToolTip>
+        <btnHelp>Abi</btnHelp>
+        <btnHelpToolTip>Kuva programmi spikrit</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>Rakendused</btnApps>
+        <btnAppsToolTip>Rakendused</btnAppsToolTip>
+        <btnSystem>Süsteem</btnSystem>
+        <btnSystemToolTip>Süsteemi komponendid ja uuendused</btnSystemToolTip>
+        <btnHidden>Varjatud</btnHidden>
+        <btnHiddenToolTip>Varjatud komponendid</btnHiddenToolTip>
+        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>Hiljuti paigaldatud (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Hiljuti paigaldatud/uuenenud programmid</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Paigalda ja jälgi</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Paigaldage uus programm ja vaadake muudatusi mida tehakse failisiüsteemis ja registris</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>Eemalda</itemUninstallIt>
+        <itemModifyIt>Muuda</itemModifyIt>
+        <itemDelete>Eemalda jõuga kõik jäljed</itemDelete>
+        <itemBatchDelete>Batch force removal of all traces</itemBatchDelete>
+        <itemBatchRemoveEntry>Batch remove entries from the list</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>You selected %u items but maximum number of items in a batch operation is limited to %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>Katkesta</itemCancelWaiting>
+        <itemSearch>Otsi</itemSearch>
+        <itemShortSearchTip>Sisesta nimetus leidmaks programmi</itemShortSearchTip>
+        <itemVersion>Versioon:</itemVersion>
+        <itemInstalledOn>Paigaldamise aeg:</itemInstalledOn>
+        <itemPublisher>Väljaandja:</itemPublisher>
+        <itemRegistryEntry>Vaata asetust registris</itemRegistryEntry>
+        <itemUninstallInProgress>Eemaldamine käib</itemUninstallInProgress>
+        <itemUninstallInProgressTip>Eemaldan %s, palun oodake kuni eemaldamise protsess on lõppenud...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>Muutmine käib</itemModifyInProgress>
+        <itemModifyInProgressTip>Muudan %s, Palun oodake kuni muutmine on lõpetatud...</itemModifyInProgressTip>
+        <itemNothingFound>Vasteid ei leitud!</itemNothingFound>
+        <itemNoItemsMatchingFilter>Puuduvad programmid matching '%s' in the %s kategoorias</itemNoItemsMatchingFilter>
+        <itemGroup>See on programmide grupp</itemGroup>
+        <itemNoUninstall>Programmi ei saa eemaldada tavapäraselt, võite proovida Jõulise eemaldamise kasutamist.</itemNoUninstall>
+        <itemTracedOnly>Kohandatud kande on defineeritud sätestatud jälitaja poolt. Saab eemaldada ainult Jõulise eemaldamise funktsiooniga.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>Keela arvuti käivitumisel</itemDisableRunning>
+        <itemEnableRunning>Luba arvuti käivitumisel</itemEnableRunning>
+        <itemDeleteStartupItem>Jõuga eemaldamine</itemDeleteStartupItem>
+        <itemDisableSelected>Keela valitud kirjetd</itemDisableSelected>
+        <itemEnableSelected>Luba valitud kirjetd</itemEnableSelected>
+        <itemDeleteSelected>Kustuta valitud kirjetd lehelt</itemDeleteSelected>
+        <itemMultiplSelected>%u valitud kirjetd</itemMultiplSelected>
+        <itemAddNewStartupItem>Lisa uus programm...</itemAddNewStartupItem>
+        <itemStatusCaption>Olek:</itemStatusCaption>
+        <itemStatusRunning>Töösolev</itemStatusRunning>
+        <itemStatusNotRunning>Ei tööta</itemStatusNotRunning>
+        <itemStatusDisabled>Vigane</itemStatusDisabled>
+        <itemStatusInvalid>Invalid</itemStatusInvalid>
+        <itemCommandLineCaption>Käskluse rida:</itemCommandLineCaption>
+        <itemSourceCaption>Allikas:</itemSourceCaption>
+        <itemSourceRun_HKLM>Kõikide kasutajate registri käivitamise võti</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Valitud kasutaja registri käivitamise võti</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>Kõikide kasutajate ühekordne registri käivitamise võti</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>Valitud kasutaja ühekordne registri käivitamise võti</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>Kõikide kasutajate windowsi stardi menüü</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>Valitud kasutaja automaatne start menüü käivitamine</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>Lisa uus käivitus programm</DlgAddNewStartupProgramCaption>
+        <labelStartupType>Käivitamise tüüp:</labelStartupType>
+        <labelPathToExecutableFile>Käivitatava faili asukoht:</labelPathToExecutableFile>
+        <labelArguments>Argumendid (valikuline):</labelArguments>
+        <filterExecutableFiles>Käivitatavad failid</filterExecutableFiles>
+        <filterAllFiles>Kõik failid</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>Häälestus</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>Üldine</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>Kontrolli uuendusi programmi käivitumisel</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Check for beta versions</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>Liidese keel:</staticInterfaceLanguage>
+        <checkControlPanelIcon>Näita Uninstall Tool ikooni juhtpaneelil</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>Navigeeri programmi kaustasi kasutades Total Commander-it</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>Liides</categoryInterface>
+        <checkToolBarCaptions>Näita tööriistariba nuppude pealdiseid</checkToolBarCaptions>
+        <categoryAppList>Programmide nimekiri</categoryAppList>
+        <checkSmallIcons>Väiksed ikoonid</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>Värvi skeem</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Tree-like software updates (sub-items):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>&amp;Kuva tarkvara uuendusi</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Initially collapsed</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Initially expanded</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Always expanded</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Parent items can be expanded/collapsed with mouse or using Left/Right keyboard keys. \n\n'Initially collapsed' is recommended option, but users are able to set 'Initially expanded' to display all updates initially. Users who get used to Uninstall Tool versions prior to 3.3 can choose 'Always expanded' option which also disables expand/collapse functionality. \n\nWhen using search filter collapsed items are expanded automatically if one or more sub-items matches the filter.</subitemsHelpText>
+        <staticRecentlyInstalled>Viimati paigaldatud programmid:</staticRecentlyInstalled>
+        <checkDisplayPopup>Näita hüpikakent viimati paigaldatud programmidega</checkDisplayPopup>
+        <checkHighlighRecent>Tõsta esile viimati paigaldatud programmid</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>Kuva viimaseid programmisi teisel tööriistaribal</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Eemaldamise viisard</categoryUninstallWizard>
+        <staticWizardDesctiption>Kui sa oled eemaldanud programmi, peale eemaldamist teostab Uninstall Wizard ™ sügava süsteemi sisese otsingu, leidmaks kasutuid registri sisestusi ja faile. Sa saad valida automaatse, keelata Uninstall Wizard-ilt või panna iga kord küsima kas käivitada seda või mitte. Uninstall Wizard töötab alati jälgitavate programmidega.</staticWizardDesctiption>
+        <staticWizardUsage>Uninstall Wizard™-i kasutamine:</staticWizardUsage>
+        <comboItemWizardOption1>Küsi ennem alustamist</comboItemWizardOption1>
+        <comboItemWizardOption2>Automaatselt</comboItemWizardOption2>
+        <comboItemWizardOption3>Keela</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Uninstall Wizard</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>Kustuta kõik jäljed %s-st - Uninstall Wizard ™</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>Skaneerin leidmaks alles jäänud faile, kaustu ja registri üksuseid...</statusScanning>
+        <statusScanningTraced>Generating the list of leftover traced items, please wait...</statusScanningTraced>
+        <statusForceRemoval>Force removal of '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>Leitud mõned alles jäänud jäljed!</statusLeftOverTracesFound>
+        <statusNothingFound>Pole leitud ühtegi alles jäänud jälge.</statusNothingFound>
+        <statusAllTracesRemoved>Kõik jäljed on kustutatud</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>Kustutan programmi jälgi...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Uninstall Tool avastas et selle programmi jälgi ikka veel sinu arvutis. Palun vaata neid tähelepanekult ning kui te olete valmis neid üksusi eemaldama vajutage 'Lõpeta'.</staticScanStatusFound>
+        <staticScanStatusRemoved>%s on edukalt eemaldatud.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>All selected leftovers have been successfully removed.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>Genereerin jälgede nimekirja...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>Faili süsteemi (%d ühikud)</treeItemFileSystem>
+        <treeItemRegistry>Registri (%d ühikud)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>Sirvi...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d failide (%s) ja %d registri ühikud on ikka veel sinu arvutis</staticOverallInfo>
+        <btnFinish>Lõpeta</btnFinish>
+        <btnCancel>Katkesta</btnCancel>
+        <btnClose>Sulge</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>Mõningaid faile ei kustutatud</Title>
+        <Instruction1>Järgmisi faile ei kustutatud, sest nad on süsteemis kasutusel:</Instruction1>
+        <Instruction2>Need failid eemaldatakse automaatselt järgmisel süsteemis taaskäivitamisel.</Instruction2>
+        <btnReboot>Taaskäivita nüüd</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>Jõulise lõpetamise töötavad protsessid?</Title>
+        <Instruction1>Järgmised protsessid olid tuvastatud:</Instruction1>
+        <Instruction2>On soovitatav lõpetada neid käsitsi enne eemaldamist, kuid Eemaldamise viisardi saab sundida lõpetamist.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>Paigalda jälgija</InstallTrackerLocalizedName>
+        <Title>Paigalda ja jälgi programmi</Title>
+        <TitleAppend>Install and Trace, append traced data to '%s'</TitleAppend>
+        <staticPathToProgram>Paigaldusfaili rada (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>Paigaldamise areng:</staticInstallProgress>
+        <checkMinimize>Minimeeri Uninstall Tool süsteemi salve paigaldamise ajal</checkMinimize>
+        <btnInstall>Paigalda ja jälgi</btnInstall>
+        <btnStop>Peata</btnStop>
+        <btnSave>Salvesta</btnSave>
+        <btnSaveLog>Salvesta logi...</btnSaveLog>
+        <btnNoAndRevert>No + Revert</btnNoAndRevert>
+        <staticRevertInfo>Revert option attepts to delete all file system/registry items created during the installation tracing</staticRevertInfo>
+        <installTip1>Jätka paigaldamist nagu tavaliselt kuigi Uninstall Tool jälgib seda. Jälgimine peatub automaatselt, kui kõik protsessid on lõpetatud või te peatate need käsitsi kui seadistamine on lõppenud</installTip1>
+        <installTip2>Palun veenduge, et ükski teine paigaldamine ei ole praegu töös</installTip2>
+        <installTip3>Kui mõni varasem versioon sellest programmist on juba paigaldatud, siis tuleb eemaldada see esimene enne kui paigaldate uuema versiooni</installTip3>
+        <trayIconTitle>Paigaldan '%s'...</trayIconTitle>
+        <trayIconTooltip>Vaata paremklõpsu menüül et lõpetada või vaadata jälgimise logi</trayIconTooltip>
+        <trayIconText>Jätka paigaldamist nagu tavaliselt kuigi Uninstall Tool jälgib seda. Jälgimine peatub automaatselt, kui kõik protsessid on lõpetatud või te peate need käsitsi (paremklõps menüü), kui seadistamine on lõpetatud</trayIconText>
+        <trayIconMenuProgress>Paigaldus areng</trayIconMenuProgress>
+        <trayIconMenuStop>Stopp</trayIconMenuStop>
+        <readMore>Loe lisaks</readMore>
+        <installationFiles>Paigaldus failid</installationFiles>
+        <textFiles>Tekst failid</textFiles>
+        <selectInstallFile>Valige paigaldusfail</selectInstallFile>
+        <contextMenuCopy>Kopeeri</contextMenuCopy>
+        <logEventCreateFile>Loo fail</logEventCreateFile>
+        <logEventCreateFolder>Loo kasut</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>Loo võti</logEventCreateKey>
+        <logEventDeleteKey>Kustuta võti</logEventDeleteKey>
+        <logEventSetValue>Määra väärtus</logEventSetValue>
+        <logEventProcessCreated>Protsess loodud</logEventProcessCreated>
+        <logEventProcessKilled>Protsess peatatud</logEventProcessKilled>
+        <logEventDeleteOperation>Delete</logEventDeleteOperation>
+        <logStartingService>Alusta Jälgija teenuse paigaldamist...</logStartingService>
+        <logStartingServiceError1>Viga: CisUtMonitor teenus on veel peatatud</logStartingServiceError1>
+        <logStartingServiceError2>Viga: CisUtMonitor käivitamine on aegunud</logStartingServiceError2>
+        <logStartingServiceError3>Viga: Ei suuda alustada CisUtMonitor teenust (viga %u)</logStartingServiceError3>
+        <logStartingServiceError4>Viga: Ei saa avada CisUtMonitor teenust. Palun taaspaigaldage programm.</logStartingServiceError4>
+        <logServiceStopped>Jälgimise teenus on peatatud</logServiceStopped>
+        <logServiceStopError>Viga: Ei õnnestunud peatada jälgimise teenust</logServiceStopError>
+        <logServiceVersion>Teenuse versioon: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>Monitori versioon on: 0x%x, peaks olema 0x%x. Palun taaspaigaldage programm.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Hoiatus: Peatub aktiivne monitoring...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>Paigaldus monitoring on alanud</logServiceMonitorStarted>
+        <logTrackingStarting>Alustab %s...</logTrackingStarting>
+        <logTrackingStartingEror>Viga: Ei saa käivitada seadistamise protsessi (viga %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>Viga: Ei saa käivitada monitooringut. Palun taaspaigaldage programm.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>Kasutaja peatas jälgimise</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>Kõik paigaldus protsessid on lõpetatud</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>Seadistamine on lõppenud</logTrackingCompleted>
+        <logTracingAnalyzing>Analüüsitakse paigaldust, palun oodake...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>%u paigaldus kanne tuvastatud</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u new installation entries detected:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Done</logTrackingDone>
+        <logReverting>Reverting changes...</logReverting>
+        <logCompleted>Completed</logCompleted>
+        <logMSIServiceWarning>Hoiatus: MSI teenus on keelatud</logMSIServiceWarning>
+        <logMSIServiceError1>Viga: Ei suutnud avada MSI teenust</logMSIServiceError1>
+        <logMSIServiceError2>Viga: Ei saa käivitada MSI teenust</logMSIServiceError2>
+        <logMSIServiceError3>Viga: Ei saa vastust MSI teenuse staatusele</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>Mitte ühtki uut paigaldus kannet ei leitud jälgimise ajal. Üldiselt tähendab see, et programm ei ole paigaldatud korralikult, aga kui sa oled kindel, et paigaldus läks kenasti võite luua uue kohandatud programmi rakenduste nimekirjas. Kõik praegu leitud jäljed ei kuulu talle..</Title>
+        <staticName>Nimi:</staticName>
+        <checkCreateCustomEntry>Sooviksin luua kohandatud valikut loendis</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>Mitu paigaldus sissekannet tuvastatud</Caption>
+        <Title>Mitu paigaldamis kannet tuvastatud Windows Registry-is peale paigaldamist. Palun valige põhi kuva rakenduste nimekirjas eritähisega 'Jälgida' column. Pange tähele, et kustutades võtmeelement, Uninstall Tool eemaldada ka kõik andmed, mis on seotud programmiga nimekirjas.</Title>
+        <btnSelect>Märgi</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s jälgimis andmed</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>Eemalda '%s'</Title>
+        <Instruction>Eemalda ka sõltuvad kirjed?</Instruction>
+        <Footer>Programm '%s' oli asetatud jälgimise paigaldusega. Samuti on paigaldatud sõltuvad programmid mis on loetletud allpool olevast nimekirjast. See tähendab, et eemaldaja on oma töö käigus eemaldaks ka need. Kui te otsustate kustutada ainult töösoleva programmi, jälgimis andmeid ignoreeritakse ja uninstaller püüab leida, mis on seotud selle programmiga andmed iseseisvaltwith Install Tracker tracing enabled and the items above were installed as well. It means that when using Uninstall Wizard every dependent traced component will be removed too. When selecting removal only of current item, tracing data will be ignored and Uninstall Wizard will scan for leftover data referred to this program.</Footer>
+        <btnOnlyCurrent>Ainult %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>Sisseehitatud eemaldaja on lõpetanud oma töö.Kas sa soovid teostada süsteemi sügavat otsingut sinu süsteemi registris ja sinu süsteemi failides et leida kasutuid Registri sisestusi ja faile mis on eemaldamata?</staticConfirm>
+        <learnMoreAboutWizard>Lisateavet Uninstall Wizard-ist</learnMoreAboutWizard>
+        <btnYes>Jah</btnYes>
+        <btnNo>Ei</btnNo>
+        <checkDontAskAgain>Mäleta mu valikut ja ära küsi seda minu käest uuesti(Saab muuta seadetes)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Teave Uninstall Tool-ist</DlgAboutCaption>
+        <staticWebSite>Veebileht</staticWebSite>
+        <staticSupport>Tugi</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>See toode on registreeritud:</staticRegisteredTo>
+        <staticChangeKey>Change License Key</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>Prooviversiooni meeldetuletus</UnregDlgReminder>
+        <UnregDlgExpired>Prooviversioon aegunud</UnregDlgExpired>
+        <staticExpired>Proovi versiooni aeg on läbi.Sul oli võimalus testida kõiki programmi funktsoone 30 päeva.\n\n Kui sulle meeldis see programm ja sa soovid kasutada seda ka edaspidi kasutada vajutage 'Omasta'.</staticExpired>
+        <staticTrial>Vabavarana saab kasutada Uninstall Tool-i ainult 30 päeva. Peale selle perioodi lõppemist pead sa ta omastama või eemaldama oma arvutist.</staticTrial>
+        <btnWebSite>Veebileht</btnWebSite>
+        <staticDaysLeft>%d päeva on jäänud kasutada</staticDaysLeft>
+        <btnBuyNow>Osta kohe</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Sisesta registreerimisvõti</EnterKeyDlgCaption>
+        <Title>Palun sisestage oma nimi ja registreerimis kood nagu nad on sinu e-mailil:</Title>
+        <staticName>Registreerimisnimi:</staticName>
+        <staticKey>Registreerimisvõti:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>Eemaldamise protsess ebaõnnestus. \nTahad sa ikka kustutada seda programmi sisestusi registrist ja kustutada selle failid?</msgUninstallFailed>
+        <msgForceRemovalTitle>Force Removal of '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Batch Force Removal</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>Oled kindel, et soovite teostada selle programmi jõulise eemaldamise?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Are you sure you want to perform force removal of the following programs?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>Jõuga eemaldamist selle nimekirja sisestust ei saa käivitada mis on liidetud Eemaldajaga. See on ainuke kustutaja mis kõikidest leitud süsteemi ja registri üksustest kustutab sellele programmi Sa peaksid kasutama seda funktsooni ainult vananenud või vigase nimekirjaga.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>Force removal of a traced program will perform ultra fast and thorough removal without running its associated uninstaller. It will erase all file system and registry items traced during installation.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Batch Force Removal is an advanced feature and should be used carefuly. It will not run associated uninstallers and will only scan for leftover file system/registry items and display them in a merged list that requires a precise review. The most thorough and accurate removal is performed for programs traced with Install Tracker.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>dependent</msgForceRemovalItemDependent>
+        <msgLearnMore>Learn more</msgLearnMore>
+        <msgForceRemovalCheck>Ok, I understand the responsibility</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>Kas oled kindel et soovid Uninstall Tool-i eemaldada oma arvutist?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>Oled sa kindel et soovid eemaldada selle sisestuse?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Are you sure you want to remove these entries?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>See funktsioon ainult eemaldab selle tegumi lehelt. Mingid registri jäänukid või faili süsteemi ühikud kustutakse. Sa peaksid seda funktsiooni kasutama ainult vananenud või vigase sisestus loendi puhul.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>Tekkis tõrge selle sisestuse kustutamisel. \nSul puudub õigus seda teha.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>Oled sa kinnel ot soovid katekstada selle programmi jõulise eemaldamise?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>Jõuline tühistamine peaks toimuma alles siis, kui vaike eemaldamise programm on külmutatud või teil on vaja kiiremas korras peatada kõik parajasti töötavad eemaldamise protsessid. Õige tühistamine tuleks teha programmi vaike eemaldajaga sest jõuline tühistamine võib põhjustada ettenägematuid tagajärgi.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>Traced item '%s' is now displayed in the program list with a special icon in the 'Traced' column.</msgTracedItem>
+        <msgTracedItemAppended>Traced data is now added to the previously traced item '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Please note that new installation items will be treated as dependent entries and can be removed later together with '%s' (upon confirmation).</msgTracedItemAppendedNote>
+        <msgUndoTracing>Oled sa kindel, et soovid Uninstall Tool jätab vahele kõik selle programmi jälgitavad andmed?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>Ei saa avada CisUtMonitor teenust. Palun taaspaigaldage programm</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Uninstall Tool jälgimise teenus ('CisUtMonitor') ei ole paigaldatud siia süsteemi. \n\nKas soovite seda kohe paigaltada?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Uninstall Tool jälgimise teenus ('CisUtMonitor') ei ole paigaldatud siia süsteemi.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>Teenus on edukalt paigaldatud. \n\nSaab seda hiljem eemaldada kasutades "RemoveService.cmd" faili.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>Teenuse paigaldamise aeg: vea kood %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>Ei õnnestunud paigaldada teenust - teadmata põhjusel, võtke ühendust toega.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Uninstall Tool jälgimise teenus ('CisUtMonitor') on eemaldatud sellest arvutist.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>Paigaldatud 'CisUtMonitor' toote versioon (%u) on vanem kui töösolev (%u). \n\nKas soovite uuendada?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>Viimane teenuse versioon on edukalt paigaldatud. Te peate arvuti taaskäivitama enne paigaldamise jälgija kasutamist.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>Ei ole midagi salvestada, kuna jälgitav programm ei olnud paigaldatud (puuduvad failid/registri kirjed)</msgNothingToSave>
+        <msgCancelTracing>Kas soovite tühistada töösoleva paigalduse jälgimine?</msgCancelTracing>
+        <msgStopTracing>Paigaldus jälgimine peatub nüüd. Soovid salvestada praeguse jälgimise tulemusi?</msgStopTracing>
+        <msgEntryAlreadyExists>Programm '%s' on juba olemas loendis, nii et palun vali mõni teine nimetus.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>See kustutab lõplikult selle sisse kande sinu süsteemi registrist(start menüü). \n\nKas sa tahad seda teha?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>Viga uue käivitamise objektilisamisel, palun kontrolli haldamis õigusi või võtke ühendust programmi toega.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>Ei saa muuta selle sisestuse omadusi. Võimalik et sul puudub õigus seda teha. \nKontakteeru abi saamiseks oma süsteemi administraatoriga.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>Oled kindel, et soovite kustutada need kirjed?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>See eemadlab failid sinu süsteemi registrist (stardi menüüs) ja need kunagi ei käivitu koos Windowsiga.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>Et lõpetada registreerimine pead sa taaskäivitama programmi. \n\nKas soovid seda teha?</msgRegRestartRequired>
+        <msgNewVersionAvailable>Uus versioon %s on saadaval.</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>Käesolev versioon: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>Mi's on uut:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Portable version download link</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>Sul on viimane toote versioon.</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>Ei saa ühendust crystalidea.com veebilehega, palun kontrolli oma interneti ühendust</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>You're not supposed to run 32-bit version of Uninstall Tool on 64-bit Windows as it displays only 32-bit applications and has a wide range of limitations. It's highly recommended to download and reinstall Uninstall Tool on this machine (it will automatically choose 64-bit version when installing on a 64-bit Windows).</msgRunningInWow64>
+        <msgRunningInWow64Title>Running in WoW64 environment</msgRunningInWow64Title>
+        <msgCannotStartHelper>Unable to start 'UninstallToolHelper.exe' process. \n\nPlease reintall the program.</msgCannotStartHelper>
+        <msgUninstallingMyself>Do you want to remove Uninstall Tool preferences and all data about traced installations?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Unable to create file:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>REGISTREERIMATA VERSIOON</txtUnregisteredBig>
+        <msgNotAvailableInTrial>See funktsioon on kättesaadav ainult registreeritud programmi versiooniga.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>Teil on võimalik salvestada üle jäänud andmeid ja kustutada need hiljem kasutades Jõulise eemaldamise funktsiooni '%s' valik loendis.</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>Salvestada ja kustutada alles jäänud andmed hiljem</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML failid</htmlFiles>
+        <allFiles>Kõik failid</allFiles>
+        <generatedByOn>Loodud %s on %s</generatedByOn>
+        <installedPrograms>Paigaldatud programme (%s)</installedPrograms>
+        <startupPrograms>Alglaetavad programmid</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>OK</btnOK>
+        <btnCancel>Katkesta</btnCancel>
+        <btnHelp>Abi</btnHelp>
+        <btnYes>Jah</btnYes>
+        <btnNo>Ei</btnNo>
+        <btnClose>Sulge</btnClose>
+        <statusTotalInfo>%d programmi %s kogumahust</statusTotalInfo>
+        <statusUnknown>tundmatu</statusUnknown>
+        <statusRecentItems>hiljuti paigaldatud</statusRecentItems>
+        <statusRecentItemsTip>Vaatle hiljuti paigaldatud/muudetud programme</statusRecentItemsTip>
+        <statusStartupTotalInfo>%d programmi kokku, %d on hetkel töös</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>Arvutan hõive suurust... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>Uus versioon saadaval:</statusNewVersionAvailable>
+        <popupNewProgramsFound>%d uus programm(i) leitud!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Windowsi uuendus</WindowsUpdatesText>
+        <UninstallToolDescription>Eemalda programmid täielikult, halda käivutuvaid programme</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>Paigaldage ja jälgi koos Install Tracker-iga...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>Paigalda ja jälgi kõiki muudatusi mida programm teeb sinu arvutis</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Unhandled Exception</msgTitleTemplate>
+        <msgTemplate>We're sorry but an unhandled exception has occurred and \n%app_name% has become unstable. \nPlease send us an e-mail to '%email%'\nattaching the following crash dump file:\n\n%dump_file%\n\nAfter pressing 'Send Report' button, a default mailer program \nwill be opened with composed message.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file %dump_file%)\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <btnSend>Send Report (Recommended)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>Muud tegevused:</other_tasks>
+        <install_service>Install tracing service ('Install and Trace' feature)</install_service>
+        <control_panel_icon_text>Lisa Uninstall Tool ikoon juhtpaneelile</control_panel_icon_text>
+        <installing_driver>Paigalda kerneli ajur...</installing_driver>
+        <ut_initializing>Uninstall Tool on initsialiseerimisel...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

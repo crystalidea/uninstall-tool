@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.2" LangID="1032" Author="Theodoros Stefanidhes">
+    <MainMenu>
+        <mnuFile>&amp;Αρχείο</mnuFile>
+        <mnuFileExport>&amp;Εξαγωγή σε HTML...</mnuFileExport>
+        <mnuFileExit>Έ&amp;ξοδος</mnuFileExit>
+        <mnuAction>&amp;Ενέργεια</mnuAction>
+        <mnuActionUninstall>&amp;Απεγκατάσταση...</mnuActionUninstall>
+        <mnuActionModify>&amp;Τροποποίηση...</mnuActionModify>
+        <mnuActionDelete>&amp;Υποχρεωτική Αφαίρεση</mnuActionDelete>
+        <mnuActionDeleteBatch>Μαζική &amp;Υποχρεωτική Αφαίρεση</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>Αφαίρεση &amp;Καταχώρησης</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>Μαζική Αφαίρεση &amp;Καταχωρήσεων</mnuActionRemoveEntryBatch>
+        <mnuTracedData>Δεδομένα που Ανιχνεύθηκαν</mnuTracedData>
+        <mnuTracedDataAsXML>Εμφάνιση ως XML...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>Αναίρεση Ανίχνευσης</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Append traced data (Install and Trace)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;Καταχώρηση Μητρώου</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>Φάκελος &amp;Εγκατάστασης</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>Ιστοσελίδα &amp;Προγράμματος</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Εύρεση Θέσης...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>Εύρεση Προέλευσης...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Εύρεση Google για</mnuActionGoogleFor>
+        <mnuView>&amp;Επισκόπηση</mnuView>
+        <mnuViewMainToolbar>Κύρια γραμμή εργαλείων</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>Εμφάνιση Κύριας γραμμής εργαλείων</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>Εμφάνιση περιγραφών κουμπιών κάτω από εικονίδια</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>Δεύτερη Γραμμή Εργαλείων</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;Ανανέωση</mnuViewRefresh>
+        <mnuViewListColumnsReset>Επαναφορά Στηλών</mnuViewListColumnsReset>
+        <mnuViewLanguage>Γλώσσα Διεπαφής</mnuViewLanguage>
+        <mnuTools>&amp;Εργαλεία</mnuTools>
+        <mnuToolsSystemTools>Εργαλεία Συστήματος</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;Προσθαφαίρεση Προγραμμάτων...</mnuToolsAddRemove>
+        <mnuToolsComponents>&amp;Στοιχεία των Windows...</mnuToolsComponents>
+        <mnuToolsSystemRestore>Επαναφορά Συστήματος</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>Κέντρο Ασφαλείας</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>Ιδιότητες Συστήματος</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>Πληροφορίες Συστήματος</mnuToolsSystemInfo>
+        <mnuToolsDefrag>Ανασυγκρότηση Δίσκων</mnuToolsDefrag>
+        <mnuToolsServices>Υπηρεσίες</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;Προτιμήσεις...</mnuToolsOptions>
+        <mnuHelp>&amp;Βοήθεια</mnuHelp>
+        <mnuHelpOnline>&amp;Περιεχόμενα...</mnuHelpOnline>
+        <mnuHelpHomePage>Αρχική Σελίδα</mnuHelpHomePage>
+        <mnuHelpSupport>Υποστήριξη</mnuHelpSupport>
+        <mnuHelpBuyNow>&amp;Αγορά...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>&amp;Εισαγωγή Κλειδιού...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>Έλεγχος για &amp;ενημερώσεις...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;Σχετικά...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>Όνομα Προγράμματος</columnProgramName>
+        <columnSize>Μέγεθος</columnSize>
+        <columnInstallationDate>Εγκαταστάθηκε Την</columnInstallationDate>
+        <columnTraced>Ανιχνεύθηκε</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;Επαναφορά&lt;/a&gt; φίλτρο αναζήτησης (Esc Πλήκτρο) ή αναζητήστε άλλες κατηγορίες</staticNoItemsMatchingFilterTip>
+        <staticLoading>Φόρτωση, παρακαλώ αναμείνατε...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>Κατάσταση</columnStatus>
+        <columnSource>Προέλευση</columnSource>
+        <columnCompany>Εταιρία</columnCompany>
+        <sourceHKLMRun>HKLM Εκτέλεση</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM Πρώτη Εκτέλεση</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU Εκτέλεση</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU Πρώτη Εκτέλεση</sourceHKCURunOnce>
+        <sourceStartMenuAll>Μενού Έναρξης Όλα</sourceStartMenuAll>
+        <sourceStartMenuCU>Μενού Έναρξης CU</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems>Δεν υπάρχουν προγράμματα που ξεκινούν αυτόματα με τα Windows</staticNoStartupItems>
+        <staticNoStartupItemsTip>Μπορείτε χειροκίνητα &lt;a&gt; να προσθέσετε ένα νέο πρόγραμμα&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>Απεγκαταστάτης</btnUninstaller>
+        <btnUninstallerToolTip>Απεγκατάσταση υπάρχοντων προγραμμάτων ή εγκατάσταση και ανίχνευση νέου λογισμικού</btnUninstallerToolTip>
+        <btnStartup>Έναρξη</btnStartup>
+        <btnStartupToolTip>Εφαρμογές που Εκτελούνται Αυτόματα στην Έναρξη</btnStartupToolTip>
+        <btnRefresh>Ανανέωση</btnRefresh>
+        <btnRefreshToolTip>Ανανέωση Λίστας Εφαρμογών</btnRefreshToolTip>
+        <btnPrefs>Προτιμήσεις</btnPrefs>
+        <btnPrefsToolTip>Εμφάνιση Διαλόγου Προτιμήσεων</btnPrefsToolTip>
+        <btnHelp>Βοήθεια</btnHelp>
+        <btnHelpToolTip>Εμφάνιση Βοήθειας Προγράμματος</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>Εφαρμογές</btnApps>
+        <btnAppsToolTip>Εφαρμογές</btnAppsToolTip>
+        <btnSystem>Σύστημα</btnSystem>
+        <btnSystemToolTip>Στοιχεία Συστήματος και Ενημερώσεις</btnSystemToolTip>
+        <btnHidden>Κρυφά</btnHidden>
+        <btnHiddenToolTip>Κρυφά Στοιχεία</btnHiddenToolTip>
+        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>Πρόσφατα Εγκατεστημένα (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Πρόσφατα εγκατεστημένα/ενημερωμένα στοιχεία</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Εγκατάσταση με Ανίχνευση</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Εγκατάσταση νέου προγράμματος και παρακολούθηση των αλλαγών συστήματος και μητρώου</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>Απεγκατάσταση</itemUninstallIt>
+        <itemModifyIt>Τροποποίηση</itemModifyIt>
+        <itemDelete>Υποχρεωτική αφαίρεση όλων των κατάλοιπων</itemDelete>
+        <itemBatchDelete>Μαζική υποχρεωτική αφαίρεση όλων των κατάλοιπων</itemBatchDelete>
+        <itemBatchRemoveEntry>Μαζική αφαίρεση καταχωρήσεων από τη λίστα</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>Επιλέξατε %u στοιχεία αλλά στη μαζική λειτουργία το μέγιστο όριο είναι %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>Ακύρωση</itemCancelWaiting>
+        <itemSearch>Αναζήτηση</itemSearch>
+        <itemShortSearchTip>Πληκτρολογήστε ένα πρόγραμμα</itemShortSearchTip>
+        <itemVersion>Έκδοση:</itemVersion>
+        <itemInstalledOn>Ημερομηνία Εγκατάστασης:</itemInstalledOn>
+        <itemPublisher>Εκδότης:</itemPublisher>
+        <itemRegistryEntry>Επισκόπηση Καταχώρησης Μητρώου</itemRegistryEntry>
+        <itemUninstallInProgress>Απεγκατάσταση σε εξέλιξη</itemUninstallInProgress>
+        <itemUninstallInProgressTip>Απεγκατάσταση %s, παρακαλώ περιμένετε ώσπου να ολοκληρωθεί η διαδικασία απεγκατάστασης...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>Τροποποίηση σε εξέλιξη</itemModifyInProgress>
+        <itemModifyInProgressTip>Τροποποίηση %s, παρακαλώ περιμένετε ώσπου να ολοκληρωθεί η διαδικασία τροποποίησης...</itemModifyInProgressTip>
+        <itemNothingFound>Δεν βρέθηκε τίποτα!</itemNothingFound>
+        <itemNoItemsMatchingFilter>Δεν υπάρχουν ταιριαστά προγράμματα '%s' στην κατηγορία %s</itemNoItemsMatchingFilter>
+        <itemGroup>Αυτή είναι μια ομάδα προγραμμάτων</itemGroup>
+        <itemNoUninstall>Το πρόγραμμα δεν μπορεί να απεγκατασταθεί κανονικά, προσπαθήστε με την Υποχρεωτική Αφαίρεση.</itemNoUninstall>
+        <itemTracedOnly>Η καταχώρηση καθορίζεται από ένα σύνολο ανιχνεύσεων. Αφαιρούνται μόνο με την Υποχρεωτική Αφαίρεση.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>Απενεργοποίηση εκτέλεσης στην έναρξη</itemDisableRunning>
+        <itemEnableRunning>Ενεργοποίηση εκτέλεσης στην έναρξη</itemEnableRunning>
+        <itemDeleteStartupItem>Υποχρεωτική αφαίρεση</itemDeleteStartupItem>
+        <itemDisableSelected>Απενεργοποίηση επιλεγμένων στοιχείων</itemDisableSelected>
+        <itemEnableSelected>Ενεργοποίηση επιλεγμένων στοιχείων</itemEnableSelected>
+        <itemDeleteSelected>Διαγραφή επιλεγμένων στοιχείων από τη λίστα</itemDeleteSelected>
+        <itemMultiplSelected>%u στοιχεία επιλέχθηκαν</itemMultiplSelected>
+        <itemAddNewStartupItem>Πρόσθεση νέου προγράμματος...</itemAddNewStartupItem>
+        <itemStatusCaption>Κατάσταση:</itemStatusCaption>
+        <itemStatusRunning>Εκτελείται</itemStatusRunning>
+        <itemStatusNotRunning>Δεν Εκτελείται</itemStatusNotRunning>
+        <itemStatusDisabled>Απενεργοποιημένα</itemStatusDisabled>
+        <itemStatusInvalid>Invalid</itemStatusInvalid>
+        <itemCommandLineCaption>Γραμμή Εντολών:</itemCommandLineCaption>
+        <itemSourceCaption>Προέλευση:</itemSourceCaption>
+        <itemSourceRun_HKLM>Κλειδί Μητρώου Εκτέλεσης Όλων των Χρηστών</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Κλειδί Μητρώου Εκτέλεσης Τρέχοντος Χρήστη</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>Κλειδί Μητρώου Πρώτης Εκτέλεσης Όλων των Χρηστών</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>Κλειδί Μητρώου Πρώτης Εκτέλεσης Τρέχοντος Χρήστη</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>Μενού Έναρξης Αυτόματης Εκτέλεσης Όλων των Χρηστών</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>Μενού Έναρξης Αυτόματης Εκτέλεσης Τρέχοντος Χρήστη</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>Πρόσθεση νέου προγράμματος έναρξης</DlgAddNewStartupProgramCaption>
+        <labelStartupType>Τύπος έναρξης:</labelStartupType>
+        <labelPathToExecutableFile>Διαδρομή αρχείου εκτέλεσης:</labelPathToExecutableFile>
+        <labelArguments>Ορίσματα (προαιρετικά):</labelArguments>
+        <filterExecutableFiles>Αρχεία Εκτέλεσης</filterExecutableFiles>
+        <filterAllFiles>Όλα τα Αρχεία</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>Προτιμήσεις</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>Γενικά</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>Έλεγχος ενημερώσεων στην έναρξη του προγράμματος</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Έλεγχος για δοκιμαστικές εκδόσεις</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>Γλώσσα Διεπαφής:</staticInterfaceLanguage>
+        <checkControlPanelIcon>Εμφάνιση εικονιδίου Uninstall Tool στον Πίνακα Ελέγχου</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>Μετάβαση σε κατάλογο προγράμματος με χρήση του Συνολικού Διαχειριστή</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>Διεπαφή</categoryInterface>
+        <checkToolBarCaptions>Εμφάνιση κουμπιών στην γραμμή εργαλείων</checkToolBarCaptions>
+        <categoryAppList>Λίστα Εφαρμογών</categoryAppList>
+        <checkSmallIcons>Μικρά εικονίδια</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>Χρώματα</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Tree-like software updates (sub-items):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>&amp;Εμφάνιση Ενημερώσεων Λογισμικού</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Initially collapsed</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Initially expanded</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Always expanded</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Parent items can be expanded/collapsed with mouse or using Left/Right keyboard keys. \n\n'Initially collapsed' is recommended option, but users are able to set 'Initially expanded' to display all updates initially. Users who get used to Uninstall Tool versions prior to 3.3 can choose 'Always expanded' option which also disables expand/collapse functionality. \n\nWhen using search filter collapsed items are expanded automatically if one or more sub-items matches the filter.</subitemsHelpText>
+        <staticRecentlyInstalled>Πρόσφατα Εγκατεστημένα Προγράμματα:</staticRecentlyInstalled>
+        <checkDisplayPopup>Εμφάνιση παραθύρου με πρόσφατα εγκατεστημένες εφαρμογές</checkDisplayPopup>
+        <checkHighlighRecent>Σήμανση προσφάτων εγκατεστημένων προγραμμάτων</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>Εμφάνιση προσφάτων προγραμμάτων στη δεύτερη γραμμή εργαλείων</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Βοηθός Απεγκατάστασης</categoryUninstallWizard>
+        <staticWizardDesctiption>Στην απεγκατάσταση εφαρμογών, μετά την εκτέλεση του Βοηθού Απεγκατάστασης ™ μπορεί να εκτελεστεί μια πλήρη σάρωση μητρώου και αρχείων για άκυρες καταχωρήσεις. Μπορείτε να επιλέξετε αυτόματη εκτέλεσή, απενεργοποιώντας τον Βοηθό Απεγκατάστασης ή να ερωτάσθαι κάθε φορά αν θέλετε εκτέλεσή του ή όχι.</staticWizardDesctiption>
+        <staticWizardUsage>Χρήση Βοηθού Απεγκατάστασης:</staticWizardUsage>
+        <comboItemWizardOption1>Ερώτηση πριν την εκτέλεση</comboItemWizardOption1>
+        <comboItemWizardOption2>Αυτόματα</comboItemWizardOption2>
+        <comboItemWizardOption3>Απενεργοποίηση</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Βοηθός Απεγκατάστασης</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>Αφαίρεση όλων των κατάλοιπων του %s - Βοηθός Απεγκατάστασης ™</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>Σάρωση για εναπομείναντα αρχεία, φακέλους και στοιχεία μητρώου...</statusScanning>
+        <statusScanningTraced>Δημιουργία λίστας κατάλοιπων, παρακαλώ αναμείνατε...</statusScanningTraced>
+        <statusForceRemoval>Υποχρεωτική αφαίρεση '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>Βρέθηκαν μερικά κατάλοιπα!</statusLeftOverTracesFound>
+        <statusNothingFound>Δεν βρέθηκαν κατάλοιπα.</statusNothingFound>
+        <statusAllTracesRemoved>Όλα τα Κατάλοιπα Αφαιρέθηκαν</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>Διαγραφή κατάλοιπων προγράμματος...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Το Εργαλείο Απεγκατάστασης εντόπισε ότι απέμειναν κατάλοιπα του προγράμματος στον Η/Υ σας. Παρακαλώ δείτε τα προσεκτικά και όταν επιλέξετε τα στοιχεία προς αφαίρεση, πατήστε 'Τέλος'.</staticScanStatusFound>
+        <staticScanStatusRemoved>Το %s αφαιρέθηκε επιτυχώς.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>Όλα τα επιλεγμένα κατάλοιπα αφαιρέθηκαν επιτυχώς.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>Δημιουργία λίστας κατάλοιπων...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>Σύστημα Αρχείων (%d στοιχεία)</treeItemFileSystem>
+        <treeItemRegistry>Μητρώο (%d στοιχεία)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>Εύρεση...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d αρχεία (%s) και %d στοιχεία μητρώου απέμειναν στον Η/Υ σας</staticOverallInfo>
+        <btnFinish>Τέλος</btnFinish>
+        <btnCancel>Ακύρωση</btnCancel>
+        <btnClose>Κλείσιμο</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>Μερικά αρχεία δεν διαγράφηκαν</Title>
+        <Instruction1>Τα παρακάτω αρχεία δεν διαγράφηκαν διότι χρησιμοποιούνται από το σύστημα:</Instruction1>
+        <Instruction2>Αυτά τα αρχεία θα αφαιρεθούν αυτόματα μετά την επανεκκίνηση.</Instruction2>
+        <btnReboot>Επανεκκίνηση τώρα</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>Υποχρεωτικός τερματισμός ενεργών διαδικασιών;</Title>
+        <Instruction1>Οι ακόλουθες διαδικασίες ανιχνεύθηκαν:</Instruction1>
+        <Instruction2>Προτείνεται να τις τερματίσετε χειροκίνητα πριν την αφαίρεση, ωστόσο ο Βοηθός Απεγκατάστασης μπορεί να τις τερματίσει.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>Ανιχνευτής Εγκαταστάσεων</InstallTrackerLocalizedName>
+        <Title>Εγκατάσταση-Ανίχνευση Προγράμματος</Title>
+        <TitleAppend>Install and Trace, append traced data to '%s'</TitleAppend>
+        <staticPathToProgram>Διαδρομή αρχείου εγκατάστασης (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>Διαδικασία Εγκατάστασης:</staticInstallProgress>
+        <checkMinimize>Ελαχιστοποίηση Uninstall Tool στην μπάρα εργασιών κατά την εγκατάσταση</checkMinimize>
+        <btnInstall>Εγκατ/ση με Ανίχνευση</btnInstall>
+        <btnStop>Παύση</btnStop>
+        <btnSave>Αποθήκευση</btnSave>
+        <btnSaveLog>Αποθήκευση Καταγραφής...</btnSaveLog>
+        <btnNoAndRevert>Αριθ. + Επαναφορά</btnNoAndRevert>
+        <staticRevertInfo>Η επιλογή Επαναφοράς προσπαθεί να διαγράψει όλα τα αρχεία/στοιχεία μητρώου που δημιουργήθηκαν στην εγκατάσταση με ανίχνευση</staticRevertInfo>
+        <installTip1>Συνεχίστε με την εγκατάσταση κανονικά, ενώ το Uninstall Tool θα ανιχνεύει. Η Ανίχνευση θα σταματήσει αυτόματα όταν τελειώσουν όλες οι διαδικασίες ή θα πρέπει να τη σταματήσετε χειροκίνητα όταν ολοκληρωθεί η εγκατάσταση</installTip1>
+        <installTip2>Σιγουρευτείτε ότι δεν εκτελείται άλλη διαδικασία εγκατάστασης</installTip2>
+        <installTip3>Αν υπάρχει εγκατεστημένη προηγούμενη έκδοση του προγράμματος, πρέπει πρώτα να την αφαιρέσετε για να εγκαταστήσετε την καινούρια</installTip3>
+        <trayIconTitle>Εγκατάσταση '%s'...</trayIconTitle>
+        <trayIconTooltip>Εμφάνιση μενού δεξί-κλικ για παύση ή εμφάνιση καταγραφής ανίχνευσης</trayIconTooltip>
+        <trayIconText>Συνεχίστε με την εγκατάσταση κανονικά, ενώ το Uninstall Tool θα ανιχνεύει. Η Ανίχνευση θα σταματήσει αυτόματα όταν τελειώσουν όλες οι διαδικασίες ή θα πρέπει να τη σταματήσετε χειροκίνητα (μενού δεξί-κλικ ) όταν ολοκληρωθεί η εγκατάσταση</trayIconText>
+        <trayIconMenuProgress>Διαδικασία Εγκατάστασης</trayIconMenuProgress>
+        <trayIconMenuStop>Παύση</trayIconMenuStop>
+        <readMore>Διαβάστε Περισσότερα</readMore>
+        <installationFiles>Αρχεία Εγκατάστασης</installationFiles>
+        <textFiles>Αρχεία Κειμένου</textFiles>
+        <selectInstallFile>Επιλογή ενός αρχείου εγκατάστασης</selectInstallFile>
+        <contextMenuCopy>Αντιγραφή</contextMenuCopy>
+        <logEventCreateFile>Δημιουργία Αρχείου</logEventCreateFile>
+        <logEventCreateFolder>Δημιουργία Φακέλου</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>Δημιουργία Κλειδιού</logEventCreateKey>
+        <logEventDeleteKey>Διαγραφή Κλειδιού</logEventDeleteKey>
+        <logEventSetValue>Ορισμός Τιμής</logEventSetValue>
+        <logEventProcessCreated>Η Διαδικασία Δημιουργήθηκε</logEventProcessCreated>
+        <logEventProcessKilled>Η Διαδικασία Τερματίστηκε</logEventProcessKilled>
+        <logEventDeleteOperation>Διαγραφή</logEventDeleteOperation>
+        <logStartingService>Έναρξη υπηρεσίας Ανίχνευσης Εγκαταστάσεων...</logStartingService>
+        <logStartingServiceError1>Λάθος: Η υπηρεσία CisUtMonitor εξακολουθεί να σταματά</logStartingServiceError1>
+        <logStartingServiceError2>Λάθος: Έναρξη CisUtMonitor εκτός χρονικού ορίου</logStartingServiceError2>
+        <logStartingServiceError3>Λάθος: Αδύνατη έναρξη της υπηρεσίας CisUtMonitor (λάθος %u)</logStartingServiceError3>
+        <logStartingServiceError4>Λάθος: Αδύνατη έναρξη της υπηρεσίας CisUtMonitor. Παρακαλώ επανεγκαταστήστε το πρόγραμμα.</logStartingServiceError4>
+        <logServiceStopped>Η υπηρεσία ανίχνευσης σταμάτησε</logServiceStopped>
+        <logServiceStopError>Λάθος: Αποτυχία τερματισμού υπηρεσίας ανίχνευσης</logServiceStopError>
+        <logServiceVersion>Έκδοση Υπηρεσίας: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>Έκδοση Εποπτείας: 0x%x, έπρεπε να είναι 0x%x. Παρακαλώ επανεγκαταστήστε το πρόγραμμα.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Προσοχή: Σταμάτημα ενεργής εποπτείας...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>Η εποπτεία εγκατάστασης ξεκίνησε</logServiceMonitorStarted>
+        <logTrackingStarting>Έναρξη %s...</logTrackingStarting>
+        <logTrackingStartingEror>Λάθος: Αδύνατη έναρξη διαδικασίας εγκατάστασης (λάθος %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>Λάθος: Αδύνατη εκτέλεση εποπτείας. Παρακαλώ επανεγκαταστήστε το πρόγραμμα.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>Η ανίχνευση σταμάτησε από το χρήστη</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>Όλες οι διαδικασίες εγκατάστασης τελείωσαν</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>Η εγκατάσταση ολοκληρώθηκε</logTrackingCompleted>
+        <logTracingAnalyzing>Ανάλυση εγκατάστασης, παρακαλώ περιμένετε...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>%u καταχωρήσεις εγκατάστασης ανιχνεύθηκαν</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u new installation entries detected:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Done</logTrackingDone>
+        <logReverting>Επαναφορά αλλαγών...</logReverting>
+        <logCompleted>Ολοκληρώθηκε</logCompleted>
+        <logMSIServiceWarning>Προσοχή: Η υπηρεσία MSI απενεργοποιήθηκε</logMSIServiceWarning>
+        <logMSIServiceError1>Λάθος: Αποτυχία έναρξης υπηρεσίας MSI</logMSIServiceError1>
+        <logMSIServiceError2>Λάθος: Αδύνατη έναρξη υπηρεσίας MSI</logMSIServiceError2>
+        <logMSIServiceError3>Λάθος: Αδύνατη εξέταση κατάστασης υπηρεσίας MSI</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>Καμία νέα καταχώρηση εγκατάστασης κατά την ανίχνευση. Αυτό σημαίνει ότι το πρόγραμμα δεν εγκαταστάθηκε σωστά, όμως αν είστε βέβαιοι ότι εγκαταστάθηκε σωστά μπορείτε να δημιουργήσετε ένα νέο προσαρμοσμένο πρόγραμμα στη λίστα. Τα τωρινά στοιχεία που ανιχνεύθηκαν θα ανήκουν σε αυτό.</Title>
+        <staticName>Όνομα:</staticName>
+        <checkCreateCustomEntry>Θα ήθελα δημιουργία προσαρμοσμένου στοιχείου στη λίστα</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>Ανιχνεύθηκαν πολλαπλές καταχωρήσεις εγκατάστασης</Caption>
+        <Title>Ανιχνεύθηκαν πολλαπλές καταχωρήσεις εγκατάστασης στο Μητρώο μετά την εγκατάσταση. Παρακαλώ επιλέξτε το κύριο στοιχείο που φαίνεται με το ειδικό εικονίδιο στή στήλη 'Ανιχνευθέντα' της λίστας. Όταν αφαιρείται ανιχνευθέντα στοιχεία του κύριου στοιχείου, το Uninstall Tool αφαιρεί επίσης όλα τα ανιχνευθέντα δεδομένα.</Title>
+        <btnSelect>Επιλογή</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s δεδομένα ανίχνευσης</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>Απεγκατάσταση '%s'</Title>
+        <Instruction>Κατάργηση επίσης εξαρτημένων στοιχείων;</Instruction>
+        <Footer>Εγκαταστήσατε '%s' με τον Ανιχνευτή Εγκαταστάσεων ενεργό μαζί με τα ανωτέρω στοιχεία. Αυτό σημαίνει ότι, με τον Βοηθό Απεγκατάστασης θα αφαιρεθούν και όλα τα εξαρτημένα στοιχεία . Όταν επιλέγετε αφαίρεση μόνο του τρέχοντος στοιχείου, τα δεδομένω ανίχνευσης αγνονούνται και ο Βοηθός Απεγκατάστασης εκτελεί σάρωση για κατάλοιπα του προγράμματος.</Footer>
+        <btnOnlyCurrent>Μόνο %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>Ο ενσωματωμένος απεγκαταστάτης ολοκλήρωσε την εργασία του. Θέλετε να εκτελέσετε πλήρη σάρωση του συστήματος μητρώου και αρχείων για άκυρες καταχωρήσεις μητρώου και αρχείων;</staticConfirm>
+        <learnMoreAboutWizard>Μάθετε περισσότερα για τον Βοηθό Απεγκατάστασης</learnMoreAboutWizard>
+        <btnYes>Ναι</btnYes>
+        <btnNo>Όχι</btnNo>
+        <checkDontAskAgain>Απομνημόνευση της επιλογής μου (μπορεί να αλλάξει από τις Προτιμήσεις)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Σχετικά με το Εργαλείο Απεγκατάστασης</DlgAboutCaption>
+        <staticWebSite>Ιστοσελίδα</staticWebSite>
+        <staticSupport>Υποστήριξη</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>Αυτό το προϊόν δηλώθηκε σε:</staticRegisteredTo>
+        <staticChangeKey>Change License Key</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>Υπενθύμιση Δοκιμής</UnregDlgReminder>
+        <UnregDlgExpired>Η Δοκιμή Έληξε</UnregDlgExpired>
+        <staticExpired>Η δοκιμαστική έκδοση έληξε. Μπορείτε να δοκιμάσετε την πλήρη λειτουργία για 30 μέρες.\n\nΑν σας αρέσει το πρόγραμμα και θέλετε να συνεχίσετε τη χρήση του, πατήστε 'Αγορά'.</staticExpired>
+        <staticTrial>Η δωρεάν έκδοση αξιολόγησης του Uninstall Tool έχει διάρκεια 30 μέρες. Μετά πρέπει να αγοράσετε το πρόγραμμα ή να το αφαιρέσετε από τον Η/Υ σας.</staticTrial>
+        <btnWebSite>Ιστοσελίδα</btnWebSite>
+        <staticDaysLeft>απέμειναν %d μέρες αξιολόγησης</staticDaysLeft>
+        <btnBuyNow>Αγορά Τώρα</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Εισαγωγή Κλειδιού Δήλωσης</EnterKeyDlgCaption>
+        <Title>Παρακαλώ εισάγετε το όνομα και τον κωδικό από το μήνυμα δήλωσης:</Title>
+        <staticName>Όνομα Δήλωσης:</staticName>
+        <staticKey>Κλειδί Δήλωσης:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>Αποτυχία απεγκατάστασης. \nΘέλετε καθαρισμό αρχείων και καταχώρησης του προγράμματος από το μητρώο;</msgUninstallFailed>
+        <msgForceRemovalTitle>Υποχρεωτική Αφαίρεση '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Μαζική Υποχρεωτική Αφαίρεση</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>Σίγουρα θέλετε υποχρεωτική αφαίρεση αυτού του προγράμματος;</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Σίγουρα θέλετε υποχρεωτική αφαίρεση των ακόλουθων προγραμμάτων;</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>Στην υποχρεωτική αφαίρεση καταχωρήσεων δεν εκτελείται ο απεγκαταστάτης. Θα σβήσουν μόνο τα αρχεία μητρώου και συστήματος που ανήκουν σε αυτό το πρόγραμμα. Χρησιμοποιήστε αυτή τη λειτουργία μόνο σε παλιές ή άκυρες καταχωρήσεις.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>Η υποχρεωτική αφαίρεση ενός επισημασμένου προγράμματος θα εκτελεστεί άμεσα με πλήρη αφαίρεση χωρίς τον απεγκαταστάτη. Σβήνει όλα τα αρχεία/στοιχεία συστήματος - μητρώου που ανιχνεύθηκαν στην εγκατάσταση.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Η Μαζική Υποχρεωτική Αφαίρεση είναι προηγμένη δυνατότητα που πρέπει να εκτελείται με προσοχή. Δεν τρέχει τους σχετικούς απεγκαταστάτες και ανιχνεύει μόνο για κατάλοιπα αρχείων/στοιχείων και τα εμφανίζει σε κοινή λίστα προς επιλογή για αφαίρεση. Η πιό λεπτομερής και ακριβής αφαίρεση γίνεται στα προγράμματα που εγκαταστάθηκαν με ανίχνευση.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>εξαρτημένο</msgForceRemovalItemDependent>
+        <msgLearnMore>Μάθετε περισσότερα</msgLearnMore>
+        <msgForceRemovalCheck>Εντάξει, καταλαβαίνω την ευθύνη</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>Σίγουρα θέλετε αφαίρεση του Εργαλείου Απεγκατάστασης από τον Η/Υ;</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>&gt;Σίγουρα θέλετε αφαίρεση αυτής της καταχώρησης;</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Σίγουρα θέλετε αφαίρεση αυτών των καταχωρήσεων?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>Η λειτουργία αφαιρεί μόνο αυτό το στοιχείο από τη λίστα. Δεν διαγράφει τα κατάλοιπα αρχεία ή καταχωρήσεις μητρώου. Χρησιμοποιήστε αυτή τη λειτουργία μόνο σε παλιές ή άκυρες καταχωρήσεις.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>Αποτυχία διαγραφής καταχώρησης μητρώου στοιχείου. \nΊσως δεν έχετε δικαιώματα πρόσβασης.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>Σίγουρα θέλετε υποχρεωτική ακύρωση απεγκατάστασης του προγράμματος ;</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>Η υποχρεωτική ακύρωση πρέπει να γίνεται μόνο αν το προεπιλεγμένο πρόγραμμα απεγκατάστασης παγώσει ή πρέπει άμεσα να παύσει όλες τις διεργασίες απεγκατάστασης.Η σωστή ακύρωση πρέπει να γίνεται στον προεπιλεγμένο απεγκαταστάτη, καθώς μπορεί να έχει απρόβλεπτες επιπτώσεις.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>Το στοιχείο ανίχνευσης '%s' εμφανίζεται τώρα στη λίστα προγραμμάτων με ειδικό εικονίδιο στη στήλη 'Ανιχνευθέντα'.</msgTracedItem>
+        <msgTracedItemAppended>Traced data is now added to the previously traced item '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Please note that new installation items will be treated as dependent entries and can be removed later together with '%s' (upon confirmation).</msgTracedItemAppendedNote>
+        <msgUndoTracing>Σίγουρα θέλετε το Uninstall Tool να αγνοήσει όλα τα ανιχνευθέντα δεδομένα του προγράμματος;</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>Αδύνατη έναρξη της υπηρεσίας CisUtMonitor. Παρακαλώ επανεγκαταστήστε το πρόγραμμα</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Η υπηρεσία ανίχνευσης Uninstall Tool ('CisUtMonitor') δεν εγκαταστάθηκε στο σύστημα. \n\nΘέλετε εγκατάστασή της τώρα;</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Η υπηρεσία ανίχνευσης Uninstall Tool ('CisUtMonitor') δεν εγκαταστάθηκε στο σύστημα.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>Η υπηρεσία εγκαταστάθηκε επιτυχώς. \n\nΜπορείτε να την καταργήσετε αργότερα με χρήση του αρχείου 'RemoveService.cmd'.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>Χρονικό όριο εγκατάστασης υπηρεσίας: κωδικός λάθους %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>Αποτυχία εγκατάστασης υπηρεσίας - άγνωστος λόγος, παρακαλούμε επικοινωνήστε για υποστήριξη.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Η υπηρεσία ανίχνευσης Uninstall Tool ('CisUtMonitor') απεγκαταστάθηκε από τον Η/Υ σας.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>Η έκδοση της 'CisUtMonitor' εγκατεστημένης υπηρεσίας (%u) είναι παλαιότερη της τρέχουσας (%u). \n\nΘέλετε αναβάθμιση;</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>Η τελευταία έκδοση υπηρεσίας εγκαταστάθηκε επιτυχώς. Πρέπει να επανεκκινήσετε τον Η/Υ σας για χρήση του Ανιχνευτή Εγκαταστάσεων.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>Δεν υπάρχει κάτι για αποθήκευση, καθώς το πρόγραμμα ανίχνευσης δεν εγκαταστάθηκε (κανένα αρχείο / στοιχείο μητρώου)</msgNothingToSave>
+        <msgCancelTracing>Θέλετε ακύρωση της τρέχουσας εγκατάστασης ανίχνευσης;</msgCancelTracing>
+        <msgStopTracing>Η εγκατάσταση ανίχνευσης θα σταματήσει τώρα. Να αποθηκευτούν τα τωρινά αποτελέσματα ανίχνευσης;</msgStopTracing>
+        <msgEntryAlreadyExists>Το πρόγραμμα '%s' ήδη υπάρχει στη λίστα, παρακαλώ επιλέξτε άλλο όνομα.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>Αυτό θα σβήσει πλήρως την καταχώρηση από το μητρώο συστήματος (μενού έναρξης). \n\nΣίγουρα θέλετε να το κάνετε αυτό;</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>Σφάλμα πρόσθεσης νέου στοιχείου έναρξης, ελέγξτε αν έχετε δικαιώματα διαχειριστή ή επισκεφθείτε την υποστήριξη του προγράμματος.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>Αδύνατη τροποποίηση ιδιοτήτων καταχώρησης. Ίσως δεν έχετε δικαιώματα.\n\nΠαρακαλώ επικοινωνήστε με τον διαχειριστή για βοήθεια.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>Σίγουρα θέλετε αφαίρεση αυτών των στοιχείων;</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>Όλα τα στοιχεία του μητρώου συστήματος (μενού έναρξης) θα αφαιρεθούν και δεν θα εκτελεστούν ξανά κατά την έναρξη των Windows.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>Για ολοκλήρωση της δήλωσης επανεκκινήστε το πρόγραμμα. \n\nΘέλετε να το κάνετε τώρα;</msgRegRestartRequired>
+        <msgNewVersionAvailable>Η νέα έκδοση %s είναι διαθέσιμη.</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>Τρέχουσα έκδοση: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>Τι Νέο υπάρχει:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Διεύθυνση λήψης Φορητής Έκδοσης</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>Χρησιμοποιείται την τελευταία έκδοση.</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>Αδύνατη σύνδεση με την ιστοσελίδα crystalidea.com, παρακαλώ ελέγξτε την σύνδεσή σας</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>Προτείνεται να μην τρέξετε την 32-bit έκδοση του Uninstall Tool σε Windows 64-bit καθώς εμφανίζει μόνο τις 32-bit εφαρμογές και έχει περιορισμένες δυνατότητες. Συστήνεται να λάβετε και να επανεγκαταστήσετε το Uninstall Tool στον Η/Υ (θα επιλέξει αυτόματα την 64-bit έκδοση κατά την εγκατάσταση σε Windows 64-bit).</msgRunningInWow64>
+        <msgRunningInWow64Title>Τρέξιμο σε περιβάλλον WoW64</msgRunningInWow64Title>
+        <msgCannotStartHelper>Αδύνατη έναρξη 'UninstallToolHelper.exe' διαδικασίας. \n\nΠαρακαλώ επανεγκαταστήστε το πρόγραμμα.</msgCannotStartHelper>
+        <msgUninstallingMyself>Do you want to remove Uninstall Tool preferences and all data about traced installations?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Unable to create file:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>ΜΗ ΔΗΛΩΜΕΝΗ ΕΚΔΟΣΗ</txtUnregisteredBig>
+        <msgNotAvailableInTrial>Αυτή η δυνατότητα διατίθεται μόνο σε δηλωμένη έκδοση του προγράμματος.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>Μπορείτε να αποθηκεύσετε τα δεδομένα που απέμειναν και να τα διαγράψετε αργότερα με χρήση της Υποχρεωτικής Αφαίρεσης ('%s').</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>Αποθήκευση δεδομένων και διαγραφή αργότερα</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML Αρχεία</htmlFiles>
+        <allFiles>Όλα τα Αρχεία</allFiles>
+        <generatedByOn>Δημιουργήθηκε από %s σε %s</generatedByOn>
+        <installedPrograms>Εγκατεστημένα Προγράμματα (%s)</installedPrograms>
+        <startupPrograms>Προγράμματα Έναρξης</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>ΕΝΤΑΞΕΙ</btnOK>
+        <btnCancel>Ακύρωση</btnCancel>
+        <btnHelp>Βοήθεια</btnHelp>
+        <btnYes>Ναι</btnYes>
+        <btnNo>Όχι</btnNo>
+        <btnClose>Κλείσιμο</btnClose>
+        <statusTotalInfo>%d προγράμματα %s μεγέθους συνολικά</statusTotalInfo>
+        <statusUnknown>άγνωστο</statusUnknown>
+        <statusRecentItems>πρόσφατα εγκατεστημένα</statusRecentItems>
+        <statusRecentItemsTip>Εμφάνιση πρόσφατα εγκατεστημένων/τροποποιημένων προγραμμάτων</statusRecentItemsTip>
+        <statusStartupTotalInfo>%d προγράμματα συνολικά, %d εκτελούνται τώρα</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>Υπολογισμός μεγέθους απασχολημένου... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>Νέα έκδοση διαθέσιμη:</statusNewVersionAvailable>
+        <popupNewProgramsFound>%d νέα προγράμματα βρέθηκαν!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Ενημερώσεις των Windows</WindowsUpdatesText>
+        <UninstallToolDescription>Πλήρης Απεγκατάσταση Προγραμμάτων, Διαχείριση Προγραμμάτων Έναρξης</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>Εγκατάσταση με παρακολούθηση του Ανιχνευτή...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>Εγκατάσταση και ανίχνευση όλων των αλλαγών που κάνει ένα πρόγραμμα στον Η/Υ σας</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Unhandled Exception</msgTitleTemplate>
+        <msgTemplate>We're sorry but an unhandled exception has occurred and \n%app_name% has become unstable. \nPlease send us an e-mail to '%email%'\nattaching the following crash dump file:\n\n%dump_file%\n\nAfter pressing 'Send Report' button, a default mailer program \nwill be opened with composed message.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file %dump_file%)\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <btnSend>Send Report (Recommended)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>Άλλες Εργασίες:</other_tasks>
+        <install_service>Εγκατάσταση υπηρεσίας ανίχνευσης ('Και δυνατοτήτων Ανίχνευσης')</install_service>
+        <control_panel_icon_text>Πρόσθεση Uninstall Tool σε Πίνακα Ελέγχου</control_panel_icon_text>
+        <installing_driver>Εγκατάσταση οδηγών πυρήνα...</installing_driver>
+        <ut_initializing>Αρχικοποίηση Uninstall Tool...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

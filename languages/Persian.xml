@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.5" LangID="1065" Author="Hessam Mohamadi" RightToLeft="1">
+    <MainMenu>
+        <mnuFile>فا&amp;یل</mnuFile>
+        <mnuFileExport>خروجی به اِچ تی اِم اِل...</mnuFileExport>
+        <mnuFileExit>خرو&amp;ج</mnuFileExit>
+        <mnuAction>اقدا&amp;م</mnuAction>
+        <mnuActionUninstall>حذف برنامه&amp;...</mnuActionUninstall>
+        <mnuActionModify>ویرای&amp;ش...</mnuActionModify>
+        <mnuActionDelete>حذف اجباری&amp;</mnuActionDelete>
+        <mnuActionDeleteBatch>حذف اجباری گروهی</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>حذف &amp;ورودی</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>حذف گروهی ورودی ها</mnuActionRemoveEntryBatch>
+        <mnuTracedData>داده ضبط شده</mnuTracedData>
+        <mnuTracedDataAsXML>مشاهده بعنوان ایکس اِم اِل...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>آندوی ضبط شده</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>افزودن داده ضبط شده (نصب و ضبط)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;ورودی رجیستری</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>پوشه &amp;نصب</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>وب&amp;سایت برنامه</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>بازکردن در ویندوز استور</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>جستجوی مکان...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>جستجوی منبع...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>جستجو در گوگل</mnuActionGoogleFor>
+        <mnuView>&amp;مشاهده</mnuView>
+        <mnuViewMainToolbar>نوارابزار اصلی</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>نمایش نوارابزار اصلی</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>نمایش برچسب دکمه زیر آیکون</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>نوارابزار ثانویه</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;تازه کردن</mnuViewRefresh>
+        <mnuViewListColumnsReset>ریست ستون ها</mnuViewListColumnsReset>
+        <mnuViewLanguage>رابط زبان</mnuViewLanguage>
+        <mnuTools>ابزار&amp;ها</mnuTools>
+        <mnuToolsSystemTools>ابزار سیستم</mnuToolsSystemTools>
+        <mnuToolsAddRemove>افزودن&amp;/حذف برنامه ها...</mnuToolsAddRemove>
+        <mnuToolsComponents>اجزای ویندوز&amp;...</mnuToolsComponents>
+        <mnuToolsSystemRestore>سیستم ریستور</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>مرکز امنیت</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>مشخصات سیستم</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>اطلاعات سیستم</mnuToolsSystemInfo>
+        <mnuToolsDefrag>یکپارچه ساز دیسک</mnuToolsDefrag>
+        <mnuToolsServices>سرویس ها</mnuToolsServices>
+        <mnuToolsTaskScheduler>زمان بند</mnuToolsTaskScheduler>
+        <mnuToolsOptions>مزیت &amp;ها...</mnuToolsOptions>
+        <mnuHelp>راهنما&amp;</mnuHelp>
+        <mnuHelpOnline>&amp;محتویات...</mnuHelpOnline>
+        <mnuHelpHomePage>&amp;صفحه خانگی</mnuHelpHomePage>
+        <mnuHelpSupport>پشتیبانی&amp;</mnuHelpSupport>
+        <mnuHelpBuyNow>خر&amp;ید...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>کلید را وارد ک&amp;نید...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>بررسی &amp;برای بروزرسانی...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>دربار&amp;ه...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>نام برنامه</columnProgramName>
+        <columnSize>حجم</columnSize>
+        <columnInstallationDate>نصب شده در</columnInstallationDate>
+        <columnTraced>ضبط شده</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;ریست&lt;/a&gt; فیلتر جستجو با (Esc key) یا سعی کنید سایر دسته بندی ها را مرورکنید</staticNoItemsMatchingFilterTip>
+        <staticLoading>بارگیری،منتظر بمانید..</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>وضعیت</columnStatus>
+        <columnSource>منبع</columnSource>
+        <columnCompany>شرکت</columnCompany>
+        <sourceHKLMRun>HKLM Run</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM RunOnce</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU Run</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
+        <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
+        <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>برنامه ای در دسته '%s' نیست</staticNoProgramsInCategory>
+        <staticNoStartupItems>برنامه ای که با شروع ویندوز آغاز شود وجود ندارد</staticNoStartupItems>
+        <staticNoStartupItemsTip>شما میتوانید دستی &lt;a&gt;یک برنامه جدید اضافه کنید&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32 بیت)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>حذف کننده</btnUninstaller>
+        <btnUninstallerToolTip>حذف برنامه های موجود یا نصب و ضبط برنامه جدید</btnUninstallerToolTip>
+        <btnStartup>اِستارت آپ</btnStartup>
+        <btnStartupToolTip>برنامه هایی که خودکار در استارت آپ اجرا میشوند</btnStartupToolTip>
+        <btnRefresh>تازه کردن</btnRefresh>
+        <btnRefreshToolTip>تازه کردن لیست برنامه ها</btnRefreshToolTip>
+        <btnPrefs>مزیت ها</btnPrefs>
+        <btnPrefsToolTip>گزینه های برنامه</btnPrefsToolTip>
+        <btnHelp>راهنما</btnHelp>
+        <btnHelpToolTip>نمایش راهنمای برنامه</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>برنامه</btnApps>
+        <btnAppsToolTip>برنامه ها</btnAppsToolTip>
+        <btnSystem>سیستم</btnSystem>
+        <btnSystemToolTip>اجزای سیستم و بروزرسانی ها</btnSystemToolTip>
+        <btnHidden>پنهان</btnHidden>
+        <btnHiddenToolTip>اجزای پنهان</btnHiddenToolTip>
+        <btnStoreApps>برنامه ویندوز استور</btnStoreApps>
+        <btnStoreAppsToolTip>برنامه های نصب شده از ویندوز استور</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>اخیرا نصب شده (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>اخیرا نصب شده/موارد بروزرسانی شده</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>نصب و ضبط</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>نصب یک برنامه جدید و مشاهده همه تغییراتی که در فایل سیستمی و ریجیستری رخ میدهد</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>حذف</itemUninstallIt>
+        <itemModifyIt>ویرایش</itemModifyIt>
+        <itemDelete>حذف اجباری همه ردها</itemDelete>
+        <itemBatchDelete>حذف اجباری گروهی همه ردها</itemBatchDelete>
+        <itemBatchRemoveEntry>حذف گروهی ورودی ها از لیست</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>شما %u مورد انتخاب کرده اید اما حداکثر تعداد مورد در عملکرد گروهی به %u محدود شده است</itemBatchLimitationWarning>
+        <itemCancelWaiting>لغو</itemCancelWaiting>
+        <itemSearch>جستجو</itemSearch>
+        <itemShortSearchTip>برای یافتن برنامه تایپ کنید</itemShortSearchTip>
+        <itemVersion>نسخه</itemVersion>
+        <itemInstalledOn>نصب/بروز شده در:</itemInstalledOn>
+        <itemPublisher>سازنده:</itemPublisher>
+        <itemRegistryEntry>مشاهده ورودی ریجیستری</itemRegistryEntry>
+        <itemUninstallInProgress>حذف در پیشرفت هست</itemUninstallInProgress>
+        <itemUninstallInProgressTip>درحال حذف %s، تا زمان پایان حذف منتظر بمانید..</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>حذف گروهی در پیشرفت است،لطفا تا زمان حذف همه برنامه های منتظر بمانید..</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>ویرایش در پیشرفت هست</itemModifyInProgress>
+        <itemModifyInProgressTip>درحال ویرایش %s، لطفا تا زمان ویرایش فرآیند منتظر بمانید..</itemModifyInProgressTip>
+        <itemNothingFound>یافت نشد!</itemNothingFound>
+        <itemNoItemsMatchingFilter>هیچ برنامه ای مطابق با '%s' در دسته %s وجود ندارد</itemNoItemsMatchingFilter>
+        <itemGroup>این یک گروه از برنامه ها است</itemGroup>
+        <itemNoUninstall>این برنامه به حالت عادی نمیتواند حذف شود،شما میتواند از حذف اجباری استفاده کنید</itemNoUninstall>
+        <itemTracedOnly>ورودی دستی با گروهی از ردها تعریف میشود.فقط میتوان با ویژگی حذف اجباری حذف کرد</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>غیرفعالسازی اجرای خودکار</itemDisableRunning>
+        <itemEnableRunning>فعالسازی اجرای خودکار</itemEnableRunning>
+        <itemDeleteStartupItem>حذف از لیست</itemDeleteStartupItem>
+        <itemDisableSelected>غیرفعالسازی مورد انتخاب شده</itemDisableSelected>
+        <itemEnableSelected>فعالسازی انتخاب شده</itemEnableSelected>
+        <itemDeleteSelected>حذف مورد انتخاب شده از لیست</itemDeleteSelected>
+        <itemMultiplSelected>%u مورد انتخاب شده</itemMultiplSelected>
+        <itemAddNewStartupItem>افزودن برنامه جدید..</itemAddNewStartupItem>
+        <itemStatusCaption>وضعیت:</itemStatusCaption>
+        <itemStatusRunning>در حال اجرا</itemStatusRunning>
+        <itemStatusNotRunning>در اجرا نیست</itemStatusNotRunning>
+        <itemStatusDisabled>غیرفعال شده</itemStatusDisabled>
+        <itemStatusInvalid>نامعتبر</itemStatusInvalid>
+        <itemCommandLineCaption>فرمان خطی:</itemCommandLineCaption>
+        <itemSourceCaption>منبع:</itemSourceCaption>
+        <itemSourceRun_HKLM>All Users Registry Run Key</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Current User Registry Run Key</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>All Users Registry Run Once Key</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>Current User Registry Run Once Key</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>All Users Autorun Start Menu</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>Current User Autorun Start Menu</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>وظیفه زمان بند شده ویندوز در لاگین</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>افزودن برنامه جدید در استارت آپ</DlgAddNewStartupProgramCaption>
+        <labelStartupType>نوع استارت آپ:</labelStartupType>
+        <labelPathToExecutableFile>مسیر به فایل قابل اجرا:</labelPathToExecutableFile>
+        <labelArguments>نشانوند (اختیاری):</labelArguments>
+        <filterExecutableFiles>فایل های اجرایی</filterExecutableFiles>
+        <filterAllFiles>همه فایل ها</filterAllFiles>
+        <checkHighestPriviledges>اِجرای وظیفه با بالاترین سطح دسترسی</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>مزیت ها</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>عمومی</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>بررسی بروزرسانی در شروع برنامه</checkCheckForUpdates>
+        <checkCheckForBetaVersions>همچنین بررسی نسخه بتا</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>رابط زبان:</staticInterfaceLanguage>
+        <checkControlPanelIcon>نمایش آیکون برنامه در کنترل پنل</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>هدایت به دایرکتوری برنامه توسط توتال کامندر،اگر نصب شده</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>رابط</categoryInterface>
+        <checkToolBarCaptions>نمایش عناوین دکمه های نوارابزار</checkToolBarCaptions>
+        <categoryAppList>لیست برنامه</categoryAppList>
+        <checkSmallIcons>لیست کوچک با برنامه ها</checkSmallIcons>
+        <checkMark32bitApps>نشانه گذاری برنامه 32 بیت</checkMark32bitApps>
+        <frameColorScheme>رنگ بندی</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>بروزرسانی نرم افزاری حالت درختی (زیر-منو):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>نمایش بروزرسانی نرم افزار</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>درآغاز بسته شده</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>درآغاز باز شده</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>همیشه باز شده</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>موارد مادر میتواند با ماوس یا کلیدهای راست/چپ صفحه کلید،باز و بسته شود \n\nگزینه 'درآغاز بسته شده' توصیه میشود، اما کاربر میتواند نیز گزینه 'در آغاز بازشده' را انتخاب کرده تا همه بروزرسانی ها نشان داده شود. کاربرانی که از نسخه 3.3 برنامه استفاده کرده اند میتوانند گزینه همیشه باز شده را انتخاب کنید که باعث غیرفعال شدن تابع بازشدن/بسته شدن نیز میشود. \n\nهنگام استفاده از فیلتر جستجو اگر یکی از منوها یا زیرمنوها مطابقت داشته باشد آن خودکار باز خواهد شد</subitemsHelpText>
+        <staticRecentlyInstalled>برنامه های اخیرا نصب شده</staticRecentlyInstalled>
+        <checkDisplayPopup>نمایش پنجره پاپ آپ با برنامه های اخیر نصب شده</checkDisplayPopup>
+        <checkHighlighRecent>پررنگ کردن برنامه هایی که اخیرا نصب شده</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>نمایش برنامه های اخیر در نوارابزار ثانویه</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>ویزارد حذف برنامه</categoryUninstallWizard>
+        <staticWizardDesctiption>حین حذف یک برنامه،بعد از اجرای حذفگر توکار برنامه،ویزارد حذف میتواند یک اسکن عمیق از فایل و ریجیستری برای فایل و ریجیستری بلااستفاده انجام دهد.شما میتوانید انتخاب کنید این خودکار اجرا شود،یا ویزارد حذف غیرفعال شود یا از شما همیشه برای اجرای آن بپرسد.ویزارد حذف برای برنامه های ضبط شده همیشه اجرا میشود</staticWizardDesctiption>
+        <staticWizardUsage>اجرای ویزارد حذف بعد از اجرای حذف گر خود نرم افزار:</staticWizardUsage>
+        <comboItemWizardOption1>پرسش قبل از اجرا</comboItemWizardOption1>
+        <comboItemWizardOption2>خودکار</comboItemWizardOption2>
+        <comboItemWizardOption3>غیرفعالسازی</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>ویزارد حذف برنامه</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>حذف همه ردهای %s - ویزارد حذف</UninstallWizardCaption>
+        <captionQuestionUninstall>آیا میخواهید '%s' را حذف کنید؟</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>آیا میخواهید %u برنامه انتخاب شده را حذف کنید؟</captionQuestionUninstallBatch>
+        <captionUninstalling>در حال حذف %s...</captionUninstalling>
+        <statusUninstallInfo>ویزارد حذف برنامه ابتدا برنامه حذف کننده پیش فرض وابسته سازی شده را اِجرا کرده و بعد از آن باقیمانده ها را پاکسازی می کند</statusUninstallInfo>
+        <statusUninstallInfoBatch>ویزارد حذف برنامه ابتدا برنامه حذف کننده پیش فرض وابسته سازی شده برای هر برنامه را اِجرا می کند.سپس آن لیست باقیمانده ها را برای پاکسازی نمایش می دهد</statusUninstallInfoBatch>
+        <statusPerformingUninstall>اِجرای حذف استاندارد توسط حذف کننده توکار،که نیاز به فعال و انفعال کاربر دارد</statusPerformingUninstall>
+        <statusScanning>اسکن برای فایل پوشه و مورد ریجیستری باقیمانده..</statusScanning>
+        <statusScanningTraced>تولید لیست موارد باقیمانده،منتظر بمانید...</statusScanningTraced>
+        <statusForceRemoval>حذف اجباری '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>بعضی از ردهای باقیمانده یافت شد!</statusLeftOverTracesFound>
+        <statusNothingFound>رد باقیمانده یافت نشد.</statusNothingFound>
+        <statusAllTracesRemoved>همه ردها پاک شد</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>حذف ردهای برنامه...</statusDeletingProgramTraces>
+        <staticScanStatusFound>برنامه تشخیص داده ردهای برنامه زیر در رایانه باقیمانده است.لطفا آن را بادقت بازبینی کنید و وقتیکه آماده بودید موارد انتخاب شده حذف شود،روی پایان کلیک کنید.</staticScanStatusFound>
+        <staticScanStatusRemoved>%s با موفقیت حذف شد.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>همه بقایای انتخاب شده با موفقیت حذف شد</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>تولید لیست ردها...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>حذف وقایع</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>ایجاد فایل حذف وقایع با جزئیات و بازکردن آن</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>خروجیگیری به ایکس اِم اِل</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>خروجیگیری نتایج اسکن به ایکس اِم اِل</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>فایل سیستم (%d مورد)</treeItemFileSystem>
+        <treeItemRegistry>ریجیستری (%d مورد)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>جستجو..</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d فایل (%s) و %d مورد ریجیستری در رایانه باقیمانده است</staticOverallInfo>
+        <btnFinish>پایان</btnFinish>
+        <btnCancel>لغو</btnCancel>
+        <btnClose>بستن</btnClose>
+        <btnUninstall>حذف</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>بعضی از فایل ها حذف نشدند</Title>
+        <Instruction1>فایلهای زیر حذف نشدند زیرا آنها درحال استفاده در سیستم هستند:</Instruction1>
+        <Instruction2>این فایل ها خودکار در ریستارت بعدی سیستم حذف خواهد شد.</Instruction2>
+        <btnReboot>حالا ریستارت</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>فرآیندهای در اجرا اجباری بسته شوند؟</Title>
+        <Instruction1>فرآیندهای زیر تشخیص داده شد:</Instruction1>
+        <Instruction2>توصیه میشود قبل از حذف دستی بسته شود،اما ویزارد حذف اجباری میتواند آنها را ببندد.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>ضبطگر نصب</InstallTrackerLocalizedName>
+        <Title>نصب و ضبط یک برنامه</Title>
+        <TitleAppend>نصب و ضبط، داده ضبط شده به '%s' افزوده خواهد شد</TitleAppend>
+        <staticPathToProgram>مسیر به فایل نصب شدنی (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>پیشرفت نصب:</staticInstallProgress>
+        <checkMinimize>کمینه شدن برنامه کنار ساعت در طی نصب</checkMinimize>
+        <btnInstall>نصب و ضبط</btnInstall>
+        <btnStop>توقف</btnStop>
+        <btnSave>ذخیره</btnSave>
+        <btnSaveLog>ذخیره وقایع..</btnSaveLog>
+        <btnNoAndRevert>خیر + بازگرداندن</btnNoAndRevert>
+        <staticRevertInfo>Revert option attempts to delete all file system/registry items created during the installation tracing</staticRevertInfo>
+        <installTip1>ادامه نصب برنامه درحالیکه این ابزار آن را مشاهده میکند.ضبط کردن هنگامیکه همه فرآیندها به پایان رسید خودکار متوقف میشود یا شما باید آن را هنگامی که نصب کامل شد ببندید</installTip1>
+        <installTip2>لطفا مطمئن شوید برنامه نصب دیگری در اجرا نیست</installTip2>
+        <installTip3>اگر یک نسخه از این برنامه از قبل نصب شده،شما اول باید آن را حذف و سپس نسخه جدید را نصب کنید</installTip3>
+        <trayIconTitle>درحال نصب '%s'...</trayIconTitle>
+        <trayIconTooltip>کلیک راست را برای توقف یا مشاهده وقایع ضبط نگاه کنید</trayIconTooltip>
+        <trayIconText>ادامه نصب برنامه درحالیکه این ابزار آن را مشاهده میکند.ضبط کردن هنگامیکه همه فرآیندها به پایان رسید خودکار متوقف میشود یا شما باید آن را (کلیک راست) هنگامی که نصب کامل شد ببندید</trayIconText>
+        <trayIconMenuProgress>پیشرفت نصب</trayIconMenuProgress>
+        <trayIconMenuStop>توقف</trayIconMenuStop>
+        <readMore>بیشتر بدانید</readMore>
+        <installationFiles>فایل های نصب</installationFiles>
+        <textFiles>فایل متنی</textFiles>
+        <selectInstallFile>فایل نصب را انتخاب کنید</selectInstallFile>
+        <contextMenuCopy>کپی</contextMenuCopy>
+        <logEventCreateFile>ایجاد فایل</logEventCreateFile>
+        <logEventCreateFolder>ایجاد پوشه</logEventCreateFolder>
+        <logEventRenameFile>تغییر نام فایل</logEventRenameFile>
+        <logEventRenameFolder>تغییر نام پوشه</logEventRenameFolder>
+        <logEventCreateKey>ایجاد کلید</logEventCreateKey>
+        <logEventDeleteKey>حذف کلید</logEventDeleteKey>
+        <logEventSetValue>تنظیم مقدار</logEventSetValue>
+        <logEventProcessCreated>فرآیند ایجاد شد</logEventProcessCreated>
+        <logEventProcessKilled>فرآیند بسته شد</logEventProcessKilled>
+        <logEventDeleteOperation>حذف</logEventDeleteOperation>
+        <logStartingService>درحال اجرای سرویس ضبطگر نصب..</logStartingService>
+        <logStartingServiceError1>خطا: سرویس CisUtMonitor هنوز درحال توقف است</logStartingServiceError1>
+        <logStartingServiceError2>خطا: راه اندازی سرویسCisUtMonitor خیلی طول کشید،تایم اوت</logStartingServiceError2>
+        <logStartingServiceError3>خطا: سرویس CisUtMonitor را نمیتوان اجرا کرد (error %u)</logStartingServiceError3>
+        <logStartingServiceError4>خطا: سرویس CisUtMonitor را نمیتوان بازکرد. لطفا برنامه را مجدد نصب کنید.</logStartingServiceError4>
+        <logServiceStopped>سرویس ضبط کردن در اجرا نیست</logServiceStopped>
+        <logServiceStopError>خطا: موفق به توقف سرویس ضبطگر نشد</logServiceStopError>
+        <logServiceVersion>نسخه سرویس هست: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>نسخه نظارت هست: 0x%x, باید 0x%x باشد. لطفا برنامه را مجدد نصب کنید</logServiceVersionOlder>
+        <logServiceMonitorRunning>هشدار: توقف نظارت فعال</logServiceMonitorRunning>
+        <logServiceMonitorStarted>نظارت نصب فعال شده است</logServiceMonitorStarted>
+        <logTrackingStarting>درحال اجرای %s...</logTrackingStarting>
+        <logTrackingStartingEror>خطا: فرآیند راه اندازی را نمیتوان اجرا کرد (خطا %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>خطا: نظارت را نمیتوان اجرا کرد.لطفا برنامه را مجدد نصب کنید</logTrackingCannotStart>
+        <logTrackingStoppedByUser>ضبط کردن توسط کاربر لغو شد</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>همه فرآیندهای نصب به پایان رسید</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>نصب کامل شد</logTrackingCompleted>
+        <logTracingAnalyzing>آنالیز نصب،منتظر بمانید..</logTracingAnalyzing>
+        <logUninstallEntriesDetected>%u ورودی نصب تشخیص داد</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u ورودی نصب جدید تشخیص داده شد:</logNewUninstallEntriesDetected>
+        <logTrackingDone>انجام شد</logTrackingDone>
+        <logReverting>بازگرداندن تغییرات..</logReverting>
+        <logCompleted>کامل شد</logCompleted>
+        <logMSIServiceWarning>هشدار: سرویس اِم اِس آی غیرفعال شده است</logMSIServiceWarning>
+        <logMSIServiceError1>خطا: موفق به بازکردن سرویس اِم اِس آی نشد</logMSIServiceError1>
+        <logMSIServiceError2>خطا: نمیتوان سرویس اِم اِس آی را اجرا کرد</logMSIServiceError2>
+        <logMSIServiceError3>خطا: نمیتوان وضعیت سرویس اِم اِس آی را جستار کرد</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>ورودی نصب جدیدی حین ضبط یافت نشد.بطور معمول این معنی را میدهد که برنامه بطور صحیح نصب نشده است،اما اگر مطمئنید نصب انجام شده میتوانید برنامه دستی در لیست برنامه ها باز کنید.همه ردهای یافته شده به ان ارجاع داده میشود</Title>
+        <staticName>نام:</staticName>
+        <checkCreateCustomEntry>من میخواهم یک مورد دستی در لیست ایجاد کنم</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>ورودی نصب چندگانه تشخیص داده است</Caption>
+        <Title>ورودی نصب چندگانه در ویندوز ریجستری بعد از نصب تشخیص داده است.لطفا مورد اصلی را برای نمایش آیکون ویژه در ستون ضبط شده انتخاب کنید.به هرحال هنگامیکه شما داده ضبط شده مورد اصلی را حذف کنید،برنامه همه آیتمهای داده های وابسته را حذف میکند</Title>
+        <btnSelect>انتخاب</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s داده ضبط شده</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>حذف '%s'</Title>
+        <Instruction>موارد وابسته نیز حذف شود؟</Instruction>
+        <Footer>شما '%s' را با ضبطگر نصب ،نصب کرده اید،و ردها فعال شده و موارد بالا با آن نصب شده است. این معنی را میدهد که هنگامیکه از ویزارد حذف استفاده میکنید هر داده وابسته ضبط شده بهمراه برنامه اصلی حذف میشود .هنگامی که فقط حذف مورد فعلی را انتخاب کردید، داده ضبط شده چشمپوشی میشود و ویزارد حذف برای داده باقیمانده ارجاع داده شده به این برنامه اسکن میکند</Footer>
+        <btnOnlyCurrent>فقط %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>حذف '%s'</Title>
+        <Instruction>برنامه های زیر مرتبط به هم هستند یعنی اگر یکی را حذف کنید سایر ۀنها نیز حذف میشوند.آیا واقعا میخواهید این برنامه ها را حذف کنید؟</Instruction>
+        <btnUninstallAll>حذف همه</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>حذف کننده توکار این کار را به پایان رساند.آیا میخواهید اسکن عمیق در ریجیستری و فایل سیستم برای فایل و ریجیستری بلااستفاده انجام دهید؟</staticConfirm>
+        <learnMoreAboutWizard>اطلاعات بیشتر در مورد ویزارد حذف</learnMoreAboutWizard>
+        <btnYes>بله</btnYes>
+        <btnNo>خیر</btnNo>
+        <checkDontAskAgain>بخاطر بسپر،میتواند در مزییت ها تغییر کند</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>درباره برنامه</DlgAboutCaption>
+        <staticWebSite>وبسایت</staticWebSite>
+        <staticSupport>پشتیبانی</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>این محصول مجوز داده شده است به:</staticRegisteredTo>
+        <staticChangeKey>تغییر کلید مجوز</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>یادآور ارزیابی</UnregDlgReminder>
+        <UnregDlgExpired>ارزیابی منقضی شده</UnregDlgExpired>
+        <staticExpired>این نسخه ارزیابی منقضی شده است. شما میتوانید برنامه را کامل بمدت 30 روز استفاده کنید\n\nاگر برنامه را دوست دارید ،برای ادامه استفاده از آن روی حالا خرید کلیک کنید</staticExpired>
+        <staticTrial>نسخه ارزیابی رایگان میتواند به مدت 30 روز استفاده شود.بعداز این مدت یا برنامه را خرید کنید یا از رایانه حذف کنید</staticTrial>
+        <btnWebSite>وبسایت</btnWebSite>
+        <staticDaysLeft>%d روز از ارزیابی باقیمانده است</staticDaysLeft>
+        <btnBuyNow>حالا خرید</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>فعالسازی برنامه</EnterKeyDlgCaption>
+        <Title>لطفا نام و کد را از ایمیل ثبت نام وارد کنید:</Title>
+        <staticName>نام ثبت نام:</staticName>
+        <staticKey>کلید ثبت نام:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>فرآیند حذف موفق نشد \nآیا میخواهید فایل ها و ریجیستری این برنامه حذف شود؟</msgUninstallFailed>
+        <msgForceRemovalTitle>حذف اجباری '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>حذف اجباری گروهی</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>آیا می خواهید حذف اجباری این برنامه را اِجرا کنید؟</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>آیا میخواهید حذف اجباری را برای برنامه های زیر اِجرا کنید؟</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>حذف اجباری برنامه با حذف کننده وابسته سازی شده اجرا نمیشود،آن فقط همه موارد فایل و ریجیستری متعلق به برنامه را حذف میکند.از این فقط باید در زمانی استفاده کنید که ورودی نامعتبر و غیر حقیقی دارد</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>حذف اجباری یک برنامه ضبط شده بطور فوق سریع و بطور کامل بدون حذف کننده خود برنامه اجرا خواهد شد.آن همه فایل سیستمی ها و موارد ریجیستری که حین ضبط نصب رخ داده را حذف خواهد کرد</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>ویژگی حذف اجباری گروهی یک ویژگی پیشرفته است که باید با احتیاط استفاده شود.آن حذف کننده وابسته سازی شده را اجرا نمیکند و فقط فایل سیستم/آیتم ریجیستری باقیمانده را اسکن میکند و آنها را در لیست ادغام شده که نیاز به بازبینی دقیق دارد نشان میدهد</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>وابسته</msgForceRemovalItemDependent>
+        <msgLearnMore>بیشتر بدانید</msgLearnMore>
+        <msgForceRemovalCheck>باشه،من مسئولیت آن را درک میکنم</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>آیا میخواهید برنامه را از رایانه حذف کنید؟</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>آیا میخواهید این ورودی را حذف کنید؟</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>آیا میخواهید این ورودی ها را حذف کنید؟</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>این تابع فقط مورد را از لیست حذف میکند.باقیمانده فایل یا ریجیستری حذف نخواهد شد.از این تابع فقط برای ورودی لیست نامعتبر یا غیر حقیقی استفاده کنید</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>موفق به حذف ورودی ریجیستری این مورد نشد \nاحتمالا شما اجازه دسترسی به آن را ندارید</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>آیا میخواهید حذف این برنامه را به اجبار لغو کنید؟</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>لغو اجباری فقط باید زمانی اجرا شود که حذف کننده پیش فرض برنامه فریز یا قفل کرده باشد یا بطور اورژانسی همه فرآیندهای حذف باید لغو شود.بطور معمول باید بطور صحیح لغو کرد زیرا لغو اجباری میتواند اثرات غیر ققابل پیش بینی داشته باشد</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>مورد ضبط شده '%s' حالا در لیست برنامه ها با یک آیکون ویژه در ستون ضبط شده نمایش داده میشود</msgTracedItem>
+        <msgTracedItemAppended>داده ضبط شده حالا به مورد ضبط شده قبلی '%s' اضافه شد</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>توجه کنید که موارد نصب جدید بعنوان ورودی ها وابسته تلقی میشوند و با هم میتوانند بعدا با تایید حذف شوند: '%s' </msgTracedItemAppendedNote>
+        <msgUndoTracing>آیا میخواهید برنامه همه داده های ضبط شده این برنامه را فراموش کند؟</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>سرویس CisUtMonitor را نمیتوان بازکرد. لطفا برنامه را مجدد نصب کنید.</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>سرویس ضبطگر برنامه ('CisUtMonitor') در سیستم نصب نشده است \n\nآیا میخواهید آن را نصب کنید؟</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>سرویس ضبطگر برنامه ('CisUtMonitor') در سیستم نصب نشده است</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>سرویس با موفقیت نصب شد \n\nبعدا میتوانید با استفاده از فایل 'RemoveService.cmd' آن را حذف کنید.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>تایم اوت نصب سرویس: کد خطا %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>موفق به نصب سرویس نشد - علت ناشناخته، لطفا برای راهنمایی با پشتیبانی تمایس بگیرید</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>سرویس ضبطگر برنامه ('CisUtMonitor') از روی این سیستم حذف شده است.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>نسخه سرویس 'CisUtMonitor' نصب شده (%u) قدیمیتر از نسخه فعلی (%u) هست. \n\nآیا میخواهید بروزرسانی کنید؟</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>آخرین نسخه سرویس باموفقیت حذف شد.باید قبل از استفاده از ضبطگر نصب رایانه را ریستارت کنید</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>چیزی برای ذخیره وجود ندارد زیرا برنامه ضبط شده نصب نشده است،فایل و ریجیستری ذخیره نشده است</msgNothingToSave>
+        <msgCancelTracing>آیا میخواهید ضبط نصب فعلی را لغو کنید؟</msgCancelTracing>
+        <msgStopTracing>ضبط نصب حالا متوقف شد \n\nآیا میخواهید نتیجه ضبط فعلی را ذخیره کنید؟</msgStopTracing>
+        <msgEntryAlreadyExists>برنامه '%s' از قبل در لیست وجود دارد، پس لطفا نام دیگری انتخاب کنید</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>این کاملا این ورودی را از ریجیستری حذف میکند \n\nآیا میخواهید آن را انجام دهید؟</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>خطای افزودن مورد اِستارت آپ جدید،لطفا میزان اختیارات خود را بررسی یا با پشتیبانی برنامه برای راهنمایی تماس بگیرید</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>مشخصات این ورودی را نمیتوان ویرایش کرد. احتمالا شما اجازه کافی برای این کار را ندارید\n\nلطفا برای راهنمایی با مدیر سیستم تماس بگیرید</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>آیا میخواهید این موارد را حذف کنید؟</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>این موارد را از ریجیستری سیستم حذف میکند و آنها هرگز با ویندوز اجرا نمیشوند</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>برای کامل شدن ثبت نام برنامه باید ریستارت شود \n\nآیا میخواهید حالا آن را انجام دهید؟</msgRegRestartRequired>
+        <msgNewVersionAvailable>نسخه جدید %s موجود است</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>نسخه فعلی: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>تغییرات:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>حالا دانلود کن</msgNewVersionDownload>
+        <msgNewVersionPortableLink>لینک دانلود نسخه پرتابل</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>شما از جدیدترین نسخه برنامه استفاده میکنید</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>به وبسایت برنامه نمیتوان متصل شد،لطفا ارتباط اینترنتی را بررسی کنید</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>شما نباید نسخه 32 بیت برنامه را در ویندوز 64 بیتی اجرا کنید چون آن فقط برنامه های 32 بیتی را نشان میدهد و محدودیت های زیادی دارد. قویا توصیه میشود در این رایانه برنامه را دانلود و نصب مجدد کنید (آن خودکار نسخه 64 بیتی را در ویندوز 64 بیتی انتخاب خواهد کرد).</msgRunningInWow64>
+        <msgRunningInWow64Title>درحال اِجرا در محیط WoW64</msgRunningInWow64Title>
+        <msgCannotStartHelper>قادربه اجرای فرآیند 'UninstallToolHelper.exe' نیست. \n\nلطفا برنامه را مجدد نصب کنید.</msgCannotStartHelper>
+        <msgUninstallingMyself>آیا میخواهید همه تنظیمات و همه داده های ضبط شده توسط برنامه حذف شود؟</msgUninstallingMyself>
+        <msgUnableToCreateFile>قادر به ایجاد فایل نیست:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>نسخه ثبت نشده</txtUnregisteredBig>
+        <msgNotAvailableInTrial>این ویژگی فقط در نسخه ثبت شده موجود است</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>شما میتوانید داده باقیمانده را ذخیره و آن را بعدا توسط ویژگی حذف اجباری از لیست برنامه حذف کنید: '%s' </msgNotAvailableInTrial2>
+        <checkDeleteDataLater>ذخیره و حذف داده باقیمانده بعدا</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>فایل اِچ تی اِم اِل</htmlFiles>
+        <allFiles>همه فایل ها</allFiles>
+        <generatedByOn>تولید شده با %s در %s</generatedByOn>
+        <installedPrograms>برنامه های نصب شده (%s)</installedPrograms>
+        <startupPrograms>برنامه های استارت آپ</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>تایید</btnOK>
+        <btnCancel>لغو</btnCancel>
+        <btnHelp>راهنما</btnHelp>
+        <btnYes>بله</btnYes>
+        <btnNo>خیر</btnNo>
+        <btnClose>بستن</btnClose>
+        <statusTotalInfo>%d برنامه %s در مجموع حجم دارد</statusTotalInfo>
+        <statusUnknown>ناشناخته</statusUnknown>
+        <statusRecentItems>اخیرا نصب شده</statusRecentItems>
+        <statusRecentItemsTip>مشاهده برنامه های اخیرا نصب/ویرایش شده</statusRecentItemsTip>
+        <statusStartupTotalInfo>%d برنامه در مجموع، %d حالا در اجرا هست</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>محاسبه فضای اشغال شده.. %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>نسخه جدید موجود است:</statusNewVersionAvailable>
+        <popupNewProgramsFound>%d برنامه جدید یافت!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>دوباره من را مطلع نکن</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>بروزرسانی ویندوز</WindowsUpdatesText>
+        <UninstallToolDescription>حذف کامل برنامه ها.نصب و ضبط برنامه.مدیریت برنامه های اِستارت آپ</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>نصب و ضبط با ضبطگر نصب..</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>نصب و ضبط همه تغییرات که برنامه در رایانه ایجاد کرده است</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - استثناء بی دسته</msgTitleTemplate>
+        <msgTemplate>متاسفیم اما یک استثناء بی دسته رخ داده است و \n%app_name% ناپایدار شده است \nلطفا یک ایمیل به این آدرس ارسال کنید '%email%'\nفایل دامپ زیر را هم ضمیمه کنید:\n\n%dump_file%\n\nبعد از فشار دادن دکمه 'اِرسال گزارش' برنامه پیش فرض ایمیل \nبا پیام آماده شده باز خواهد شد</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% گزارش خطا</MailSubjectTemplate>
+        <MailBodyTemplate>سلام ،پشتیبانی\n\nمن مشکلی با %app_name% دارم. فایل دامپ ضمیمه شده است.\n(فراموش نکنید فایل %dump_file% را ضمیمه کنید)</MailBodyTemplate>
+        <btnSend>اِرسال گزارش (توصیه میشود)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>سایر وظایف:</other_tasks>
+        <install_service>نصب سرویس ضبطگر (نصب و ضبط ویژگی ها)</install_service>
+        <control_panel_icon_text>افزودن آیکون برنامه به کنترل پنل</control_panel_icon_text>
+        <installing_driver>نصب هسته درایور...</installing_driver>
+        <ut_initializing>برنامه در حال راه اندازی هست...</ut_initializing>
+        <pin_to_taskbar_text>افزودن آیکون برنامه به نوار وظیفه</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

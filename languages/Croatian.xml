@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.2" LangID="1050" Author="Damir13, damir13@windowslive.com">
+    <MainMenu>
+        <mnuFile>&amp;Datoteka</mnuFile>
+        <mnuFileExport>&amp;Izvezi kao HTML...</mnuFileExport>
+        <mnuFileExit>I&amp;zađi</mnuFileExit>
+        <mnuAction>&amp;Akcije</mnuAction>
+        <mnuActionUninstall>&amp;Deinstaliraj...</mnuActionUninstall>
+        <mnuActionModify>&amp;Izmijeni...</mnuActionModify>
+        <mnuActionDelete>&amp;Očisti tragove</mnuActionDelete>
+        <mnuActionDeleteBatch>Skupno &amp;Prisilno uklanjanje</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>&amp;Ukloni unos</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>Prisilno ukloni &amp;Unose</mnuActionRemoveEntryBatch>
+        <mnuTracedData>Podaci o nadgledanju</mnuTracedData>
+        <mnuTracedDataAsXML>Pregledaj kao XML...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>Prekini nadgledanje</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Append traced data (Install and Trace)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;Registarski unos</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>&amp;Instalacijska mapa</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>&amp;WEB-stranica programa</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Otvori mjesto datoteke...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>Otvori izvor...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>Pretraži pomoću Google-a</mnuActionGoogleFor>
+        <mnuView>&amp;Prikaz</mnuView>
+        <mnuViewMainToolbar>Glavna alatna traka</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>Prikaži</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>Prikaži opise tipki</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>Dodatna alatna traka</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>&amp;Osvježi</mnuViewRefresh>
+        <mnuViewListColumnsReset>Vrati zadane kolone</mnuViewListColumnsReset>
+        <mnuViewLanguage>Jezik sučelja</mnuViewLanguage>
+        <mnuTools>&amp;Alati</mnuTools>
+        <mnuToolsSystemTools>Sistemski alati</mnuToolsSystemTools>
+        <mnuToolsAddRemove>&amp;Dodaj/ukloni programe...</mnuToolsAddRemove>
+        <mnuToolsComponents>&amp;Komponente Windows-a</mnuToolsComponents>
+        <mnuToolsSystemRestore>Oporavak sistema</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>Sigurnosni centar</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>Svojstva sistema</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>Informacije o sistemu</mnuToolsSystemInfo>
+        <mnuToolsDefrag>Defragmenter diska</mnuToolsDefrag>
+        <mnuToolsServices>Usluge</mnuToolsServices>
+        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;Postavke...</mnuToolsOptions>
+        <mnuHelp>P&amp;omoć</mnuHelp>
+        <mnuHelpOnline>&amp;Sadržaj...</mnuHelpOnline>
+        <mnuHelpHomePage>Web stranica programa</mnuHelpHomePage>
+        <mnuHelpSupport>Podrška</mnuHelpSupport>
+        <mnuHelpBuyNow>&amp;Kupovina...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>&amp;Unos ključa...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>Provjeri &amp;ažuriranja...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;O programu...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>Naziv programa</columnProgramName>
+        <columnSize>Veličina</columnSize>
+        <columnInstallationDate>Datum instalacije</columnInstallationDate>
+        <columnTraced>Nadgledan</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;Poništite&lt;/a&gt; pretragu (Esc) ili probajte promijeniti kategoriju</staticNoItemsMatchingFilterTip>
+        <staticLoading>Učitavanje, molimo pričekajte...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>Status</columnStatus>
+        <columnSource>Izvor</columnSource>
+        <columnCompany>Izdavač</columnCompany>
+        <sourceHKLMRun>HKLM Run</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM RunOnce</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU Run</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
+        <sourceStartMenuAll>Polazni izbornik SVI</sourceStartMenuAll>
+        <sourceStartMenuCU>Polazni izbornik TRENUTNI</sourceStartMenuCU>
+        <sourceWindowsTask>Windows Task</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <staticNoStartupItems>Ne postoje programi koji se automatski pokreću s Windows-ima</staticNoStartupItems>
+        <staticNoStartupItemsTip>Možete ručno &lt;a&gt;dodati novi program&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>Deinstalacija</btnUninstaller>
+        <btnUninstallerToolTip>Deinstalirajte postojeće programe ili nadgledajte instalaciju novih</btnUninstallerToolTip>
+        <btnStartup>Pokretanje</btnStartup>
+        <btnStartupToolTip>Uredite programe koji se pokreću sa sistemom</btnStartupToolTip>
+        <btnRefresh>Osvježi</btnRefresh>
+        <btnRefreshToolTip>Osvježite spisak programa</btnRefreshToolTip>
+        <btnPrefs>Postavke</btnPrefs>
+        <btnPrefsToolTip>Postavke Uninstall Toola</btnPrefsToolTip>
+        <btnHelp>Pomoć</btnHelp>
+        <btnHelpToolTip>Pogledajte pomoć za korištenje programa</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>Programi</btnApps>
+        <btnAppsToolTip>Programi</btnAppsToolTip>
+        <btnSystem>Sistem</btnSystem>
+        <btnSystemToolTip>Sistemske komponente i ispravke</btnSystemToolTip>
+        <btnHidden>Skriveno</btnHidden>
+        <btnHiddenToolTip>Skrivene komponente</btnHiddenToolTip>
+        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>Nedavno instalirano (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Nedavno instalirani/nadograđeni programi</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Nadgledaj instalaciju</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Instalirajte novi program i nadgledajte izmjene sistema datoteka i registra</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>Deinstaliraj</itemUninstallIt>
+        <itemModifyIt>Izmijeni</itemModifyIt>
+        <itemDelete>Počisti sve tragove</itemDelete>
+        <itemBatchDelete>Skupno prisilno uklanjanje svih tragova</itemBatchDelete>
+        <itemBatchRemoveEntry>Prisilno ukloni unose sa spiska</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>Izabrali ste %u stavki, ali najveći broj stavki u skupnoj operaciji određen je na %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>Otkaži</itemCancelWaiting>
+        <itemSearch>Pretraga</itemSearch>
+        <itemShortSearchTip>Unesite naziv programa</itemShortSearchTip>
+        <itemVersion>Inačica:</itemVersion>
+        <itemInstalledOn>Instaliran/ažuriran:</itemInstalledOn>
+        <itemPublisher>Izdavač:</itemPublisher>
+        <itemRegistryEntry>Pogledaj registarski unos</itemRegistryEntry>
+        <itemUninstallInProgress>Deinstalacija je u toku</itemUninstallInProgress>
+        <itemUninstallInProgressTip>%s se deinstalira, pričekajte dok se proces deinstalacije ne završi...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>Izmjena je u toku</itemModifyInProgress>
+        <itemModifyInProgressTip>Pričekajte dok se proces izmjene programa %s ne završi...</itemModifyInProgressTip>
+        <itemNothingFound>Ništa nije pronađeno!</itemNothingFound>
+        <itemNoItemsMatchingFilter>Ne postoje programi čiji naziv sadrži '%s' u kategoriji %s</itemNoItemsMatchingFilter>
+        <itemGroup>Ovo je grupa programa</itemGroup>
+        <itemNoUninstall>Program nije moguće deinstalirati na standardan način, možete jedino očistiti sve njegove tragove.</itemNoUninstall>
+        <itemTracedOnly>Prilagođen unos kojeg čini grupa datoteka. Može biti uklonjen samo čišćenjem tragova.</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>Onemogući pokretanje sa sistemom</itemDisableRunning>
+        <itemEnableRunning>Omogući pokretanje sa sistemom</itemEnableRunning>
+        <itemDeleteStartupItem>Izbriši sa spiska</itemDeleteStartupItem>
+        <itemDisableSelected>Onemogući izabrane stavke</itemDisableSelected>
+        <itemEnableSelected>Omogući izabrane stavke</itemEnableSelected>
+        <itemDeleteSelected>Izbriši izabrane stavke sa spiska</itemDeleteSelected>
+        <itemMultiplSelected>Izabrano stavki: %u</itemMultiplSelected>
+        <itemAddNewStartupItem>Dodaj novi program...</itemAddNewStartupItem>
+        <itemStatusCaption>Status:</itemStatusCaption>
+        <itemStatusRunning>Pokrenut</itemStatusRunning>
+        <itemStatusNotRunning>Nije pokrenut</itemStatusNotRunning>
+        <itemStatusDisabled>Onemogućen</itemStatusDisabled>
+        <itemStatusInvalid>Invalid</itemStatusInvalid>
+        <itemCommandLineCaption>Upravljačka ploča:</itemCommandLineCaption>
+        <itemSourceCaption>Izvor:</itemSourceCaption>
+        <itemSourceRun_HKLM>Run ključ za sve korisnike</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>Run ključ za trenutnog korisnika</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>Run Once ključ za sve korisnike</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>Run Once ključ za trenutnog korisnika</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>Mapa automatskog pokretanja polaznog izbornika za sve korisnike</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>Mapa automatskog pokretanja polaznog izbornika za trenutnog korisnika</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>Dodavanje novog programa</DlgAddNewStartupProgramCaption>
+        <labelStartupType>Zapis:</labelStartupType>
+        <labelPathToExecutableFile>Putanja do izvršne datoteke:</labelPathToExecutableFile>
+        <labelArguments>Argumenti (prilagođeno):</labelArguments>
+        <filterExecutableFiles>Izvršne datoteke</filterExecutableFiles>
+        <filterAllFiles>Sve datoteke</filterAllFiles>
+        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>Postavke</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>Opća</categoryGeneral>
+        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkCheckForUpdates>Provjeri postojanje novije inačice pri pokretanju programa</checkCheckForUpdates>
+        <checkCheckForBetaVersions>Provjeri beta inačice</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>Jezik sučelja:</staticInterfaceLanguage>
+        <checkControlPanelIcon>Prikaži Uninstall Tool na Upravljačkoj ploči</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>Koristi Total Commander za otvaranje mapa programa (ako je instaliran)</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>Sučelje</categoryInterface>
+        <checkToolBarCaptions>Prikaži nazive tipki u alatnoj traci</checkToolBarCaptions>
+        <categoryAppList>Spisak programa</categoryAppList>
+        <checkSmallIcons>Male ikone</checkSmallIcons>
+        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <frameColorScheme>Shema boja</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>Tree-like software updates (sub-items):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>Prikaži zakrpe programa</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>Initially collapsed</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>Initially expanded</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>Always expanded</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>Parent items can be expanded/collapsed with mouse or using Left/Right keyboard keys. \n\n'Initially collapsed' is recommended option, but users are able to set 'Initially expanded' to display all updates initially. Users who get used to Uninstall Tool versions prior to 3.3 can choose 'Always expanded' option which also disables expand/collapse functionality. \n\nWhen using search filter collapsed items are expanded automatically if one or more sub-items matches the filter.</subitemsHelpText>
+        <staticRecentlyInstalled>Nedavno instalirani programi</staticRecentlyInstalled>
+        <checkDisplayPopup>Prikaži iskačući prozor</checkDisplayPopup>
+        <checkHighlighRecent>Istakni</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>Prikaži na dodatnoj alatnoj traci</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>Čarobnjak za deinstalaciju</categoryUninstallWizard>
+        <staticWizardDesctiption>Prilikom deinstalacije programa, poslije pokretanja ugrađenog programa za deinstalaciju, Čarobnjak za deinstalaciju može izvršiti detaljnu pretragu registra i sistema datoteka u cilju pronalaska nekorištenih registarskih unosa i datoteka. Možete izabrati automatsko pokretanje, onemogućite ga ili izaberite da svaki put budete pitani hoćete li ga pokrenuti. Čarobnjak za deinstalaciju se uvijek pokreće za nadgledane programe.</staticWizardDesctiption>
+        <staticWizardUsage>Pokretanje Čarobnjaka:</staticWizardUsage>
+        <comboItemWizardOption1>Pitaj prije pokretanja</comboItemWizardOption1>
+        <comboItemWizardOption2>Automatski</comboItemWizardOption2>
+        <comboItemWizardOption3>Onemogući</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>Čarobnjak za deinstalaciju</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>Uklanjanje svih tragova programa %s - Čarobnjak za deinstalaciju</UninstallWizardCaption>
+        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
+        <captionUninstalling>Uninstalling %s...</captionUninstalling>
+        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
+        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <statusScanning>Traženje preostalih datoteka, mapa i stavki registra...</statusScanning>
+        <statusScanningTraced>Generiranje spiska ostavljenih tragova programa, molimo pričekajte...</statusScanningTraced>
+        <statusForceRemoval>Prisili uklanjanje '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>Ostaci su pronađeni!</statusLeftOverTracesFound>
+        <statusNothingFound>Ostaci nisu pronađeni.</statusNothingFound>
+        <statusAllTracesRemoved>Svi tragovi su uklonjeni</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>Brisanje tragova programa...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Uninstall Tool je pronašao ostatke programa na vašem računalu. Pažljivo ih pregledajte i kada budete spremni ukloniti ih, kliknite na 'Završi'.</staticScanStatusFound>
+        <staticScanStatusRemoved>Program %s je uspješno uklonjen.</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>Svi izabrani ostaci programa uspješno su uklonjeni.</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>Generiranje spiska tragova...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>Sistem datoteka (stavki: %d)</treeItemFileSystem>
+        <treeItemRegistry>Registar (stavki: %d)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>Pregledaj...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d datoteka (%s) i %d registarskih unosa je ostalo na računalu</staticOverallInfo>
+        <btnFinish>Završi</btnFinish>
+        <btnCancel>Otkaži</btnCancel>
+        <btnClose>Zatvori</btnClose>
+        <btnUninstall>Uninstall</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>Neke datoteke nisu izbrisane</Title>
+        <Instruction1>Slijedeće datoteke nisu izbrisane jer su trenutno u upotrebi:</Instruction1>
+        <Instruction2>Ove datoteke će biti uklonjene automatski kod slijedećeg pokretanja sistema.</Instruction2>
+        <btnReboot>Ponovno pokreni odmah</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>Prisilno zaustaviti pokrenute procese?</Title>
+        <Instruction1>Slijedeći procesi su detektirani:</Instruction1>
+        <Instruction2>Preporučuje se da ih ručno zaustavite prije uklanjanja, ali Čarobnjak za deinstalaciju može ih zaustaviti prisilno.</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>Nadgledanje instalacije</InstallTrackerLocalizedName>
+        <Title>Nadgledanje instalacije programa</Title>
+        <TitleAppend>Install and Trace, append traced data to '%s'</TitleAppend>
+        <staticPathToProgram>Putanja do instalacione datoteke (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>Napredak instalacije:</staticInstallProgress>
+        <checkMinimize>Smanji Uninstall Tool u područje obavijesti tijekom instalacije</checkMinimize>
+        <btnInstall>Nadgledaj instalaciju</btnInstall>
+        <btnStop>Zaustavi</btnStop>
+        <btnSave>Sačuvaj</btnSave>
+        <btnSaveLog>Evidentiraj...</btnSaveLog>
+        <btnNoAndRevert>Ne + Poništi</btnNoAndRevert>
+        <staticRevertInfo>Opcija Poništi pokušava obrisati sve datoteke sistema/registra stvorene za vrijeme praćenja instalacije</staticRevertInfo>
+        <installTip1>Nastavite s instalacijom dok je Uninstall Tool nadgleda. Nadgledanje će automatski biti zaustavljeno kada se završe svi procesi ili ćete morati da ga zaustavite ručno po završetku instalacije</installTip1>
+        <installTip2>Uvjerite se da trenutno nije pokrenuta druga instalacija</installTip2>
+        <installTip3>Ako je prethodna inačica programa već instalirana, morate je ukloniti prije instalacije novije inačice</installTip3>
+        <trayIconTitle>Instalacija programa '%s'...</trayIconTitle>
+        <trayIconTooltip>Pogledajte desni-klik izbornik za zaustaviti ili pogledati zapisnik</trayIconTooltip>
+        <trayIconText>Nastavite s instalacijom dok je Uninstall Tool nadgleda. Nadgledanje će automatski biti zaustavljeno kada se završe svi procesi ili ćete ga morati zaustaviti ručno (kliknite desnom tipkom miša) na kraju instalacije</trayIconText>
+        <trayIconMenuProgress>Napredak instalacije</trayIconMenuProgress>
+        <trayIconMenuStop>Zaustavi</trayIconMenuStop>
+        <readMore>Pročitaj više</readMore>
+        <installationFiles>Instalacijske datoteke</installationFiles>
+        <textFiles>Tekstualne datoteke</textFiles>
+        <selectInstallFile>Izaberite instalacijsku datoteku</selectInstallFile>
+        <contextMenuCopy>Kopiranje</contextMenuCopy>
+        <logEventCreateFile>Nova datoteka</logEventCreateFile>
+        <logEventCreateFolder>Nova mapa</logEventCreateFolder>
+        <logEventRenameFile>Rename File</logEventRenameFile>
+        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventCreateKey>Novi ključ</logEventCreateKey>
+        <logEventDeleteKey>Brisanje ključa</logEventDeleteKey>
+        <logEventSetValue>Nova vrijednost</logEventSetValue>
+        <logEventProcessCreated>Početak procesa</logEventProcessCreated>
+        <logEventProcessKilled>Kraj procesa</logEventProcessKilled>
+        <logEventDeleteOperation>Obriši</logEventDeleteOperation>
+        <logStartingService>Pokretanje usluge nadgledanja instalacije...</logStartingService>
+        <logStartingServiceError1>Greška: Usluga CisUtMonitor se i dalje zaustavlja</logStartingServiceError1>
+        <logStartingServiceError2>Greška: Pokretanje usluge CisUtMonitor i dalje traje</logStartingServiceError2>
+        <logStartingServiceError3>Greška: Nije moguće pokrenuti uslugu CisUtMonitor (greška %u)</logStartingServiceError3>
+        <logStartingServiceError4>Greška: Nije moguće otvaranje usluge CisUtMonitor. Ponovno instalirajte program.</logStartingServiceError4>
+        <logServiceStopped>Usluga nadgledanja je zaustavljena</logServiceStopped>
+        <logServiceStopError>Greška: Zaustavljanje usluge nadgledanja nije uspjelo</logServiceStopError>
+        <logServiceVersion>Inačica usluge: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>Inačica nadgledanja: 0x%x, treba biti 0x%x. Ponovno instalirajte program.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Upozorenje: Zaustavljanje aktivnog nadgledanja...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>Nadgledanje instalacije je započelo</logServiceMonitorStarted>
+        <logTrackingStarting>Pokretanje %s...</logTrackingStarting>
+        <logTrackingStartingEror>Greška: Nije moguće pokrenuti instalaciju (greška %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>Greška: Nije moguće pokrenuti nadgledanje. Ponovno instalirajte program.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>Nadgledanje je prekinuo korisnik</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>Svi procesi instalacije su se završili</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>Instalacija je završena</logTrackingCompleted>
+        <logTracingAnalyzing>Analiziranje instalacije...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>Otkriveno instalacijskih unosa: %u</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u new installation entries detected:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Done</logTrackingDone>
+        <logReverting>Poništavanje promjena...</logReverting>
+        <logCompleted>Završeno</logCompleted>
+        <logMSIServiceWarning>Upozorenje: MSI usluga je onemogućena</logMSIServiceWarning>
+        <logMSIServiceError1>Greška: Nije uspjelo otvaranje MSI usluge</logMSIServiceError1>
+        <logMSIServiceError2>Greška: Nije uspjelo pokretanje MSI usluge</logMSIServiceError2>
+        <logMSIServiceError3>Greška: Nije moguće dobiti status MSI usluge</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>Tijekom nadgledanja nisu pronađeni novi instalacijski unosi. U većini slučajeva to znači da program nije ispravno instaliran, ali ako ste sigurni da je instalacija dobro prošla možete kreirati prilagođeni unos na spisku programa. Svi trenutno nađeni tragovi će se pozvati na njega.</Title>
+        <staticName>Naziv:</staticName>
+        <checkCreateCustomEntry>Želim stvoriti prilagođenu stavku na spisku</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>Više instalacijskih unosa je otkriveno</Caption>
+        <Title>Više instalacijskih unosa je otkriveno u Windows registru nakon instalacije. Izaberite glavnu stavku koja će biti prikazana na spisku programa sa specijalnom ikonicom u koloni 'Nadgledan' Imajte na umu da će prilikom uklanjanja nadgledanih podataka glavne stavke Uninstall Tool također ukloniti sve podatke zavisnih stavki.</Title>
+        <btnSelect>Izaberi</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>Podaci o nadgledanju za %s</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>Deinstalacija '%s'</Title>
+        <Instruction>Želite ukloniti i sve ovisne stavke?</Instruction>
+        <Footer>Instalirali ste '%s' s omogućenim nadgledanjem instalacije i prikazane stavke su također instalirane. To znači da će korištenjem Čarobnjaka za deinstalaciju biti uklonjene i sve nadgledane komponente. Prilikom izbora uklanjanja trenutne stavke, nadgledani podaci će biti zanemareni i Čarobnjak za deinstalaciju će izvršiti pretragu za preostale podatke ovog programa.</Footer>
+        <btnOnlyCurrent>Samo %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>Uninstall '%s'</Title>
+        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
+        <btnUninstallAll>Uninstall All</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>Ugrađeni program za deinstalaciju je završio. Hoćete izvršiti detaljnu pretragu registra i sistema datoteka u cilju pronalaska nekorištenih registarskih unosa i preostalih datoteka?</staticConfirm>
+        <learnMoreAboutWizard>Saznajte više o Čarobnjaku za deinstalaciju</learnMoreAboutWizard>
+        <btnYes>Da</btnYes>
+        <btnNo>Ne</btnNo>
+        <checkDontAskAgain>Zapamti moj izbor i ne pitaj me ponovno (može biti promijenjeno u postavkama)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>Informacije o programu</DlgAboutCaption>
+        <staticWebSite>WEB-stranica</staticWebSite>
+        <staticSupport>Podrška</staticSupport>
+        <staticEULA>EULA</staticEULA>
+        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticRegisteredTo>Proizvod je registriran na:</staticRegisteredTo>
+        <staticChangeKey>Promijeni registracijski ključ</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>Podsjetnik za registraciju</UnregDlgReminder>
+        <UnregDlgExpired>Kraj probnog perioda</UnregDlgExpired>
+        <staticExpired>Probna inačica je istekla. Mogli ste isprobati sve mogućnosti programa tokom 30 dana.\n\nAko ga želite nastaviti koristiti, kliknite na 'Kupovina'.</staticExpired>
+        <staticTrial>Besplatnu probnu inačicu moguće je koristiti 30 dana. Nakon isteka ovog vremenskog perioda potrebno je kupiti program ili da ga ukloniti s računala.</staticTrial>
+        <btnWebSite>WEB-stranica</btnWebSite>
+        <staticDaysLeft>Preostalo dana za probu: %d</staticDaysLeft>
+        <btnBuyNow>Kupovina</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Aktivacija programa</EnterKeyDlgCaption>
+        <Title>Unesite svoje ime i ključ koji ste dobili putem e-pošte:</Title>
+        <staticName>Ime:</staticName>
+        <staticKey>Ključ:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>Deinstalacija nije uspjela. \nDa li želite ukloniti unos programa iz registra i počistiti njegove datoteke?</msgUninstallFailed>
+        <msgForceRemovalTitle>Prisilno uklanjanje '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>Skupno prisilno uklanjanje</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>Sigurno hoćete očistiti sve tragove programa?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>Sigurno hoćete provesti prisilno uklanjanje slijedećih programa?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>Čišćenje tragova programa neće pokrenuti pridruženi program za deinstalaciju, već će samo izbrisati sve datoteke i registarske unose koji pripadaju programu. Ovu mogućnost treba koristiti samo za zastarjele ili netočne unose.</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>Prisili uklanjanje, izabrani program biti će brzo i točno uklonjen bez pokretanja pridruženog programa za deinstalaciju. On će obrisati sve sistemske i registarske stavke ostavljene za vrijeme instalacije.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Skupno prisilno uklanjanje je dodatna značajka i treba ju pažljivo koristiti. Ona neće pozvati pridruženi deinstalator, nego će pregledati stavke sistema/registra i prikazati ih na skupnom spisku kojega treba pažljivo proučiti. Najtemeljitije i najtočnije uklanjanje se obavlja za programe čija se je instalacija nadgledala s "Nadgledanjem instalacije".</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>ovisnost</msgForceRemovalItemDependent>
+        <msgLearnMore>Nauči više</msgLearnMore>
+        <msgForceRemovalCheck>Dobro, razumijem odgovornost</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>Sigurno hoćete ukloniti Uninstall Tool s računala?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>Sigurno hoćete ukloniti ovaj unos?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>Sigurno hoćete ukloniti ove unose?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>Program će biti uklonjen sa spiska. Preostali podaci iz registra ili sistema datoteka neće biti izbrisani. Ovu mogućnost treba koristiti samo za zastarjele ili netočne unose na spisku.</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>Nije uspjelo brisanje registarskog unosa ove stavke. \nVjerojatno joj nemate pristup.</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>Sigurno hoćete prekineti deinstalaciju programa?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>Prisilno prekidanje treba napraviti samo u slučaju kada se podrazumjevani program za deinstalaciju zamrzne ili kada treba hitno zaustaviti sve pokrenute procese deinstalacije. Ispravno prekidanje treba se izvrši u podrazumijevanom programu za deinstalaciju jer prisilno prekidanje može izazvati nepredvidive efekte.</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>Program '%s' će biti prikazan na spisku programa sa specijalnom ikonicom u koloni 'Nadgledan'</msgTracedItem>
+        <msgTracedItemAppended>Traced data is now added to the previously traced item '%s'.</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>Please note that new installation items will be treated as dependent entries and can be removed later together with '%s' (upon confirmation).</msgTracedItemAppendedNote>
+        <msgUndoTracing>Sigurno hoćete da Uninstall Tool zaboravi sve nadgledane podatke ovog programa?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>Nije moguće pokrenuti uslugu CisUtMonitor. Ponovno instalirajte program</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Usluga nadgledanja ('CisUtMonitor') programa Uninstall Tool nije instalirana na računalu. \n\nHoćete je instalirati?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Usluga nadgledanja ('CisUtMonitor') programa Uninstall Tool nije instalirana na računalu.</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>Usluga je uspješno instalirana. \n\nMožete je kasnije deinstalirati pomoću datoteke 'RemoveService.cmd'.</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>Instalacija usluge ne reagira. Greška: %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>Instalacija usluge nije uspjela iz nepoznatog razloga. Kontaktirajte podršku radi pomoći.</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Usluga nadgledanja ('CisUtMonitor') programa Uninstall Tool je deinstalirana sa računala.</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>Instalirana inačica usluge 'CisUtMonitor' (%u) je starija od najnovije (%u). \n\nHoćete je nadograditi?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>Zadnja inačica usluge je instalirana. Potrebno je ponovno pokrenuti računalo prije korištenja nadgledanja.</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>Program čija se instalacija nadgleda nije stvorio nikakve datoteke, niti je vršio upis u registar.</msgNothingToSave>
+        <msgCancelTracing>Hoćete otkazati nadgledanje tekuće instalacije?</msgCancelTracing>
+        <msgStopTracing>Nadgledanje instalacije će se zaustaviti. \n\nHoćete sačuvati rezultate tekućeg nadgledanja?</msgStopTracing>
+        <msgEntryAlreadyExists>Program '%s' već postoji na spisku. Izaberite drugi naziv.</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>Unos iz sistemskog registra (meni Start) će biti izbrisan. \n\nSigurno?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>Došlo je do greške pri dodavanju stavke, provjerite imate li potrebne dozvole ili kontaktirajte podršku radi pomoći.</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>Nije moguće izmijeniti svojstva unosa. Moguće da nemate potrebne dozvole.\n\nKontaktirajte administratora sistema radi pomoći.</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>Sigurno hoćete uklonite ove stavke?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>Stavke će biti izbrisane iz sistemskog registra (Izbornik Start) i neće se nikad pokretati zajedno sa sistemom.</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>Potrebno je ponovno pokrenuti program da bi završili registraciju. \n\nOdmah?</msgRegRestartRequired>
+        <msgNewVersionAvailable>Nova inačica %s je dostupna</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>Trenutna inačica: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>Novine:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionPortableLink>Veza za preuzimanje portabl inačice</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>Koristite najnoviju inačicu programa</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>Povezivanje sa stranicom crystalidea.com nije moguće; provjerite vezu s internetom</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>Ne možete koristiti 32-bitnu inačicu Uninstall Tool na 64-bitnim Windows-ima jer samo pokazuju 32-bitne programe i puno ograničenja. Preporučamo preuzeti i instalirati ispravu inačicu (automatski će biti izabrana 64-bitna inačica kada se instalira na 64-bitnim Windowsima).</msgRunningInWow64>
+        <msgRunningInWow64Title>Pokrenuto u WoW64 okruženju</msgRunningInWow64Title>
+        <msgCannotStartHelper>Nije moguće pokrenuti 'UninstallToolHelper.exe' proces. \n\nMolimo ponovno instalirajte program.</msgCannotStartHelper>
+        <msgUninstallingMyself>Do you want to remove Uninstall Tool preferences and all data about traced installations?</msgUninstallingMyself>
+        <msgUnableToCreateFile>Unable to create file:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>NEREGISTRIRANA INAČICA</txtUnregisteredBig>
+        <msgNotAvailableInTrial>Ova mogućnost dostupna je samo u registriranoj inačici.</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>Možete sačuvati preostale podatke '%s', i izbrisati ih kasnije pomoću funkcije 'Očisti sve tragove'.</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>Sačuvaj podatke o ostacima za brisanje</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML datoteke</htmlFiles>
+        <allFiles>Sve datoteke</allFiles>
+        <generatedByOn>Generirao: %s Datum: %s</generatedByOn>
+        <installedPrograms>Instalirani programi (%s)</installedPrograms>
+        <startupPrograms>Programi koji se pokreću sa sistemom</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>U redu</btnOK>
+        <btnCancel>Otkaži</btnCancel>
+        <btnHelp>Pomoć</btnHelp>
+        <btnYes>Da</btnYes>
+        <btnNo>Ne</btnNo>
+        <btnClose>Zatvori</btnClose>
+        <statusTotalInfo>%d programa | ukupno zauzeće: %s</statusTotalInfo>
+        <statusUnknown>nepoznato</statusUnknown>
+        <statusRecentItems>nedavno instalirano</statusRecentItems>
+        <statusRecentItemsTip>Pogledajte nedavno instalirane/izmjenjene programe</statusRecentItemsTip>
+        <statusStartupTotalInfo>Ukupno programa: %d. Trenutno pokrenuto: %d.</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>Računanje ukupnog zauzeća... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>Nova inačica je dostupna:</statusNewVersionAvailable>
+        <popupNewProgramsFound>Novih programa: %d</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Windows ispravke</WindowsUpdatesText>
+        <UninstallToolDescription>Deinstalirajte programe u potpunosti, upravljajte programima koji se pokreću sa sistemom</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>Nadgledaj instalaciju...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>Nadgledajte instalaciju programa i steknite uvid u sve izmjene koje budu napravljene</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - Unhandled Exception</msgTitleTemplate>
+        <msgTemplate>We're sorry but an unhandled exception has occurred and \n%app_name% has become unstable. \nPlease send us an e-mail to '%email%'\nattaching the following crash dump file:\n\n%dump_file%\n\nAfter pressing 'Send Report' button, a default mailer program \nwill be opened with composed message.</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file %dump_file%)\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <btnSend>Send Report (Recommended)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>Drugi zadaci:</other_tasks>
+        <install_service>Instaliraj uslugu nadgledanja (mogućnost nadgledanja instalacije)</install_service>
+        <control_panel_icon_text>Dodaj Uninstall Tool na Upravljačku ploču</control_panel_icon_text>
+        <installing_driver>Instalacija upravljačkog programa...</installing_driver>
+        <ut_initializing>Uninstall Tool se pokreće...</ut_initializing>
+        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
+        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>

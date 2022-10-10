@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.5.9" LangID="2052" Author="Zhou Manlian; update by ZB_Sun">
+    <MainMenu>
+        <mnuFile>文件(&amp;F)</mnuFile>
+        <mnuFileExport>导出为 HTML(&amp;E)...</mnuFileExport>
+        <mnuFileExit>退出(&amp;X)</mnuFileExit>
+        <mnuAction>操作(&amp;A)</mnuAction>
+        <mnuActionUninstall>卸载(&amp;U)...</mnuActionUninstall>
+        <mnuActionModify>修改(&amp;M)...</mnuActionModify>
+        <mnuActionDelete>强制删除(&amp;F)</mnuActionDelete>
+        <mnuActionDeleteBatch>批量强制删除(&amp;F)</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>删除条目(&amp;E)</mnuActionRemoveEntry>
+        <mnuActionRemoveEntryBatch>批量删除条目(&amp;E)</mnuActionRemoveEntryBatch>
+        <mnuTracedData>追踪数据</mnuTracedData>
+        <mnuTracedDataAsXML>以 XML 格式查看...</mnuTracedDataAsXML>
+        <mnuTracedDataUndoTracing>撤销追踪</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>添加追踪数据 (追踪安装)...</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>注册表条目(&amp;R)</mnuActionJumpToRegistry>
+        <mnuActionJumpToProgramFolder>安装文件夹(&amp;I)</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToWebSite>程序网站(&amp;P)</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>在 Windows 应用商店中打开</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>浏览程序位置...</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>浏览来源...</mnuActionBrowseSource>
+        <mnuActionGoogleFor>通过谷歌搜索</mnuActionGoogleFor>
+        <mnuView>查看(&amp;V)</mnuView>
+        <mnuViewMainToolbar>主工具栏</mnuViewMainToolbar>
+        <mnuViewMainToolbarShow>显示主工具栏</mnuViewMainToolbarShow>
+        <mnuViewMainToolbarButtonLabels>在图标下显示按钮标签</mnuViewMainToolbarButtonLabels>
+        <mnuViewSecondaryToolbar>副工具栏</mnuViewSecondaryToolbar>
+        <mnuViewRefresh>刷新(&amp;R)</mnuViewRefresh>
+        <mnuViewListColumnsReset>重置列</mnuViewListColumnsReset>
+        <mnuViewLanguage>界面语言</mnuViewLanguage>
+        <mnuTools>工具(&amp;T)</mnuTools>
+        <mnuToolsSystemTools>系统工具</mnuToolsSystemTools>
+        <mnuToolsAddRemove>添加/删除程序(&amp;A)...</mnuToolsAddRemove>
+        <mnuToolsComponents>Windows 组件(&amp;C)...</mnuToolsComponents>
+        <mnuToolsSystemRestore>系统还原</mnuToolsSystemRestore>
+        <mnuToolsSecurityCenter>安全中心</mnuToolsSecurityCenter>
+        <mnuToolsSystemProperties>系统属性</mnuToolsSystemProperties>
+        <mnuToolsSystemInfo>系统信息</mnuToolsSystemInfo>
+        <mnuToolsDefrag>磁盘碎片整理</mnuToolsDefrag>
+        <mnuToolsServices>服务</mnuToolsServices>
+        <mnuToolsTaskScheduler>任务计划程序</mnuToolsTaskScheduler>
+        <mnuToolsOptions>参数选择(&amp;P)...</mnuToolsOptions>
+        <mnuHelp>帮助(&amp;H)</mnuHelp>
+        <mnuHelpOnline>在线帮助...</mnuHelpOnline>
+        <mnuHelpHomePage>主页(&amp;H)</mnuHelpHomePage>
+        <mnuHelpSupport>支持(&amp;S)</mnuHelpSupport>
+        <mnuHelpBuyNow>购买(&amp;P)...</mnuHelpBuyNow>
+        <mnuHelpEnterKey>输入密钥(&amp;E)...</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>检查更新(&amp;U)...</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>关于(&amp;A)...</mnuHelpAbout>
+    </MainMenu>
+    <ListCtrl>
+        <columnProgramName>程序名称</columnProgramName>
+        <columnSize>大小</columnSize>
+        <columnInstallationDate>安装时间</columnInstallationDate>
+        <columnTraced>已追踪</columnTraced>
+        <staticNoItemsMatchingFilterTip>&lt;a&gt;重置&lt;/a&gt; 搜索过滤 (按 Esc 键) 或尝试浏览其他类别</staticNoItemsMatchingFilterTip>
+        <staticLoading>加载中，请稍等...</staticLoading>
+        <!-- Start up pane -->
+        <columnStatus>状态</columnStatus>
+        <columnSource>来源</columnSource>
+        <columnCompany>公司</columnCompany>
+        <sourceHKLMRun>HKLM Run</sourceHKLMRun>
+        <sourceHKLMRunOnce>HKLM RunOnce</sourceHKLMRunOnce>
+        <sourceHKCURun>HKCU Run</sourceHKCURun>
+        <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
+        <sourceStartMenuAll>开始菜单 (所有用户)</sourceStartMenuAll>
+        <sourceStartMenuCU>开始菜单 (当前用户)</sourceStartMenuCU>
+        <sourceWindowsTask>Windows 任务</sourceWindowsTask>
+        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>没有程序在 '%s' 类别中</staticNoProgramsInCategory>
+        <staticNoStartupItems>没有在 Windows 启动时自动运行的程序</staticNoStartupItems>
+        <staticNoStartupItemsTip>您可以手动 &lt;a&gt;添加新的程序&lt;/a&gt;</staticNoStartupItemsTip>
+        <mark32bitItem>(32-bit)</mark32bitItem>
+    </ListCtrl>
+    <ToolBar>
+        <btnUninstaller>卸载程序</btnUninstaller>
+        <btnUninstallerToolTip>卸载现有程序或安装并追踪新的软件</btnUninstallerToolTip>
+        <btnStartup>自启动项</btnStartup>
+        <btnStartupToolTip>启动时自动运行的应用程序</btnStartupToolTip>
+        <btnRefresh>刷新</btnRefresh>
+        <btnRefreshToolTip>刷新程序列表</btnRefreshToolTip>
+        <btnPrefs>参数选择</btnPrefs>
+        <btnPrefsToolTip>Uninstall Tool 参数选择</btnPrefsToolTip>
+        <btnHelp>帮助</btnHelp>
+        <btnHelpToolTip>显示在线帮助</btnHelpToolTip>
+    </ToolBar>
+    <SecondaryToolbar>
+        <btnApps>应用程序</btnApps>
+        <btnAppsToolTip>应用程序</btnAppsToolTip>
+        <btnSystem>系统组件</btnSystem>
+        <btnSystemToolTip>系统组件和更新</btnSystemToolTip>
+        <btnHidden>隐藏组件</btnHidden>
+        <btnHiddenToolTip>隐藏组件</btnHiddenToolTip>
+        <btnStoreApps>Windows 商店应用</btnStoreApps>
+        <btnStoreAppsToolTip>从 Windows 应用商店安装的应用</btnStoreAppsToolTip>
+        <btnRecentlyInstalled>最近安装 (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>最近安装/更新的项目</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>追踪安装</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>安装一个新的程序并监视其对文件系统和注册表做的所有更改</btnInstallAndTraceTooltip>
+    </SecondaryToolbar>
+    <ExplorerBar>
+        <itemUninstallIt>卸载</itemUninstallIt>
+        <itemModifyIt>修改</itemModifyIt>
+        <itemDelete>强制删除痕迹</itemDelete>
+        <itemBatchDelete>批量强制删除痕迹</itemBatchDelete>
+        <itemBatchRemoveEntry>批量从列表中删除项目</itemBatchRemoveEntry>
+        <itemBatchLimitationWarning>您已选择 %u 个项目但一次批量操作的最大项目数被限制为 %u</itemBatchLimitationWarning>
+        <itemCancelWaiting>取消</itemCancelWaiting>
+        <itemSearch>搜索</itemSearch>
+        <itemShortSearchTip>键入要查找的程序</itemShortSearchTip>
+        <itemVersion>版本:</itemVersion>
+        <itemInstalledOn>安装/更新时间:</itemInstalledOn>
+        <itemPublisher>发行商:</itemPublisher>
+        <itemRegistryEntry>查看注册表条目</itemRegistryEntry>
+        <itemUninstallInProgress>卸载中</itemUninstallInProgress>
+        <itemUninstallInProgressTip>正在卸载 %s，请等待卸载完成...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>批量卸载进行中，请等待所有应用程序卸载完成...</itemBatchUninstallInProgressTip>
+        <itemModifyInProgress>修改中</itemModifyInProgress>
+        <itemModifyInProgressTip>正在修改 %s，请等待修改完成...</itemModifyInProgressTip>
+        <itemNothingFound>什么也未发现!</itemNothingFound>
+        <itemNoItemsMatchingFilter>没有程序匹配 '%s' 于 %s 类别中</itemNoItemsMatchingFilter>
+        <itemGroup>这是一个程序组</itemGroup>
+        <itemNoUninstall>该程序无法通过常规方式卸载，您可以尝试强制删除。</itemNoUninstall>
+        <itemTracedOnly>自定义项目由一组痕迹定义。只能使用强制删除功能来删除。</itemTracedOnly>
+        <!-- startup pane -->
+        <itemDisableRunning>启动时禁止运行</itemDisableRunning>
+        <itemEnableRunning>启动时允许运行</itemEnableRunning>
+        <itemDeleteStartupItem>从列表中删除</itemDeleteStartupItem>
+        <itemDisableSelected>禁用选定项目</itemDisableSelected>
+        <itemEnableSelected>启用选定项目</itemEnableSelected>
+        <itemDeleteSelected>从列表中删除选定项目</itemDeleteSelected>
+        <itemMultiplSelected>%u 个项目被选定</itemMultiplSelected>
+        <itemAddNewStartupItem>添加新程序...</itemAddNewStartupItem>
+        <itemStatusCaption>状态:</itemStatusCaption>
+        <itemStatusRunning>运行中</itemStatusRunning>
+        <itemStatusNotRunning>未运行</itemStatusNotRunning>
+        <itemStatusDisabled>已禁用</itemStatusDisabled>
+        <itemStatusInvalid>无效的</itemStatusInvalid>
+        <itemCommandLineCaption>命令行:</itemCommandLineCaption>
+        <itemSourceCaption>来源:</itemSourceCaption>
+        <itemSourceRun_HKLM>所有用户 Run 键</itemSourceRun_HKLM>
+        <itemSourceRun_HKCU>当前用户 Run 键</itemSourceRun_HKCU>
+        <itemSourceRunOnce_HKLM>所有用户 Run Once 键</itemSourceRunOnce_HKLM>
+        <itemSourceRunOnce_HKCU>当前用户 Run Once 键</itemSourceRunOnce_HKCU>
+        <itemSourceStartMenu_All>所有用户开始菜单启动文件夹</itemSourceStartMenu_All>
+        <itemSourceStartMenu_Current>当前用户开始菜单启动文件夹</itemSourceStartMenu_Current>
+        <itemSourceWindowsTask>登陆时执行的 Windows 任务计划</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+    </ExplorerBar>
+    <DlgAddNewStartupProgram>
+        <DlgAddNewStartupProgramCaption>添加新的自启动程序</DlgAddNewStartupProgramCaption>
+        <labelStartupType>启动类型:</labelStartupType>
+        <labelPathToExecutableFile>可执行文件路径:</labelPathToExecutableFile>
+        <labelArguments>参数 (可选):</labelArguments>
+        <filterExecutableFiles>可执行文件</filterExecutableFiles>
+        <filterAllFiles>所有文件</filterAllFiles>
+        <checkHighestPriviledges>以最高权限运行任务</checkHighestPriviledges>
+    </DlgAddNewStartupProgram>
+    <DlgPreferences>
+        <DlgPreferencesCaption>参数选择</DlgPreferencesCaption>
+        <!-- general -->
+        <categoryGeneral>常规</categoryGeneral>
+        <checkSkipUAC>使用 Windows 任务计划程序跳过用户账户控制确认对话框 (当需要时)</checkSkipUAC>
+        <checkSkipUACHelpText>激活该选项将允许在启动 Uninstall Tool 时跳过用户账户控制警告 (“你要允许此应用对你的设备进行更改吗?”)。该选项在 Uninstall Tool 频繁启动时会很有用。 \n\n打开该选项时，Uninstall Tool 会创建一个在您每次运行该程序时都会执行的高优先级的 Windows 任务计划。 \n\n适用于开启了用户账户控制功能的 Windows Vista 及以上的操作系统。</checkSkipUACHelpText>
+        <checkCheckForUpdates>程序启动时检查更新</checkCheckForUpdates>
+        <checkCheckForBetaVersions>检查测试版本</checkCheckForBetaVersions>
+        <staticInterfaceLanguage>界面语言:</staticInterfaceLanguage>
+        <checkControlPanelIcon>在控制面板中显示 Uninstall Tool 图标</checkControlPanelIcon>
+        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkTotalCommander>使用 Total Commander 定位程序目录 (如果已安装)</checkTotalCommander>
+        <!-- interface -->
+        <categoryInterface>界面</categoryInterface>
+        <checkToolBarCaptions>显示工具栏按钮说明</checkToolBarCaptions>
+        <categoryAppList>应用程序列表</categoryAppList>
+        <checkSmallIcons>小图标</checkSmallIcons>
+        <checkMark32bitApps>标示 32 位应用程序</checkMark32bitApps>
+        <frameColorScheme>颜色方案</frameColorScheme>
+        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
+        <colorSchemeLight>Light mode (default)</colorSchemeLight>
+        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <!-- Uninstaller -->
+        <staticTreeLikeUpdates>树状显示软件更新 (子项目):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>显示软件更新</checkDisplayUpdates>
+        <comboItemTreeUpdatesCollapsed>初始折叠</comboItemTreeUpdatesCollapsed>
+        <comboItemTreeUpdatesExpanded>初始展开</comboItemTreeUpdatesExpanded>
+        <comboItemTreeUpdatesAlwaysExpanded>总是展开</comboItemTreeUpdatesAlwaysExpanded>
+        <subitemsHelpText>父项目可以通过使用鼠标或键盘左/右键来展开/折叠。 \n\n'初始折叠' 是推荐选项，但用户可以设置 '初始展开' 来初始显示所有的更新。习惯使用 Uninstall Tool 3.3 之前版本的用户可以选择 '总是展开' 选项来禁用展开/折叠功能。 \n\n当使用搜索筛选时如果有一个或多个子项符合筛选条件，折叠的项目会自动展开。</subitemsHelpText>
+        <staticRecentlyInstalled>最近安装的程序:</staticRecentlyInstalled>
+        <checkDisplayPopup>弹窗显示最近安装的程序</checkDisplayPopup>
+        <checkHighlighRecent>高亮显示最近安装的程序</checkHighlighRecent>
+        <checkRecentOnSecondaryToolbar>在副工具栏中显示最近安装的程序</checkRecentOnSecondaryToolbar>
+        <categoryUninstallWizard>卸载向导</categoryUninstallWizard>
+        <staticWizardDesctiption>当卸载程序时，在运行内置卸载程序后，卸载向导 (Uninstall Wizard ™) 可以对注册表及文件系统执行一次深度扫描以查找无用的注册表项和文件。您可以选择自动运行、禁用或每次都询问您是否运行。对已追踪的程序卸载向导将总是运行。</staticWizardDesctiption>
+        <staticWizardUsage>在内置卸载程序运行后使用卸载向导:</staticWizardUsage>
+        <comboItemWizardOption1>询问</comboItemWizardOption1>
+        <comboItemWizardOption2>自动</comboItemWizardOption2>
+        <comboItemWizardOption3>禁用</comboItemWizardOption3>
+    </DlgPreferences>
+    <UninstallWizard>
+        <UninstallWizardLocalizedName>卸载向导</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>删除 %s 的所有痕迹 - Uninstall Wizard ™</UninstallWizardCaption>
+        <captionQuestionUninstall>您想要卸载 '%s' 吗?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>您想要卸载选定的 %u 个应用吗?</captionQuestionUninstallBatch>
+        <captionUninstalling>卸载中 %s...</captionUninstalling>
+        <statusUninstallInfo>卸载向导会首先启动关联的默认卸载程序并在之后清理残留项。</statusUninstallInfo>
+        <statusUninstallInfoBatch>卸载向导会首先为每个应用启动关联的默认卸载程序。然后显示所有要清理的残留项的清单。</statusUninstallInfoBatch>
+        <statusPerformingUninstall>使用内置的卸载程序执行标准卸载，可能需要用户的交互操作。</statusPerformingUninstall>
+        <statusScanning>正在扫描残留的文件，文件夹和注册表项目...</statusScanning>
+        <statusScanningTraced>正在生成残留痕迹项目的清单，请稍等...</statusScanningTraced>
+        <statusForceRemoval>强制删除 '%s'</statusForceRemoval>
+        <statusLeftOverTracesFound>发现残留痕迹!</statusLeftOverTracesFound>
+        <statusNothingFound>未发现残留痕迹。</statusNothingFound>
+        <statusAllTracesRemoved>所有痕迹均已删除</statusAllTracesRemoved>
+        <statusDeletingProgramTraces>正在删除程序痕迹...</statusDeletingProgramTraces>
+        <staticScanStatusFound>Uninstall Tool 检测到以下程序痕迹仍然残留在您的电脑中。请仔细检查如果您准备删除选定项目，请点击 '完成'。</staticScanStatusFound>
+        <staticScanStatusRemoved>%s 已被成功删除。</staticScanStatusRemoved>
+        <staticScanStatusRemovedBatch>所有选中的残留痕迹已经被成功删除。</staticScanStatusRemovedBatch>
+        <staticScanStatusGeneratingTracesList>正在生成痕迹列表...</staticScanStatusGeneratingTracesList>
+        <staticHyperlinkRemovalLog>清除日志</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>创建详细的清除日志文件并打开</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>导出为 XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>导出扫描结果为 XML 文件</staticHyperlinkExportTooltip>
+        <treeItemFileSystem>文件系统 (%d 个项目)</treeItemFileSystem>
+        <treeItemRegistry>注册表 (%d 个项目)</treeItemRegistry>
+        <treeItemPopopMenuBrowse>浏览...</treeItemPopopMenuBrowse>
+        <staticOverallInfo>%d 个文件 (%s) 和 %d 个注册表项目仍然留在您的电脑中</staticOverallInfo>
+        <btnFinish>完成</btnFinish>
+        <btnCancel>取消</btnCancel>
+        <btnClose>关闭</btnClose>
+        <btnUninstall>卸载</btnUninstall>
+    </UninstallWizard>
+    <DelayedFilesRemovalDialog>
+        <Title>部分文件无法删除</Title>
+        <Instruction1>下列文件因被系统占用所以未被删除:</Instruction1>
+        <Instruction2>这些文件将在下次系统重启时被自动删除。</Instruction2>
+        <btnReboot>立即重启</btnReboot>
+    </DelayedFilesRemovalDialog>
+    <RunningProcessesDialog>
+        <Title>强制终止运行的进程?</Title>
+        <Instruction1>检测到下列进程:</Instruction1>
+        <Instruction2>建议您在删除前手动终止它们，但是卸载向导可以强制终止它们。</Instruction2>
+    </RunningProcessesDialog>
+    <InstallTracker>
+        <InstallTrackerLocalizedName>安装追踪器</InstallTrackerLocalizedName>
+        <Title>安装并追踪程序</Title>
+        <TitleAppend>安装并追踪程序，添加追踪数据到 '%s'</TitleAppend>
+        <staticPathToProgram>安装文件路径 (.exe, .msi):</staticPathToProgram>
+        <staticInstallProgress>安装进度:</staticInstallProgress>
+        <checkMinimize>安装期间最小化 Uninstall Tool 到系统托盘</checkMinimize>
+        <btnInstall>安装并追踪</btnInstall>
+        <btnStop>停止</btnStop>
+        <btnSave>保存</btnSave>
+        <btnSaveLog>保存日志...</btnSaveLog>
+        <btnNoAndRevert>否 + 还原</btnNoAndRevert>
+        <staticRevertInfo>还原选项会尝试删除在追踪安装期间创建的所有文件系统/注册表项目</staticRevertInfo>
+        <installTip1>在 Uninstall Tool 监视时正常地继续安装。\n追踪会在所有进程完成后自动停止，否则您将需要在安装完成后手动停止它</installTip1>
+        <installTip2>请确保当前没有运行其他安装程序</installTip2>
+        <installTip3>如果已安装该程序先前的版本，在安装新版本前您应先删除旧的版本</installTip3>
+        <trayIconTitle>正在安装 '%s'...</trayIconTitle>
+        <trayIconTooltip>通过右键菜单停止或查看追踪日志</trayIconTooltip>
+        <trayIconText>在 Uninstall Tool 监视时照常继续安装。追踪会在所有进程完成后自动停止，否则您将需要在安装完成后手动停止它 (右键菜单)</trayIconText>
+        <trayIconMenuProgress>安装进度</trayIconMenuProgress>
+        <trayIconMenuStop>停止</trayIconMenuStop>
+        <readMore>了解更多</readMore>
+        <installationFiles>安装文件</installationFiles>
+        <textFiles>文本文件</textFiles>
+        <selectInstallFile>选择一个安装文件</selectInstallFile>
+        <contextMenuCopy>复制</contextMenuCopy>
+        <logEventCreateFile>创建文件</logEventCreateFile>
+        <logEventCreateFolder>创建文件夹</logEventCreateFolder>
+        <logEventRenameFile>重命名文件</logEventRenameFile>
+        <logEventRenameFolder>重命名文件夹</logEventRenameFolder>
+        <logEventCreateKey>创建注册表项</logEventCreateKey>
+        <logEventDeleteKey>删除注册表项</logEventDeleteKey>
+        <logEventSetValue>设置值</logEventSetValue>
+        <logEventProcessCreated>已创建进程</logEventProcessCreated>
+        <logEventProcessKilled>已结束进程</logEventProcessKilled>
+        <logEventDeleteOperation>删除</logEventDeleteOperation>
+        <logStartingService>正在启动 Install Tracker 服务...</logStartingService>
+        <logStartingServiceError1>错误: CisUtMonitor 服务仍在停止</logStartingServiceError1>
+        <logStartingServiceError2>错误: CisUtMonitor 启动超时</logStartingServiceError2>
+        <logStartingServiceError3>错误: 无法启动 CisUtMonitor 服务 (error %u)</logStartingServiceError3>
+        <logStartingServiceError4>错误: 无法打开 CisUtMonitor 服务。请重新安装本程序。</logStartingServiceError4>
+        <logServiceStopped>追踪服务已停止</logServiceStopped>
+        <logServiceStopError>错误: 停止追踪服务失败</logServiceStopError>
+        <logServiceVersion>服务版本为: 0x%x</logServiceVersion>
+        <logServiceVersionOlder>监视器版本为: 0x%x，应为 0x%x。请重新安装本程序。</logServiceVersionOlder>
+        <logServiceMonitorRunning>警告: 正在停止活动监视...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>安装监视器已启动</logServiceMonitorStarted>
+        <logTrackingStarting>正在启动 %s...</logTrackingStarting>
+        <logTrackingStartingEror>错误: 无法启动安装进程 (错误 %u)</logTrackingStartingEror>
+        <logTrackingCannotStart>错误: 无法运行监视器。请重新安装本程序。</logTrackingCannotStart>
+        <logTrackingStoppedByUser>追踪服务已被用户停止</logTrackingStoppedByUser>
+        <logTrackingAllProcessesFinished>所有安装进程已完成</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>安装完成</logTrackingCompleted>
+        <logTracingAnalyzing>正在分析安装，请稍等...</logTracingAnalyzing>
+        <logUninstallEntriesDetected>检测到 %u 个安装条目</logUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>检测到 %u 个新安装条目:</logNewUninstallEntriesDetected>
+        <logTrackingDone>完成</logTrackingDone>
+        <logReverting>正在还原更改...</logReverting>
+        <logCompleted>完成</logCompleted>
+        <logMSIServiceWarning>警告: MSI 服务已被禁用</logMSIServiceWarning>
+        <logMSIServiceError1>错误: 打开 MSI 服务失败</logMSIServiceError1>
+        <logMSIServiceError2>错误: 无法启动 MSI 服务</logMSIServiceError2>
+        <logMSIServiceError3>错误: 无法查询 MSI 服务状态</logMSIServiceError3>
+    </InstallTracker>
+    <InstallTrackerCustomEntryDialog>
+        <Title>追踪期间未发现新的安装项目。通常这意味着该程序未正确安装，但是如果您确信安装已正常运行您可以在应用程序列表中新建一个自定义程序，所有当前发现的痕迹均将与之关联。</Title>
+        <staticName>名称:</staticName>
+        <checkCreateCustomEntry>我想在列表中创建一个自定义项目</checkCreateCustomEntry>
+    </InstallTrackerCustomEntryDialog>
+    <InstallTrackerMultipleEntries>
+        <Caption>检测到多个安装条目</Caption>
+        <Title>安装后在 Windows 注册表中检测到多个安装条目。请选择主项目以便在应用程序的 '已追踪' 栏中用特殊图标列出。鉴于此在删除该主项目的追踪数据时，Uninstall Tool 也将删除所有附属项目的追踪数据。</Title>
+        <btnSelect>选择</btnSelect>
+    </InstallTrackerMultipleEntries>
+    <TracedXMLDialog>
+        <TracedXMLDialogCaption>%s 个追踪数据</TracedXMLDialogCaption>
+    </TracedXMLDialog>
+    <DependentItemsDialog>
+        <Title>卸载 '%s'</Title>
+        <Instruction>同时删除附属项目吗?</Instruction>
+        <Footer>您使用安装追踪器安装了 '%s' 同时上述项目也被安装。这意味着当使用卸载向导卸载时所有相关的已追踪的元素也将被删除。当选择仅删除当前项目时，追踪数据将被忽略，卸载向导将会扫描与该程序有关的残留数据。</Footer>
+        <btnOnlyCurrent>仅 %s</btnOnlyCurrent>
+    </DependentItemsDialog>
+    <RelatedItemsDialog>
+        <Title>卸载 '%s'</Title>
+        <Instruction>下列应用程序是相关联的，这意味着卸载他们将同时移除其他所有相关项。您确定要移除所有的这些应用程序吗?</Instruction>
+        <btnUninstallAll>卸载全部</btnUninstallAll>
+    </RelatedItemsDialog>
+    <UninstallWizardConfirmation>
+        <staticConfirm>内置卸载程序已完成任务。您想要对注册表及文件系统中残留的无用项目和文件进行一次深度扫描吗?</staticConfirm>
+        <learnMoreAboutWizard>了解更多关于 Uninstall Wizard 的信息</learnMoreAboutWizard>
+        <btnYes>是</btnYes>
+        <btnNo>否</btnNo>
+        <checkDontAskAgain>记住我的选择，不再询问 (可在参数选择中更改)</checkDontAskAgain>
+    </UninstallWizardConfirmation>
+    <DlgAbout>
+        <DlgAboutCaption>关于 Uninstall Tool</DlgAboutCaption>
+        <staticWebSite>网站</staticWebSite>
+        <staticSupport>技术支持</staticSupport>
+        <staticEULA>最终用户许可协议</staticEULA>
+        <staticPrivacyPolicy>隐私政策</staticPrivacyPolicy>
+        <staticRegisteredTo>本产品已授权给:</staticRegisteredTo>
+        <staticChangeKey>更换许可</staticChangeKey>
+    </DlgAbout>
+    <UnregDlg>
+        <UnregDlgReminder>试用提示</UnregDlgReminder>
+        <UnregDlgExpired>试用期满</UnregDlgExpired>
+        <staticExpired>这个试用版已到期。您可以在 30 天内测试软件的完整功能。\n\n如果您喜欢该软件并且想继续使用它，请点击 '立即购买'。</staticExpired>
+        <staticTrial>Uninstall Tool 的免费评估版可以使用 30 天。试用期满后，您必须购买程序或从您的电脑删除它。</staticTrial>
+        <btnWebSite>网站</btnWebSite>
+        <staticDaysLeft>评估时间剩余 %d 天</staticDaysLeft>
+        <btnBuyNow>立即购买</btnBuyNow>
+    </UnregDlg>
+    <EnterKeyDlg>
+        <EnterKeyDlgCaption>Uninstall Tool 激活</EnterKeyDlgCaption>
+        <Title>请输入您从注册邮件中获取的名称和注册码:</Title>
+        <staticName>注册名称:</staticName>
+        <staticKey>注册密钥:</staticKey>
+    </EnterKeyDlg>
+    <Messages>
+        <!-- messages related to Uninstaller -->
+        <msgUninstallFailed>卸载失败。 \n您想要清理该程序的注册表条目并清除其文件吗?</msgUninstallFailed>
+        <msgForceRemovalTitle>强制删除 '%s'</msgForceRemovalTitle>
+        <msgForceRemovalTitleBatch>批量强制删除</msgForceRemovalTitleBatch>
+        <msgForceRemovalQuestion>您确认要对该程序执行强制删除吗?</msgForceRemovalQuestion>
+        <msgForceRemovalQuestionBatch>您确认要对下列程序执行强制删除吗?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalDescription>强制删除该应用程序将不会运行其关联的卸载程序，这只会清除所有找到的属于该程序的文件和注册表项目。您应该只对废弃或无效的项目使用该功能。</msgForceRemovalDescription>
+        <msgForceRemovalDescriptionTraced>强制删除已追踪的程序执行速度极快并会跳过其关联的卸载程序。 这会清除安装时追踪到的所有文件和注册表项目。</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>批量强制删除是一项高级功能应慎重使用。它将不会运行关联的卸载程序而只会扫描残留的文件系统/注册表项目并将它们显示于一份需准确检查的汇总清单中。\n最彻底和准确的清除对使用安装追踪器追踪的程序有效。</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalItemDependent>相关</msgForceRemovalItemDependent>
+        <msgLearnMore>了解更多</msgLearnMore>
+        <msgForceRemovalCheck>好的，我了解相关责任</msgForceRemovalCheck>
+        <msgRemoveUninstallTool>您确认要从电脑中删除 Uninstall Tool 吗?</msgRemoveUninstallTool>
+        <msgRemoveEntryQuestion>您确认要删除这个条目吗?</msgRemoveEntryQuestion>
+        <msgRemoveEntryQuestionBatch>您确认要删除这些条目吗?</msgRemoveEntryQuestionBatch>
+        <msgRemoveEntryDescription>此功能将只会从列表中删除该项目，而不会删除残留的注册表项或文件。您应该只对废弃或无效的项目使用该功能。</msgRemoveEntryDescription>
+        <msgRemoveEntryFailed>删除该项目的注册表条目失败。 \n您可能没有足够的权限进行该操作。</msgRemoveEntryFailed>
+        <msgForceCancelWaiting>您确认要强制取消该程序的卸载?</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>强制取消应该只在默认卸载程序无响应或您急需停止所有当前正在运行的卸载进程时被执行。正确的取消操作应该通过程序的默认卸载器完成，因为强制取消可能会导致无法预料的影响。</msgForceCancelWaitingFooter>
+        <!-- messages related to Install Tracker -->
+        <msgTracedItem>已追踪项目 '%s' 现在已使用特殊图标显示在 '已追踪' 栏中。</msgTracedItem>
+        <msgTracedItemAppended>追踪数据现已添加到先前的追踪项目 '%s'。</msgTracedItemAppended>
+        <msgTracedItemAppendedNote>请注意，新安装项将被视为关联的条目并且之后可以和 '%s' 一起删除 (经确认)。</msgTracedItemAppendedNote>
+        <msgUndoTracing>您确认要 Uninstall Tool 忽略该程序的所有追踪数据吗?</msgUndoTracing>
+        <msgTrackingServiceNotInstalled>无法打开 CisUtMonitor 服务。请重新安装本程序</msgTrackingServiceNotInstalled>
+        <msgTrackingServiceNotInstalled2>Uninstall Tool 追踪服务 ('CisUtMonitor') 未安装于该系统中。 \n\n您想要现在安装吗?</msgTrackingServiceNotInstalled2>
+        <msgTrackingServiceNotInstalled3>Uninstall Tool 追踪服务 ('CisUtMonitor') 未安装于该系统中。</msgTrackingServiceNotInstalled3>
+        <msgTrackingServiceInstallationOK>服务已成功安装。 \n\n您以后可以使用 'RemoveService.cmd' 文件来卸载它。</msgTrackingServiceInstallationOK>
+        <msgTrackingServiceInstallationTimeout>服务安装超时: 错误代码 %d</msgTrackingServiceInstallationTimeout>
+        <msgTrackingServiceInstallationUnknownError>服务安装失败 - 未知原因，请联系技术支持以获取帮助。</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceRemoved>Uninstall Tool 追踪服务 ('CisUtMonitor') 已从本机中卸载。</msgTrackingServiceRemoved>
+        <msgTrackingServiceUpdate>安装的 'CisUtMonitor' 服务版本 (%u) 旧于当前版本 (%u)。 \n\n您想要更新吗?</msgTrackingServiceUpdate>
+        <msgTrackingServiceUpdateSuccess>最新版本的服务已成功安装。使用安装追踪器前您需要重启电脑。</msgTrackingServiceUpdateSuccess>
+        <msgNothingToSave>没有数据可保存，因为追踪程序尚未安装 (无残留文件/注册表项目)</msgNothingToSave>
+        <msgCancelTracing>您想要取消当前的安装追踪吗?</msgCancelTracing>
+        <msgStopTracing>安装追踪将被立即停止。您要保存当前的追踪结果吗?</msgStopTracing>
+        <msgEntryAlreadyExists>程序 '%s' 已存在于列表中，请选择其他名称。</msgEntryAlreadyExists>
+        <!-- messages related to Startup -->
+        <msgStartupDeleteConfirm>此操作将从您的系统注册表 (开始菜单) 中完全清除该项目。 \n\n您确认要这样做吗?</msgStartupDeleteConfirm>
+        <msgCannotAddNewStartupItem>添加新的自启动项时出错，请检查您的管理员权限或联系程序支持以获取帮助。</msgCannotAddNewStartupItem>
+        <msgCantModifyAutorunEntry>无法修改项目属性。 可能是您没有足够的管理权限或是某些安全软件阻止了访问。\n\n请联系您的系统管理员以获取帮助。</msgCantModifyAutorunEntry>
+        <msgRemoveMultipleItemsQuestion>您确认要删除这些项目吗?</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>此操作将从您的系统注册表 (开始菜单) 中删除上述项目，并且它们将永远不会在您的 Windows 启动时运行。</msgRemoveMultipleItemsDescription>
+        <!-- other messages -->
+        <msgRegRestartRequired>要完成注册您必须重新启动程序。 \n\n您要立即执行该操作吗?</msgRegRestartRequired>
+        <msgNewVersionAvailable>新版本 %s 可用</msgNewVersionAvailable>
+        <msgNewVersionAvailableCurrentVersion>当前版本: %s</msgNewVersionAvailableCurrentVersion>
+        <msgNewVersionAvailableWhatsNew>更新信息:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionDownload>现在下载</msgNewVersionDownload>
+        <msgNewVersionPortableLink>便携版下载链接</msgNewVersionPortableLink>
+        <msgUsingLatestVersion>您正在使用程序的最新版本</msgUsingLatestVersion>
+        <msgCannotConnectToCrystalIDEA>无法连接 crystalidea.com 网站，请检查您的网络连接</msgCannotConnectToCrystalIDEA>
+        <msgRunningInWow64>您不应该在 64 位 Windows 操作系统中运行 32 位版本的 Uninstall Tool，因为它仅显示 32 位的应用程序并有广泛的限制。强烈建议您在该电脑中重新下载并安装 Uninstall Tool (在 64 位 windows 操作系统中安装时程序会自动选择 64 位版本)。</msgRunningInWow64>
+        <msgRunningInWow64Title>在 WoW64 环境下运行</msgRunningInWow64Title>
+        <msgCannotStartHelper>无法启动 'UninstallToolHelper.exe' 进程。 \n\n请重新安装软件。</msgCannotStartHelper>
+        <msgUninstallingMyself>您想要删除 Uninstall Tool 的设置和所有关于已追踪的安装的数据吗?</msgUninstallingMyself>
+        <msgUnableToCreateFile>无法创建文件:\n%s</msgUnableToCreateFile>
+    </Messages>
+    <Trial>
+        <txtUnregisteredBig>未注册版本</txtUnregisteredBig>
+        <msgNotAvailableInTrial>本功能仅在注册版中可用。</msgNotAvailableInTrial>
+        <msgNotAvailableInTrial2>您可以保留残留数据并在之后通过程序列表中 '%s' 项目上的强制删除功能删除它们。</msgNotAvailableInTrial2>
+        <checkDeleteDataLater>保存并在以后删除残留数据</checkDeleteDataLater>
+    </Trial>
+    <HTMLReport>
+        <htmlFiles>HTML 文件</htmlFiles>
+        <allFiles>所有文件</allFiles>
+        <generatedByOn>由 %s 于 %s 生成</generatedByOn>
+        <installedPrograms>已安装程序 (%s)</installedPrograms>
+        <startupPrograms>自启动程序</startupPrograms>
+    </HTMLReport>
+    <Misc>
+        <btnOK>确定</btnOK>
+        <btnCancel>取消</btnCancel>
+        <btnHelp>帮助</btnHelp>
+        <btnYes>是</btnYes>
+        <btnNo>否</btnNo>
+        <btnClose>关闭</btnClose>
+        <statusTotalInfo>总计 %d 个程序占用空间 %s</statusTotalInfo>
+        <statusUnknown>未知</statusUnknown>
+        <statusRecentItems>最近安装</statusRecentItems>
+        <statusRecentItemsTip>查看最近安装/修改的程序</statusRecentItemsTip>
+        <statusStartupTotalInfo>总计 %d 个程序，%d 个正在运行</statusStartupTotalInfo>
+        <statusCalculatingOccupiedSize>正在计算占用空间... %s</statusCalculatingOccupiedSize>
+        <statusNewVersionAvailable>新版本可用:</statusNewVersionAvailable>
+        <popupNewProgramsFound>发现 %d 个新程序!</popupNewProgramsFound>
+        <popupNewProgramsFoundDontNotify>下次不再通知我</popupNewProgramsFoundDontNotify>
+        <WindowsUpdatesText>Windows 更新</WindowsUpdatesText>
+        <UninstallToolDescription>完全卸载程序。安装并追踪软件。管理自启动程序</UninstallToolDescription>
+    </Misc>
+    <ShellExtension>
+        <InstallWithInstallTracker>安装并使用安装追踪器追踪...</InstallWithInstallTracker>
+        <InstallWithInstallTrackerTip>安装并追踪程序对您的电脑做出的所有更改</InstallWithInstallTrackerTip>
+        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+    </ShellExtension>
+    <UnhandledExceptionHandler>
+        <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
+        <msgTitleTemplate>%app_name% - 未处理的异常</msgTitleTemplate>
+        <msgTemplate>我们很抱歉，但发生了未处理的异常，\n%app_name% 已变得不稳定。 \n请将电子邮件发送到 '%email%'\n同时附上下列故障转储文件:\n\n%dump_file%\n\n按下 '发送报告' 按钮后，撰写好的邮件将打开默认邮件程序。</msgTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
+        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file '%dump_file%')\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <btnSend>发送报告 (推荐)</btnSend>
+    </UnhandledExceptionHandler>
+    <Setup>
+        <other_tasks>其他任务:</other_tasks>
+        <install_service>安装追踪服务 ('安装并追踪' 功能)</install_service>
+        <control_panel_icon_text>添加 Uninstall Tool 图标到控制面板</control_panel_icon_text>
+        <installing_driver>正在安装内核驱动...</installing_driver>
+        <ut_initializing>Uninstall Tool 正在初始化...</ut_initializing>
+        <pin_to_taskbar_text>将 Uninstall Tool 图标固定到任务栏</pin_to_taskbar_text>
+        <skip_uac_option>使用 Windows 任务计划程序跳过用户账户控制确认以简化程序启动</skip_uac_option>
+        <register_msix>Registering Windows 11 context menu...</register_msix>
+    </Setup>
+</LanguageStrings>
