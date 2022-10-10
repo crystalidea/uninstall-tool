@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.6" LangID="1042" Author="VᴇɴᴜsGɪʀʟ💋비너스걸💗">
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.7" LangID="1042" Author="VᴇɴᴜsGɪʀʟ💋비너스걸💗">
     <MainMenu>
         <mnuFile>파일(&amp;F)</mnuFile>
         <mnuFileExport>HTML로 내보내기(&amp;H)...</mnuFileExport>
         <mnuFileExit>종료(&amp;X)</mnuFileExit>
         <mnuAction>작업(&amp;A)</mnuAction>
-        <mnuActionUninstall>제거(&amp;U)...</mnuActionUninstall>
+        <mnuActionUninstall>설치 제거(&amp;U)...</mnuActionUninstall>
         <mnuActionModify>수정(&amp;M)...</mnuActionModify>
         <mnuActionDelete>강제 제거(&amp;F)</mnuActionDelete>
         <mnuActionDeleteBatch>일괄 강제 제거(&amp;F)</mnuActionDeleteBatch>
@@ -102,7 +102,7 @@
         <btnInstallAndTraceTooltip>새 프로그램 설치 및 파일 시스템 및 레지스트리의 모든 변경 사항 확인</btnInstallAndTraceTooltip>
     </SecondaryToolbar>
     <ExplorerBar>
-        <itemUninstallIt>제거</itemUninstallIt>
+        <itemUninstallIt>설치 제거</itemUninstallIt>
         <itemModifyIt>수정</itemModifyIt>
         <itemDelete>모든 흔적 강제 제거</itemDelete>
         <itemBatchDelete>모든 흔적 일괄 강제 제거</itemBatchDelete>
@@ -169,8 +169,8 @@
         <checkCheckForBetaVersions>베타 버전도 확인</checkCheckForBetaVersions>
         <staticInterfaceLanguage>인터페이스 언어:</staticInterfaceLanguage>
         <checkControlPanelIcon>제어판에 Uninstall Tool 아이콘 표시</checkControlPanelIcon>
-        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
-        <checkTotalCommander>Total Commander를 사용하여 프로그램 디렉토리로 이동 (설치된 경우)</checkTotalCommander>
+        <checkShellExtension>설치 파일 (exe/msi)에 대한 '설치 및 추적' 명령을 Windows 탐색기의 상황에 맞는 메뉴에 추가</checkShellExtension>
+        <checkTotalCommander>Total Commander를 사용하여 프로그램 디렉터리로 이동 (설치된 경우)</checkTotalCommander>
         <!-- interface -->
         <categoryInterface>인터페이스</categoryInterface>
         <checkToolBarCaptions>도구모음 버튼 이름 표시</checkToolBarCaptions>
@@ -178,9 +178,9 @@
         <checkSmallIcons>앱에서 목록 압축</checkSmallIcons>
         <checkMark32bitApps>32비트 앱 표시</checkMark32bitApps>
         <frameColorScheme>색 구성표</frameColorScheme>
-        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
-        <colorSchemeLight>Light mode (default)</colorSchemeLight>
-        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <colorSchemeAuto>Windows 밝은/어두운 모드와 일치</colorSchemeAuto>
+        <colorSchemeLight>밝은 모드 (기본값)</colorSchemeLight>
+        <colorSchemeDark>어두운 모드</colorSchemeDark>
         <!-- Uninstaller -->
         <staticTreeLikeUpdates>트리 모양으로 소프트웨어 업데이트 (하위 항목) 표시:</staticTreeLikeUpdates>
         <checkDisplayUpdates>소프트웨어 업데이트 표시</checkDisplayUpdates>
@@ -192,9 +192,9 @@
         <checkDisplayPopup>최근에 설치된 응용 프로그램이 있는 팝업 창 표시</checkDisplayPopup>
         <checkHighlighRecent>최근에 설치된 프로그램 강조</checkHighlighRecent>
         <checkRecentOnSecondaryToolbar>보조 도구모음에 최근 프로그램 표시</checkRecentOnSecondaryToolbar>
-        <categoryUninstallWizard>Uninstall Wizard™</categoryUninstallWizard>
-        <staticWizardDesctiption>응용 프로그램을 제거할 때 기본 제공 제거 프로그램을 실행한 후 Uninstall Wizard ™에서 시스템 레지스트리 및 파일 시스템에서 사용되지 않는 레지스트리 항목 및 파일을 자세히 검색할 수 있습니다. 자동으로 실행하거나 제거 마법사를 실행 중지하거나 매번 실행 여부를 묻는 메시지를 받도록 선택할 수 있습니다. 제거 마법사는 항상 추적된 프로그램에 대해 실행됩니다.</staticWizardDesctiption>
-        <staticWizardUsage>내장된 제거 프로그램을 실행한 후 Uninstall Wizard™ 실행:</staticWizardUsage>
+        <categoryUninstallWizard>Uninstall 마법사™</categoryUninstallWizard>
+        <staticWizardDesctiption>응용 프로그램을 제거할 때 기본 제공 제거 프로그램을 실행한 후 Uninstall 마법사 ™에서 시스템 레지스트리 및 파일 시스템에서 사용되지 않는 레지스트리 항목 및 파일을 자세히 검색할 수 있습니다. 자동으로 실행하거나 제거 마법사를 실행 중지하거나 매번 실행 여부를 묻는 메시지를 받도록 선택할 수 있습니다. 제거 마법사는 항상 추적된 프로그램에 대해 실행됩니다.</staticWizardDesctiption>
+        <staticWizardUsage>내장된 제거 프로그램을 실행한 후 Uninstall 마법사™ 실행:</staticWizardUsage>
         <comboItemWizardOption1>실행하기 전에 묻기</comboItemWizardOption1>
         <comboItemWizardOption2>자동</comboItemWizardOption2>
         <comboItemWizardOption3>사용 안 함</comboItemWizardOption3>
@@ -215,7 +215,7 @@
         <statusNothingFound>남은 흔적 찌꺼기를 찾을 수 없습니다.</statusNothingFound>
         <statusAllTracesRemoved>모든 흔적이 제거되었습니다</statusAllTracesRemoved>
         <statusDeletingProgramTraces>프로그램 흔적 삭제 중...</statusDeletingProgramTraces>
-        <staticScanStatusFound>Uninstall Tool가 컴퓨터에 다음 프로그램 흔적이 여전히 남아 있음을 감지했습니다. 해당 항목을 주의 깊게 검토한 후 선택한 항목을 제거할 준비가 되었으면 '마침'을 클릭하십시오.</staticScanStatusFound>
+        <staticScanStatusFound>Uninstall Tool이 컴퓨터에 다음 프로그램 흔적이 여전히 남아 있음을 감지했습니다. 해당 항목을 주의 깊게 검토한 후 선택한 항목을 제거할 준비가 되었으면 '마침'을 클릭하십시오.</staticScanStatusFound>
         <staticScanStatusRemoved>%s이(가) 성공적으로 제거되었습니다.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>선택한 나머지 항목이 모두 제거되었습니다.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>흔적 목록을 생성하는 중</staticScanStatusGeneratingTracesList>
@@ -230,7 +230,7 @@
         <btnFinish>마침</btnFinish>
         <btnCancel>취소</btnCancel>
         <btnClose>닫기</btnClose>
-        <btnUninstall>제거</btnUninstall>
+        <btnUninstall>설치 제거</btnUninstall>
     </UninstallWizard>
     <DelayedFilesRemovalDialog>
         <Title>일부 파일이 삭제되지 않았습니다</Title>
@@ -241,7 +241,7 @@
     <RunningProcessesDialog>
         <Title>실행 중인 프로세스를 강제로 종료하시겠습니까?</Title>
         <Instruction1>다음 프로세스가 탐지되었습니다:</Instruction1>
-        <Instruction2>제거하기 전에 수동으로 종료하는 것이 좋지만 Uninstall Wizard™에서 강제로 종료할 수 있습니다.</Instruction2>
+        <Instruction2>제거하기 전에 수동으로 종료하는 것이 좋지만 Uninstall 마법사™에서 강제로 종료할 수 있습니다.</Instruction2>
     </RunningProcessesDialog>
     <InstallTracker>
         <InstallTrackerLocalizedName>설치 추적기</InstallTrackerLocalizedName>
@@ -323,7 +323,7 @@
     <DependentItemsDialog>
         <Title>'%s' 제거</Title>
         <Instruction>종속 항목도 제거하시겠습니까?</Instruction>
-        <Footer>Tracker 설치 추적이 활성화된 상태에서 '%s'를 설치했으며 위의 항목도 설치되었습니다. 즉, Uninstall Wizard™를 사용하면 추적된 모든 종속 구성 요소도 제거됩니다. 현재 항목의 제거만 선택하면 추적 데이터가 무시되고 Uninstall Wizard™에서 이 프로그램에 참조된 나머지 데이터를 검색합니다.</Footer>
+        <Footer>Tracker 설치 추적이 활성화된 상태에서 '%s'를 설치했으며 위의 항목도 설치되었습니다. 즉, Uninstall 마법사™를 사용하면 추적된 모든 종속 구성 요소도 제거됩니다. 현재 항목의 제거만 선택하면 추적 데이터가 무시되고 Uninstall 마법사™에서 이 프로그램에 참조된 나머지 데이터를 검색합니다.</Footer>
         <btnOnlyCurrent>%s 만</btnOnlyCurrent>
     </DependentItemsDialog>
     <RelatedItemsDialog>
@@ -333,7 +333,7 @@
     </RelatedItemsDialog>
     <UninstallWizardConfirmation>
         <staticConfirm>내장된 제거 프로그램이 작업을 마쳤습니다. 시스템 레지스트리 및 파일 시스템에서 사용되지 않은 레지스트리 항목과 남아 있는 파일을 자세히 검색하시겠습니까?</staticConfirm>
-        <learnMoreAboutWizard>Uninstall Wizard™에 대한 자세한 정보</learnMoreAboutWizard>
+        <learnMoreAboutWizard>Uninstall 마법사™에 대한 자세한 정보</learnMoreAboutWizard>
         <btnYes>예</btnYes>
         <btnNo>아니오</btnNo>
         <checkDontAskAgain>선택 사항을 기억하고 다시 묻지 않음 (기본 설정에서 변경될 수 있음)</checkDontAskAgain>
@@ -341,11 +341,11 @@
     <DlgAbout>
         <DlgAboutCaption>Uninstall Tool 정보</DlgAboutCaption>
         <staticWebSite>웹사이트</staticWebSite>
-        <staticSupport>지원</staticSupport>
+        <staticSupport>지원 - 한국어 번역: 비너스걸</staticSupport>
         <staticEULA>EULA</staticEULA>
         <staticPrivacyPolicy>개인 보호 정책</staticPrivacyPolicy>
         <staticRegisteredTo>이 제품의 등록 사용자:</staticRegisteredTo>
-        <staticChangeKey>라이센스 키 변경</staticChangeKey>
+        <staticChangeKey>라이선스 키 변경</staticChangeKey>
     </DlgAbout>
     <UnregDlg>
         <UnregDlgReminder>평가판 알림</UnregDlgReminder>
@@ -456,7 +456,7 @@
     <ShellExtension>
         <InstallWithInstallTracker>설치 감시기로 설치 및 추적...</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>컴퓨터에서 프로그램의 모든 변경 사항 설치 및 추적</InstallWithInstallTrackerTip>
-        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+        <InstallWithInstallTrackerShort>설치 추적기로 설치</InstallWithInstallTrackerShort>
     </ShellExtension>
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
@@ -474,6 +474,6 @@
         <ut_initializing>Uninstall Tool 초기화 중...</ut_initializing>
         <pin_to_taskbar_text>작업 표시줄에 Uninstall Tool 아이콘 고정</pin_to_taskbar_text>
         <skip_uac_option>Windows 작업 스케줄러를 사용하여 사용자 계정 컨트롤 확인을 생략하여 앱 실행을 단순화합니다</skip_uac_option>
-        <register_msix>Registering Windows 11 context menu...</register_msix>
+        <register_msix>Windows 11 상황에 맞는 메뉴를 등록하는 중...</register_msix>
     </Setup>
 </LanguageStrings>
