@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Reģistra ieraksts</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>I&amp;nstalēšanas mape</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;;Programmas mājas lapa</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Pārlūkot Atrašanās vieta...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Pārlūkot avots...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Google par</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu Visi</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>Nav programmu, kas automātiski darbojas uz Windows sākumu</staticNoStartupItems>
         <staticNoStartupItemsTip>Jūs varat manuāli &lt;a&gt;pievienot jaunu programmu&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Sistēmas sastāvdaļas un uzlabojumi</btnSystemToolTip>
         <btnHidden>Slēpts</btnHidden>
         <btnHiddenToolTip>Slēptās sastāvdaļas</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Nesen uzstādīta (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Nesen instalētās/updated preces</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Instalēt un izsekot</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Visi lietotāji Autorun sākt izvēle</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Pašreizējais Lietotājs Autorun sākt izvēle</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Pievienot jaunu starta programma</DlgAddNewStartupProgramCaption>

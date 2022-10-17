@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>レジストリ エントリ(&amp;R)</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>インストール フォルダー(&amp;I)</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>プログラムの Web サイト(&amp;P)</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>場所の参照...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>ソースの参照...</mnuActionBrowseSource>
         <mnuActionGoogleFor>ググる</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>Windows の起動時に自動的に実行されるプログラムはありません</staticNoStartupItems>
         <staticNoStartupItemsTip>手動で&lt;a&gt;新しいプログラムを追加する&lt;/a&gt;ことができます</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>システムのコンポーネントと更新</btnSystemToolTip>
         <btnHidden>隠しコンポーネント</btnHidden>
         <btnHiddenToolTip>隠しコンポーネント</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>最近のインストール (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>最近インストール/更新されたアイテム</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>インストールとトレース</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>すべてのユーザーの自動実行スタート メニュー</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>現在のユーザーの自動実行スタート メニュー</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>新しいスタートアップ プログラムの追加</DlgAddNewStartupProgramCaption>

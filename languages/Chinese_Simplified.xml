@@ -69,7 +69,7 @@
         <sourceStartMenuAll>开始菜单 (所有用户)</sourceStartMenuAll>
         <sourceStartMenuCU>开始菜单 (当前用户)</sourceStartMenuCU>
         <sourceWindowsTask>Windows 任务</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>没有程序在 '%s' 类别中</staticNoProgramsInCategory>
         <staticNoStartupItems>没有在 Windows 启动时自动运行的程序</staticNoStartupItems>
         <staticNoStartupItemsTip>您可以手动 &lt;a&gt;添加新的程序&lt;/a&gt;</staticNoStartupItemsTip>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>所有用户开始菜单启动文件夹</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>当前用户开始菜单启动文件夹</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>登陆时执行的 Windows 任务计划</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>添加新的自启动程序</DlgAddNewStartupProgramCaption>

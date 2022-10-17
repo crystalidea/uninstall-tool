@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>برنامه ای در دسته '%s' نیست</staticNoProgramsInCategory>
         <staticNoStartupItems>برنامه ای که با شروع ویندوز آغاز شود وجود ندارد</staticNoStartupItems>
         <staticNoStartupItemsTip>شما میتوانید دستی &lt;a&gt;یک برنامه جدید اضافه کنید&lt;/a&gt;</staticNoStartupItemsTip>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>All Users Autorun Start Menu</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Current User Autorun Start Menu</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>وظیفه زمان بند شده ویندوز در لاگین</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>افزودن برنامه جدید در استارت آپ</DlgAddNewStartupProgramCaption>

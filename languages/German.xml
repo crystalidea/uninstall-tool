@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Eintrag der Registrierung öffnen</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Installationsordner öffnen</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Homepage der Anwendung</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Im Windows Store öffnen</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Im Microsoft Store öffnen</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Dateisystem durchsuchen …</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Registrierung durchsuchen …</mnuActionBrowseSource>
         <mnuActionGoogleFor>Mit Google suchen:</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>Keine Anwendungen in der Kategorie „%s” vorhanden.</staticNoProgramsInCategory>
         <staticNoStartupItems>Es gibt keine Anwendungen, die automatisch beim Start von Windows ausgeführt werden.</staticNoStartupItems>
         <staticNoStartupItemsTip>Sie können manuell &lt;a&gt;eine neue Anwendung hinzufügen&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>System Komponenten und Updates</btnSystemToolTip>
         <btnHidden>Ausgeblendet</btnHidden>
         <btnHiddenToolTip>Ausgeblendete Komponenten</btnHiddenToolTip>
-        <btnStoreApps>Apps aus dem Windows Store</btnStoreApps>
-        <btnStoreAppsToolTip>Apps die aus dem Windows Store installiert wurden</btnStoreAppsToolTip>
+        <btnStoreApps>Apps aus dem Microsoft Store</btnStoreApps>
+        <btnStoreAppsToolTip>Apps die aus dem Microsoft Store installiert wurden</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Kürzlich installiert (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Kürzlich installiert/aktualisierte Einträge</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Installation aufzeichnen</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Autostart-Startmenü - Alle Benutzer</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Autostart-Startmenü - Aktueller Benutzer</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Geplante Windows-Aufgabe bei Anmeldung</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Neue Anwendung zum Autostart hinzufügen</DlgAddNewStartupProgramCaption>

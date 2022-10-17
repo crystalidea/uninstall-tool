@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Register Post</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Installations Mappe</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Programmets Website</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Gennemse Placering...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Gennemse Kilde...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Google efter</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>Der er ingen programmer som automatisk kører under Windows start</staticNoStartupItems>
         <staticNoStartupItemsTip>Du kan manuelt &lt;a&gt;tilføje et nyt program&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>System Komponenter og Opdatéringer</btnSystemToolTip>
         <btnHidden>Skjult</btnHidden>
         <btnHiddenToolTip>Skjulte Komponenter</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Nyeligt Installéret (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Nyeligt installéret/opdatéret emner</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Installér og spor</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Alle Brugere Autokør Start Menu</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Aktuel Bruger Autokør Start Menu</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Tilføj et nyt opstarts program</DlgAddNewStartupProgramCaption>

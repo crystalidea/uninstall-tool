@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Rendszerleíró bejegyzés</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>Telepítési mappa</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Program weboldal</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Megnyitás a Windows Store-ban</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Megnyitás a Microsoft Store-ban</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Hely keresése...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Forrás keresése...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Google</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu összes felhasználó</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu jelenlegi felhasználó</sourceStartMenuCU>
         <sourceWindowsTask>Windows feladat</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>Nincsenek programok a(z) '%s' kategóriában</staticNoProgramsInCategory>
         <staticNoStartupItems>Nincsenek a Windows indításakor automatikusan betöltődő programok.</staticNoStartupItems>
         <staticNoStartupItemsTip>Manuálisan is &lt;a&gt;hozzáadhat egy új programot&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Rendszer összetevők és frissítések</btnSystemToolTip>
         <btnHidden>Rejtett</btnHidden>
         <btnHiddenToolTip>Rejtett összetevők</btnHiddenToolTip>
-        <btnStoreApps>Windows Store alkalmazások</btnStoreApps>
-        <btnStoreAppsToolTip>Alkalmazások telepítve a Windows Store-ból</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store alkalmazások</btnStoreApps>
+        <btnStoreAppsToolTip>Alkalmazások telepítve a Microsoft Store-ból</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Legutóbb telepített (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Legutóbb telepített/frissített elemek</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Telepítés és felügyelet</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Minden felhasználó Autorun start menü</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Jelenlegi felhasználó Autorun start menü</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows feladat ütemezve bejelentkezéskor</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Új automatikusan induló program hozzáadása</DlgAddNewStartupProgramCaption>

@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Registri sisestus</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Paigaldamise kaust</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Programmi veebileht</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Otsi asukohta...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Otsi allikat...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Otsi Googlist</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>Stardimenüü kõik</sourceStartMenuAll>
         <sourceStartMenuCU>Stardimenüü CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>Pole ühtegi programmi, mis automaatselt käivituvad Windows</staticNoStartupItems>
         <staticNoStartupItemsTip>Sa saad käsitisi &lt;a&gt;lisada uue programmi&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Süsteemi komponendid ja uuendused</btnSystemToolTip>
         <btnHidden>Varjatud</btnHidden>
         <btnHiddenToolTip>Varjatud komponendid</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Hiljuti paigaldatud (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Hiljuti paigaldatud/uuenenud programmid</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Paigalda ja jälgi</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Kõikide kasutajate windowsi stardi menüü</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Valitud kasutaja automaatne start menüü käivitamine</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Lisa uus käivitus programm</DlgAddNewStartupProgramCaption>

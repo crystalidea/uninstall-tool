@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Įrašas registre</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Programos aplankas</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Programos tinklalapis</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>&amp;Programos aplankas...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>&amp;Paleisties šaltinis...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Ieškoti per Google</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>START meniu (visi vartotojai)</sourceStartMenuAll>
         <sourceStartMenuCU>START meniu (dabartinis vartotojas)</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>Nėra su Windows automatiškai paleidžiamų programų</staticNoStartupItems>
         <staticNoStartupItemsTip>Galite rankiniu būdu &lt;a&gt;įkelti naują programą&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Sistemos komponentai ir atnaujinimai</btnSystemToolTip>
         <btnHidden>Paslėpti</btnHidden>
         <btnHiddenToolTip>Paslėptos programos</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Neseniai įdiegtos (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Neseniai įdiegtos/atnaujintos</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Įdiegti ir sekti</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>START meniu (visi vartotojai)</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>START meniu (dabartinis vartotojas)</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Pridėti naują programą į paleistį</DlgAddNewStartupProgramCaption>

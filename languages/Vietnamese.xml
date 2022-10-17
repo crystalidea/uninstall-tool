@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Khóa Registry</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Thư mục cài đặt</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Website chương trình</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Duyệt vị trí...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Duyệt nguồn...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Google ... </mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>Chưa có chương trình tự động chạy khi khởi động Windows </staticNoStartupItems>
         <staticNoStartupItemsTip>Bạn có thề tự cài thêm chương trình mới</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Thành phần hệ thống cà cậ nhật</btnSystemToolTip>
         <btnHidden>Ấn</btnHidden>
         <btnHiddenToolTip>Thành phần ẩn</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Cài đặt gần đây (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Mục vừa mới cài đặt / cập nhật</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Cài đặt và theo dõi</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>All Users Autorun Start Menu</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Current User Autorun Start Menu</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Thêm một chương trình khởi động mới</DlgAddNewStartupProgramCaption>

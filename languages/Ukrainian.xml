@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Запис у реєстрі</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Папка програми</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Веб-сайт програми</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Відкрити у Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Відкрити у Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Папка програми...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Джерело запуску...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Шукати в Google</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Завдання</sourceWindowsTask>
-        <sourceWindowsStoreTask>Програма Windows Store</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Програма Microsoft Store</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>В категорії '%s' немає програм</staticNoProgramsInCategory>
         <staticNoStartupItems>Не знайдено програм, що запускаються автоматично при старті Windows</staticNoStartupItems>
         <staticNoStartupItemsTip>Ви можете власноруч &lt;a&gt;додати нову програму&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Системні компоненти та оновлення</btnSystemToolTip>
         <btnHidden>Приховані</btnHidden>
         <btnHiddenToolTip>Приховані компоненти</btnHiddenToolTip>
-        <btnStoreApps>Програми з Windows Store</btnStoreApps>
-        <btnStoreAppsToolTip>Програми, встановлені з магазина Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Програми з Microsoft Store</btnStoreApps>
+        <btnStoreAppsToolTip>Програми, встановлені з магазина Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Недавно встановлено (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Недавно встановлені/оновлені програми</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Встановити і відстежувати</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Меню Пуск (всі користувачі)</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Меню Пуск (поточний користувач)</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Завдання Windows, заплановане під час входу</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Завдання запуску програми Windows Store</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Завдання запуску програми Microsoft Store</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Додати нову програму в автозапуск</DlgAddNewStartupProgramCaption>

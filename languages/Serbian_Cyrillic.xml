@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Регистарски унос</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Фасцикла инсталације</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Веб-сајт програма</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Отвори локацију...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Отвори извор...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Претражи помоћу Google-а</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>Не постоје програми који се аутоматски покрећу са Windows-ом</staticNoStartupItems>
         <staticNoStartupItemsTip>Можете ручно да &lt;a&gt;додате нови програм&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Системске компоненте и исправке</btnSystemToolTip>
         <btnHidden>Скривено</btnHidden>
         <btnHiddenToolTip>Скривене компоненте</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Недавно инсталирано (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Недавно инсталирани/ажурирани програми</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Надгледај инсталацију</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Фасцикла аутоматског покретања менија Старт за све кориснике</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Фасцикла аутоматског покретања менија Старт за тренутног корисника</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Додавање новог програма</DlgAddNewStartupProgramCaption>

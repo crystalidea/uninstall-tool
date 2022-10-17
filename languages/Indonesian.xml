@@ -69,7 +69,7 @@
         <sourceStartMenuAll>Semua StartMenu</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Tugas Windows</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>Tidak ada program pada kategori '%s'</staticNoProgramsInCategory>
         <staticNoStartupItems>Tidak ada program yang mulai otomatis saat Window mulai</staticNoStartupItems>
         <staticNoStartupItemsTip>Anda dapat secara manual &lt;a&gt;menambah program baru&lt;/a&gt;</staticNoStartupItemsTip>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Kunci Autorun Menu Mulai Semua Pengguna</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Kunci Autorun Menu Mulai Pengguna Saat Ini</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Tugas Windows Terjadwal pada Saat Logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Tambah program mulai baru</DlgAddNewStartupProgramCaption>

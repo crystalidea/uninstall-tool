@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Запис в регистъра</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Инсталационна папка</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Сайт на програмата</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Преглед на локацията...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Преглед на източника...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Google за</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>Не са открити програми, които стартират автоматично при зареждане на Windows</staticNoStartupItems>
         <staticNoStartupItemsTip>Можете ръчно &lt;a&gt;да добавите нова програма&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Системни компоненти и ъпдейти</btnSystemToolTip>
         <btnHidden>Скрити</btnHidden>
         <btnHiddenToolTip>Скрити компоненти</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Наскоро инсталирани (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Наскоро инсталирани/обновени елементи</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Инсталирай и проследи</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Автоматично изпълнение на меню Старт за всички потребители</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Автоматично изпълнение на меню Старт за текущия потребител</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Добавяне на нова програма в автостарт</DlgAddNewStartupProgramCaption>

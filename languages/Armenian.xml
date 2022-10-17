@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Գրանցամատյանի գրառումը</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Ծրագրի թղթապանակը</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Ծրագրի վեբ կայքը</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Ծրագրի թղթապանակը...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Աղբյուրը...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Որոնել Google-ում`</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>Չկան Windows-ի հետ միաժամանակ մեկնարկվող ծրագրեր</staticNoStartupItems>
         <staticNoStartupItemsTip>Կարող եք ինքներդ &lt;a&gt;ավելացնել նոր ծրագիր:&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Համակարգային բաղադրիչները և թարմացումները</btnSystemToolTip>
         <btnHidden>Թաքնված</btnHidden>
         <btnHiddenToolTip>Թաքնված բաղադրիչները</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Վերջին տեղադրվածները (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Վերջին տեղադրվածները/թարմացվածները</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Տեղադրել և հետևել</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Բոլոր օգտվողների Ինքնամեկնարկվող ծրագրերը</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Ընթացիկ օգտվողի Ինքնամեկնարկվող ծրագրերը</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Մուտք գործելիս հերթագրված է Windows-ի առաջադրանք</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Ավելացնել նոր ինքնամեկնարկվող ծրագիր</DlgAddNewStartupProgramCaption>

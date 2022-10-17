@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>रजिस्ट्री प्रविष्टि</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;स्थापन फोल्डर</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>प्रोग्राम वेबसाइट</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>स्थान खोजें ...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>मूल खोजें...</mnuActionBrowseSource>
         <mnuActionGoogleFor>गूगल करें...</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu सब</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>कोई प्रोग्राम विन्डोझ के साथ रन होने वाला नहीं है।</staticNoStartupItems>
         <staticNoStartupItemsTip>आप नया प्रोग्राम जोड सकते हैं</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>सिस्टम के घटक तथा नविनीकरण</btnSystemToolTip>
         <btnHidden>गोपनीय</btnHidden>
         <btnHiddenToolTip>गोपनीय घटक</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>नूतन स्थापन (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>नूतन स्थापित/नविनीकृत चीजें</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>स्थापित कर के सुराग रखें</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>सभी उपयोगकर्ता ओटोरन स्टार्ट सूची</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>वर्तमान उपयोगकर्ता ओटोरन स्टार्ट सूची</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>नया स्टार्टअप प्रोग्राम जोडें</DlgAddNewStartupProgramCaption>

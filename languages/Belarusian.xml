@@ -69,7 +69,7 @@
         <sourceStartMenuAll>Меню Пуск Усе</sourceStartMenuAll>
         <sourceStartMenuCU>Меню Пуск БК</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>У катэгорыі '%s' няма праграм</staticNoProgramsInCategory>
         <staticNoStartupItems>Няма праграм, якія запускаюцца аўтаматычна з запускам Windows</staticNoStartupItems>
         <staticNoStartupItemsTip>Вы можаце &lt;a&gt;дадаць новую праграму&lt;/a&gt; ўручную</staticNoStartupItemsTip>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Галоўнае меню (усе карыстальнікі)</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Галоўнае меню (бягучы карыстальнік)</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Задача Windows запланавана запуск</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Дадаць новую праграму ў аўтазагрузку</DlgAddNewStartupProgramCaption>

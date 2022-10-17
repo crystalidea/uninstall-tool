@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Item in Register</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Installatie Map</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Website Programma</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Zoek op Locatie...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Zoek op Bron...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Zoek bij Google</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu Alle Gebruikers</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu Huidige Gebruiker</sourceStartMenuCU>
         <sourceWindowsTask>Windows Taak</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>Geen programma's in '%s' categorie</staticNoProgramsInCategory>
         <staticNoStartupItems>Er zijn geen Programma's die Automatisch Opstarten bij de Start van Windows</staticNoStartupItems>
         <staticNoStartupItemsTip>U kunt handmatig &lt;a&gt;een nieuw Programma toevoegen&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Systeem Componenten en Updates</btnSystemToolTip>
         <btnHidden>Verborgen</btnHidden>
         <btnHiddenToolTip>Verborgen Componenten</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps geïnstalleerd uit de Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps geïnstalleerd uit de Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Laatst Geïnstalleerd (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Laatste Geïnstalleerde/geüpdate items</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Installeer en Monitor</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>All Users Autorun Start Menu</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Current User Autorun Start Menu</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows-taak gepland bij aanmelding</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Voeg een nieuw Programma toe</DlgAddNewStartupProgramCaption>

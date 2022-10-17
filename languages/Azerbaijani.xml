@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>Reyestr yazısı</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>Proqramın qovluğu</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>Proqramın Veb Səhifəsi</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Proqramın qovluğu...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Mənbəyə baxış...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Google-da axtar</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>Kompüter işə düşdükdə, sistemlə birlikdə yüklənən proqram tapplmadı.Windows start</staticNoStartupItems>
         <staticNoStartupItemsTip>Yeni proqram &lt;a&gt;Əlavə et&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Sistem komponentləri və yenilənmələri</btnSystemToolTip>
         <btnHidden>Gizli</btnHidden>
         <btnHiddenToolTip>Gizli Komponentlər</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Ən son quraşdırılan (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Ən son quraşdırılan/yenilənən proqramlar</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Quraşdır və izlə</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Baş menyu (bütün istifadəçilər)</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Baş menyu (hazırki istifadəçi)</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Avtobaşlamaya yeni proqram əlavə et</DlgAddNewStartupProgramCaption>

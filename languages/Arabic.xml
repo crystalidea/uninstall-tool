@@ -69,7 +69,7 @@
         <sourceStartMenuAll>كل قائمة البدء</sourceStartMenuAll>
         <sourceStartMenuCU>المحدد من قائمة البدء</sourceStartMenuCU>
         <sourceWindowsTask>مهام الوندوز</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>الفئة '%s' ليس هنالك برامج في</staticNoProgramsInCategory>
         <staticNoStartupItems>ليس هناك برامج يتم تشغيلها تلقائيا عند بدء التشغيل</staticNoStartupItems>
         <staticNoStartupItemsTip>يمكنك يدويا اضافة برنامج جديد</staticNoStartupItemsTip>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>تشغيل تلقائي لقائمة ابدا لدى كل المستخدمين</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>تشغيل تلقائي لقائمة ابدا لدى المستخدم الحالي</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>تكيلف الوندوز بمهمة جدولة تسجيل الدخول</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>اضافة برنامج جديد لبدء التشغيل</DlgAddNewStartupProgramCaption>

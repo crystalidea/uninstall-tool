@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu Všetci</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu Aktuálny užívateľ</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>V kategórii '%s' nie je žiadny program</staticNoProgramsInCategory>
         <staticNoStartupItems>Neexistujú programy, ktoré by sa spúšťali automaticky pri štarte Windows</staticNoStartupItems>
         <staticNoStartupItemsTip>Môžete manuálne &lt;a&gt;pridať nový program&lt;/a&gt;</staticNoStartupItemsTip>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Štart Menu položka Po spustení pre všetkých používateľov</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Štart Menu položka Po spustení pre prihláseného používateľa</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task naplánovaný po prihlásení</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Pridať nový program spúšťaný pri štarte</DlgAddNewStartupProgramCaption>

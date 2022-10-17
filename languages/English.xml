@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Registry Entry</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Installation Folder</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Program Website</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Browse Location...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Browse Source...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Google for</mnuActionGoogleFor>
@@ -70,7 +70,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>There're no programs that automatically run on Windows start</staticNoStartupItems>
         <staticNoStartupItemsTip>You can manually &lt;a&gt;add a new program&lt;/a&gt;</staticNoStartupItemsTip>
@@ -97,8 +97,8 @@
         <btnSystemToolTip>System Components and Updates</btnSystemToolTip>
         <btnHidden>Hidden</btnHidden>
         <btnHiddenToolTip>Hidden Components</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Recently Installed (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Recently installed/updated items</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Install and trace</btnInstallAndTrace>
@@ -152,7 +152,7 @@
         <itemSourceStartMenu_All>All Users Autorun Start Menu</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Current User Autorun Start Menu</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
 
     <DlgAddNewStartupProgram>

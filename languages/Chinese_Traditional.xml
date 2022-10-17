@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows 工作</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>沒有程式在 '%s' 類別中</staticNoProgramsInCategory>
         <staticNoStartupItems>Windows 啟動時沒有程式自動執行</staticNoStartupItems>
         <staticNoStartupItemsTip>您可以手動 &lt;a&gt;加入一個新的程式&lt;/a&gt;</staticNoStartupItemsTip>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>所有使用者自動執行開始功能表</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>目前使用者自動執行開始功能表</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>登入時已排程的 Windows 工作</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>加入新的啟動程式</DlgAddNewStartupProgramCaption>

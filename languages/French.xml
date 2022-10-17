@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Entrée du registre</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Dossier d'installation</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Site web du programme</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Parcourir le dossier...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Parcourir le registre...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Google Pour</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>Menu démarrer (Tout les utilisateurs)</sourceStartMenuAll>
         <sourceStartMenuCU>Menu démarrer (Utilisateur courant)</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>il n'y'a pas de programme qui s'exécute automatiquement au démarrage de Windows</staticNoStartupItems>
         <staticNoStartupItemsTip>Vous pouvez ajouter manuellement &lt;a&gt;un nouveau programme&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Composants et mise à jour système</btnSystemToolTip>
         <btnHidden>Apps Cachées</btnHidden>
         <btnHiddenToolTip>Composants cachés</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Récemment installé (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Programme récemment installé ou mis à jour</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Installer et pister un programme</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Menu de démarrage automatique (All Users)</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Menu démarrage (Current User)</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Ajouter un nouveau programme au démarrage</DlgAddNewStartupProgramCaption>

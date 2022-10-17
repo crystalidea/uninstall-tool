@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Položka registru</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Instalační složka</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Internetová stránka programu</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Přejít do složky...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Přejít na zdroj...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Vyhledat na Google</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>Neexistují programy automaticky spouštěné po startu Windows</staticNoStartupItems>
         <staticNoStartupItemsTip>Můžete manuálně &lt;a&gt;přidat nový program&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Systémové komponenty a aktualizace</btnSystemToolTip>
         <btnHidden>Skryté</btnHidden>
         <btnHiddenToolTip>Skryté komponenty</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Posledně nainstalované (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Posledně nainstalované/aktualizované položky</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Nainstalovat a zaznamenat</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Start Menu položka Po startu pro všechny užívatele</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Start Menu položka Po startu pro přihlášeného užívatele</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Přidat nový program po startu</DlgAddNewStartupProgramCaption>

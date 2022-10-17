@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>Windows açılışında yüklenen program bulunmuyor</staticNoStartupItems>
         <staticNoStartupItemsTip>Kendiniz &lt;a&gt;yeni bir program ekleyin&lt;/a&gt;</staticNoStartupItemsTip>
@@ -95,7 +95,7 @@
         <btnHidden>Gizli</btnHidden>
         <btnHiddenToolTip>Gizli bileşenler</btnHiddenToolTip>
         <btnStoreApps>Windows Mağazası Uygulamaları</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Son Kurulumlar (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Son kurulan/güncellenen maddeler</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Kur ve İzle</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>All Users Autorun Start Menu</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Current User Autorun Start Menu</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Açılışta yüklenen yeni bir program ekle</DlgAddNewStartupProgramCaption>

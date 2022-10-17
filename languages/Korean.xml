@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>레지스트리 항목(&amp;R)</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>설치 폴더(&amp;I)</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>프로그램 웹사이트(&amp;P)</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Windows Store에서 열기</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Microsoft Store에서 열기</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>위치 찾아보기...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>소스 찾아보기...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Google 검색</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>시작 메뉴 (모든 사용자)</sourceStartMenuAll>
         <sourceStartMenuCU>시작 메뉴 (현재 사용자)</sourceStartMenuCU>
         <sourceWindowsTask>Windows 작업</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store 앱</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store 앱</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>'%s' 범주에 프로그램이 없습니다</staticNoProgramsInCategory>
         <staticNoStartupItems>Windows 시작시 자동으로 실행되는 프로그램이 없습니다</staticNoStartupItems>
         <staticNoStartupItemsTip>직접 &lt;a&gt;새 프로그램을 추가&lt;/a&gt;할 수 있습니다</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>시스템 구성 요소 및 업데이트</btnSystemToolTip>
         <btnHidden>숨김</btnHidden>
         <btnHiddenToolTip>구성 요소 숨김</btnHiddenToolTip>
-        <btnStoreApps>Windows Store 앱</btnStoreApps>
-        <btnStoreAppsToolTip>Windows Store에서 설치된 앱</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store 앱</btnStoreApps>
+        <btnStoreAppsToolTip>Microsoft Store에서 설치된 앱</btnStoreAppsToolTip>
         <btnRecentlyInstalled>최근에 설치됨 (%u개)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>최근에 설치/업데이트된 항목</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>설치 및 추적</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>모든 사용자 자동 시작 시작 메뉴</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>현재 사용자 자동 시작 시작 메뉴</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>로그온 시 예약된 Windows 작업</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store 앱 시작 작업</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store 앱 시작 작업</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>새 시작 프로그램 추가</DlgAddNewStartupProgramCaption>

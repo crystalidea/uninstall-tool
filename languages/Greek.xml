@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Καταχώρηση Μητρώου</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>Φάκελος &amp;Εγκατάστασης</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>Ιστοσελίδα &amp;Προγράμματος</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Εύρεση Θέσης...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Εύρεση Προέλευσης...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Εύρεση Google για</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>Μενού Έναρξης Όλα</sourceStartMenuAll>
         <sourceStartMenuCU>Μενού Έναρξης CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>Δεν υπάρχουν προγράμματα που ξεκινούν αυτόματα με τα Windows</staticNoStartupItems>
         <staticNoStartupItemsTip>Μπορείτε χειροκίνητα &lt;a&gt; να προσθέσετε ένα νέο πρόγραμμα&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Στοιχεία Συστήματος και Ενημερώσεις</btnSystemToolTip>
         <btnHidden>Κρυφά</btnHidden>
         <btnHiddenToolTip>Κρυφά Στοιχεία</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Πρόσφατα Εγκατεστημένα (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Πρόσφατα εγκατεστημένα/ενημερωμένα στοιχεία</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Εγκατάσταση με Ανίχνευση</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Μενού Έναρξης Αυτόματης Εκτέλεσης Όλων των Χρηστών</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Μενού Έναρξης Αυτόματης Εκτέλεσης Τρέχοντος Χρήστη</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Πρόσθεση νέου προγράμματος έναρξης</DlgAddNewStartupProgramCaption>

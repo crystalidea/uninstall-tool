@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Запись в реестре</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Папка программы</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Веб-сайт программы</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Открыть в Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Открыть в Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>&amp;Папка программы...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>&amp;Источник запуска...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Искать в Google</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Задание</sourceWindowsTask>
-        <sourceWindowsStoreTask>Программа Windows Store</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Программа Microsoft Store</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>Похоже, программ в группе '%s' нет</staticNoProgramsInCategory>
         <staticNoStartupItems>Программ, автоматически запускаемых при старте компьютера, не обнаружено</staticNoStartupItems>
         <staticNoStartupItemsTip>Вы можете &lt;a&gt;добавить&lt;/a&gt; новую программу вручную</staticNoStartupItemsTip>
@@ -94,7 +94,7 @@
         <btnSystemToolTip>Системные компоненты и обновления системы</btnSystemToolTip>
         <btnHidden>Скрытые</btnHidden>
         <btnHiddenToolTip>Скрытые программы</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
         <btnStoreAppsToolTip>Программы, установленные из магазина приложений Windows</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Недавно установлено (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Недавно установленные/обновленные программы</btnRecentlyInstalledTooltip>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>Главное меню (все пользователи)</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Главное меню (текущий пользователь)</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Задание, запланированное на вход пользователя</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Программа из Windows Store</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Программа из Microsoft Store</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Добавить новую программу в автозагрузку</DlgAddNewStartupProgramCaption>

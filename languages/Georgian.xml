@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;რეესტრის ჩანაწერი</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;შემცველი საქაღალდის გახსნა</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;პროგრამის ვებ-გვერდი</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>შემცველი საქაღალდის გახსნა...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>წყაროს ნახვა...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Google-ში ძებნა</mnuActionGoogleFor>
@@ -69,7 +69,7 @@
         <sourceStartMenuAll>სტარტ-მენიუ - ყველა მომხმარებელი</sourceStartMenuAll>
         <sourceStartMenuCU>სტარტ-მენიუ - მიმდინარე მომხმარებელი</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Windows Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
         <staticNoStartupItems>არ არის პროგრამები რომლებიც ავტომატურად ეშვებიან სისტემის ჩართვისას</staticNoStartupItems>
         <staticNoStartupItemsTip>თქვენ შეგიძლიათ თვითონ &lt;a&gt;დაამატოთ ახალი პროგრამა&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>სისტემის განახლებები და კომპონენტები</btnSystemToolTip>
         <btnHidden>უჩინარი</btnHidden>
         <btnHiddenToolTip>უჩინარი კომპონენტები</btnHiddenToolTip>
-        <btnStoreApps>Windows Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Windows Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
+        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>ახლად დაინსტალირებული (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>ახლად დაინსტალირებული/განახლებული ელემენტები</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>დააყენე და დააკვირდი</btnInstallAndTrace>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>სტარტ-მენიუ\ავტოგაშვება (ყველა მომხმარებელი)</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>სტარტ-მენიუ\ავტოგაშვება (მიმდინარე მომხმარებელი)</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Windows Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>ავტოგაშვების ჩანაწერის დამატება</DlgAddNewStartupProgramCaption>
