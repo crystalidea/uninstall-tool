@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.6" LangID="1058" Author="Oleksii Koval">
+<LanguageStrings version="3.7" LangID="1058" Author="Oleksii Koval">
     <MainMenu>
         <mnuFile>&amp;Файл</mnuFile>
         <mnuFileExport>&amp;Експортувати список в html...</mnuFileExport>
@@ -178,9 +178,9 @@
         <checkSmallIcons>Компактний список програм</checkSmallIcons>
         <checkMark32bitApps>Помічати 32-бітові програми</checkMark32bitApps>
         <frameColorScheme>Кольорова схема</frameColorScheme>
-        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
-        <colorSchemeLight>Light mode (default)</colorSchemeLight>
-        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <colorSchemeAuto>Відповідати світлому/темному режиму Windows</colorSchemeAuto>
+        <colorSchemeLight>Світлий режим (за замовчуванням)</colorSchemeLight>
+        <colorSchemeDark>Темний режим</colorSchemeDark>
         <!-- Uninstaller -->
         <staticTreeLikeUpdates>Деревоподібне відображення оновлень програм (підпункти):</staticTreeLikeUpdates>
         <checkDisplayUpdates>&amp;Показувати оновлення програм</checkDisplayUpdates>
