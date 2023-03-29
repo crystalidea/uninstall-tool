@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.9.7" LangID="1043,2067" Author="John Andriessen">
+<LanguageStrings version="3.7.2" LangID="1043,2067" Author="John Andriessen">
     <MainMenu>
         <mnuFile>&amp;Bestand</mnuFile>
         <mnuFileExport>&amp;Uitvoer naar HTML...</mnuFileExport>
@@ -11,10 +11,10 @@
         <mnuActionDeleteBatch>Batch &amp;Geforceerd Verwijderen</mnuActionDeleteBatch>
         <mnuActionRemoveEntry>Verwijder &amp;Ingave</mnuActionRemoveEntry>
         <mnuActionRemoveEntryBatch>Batch Verwijder &amp;Ingaves</mnuActionRemoveEntryBatch>
-        <mnuTracedData>Gemonitorde Data</mnuTracedData>
+        <mnuTracedData>Gevolgde gegevens</mnuTracedData>
         <mnuTracedDataAsXML>Toon als XML...</mnuTracedDataAsXML>
-        <mnuTracedDataUndoTracing>Terugzetten Gemonitorde Data</mnuTracedDataUndoTracing>
-        <mnuTracedDataAppend>Voeg getraceerde gegevens toe (Install and Trace)...</mnuTracedDataAppend>
+        <mnuTracedDataUndoTracing>Terugzetten gevolgde gegevens</mnuTracedDataUndoTracing>
+        <mnuTracedDataAppend>Voeg gevolgde gegevens toe (Install and Trace)...</mnuTracedDataAppend>
         <mnuActionJumpToRegistry>&amp;Item in Register</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Installatie Map</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Website Programma</mnuActionJumpToWebSite>
@@ -27,7 +27,7 @@
         <mnuViewMainToolbarShow>Toon Werkbalk</mnuViewMainToolbarShow>
         <mnuViewMainToolbarButtonLabels>Toon Omschrijving onder Icons</mnuViewMainToolbarButtonLabels>
         <mnuViewSecondaryToolbar>Tweede Werkbalk</mnuViewSecondaryToolbar>
-        <mnuViewRefresh>&amp;Vernieuw</mnuViewRefresh>
+        <mnuViewRefresh>&amp;Verversen</mnuViewRefresh>
         <mnuViewListColumnsReset>Reset Kolommen</mnuViewListColumnsReset>
         <mnuViewLanguage>Selecteer Taal</mnuViewLanguage>
         <mnuTools>&amp;Gereedschap</mnuTools>
@@ -52,10 +52,10 @@
         <mnuHelpAbout>&amp;Over...</mnuHelpAbout>
     </MainMenu>
     <ListCtrl>
-        <columnProgramName>Programma Naam</columnProgramName>
+        <columnProgramName>Programma</columnProgramName>
         <columnSize>Grootte</columnSize>
         <columnInstallationDate>Installatie Datum</columnInstallationDate>
-        <columnTraced>Gemonitord</columnTraced>
+        <columnTraced>Gevolgd</columnTraced>
         <staticNoItemsMatchingFilterTip>&lt;a&gt;Reset&lt;/a&gt; zoekfilter (Esc key) of probeer andere categorieën te doorzoeken</staticNoItemsMatchingFilterTip>
         <staticLoading>Aan het laden, even wachten a.u.b...</staticLoading>
         <!-- Start up pane -->
@@ -71,7 +71,7 @@
         <sourceWindowsTask>Windows Taak</sourceWindowsTask>
         <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>Geen programma's in '%s' categorie</staticNoProgramsInCategory>
-        <staticNoStartupItems>Er zijn geen Programma's die Automatisch Opstarten bij de Start van Windows</staticNoStartupItems>
+        <staticNoStartupItems>Er zijn geen Programma's die automatisch opstarten bij de start van Windows</staticNoStartupItems>
         <staticNoStartupItemsTip>U kunt handmatig &lt;a&gt;een nieuw Programma toevoegen&lt;/a&gt;</staticNoStartupItemsTip>
         <mark32bitItem>(32-bit)</mark32bitItem>
     </ListCtrl>
@@ -79,9 +79,9 @@
         <btnUninstaller>Uninstaller</btnUninstaller>
         <btnUninstallerToolTip>Verwijder bestaande Programma's of installeer en zoek naar nieuwe Software</btnUninstallerToolTip>
         <btnStartup>Opstarten</btnStartup>
-        <btnStartupToolTip>Programma's die Automatisch Opstarten</btnStartupToolTip>
-        <btnRefresh>Vernieuwen</btnRefresh>
-        <btnRefreshToolTip>Vernieuw Programmalijst</btnRefreshToolTip>
+        <btnStartupToolTip>Programma's die automatisch opstarten</btnStartupToolTip>
+        <btnRefresh>Verversen</btnRefresh>
+        <btnRefreshToolTip>Ververs Programmalijst</btnRefreshToolTip>
         <btnPrefs>Voorkeuren</btnPrefs>
         <btnPrefsToolTip>Toon Voorkeurvenster</btnPrefsToolTip>
         <btnHelp>Help</btnHelp>
@@ -96,10 +96,10 @@
         <btnHiddenToolTip>Verborgen Componenten</btnHiddenToolTip>
         <btnStoreApps>Microsoft Store Apps</btnStoreApps>
         <btnStoreAppsToolTip>Apps geïnstalleerd uit de Microsoft Store</btnStoreAppsToolTip>
-        <btnRecentlyInstalled>Laatst Geïnstalleerd (%u)</btnRecentlyInstalled>
-        <btnRecentlyInstalledTooltip>Laatste Geïnstalleerde/geüpdate items</btnRecentlyInstalledTooltip>
-        <btnInstallAndTrace>Installeer en Monitor</btnInstallAndTrace>
-        <btnInstallAndTraceTooltip>Installeer een nieuw Programma en Monitor alle wijzigingen, die gemaakt worden in het Bestandssysteem en het Register</btnInstallAndTraceTooltip>
+        <btnRecentlyInstalled>Laatst geïnstalleerd (%u)</btnRecentlyInstalled>
+        <btnRecentlyInstalledTooltip>Laatste geïnstalleerde/geüpdate items</btnRecentlyInstalledTooltip>
+        <btnInstallAndTrace>Installeer en Volg</btnInstallAndTrace>
+        <btnInstallAndTraceTooltip>Installeer een nieuw Programma en Volg alle wijzigingen, die gemaakt worden in het Bestandssysteem en het Register</btnInstallAndTraceTooltip>
     </SecondaryToolbar>
     <ExplorerBar>
         <itemUninstallIt>Verwijderen</itemUninstallIt>
@@ -112,7 +112,7 @@
         <itemSearch>Zoeken</itemSearch>
         <itemShortSearchTip>Type naam te Verwijderen Programma</itemShortSearchTip>
         <itemVersion>Versie:</itemVersion>
-        <itemInstalledOn>Geïnstalleerd/Updated op:</itemInstalledOn>
+        <itemInstalledOn>Geïnstalleerd/Bijgewerkt op:</itemInstalledOn>
         <itemPublisher>Uitgever:</itemPublisher>
         <itemRegistryEntry>Bekijk de Register Sleutel</itemRegistryEntry>
         <itemUninstallInProgress>Verwijderen is bezig</itemUninstallInProgress>
@@ -121,7 +121,7 @@
         <itemModifyInProgress>Bezig met wijzigen</itemModifyInProgress>
         <itemModifyInProgressTip>Wijzigen %s, wacht a.u.b. tot de wijziging is doorgevoerd...</itemModifyInProgressTip>
         <itemNothingFound>Niets gevonden!</itemNothingFound>
-        <itemNoItemsMatchingFilter>Geen Overeenkomstig Programma gevonden '%s' in de %s Categorie</itemNoItemsMatchingFilter>
+        <itemNoItemsMatchingFilter>Geen overeenkomstig Programma gevonden '%s' in de %s Categorie</itemNoItemsMatchingFilter>
         <itemGroup>Dit is een groep Programma's</itemGroup>
         <itemNoUninstall>Het Programma kan niet op de normale manier worden Verwijderd, u kunt het proberen met Geforceerd Verwijderen.</itemNoUninstall>
         <itemTracedOnly>Aantal Resten gevonden. Deze kunnen alleen Verwijderd worden met Geforceerde Verwijdering.</itemTracedOnly>
@@ -167,9 +167,9 @@
         <checkSkipUACHelpText>Als u deze optie activeert, kunt u de UAC-bevestiging omzeilen bij het starten van de Uninstall Tool ("Wilt u toestaan dat deze app wijzigingen aanbrengt op uw apparaat?"). De optie kan erg handig zijn wanneer Uninstall Tool vaak wordt gestart.\n\nWanneer ingeschakeld, maakt Uninstall Tool een taak met verhoogde rechten van Windows Taakplanner die wordt uitgevoerd telkens wanneer u de app wilt uitvoeren. \n\nGeldt voor Windows Vista en hoger wanneer UAC is ingeschakeld.</checkSkipUACHelpText>
         <checkCheckForUpdates>Controleer of er Updates zijn bij de Programmastart</checkCheckForUpdates>
         <checkCheckForBetaVersions>Controleer op beta versies</checkCheckForBetaVersions>
-        <staticInterfaceLanguage>Interface Taal:</staticInterfaceLanguage>
+        <staticInterfaceLanguage>Interfacetaal:</staticInterfaceLanguage>
         <checkControlPanelIcon>Toon Uninstall Tool icon in Configuratiescherm</checkControlPanelIcon>
-        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkShellExtension>Voeg de opdracht 'Installeren en Volgen' voor installatiebestanden (exe/msi) toe aan het contextmenu van Windows Verkenner</checkShellExtension>
         <checkTotalCommander>Navigeer naar Programmamap met gebruik van Total Commander, indien geïnstalleerd</checkTotalCommander>
         <!-- interface -->
         <categoryInterface>Interface</categoryInterface>
@@ -178,12 +178,12 @@
         <checkSmallIcons>Kleine Iconen</checkSmallIcons>
         <checkMark32bitApps>Markeer 32-bit Apps</checkMark32bitApps>
         <frameColorScheme>Kleurenschema</frameColorScheme>
-        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
-        <colorSchemeLight>Light mode (default)</colorSchemeLight>
-        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <colorSchemeAuto>Kleurenschema van Windows (lichte/donkere modus) gebruiken</colorSchemeAuto>
+        <colorSchemeLight>Lichte modus (standaard)</colorSchemeLight>
+        <colorSchemeDark>Donkere modus</colorSchemeDark>
         <!-- Uninstaller -->
-        <staticTreeLikeUpdates>Tree-like software updates (sub-items):</staticTreeLikeUpdates>
-        <checkDisplayUpdates>Toon Software Updates</checkDisplayUpdates>
+        <staticTreeLikeUpdates>Boomachtige Software-Updates (subitems):</staticTreeLikeUpdates>
+        <checkDisplayUpdates>Toon Software-Updates</checkDisplayUpdates>
         <comboItemTreeUpdatesCollapsed>Eerst Eenvoudig</comboItemTreeUpdatesCollapsed>
         <comboItemTreeUpdatesExpanded>Eerst Uitgebreid</comboItemTreeUpdatesExpanded>
         <comboItemTreeUpdatesAlwaysExpanded>Altijd Uitgebreid</comboItemTreeUpdatesAlwaysExpanded>
@@ -193,7 +193,7 @@
         <checkHighlighRecent>Markeer Nieuw Geïnstalleerde Programma's</checkHighlighRecent>
         <checkRecentOnSecondaryToolbar>Toon Nieuwe Programma's in de Tweede Werkbalk</checkRecentOnSecondaryToolbar>
         <categoryUninstallWizard>Uninstall Wizard ™</categoryUninstallWizard>
-        <staticWizardDesctiption>Bij het verwijderen van een toepassing kan Uninstall Wizard ™, na het uitvoeren van het ingebouwde verwijderings programma, een diepgaande scan van het systeemregister en bestandssysteem uitvoeren voor ongebruikte register vermeldingen en bestanden. \nU kunt ervoor kiezen om u elke keer te laten vragen of u het wilt starten of niet, om het automatisch uit te laten voeren, of de Uninstall Wizard uit te schakelen. \nUninstall Wizard ™ wordt altijd uitgevoerd voor gemonitorde programma's.</staticWizardDesctiption>
+        <staticWizardDesctiption>Bij het verwijderen van een toepassing kan Uninstall Wizard ™, na het uitvoeren van het ingebouwde verwijderings programma, een diepgaande scan van het systeemregister en bestandssysteem uitvoeren voor ongebruikte register vermeldingen en bestanden. \nU kunt ervoor kiezen om u elke keer te laten vragen of u het wilt starten of niet, om het automatisch uit te laten voeren, of de Uninstall Wizard uit te schakelen. \nUninstall Wizard ™ wordt altijd uitgevoerd voor gevolgde programma's.</staticWizardDesctiption>
         <staticWizardUsage>Gebruik Uninstall Wizard ™:</staticWizardUsage>
         <comboItemWizardOption1>Altijd Vragen</comboItemWizardOption1>
         <comboItemWizardOption2>Automatisch</comboItemWizardOption2>
@@ -244,24 +244,24 @@
         <Instruction2>Het wordt aanbevolen om deze handmatig te stoppen, maar Uninstall Wizard ™ kan dit ook Geforceerd Verwijderen.</Instruction2>
     </RunningProcessesDialog>
     <InstallTracker>
-        <InstallTrackerLocalizedName>Installeer Monitor</InstallTrackerLocalizedName>
-        <Title>Installeer en Monitor een Programma</Title>
-        <TitleAppend>Installeer en Monitor, voeg gevonden data toe aan '%s'</TitleAppend>
+        <InstallTrackerLocalizedName>Installeer Volgen</InstallTrackerLocalizedName>
+        <Title>Installeer en Volg een Programma</Title>
+        <TitleAppend>Installeer en Volg, voeg gevonden data toe aan '%s'</TitleAppend>
         <staticPathToProgram>Pad naar een Setup Bestand (.exe, .msi):</staticPathToProgram>
         <staticInstallProgress>Installatie Voortgang:</staticInstallProgress>
         <checkMinimize>Minimaliseer Uninstall Tool naar het Systeemvak gedurende de Installatie</checkMinimize>
-        <btnInstall>Installeer en Monitor</btnInstall>
+        <btnInstall>Installeer en Volg</btnInstall>
         <btnStop>Stop</btnStop>
         <btnSave>Bewaar</btnSave>
         <btnSaveLog>Bewaar Log...</btnSaveLog>
         <btnNoAndRevert>Nee + Ga terug</btnNoAndRevert>
         <staticRevertInfo>Terugkeer optie probeert alle systeem/register items die aangemaakt zijn tijdens de installatie terug te draaien.</staticRevertInfo>
-        <installTip1>Ga door met installatie zoals gebruikelijk terwijl Uninstall Tool het in de gaten houdt. Het Monitoren zal automatisch gestopt worden als alle Processen afgelopen zijn of U kunt het handmatig stoppen als Setup klaar is</installTip1>
+        <installTip1>Ga door met installatie zoals gebruikelijk terwijl Uninstall Tool het in de gaten houdt. Het Volgen zal automatisch gestopt worden als alle Processen afgelopen zijn of U kunt het handmatig stoppen als Setup klaar is</installTip1>
         <installTip2>Let erop dat er geen andere Installatie wordt uitgevoerd op dit moment</installTip2>
         <installTip3>Als een vorige versie van het Programma al geïnstalleerd is, dient U deze eerst te verwijderen, voordat een nieuwe versie wordt geïnstalleerd</installTip3>
         <trayIconTitle>Bezig met Installeren '%s'...</trayIconTitle>
-        <trayIconTooltip>Gebruik rechter-muisklik menu om Monitoren te Stoppen of Logbestand te bekijken</trayIconTooltip>
-        <trayIconText>Ga door met Installeren terwijl Uninstall Tool alles in de gaten houdt. Het Monitoren wordt automatisch gestopt als alle processen zijn beëindigd of U kunt het handmatig stoppen (Rechtermuis-click menu) als Setup is beëindigd</trayIconText>
+        <trayIconTooltip>Gebruik rechter-muisklik menu om Volgen te stoppen of Logbestand te bekijken</trayIconTooltip>
+        <trayIconText>Ga door met Installeren terwijl Uninstall Tool alles in de gaten houdt. Het Volgen wordt automatisch gestopt als alle processen zijn beëindigd of U kunt het handmatig stoppen (Rechtermuis-click menu) als Setup is beëindigd</trayIconText>
         <trayIconMenuProgress>Installatie Voortgang</trayIconMenuProgress>
         <trayIconMenuStop>Stop</trayIconMenuStop>
         <readMore>Lees Verder</readMore>
@@ -279,26 +279,26 @@
         <logEventProcessCreated>Proces Aangemaakt</logEventProcessCreated>
         <logEventProcessKilled>Proces Gestopt</logEventProcessKilled>
         <logEventDeleteOperation>Verwijderen</logEventDeleteOperation>
-        <logStartingService>Start Installatie Monitor Service...</logStartingService>
-        <logStartingServiceError1>Fout: CisUtMonitor service is bezig te stoppen</logStartingServiceError1>
-        <logStartingServiceError2>Fout: CisUtMonitor opstarten duurt te lang</logStartingServiceError2>
-        <logStartingServiceError3>Fout: Kan de CisUtMonitor service niet starten (fout %u)</logStartingServiceError3>
-        <logStartingServiceError4>Fout: Kan de CisUtMonitor service niet starten. Herinstalleer a.u.b. het Programma.</logStartingServiceError4>
-        <logServiceStopped>Monitor Service is beëindigd</logServiceStopped>
-        <logServiceStopError>Fout: Niet mogelijk de Monitor Service te Stoppen</logServiceStopError>
+        <logStartingService>Start Installatie Volg Service...</logStartingService>
+        <logStartingServiceError1>Fout: CisUtVolg service is bezig te stoppen</logStartingServiceError1>
+        <logStartingServiceError2>Fout: CisUtVolg opstarten duurt te lang</logStartingServiceError2>
+        <logStartingServiceError3>Fout: Kan de CisUtVolg service niet starten (fout %u)</logStartingServiceError3>
+        <logStartingServiceError4>Fout: Kan de CisUtVolg service niet starten. Herinstalleer a.u.b. het Programma.</logStartingServiceError4>
+        <logServiceStopped>Volg Service is beëindigd</logServiceStopped>
+        <logServiceStopError>Fout: Niet mogelijk de Volg Service te Stoppen</logServiceStopError>
         <logServiceVersion>Service versie is: 0x%x</logServiceVersion>
-        <logServiceVersionOlder>Monitor versie is: 0x%x, Moet zijn 0x%x. Herinstalleer a.u.b. het Programma.</logServiceVersionOlder>
-        <logServiceMonitorRunning>Waarschuwing: Active Monitor wordt gestopt...</logServiceMonitorRunning>
-        <logServiceMonitorStarted>Installatie Monitor is gestart</logServiceMonitorStarted>
+        <logServiceVersionOlder>Volg versie is: 0x%x, Moet zijn 0x%x. Herinstalleer a.u.b. het Programma.</logServiceVersionOlder>
+        <logServiceMonitorRunning>Waarschuwing: Actief Volgen wordt gestopt...</logServiceMonitorRunning>
+        <logServiceMonitorStarted>Installatie Volgen is gestart</logServiceMonitorStarted>
         <logTrackingStarting>Begonnen %s...</logTrackingStarting>
         <logTrackingStartingEror>Fout: Kan het Setup Process niet starten(error %u)</logTrackingStartingEror>
-        <logTrackingCannotStart>Fout: Kan de Monitor niet starten. Herinstalleer het Programma a.u.b.</logTrackingCannotStart>
-        <logTrackingStoppedByUser>Monitoren is gestopt door gebruiker</logTrackingStoppedByUser>
+        <logTrackingCannotStart>Fout: Kan het Volgen niet starten. Herinstalleer het Programma a.u.b.</logTrackingCannotStart>
+        <logTrackingStoppedByUser>Volgen is gestopt door gebruiker</logTrackingStoppedByUser>
         <logTrackingAllProcessesFinished>Alle Installatie Processen zijn beëindigd</logTrackingAllProcessesFinished>
         <logTrackingCompleted>Setup is beëindigd</logTrackingCompleted>
         <logTracingAnalyzing>Analiseren van Installatie, wachten a.u.b. ...</logTracingAnalyzing>
         <logUninstallEntriesDetected>%u Installatie items ontdekt</logUninstallEntriesDetected>
-        <logNewUninstallEntriesDetected>%u nieuwe installatie ingaves gedetecteerd:</logNewUninstallEntriesDetected>
+        <logNewUninstallEntriesDetected>%u Nieuwe Installatie ingaves gedetecteerd:</logNewUninstallEntriesDetected>
         <logTrackingDone>Klaar</logTrackingDone>
         <logReverting>Terugdraaien van wijzigingen...</logReverting>
         <logCompleted>Voltooid</logCompleted>
@@ -308,13 +308,13 @@
         <logMSIServiceError3>Fout: Kan de MSI Service Status niet opvragen</logMSIServiceError3>
     </InstallTracker>
     <InstallTrackerCustomEntryDialog>
-        <Title>Er zijn geen nieuwe Installatie Items gevonden tijdens het Monitoren. Over het algemeen betekent dit dat het Programma niet correct is geïnstalleerd, maar als U er zeker van bent dat de Installatie goed is verlopen mag U het Nieuwe Programma in de Apps lijst aanmaken. Alle gevonden Resten zullen daarnaar verwezen worden.</Title>
+        <Title>Er zijn geen nieuwe Installatie Items gevonden tijdens het Volgen. Over het algemeen betekent dit dat het Programma niet correct is geïnstalleerd, maar als U er zeker van bent dat de Installatie goed is verlopen mag U het Nieuwe Programma in de Apps lijst aanmaken. Alle gevonden Resten zullen daarnaar verwezen worden.</Title>
         <staticName>Naam:</staticName>
         <checkCreateCustomEntry>Ik wil een Nieuw Item aan de Lijst toevoegen</checkCreateCustomEntry>
     </InstallTrackerCustomEntryDialog>
     <InstallTrackerMultipleEntries>
         <Caption>Meerdere Installatie Items gevonden</Caption>
-        <Title>Meerdere Installatie Items gevonden in het Windows Register na de Installatie. Selecteer a.u.b. het Hoofd Item dat in de Apps lijst moet worden weergegeven met een speciaal Icon in de 'Gemonitord' Kolom. Besef dat als de Gemonitorde data wordt Verwijderd van het Hoofd Item, Uninstall Tool ook de Gemonitorde data van alle daarmee verbonden Items verwijdert.</Title>
+        <Title>Meerdere Installatie Items werden gevonden in het Windows Register na de installatie. Selecteer a.u.b. het Hoofd Item dat in de Apps lijst moet worden weergegeven met een speciaal Icon in de 'Gevolgd' Kolom. Besef dat als de Gevolgde data wordt verwijderd van het Hoofd Item, Uninstall Tool ook de gevolgde data van alle daarmee verbonden Items verwijdert.</Title>
         <btnSelect>Selecteer</btnSelect>
     </InstallTrackerMultipleEntries>
     <TracedXMLDialog>
@@ -323,7 +323,7 @@
     <DependentItemsDialog>
         <Title>Verwijderen '%s'</Title>
         <Instruction>Verwijder alle afhankelijke Items?</Instruction>
-        <Footer>U installeerde '%s' met Installatie Monitor ingeschakeld en de Bovenstaande Items zijn ook geïnstalleerd. Het betekent dat bij gebruik van Uninstall Wizard ™ ook alle afhankelijke componenten zullen worden verwijderd. Als alleen huidig Item wordt geselecteerd, wordt het gemonitorde genegeerd en zal Uninstall Wizard ™ zoeken naar overblijfselen die naar dit Programma verwijzen.</Footer>
+        <Footer>U installeerde '%s' met installatie Volgen ingeschakeld en de bovenstaande items zijn ook geïnstalleerd. Het betekent dat bij gebruik van Uninstall Wizard ™ ook alle afhankelijke componenten zullen worden verwijderd. Als alleen huidig Item wordt geselecteerd, wordt het Gevolgde genegeerd en zal Uninstall Wizard ™ zoeken naar overblijfselen die naar dit Programma verwijzen.</Footer>
         <btnOnlyCurrent>Alleen %s</btnOnlyCurrent>
     </DependentItemsDialog>
     <RelatedItemsDialog>
@@ -343,7 +343,7 @@
         <staticWebSite>Website</staticWebSite>
         <staticSupport>Support</staticSupport>
         <staticEULA>EULA</staticEULA>
-        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticPrivacyPolicy>Privacybeleid</staticPrivacyPolicy>
         <staticRegisteredTo>Dit product is geregistreerd op naam van::</staticRegisteredTo>
         <staticChangeKey>Wijzig Registratie Code</staticChangeKey>
     </DlgAbout>
@@ -368,13 +368,13 @@
         <msgForceRemovalTitle>Geforceerde Verwijdering van '%s'</msgForceRemovalTitle>
         <msgForceRemovalTitleBatch>Batch Geforceerde Verwijdering</msgForceRemovalTitleBatch>
         <msgForceRemovalQuestion>Bent u er zeker van dat u een Geforceerde Verwijdering wilt van dit programma?</msgForceRemovalQuestion>
-        <msgForceRemovalQuestionBatch>Bent u er zeker van dat u een Geforceerde Verwijdering wilt van deze programma"s?</msgForceRemovalQuestionBatch>
+        <msgForceRemovalQuestionBatch>Bent u er zeker van dat u een Geforceerde Verwijdering wilt van deze programma's?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Geforceerd Verwijderen van deze lijst maakt geen gebruik van de bij het geïnstalleerde programma behorende Uninstaller. Het zal alleen alle gevonden bestanden en register items verwijderen die bij het programma horen. U dient deze funktie alleen te gebruiken bij verouderde of ongeldige vermeldingen.</msgForceRemovalDescription>
-        <msgForceRemovalDescriptionTraced>Geforceerd Verwijderen van een Gemonitord programma voert een ultra snel en grondige verwijdering uit zonder gebruik te maken van het standaard deïnstallatie programma. Het zal alle bestanden en registerverwijzingen verwijderen die tijdens het gemonitorde installeren zijn waargenomen.</msgForceRemovalDescriptionTraced>
-        <msgForceRemovalDescriptionBatch>Batch Geforceerd Verwijderen is een geavanceerde eigenschap en dient voorzichtig gebruik te worden. Het maakt geen gebruik van de bijbehorende Uninstallers, maar scant alleen op overblijfselen van bestanden en registervermeldingen. Er wordt een lijst getoond die U uitvoerig dient te controleren. De meest grondige en nauwkeurige Verwijdering wordt uitgevoerd voor Programma's die geïnstalleerd zijn met Installatie Monitor.</msgForceRemovalDescriptionBatch>
+        <msgForceRemovalDescriptionTraced>Geforceerd Verwijderen van een Gevolgd programma voert een ultra snel en grondige verwijdering uit zonder gebruik te maken van het standaard deïnstallatie programma. Het zal alle bestanden en registerverwijzingen verwijderen die tijdens het getraseerde installeren zijn waargenomen.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionBatch>Batch Geforceerd Verwijderen is een geavanceerde eigenschap en dient voorzichtig gebruik te worden. Het maakt geen gebruik van de bijbehorende Uninstallers, maar scant alleen op overblijfselen van bestanden en registervermeldingen. Er wordt een lijst getoond die U uitvoerig dient te controleren. De meest grondige en nauwkeurige Verwijdering wordt uitgevoerd voor Programma's die geïnstalleerd zijn met Installatie Volgen.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>afhankelijk</msgForceRemovalItemDependent>
         <msgLearnMore>Leer meer</msgLearnMore>
-        <msgForceRemovalCheck>Ok, ik begrijp en neem de verantwoordelijkheid</msgForceRemovalCheck>
+        <msgForceRemovalCheck>Ok, ik begrijp het en neem de verantwoordelijkheid</msgForceRemovalCheck>
         <msgRemoveUninstallTool>Weet U zeker dat U Uninstall Tool van Uw computer wilt verwijderen?</msgRemoveUninstallTool>
         <msgRemoveEntryQuestion>Bent u er zeker van dat u de vermeldingen wilt verwijderen?</msgRemoveEntryQuestion>
         <msgRemoveEntryQuestionBatch>Bent u er zeker van dat u de vermeldingen wilt verwijderen?</msgRemoveEntryQuestionBatch>
@@ -383,8 +383,8 @@
         <msgForceCancelWaiting>Bent U er zeker van dat U de Deïnstallatie wilt Opheffen van dit Programma?</msgForceCancelWaiting>
         <msgForceCancelWaitingFooter>Geforceerd opheffen zou alleen gebruikt moeten worden als de standaard Uninstaller is vastgelopen of als U met spoed alle lopende Uninstall Processen moet stoppen. Correcte opheffing dient te gebeuren door de standaard Uninstaller van het Programma, omdat Geforceerde Verwijdering tot onverwachte effecten kan leiden.</msgForceCancelWaitingFooter>
         <!-- messages related to Install Tracker -->
-        <msgTracedItem>Gevonden Item '%s' wordt nu getoond in de Programma Lijst met een speciaal Icon in de 'Gemonitord' kolom.</msgTracedItem>
-        <msgTracedItemAppended>Getraceerde gegevens worden nu toegevoegd aan het eerder gevonden item '%s'.</msgTracedItemAppended>
+        <msgTracedItem>Gevonden Item '%s' wordt nu getoond in de Programma Lijst met een speciaal Icon in de 'Gevolgd' kolom.</msgTracedItem>
+        <msgTracedItemAppended>Gevolgde gegevens worden nu toegevoegd aan het eerder gevonden item '%s'.</msgTracedItemAppended>
         <msgTracedItemAppendedNote>Houd er rekening mee dat nieuwe installatie-items worden behandeld als afhankelijke items en later samen met '% s' kunnen worden verwijderd (na bevestiging).</msgTracedItemAppendedNote>
         <msgUndoTracing>Weet U zeker dat Uninstall Tool alle gevonden data van dit Programma mag vergeten?</msgUndoTracing>
         <msgTrackingServiceNotInstalled>Kan de CisUtMonitor service niet openen. Herinstalleer a.u.b. het Programma</msgTrackingServiceNotInstalled>
@@ -393,12 +393,12 @@
         <msgTrackingServiceInstallationOK>De service is met succes geïnstalleerd. \n\nU kunt het later deïnstalleren met gebruik van het 'RemoveService.cmd' bestand.</msgTrackingServiceInstallationOK>
         <msgTrackingServiceInstallationTimeout>Service installatie timeout: fout code %d</msgTrackingServiceInstallationTimeout>
         <msgTrackingServiceInstallationUnknownError>Onmogelijk om een Service te installeren - onbekende oorzaak, neem a.u.b. contact op met Support voor assistentie.</msgTrackingServiceInstallationUnknownError>
-        <msgTrackingServiceRemoved>De Installatie Monitor ('CisUtMonitor') is Verwijderd van deze computer.</msgTrackingServiceRemoved>
+        <msgTrackingServiceRemoved>De geinstalleerde ('CisUtMonitor') service is verwijderd van deze computer.</msgTrackingServiceRemoved>
         <msgTrackingServiceUpdate>De geïnstalleerde 'CisUtMonitor' service versie (%u) is ouder dan de huidige (%u). \n\nWilt U Updaten?</msgTrackingServiceUpdate>
         <msgTrackingServiceUpdateSuccess>De laatste versie van de Service is met succes geïnstalleerd. U dient de computer opnieuw op te starten voordat U de Installatie Monitor kunt gebruiken.</msgTrackingServiceUpdateSuccess>
-        <msgNothingToSave>Er valt niets te bewaren omdat het gemonitorde Programma niet geïnstalleerd is (geen bestanden/register items)</msgNothingToSave>
-        <msgCancelTracing>Wilt U de huidige installatie monitoring beëindigen?</msgCancelTracing>
-        <msgStopTracing>Installatie monitoring wordt nu beëindigd. Wilt U de huidige gemonitorde resultaten bewaren?</msgStopTracing>
+        <msgNothingToSave>Er valt niets te bewaren omdat het gevolgde Programma niet geïnstalleerd is (geen bestanden/register items)</msgNothingToSave>
+        <msgCancelTracing>Wilt U het huidige volgen van de installatie beëindigen?</msgCancelTracing>
+        <msgStopTracing>Installatie volgen wordt nu beëindigd. Wilt U de huidige gevolgde resultaten bewaren?</msgStopTracing>
         <msgEntryAlreadyExists>Het Programma '%s' bestaat al in de lijst, dus geef a.u.b. een andere Naam.</msgEntryAlreadyExists>
         <!-- messages related to Startup -->
         <msgStartupDeleteConfirm>Dit zal de complete vermelding verwijderen uit het System register (start menu). \n\nBent U er zeker van dat U dat wilt?</msgStartupDeleteConfirm>
@@ -418,7 +418,7 @@
         <msgRunningInWow64>U wordt afgeraden te werken met de 32-bit versie van Uninstall Tool op een 64-bit Windows, omdat het alleen de 32-bit programma's toont en een groot aantal beperkingen heeft. U wordt ten zeerste aanbevolen om Uninstall Tool opnieuw te downloaden en te installeren op deze computer (automaties wordt dan de keuze gemaakt voor de 64-bit versie indien geïnstallerd wordt op een 64-bit Windows).</msgRunningInWow64>
         <msgRunningInWow64Title>Werkt in WoW64 omgeving</msgRunningInWow64Title>
         <msgCannotStartHelper>Onmogelijk om 'x64helper.exe' te starten (ondersteuning voor 64-bit Windows). \n\nInstalleer het programma opnieuw a.u.b.</msgCannotStartHelper>
-        <msgUninstallingMyself>Wilt U de voorkeuren van Uninstall Tool en alle data van de gemonitorde installaties verwijderen?</msgUninstallingMyself>
+        <msgUninstallingMyself>Wilt U de voorkeuren van Uninstall Tool en alle data van de gevolgde installaties verwijderen?</msgUninstallingMyself>
         <msgUnableToCreateFile>Niet mogelijk bestand te maken:\n%s</msgUnableToCreateFile>
     </Messages>
     <Trial>
@@ -444,7 +444,7 @@
         <statusTotalInfo>%d programma's met totale omvang van %s</statusTotalInfo>
         <statusUnknown>onbekend</statusUnknown>
         <statusRecentItems>nieuw geïnstalleerd</statusRecentItems>
-        <statusRecentItemsTip>Toon nieuw geïnstalleerde/vernieuwde programma's</statusRecentItemsTip>
+        <statusRecentItemsTip>Toon nieuw geïnstalleerde/ververste programma's</statusRecentItemsTip>
         <statusStartupTotalInfo>%d programma's totaal, %d zijn momenteel gestart</statusStartupTotalInfo>
         <statusCalculatingOccupiedSize>In beslag genomen ruimte wordt berekend... %s</statusCalculatingOccupiedSize>
         <statusNewVersionAvailable>Nieuwe versie beschikbaar:</statusNewVersionAvailable>
@@ -454,9 +454,10 @@
         <UninstallToolDescription>Verwijdert Programma's Volledig. Installeert en Monitort Software. Beheer Opstart Programma's</UninstallToolDescription>
     </Misc>
     <ShellExtension>
-        <InstallWithInstallTracker>Installeer en Monitor met Uninstall Tool...</InstallWithInstallTracker>
+        <InstallWithInstallTracker>Installeren en volgen met Uninstall Tool
+...</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>Installeer en Monitor alle veranderingen die een programma op Uw computer maakt</InstallWithInstallTrackerTip>
-        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+        <InstallWithInstallTrackerShort>Installeer met Uninstall Tool</InstallWithInstallTrackerShort>
     </ShellExtension>
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
