@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.7.1" LangID="1031,3079,5127,4103,2055" Author="Dennis Albrecht">
+<LanguageStrings version="3.7.2" LangID="1031,3079,5127,4103,2055" Author="Dennis Albrecht">
     <MainMenu>
         <mnuFile>Datei</mnuFile>
         <mnuFileExport>Exportieren nach HTML...</mnuFileExport>
@@ -176,7 +176,7 @@
         <staticInterfaceLanguage>Sprache:</staticInterfaceLanguage>
         <checkControlPanelIcon>Symbol für das Uninstall Tool in der Systemsteuerung anzeigen</checkControlPanelIcon>
         <checkShellExtension>'Installieren und Protokollieren' für Setup-Dateien (exe/msi) zum Kontextmenü des Windows Explorers hinzufügen</checkShellExtension>
-        <checkTotalCommander>Wenn installiert, den Total Commander nutzen, um das jeweilige Verzeichnis anzuzeigen</checkTotalCommander>
+        <checkTotalCommander>Wenn installiert, den Total Commander nutzen, um Installationsordner zu öffnen</checkTotalCommander>
         <!-- interface -->
         <categoryInterface>Benutzeroberfläche</categoryInterface>
         <checkToolBarCaptions>Beschriftung der Symbolleistenschaltflächen anzeigen</checkToolBarCaptions>
@@ -430,7 +430,7 @@
         <msgRegRestartRequired>Um die Aktivierung abzuschließen, muss das Uninstall Tool neugestartet werden. \n\nSoll der Neustart jetzt erfolgen?</msgRegRestartRequired>
         <msgNewVersionAvailable>Neue Version %s ist verfügbar</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Aktuelle Version: %s</msgNewVersionAvailableCurrentVersion>
-        <msgNewVersionAvailableWhatsNew>Was ist neu?:</msgNewVersionAvailableWhatsNew>
+        <msgNewVersionAvailableWhatsNew>Versionshinweise:</msgNewVersionAvailableWhatsNew>
         <msgNewVersionDownload>Jetzt herunterladen</msgNewVersionDownload>
         <msgNewVersionPortableLink>Portable Version herunterladen</msgNewVersionPortableLink>
         <msgUsingLatestVersion>Die neuste Version des Uninstall Tools ist bereits installiert.</msgUsingLatestVersion>
