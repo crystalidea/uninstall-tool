@@ -1,55 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.5.9" LangID="1051" Author="MAD &amp; Peetey + kubalav">
+<LanguageStrings version="3.7.2" LangID="1051" Author="MAD &amp; Peetey + kubalav">
     <MainMenu>
-        <mnuFile>Súbor</mnuFile>
-        <mnuFileExport>&amp;Exportovať do HTML...</mnuFileExport>
-        <mnuFileExit>Koniec</mnuFileExit>
+        <mnuFile>&amp;Súbor</mnuFile>
+        <mnuFileExport>&amp;Exportovať do HTML…</mnuFileExport>
+        <mnuFileExit>&amp;Koniec</mnuFileExit>
         <mnuAction>&amp;Akcia</mnuAction>
-        <mnuActionUninstall>Odinštalovať...</mnuActionUninstall>
-        <mnuActionModify>Upraviť...</mnuActionModify>
-        <mnuActionDelete>Násilné odinštalovanie</mnuActionDelete>
-        <mnuActionDeleteBatch>Hromadné násilné odinštalovanie</mnuActionDeleteBatch>
-        <mnuActionRemoveEntry>Odstrániť záznam</mnuActionRemoveEntry>
+        <mnuActionUninstall>&amp;Odinštalovať…</mnuActionUninstall>
+        <mnuActionModify>&amp;Upraviť…</mnuActionModify>
+        <mnuActionDelete>&amp;Násilné odinštalovanie</mnuActionDelete>
+        <mnuActionDeleteBatch>&amp;Hromadné násilné odinštalovanie</mnuActionDeleteBatch>
+        <mnuActionRemoveEntry>O&amp;dstrániť záznam</mnuActionRemoveEntry>
         <mnuActionRemoveEntryBatch>Hromadne odstrániť &amp;záznamy</mnuActionRemoveEntryBatch>
         <mnuTracedData>Zaznamenané dáta</mnuTracedData>
-        <mnuTracedDataAsXML>Zobraziť ako XML...</mnuTracedDataAsXML>
+        <mnuTracedDataAsXML>Zobraziť ako XML…</mnuTracedDataAsXML>
         <mnuTracedDataUndoTracing>Zrušiť záznamy</mnuTracedDataUndoTracing>
-        <mnuTracedDataAppend>Pripojiť zaznamenané dáta (Inštalovať a Zaznamenať)...</mnuTracedDataAppend>
-        <mnuActionJumpToRegistry>Položka registra</mnuActionJumpToRegistry>
+        <mnuTracedDataAppend>Pripojiť zaznamenané dáta (Inštalovať a Zaznamenať)…</mnuTracedDataAppend>
+        <mnuActionJumpToRegistry>&amp;Položka registra</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Inštalačný priečinok</mnuActionJumpToProgramFolder>
-        <mnuActionJumpToWebSite>Internetová stránka programu</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Otvoriť vo Windows Obchode</mnuActionOpenWindowsStore>
-        <mnuActionBrowseLocation>Prehľadávať...</mnuActionBrowseLocation>
-        <mnuActionBrowseSource>Prehľadávať zdroj...</mnuActionBrowseSource>
+        <mnuActionJumpToWebSite>Internetová &amp;stránka programu</mnuActionJumpToWebSite>
+        <mnuActionOpenWindowsStore>Otvoriť vo Windows Store</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Prehľadávať…</mnuActionBrowseLocation>
+        <mnuActionBrowseSource>Prehľadávať zdroj…</mnuActionBrowseSource>
         <mnuActionGoogleFor>Vyhľadať na Google</mnuActionGoogleFor>
-        <mnuView>Zobrazenie</mnuView>
+        <mnuView>&amp;Zobrazenie</mnuView>
         <mnuViewMainToolbar>Hlavný panel nástrojov</mnuViewMainToolbar>
         <mnuViewMainToolbarShow>Zobraziť hlavný panel nástrojov</mnuViewMainToolbarShow>
         <mnuViewMainToolbarButtonLabels>Zobraziť popisy tlačidiel pod ikonami</mnuViewMainToolbarButtonLabels>
         <mnuViewSecondaryToolbar>Doplnkový panel nástrojov</mnuViewSecondaryToolbar>
-        <mnuViewRefresh>Obnoviť</mnuViewRefresh>
+        <mnuViewRefresh>&amp;Obnoviť</mnuViewRefresh>
         <mnuViewListColumnsReset>Obnoviť stĺpce</mnuViewListColumnsReset>
         <mnuViewLanguage>Jazyk rozhrania</mnuViewLanguage>
-        <mnuTools>Nástroje</mnuTools>
+        <mnuTools>&amp;Nástroje</mnuTools>
         <mnuToolsSystemTools>Systémové nástroje</mnuToolsSystemTools>
-        <mnuToolsAddRemove>Pridať/Odobrať programy...</mnuToolsAddRemove>
-        <mnuToolsComponents>Windows komponenty...</mnuToolsComponents>
+        <mnuToolsAddRemove>&amp;Pridať/Odobrať programy…</mnuToolsAddRemove>
+        <mnuToolsComponents>&amp;Windows komponenty…</mnuToolsComponents>
         <mnuToolsSystemRestore>Obnovovanie systému</mnuToolsSystemRestore>
         <mnuToolsSecurityCenter>Centrum zabezpečenia</mnuToolsSecurityCenter>
         <mnuToolsSystemProperties>Vlastnosti systému</mnuToolsSystemProperties>
         <mnuToolsSystemInfo>Systémové informácie</mnuToolsSystemInfo>
         <mnuToolsDefrag>Defragmentácia</mnuToolsDefrag>
         <mnuToolsServices>Služby</mnuToolsServices>
-        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
-        <mnuToolsOptions>Nastavenia...</mnuToolsOptions>
-        <mnuHelp>Pomocník</mnuHelp>
-        <mnuHelpOnline>Pomocník online...</mnuHelpOnline>
-        <mnuHelpHomePage>Domovská stránka</mnuHelpHomePage>
-        <mnuHelpSupport>Podpora</mnuHelpSupport>
-        <mnuHelpBuyNow>Kúpiť...</mnuHelpBuyNow>
-        <mnuHelpEnterKey>Vložiť kód...</mnuHelpEnterKey>
-        <mnuHelpCheckForUpdates>Skontrolovať aktualizácie...</mnuHelpCheckForUpdates>
-        <mnuHelpAbout>O programe...</mnuHelpAbout>
+        <mnuToolsTaskScheduler>Plánovač úloh</mnuToolsTaskScheduler>
+        <mnuToolsOptions>&amp;Nastavenia…</mnuToolsOptions>
+        <mnuHelp>&amp;Pomocník</mnuHelp>
+        <mnuHelpOnline>&amp;Pomocník online…</mnuHelpOnline>
+        <mnuHelpHomePage>&amp;Domovská stránka</mnuHelpHomePage>
+        <mnuHelpSupport>Podpo&amp;ra</mnuHelpSupport>
+        <mnuHelpBuyNow>&amp;Kúpiť…</mnuHelpBuyNow>
+        <mnuHelpEnterKey>&amp;Vložiť kód…</mnuHelpEnterKey>
+        <mnuHelpCheckForUpdates>&amp;Skontrolovať aktualizácie…</mnuHelpCheckForUpdates>
+        <mnuHelpAbout>&amp;O programe…</mnuHelpAbout>
     </MainMenu>
     <ListCtrl>
         <columnProgramName>Názov programu</columnProgramName>
@@ -57,7 +57,7 @@
         <columnInstallationDate>Nainštalovaný</columnInstallationDate>
         <columnTraced>Zaznamenaný</columnTraced>
         <staticNoItemsMatchingFilterTip>&lt;a&gt;Zrušiť&lt;/a&gt; vyhľadávací filter (Esc) alebo skúsiť prehľadávať iné kategórie</staticNoItemsMatchingFilterTip>
-        <staticLoading>Načítavanie, čakajte, prosím...</staticLoading>
+        <staticLoading>Načítavanie, čakajte, prosím…</staticLoading>
         <!-- Start up pane -->
         <columnStatus>Stav</columnStatus>
         <columnSource>Zdroj</columnSource>
@@ -68,8 +68,8 @@
         <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
         <sourceStartMenuAll>StartMenu Všetci</sourceStartMenuAll>
         <sourceStartMenuCU>StartMenu Aktuálny užívateľ</sourceStartMenuCU>
-        <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
+        <sourceWindowsTask>Windows úloha</sourceWindowsTask>
+        <sourceWindowsStoreTask>Aplikácia Microsoft Store</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>V kategórii '%s' nie je žiadny program</staticNoProgramsInCategory>
         <staticNoStartupItems>Neexistujú programy, ktoré by sa spúšťali automaticky pri štarte Windows</staticNoStartupItems>
         <staticNoStartupItemsTip>Môžete manuálne &lt;a&gt;pridať nový program&lt;/a&gt;</staticNoStartupItemsTip>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Systémové komponenty a aktualizácie</btnSystemToolTip>
         <btnHidden>Skryté</btnHidden>
         <btnHiddenToolTip>Skryté komponenty</btnHiddenToolTip>
-        <btnStoreApps>Aplikácie z Windows Obchodu</btnStoreApps>
-        <btnStoreAppsToolTip>Aplikácie inštalované z Windows Obchodu</btnStoreAppsToolTip>
+        <btnStoreApps>Aplikácie z Windows Store</btnStoreApps>
+        <btnStoreAppsToolTip>Aplikácie inštalované z Windows Store</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Naposledy nainštalované (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Naposledy nainštalované/aktualizované položky</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Inštalovať a zaznamenať</btnInstallAndTrace>
@@ -116,10 +116,10 @@
         <itemPublisher>Vydavateľ:</itemPublisher>
         <itemRegistryEntry>Zobrazenie položky registra</itemRegistryEntry>
         <itemUninstallInProgress>Prebieha odinštalácia</itemUninstallInProgress>
-        <itemUninstallInProgressTip>Odinštalácia %s. Prosím, čakajte, kým odinštalácia neskončí...</itemUninstallInProgressTip>
-        <itemBatchUninstallInProgressTip>Prebieha hromadné odinštalovanie, čakajte, prosím, kým sa neodstránia všetky aplikácie...</itemBatchUninstallInProgressTip>
+        <itemUninstallInProgressTip>Odinštalácia %s. Prosím, čakajte, kým odinštalácia neskončí…</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Prebieha hromadné odinštalovanie, čakajte, prosím, kým sa neodstránia všetky aplikácie…</itemBatchUninstallInProgressTip>
         <itemModifyInProgress>Prebieha zmena</itemModifyInProgress>
-        <itemModifyInProgressTip>Modifikácia %s. Prosím, čakajte, kým proces zmeny neskončí...</itemModifyInProgressTip>
+        <itemModifyInProgressTip>Úprava %s. Prosím, čakajte, kým proces zmeny neskončí…</itemModifyInProgressTip>
         <itemNothingFound>Nič nebolo nájdené!</itemNothingFound>
         <itemNoItemsMatchingFilter>Nenašli sa žiadne programy vyhovujúce reťazcu '%s' v kategórii %s</itemNoItemsMatchingFilter>
         <itemGroup>Toto je skupina programov</itemGroup>
@@ -133,7 +133,7 @@
         <itemEnableSelected>Povoliť vybrané položky</itemEnableSelected>
         <itemDeleteSelected>Vymazať vybrané položky zo zoznamu</itemDeleteSelected>
         <itemMultiplSelected>Vybraných položiek: %u</itemMultiplSelected>
-        <itemAddNewStartupItem>Pridať nový program...</itemAddNewStartupItem>
+        <itemAddNewStartupItem>Pridať nový program…</itemAddNewStartupItem>
         <itemStatusCaption>Stav:</itemStatusCaption>
         <itemStatusRunning>Spustený</itemStatusRunning>
         <itemStatusNotRunning>Nespustený</itemStatusNotRunning>
@@ -147,8 +147,8 @@
         <itemSourceRunOnce_HKCU>Kľúč jednorázového spustenia v registroch pre prihláseného používateľa</itemSourceRunOnce_HKCU>
         <itemSourceStartMenu_All>Štart Menu položka Po spustení pre všetkých používateľov</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Štart Menu položka Po spustení pre prihláseného používateľa</itemSourceStartMenu_Current>
-        <itemSourceWindowsTask>Windows task naplánovaný po prihlásení</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowsTask>Windows úloha naplánovaná po prihlásení</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Úloha spustenia aplikácie Microsoft Store</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Pridať nový program spúšťaný pri štarte</DlgAddNewStartupProgramCaption>
@@ -163,13 +163,13 @@
         <DlgPreferencesCaption>Nastavenia</DlgPreferencesCaption>
         <!-- general -->
         <categoryGeneral>Všeobecné</categoryGeneral>
-        <checkSkipUAC>Obísť potvrdzovací dialóg Kontroly používateľských kont pomocou Task Scheduler\n(v prípade potreby)</checkSkipUAC>
-        <checkSkipUACHelpText>Aktivovaním tejto voľby povolíte obísť potvrdenie UAC, ktoré spúšťa Uninstall Tool ("Chcete tejto aplikácii povoliť vykonávanie zmien v zariadení?"). Táto voľba môže byť užitočná vtedy, ak často spúšťate Uninstall Tool.\n\nAk je povolená, Uninstall Tool vytvorí úlohu pomocou Task Scheduler s vyššími právami a je spustená vždy po spustení aplikácie. \n\nVzťahuje sa na Windows Vista a vyššie, keď je UAC zapnutý.</checkSkipUACHelpText>
+        <checkSkipUAC>Obísť potvrdzovací dialóg Kontroly používateľských kont pomocou Plánovača úloh\n(v prípade potreby)</checkSkipUAC>
+        <checkSkipUACHelpText>Aktivovaním tejto voľby povolíte obísť potvrdenie UAC, ktoré spúšťa Uninstall Tool ("Chcete tejto aplikácii povoliť vykonávanie zmien v zariadení?"). Táto voľba môže byť užitočná vtedy, ak často spúšťate Uninstall Tool.\n\nAk je povolená, Uninstall Tool vytvorí úlohu pomocou Plánovača úloh s vyššími právami a je spustená vždy po spustení aplikácie. \n\nVzťahuje sa na Windows Vista a vyššie, keď je UAC zapnutý.</checkSkipUACHelpText>
         <checkCheckForUpdates>Skontrolovať aktualizácie pri štarte programu</checkCheckForUpdates>
         <checkCheckForBetaVersions>Skontrolovať betaverzie</checkCheckForBetaVersions>
         <staticInterfaceLanguage>Jazyk rozhrania:</staticInterfaceLanguage>
         <checkControlPanelIcon>Zobraziť ikonu programu Uninstall Tool na Ovládacom paneli</checkControlPanelIcon>
-        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkShellExtension>Pridať príkaz "Inštalovať a zaznamenať" pre inštalačné súbory (exe/msi)</checkShellExtension>
         <checkTotalCommander>Presunúť sa do programového priečinka použitím programu Total Commander</checkTotalCommander>
         <!-- interface -->
         <categoryInterface>Rozhranie</categoryInterface>
@@ -178,9 +178,9 @@
         <checkSmallIcons>Malé ikonky v zozname aplikácií</checkSmallIcons>
         <checkMark32bitApps>Označiť 32-bitové aplikácie</checkMark32bitApps>
         <frameColorScheme>Farebná schéma</frameColorScheme>
-        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
-        <colorSchemeLight>Light mode (default)</colorSchemeLight>
-        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <colorSchemeAuto>Motív podľa systému</colorSchemeAuto>
+        <colorSchemeLight>Svetlí motív (predvolený)</colorSchemeLight>
+        <colorSchemeDark>Tmavý motív</colorSchemeDark>
         <!-- Uninstaller -->
         <staticTreeLikeUpdates>Softvérové aktualizácie (podpoložky):</staticTreeLikeUpdates>
         <checkDisplayUpdates>Zobraziť &amp;softvérové aktualizácie</checkDisplayUpdates>
@@ -204,28 +204,28 @@
         <UninstallWizardCaption>Odstrániť všetky pozostatky po %s - Uninstall Wizard ™</UninstallWizardCaption>
         <captionQuestionUninstall>Chcete odinštalovať '%s'?</captionQuestionUninstall>
         <captionQuestionUninstallBatch>Chcete odinštalovať %u vybraných aplikácií?</captionQuestionUninstallBatch>
-        <captionUninstalling>Odinštalovanie %s...</captionUninstalling>
+        <captionUninstalling>Odinštalovanie %s…</captionUninstalling>
         <statusUninstallInfo>Uninstall Wizard najskôr spustí predvolený program na odinštalovanie a vyčistí pozostatky po odinštalácii.</statusUninstallInfo>
         <statusUninstallInfoBatch>Uninstall Wizard najskôr spustí predvolený program na odinštalovanie pre každú aplikáciu. Potom zobrazí zoznam všetkých pozostatkov na vyčistenie. </statusUninstallInfoBatch>
         <statusPerformingUninstall>Prebieha štandardné odinštalovanie pomocou vlastného odinštalátora, môže vyžadovať používateľovu interakciu.</statusPerformingUninstall>
-        <statusScanning>Vyhľadávanie pozostatkov súborov, priečinkov a položiek registra...</statusScanning>
-        <statusScanningTraced>Generovanie zoznamu zaznamenaných pozostatkov, prosím, čakajte...</statusScanningTraced>
+        <statusScanning>Vyhľadávanie pozostatkov súborov, priečinkov a položiek registra…</statusScanning>
+        <statusScanningTraced>Generovanie zoznamu zaznamenaných pozostatkov, prosím, čakajte…</statusScanningTraced>
         <statusForceRemoval>Násilne odstrániť '%s'</statusForceRemoval>
         <statusLeftOverTracesFound>Boli nájdené pozostatky programu!</statusLeftOverTracesFound>
         <statusNothingFound>Neboli nájdené pozostatky programu.</statusNothingFound>
         <statusAllTracesRemoved>Všetky pozostatky programu boli odstránené</statusAllTracesRemoved>
-        <statusDeletingProgramTraces>Odstraňovanie pozostatkov programu...</statusDeletingProgramTraces>
+        <statusDeletingProgramTraces>Odstraňovanie pozostatkov programu…</statusDeletingProgramTraces>
         <staticScanStatusFound>Uninstall Tool našiel nasledovné pozostatky programu vo Vašom počítači. Pozorne si ich prezrite, a keď sa rozhodnete ich odstrániť, kliknite na "Dokončiť".</staticScanStatusFound>
         <staticScanStatusRemoved>%s bol úspešne odstránený.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Všetky vybrané pozostatky boli úspešne odstránené.</staticScanStatusRemovedBatch>
-        <staticScanStatusGeneratingTracesList>Vytváranie zoznamu pozostatkov programu...</staticScanStatusGeneratingTracesList>
+        <staticScanStatusGeneratingTracesList>Vytváranie zoznamu pozostatkov programu…</staticScanStatusGeneratingTracesList>
         <staticHyperlinkRemovalLog>Záznam odstránenia</staticHyperlinkRemovalLog>
         <staticHyperlinkRemovalLogTooltip>Vytvoriť podrobný záznam odstránenia a otvoriť ho</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Exportovať do XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Exportovať výsledok vyhľadávania do XML súboru</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Systém súborov (súbory: %d)</treeItemFileSystem>
         <treeItemRegistry>Register (položky: %d)</treeItemRegistry>
-        <treeItemPopopMenuBrowse>Prehľadávať...</treeItemPopopMenuBrowse>
+        <treeItemPopopMenuBrowse>Prehľadávať…</treeItemPopopMenuBrowse>
         <staticOverallInfo>Vo Vašom počítači zostáva - súborov: %d (%s), položiek registra: %d</staticOverallInfo>
         <btnFinish>Dokončiť</btnFinish>
         <btnCancel>Zrušiť</btnCancel>
@@ -253,13 +253,13 @@
         <btnInstall>Inštalovať a zaznam.</btnInstall>
         <btnStop>Zastaviť</btnStop>
         <btnSave>Uložiť</btnSave>
-        <btnSaveLog>Uložiť záznam...</btnSaveLog>
+        <btnSaveLog>Uložiť záznam…</btnSaveLog>
         <btnNoAndRevert>Nie + Vrátiť späť</btnNoAndRevert>
         <staticRevertInfo>Možnosť Vrátiť späť sa pokúša odstrániť všetky systémové súbory/položky registra vytvorené počas zaznamenávanej inštalácie.</staticRevertInfo>
         <installTip1>Pokračujte s inštaláciou ako zvyčajne, pričom Uninstall Tool ju bude sledovať. Zaznamenávanie bude automaticky zastavené po ukončení všetkých procesov, alebo ho môžete manuálne zastaviť po dokončení inštalácie</installTip1>
         <installTip2>Uistite sa, prosím, že aktuálne neprebieha žiadna iná inštalácia</installTip2>
         <installTip3>Ak je nainštalovaná predchádzajúca verzia daného programu, mali by ste ju odstrániť skôr, než nainštalujete novú verziu</installTip3>
-        <trayIconTitle>Inštalácia '%s'...</trayIconTitle>
+        <trayIconTitle>Inštalácia '%s'…</trayIconTitle>
         <trayIconTooltip>Pomocou menu pravého tlačidla môžete zastaviť zaznamenávanie alebo zobraziť zaznamenané dáta</trayIconTooltip>
         <trayIconText>Inštalácia prebehne ako zvyčajne, pričom Uninstall Tool ju bude sledovať. Zaznamenávanie bude automaticky zastavené po ukončení všetkých procesov alebo ho môžete manuálne (menu pravého tlačidla) zastaviť po dokončení inštalácie.</trayIconText>
         <trayIconMenuProgress>Postup inštalácie</trayIconMenuProgress>
@@ -279,7 +279,7 @@
         <logEventProcessCreated>Proces bol vytvorený</logEventProcessCreated>
         <logEventProcessKilled>Proces bol ukončený</logEventProcessKilled>
         <logEventDeleteOperation>Odstrániť</logEventDeleteOperation>
-        <logStartingService>Spúšťanie služby Install Tracker...</logStartingService>
+        <logStartingService>Spúšťanie služby Install Tracker…</logStartingService>
         <logStartingServiceError1>Chyba: Služba CisUtMonitor sa stále zastavuje</logStartingServiceError1>
         <logStartingServiceError2>Chyba: Čas pre spustenie služby CisUtMonitor vypršal</logStartingServiceError2>
         <logStartingServiceError3>Chyba: Nepodarilo sa spustiť službu CisUtMonitor (chyba %u)</logStartingServiceError3>
@@ -288,19 +288,19 @@
         <logServiceStopError>Chyba: Nepodarilo sa zastaviť službu zaznamenávania</logServiceStopError>
         <logServiceVersion>Verzia služby: 0x%x</logServiceVersion>
         <logServiceVersionOlder>Verzia služby: 0x%x, požadovaná: 0x%x. Preinštalujte program, prosím.</logServiceVersionOlder>
-        <logServiceMonitorRunning>Upozornenie: Zastavujem službu zaznamenávania...</logServiceMonitorRunning>
+        <logServiceMonitorRunning>Upozornenie: Zastavujem službu zaznamenávania…</logServiceMonitorRunning>
         <logServiceMonitorStarted>Služba zaznamenávania je spustená</logServiceMonitorStarted>
-        <logTrackingStarting>Spúšťanie %s...</logTrackingStarting>
+        <logTrackingStarting>Spúšťanie %s…</logTrackingStarting>
         <logTrackingStartingEror>Chyba: Nepodarilo sa spustiť inštalačný proces (chyba %u)</logTrackingStartingEror>
         <logTrackingCannotStart>Chyba: Nepodarilo sa spustiť zaznamenávanie. Preinštalujte program, prosím.</logTrackingCannotStart>
         <logTrackingStoppedByUser>Zaznamenávanie zastavené používateľom</logTrackingStoppedByUser>
         <logTrackingAllProcessesFinished>Všetky inštalačné procesy boli ukončené</logTrackingAllProcessesFinished>
         <logTrackingCompleted>Inštalácia je dokončená</logTrackingCompleted>
-        <logTracingAnalyzing>Analýza inštalácie, čakajte, prosím...</logTracingAnalyzing>
+        <logTracingAnalyzing>Analýza inštalácie, čakajte, prosím…</logTracingAnalyzing>
         <logUninstallEntriesDetected>Počet zistených inštalačných položiek: %u</logUninstallEntriesDetected>
         <logNewUninstallEntriesDetected>Zistených %u nových inštalačných položiek :</logNewUninstallEntriesDetected>
         <logTrackingDone>Hotovo</logTrackingDone>
-        <logReverting>Vracanie zmien...</logReverting>
+        <logReverting>Vracanie zmien…</logReverting>
         <logCompleted>Dokončené</logCompleted>
         <logMSIServiceWarning>Upozornenie: služba MSI je zakázaná</logMSIServiceWarning>
         <logMSIServiceError1>Chyba: Nepodarilo sa sprístupniť službu MSI</logMSIServiceError1>
@@ -446,7 +446,7 @@
         <statusRecentItems>naposledy nainštalované</statusRecentItems>
         <statusRecentItemsTip>Zobraziť naposledy nainštalované/aktualizované programy</statusRecentItemsTip>
         <statusStartupTotalInfo>Programov celkom: %d, aktuálne bežiacich: %d</statusStartupTotalInfo>
-        <statusCalculatingOccupiedSize>Počítanie obsadeného miesta... %s</statusCalculatingOccupiedSize>
+        <statusCalculatingOccupiedSize>Počítanie obsadeného miesta… %s</statusCalculatingOccupiedSize>
         <statusNewVersionAvailable>Dostupná nová verzia:</statusNewVersionAvailable>
         <popupNewProgramsFound>Počet nových programov: %d!</popupNewProgramsFound>
         <popupNewProgramsFoundDontNotify>Nabudúce ma neupozorňovať</popupNewProgramsFoundDontNotify>
@@ -454,26 +454,26 @@
         <UninstallToolDescription>Kompletná odinštalácia programov. Inštalovať a Zaznamenať softvér. Správa programov spúšťaných pri štarte</UninstallToolDescription>
     </Misc>
     <ShellExtension>
-        <InstallWithInstallTracker>Inštalovať a zaznamenať pomocou Install Tracker...</InstallWithInstallTracker>
+        <InstallWithInstallTracker>Inštalovať a zaznamenať pomocou Install Tracker…</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>Inštalovať a zaznamenať všetky zmeny, ktoré program vykoná vo Vašom počítači</InstallWithInstallTrackerTip>
-        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+        <InstallWithInstallTrackerShort>Inštalovať s Install Tracker</InstallWithInstallTrackerShort>
     </ShellExtension>
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
         <msgTitleTemplate>%app_name% - Neošetrená výnimka</msgTitleTemplate>
         <msgTemplate>Ospravedlňujeme sa, ale nastala neošetrená výnimka a aplikácia \n%app_name% sa stala nestabilná. \nProsím, pošlite nám email na '%email%'\na priložte nasledujúci výpis stavu systému zo súboru:\n\n%dump_file%\n\nPo stlačení tlačidla 'Odoslať chybové hlásenie' predvolený program pre email \notvorí rozpísanú správu.</msgTemplate>
         <MailSubjectTemplate>%app_name% %app_version% Nahlásiť chybu</MailSubjectTemplate>
-        <MailBodyTemplate>Zdravím, podpora.\n\nMám problém s %app_name%. Súbor s výpisom stavu systému je priložený.\n(nezabudnite priložiť súbor %dump_file%)\n\nMoja verzia Windowsu je %winver% a moje akcie pred problémom boli... (napíšte niečo)</MailBodyTemplate>
+        <MailBodyTemplate>Zdravím, podpora.\n\nMám problém s %app_name%. Súbor s výpisom stavu systému je priložený.\n(nezabudnite priložiť súbor %dump_file%)\n\nMoja verzia Windowsu je %winver% a moje akcie pred problémom boli… (napíšte niečo)</MailBodyTemplate>
         <btnSend>Odoslať chybové hlásenie (Odporúčané)</btnSend>
     </UnhandledExceptionHandler>
     <Setup>
         <other_tasks>Ďalšie úlohy:</other_tasks>
         <install_service>Inštalácia sledovacej služby (funkcia 'Inštalovať a zaznamenať')</install_service>
         <control_panel_icon_text>Pridať ikonu programu Uninstall Tool do Ovládacieho panela</control_panel_icon_text>
-        <installing_driver>Inštalácia ovládač jadra...</installing_driver>
-        <ut_initializing>Uninstall Tool sa inicializuje...</ut_initializing>
+        <installing_driver>Inštalácia ovládač jadra…</installing_driver>
+        <ut_initializing>Uninstall Tool sa inicializuje…</ut_initializing>
         <pin_to_taskbar_text>Pripnúť ikonu Uninstall Tool na panel úloh</pin_to_taskbar_text>
-        <skip_uac_option>Zjednodušiť spúšťanie aplikácie použitím Task Scheduler pre obídenie potvrdenia Kontroly používateľských kont</skip_uac_option>
-        <register_msix>Registering Windows 11 context menu...</register_msix>
+        <skip_uac_option>Zjednodušiť spúšťanie aplikácie použitím Plánovača úloh pre obídenie potvrdenia Kontroly používateľských kont</skip_uac_option>
+        <register_msix>Registrácia kontextovej ponuky Windows 11...</register_msix>
     </Setup>
 </LanguageStrings>
