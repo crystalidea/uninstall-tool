@@ -69,11 +69,11 @@
         <sourceStartMenuAll>开始菜单 (所有用户)</sourceStartMenuAll>
         <sourceStartMenuCU>开始菜单 (当前用户)</sourceStartMenuCU>
         <sourceWindowsTask>Windows 任务</sourceWindowsTask>
-        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store 应用</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>没有程序在 '%s' 类别中</staticNoProgramsInCategory>
         <staticNoStartupItems>没有在 Windows 启动时自动运行的程序</staticNoStartupItems>
         <staticNoStartupItemsTip>您可以手动 &lt;a&gt;添加新的程序&lt;/a&gt;</staticNoStartupItemsTip>
-        <mark32bitItem>(32-bit)</mark32bitItem>
+        <mark32bitItem>(32位)</mark32bitItem>
     </ListCtrl>
     <ToolBar>
         <btnUninstaller>卸载程序</btnUninstaller>
@@ -169,7 +169,7 @@
         <checkCheckForBetaVersions>检查测试版本</checkCheckForBetaVersions>
         <staticInterfaceLanguage>界面语言:</staticInterfaceLanguage>
         <checkControlPanelIcon>在控制面板中显示 Uninstall Tool 图标</checkControlPanelIcon>
-        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkShellExtension>在资源管理器上下文菜单中 为安装程序 (exe/msi) 添加 '安装并追踪' 命令</checkShellExtension>
         <checkTotalCommander>使用 Total Commander 定位程序目录 (如果已安装)</checkTotalCommander>
         <!-- interface -->
         <categoryInterface>界面</categoryInterface>
@@ -178,9 +178,9 @@
         <checkSmallIcons>小图标</checkSmallIcons>
         <checkMark32bitApps>标示 32 位应用程序</checkMark32bitApps>
         <frameColorScheme>颜色方案</frameColorScheme>
-        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
-        <colorSchemeLight>Light mode (default)</colorSchemeLight>
-        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <colorSchemeAuto>匹配 Windows 浅色/深色 模式</colorSchemeAuto>
+        <colorSchemeLight>浅色模式 (默认)</colorSchemeLight>
+        <colorSchemeDark>深色模式</colorSchemeDark>
         <!-- Uninstaller -->
         <staticTreeLikeUpdates>树状显示软件更新 (子项目):</staticTreeLikeUpdates>
         <checkDisplayUpdates>显示软件更新</checkDisplayUpdates>
@@ -456,14 +456,14 @@
     <ShellExtension>
         <InstallWithInstallTracker>安装并使用安装追踪器追踪...</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>安装并追踪程序对您的电脑做出的所有更改</InstallWithInstallTrackerTip>
-        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+        <InstallWithInstallTrackerShort>安装并使用安装追踪器追踪</InstallWithInstallTrackerShort>
     </ShellExtension>
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
         <msgTitleTemplate>%app_name% - 未处理的异常</msgTitleTemplate>
         <msgTemplate>我们很抱歉，但发生了未处理的异常，\n%app_name% 已变得不稳定。 \n请将电子邮件发送到 '%email%'\n同时附上下列故障转储文件:\n\n%dump_file%\n\n按下 '发送报告' 按钮后，撰写好的邮件将打开默认邮件程序。</msgTemplate>
-        <MailSubjectTemplate>%app_name% %app_version% Bug Report</MailSubjectTemplate>
-        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file '%dump_file%')\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <MailSubjectTemplate>%app_name% %app_version% Bug 报告</MailSubjectTemplate>
+        <MailBodyTemplate>您好, 技术支持.\n\n我有一个关于 %app_name% 的问题. dump 文件已经附上.\n(不要忘记附上文件 '%dump_file%')\n\n我的 Windows 版本是 %winver% 并且我在问题发生前的操作是... (在此详细描述)</MailBodyTemplate>
         <btnSend>发送报告 (推荐)</btnSend>
     </UnhandledExceptionHandler>
     <Setup>
@@ -474,6 +474,6 @@
         <ut_initializing>Uninstall Tool 正在初始化...</ut_initializing>
         <pin_to_taskbar_text>将 Uninstall Tool 图标固定到任务栏</pin_to_taskbar_text>
         <skip_uac_option>使用 Windows 任务计划程序跳过用户账户控制确认以简化程序启动</skip_uac_option>
-        <register_msix>Registering Windows 11 context menu...</register_msix>
+        <register_msix>正在注册 Windows 11 上下文菜单...</register_msix>
     </Setup>
 </LanguageStrings>
