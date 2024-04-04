@@ -51,7 +51,6 @@
         <mnuHelpCheckForUpdates>Auf Aktualisierung prüfen...</mnuHelpCheckForUpdates>
         <mnuHelpAbout>Über...</mnuHelpAbout>
     </MainMenu>
-
     <ListCtrl>
         <columnProgramName>Name</columnProgramName>
         <columnSize>Größe</columnSize>
@@ -76,7 +75,6 @@
         <staticNoStartupItemsTip>Sie können manuell &lt;a&gt;eine neue Anwendung installieren&lt;/a&gt;</staticNoStartupItemsTip>
         <mark32bitItem>(32-Bit)</mark32bitItem>
     </ListCtrl>
-
     <ToolBar>
         <btnUninstaller>Deinstallation</btnUninstaller>
         <btnUninstallerToolTip>Vorhandene Anwendungen deinstallieren oder neue Anwendung installieren und protokollieren</btnUninstallerToolTip>
@@ -89,7 +87,6 @@
         <btnHelp>Hilfe</btnHelp>
         <btnHelpToolTip>Online-Hilfe anzeigen</btnHelpToolTip>
     </ToolBar>
-
     <SecondaryToolbar>
         <btnApps>Anwendungen</btnApps>
         <btnAppsToolTip>Anwendungen</btnAppsToolTip>
@@ -104,7 +101,6 @@
         <btnInstallAndTrace>Installieren und Protokollieren</btnInstallAndTrace>
         <btnInstallAndTraceTooltip>Installieren einer neuen Anwendung und protokollieren aller Änderungen, die dadurch am Dateisystem und der Registrierung vorgenommen werden</btnInstallAndTraceTooltip>
     </SecondaryToolbar>
-
     <ExplorerBar>
         <itemUninstallIt>Deinstallieren</itemUninstallIt>
         <itemModifyIt>Anpassen</itemModifyIt>
@@ -154,7 +150,6 @@
         <itemSourceWindowsTask>Bei Anmeldung geplante Windows-Aufgabe</itemSourceWindowsTask>
         <itemSourceWindowStoreTask>Microsoft Store App Startaufgabe</itemSourceWindowStoreTask>
     </ExplorerBar>
-
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Neue Anwendung zum Autostart hinzufügen</DlgAddNewStartupProgramCaption>
         <labelStartupType>Autostart-Methode:</labelStartupType>
@@ -164,7 +159,6 @@
         <filterAllFiles>Alle Dateien</filterAllFiles>
         <checkHighestPriviledges>Aufgabe mit höchsten Berechtigungen ausführen</checkHighestPriviledges>
     </DlgAddNewStartupProgram>
-
     <DlgPreferences>
         <DlgPreferencesCaption>Einstellungen</DlgPreferencesCaption>
         <!-- general -->
@@ -205,7 +199,6 @@
         <comboItemWizardOption2>Automatisch</comboItemWizardOption2>
         <comboItemWizardOption3>Deaktiviert</comboItemWizardOption3>
     </DlgPreferences>
-
     <UninstallWizard>
         <UninstallWizardLocalizedName>Deinstallationsassistent</UninstallWizardLocalizedName>
         <UninstallWizardCaption>Alle Überreste von %s entfernen - Deinstallationsassistent</UninstallWizardCaption>
@@ -239,20 +232,17 @@
         <btnClose>Schließen</btnClose>
         <btnUninstall>Deinstallieren</btnUninstall>
     </UninstallWizard>
-
     <DelayedFilesRemovalDialog>
         <Title>Einige Dateien wurden nicht gelöscht</Title>
         <Instruction1>Folgende Dateien wurde nicht gelöscht, weil sie vom System verwendet werden:</Instruction1>
         <Instruction2>Diese Dateien werden beim nächsten Neustart des Systems automatisch entfernt.</Instruction2>
         <btnReboot>Jetzt neustarten</btnReboot>
     </DelayedFilesRemovalDialog>
-
     <RunningProcessesDialog>
         <Title>Das Beenden laufender Prozesse erzwingen?</Title>
         <Instruction1>Folgende Prozesse wurden erkannt:</Instruction1>
         <Instruction2>Es wird empfohlen, sie vor der Entfernung manuell zu beenden, jedoch kann der Deinstallationsassistent die Beendigung erzwingen.</Instruction2>
     </RunningProcessesDialog>
-
     <InstallTracker>
         <InstallTrackerLocalizedName>Installationsprotokollierung</InstallTrackerLocalizedName>
         <Title>Anwendung installieren und protokollieren</Title>
@@ -317,36 +307,30 @@
         <logMSIServiceError2>Fehler: MSI-Dienst kann nicht gestartet werden</logMSIServiceError2>
         <logMSIServiceError3>Fehler: MSI-Dienst kann nicht abgefragt werden</logMSIServiceError3>
     </InstallTracker>
-
     <InstallTrackerCustomEntryDialog>
         <Title>Bei der Protokollierung wurden keine neuen Softwareeinträge gefunden. Normalerweise bedeutet dies, dass die Anwendung nicht korrekt installiert wurde. Wurde jedoch sichergestellt, dass die Installation ordnungsgemäß verlaufen ist, kann eine neue benutzerdefinierte Anwendung in der Anwendungsliste erstellt werden. Alle aktuell gefundenen Einträge verweisen dann auf diese Anwendung.</Title>
         <staticName>Name:</staticName>
         <checkCreateCustomEntry>Benutzerdefinierte Anwendung in der Anwendungsliste erstellen</checkCreateCustomEntry>
     </InstallTrackerCustomEntryDialog>
-
     <InstallTrackerMultipleEntries>
         <Caption>Mehrere Softwareeinträge gefunden</Caption>
         <Title>In der Windows-Registrierung wurden nach der Installation mehrere Softwareeinträge gefunden. Bitte das Hauptelement auswählen, das in der Anwendungsliste mit einem speziellen Symbol in der Spalte 'Protokolliert' angezeigt werden soll. Bitte beachten, dass das Uninstall Tool beim Entfernen der protokollierten Daten des Hauptelements auch die protokollierten Daten aller abhängigen Elemente entfernt.</Title>
         <btnSelect>Auswählen</btnSelect>
     </InstallTrackerMultipleEntries>
-
     <TracedXMLDialog>
         <TracedXMLDialogCaption>%s protokollierte Daten</TracedXMLDialogCaption>
     </TracedXMLDialog>
-
     <DependentItemsDialog>
         <Title>Deinstallation von '%s'</Title>
         <Instruction>Auch abhängige Elemente entfernen?</Instruction>
         <Footer>'%s' wurde mit aktivierter Protokollierung zusammen mit den oben genannten Elementen installiert. Bei Verwendung des Deinstallationsassistenten werden alle abhängigen Komponenten ebenfalls entfernt. Wenn ausgewählt wird, dass nur das aktuelle Element entfernt werden soll, werden die protokollierten Daten ignoriert und nach Überresten gesucht, die sich nur auf diese Anwendung beziehen.</Footer>
         <btnOnlyCurrent>Nur %s</btnOnlyCurrent>
     </DependentItemsDialog>
-
     <RelatedItemsDialog>
         <Title>Deinstallation von '%s'</Title>
         <Instruction>Die folgenden Anwendungen gehören zusammen. Wird eine dieser Anwendungen deinstalliert, werden auch alle anderen entfernt. Sollen alle Anwendungen deinstalliert werden?</Instruction>
         <btnUninstallAll>Alle deinstallieren</btnUninstallAll>
     </RelatedItemsDialog>
-
     <UninstallWizardConfirmation>
         <staticConfirm>Die integrierte Deinstallation wurde abgeschlossen. Soll nun eine Tiefenprüfung der Registrierung und des Dateisystems auf ungenutzte Einträge und verbliebene Dateien durchgeführt werden?</staticConfirm>
         <learnMoreAboutWizard>Mehr über den Deinstallationsassistenten erfahren</learnMoreAboutWizard>
@@ -354,7 +338,6 @@
         <btnNo>Nein</btnNo>
         <checkDontAskAgain>Auswahl merken und nicht erneut fragen (Änderung in Einstellungen möglich)</checkDontAskAgain>
     </UninstallWizardConfirmation>
-
     <DlgAbout>
         <DlgAboutCaption>Information - Uninstall Tool</DlgAboutCaption>
         <staticWebSite>Webseite</staticWebSite>
@@ -364,7 +347,6 @@
         <staticRegisteredTo>Dieses Produkt ist lizenziert für:</staticRegisteredTo>
         <staticChangeKey>Lizenzschlüssel ändern</staticChangeKey>
     </DlgAbout>
-
     <UnregDlg>
         <UnregDlgReminder>Testzeit-Erinnerung</UnregDlgReminder>
         <UnregDlgExpired>Testzeitraum abgelaufen</UnregDlgExpired>
@@ -374,14 +356,12 @@
         <staticDaysLeft>%d verbleibende(r) Tag(e) der Testversion übrig</staticDaysLeft>
         <btnBuyNow>Jetzt kaufen</btnBuyNow>
     </UnregDlg>
-
     <EnterKeyDlg>
         <EnterKeyDlgCaption>Uninstall Tool Aktivierung</EnterKeyDlgCaption>
         <Title>Bitte Name und Lizenzschlüssel aus der Registrierungs-E-Mail eingeben:</Title>
         <staticName>Name:</staticName>
         <staticKey>Lizenzschlüssel:</staticKey>
     </EnterKeyDlg>
-
     <Messages>
         <!-- messages related to Uninstaller -->
         <msgUninstallFailed>Der Deinstallationsvorgang ist fehlgeschlagen. \nSoll dieser Anwendungseintrag aus der Registrierung gelöscht und die Dateien bereinigt werden?</msgUninstallFailed>
@@ -441,14 +421,12 @@
         <msgUninstallingMyself>Sollen die Einstellungen des Uninstall Tools und alle Daten protokollierter Installationen wirklich gelöscht werden?</msgUninstallingMyself>
         <msgUnableToCreateFile>Datei kann nicht erstellt werden:\n%s</msgUnableToCreateFile>
     </Messages>
-
     <Trial>
         <txtUnregisteredBig>UNREGISTRIERTE VERSION</txtUnregisteredBig>
         <msgNotAvailableInTrial>Diese Funktion ist nur in der registrierten Version des Programms verfügbar.</msgNotAvailableInTrial>
         <msgNotAvailableInTrial2>Die übrig gebliebenen Daten von '%s' können gespeichert und später in der Liste der Anwendungen über die Funktion 'Deinstallation erzwingen' gelöscht werden.</msgNotAvailableInTrial2>
         <checkDeleteDataLater>Überreste speichern und später löschen</checkDeleteDataLater>
     </Trial>
-
     <HTMLReport>
         <htmlFiles>HTML-Dateien</htmlFiles>
         <allFiles>Alle Dateien</allFiles>
@@ -456,7 +434,6 @@
         <installedPrograms>Installierte Anwendungen (%s)</installedPrograms>
         <startupPrograms>Autostart-Anwendungen</startupPrograms>
     </HTMLReport>
-
     <Misc>
         <btnOK>OK</btnOK>
         <btnCancel>Abbrechen</btnCancel>
@@ -476,22 +453,22 @@
         <WindowsUpdatesText>Windows Updates</WindowsUpdatesText>
         <UninstallToolDescription>Anwendundungen vollständig deinstallieren. Anwendungen installieren und protokollieren. Autostart-Anwendungen verwalten.</UninstallToolDescription>
     </Misc>
-
     <ShellExtension>
         <InstallWithInstallTracker>Mit Uninstall Tool installieren und protokollieren...</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>Installieren und Protokollieren aller Änderungen, die eine Anwendung auf dem Computer vornimmt</InstallWithInstallTrackerTip>
         <InstallWithInstallTrackerShort>Mit Uninstall Tool installieren</InstallWithInstallTrackerShort>
+        <uninstallWithUninstallTool>Uninstall with Uninstall Tool</uninstallWithUninstallTool>
+        <uninstallWithUninstallToolFailed>Unable to detect any application based on the provided shortcut:</uninstallWithUninstallToolFailed>
+        <uninstallWithUninstallToolConfirm>Are you sure you want to completely remove '%s' and all of its components?</uninstallWithUninstallToolConfirm>
     </ShellExtension>
-
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
-				<msgTitleTemplate>%app_name% - Unbehandelte Ausnahme</msgTitleTemplate>
+        <msgTitleTemplate>%app_name% - Unbehandelte Ausnahme</msgTitleTemplate>
         <msgTemplate>Leider ist eine unbehandelte Ausnahme aufgetreten und \n%app_name% ist instabil geworden.\nBitte eine E-Mail an '%email%'\nmit der folgenden Absturzabbild-Datei senden:\n\n%dump_file%\n\nNach einem Klick auf die Schaltfläche 'Bericht senden' wird die\nStandard-E-Mail-Anwendung mit einer vorgefertigten Nachricht geöffnet.</msgTemplate>
         <MailSubjectTemplate>%app_name% %app_version% Fehler-Bericht</MailSubjectTemplate>
         <MailBodyTemplate>Hallo, Support.\n\nIch habe ein Problem mit %app_name%. Die Absturzabbild-Datei ist angehängt.\n(Nicht vergessen, die Datei '%dump_file%' anzuhängen!)\n\nMeine Windows-Version lautet %winver%. Meine letzten Aktionen vor dem Problem waren... (Bitte ein paar Worte dazu schreiben!)</MailBodyTemplate>
         <btnSend>Bericht senden (Empfohlen)</btnSend>
     </UnhandledExceptionHandler>
-
     <Setup>
         <other_tasks>Weitere Aufgaben:</other_tasks>
         <install_service>Protokollierungs-Dienst installieren (Funktion 'Installieren und Protokollieren')</install_service>

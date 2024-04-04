@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="3.7" LangID="1042" Author="VᴇɴᴜsGɪʀʟ💋비너스걸💗">
     <MainMenu>
         <mnuFile>파일(&amp;F)</mnuFile>
@@ -457,6 +457,9 @@
         <InstallWithInstallTracker>설치 감시기로 설치 및 추적...</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>컴퓨터에서 프로그램의 모든 변경 사항 설치 및 추적</InstallWithInstallTrackerTip>
         <InstallWithInstallTrackerShort>설치 추적기로 설치</InstallWithInstallTrackerShort>
+        <uninstallWithUninstallTool>Uninstall with Uninstall Tool</uninstallWithUninstallTool>
+        <uninstallWithUninstallToolFailed>Unable to detect any application based on the provided shortcut:</uninstallWithUninstallToolFailed>
+        <uninstallWithUninstallToolConfirm>Are you sure you want to completely remove '%s' and all of its components?</uninstallWithUninstallToolConfirm>
     </ShellExtension>
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->

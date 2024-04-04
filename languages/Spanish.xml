@@ -457,6 +457,9 @@
         <InstallWithInstallTracker>Instalar y rastrear con Install Tracker...</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>Instala y rastrea todos los cambios que un programa realiza en su computadora</InstallWithInstallTrackerTip>
         <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
+        <uninstallWithUninstallTool>Uninstall with Uninstall Tool</uninstallWithUninstallTool>
+        <uninstallWithUninstallToolFailed>Unable to detect any application based on the provided shortcut:</uninstallWithUninstallToolFailed>
+        <uninstallWithUninstallToolConfirm>Are you sure you want to completely remove '%s' and all of its components?</uninstallWithUninstallToolConfirm>
     </ShellExtension>
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->

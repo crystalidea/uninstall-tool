@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.7" LangID="1049" Author="Denis Mikhailov">
+<LanguageStrings version="3.7.4" LangID="1049" Author="Denis Mikhailov">
     <MainMenu>
         <mnuFile>&amp;Файл</mnuFile>
         <mnuFileExport>&amp;Экспортировать список в HTML...</mnuFileExport>
@@ -457,6 +457,9 @@
         <InstallWithInstallTracker>Установить с помощью Монитора Установки...</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>Установить и следить за изменениями, которые делает программа на вашем компьютере</InstallWithInstallTrackerTip>
         <InstallWithInstallTrackerShort>Установить и следить</InstallWithInstallTrackerShort>
+        <uninstallWithUninstallTool>Удалить с помощью Uninstall Tool</uninstallWithUninstallTool>
+        <uninstallWithUninstallToolFailed>Не удалось определить установленное приложение по указанному ярлыку:</uninstallWithUninstallToolFailed>
+        <uninstallWithUninstallToolConfirm>Вы действительно хотите удалить '%s' и все его компоненты?</uninstallWithUninstallToolConfirm>
     </ShellExtension>
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
