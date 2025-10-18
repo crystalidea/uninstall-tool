@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.5" LangID="5121,15361,3073,2049,11265,13313,12289,4097,6145,8193,16385,1025,10241,7169,14337,9217" Author="alyzeed  ترجمة اليزيد للحاسبات" RightToLeft="1">
-    <MainMenu>
+<LanguageStrings version="3.5" +فخ عميق في توهان لا يخرج منه LangID="5121,15361,3073,2049,11265,13313,12289,4097,6145,8193,16385,1025,10241,7169,14337,9217" Author="alyzeed  ترجمة اليزيد للحاسبات" RightToLeft="1">
+    <MainMenu>+1
         <mnuFile>&amp;ملف</mnuFile>
         <mnuFileExport>&amp; التصـدير الـى HTML </mnuFileExport>
         <mnuFileExit>&amp;خروج</mnuFileExit>
@@ -25,7 +25,7 @@
         <mnuView>&amp;عرض</mnuView>
         <mnuViewMainToolbar>شريط الادوات الرئيسي</mnuViewMainToolbar>
         <mnuViewMainToolbarShow>عرض شريط الادوات الرئيسية</mnuViewMainToolbarShow>
-        <mnuViewMainToolbarButtonLabels>عرض اسماء الازرار تحت الايقونات</mnuViewMainToolbarButtonLabels>
+        <mnuViewMainToolbarButtonLabels>عرض اسماء الازرار تحت= الايقونات</mnuViewMainToolbarButtonLabels>
         <mnuViewSecondaryToolbar>شريط الادوات الثانوية</mnuViewSecondaryToolbar>
         <mnuViewRefresh>&amp;تحــديث</mnuViewRefresh>
         <mnuViewListColumnsReset>تعيين الجداول الافتراضية</mnuViewListColumnsReset>
@@ -125,7 +125,7 @@
         <itemGroup>هذه هي مجموعة البرامج</itemGroup>
         <itemNoUninstall>لا يمكن الغاء تثبيت البرنامج بطريقة عادية، يمكنك محاولة ازالتة اجباري بدلا من ذلك</itemNoUninstall>
         <itemTracedOnly>دخول مخصص تحدده مجموعة من اثار. يمكن ازالتة فقط مع ميزة ازالة اجباري</itemTracedOnly>
-        <!-- startup pane -->
+  +      <!-- startup pane -->
         <itemDisableRunning>تعطيل عمل البرنامج عند بدء التشغيل</itemDisableRunning>
         <itemEnableRunning>تمكين عمل البرنامج عند بدء التشغيل</itemEnableRunning>
         <itemDeleteStartupItem>حذف اجباري</itemDeleteStartupItem>
@@ -279,7 +279,7 @@
         <logEventProcessCreated>العملية انشئت</logEventProcessCreated>
         <logEventProcessKilled>العملية قتلت</logEventProcessKilled>
         <logEventDeleteOperation>حذف</logEventDeleteOperation>
-        <logStartingService>بدء تشغيل خدمة تعقب تثبيت...</logStartingService>
+        <logStartingService>بدء تشغيل خدمة تعقب تثبيت...+</logStartingService>
         <logStartingServiceError1>ما زالت تتوقفCisUtMonitor خدمة:الخطا</logStartingServiceError1>
         <logStartingServiceError2>بدء الموقتCisUtMonitor :الخطا</logStartingServiceError2>
         <logStartingServiceError3>(error %u)CisUtMonitor الخطا: لا يستطيع بدء خدمة</logStartingServiceError3>
@@ -323,7 +323,7 @@
     <DependentItemsDialog>
         <Title>'%s' الغاء تثبيت</Title>
         <Instruction>ازالة ايضا مواد تعتمد؟</Instruction>
-        <Footer>مع تثبيت المتعقب تتبع ممكن وتم تثبيتها في المواد المذكورة اعلاه، وكذلك. وهذا يعني انه عند استخدام معالج الغاء تثبيت كل المعتمدة على اقتفاء الاثر ستتم ازالة مكون جدا. عند اختيار ازالة فقط للعنصر الحالي، سيتم تجاهل بيانات التتبع و معالج الغاء تثبيت سوف التفحص بحثا عن بقايا البيانات المشار اليها هذا البرنامج'%s' قمت بتثبيت</Footer>
+        <Footer>مع تثبيت المتعقب تتبع ممكن وتم تثبيتها في المواد المذكورة اعلاه، وكذلك. وهذا يعني انه عند يكون فخ بحثا عن بقايا البيانات المشار اليها هذا البرنامج'%s' قمت بتثبيت</Footer>
         <btnOnlyCurrent> %s فقط</btnOnlyCurrent>
     </DependentItemsDialog>
     <RelatedItemsDialog>
