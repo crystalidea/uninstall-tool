@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.7.2" LangID="1051" Author="MAD &amp; Peetey + kubalav">
+<LanguageStrings version="3.8.0" LangID="1051" Author="MAD &amp; Peetey + kubalav">
     <MainMenu>
         <mnuFile>&amp;Súbor</mnuFile>
         <mnuFileExport>&amp;Exportovať do HTML…</mnuFileExport>
@@ -67,7 +67,7 @@
         <sourceHKCURun>HKCU Run</sourceHKCURun>
         <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
         <sourceStartMenuAll>StartMenu Všetci</sourceStartMenuAll>
-        <sourceStartMenuCU>StartMenu Aktuálny užívateľ</sourceStartMenuCU>
+        <sourceStartMenuCU>StartMenu Aktuálny používateľ</sourceStartMenuCU>
         <sourceWindowsTask>Windows úloha</sourceWindowsTask>
         <sourceWindowsStoreTask>Aplikácia Microsoft Store</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>V kategórii '%s' nie je žiadny program</staticNoProgramsInCategory>
@@ -159,6 +159,14 @@
         <filterAllFiles>Všetky súbory</filterAllFiles>
         <checkHighestPriviledges>Spustiť úlohu s najvyššími oprávneniami</checkHighestPriviledges>
     </DlgAddNewStartupProgram>
+    <StartupSecondaryToolbar>
+        <displayLabel>Zobraziť:</displayLabel>
+        <displayAll>Všetky programy</displayAll>
+        <displayRegistry>Len programy vo Windows Registry</displayRegistry>
+        <displayStartMenu>Len programy z ponuky Štart</displayStartMenu>
+        <displayWindowsTasks>Len programy z Plánovača úloh</displayWindowsTasks>
+        <displayWindowStoreApps>Len aplikácie z Microsoft Store</displayWindowStoreApps>
+    </StartupSecondaryToolbar>
     <DlgPreferences>
         <DlgPreferencesCaption>Nastavenia</DlgPreferencesCaption>
         <!-- general -->
@@ -457,9 +465,9 @@
         <InstallWithInstallTracker>Inštalovať a zaznamenať pomocou Install Tracker…</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>Inštalovať a zaznamenať všetky zmeny, ktoré program vykoná vo Vašom počítači</InstallWithInstallTrackerTip>
         <InstallWithInstallTrackerShort>Inštalovať s Install Tracker</InstallWithInstallTrackerShort>
-        <uninstallWithUninstallTool>Uninstall with Uninstall Tool</uninstallWithUninstallTool>
-        <uninstallWithUninstallToolFailed>Unable to detect any application based on the provided shortcut:</uninstallWithUninstallToolFailed>
-        <uninstallWithUninstallToolConfirm>Are you sure you want to completely remove '%s' and all of its components?</uninstallWithUninstallToolConfirm>
+        <uninstallWithUninstallTool>Odinštalovať s Uninstall Tool</uninstallWithUninstallTool>
+        <uninstallWithUninstallToolFailed>Nepodarilo sa nájsť žiadnu aplikáciu na základe poskytnutého odkazu:</uninstallWithUninstallToolFailed>
+        <uninstallWithUninstallToolConfirm>Naozaj chcete úplne odstrániť aplikáciu '%s' a všetky jej komponenty?</uninstallWithUninstallToolConfirm>
     </ShellExtension>
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
