@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="3.8.1" LangID="1042" Author="VᴇɴᴜsGɪʀʟ💗비너스걸💋">
     <MainMenu>
         <mnuFile>파일(&amp;F)</mnuFile>
@@ -72,7 +72,7 @@
         <sourceWindowsTask>Windows 작업</sourceWindowsTask>
         <sourceWindowsStoreTask>Microsoft Store 앱</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>'%s' 범주에 프로그램이 없습니다</staticNoProgramsInCategory>
-        <staticNoStartupItems>Windows 시작시 자동으로 실행되는 프로그램이 없습니다</staticNoStartupItems>
+        <staticNoStartupItems>Windows 시작 시 자동으로 실행되는 프로그램이 없습니다</staticNoStartupItems>
         <staticNoStartupItemsTip>직접 &lt;a&gt;새 프로그램을 추가&lt;/a&gt;할 수 있습니다</staticNoStartupItemsTip>
         <mark32bitItem>(32비트)</mark32bitItem>
     </ListCtrl>
@@ -81,7 +81,7 @@
         <btnUninstaller>제거 관리자</btnUninstaller>
         <btnUninstallerToolTip>기존 프로그램 제거 또는 새 소프트웨어 설치 및 추적</btnUninstallerToolTip>
         <btnStartup>시작 프로그램</btnStartup>
-        <btnStartupToolTip>시작시 자동으로 실행되는 응용 프로그램</btnStartupToolTip>
+        <btnStartupToolTip>시작 시 자동으로 실행되는 응용 프로그램</btnStartupToolTip>
         <btnRefresh>새로 고침</btnRefresh>
         <btnRefreshToolTip>프로그램 목록 새로 고침</btnRefreshToolTip>
         <btnPrefs>환경 설정</btnPrefs>
@@ -130,8 +130,8 @@
         <itemNoUninstall>일반적인 방법으로 프로그램을 제거할 수 없습니다. 대신 강제 제거를 시도할 수 있습니다.</itemNoUninstall>
         <itemTracedOnly>추적 집합으로 정의된 사용자 지정 항목입니다. 강제 제거 기능을 통해서만 제거할 수 있습니다.</itemTracedOnly>
         <!-- startup pane -->
-        <itemDisableRunning>시작시 실행 안 함</itemDisableRunning>
-        <itemEnableRunning>시작시 실행함</itemEnableRunning>
+        <itemDisableRunning>시작 시 실행 안 함</itemDisableRunning>
+        <itemEnableRunning>시작 시 실행함</itemEnableRunning>
         <itemDeleteStartupItem>목록에서 삭제</itemDeleteStartupItem>
         <itemDisableSelected>선택한 항목 사용 안 함</itemDisableSelected>
         <itemEnableSelected>선택한 항목 사용함</itemEnableSelected>
@@ -171,7 +171,7 @@
         <categoryGeneral>일반</categoryGeneral>
         <checkSkipUAC>Windows 작업 스케줄러를 사용하여 사용자 계정 컨트롤 확인 대화 상자 생략 (필요한 경우)</checkSkipUAC>
         <checkSkipUACHelpText>이 옵션을 활성화하면 제거 도구를 시작할 때 UAC 확인을 무시할 수 있습니다 ("이 앱이 장치를 변경할 수 있도록 허용하시겠습니까?"). 이 옵션은 Uninstall Tool를 자주 실행할 때 매우 유용합니다.\n\nUninstall Tool를 켜면 앱을 실행할 때마다 실행되는 Windows 작업 스케줄러 상승된 작업이 생성됩니다. \n\nUAC가 켜져 있을 때 Windows Vista 이상에 적용됩니다.</checkSkipUACHelpText>
-        <checkCheckForUpdates>프로그램 시작시 업데이트 확인</checkCheckForUpdates>
+        <checkCheckForUpdates>프로그램 시작 시 업데이트 확인</checkCheckForUpdates>
         <checkCheckForBetaVersions>베타 버전도 확인</checkCheckForBetaVersions>
         <staticInterfaceLanguage>인터페이스 언어:</staticInterfaceLanguage>
         <checkControlPanelIcon>제어판에 Uninstall Tool 아이콘 표시</checkControlPanelIcon>
@@ -432,7 +432,7 @@
         <msgNewVersionAvailableCurrentVersion>현재 버전: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>새로운 기능:</msgNewVersionAvailableWhatsNew>
         <msgNewVersionDownload>지금 다운로드</msgNewVersionDownload>
-        <msgNewVersionPortableLink>휴대용 버전 다운로드 링크</msgNewVersionPortableLink>
+        <msgNewVersionPortableLink>포터블 버전 다운로드 링크</msgNewVersionPortableLink>
         <msgUsingLatestVersion>프로그램의 최신 버전을 사용하고 있습니다</msgUsingLatestVersion>
         <msgCannotConnectToCrystalIDEA>crystalidea.com 웹 사이트에 연결할 수 없습니다. 인터넷 연결을 확인하세요</msgCannotConnectToCrystalIDEA>
         <msgRunningInWow64>32비트 버전의 Uninstall Tool는 32비트 응용 프로그램만 표시하고 다양한 제한이 있으므로 64비트 Windows에서 실행해서는 안 됩니다. 이 컴퓨터에 Uninstall Tool를 다운로드하여 다시 설치하는 것이 좋습니다. (64비트 Windows에 설치할 때 자동으로 64비트 버전을 선택합니다)</msgRunningInWow64>
@@ -468,7 +468,7 @@
         <statusUnknown>알 수 없음</statusUnknown>
         <statusRecentItems>최근에 설치됨</statusRecentItems>
         <statusRecentItemsTip>최근에 설치/수정된 프로그램 보기</statusRecentItemsTip>
-        <statusStartupTotalInfo>총 %d개 프로그램, %d개 현재 실행 중</statusStartupTotalInfo>
+        <statusStartupTotalInfo>전체 %d개 프로그램, %d개 현재 실행 중</statusStartupTotalInfo>
         <statusCalculatingOccupiedSize>차지한 크기를 계산하는 중... %s</statusCalculatingOccupiedSize>
         <statusNewVersionAvailable>새 버전 사용 가능:</statusNewVersionAvailable>
         <popupNewProgramsFound>%d개의 새로 설치된 프로그램을 찾았습니다!</popupNewProgramsFound>
