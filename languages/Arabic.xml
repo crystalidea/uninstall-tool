@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>هل تريد ان تزيل هذه المواد؟</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>هذه ستزيل المواد فوق من مكتب تسجيل نظامك (قائمة ابدا) وهم لن يشتغلوا عند بدء تشغيل الوندوز</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>لاكمال عملية التسجيل عليك اعادة تشغيل البرنامج. \n\nهل تريد فعل هذا ؟</msgRegRestartRequired>
+        <msgRegSuccess>شكرا لك على تفعيل اداة الغاء التثبيت!</msgRegSuccess>
+        <msgRegFailed>الاسم او مفتاح الرخصة الذي ادخلته غير صحيح.\n\nالرجاء التاكد من ادخالهما تماما كما وردا في بريد التسجيل الالكتروني.</msgRegFailed>
         <msgNewVersionAvailable>متوفر %s اصدار جديد من:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>%s:النسخة الحالية:</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>ما الجديد:</msgNewVersionAvailableWhatsNew>

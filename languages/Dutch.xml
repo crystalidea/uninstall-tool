@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Bent U er zeker van dat U deze items wilt verwijderen?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Dit zal de bovenstaande Items uit het Register verwijderen (Opstart menu) en ze zullen niet meer Opstarten als Windows opstart.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Om de Registratie door te voeren moet U het Programma opnieuw opstarten. \n\nWilt U dat nu doen?</msgRegRestartRequired>
+        <msgRegSuccess>Dank U voor het activeren van Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>De ingevoerde registratie naam of registratie code is niet geldig. \n\nControleer a.u.b. of beide gegevens precies zijn ingevoerd zoals vermeld in de registratie e-mail.</msgRegFailed>
         <msgNewVersionAvailable>Er is een nieuwe versie %s beschikbaar</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Huidige versie: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Wat is nieuw:</msgNewVersionAvailableWhatsNew>

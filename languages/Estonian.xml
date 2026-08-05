@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Oled kindel, et soovite kustutada need kirjed?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>See eemadlab failid sinu süsteemi registrist (stardi menüüs) ja need kunagi ei käivitu koos Windowsiga.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Et lõpetada registreerimine pead sa taaskäivitama programmi. \n\nKas soovid seda teha?</msgRegRestartRequired>
+        <msgRegSuccess>Täname, et aktiveerisid Uninstall Tool-i!</msgRegSuccess>
+        <msgRegFailed>Sisestatud registreerimisnimi või registreerimisvõti ei ole kehtiv. \n\nPalun veendu, et mõlemad on sisestatud täpselt nii, nagu need on sinu registreerimise e-mailis.</msgRegFailed>
         <msgNewVersionAvailable>Uus versioon %s on saadaval.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Käesolev versioon: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Mi's on uut:</msgNewVersionAvailableWhatsNew>

@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Jste si jisti, že chcete odstranit tyto položky?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Tato volba odstraní výše uvedené položky ze systémových registrů/Start Menu a proto se víc nebudou spouštět při startu Windows.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Pro dokončení registrace je nutné restartovat program.\n\nPřejete si program ukončit?</msgRegRestartRequired>
+        <msgRegSuccess>Děkujeme za aktivaci programu Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Zadané jméno nebo registrační kód není platný. \n\nZkontrolujte prosím, zda jste oba údaje zadali přesně tak, jak jsou uvedeny ve vašem registračním e-mailu.</msgRegFailed>
         <msgNewVersionAvailable>Je dostupná nová verze %s:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Aktuální verze: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Co je nového:</msgNewVersionAvailableWhatsNew>

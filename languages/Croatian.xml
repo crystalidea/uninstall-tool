@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Sigurno hoćete uklonite ove stavke?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Stavke će biti izbrisane iz sistemskog registra (Izbornik Start) i neće se nikad pokretati zajedno sa sistemom.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Potrebno je ponovno pokrenuti program da bi završili registraciju. \n\nOdmah?</msgRegRestartRequired>
+        <msgRegSuccess>Hvala vam što ste aktivirali Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Uneseno ime ili ključ nije ispravan. \n\nProvjerite jesu li ime i ključ upisani točno onako kako stoje u e-poruci koju ste dobili pri registraciji.</msgRegFailed>
         <msgNewVersionAvailable>Nova inačica %s je dostupna</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Trenutna inačica: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Novine:</msgNewVersionAvailableWhatsNew>

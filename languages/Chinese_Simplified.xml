@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>您确认要删除这些项目吗?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>此操作将从您的系统注册表 (开始菜单) 中删除上述项目，并且它们将永远不会在您的 Windows 启动时运行。</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>要完成注册您必须重新启动程序。 \n\n您要立即执行该操作吗?</msgRegRestartRequired>
+        <msgRegSuccess>感谢您激活 Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>您输入的注册名称或注册密钥无效。 \n\n请确认两者与您注册邮件中的内容完全一致。</msgRegFailed>
         <msgNewVersionAvailable>新版本 %s 可用</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>当前版本: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>更新信息:</msgNewVersionAvailableWhatsNew>

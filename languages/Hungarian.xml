@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Valóban eltávolítja ezeket az elemeket?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Ez el fogja távolítani az elemeket a rendszerleíróból (start menü) és azok többé nem fognak futni a Windows indításakor.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>A regisztráció érvényesítéséhez újra kell indítani a programot. \n\nÚjraindítja most?</msgRegRestartRequired>
+        <msgRegSuccess>Köszönjük, hogy aktiválta az Uninstall Tool programot!</msgRegSuccess>
+        <msgRegFailed>A megadott regisztrációs név vagy regisztrációs kulcs érvénytelen. \n\nKérjük, ellenőrizze, hogy mindkettőt pontosan úgy adta-e meg, ahogyan a regisztrációs e-mailben szerepel.</msgRegFailed>
         <msgNewVersionAvailable>Új %s verzió érhető el.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Jelenlegi verzió: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Újdonságok:</msgNewVersionAvailableWhatsNew>

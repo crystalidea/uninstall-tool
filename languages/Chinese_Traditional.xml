@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>您確定真的要移除這些項目嗎?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>這將從您的系統登錄處(開始功能表)移除上面的項目以及當您的 Windows 啟動時，它們將永不執行。</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>要完成註冊的話，您必須重新啟動該程式。\n\n您要馬上重新啟動嗎?</msgRegRestartRequired>
+        <msgRegSuccess>感謝您啟用 Uninstall Tool！</msgRegSuccess>
+        <msgRegFailed>您輸入的註冊名稱或註冊碼無效。\n\n請確認兩者皆與您的註冊電子郵件中的內容完全相同。</msgRegFailed>
         <msgNewVersionAvailable>有新版本 %s 可用</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>目前版本: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>最新動向:</msgNewVersionAvailableWhatsNew>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.5" LangID="1033" Author="Hrant Ohanyan »»» www.haysoft.org »»» h.ohanyan@haysoft.org">
+<LanguageStrings version="3.7" LangID="1067" Author="Hrant Ohanyan »»» www.haysoft.org »»» h.ohanyan@haysoft.org">
     <MainMenu>
         <mnuFile>&amp;Ֆայլ</mnuFile>
         <mnuFileExport>&amp;Արտահանել ցանկը HTML-ով...</mnuFileExport>
         <mnuFileExit>&amp;Փակել</mnuFileExit>
         <mnuAction>&amp;Գործողություն</mnuAction>
-        <mnuActionUninstall>Ջ&amp;նջել ծրագիրը համակարգչից...</mnuActionUninstall>
+        <mnuActionUninstall>Ա&amp;պատեղադրել ծրագիրը...</mnuActionUninstall>
         <mnuActionModify>&amp;Փոփոխել...</mnuActionModify>
         <mnuActionDelete>&amp;Ստիպողաբար հեռացում</mnuActionDelete>
         <mnuActionDeleteBatch>Փաթեթային &amp;Ստիպողաբար հեռացում</mnuActionDeleteBatch>
@@ -16,23 +16,23 @@
         <mnuTracedDataUndoTracing>Հետարկել հետագծումը</mnuTracedDataUndoTracing>
         <mnuTracedDataAppend>Ավելացնել տվյալներ (տեղադրել և հետագծել ծրագիրը)...</mnuTracedDataAppend>
         <mnuActionJumpToRegistry>&amp;Գրանցամատյանի գրառումը</mnuActionJumpToRegistry>
-        <mnuActionJumpToProgramFolder>&amp;Ծրագրի թղթապանակը</mnuActionJumpToProgramFolder>
+        <mnuActionJumpToProgramFolder>&amp;Ծրագրի պանակը</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Ծրագրի վեբ կայքը</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
-        <mnuActionBrowseLocation>Ծրագրի թղթապանակը...</mnuActionBrowseLocation>
+        <mnuActionOpenWindowsStore>Բացել Microsoft-ի Խանութում</mnuActionOpenWindowsStore>
+        <mnuActionBrowseLocation>Ծրագրի պանակը...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Աղբյուրը...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Որոնել Google-ում`</mnuActionGoogleFor>
         <mnuView>&amp;Տեսք</mnuView>
-        <mnuViewMainToolbar>Հիմնական գործիքները</mnuViewMainToolbar>
+        <mnuViewMainToolbar>Հիմնական գործիքներ</mnuViewMainToolbar>
         <mnuViewMainToolbarShow>Ցուցադրել հիմնական գործիքները</mnuViewMainToolbarShow>
-        <mnuViewMainToolbarButtonLabels>Ցուցադրել գործիքների կոճակների անունները</mnuViewMainToolbarButtonLabels>
+        <mnuViewMainToolbarButtonLabels>Ցուցադրել գործիքների կոճակների անվանումները</mnuViewMainToolbarButtonLabels>
         <mnuViewSecondaryToolbar>Երկրորդական գործիքներ</mnuViewSecondaryToolbar>
         <mnuViewRefresh>&amp;Թարմացնել</mnuViewRefresh>
         <mnuViewListColumnsReset>Վերակայել</mnuViewListColumnsReset>
         <mnuViewLanguage>Ծրագրի լեզուն</mnuViewLanguage>
         <mnuTools>&amp;Գործիքներ</mnuTools>
         <mnuToolsSystemTools>Համակարգային գործիքներ</mnuToolsSystemTools>
-        <mnuToolsAddRemove>&amp;Ծրագրերի Տեղադրում/Հեռացում...</mnuToolsAddRemove>
+        <mnuToolsAddRemove>&amp;Ծրագրերի Տեղադրում/Ապատեղադրում...</mnuToolsAddRemove>
         <mnuToolsComponents>&amp;Windows-ի բաղադրիչները...</mnuToolsComponents>
         <mnuToolsSystemRestore>Համակարգի վերականգնում</mnuToolsSystemRestore>
         <mnuToolsSecurityCenter>Անվտանգության կենտրոն</mnuToolsSecurityCenter>
@@ -44,7 +44,7 @@
         <mnuToolsOptions>&amp;Կարգավորումներ...</mnuToolsOptions>
         <mnuHelp>&amp;Օգնություն</mnuHelp>
         <mnuHelpOnline>&amp;Բովանդակությունը...</mnuHelpOnline>
-        <mnuHelpHomePage>Վեբ կայքը</mnuHelpHomePage>
+        <mnuHelpHomePage>Վեբ կայք</mnuHelpHomePage>
         <mnuHelpSupport>Աջակցում</mnuHelpSupport>
         <mnuHelpBuyNow>&amp;Գնել...</mnuHelpBuyNow>
         <mnuHelpEnterKey>&amp;Գրանցել...</mnuHelpEnterKey>
@@ -70,14 +70,14 @@
         <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
         <sourceWindowsTask>Windows Task</sourceWindowsTask>
         <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
-        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
-        <staticNoStartupItems>Չկան Windows-ի հետ միաժամանակ մեկնարկվող ծրագրեր</staticNoStartupItems>
+        <staticNoProgramsInCategory>Ծրագրեր չկան '%s' անվանակարգում</staticNoProgramsInCategory>
+        <staticNoStartupItems>Windows-ի հետ միաժամանակ մեկնարկող ծրագրեր չկան</staticNoStartupItems>
         <staticNoStartupItemsTip>Կարող եք ինքներդ &lt;a&gt;ավելացնել նոր ծրագիր:&lt;/a&gt;</staticNoStartupItemsTip>
-        <mark32bitItem>(32-bit)</mark32bitItem>
+        <mark32bitItem>(32 բիթային)</mark32bitItem>
     </ListCtrl>
     <ToolBar>
-        <btnUninstaller>Ջնջել</btnUninstaller>
-        <btnUninstallerToolTip>Ջնջում է տեղադրված ծրագիրը կամ տեղադրում և հետևում է նոր ծրագրերին</btnUninstallerToolTip>
+        <btnUninstaller>Ապատեղադրում</btnUninstaller>
+        <btnUninstallerToolTip>Ապատեղադրում է տեղադրված ծրագիրը կամ տեղադրում և հետևում է նոր ծրագրերին</btnUninstallerToolTip>
         <btnStartup>Ինքնամեկնարկում</btnStartup>
         <btnStartupToolTip>Համակարգի հետ ինքնամեկնարկվող ծրագրերը</btnStartupToolTip>
         <btnRefresh>Թարմացնել</btnRefresh>
@@ -94,15 +94,15 @@
         <btnSystemToolTip>Համակարգային բաղադրիչները և թարմացումները</btnSystemToolTip>
         <btnHidden>Թաքնված</btnHidden>
         <btnHiddenToolTip>Թաքնված բաղադրիչները</btnHiddenToolTip>
-        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
+        <btnStoreApps>Microsoft Խանութի հավելվածներ</btnStoreApps>
+        <btnStoreAppsToolTip>Microsoft Խանութից տեղադրված հավելվածներ</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Վերջին տեղադրվածները (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Վերջին տեղադրվածները/թարմացվածները</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Տեղադրել և հետևել</btnInstallAndTrace>
         <btnInstallAndTraceTooltip>Տեղադրեք նոր ծրագիր և հետևեք նրա կատարած բոլոր փոփոխություններին Ֆայլային համակարգում և Գրանցամատյանում:</btnInstallAndTraceTooltip>
     </SecondaryToolbar>
     <ExplorerBar>
-        <itemUninstallIt>Ջնջել</itemUninstallIt>
+        <itemUninstallIt>Ապատեղադրել</itemUninstallIt>
         <itemModifyIt>Փոփոխել</itemModifyIt>
         <itemDelete>Ստիպողաբար հեռացում</itemDelete>
         <itemBatchDelete>Մնացորդ բոլոր ֆայլերի փաթեթային ստիպողաբար հեռացում</itemBatchDelete>
@@ -111,13 +111,13 @@
         <itemCancelWaiting>Չեղարկել</itemCancelWaiting>
         <itemSearch>Որոնում</itemSearch>
         <itemShortSearchTip>Մուտքագրեք անուն` գտնելու համար</itemShortSearchTip>
-        <itemVersion>Տարբերակ.</itemVersion>
-        <itemInstalledOn>Տեղադրելու ամսաթիվ.</itemInstalledOn>
+        <itemVersion>Տարբերակ՝</itemVersion>
+        <itemInstalledOn>Տեղադրելու ամսաթիվ՝</itemInstalledOn>
         <itemPublisher>Թողարկող.</itemPublisher>
         <itemRegistryEntry>Գրանցամատյանի գրառում</itemRegistryEntry>
-        <itemUninstallInProgress>Ջնջվում է</itemUninstallInProgress>
-        <itemUninstallInProgressTip>%s-ը ջնջվում է, խնդրում ենք սպասել մինչ գործողությունը կավարտվի...</itemUninstallInProgressTip>
-        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemUninstallInProgress>Ապատեղադրվում է</itemUninstallInProgress>
+        <itemUninstallInProgressTip>%s-ը ապատեղադրվում է, խնդրում ենք սպասել մինչ գործողությունը կավարտվի...</itemUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Ընթանում է փաթեթային ապատեղադրում: Խնդրում ենք սպասել, մինչև որ բոլոր ծրագրերի ապատեղադրումը կավարտվի...</itemBatchUninstallInProgressTip>
         <itemModifyInProgress>Փոփոխումը ընթացքի մեջ է</itemModifyInProgress>
         <itemModifyInProgressTip>%s-ը փոփոխվում է, խնդրում ենք սպասել մինչ գործողությունը կավարտվի...</itemModifyInProgressTip>
         <itemNothingFound>Ոչինչ չի գտնվել</itemNothingFound>
@@ -126,7 +126,7 @@
         <itemNoUninstall>Ծրագիրը չի կարող ջնջվել նորմալ եղանակով, կարող եք փորձել Ստիպողաբար հեռացումը:</itemNoUninstall>
         <itemTracedOnly>Օգտվողի գրառում, որը մնացել է: Կարող է ջնջվել միայն ստիպողաբար հեռացումով:</itemTracedOnly>
         <!-- startup pane -->
-        <itemDisableRunning>Հանել ինքնամեկնարկումից</itemDisableRunning>
+        <itemDisableRunning>Անջատել ինքնամեկնարկումը</itemDisableRunning>
         <itemEnableRunning>Թույլատրել ինքնամեկնարկումը</itemEnableRunning>
         <itemDeleteStartupItem>Ջնջել ինքնամեկնարկի ցանկից</itemDeleteStartupItem>
         <itemDisableSelected>Անջատել ընտրվածները</itemDisableSelected>
@@ -134,13 +134,13 @@
         <itemDeleteSelected>Ջնջել ընտրված ֆայլերը ցանկից</itemDeleteSelected>
         <itemMultiplSelected>%u ֆայլ է ընտրված</itemMultiplSelected>
         <itemAddNewStartupItem>Ավելացնել ծրագիր...</itemAddNewStartupItem>
-        <itemStatusCaption>Վիճակը.</itemStatusCaption>
+        <itemStatusCaption>Վիճակը՝</itemStatusCaption>
         <itemStatusRunning>Ինքնամեկնարկում է</itemStatusRunning>
         <itemStatusNotRunning>Չի ինքնամեկնարկում</itemStatusNotRunning>
         <itemStatusDisabled>Անջատված է</itemStatusDisabled>
         <itemStatusInvalid>Անվավեր է</itemStatusInvalid>
-        <itemCommandLineCaption>Հրամանի տողը.</itemCommandLineCaption>
-        <itemSourceCaption>Աղբյուրը.</itemSourceCaption>
+        <itemCommandLineCaption>Հրամանի տողը՝</itemCommandLineCaption>
+        <itemSourceCaption>Աղբյուրը՝</itemSourceCaption>
         <itemSourceRun_HKLM>Բոլոր օգտվողների Գրանցամատյան</itemSourceRun_HKLM>
         <itemSourceRun_HKCU>Ընթացիկ օգտվողի Գրանցամատյան</itemSourceRun_HKCU>
         <itemSourceRunOnce_HKLM>Բոլոր օգտվողների մեկանգամյա Գրանցամատյան</itemSourceRunOnce_HKLM>
@@ -148,39 +148,39 @@
         <itemSourceStartMenu_All>Բոլոր օգտվողների Ինքնամեկնարկվող ծրագրերը</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Ընթացիկ օգտվողի Ինքնամեկնարկվող ծրագրերը</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>Մուտք գործելիս հերթագրված է Windows-ի առաջադրանք</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Խանութի հավելվածի ինքնամեկնարկի առաջադրանք</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Ավելացնել նոր ինքնամեկնարկվող ծրագիր</DlgAddNewStartupProgramCaption>
-        <labelStartupType>Տեսակը.</labelStartupType>
-        <labelPathToExecutableFile>Կատարելի ֆայլի ուղին.</labelPathToExecutableFile>
-        <labelArguments>Փաստարկներ (պարտադիր չէ).</labelArguments>
-        <filterExecutableFiles>Կատարելի ֆայլեր.</filterExecutableFiles>
+        <labelStartupType>Տեսակը՝</labelStartupType>
+        <labelPathToExecutableFile>Կատարելի ֆայլի ուղին՝</labelPathToExecutableFile>
+        <labelArguments>Փաստարկներ (պարտադիր չէ)՝</labelArguments>
+        <filterExecutableFiles>Կատարելի ֆայլեր՝</filterExecutableFiles>
         <filterAllFiles>Բոլոր ֆայլերը</filterAllFiles>
-        <checkHighestPriviledges>Աշխատեցնել առաջադրանքը ամենաբարձր արտոնություններով</checkHighestPriviledges>
+        <checkHighestPriviledges>Աշխատեցնել առաջադրանքը նմենաբարձր արտոնություններով</checkHighestPriviledges>
     </DlgAddNewStartupProgram>
     <DlgPreferences>
         <DlgPreferencesCaption>Կարգավորումներ</DlgPreferencesCaption>
         <!-- general -->
         <categoryGeneral>Գլխավոր</categoryGeneral>
-        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
-        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkSkipUAC>Օգտագործել Windows Խնդիրների հերթացուցակը՝ շրջանցելու համար Օգտվողի հաշվի կառավարման հաստատման երկխոսությունը (անհրաժեշտության դեպքում)</checkSkipUAC>
+        <checkSkipUACHelpText>Այս ընտրանքի ակտիվացումը հնարավորություն է տալիս շրջանցել UAC հաստատումը Uninstall Tool-ը թողարկելիս ("Ցանկանո՞ւմ եք, որ այս ծրագիրը փոփոխություններ կատարի ձեր սարքում:"): Այս ընտրանքը օգտակար է, երբ Uninstall Tool-ը թողարկվում է բացվում:\n\nԵրբ միացված է, Uninstall Tool-ը ստեղծում է Windows-ի Խնդիրների հերթացուցակում բարձրացված առաջադրանք, որը կատարվում է ամեն անգամ, երբ աշխատեցնում եք ծրագիրը:\n\nԳործադրելի է Windows Vista և ավելի բարձրում, երբ միացված է UAC-ն:</checkSkipUACHelpText>
         <checkCheckForUpdates>Ծրագիրը բացելիս ստուգել թարմացումները</checkCheckForUpdates>
         <checkCheckForBetaVersions>Ստուգել բետա տարբերակները</checkCheckForBetaVersions>
         <staticInterfaceLanguage>Ծրագրի լեզուն.</staticInterfaceLanguage>
-        <checkControlPanelIcon>Ցուցադրել Uninstall Tool-ի պատկերը Control Panel-ում</checkControlPanelIcon>
-        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
-        <checkTotalCommander>Բացել ծրագրի թղթապանակը Total Commander-ի միջոցով</checkTotalCommander>
+        <checkControlPanelIcon>Ցուցադրել Uninstall Tool-ի պատկերը Հսկիչ վահանակում</checkControlPanelIcon>
+        <checkShellExtension>Հավելել 'Տեղադրել և հետևել' հրամանը տեղակայիչ ֆայլերի համար (exe/msi) Windows Հետախույզի համատեքստի ցանկում</checkShellExtension>
+        <checkTotalCommander>Բացել ծրագրի պանակը Total Commander-ի միջոցով</checkTotalCommander>
         <!-- interface -->
         <categoryInterface>Միջերես</categoryInterface>
         <checkToolBarCaptions>Ցուցադրել գործիքագոտու կոճակների անունները</checkToolBarCaptions>
         <categoryAppList>Ծրագրերի ցանկը</categoryAppList>
         <checkSmallIcons>Փոքր պատկերանիշեր</checkSmallIcons>
-        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
-        <frameColorScheme>Գույնային սխեմա՝</frameColorScheme>
-        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
-        <colorSchemeLight>Light mode (default)</colorSchemeLight>
-        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <checkMark32bitApps>Նշել 32 բիթային ծրագրերը</checkMark32bitApps>
+        <frameColorScheme>Գույնային ոճ՝</frameColorScheme>
+        <colorSchemeAuto>Ըստ Windows-ի լուսավոր/մութ կերպի</colorSchemeAuto>
+        <colorSchemeLight>Լուսավոր կերպ (սկզբնադիր)</colorSchemeLight>
+        <colorSchemeDark>Մութ կերպ</colorSchemeDark>
         <!-- Uninstaller -->
         <staticTreeLikeUpdates>Ծառի ձևով ծրագրերի թարմացումների ցուցադրում (ենթաբաղադրիչներ)</staticTreeLikeUpdates>
         <checkDisplayUpdates>&amp;Ցուցադրել թարմացումները</checkDisplayUpdates>
@@ -192,22 +192,22 @@
         <checkDisplayPopup>Նոր տեղադրված ծրագրերի ցանկը ցուցադրել հայտնվող պատուհանով</checkDisplayPopup>
         <checkHighlighRecent>Գունանշել տեղադրված վերջին ծրագրերը</checkHighlighRecent>
         <checkRecentOnSecondaryToolbar>Ցուցադրել վերջին ծրագրերը երկրորդական գործիքագոտում</checkRecentOnSecondaryToolbar>
-        <categoryUninstallWizard>Ջնջելու օգնական</categoryUninstallWizard>
-        <staticWizardDesctiption>Ջնջելու օգնականը հնարավորություն է տալիս ջնջել ցանկացած ծրագիր համակարգչում և Գրանցամատյանում չթողնելով որևէ ավելորդ ֆայլ կամ գրառում: Կարող եք ինքներդ որոշել՝ աշխատեցնել այն ինքաբար, անջատել կամ ամեն անգամ բացելու հարցում կատարել: Ջնջելու օգնականը միշտ աշխատեցվում է հետագծվող ծրագրերի համար:</staticWizardDesctiption>
-        <staticWizardUsage>Ջնջելու օգնականը օգտագործվում է.</staticWizardUsage>
+        <categoryUninstallWizard>Ապատեղադրելու օգնական</categoryUninstallWizard>
+        <staticWizardDesctiption>Ապատեղադրելու օգնականը հնարավորություն է տալիս ապատեղադրել ցանկացած ծրագիր համակարգչում և Գրանցամատյանում չթողնելով որևէ ավելորդ ֆայլ կամ գրառում: Կարող եք ինքներդ որոշել՝ աշխատեցնել այն ինքնաբար, անջատել կամ ամեն անգամ բացելու հարցում կատարել: Ապատեղադրելու օգնականը միշտ աշխատեցվում է հետագծվող ծրագրերի համար:</staticWizardDesctiption>
+        <staticWizardUsage>Ապատեղադրելու օգնականը օգտագործվում է՝</staticWizardUsage>
         <comboItemWizardOption1>Բացելուց առաջ հարցնել</comboItemWizardOption1>
         <comboItemWizardOption2>Ինքնաբար</comboItemWizardOption2>
         <comboItemWizardOption3>Անջատել</comboItemWizardOption3>
     </DlgPreferences>
     <UninstallWizard>
-        <UninstallWizardLocalizedName>Ջնջելու օգնական</UninstallWizardLocalizedName>
-        <UninstallWizardCaption>Ջնջվելու են %s-ի բոլոր ֆայլերը - Ջնջելու օգնական</UninstallWizardCaption>
-        <captionQuestionUninstall>Ցանկանու՞մ եք ջնջել '%s'-ը:</captionQuestionUninstall>
-        <captionQuestionUninstallBatch>Ցանկանու՞մ եք ջնջել %u ընտրված ծրագրերը:?</captionQuestionUninstallBatch>
-        <captionUninstalling>%s-ի ջնջում...</captionUninstalling>
-        <statusUninstallInfo>Ջնջելու օգնականը նախ կբացի տվյալ ծրագրի ջնջվող բաղադրիչը, ապա կմաքրի մնացորդները:</statusUninstallInfo>
-        <statusUninstallInfoBatch>Ջնջելու օգնականը նախ կբացի յուրաքանչյուր ծրագրի ջնջվող բաղադրիչը: Հետո՝ կցուցադրի մնացորդ ֆայլերի ցանկը: </statusUninstallInfoBatch>
-        <statusPerformingUninstall>Կատարվում է ներկառուցված ջնջող ստանդարտ բաղադրիչի բացում, ինչը կարող է պահանջել օգտվողի ուշադրությունը:</statusPerformingUninstall>
+        <UninstallWizardLocalizedName>Ապատեղադրելու օգնական</UninstallWizardLocalizedName>
+        <UninstallWizardCaption>Ապատեղադրվելու են %s-ի բոլոր ֆայլերը - Ապատեղադրելու օգնական</UninstallWizardCaption>
+        <captionQuestionUninstall>Ցանկանու՞մ եք ապատեղադրել '%s'-ը:</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>Ցանկանու՞մ եք ապատեղադրել %u ընտրված ծրագրերը:</captionQuestionUninstallBatch>
+        <captionUninstalling>%s-ի ապատեղադրում...</captionUninstalling>
+        <statusUninstallInfo>Ապատեղադրելու օգնականը նախ կբացի տվյալ ծրագրի ապատեղադրող բաղադրիչը, ապա կմաքրի մնացորդները:</statusUninstallInfo>
+        <statusUninstallInfoBatch>Ապատեղադրելու օգնականը նախ կբացի յուրաքանչյուր ծրագրի ապատեղադրող բաղադրիչը: Հետո՝ կցուցադրի մնացորդ ֆայլերի ցանկը: </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Կատարվում է ներկառուցված ապատեղադրող ստանդարտ բաղադրիչի բացում, ինչը կարող է պահանջել օգտվողի ուշադրությունը:</statusPerformingUninstall>
         <statusScanning>Փնտրվում են մնացորդ ֆայլեր...</statusScanning>
         <statusScanningTraced>Ստեղծվում է մնացորդ ֆայլերի ցանկը, սպասե՛ք...</statusScanningTraced>
         <statusForceRemoval>'%s'-ի Ստիպողաբար հեռացում</statusForceRemoval>
@@ -230,38 +230,38 @@
         <btnFinish>Մաքրել</btnFinish>
         <btnCancel>Չեղարկել</btnCancel>
         <btnClose>Փակել</btnClose>
-        <btnUninstall>Uninstall</btnUninstall>
+        <btnUninstall>Ջնջել</btnUninstall>
     </UninstallWizard>
     <DelayedFilesRemovalDialog>
         <Title>Որոշ ֆայլեր չեն ջնջվել</Title>
         <Instruction1>Հետևյալ ֆայլերը չեն ջնջվել, որովհետև դրանք օգտագործվում են համակարգի կողմից.</Instruction1>
-        <Instruction2>Այս ֆայլերը կջնջվեն համակարգչը վերամեկնարկելուց հետո:</Instruction2>
+        <Instruction2>Այս ֆայլերը կջնջվեն համակարգիչը վերամեկնարկելուց հետո:</Instruction2>
         <btnReboot>Վերամեկնարկել</btnReboot>
     </DelayedFilesRemovalDialog>
     <RunningProcessesDialog>
         <Title>Ստիպողաբար ավարտել աշխատող գործընթացները:</Title>
-        <Instruction1>Հետևյալ գործընթացները ընթացքի մեջ են.</Instruction1>
-        <Instruction2>Խորհուրդ է տրվում ջնջելուց առաջ ավարտել դրանք, բայց Uninstall Wizard-ը կարող է ստիպողական ավարտել դրանք:</Instruction2>
+        <Instruction1>Հետևյալ գործընթացները ընթացքի մեջ են՝</Instruction1>
+        <Instruction2>Խորհուրդ է տրվում ջնջելուց առաջ ավարտել դրանք, բայց Ապատեղադրելու օգնականը կարող է ստիպողական ավարտել դրանք:</Instruction2>
     </RunningProcessesDialog>
     <InstallTracker>
-        <InstallTrackerLocalizedName>Տեղադրելու հետագծում</InstallTrackerLocalizedName>
+        <InstallTrackerLocalizedName>Տեղադրման հետագծում</InstallTrackerLocalizedName>
         <Title>Տեղադրել և հետևել ծրագրին</Title>
         <TitleAppend>Տեղադրել և հետևել ծրագրին, ավելացնել հետագծման տվյալները '%s'-ին</TitleAppend>
-        <staticPathToProgram>Տեղակայիչի ուղին (.exe, .msi).</staticPathToProgram>
-        <staticInstallProgress>Տեղակայելու ընթացքը.</staticInstallProgress>
-        <checkMinimize>Ջնջելու ժամանակ թաքցնել Uninstall Tool-ը էկրանի ներքևում</checkMinimize>
+        <staticPathToProgram>Տեղակայիչի ուղին (.exe, .msi)՝</staticPathToProgram>
+        <staticInstallProgress>Տեղակայելու ընթացքը՝</staticInstallProgress>
+        <checkMinimize>Ապատեղադրելու ժամանակ թաքցնել Uninstall Tool-ը էկրանի ներքևում</checkMinimize>
         <btnInstall>Տեղադրել և հետևել</btnInstall>
         <btnStop>Կանգնեցնել</btnStop>
         <btnSave>Պահել</btnSave>
         <btnSaveLog>Պահել մատյանը...</btnSaveLog>
         <btnNoAndRevert>Ոչ + Հետադարձել</btnNoAndRevert>
         <staticRevertInfo>Հետադարձի ընտրանքը կջնջի ֆայլային համակարգի/գրանցամատյանի բոլոր գրառումները, որոնք ստեղծվել են հետագծվող ծրագիրը տեղադրելիս</staticRevertInfo>
-        <installTip1>Տեղադրեք այնպես, ինչպես որ սովորաբար անում եք, իսկ Uninstall Tool-ը կհետևի բոլոր փոփոխություններին: Հետագծումը կկանգնեցվի, երբ բոլոր գործընթացները ավարտվեն կամ կարող եք ինքներդ դա անել:</installTip1>
+        <installTip1>Տեղադրեք այնպես, ինչպես որ սովորաբար անում եք, իսկ Uninstall Tool-ը կհետևի բոլոր փոփոխություններին: Հետագծումը կկանգնեցվի, երբ բոլոր գործընթացները նվարտվեն կամ կարող եք ինքներդ դա անել:</installTip1>
         <installTip2>Համոզվեք, որ այլ տեղակայիչ չի աշխատում:</installTip2>
         <installTip3>Եթե տեղադրված է ծրագրի նախորդ տարբերակը, ապա պետք է ջնջեք այն:</installTip3>
         <trayIconTitle>'%s'-ը տեղադրվում է...</trayIconTitle>
-        <trayIconTooltip>Մկնիկի աջ սեղմամբ դիտեք ցանկը` կանգնեցնելու կամ դիտելու մատյանը</trayIconTooltip>
-        <trayIconText>Տեղադրեք այնպես, ինչպես որ սովորաբար անում եք, իսկ Uninstall Tool-ը կհետևի բոլոր փոփոխություններին: Հետագծումը կկանգնեցվի, երբ բոլոր գործընթացները ավարտվեն կամ կարող եք ինքներդ դա անել (աջ սեղմում ցանկի վրա):</trayIconText>
+        <trayIconTooltip>Մկնիկի աջ կտտոցով դիտեք ցանկը` կանգնեցնելու կամ դիտելու մատյանը</trayIconTooltip>
+        <trayIconText>Տեղադրեք այնպես, ինչպես որ սովորաբար անում եք, իսկ Uninstall Tool-ը կհետևի բոլոր փոփոխություններին: Հետագծումը կկանգնեցվի, երբ բոլոր գործընթացներն ավարտվեն կամ կարող եք ինքներդ դա անել (աջ սեղմում ցանկի վրա):</trayIconText>
         <trayIconMenuProgress>Տեղադրելու ընթացքը</trayIconMenuProgress>
         <trayIconMenuStop>Կանգնեցնել</trayIconMenuStop>
         <readMore>Կարդալ ավելին</readMore>
@@ -270,14 +270,14 @@
         <selectInstallFile>Ընտրել տեղակայվող ֆայլը</selectInstallFile>
         <contextMenuCopy>Պատճենել</contextMenuCopy>
         <logEventCreateFile>Ստեղծվել է ֆայլ</logEventCreateFile>
-        <logEventCreateFolder>Ստեղծվել է թղթապանակ</logEventCreateFolder>
+        <logEventCreateFolder>Ստեղծվել է պանակ</logEventCreateFolder>
         <logEventRenameFile>Վերանվանել ֆայլը</logEventRenameFile>
-        <logEventRenameFolder>Վերանվանել թղթապանակը</logEventRenameFolder>
+        <logEventRenameFolder>Վերանվանել պանակը</logEventRenameFolder>
         <logEventCreateKey>Ստեղծվել է բանալի</logEventCreateKey>
-        <logEventDeleteKey>Ջնջվել է բանալին</logEventDeleteKey>
+        <logEventDeleteKey>Բանալին ջնջվել է</logEventDeleteKey>
         <logEventSetValue>Որոշում է արժեքը</logEventSetValue>
         <logEventProcessCreated>Ստեղծվել է գործընթաց</logEventProcessCreated>
-        <logEventProcessKilled>Գործընթացը ավարտվել է</logEventProcessKilled>
+        <logEventProcessKilled>Գործընթացն ավարտվել է</logEventProcessKilled>
         <logEventDeleteOperation>Ջնջել</logEventDeleteOperation>
         <logStartingService>Սկսվում է Տեղադրման հետագծման ծառայությունը...</logStartingService>
         <logStartingServiceError1>Սխալ. CisUtMonitor ծառայությունը դեռ կանգնեցվում է</logStartingServiceError1>
@@ -294,15 +294,15 @@
         <logTrackingStartingEror>Սխալ. Հնարավոր չէ սկսել տեղադրելու գործընթացը (սխալ %u)</logTrackingStartingEror>
         <logTrackingCannotStart>Սխալ. Հնարավոր չէ սկսել դիտազննումը: Վերատեղադրեք ծրագիրը:</logTrackingCannotStart>
         <logTrackingStoppedByUser>Հետագծումը կանգնեցվել է օգտվողի կողմից</logTrackingStoppedByUser>
-        <logTrackingAllProcessesFinished>Բոլոր տեղադրումները ավարտվել են</logTrackingAllProcessesFinished>
-        <logTrackingCompleted>Տեղադրումը ավարտված է</logTrackingCompleted>
+        <logTrackingAllProcessesFinished>Բոլոր տեղադրումներն ավարտվել են</logTrackingAllProcessesFinished>
+        <logTrackingCompleted>Տեղադրումն ավարտված է</logTrackingCompleted>
         <logTracingAnalyzing>Վերլուծվում է տեղադրումը, խնդրում ենք սպասել...</logTracingAnalyzing>
         <logUninstallEntriesDetected>Գտնվել են տեղադրման գրառումներ՝ %u</logUninstallEntriesDetected>
         <logNewUninstallEntriesDetected>Նոր տեղադրման գրառումներ են գտնվել՝ %u</logNewUninstallEntriesDetected>
         <logTrackingDone>Պատրաստ է</logTrackingDone>
         <logReverting>Փոփոխությունների հետադարձում...</logReverting>
         <logCompleted>Ավարտվել է</logCompleted>
-        <logMSIServiceWarning>Զգուշացում. MSI ծառայությունը անջատված է</logMSIServiceWarning>
+        <logMSIServiceWarning>Զգուշացում. MSI ծառայությունն անջատված է</logMSIServiceWarning>
         <logMSIServiceError1>Սխալ. Հնարավոր չէ բացել MSI ծառայությունը</logMSIServiceError1>
         <logMSIServiceError2>Սխալ. Հնարավոր չէ սկսել MSI ծառայությունը</logMSIServiceError2>
         <logMSIServiceError3>Սխալ. Հնարավոր չէ հարցում կատարել MSI ծառայությանը</logMSIServiceError3>
@@ -314,26 +314,26 @@
     </InstallTrackerCustomEntryDialog>
     <InstallTrackerMultipleEntries>
         <Caption>Գտնվել են տեղադրելու մի քանի գրառումներ</Caption>
-        <Title>Գտնվել են տեղադրելու մի քանի գրառումներ Windows-ի Գրանցամատյանում` տեղադրելուց հետո: Ընտրեք հիմնական ֆայլը` իր պատկերով ցուցադրելու համար 'Հետագծվող' սյան մեջ: Հիշեք, որ եթե ջնջեք միակ ընթացիկ ծրագիրը այստեղից, ապա Uninstall Tool-ը կջնջի դրա հետ կապված բոլոր հետագծվող տվյալները:</Title>
+        <Title>Գտնվել են տեղադրելու մի քանի գրառումներ Windows-ի Գրանցամատյանում` տեղադրելուց հետո: Ընտրեք հիմնական ֆայլը` իր պատկերով ցուցադրելու համար 'Հետագծվող' սյան մեջ: Հիշեք, որ եթե ջնջեք միակ ընթացիկ ծրագիրն այստեղից, ապա Uninstall Tool-ը կջնջի դրա հետ կապված բոլոր հետագծվող տվյալները:</Title>
         <btnSelect>Ընտրել</btnSelect>
     </InstallTrackerMultipleEntries>
     <TracedXMLDialog>
         <TracedXMLDialogCaption>%s հետագծված տվյալներ</TracedXMLDialogCaption>
     </TracedXMLDialog>
     <DependentItemsDialog>
-        <Title>Ջնջել '%s'-ը</Title>
+        <Title>'%s'-ի ապատեղադրում</Title>
         <Instruction>Ջնջե՞լ նաև մնացորդ ֆայլերը:</Instruction>
-        <Footer>Դուք տեղադրել եք '%s'-ը` Տեղադրման հետագծումով: Կան նաև կախում ունեցող այլ ծրագրեր, որոնք նշված են ցանկում: Սա նշանակում է, որ Ջնջելու օգնականը դրանք ևս կջնջի: Իսկ եթե ջնջեք միայն ընթացիկ ծրագիրը, ապա մնացորդ ֆայլերը կանտեսվեն և Ջնջելու օգնականը կփորձի ինքը գտնել այս ծրագրի հետ կապված տվյալները:</Footer>
+        <Footer>Դուք տեղադրել եք '%s'-ը Տեղադրման հետագծումով: Կան նաև կախում ունեցող այլ ծրագրեր, որոնք նշված են ցանկում: Սա նշանակում է, որ Ջնջելու օգնականը դրանք ևս կջնջի: Իսկ եթե ջնջեք միայն ընթացիկ ծրագիրը, ապա մնացորդ ֆայլերը կանտեսվեն և Ջնջելու օգնականը կփորձի ինքը գտնել այս ծրագրի հետ կապված տվյալները:</Footer>
         <btnOnlyCurrent>Միայն %s-ը</btnOnlyCurrent>
     </DependentItemsDialog>
     <RelatedItemsDialog>
-        <Title>Ջնջել '%s'-ը</Title>
+        <Title>'%s'-ի ապատեղադրում</Title>
         <Instruction>Հետևյալ ծրագրերը փոխկապակցված են, ինչը նշանակում է, որ դրանց ջնջումը վերաբերվելու է նաև մյուսներին: Ջնջե՞լ բոլորը:</Instruction>
         <btnUninstallAll>Ջնջել բոլորը</btnUninstallAll>
     </RelatedItemsDialog>
     <UninstallWizardConfirmation>
-        <staticConfirm>Ներկառուցված ջնջելու ծրագիրը ավարտեց իր գործողությունը: Ցանկանու՞մ եք ամբողջությամբ ստուգել Գրանցամատյանը և Ֆայլային համակարգը` ծրագրին պատկանող մնացորդ ֆայլերը գտնելու համար:</staticConfirm>
-        <learnMoreAboutWizard>Կարդալ ավելին Ջնջելու օգնականի մասին</learnMoreAboutWizard>
+        <staticConfirm>Ներկառուցված ապատեղադրելու ծրագիրն ավարտեց իր գործողությունը: Ցանկանու՞մ եք ամբողջությամբ ստուգել Գրանցամատյանը և Ֆայլային համակարգը` ծրագրին պատկանող մնացորդ ֆայլերը գտնելու համար:</staticConfirm>
+        <learnMoreAboutWizard>Կարդալ ավելին Ապատեղադրելու օգնականի մասին</learnMoreAboutWizard>
         <btnYes>Այո</btnYes>
         <btnNo>Ոչ</btnNo>
         <checkDontAskAgain>Հիշել ընտրությունը և այլևս չհարցնել (հնարավոր է փոխել կարգավորումներում)</checkDontAskAgain>
@@ -343,48 +343,48 @@
         <staticWebSite>Վեբ կայք</staticWebSite>
         <staticSupport>Աջակցում</staticSupport>
         <staticEULA>EULA</staticEULA>
-        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticPrivacyPolicy>Գաղտնիության ծանուցում</staticPrivacyPolicy>
         <staticRegisteredTo>Արտոնված է առ՝</staticRegisteredTo>
         <staticChangeKey>Փոխել արտոնագրի բանալին</staticChangeKey>
     </DlgAbout>
     <UnregDlg>
-        <UnregDlgReminder>Փորձնականի հիշեցում</UnregDlgReminder>
-        <UnregDlgExpired>Փորձնականը սպառված է</UnregDlgExpired>
-        <staticExpired>Փորձնական շրջանը սպառված է։ Դուք հնարավորություն ունեիք փորձարկել ծրագիրը 30 օրվա ընթացքում</staticExpired>
-        <staticTrial>Փորձնական տարբերակը կարող է օգտագործվել 30 օրվա ընթացքում, որից հետո պետք է գրանցեք կամ հեռացնեք այս ծրագիրը։</staticTrial>
+        <UnregDlgReminder>Փորձարկման հիշեցում</UnregDlgReminder>
+        <UnregDlgExpired>Փորձարկման ժամկետը սպառված է</UnregDlgExpired>
+        <staticExpired>Փորձարկման ժամկետը սպառված է։ Դուք հնարավորություն ունեիք փորձարկել ծրագիրը 30 օրվա ընթացքում</staticExpired>
+        <staticTrial>Փորձնական տարբերակը կարող է օգտագործվել 30 օրվա ընթացքում, որից հետո պետք է գրանցեք կամ հեռացնեք ծրագիրը։</staticTrial>
         <btnWebSite>Վեբ կայք</btnWebSite>
         <staticDaysLeft>Փորձարկելու համար մնացել է %d օր։</staticDaysLeft>
         <btnBuyNow>Գնել</btnBuyNow>
     </UnregDlg>
     <EnterKeyDlg>
         <EnterKeyDlgCaption>Ծրագրի գրանցում</EnterKeyDlgCaption>
-        <Title>Մուտքագրել գրանցվողի անունը և բանալին՝ Ձեզ ուղարկված էլ նամակից:</Title>
-        <staticName>Գրանցվողի անուն.</staticName>
-        <staticKey>Գրանցման բանալի.</staticKey>
+        <Title>Մուտքագրել գրանցվողի անունը և բանալին՝ Ձեզ ուղարկված էլ. նամակից:</Title>
+        <staticName>Գրանցվողի անուն՝</staticName>
+        <staticKey>Գրանցման բանալի՝</staticKey>
     </EnterKeyDlg>
     <Messages>
         <!-- messages related to Uninstaller -->
-        <msgUninstallFailed>Ջնջելու գործողությունը անհաջող էր։ \nՑանկանու՞մ եք ջնջել Գրանցամատյանի գրառումները և այս ծրագրին պատկանող մնացորդ ֆայլերը։</msgUninstallFailed>
+        <msgUninstallFailed>Ապատեղադրելու գործողությունն անհաջող էր։ \nՑանկանու՞մ եք հեռացնել Գրանցամատյանի գրառումները և այս ծրագրին պատկանող մնացորդ ֆայլերը։</msgUninstallFailed>
         <msgForceRemovalTitle>'%s'-ի Ստիպողաբար հեռացում</msgForceRemovalTitle>
         <msgForceRemovalTitleBatch>Փաթեթային ստիպողաբար հեռացում</msgForceRemovalTitleBatch>
         <msgForceRemovalQuestion>Իրո՞ք ստիպողաբար հեռացնել։</msgForceRemovalQuestion>
-        <msgForceRemovalQuestionBatch>Ցանկանու՞մ եք կատարել հետևյալ ծրագրերի փաթեթային ջնջում։</msgForceRemovalQuestionBatch>
+        <msgForceRemovalQuestionBatch>Ցանկանո՞ւմ եք կատարել հետևյալ ծրագրերի փաթեթային ջնջում։</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Այս գրանցման ստիպողաբար հեռացումը հնարավորություն չի տա բացել ջնջելու հիմնական ծրագիրը: Այն միայն կջնջի այս ծրագրին պատկանող Գրանցամատյանի և Ֆայլային համակարգի բոլոր գրառումները: Օգտագործեք այս հնարավորությունը միայն սխալ կամ վնասված ծրագրերի համար:</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Ծրագրի ստիպողաբար հեռացումը կհանգեցնի շատ արագ և մանրազննին ջնջման՝ առանց բացելու տվյալ ծրագրի ջնջելու ծրագիրը։ Այն կջնջի բոլոր ֆայլերը և գրանցման բանալիները։</msgForceRemovalDescriptionTraced>
         <msgForceRemovalDescriptionBatch>Փաթեթային ջնջումը ընդլայնված հնարավորություն է և այն պետք է զգուշությամբ օգտագործել։ Այն չի բացելու ջնջելու հիմնական ծրագիրը, այլ միայն ստուգելու է Ֆայլային համակարգի/Գրանցամատյանի մնացորդ ֆայլերը և ցուցադրելու է դրանք մի միասնական ցանկով, որը պետք է շատ ուշադիր դիտել։ Ավելի մանրազննին և ճշգրիտ ջնջումը կկատարվի այն դեպքում, եթե տվյալ ծրագիրը տեղադրվել է Տեղադրման հետագծումով։</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>կախյալ</msgForceRemovalItemDependent>
         <msgLearnMore>Կարդալ ավելին</msgLearnMore>
         <msgForceRemovalCheck>Այո, ես հասկանում եմ պատասխանատվությունը</msgForceRemovalCheck>
-        <msgRemoveUninstallTool>Ջնջե՞լ Uninstall Tool-ը Ձեր համակարգչից:</msgRemoveUninstallTool>
+        <msgRemoveUninstallTool>Հեռացնե՞լ Uninstall Tool-ը Ձեր համակարգչից:</msgRemoveUninstallTool>
         <msgRemoveEntryQuestion>Շարունակե՞լ:</msgRemoveEntryQuestion>
         <msgRemoveEntryQuestionBatch>Ջնջե՞լ հետևյալ գրառումները։</msgRemoveEntryQuestionBatch>
         <msgRemoveEntryDescription>Այս գործողությունը զուտ ջնջում է գրառումը ծրագրերի ցանկից: Գրանցամատյանի ոչ մի գրառում կամ ֆայլ չի ջնջվի:\nՕգտագործեք այս գործողությունը միայն հնացած կամ վնասված գրառումների համար:</msgRemoveEntryDescription>
         <msgRemoveEntryFailed>Գրանցամատյանի գրառումը չի ջնջվել: \nՀնարավոր է Դուք չունեք այն ջնջելու իրավունք:</msgRemoveEntryFailed>
-        <msgForceCancelWaiting>Համոզվա՞ծ եք, որ պետք է ստիպողաբար չեղարկել այս ծրագրի ջնջումը:</msgForceCancelWaiting>
-        <msgForceCancelWaitingFooter>Ստիպողաբար չեղարկումը պետք է կատարվի միայն, եթե տվյալ ծրագրի ջնջելու բաղադրիչը չի արձագանքում ջնջելու հրամանին: Ընթացիկ չեղարկումը պետք է կատարվի ծրագրերի ջնջելու հիմնական բաղադրիչների դեպքում, քանզի այն կարող է հանգեցնել անկանխատեղելի հետևանքների:</msgForceCancelWaitingFooter>
+        <msgForceCancelWaiting>Համոզվա՞ծ եք, որ պետք է ստիպողաբար չեղարկել այս ծրագրի ապատեղադրումը:</msgForceCancelWaiting>
+        <msgForceCancelWaitingFooter>Ստիպողաբար չեղարկումը պետք է կատարվի միայն, եթե տվյալ ծրագրի ապատեղադրելու բաղադրիչը չի արձագանքում ջնջելու հրամանին: Ընթացիկ չեղարկումը պետք է կատարվի ծրագրերի ջնջելու հիմնական բաղադրիչների դեպքում, քանզի այն կարող է հանգեցնել անկանխատեղելի հետևանքների:</msgForceCancelWaitingFooter>
         <!-- messages related to Install Tracker -->
         <msgTracedItem>Հետագծվող ֆայլը` '%s', այժմ ցուցադրվում է ծրագրերի ցանկում իր հատուկ պատկերով՝ 'Հետագծում' բաժնում:</msgTracedItem>
-        <msgTracedItemAppended>Հետագծվող տվյալը այժմ ավելացվել է '%s' նախորդ հետագծվող տարրին :</msgTracedItemAppended>
+        <msgTracedItemAppended>Հետագծվող տվյալը նյժմ ավելացվել է '%s' նախորդ հետագծվող տարրին :</msgTracedItemAppended>
         <msgTracedItemAppendedNote>Խնդրում ենք հաշվի առնել, որ նոր տեղադրվող տարրերը վերաբերվում որպես կախյալ գրառումներ և կարող են հեռացվել հետագայում՝ '%s'-ի հետ միասին:</msgTracedItemAppendedNote>
         <msgUndoTracing>Համոզվա՞ծ եք, որ Uninstall Tool-ը պետք է մոռանա այս ծրագրի հետագծած բոլոր ֆայլերի մասին:</msgUndoTracing>
         <msgTrackingServiceNotInstalled>Հնարավոր չէ բացել CisUtMonitor ծառայությունը: Վերատեղադրեք ծրագիրը:</msgTrackingServiceNotInstalled>
@@ -392,22 +392,23 @@
         <msgTrackingServiceNotInstalled3>Uninstall Tool-ի հետագծման ծառայությունը ('CisUtMonitor') տեղադրված չէ համակարգչում:</msgTrackingServiceNotInstalled3>
         <msgTrackingServiceInstallationOK>Ծառայությունը հաջողությամբ է տեղադրվել: \n\nԿարող եք այն հետո ջնջել` օգտագործելով 'RemoveService.cmd' ֆայլը:</msgTrackingServiceInstallationOK>
         <msgTrackingServiceInstallationTimeout>Ծառայության տեղադրելու ժամանակը լրացել է, սխալի կոդը՝ %d</msgTrackingServiceInstallationTimeout>
-        <msgTrackingServiceInstallationUnknownError>Հնարավոր չեղավ տեղադրել ծառայությունը անհայտ պատճառով:</msgTrackingServiceInstallationUnknownError>
+        <msgTrackingServiceInstallationUnknownError>Հնարավոր չեղավ տեղադրել ծառայությունը ննհայտ պատճառով:</msgTrackingServiceInstallationUnknownError>
         <msgTrackingServiceRemoved>Uninstall Tool-ի հետագծման ծառայությունը ('CisUtMonitor') հեռացվել է համակարգչից:</msgTrackingServiceRemoved>
         <msgTrackingServiceUpdate>Տեղադրված 'CisUtMonitor' ծառայության տարբերակը (%u) ավելի հին է ընթացիկից (%u): \n\nԹարմացնե՞լ:</msgTrackingServiceUpdate>
         <msgTrackingServiceUpdateSuccess>Ծառայության վերջին տարբերակը հաջողությամբ է տեղադրվել: Տեղադրման հետագծումը օգտագործելու համար վերամեկնարկեք համակարգիչը:</msgTrackingServiceUpdateSuccess>
         <msgNothingToSave>Ոչինչ չկա պահպանելու, որովհետև հետագծվող ծրագիրը տեղադրված չէ (չկան մնացորդ ֆայլեր/գրառումներ)</msgNothingToSave>
         <msgCancelTracing>Չեղարկե՞լ տեղադրման ընթացիկ հետագծումը:</msgCancelTracing>
-        <msgStopTracing>Տեղադրման հետագծումը այժմ կկանգնեցվի: Պահպանե՞լ առկա արդյունքները:</msgStopTracing>
-        <msgEntryAlreadyExists>Ծրագիրը արդեն առկա է '%s' ցանկում, ընտրեք այլ անուն:</msgEntryAlreadyExists>
+        <msgStopTracing>Տեղադրման հետագծումը նյժմ կկանգնեցվի: Պահպանե՞լ առկա արդյունքները:</msgStopTracing>
+        <msgEntryAlreadyExists>Ծրագիրը նրդեն առկա է '%s' ցանկում, ընտրեք այլ անուն:</msgEntryAlreadyExists>
         <!-- messages related to Startup -->
         <msgStartupDeleteConfirm>Սա կավարտի Գրանցամատյանի այս գրառման ջնջումը։ \n\nԿատարե՞լ գործողությունը։</msgStartupDeleteConfirm>
         <msgCannotAddNewStartupItem>Սխալ՝ ինքնամեկնարկման ցանկում նոր ծրագիր ավելացնելիս։</msgCannotAddNewStartupItem>
         <msgCantModifyAutorunEntry>Հնարավոր չէ փոփոխել գրանցման հատկությունները:\n\n</msgCantModifyAutorunEntry>
-        <msgRemoveMultipleItemsQuestion>Ջնջե՞լ այս ֆայլերը:</msgRemoveMultipleItemsQuestion>
-        <msgRemoveMultipleItemsDescription>Սա կջնջի ներքոնշյալ բոլոր ֆայլերը և դրանք այլևս հնարավոր չի լինի կատարել Windows-ը բացելիս:</msgRemoveMultipleItemsDescription>
+        <msgRemoveMultipleItemsQuestion>Համոզվա՞ծ եք, որ ցանկանում եք ջնջել:</msgRemoveMultipleItemsQuestion>
+        <msgRemoveMultipleItemsDescription>Սա կջնջի ներքոնշյալ բոլոր ֆայլերը ձեր համակարգի գրանցամատյանից (Մեկնարկի ցանկ) և դրանք այլևս հնարավոր չի լինի աշխատեցնել Windows-ը բացելիս:</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Գրանցումը ավարտելու համար պետք է վերաբացել ծրագիրը։ \n\nՎերաբացե՞լ:</msgRegRestartRequired>
+        <msgRegSuccess>Շնորհակալություն Uninstall Tool-ը գրանցելու համար։</msgRegSuccess>
+        <msgRegFailed>Մուտքագրված գրանցվողի անունը կամ գրանցման բանալին վավեր չէ։ \n\nԽնդրում ենք համոզվել, որ երկուսն էլ մուտքագրված են ճիշտ այնպես, ինչպես Ձեզ ուղարկված գրանցման էլ. նամակում։</msgRegFailed>
         <msgNewVersionAvailable>Հասանելի է %s նոր տարբերակը:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Ընթացիկ տարբերակ՝ %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Ի՞նչն է նոր.</msgNewVersionAvailableWhatsNew>
@@ -415,7 +416,7 @@
         <msgNewVersionPortableLink>Դյուրակիր տարբերակը ներբեռնելու հղումը</msgNewVersionPortableLink>
         <msgUsingLatestVersion>Դուք օգտագործում եք ծրագրի վերջին տարբերակը։</msgUsingLatestVersion>
         <msgCannotConnectToCrystalIDEA>Հնարավոր չեղավ կապնվել crystalidea.com կայքի հետ։</msgCannotConnectToCrystalIDEA>
-        <msgRunningInWow64>Հնարավոր չէ բացել Uninstall Tool-ի 32-բիթ տարբերակը 64-բիթ Windows-ում, քանզի այն կցուցադրի միայն 32-բիթանոց ծրագրերը և կունենա սահմանափակ հնարավորություններ։ Խորհուրդ ենք տալիս ներբեռնել և տեղադրել Uninstall Tool-ը այս համակարգչում (այդ դեպքում ծրագիրը ինքը միանգամից կընտրի 64-բիթ տարբերակը, երբ կատարվի տեղադրում 64-բիթ Windows-ում)։</msgRunningInWow64>
+        <msgRunningInWow64>Հնարավոր չէ բացել Uninstall Tool-ի 32-բիթ տարբերակը 64-բիթ Windows-ում, քանզի այն կցուցադրի միայն 32-բիթանոց ծրագրերը և կունենա սահմանափակ հնարավորություններ։ Խորհուրդ ենք տալիս ներբեռնել և տեղադրել Uninstall Tool-ը նյս համակարգչում (այդ դեպքում ծրագիրը ինքը միանգամից կընտրի 64-բիթ տարբերակը, երբ կատարվի տեղադրում 64-բիթ Windows-ում)։</msgRunningInWow64>
         <msgRunningInWow64Title>Բացումը WoW64 միջավայրում</msgRunningInWow64Title>
         <msgCannotStartHelper>Հնարավոր չէ բացել 'x64helper.exe' (64-բիթ Windows-ի օգնությունը) գործողությունը։ \n\nՎերատեղակայեք ծրագիրը։</msgCannotStartHelper>
         <msgUninstallingMyself>Հեռացնե՞լ Uninstall Tool-ի նախապատվությունները և տեղադրման հետագծումից մնացորդ հետքերը:</msgUninstallingMyself>
@@ -445,26 +446,26 @@
         <statusUnknown>անհայտ</statusUnknown>
         <statusRecentItems>վերջերս տեղադրված</statusRecentItems>
         <statusRecentItemsTip>Կարող եք դիտել վերջերս տեղադրված/փոփոխված ծրագրերը</statusRecentItemsTip>
-        <statusStartupTotalInfo>Ընդամենը՝ %d ծրագիր, %d-ը այժմ աշխատեցվում են</statusStartupTotalInfo>
+        <statusStartupTotalInfo>Ընդամենը՝ %d ծրագիր, %d-ն աշխատեցված է</statusStartupTotalInfo>
         <statusCalculatingOccupiedSize>Հաշվում է չափը... %s</statusCalculatingOccupiedSize>
-        <statusNewVersionAvailable>Հասանելի է նոր տարբերակ.</statusNewVersionAvailable>
+        <statusNewVersionAvailable>Հասանելի է նոր տարբերակ՝</statusNewVersionAvailable>
         <popupNewProgramsFound>%d նոր ծրագրեր են գտնվել</popupNewProgramsFound>
         <popupNewProgramsFoundDontNotify>Այլևս չծանուցել</popupNewProgramsFoundDontNotify>
         <WindowsUpdatesText>Windows-ի թարմացումներ</WindowsUpdatesText>
-        <UninstallToolDescription>Ծրագրերի ամբողջական ջնջում, Ինքնամեկնարկվող ծրագրերի կառավարում։</UninstallToolDescription>
+        <UninstallToolDescription>Ծրագրերի ամբողջական ապատեղադրում, Ինքնամեկնարկվող ծրագրերի կառավարում։</UninstallToolDescription>
     </Misc>
     <ShellExtension>
         <InstallWithInstallTracker>Տեղադրել և հետևել Տեղադրման հետագծումով...</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>Տեղադրում է և հետևում է ծրագրի բոլոր փոփոխություններին, որը կատարում է համակարգչում:</InstallWithInstallTrackerTip>
-        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
-        <uninstallWithUninstallTool>Uninstall with Uninstall Tool</uninstallWithUninstallTool>
-        <uninstallWithUninstallToolFailed>Unable to detect any application based on the provided shortcut:</uninstallWithUninstallToolFailed>
-        <uninstallWithUninstallToolConfirm>Are you sure you want to completely remove '%s' and all of its components?</uninstallWithUninstallToolConfirm>
+        <InstallWithInstallTrackerShort>Տեղադրել տեղադրման հետագծումով</InstallWithInstallTrackerShort>
+        <uninstallWithUninstallTool>Ապատեղադրել Uninstall Tool-ով</uninstallWithUninstallTool>
+        <uninstallWithUninstallToolFailed>Ըստ տրամադրված դյուրանցման անհնար է հայտնաբերել որևէ ծրագիր՝</uninstallWithUninstallToolFailed>
+        <uninstallWithUninstallToolConfirm>Համզվա՞ծ եք, որ ցանկանում եք հիմնովին հեռացնել '%s'-ը և դրա բոլոր բաղադրիչները:</uninstallWithUninstallToolConfirm>
     </ShellExtension>
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
         <msgTitleTemplate>%app_name%՝ չմշակված բացառություն</msgTitleTemplate>
-        <msgTemplate>Տեղի է ունեցել չմշակված բացառություն և \n%app_name%-ը անկայուն է դարձել: \nՈւղարկեք մեզ նամակ '%email%' հասցեով՝\nկցելով վթարի հետևյալ dump ֆայլը՝ file:\n\n%dump_file%\n\n'Ուղարկել զեկույցը' սեղմելուց հետո կբացվի հիմնական փոստային ծրագիրը՝ \nնամակ գրելու համար:</msgTemplate>
+        <msgTemplate>Տեղի է ունեցել չմշակված բացառություն և \n%app_name%-ը ննկայուն է դարձել: \nՈւղարկեք մեզ նամակ '%email%' հասցեով՝\nկցելով վթարի հետևյալ dump ֆայլը՝ file:\n\n%dump_file%\n\n'Ուղարկել զեկույցը' սեղմելուց հետո կբացվի հիմնական փոստային ծրագիրը՝ \nնամակ գրելու համար:</msgTemplate>
         <MailSubjectTemplate>%app_name% %app_version%-ի Խնդրի մասին զեկույց</MailSubjectTemplate>
         <MailBodyTemplate>Ողջույն:\n\nԵս %app_name%-ի հետ խնդիր ունեմ: dump ֆայլը կցված է:\n(չմոռանաք կցել %dump_file% ֆայլը)\n\nWindows-ի իմ տարբերակը՝ %winver%, և ես անում էի հետևյալը, երբ ծագեց այս խնդիրը... (մի փոքր նկարագրեք)</MailBodyTemplate>
         <btnSend>Ուղարկել զեկույցը (Խորհուրդ է տրվում)</btnSend>
@@ -476,7 +477,7 @@
         <installing_driver>Տեղադրում է kernel սարքավարը...</installing_driver>
         <ut_initializing>Uninstall Tool-ը տեղորոշվում է...</ut_initializing>
         <pin_to_taskbar_text>Ամրացնել Uninstall Tool-ի պատկերակը խնդրագոտիում</pin_to_taskbar_text>
-        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
-        <register_msix>Registering Windows 11 context menu...</register_msix>
+        <skip_uac_option>Պարզեցրեք ծրագրի թողարկումը՝ օգտագործելով Windows-ի Խնդիրների հերթացուցակը՝ շրջանցելու համար Օգտվողի հաշվի կառավարի հաստատումը</skip_uac_option>
+        <register_msix>Գրանցում է Windows 11-ի համատեքստի ցանկը...</register_msix>
     </Setup>
 </LanguageStrings>

@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Apakah Anda yakin ingin menghapus item ini?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Ini akan menghapus item diatas dari sistem registri (start menu) dan ia tidak akan dijalankan saat Windows mulai.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Untuk menyelesaikan pendaftaran Anda harus merestart program. \n\nApakah Anda ingin melakukanya sekarang?</msgRegRestartRequired>
+        <msgRegSuccess>Terima kasih telah mengaktifkan Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Nama pendaftar atau kunci pendaftaran yang Anda masukkan tidak valid. \n\nSilahkan pastikan keduanya dimasukkan persis sama seperti pada e-mail pendaftaran Anda.</msgRegFailed>
         <msgNewVersionAvailable>Versi baru program %s telah tersedia</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Versi sekarang: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Apa yang baru:</msgNewVersionAvailableWhatsNew>

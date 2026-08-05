@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Sollen diese Elemente wirklich entfernt werden?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Dadurch werden die oben angezeigten Elemente vollständig aus der Registrierung (Startmenü) gelöscht, und sie werden nicht mehr automatisch mit Windows gestartet.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Um die Aktivierung abzuschließen, muss das Uninstall Tool neugestartet werden. \n\nSoll der Neustart jetzt erfolgen?</msgRegRestartRequired>
+        <msgRegSuccess>Vielen Dank für die Aktivierung von Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Der eingegebene Name oder Lizenzschlüssel ist ungültig. \n\nBitte überprüfen, ob beide Angaben genau so eingegeben wurden, wie sie in der Registrierungs-E-Mail stehen.</msgRegFailed>
         <msgNewVersionAvailable>Neue Version %s ist verfügbar</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Aktuelle Version: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Versionshinweise:</msgNewVersionAvailableWhatsNew>

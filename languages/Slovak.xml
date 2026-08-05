@@ -159,14 +159,6 @@
         <filterAllFiles>Všetky súbory</filterAllFiles>
         <checkHighestPriviledges>Spustiť úlohu s najvyššími oprávneniami</checkHighestPriviledges>
     </DlgAddNewStartupProgram>
-    <StartupSecondaryToolbar>
-        <displayLabel>Zobraziť:</displayLabel>
-        <displayAll>Všetky programy</displayAll>
-        <displayRegistry>Len programy vo Windows Registry</displayRegistry>
-        <displayStartMenu>Len programy z ponuky Štart</displayStartMenu>
-        <displayWindowsTasks>Len programy z Plánovača úloh</displayWindowsTasks>
-        <displayWindowStoreApps>Len aplikácie z Microsoft Store</displayWindowStoreApps>
-    </StartupSecondaryToolbar>
     <DlgPreferences>
         <DlgPreferencesCaption>Nastavenia</DlgPreferencesCaption>
         <!-- general -->
@@ -415,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Ste si istý, že chcete odstrániť tieto položky?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Táto voľba odstráni uvedené položky zo systémového registra/Štart Menu, a preto sa nebudú spúšťať pri štarte Windows.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Pre dokončenie registrácie je nutné reštartovať program.\n\nChcete tak urobiť teraz?</msgRegRestartRequired>
+        <msgRegSuccess>Ďakujeme Vám za aktiváciu programu Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Registračné údaje, ktoré ste zadali, nie sú platné. \n\nSkontrolujte, prosím, či ste meno aj registračný kód zadali presne tak, ako sú uvedené vo Vašom registračnom e-maile.</msgRegFailed>
         <msgNewVersionAvailable>Je dostupná nová verzia %s</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Aktuálna verzia: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Čo je nové:</msgNewVersionAvailableWhatsNew>

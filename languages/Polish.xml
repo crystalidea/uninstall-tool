@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Czy na pewno chcesz usunąć te pozycje?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Zostaną usunięte pozycje z rejestru (start menu) a programy te nie będą uruchamianie podczas startu systemu.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Aby zakończyć proces rejestracji, wymagany jest restart aplikacji. \n\nCzy chciałbyś teraz wyjść z programu?</msgRegRestartRequired>
+        <msgRegSuccess>Dziękujemy za aktywację programu Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Podana nazwa użytkownika lub klucz rejestracyjny jest nieprawidłowy. \n\nProszę sprawdzić, czy oba zostały wpisane dokładnie tak jak w wiadomości e-mail z potwierdzeniem rejestracji.</msgRegFailed>
         <msgNewVersionAvailable>Dostępna jest nowa wersja %s.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Aktualna wersja: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Co nowego:</msgNewVersionAvailableWhatsNew>

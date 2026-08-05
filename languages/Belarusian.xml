@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Сапраўды выдаліць гэтыя элементы?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Гэта выдаліць элементы з сістэмнага рэестру (меню Пуск) і яны больш ніколі не запусцяцца разам з Windows.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Для завяршэння рэгістрацыі неабходны перазапуск праграмы. \n\nВыйсці з праграмы зараз?</msgRegRestartRequired>
+        <msgRegSuccess>Дзякуй за рэгістрацыю Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Рэгістрацыйнае імя або ключ уведзены няправільна. \n\nКалі ласка, пераканайцеся, што яны абодва ўведзены дакладна так, як у вашым рэгістрацыйным e-mail.</msgRegFailed>
         <msgNewVersionAvailable>Даступна новая версія %s:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Бягучая версія: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Абнаўленні:</msgNewVersionAvailableWhatsNew>

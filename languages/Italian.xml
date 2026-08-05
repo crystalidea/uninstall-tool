@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Sei sicuro di voler rimuovere questi elementi?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Gli elementi sopraelencati verranno rimossi dal registro di sistema (menu Start) e non verranno più eseguiti all'avvio di Windows.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Per completare la registrazione è richiesto il riavvio del programma. \n\nVuoi continuare?</msgRegRestartRequired>
+        <msgRegSuccess>Grazie per aver attivato Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Il nome o il codice inseriti non sono validi. \n\nAssicurati che entrambi corrispondano esattamente a quelli riportati nell'email di registrazione.</msgRegFailed>
         <msgNewVersionAvailable>Nuova versione %s disponibile.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Versione attuale: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Novità:</msgNewVersionAvailableWhatsNew>

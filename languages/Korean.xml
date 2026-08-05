@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="3.8.1" LangID="1042" Author="VᴇɴᴜsGɪʀʟ💗비너스걸💋">
     <MainMenu>
         <mnuFile>파일(&amp;F)</mnuFile>
@@ -51,7 +51,6 @@
         <mnuHelpCheckForUpdates>업데이트 확인(&amp;U)...</mnuHelpCheckForUpdates>
         <mnuHelpAbout>정보(&amp;A)...</mnuHelpAbout>
     </MainMenu>
-
     <ListCtrl>
         <columnProgramName>프로그램 이름</columnProgramName>
         <columnSize>크기</columnSize>
@@ -76,7 +75,6 @@
         <staticNoStartupItemsTip>직접 &lt;a&gt;새 프로그램을 추가&lt;/a&gt;할 수 있습니다</staticNoStartupItemsTip>
         <mark32bitItem>(32비트)</mark32bitItem>
     </ListCtrl>
-
     <ToolBar>
         <btnUninstaller>제거 관리자</btnUninstaller>
         <btnUninstallerToolTip>기존 프로그램 제거 또는 새 소프트웨어 설치 및 추적</btnUninstallerToolTip>
@@ -89,7 +87,6 @@
         <btnHelp>도움말</btnHelp>
         <btnHelpToolTip>온라인 도움말 표시</btnHelpToolTip>
     </ToolBar>
-
     <SecondaryToolbar>
         <btnApps>앱</btnApps>
         <btnAppsToolTip>응용 프로그램</btnAppsToolTip>
@@ -104,7 +101,6 @@
         <btnInstallAndTrace>설치 및 추적</btnInstallAndTrace>
         <btnInstallAndTraceTooltip>새 프로그램 설치 및 파일 시스템 및 레지스트리의 모든 변경 사항 확인</btnInstallAndTraceTooltip>
     </SecondaryToolbar>
-
     <ExplorerBar>
         <itemUninstallIt>설치 제거</itemUninstallIt>
         <itemModifyIt>수정</itemModifyIt>
@@ -154,7 +150,6 @@
         <itemSourceWindowsTask>로그온 시 예약된 Windows 작업</itemSourceWindowsTask>
         <itemSourceWindowStoreTask>Microsoft Store 앱 시작 작업</itemSourceWindowStoreTask>
     </ExplorerBar>
-
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>새 시작 프로그램 추가</DlgAddNewStartupProgramCaption>
         <labelStartupType>시작 유형:</labelStartupType>
@@ -164,7 +159,6 @@
         <filterAllFiles>모든 파일</filterAllFiles>
         <checkHighestPriviledges>가장 높은 권한으로 작업 실행</checkHighestPriviledges>
     </DlgAddNewStartupProgram>
-
     <DlgPreferences>
         <DlgPreferencesCaption>환경 설정</DlgPreferencesCaption>
         <!-- general -->
@@ -205,7 +199,6 @@
         <comboItemWizardOption2>자동</comboItemWizardOption2>
         <comboItemWizardOption3>사용 안 함</comboItemWizardOption3>
     </DlgPreferences>
-
     <UninstallWizard>
         <UninstallWizardLocalizedName>제거 마법사</UninstallWizardLocalizedName>
         <UninstallWizardCaption>%s의 모든 흔적 제거 - UninstallWizard™</UninstallWizardCaption>
@@ -239,20 +232,17 @@
         <btnClose>닫기</btnClose>
         <btnUninstall>설치 제거</btnUninstall>
     </UninstallWizard>
-
     <DelayedFilesRemovalDialog>
         <Title>일부 파일이 삭제되지 않았습니다</Title>
         <Instruction1>다음 파일은 시스템에서 사용 중이므로 삭제되지 않았습니다:</Instruction1>
         <Instruction2>이 파일은 다음 번 시스템 재부팅 시 자동으로 제거됩니다.</Instruction2>
         <btnReboot>지금 재부팅</btnReboot>
     </DelayedFilesRemovalDialog>
-
     <RunningProcessesDialog>
         <Title>실행 중인 프로세스를 강제로 종료하시겠습니까?</Title>
         <Instruction1>다음 프로세스가 탐지되었습니다:</Instruction1>
         <Instruction2>제거하기 전에 수동으로 종료하는 것이 좋지만 Uninstall 마법사™에서 강제로 종료할 수 있습니다.</Instruction2>
     </RunningProcessesDialog>
-
     <InstallTracker>
         <InstallTrackerLocalizedName>설치 추적기</InstallTrackerLocalizedName>
         <Title>프로그램 설치 및 추적</Title>
@@ -317,36 +307,30 @@
         <logMSIServiceError2>오류: MSI 서비스를 시작할 수 없습니다</logMSIServiceError2>
         <logMSIServiceError3>오류: MSI 서비스 상태를 쿼리할 수 없습니다</logMSIServiceError3>
     </InstallTracker>
-
     <InstallTrackerCustomEntryDialog>
         <Title>추적하는 동안 새 설치 항목을 찾을 수 없습니다. 일반적으로 프로그램이 제대로 설치되지 않았음을 의미하지만 설치가 제대로 된 경우 앱 목록에 새 사용자 지정 프로그램을 만들 수 있습니다. 현재 발견된 모든 추적은 이를 참조합니다.</Title>
         <staticName>이름:</staticName>
         <checkCreateCustomEntry>목록에 사용자 지정 항목을 만들고 싶습니다.</checkCreateCustomEntry>
     </InstallTrackerCustomEntryDialog>
-
     <InstallTrackerMultipleEntries>
         <Caption>여러 설치 항목이 탐지되었습니다</Caption>
         <Title>설치 후 Windows 레지스트리에서 여러 설치 항목이 탐지되었습니다. '추적' 열에 특수 아이콘이 있는 앱 목록에 표시할 기본 항목을 선택하세요. 기본 항목의 추적 데이터를 제거할 때 Uninstall Tool은 모든 종속 항목의 추적 데이터도 제거합니다.</Title>
         <btnSelect>선택</btnSelect>
     </InstallTrackerMultipleEntries>
-
     <TracedXMLDialog>
         <TracedXMLDialogCaption>%s 의 추적된 데이터</TracedXMLDialogCaption>
     </TracedXMLDialog>
-
     <DependentItemsDialog>
         <Title>'%s' 제거</Title>
         <Instruction>종속 항목도 제거하시겠습니까?</Instruction>
         <Footer>Tracker 설치 추적이 활성화된 상태에서 '%s'를 설치했으며 위의 항목도 설치되었습니다. 즉, Uninstall 마법사™를 사용하면 추적된 모든 종속 구성 요소도 제거됩니다. 현재 항목의 제거만 선택하면 추적 데이터가 무시되고 Uninstall 마법사™에서 이 프로그램에 참조된 나머지 데이터를 검색합니다.</Footer>
         <btnOnlyCurrent>%s 만</btnOnlyCurrent>
     </DependentItemsDialog>
-
     <RelatedItemsDialog>
         <Title>'%s' 제거</Title>
         <Instruction>다음 앱은 관련 앱으로, 앱을 제거하면 다른 앱이 모두 제거됩니다. 이 앱을 모두 제거하시겠습니까?</Instruction>
         <btnUninstallAll>모두 제거</btnUninstallAll>
     </RelatedItemsDialog>
-
     <UninstallWizardConfirmation>
         <staticConfirm>내장된 제거 프로그램이 작업을 마쳤습니다. 시스템 레지스트리 및 파일 시스템에서 사용되지 않은 레지스트리 항목과 남아 있는 파일을 자세히 검색하시겠습니까?</staticConfirm>
         <learnMoreAboutWizard>Uninstall 마법사™에 대한 자세한 정보</learnMoreAboutWizard>
@@ -354,7 +338,6 @@
         <btnNo>아니요</btnNo>
         <checkDontAskAgain>선택 사항을 기억하고 다시 묻지 않음 (기본 설정에서 변경될 수 있음)</checkDontAskAgain>
     </UninstallWizardConfirmation>
-
     <DlgAbout>
         <DlgAboutCaption>Uninstall Tool 정보</DlgAboutCaption>
         <staticWebSite>웹사이트</staticWebSite>
@@ -364,7 +347,6 @@
         <staticRegisteredTo>이 제품의 등록 사용자:</staticRegisteredTo>
         <staticChangeKey>라이선스 키 변경</staticChangeKey>
     </DlgAbout>
-
     <UnregDlg>
         <UnregDlgReminder>평가판 알림</UnregDlgReminder>
         <UnregDlgExpired>평가판 만료됨</UnregDlgExpired>
@@ -374,14 +356,12 @@
         <staticDaysLeft>평가 기간이 %d일 남았습니다</staticDaysLeft>
         <btnBuyNow>지금 구입</btnBuyNow>
     </UnregDlg>
-
     <EnterKeyDlg>
         <EnterKeyDlgCaption>Uninstall Tool 활성화</EnterKeyDlgCaption>
         <Title>등록 이메일에 있는 이름과 키를 입력하세요:</Title>
         <staticName>등록 이름:</staticName>
         <staticKey>등록 키:</staticKey>
     </EnterKeyDlg>
-
     <Messages>
         <!-- messages related to Uninstaller -->
         <msgUninstallFailed>제거 프로세스에 실패했습니다. \n레지스트리에서 이 프로그램 항목을 정리하고 파일을 정리하시겠습니까?</msgUninstallFailed>
@@ -427,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>이 항목을 제거하시겠습니까?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>위의 항목이 시스템 레지스트리 (시작 메뉴)에서 제거되고 Windows가 시작될 때 실행되지 않습니다.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>등록을 완료하려면 프로그램을 다시 시작해야 합니다. \n지금 하시겠습니까?</msgRegRestartRequired>
+        <msgRegSuccess>Uninstall Tool을 활성화해 주셔서 감사합니다!</msgRegSuccess>
+        <msgRegFailed>입력하신 등록 이름 또는 등록 키가 올바르지 않습니다. \n\n두 항목 모두 등록 이메일에 있는 그대로 입력하셨는지 확인하세요.</msgRegFailed>
         <msgNewVersionAvailable>새 버전 %s을(를) 사용할 수 있습니다</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>현재 버전: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>새로운 기능:</msgNewVersionAvailableWhatsNew>
@@ -441,14 +422,12 @@
         <msgUninstallingMyself>Uninstall Tool 기본 설정과 추적된 설치에 대한 모든 데이터를 제거하시겠습니까?</msgUninstallingMyself>
         <msgUnableToCreateFile>파일을 만들 수 없습니다:\n%s</msgUnableToCreateFile>
     </Messages>
-
     <Trial>
         <txtUnregisteredBig>등록되지 않은 버전</txtUnregisteredBig>
         <msgNotAvailableInTrial>이 기능은 등록된 프로그램 버전에서만 사용할 수 있습니다.</msgNotAvailableInTrial>
         <msgNotAvailableInTrial2>앱 목록의 '%s' 항목에 있는 강제 제거 기능을 사용하여 남아 있는 데이터를 저장하고 나중에 삭제할 수 있습니다.</msgNotAvailableInTrial2>
         <checkDeleteDataLater>나중에 남은 데이터 저장 및 삭제</checkDeleteDataLater>
     </Trial>
-
     <HTMLReport>
         <htmlFiles>HTML 파일</htmlFiles>
         <allFiles>모든 파일</allFiles>
@@ -456,7 +435,6 @@
         <installedPrograms>설치한 프로그램 (%s)</installedPrograms>
         <startupPrograms>시작 프로그램</startupPrograms>
     </HTMLReport>
-
     <Misc>
         <btnOK>확인</btnOK>
         <btnCancel>취소</btnCancel>
@@ -476,7 +454,6 @@
         <WindowsUpdatesText>Windows 업데이트</WindowsUpdatesText>
         <UninstallToolDescription>프로그램을 완전히 제거합니다. 소프트웨어를 설치하고 추적합니다. 시작 프로그램을 관리합니다</UninstallToolDescription>
     </Misc>
-
     <ShellExtension>
         <InstallWithInstallTracker>설치 감시기로 설치 및 추적...</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>컴퓨터에서 프로그램의 모든 변경 사항 설치 및 추적</InstallWithInstallTrackerTip>
@@ -485,7 +462,6 @@
         <uninstallWithUninstallToolFailed>제공된 바로 가기를 기반으로 하는 응용 프로그램을 감지할 수 없습니다:</uninstallWithUninstallToolFailed>
         <uninstallWithUninstallToolConfirm>%s 및 모든 구성 요소를 완전히 제거하시겠습니까?</uninstallWithUninstallToolConfirm>
     </ShellExtension>
-
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
         <msgTitleTemplate>%app_name% - 처리되지 않은 예외</msgTitleTemplate>
@@ -494,7 +470,6 @@
         <MailBodyTemplate>안녕하세요, 지원입니다.\n\n%app_name%에 문제가 있습니다. 덤프 파일이 첨부되었습니다.\n('%dump_file%'일을 첨부하는 것을 잊지 마세요)\n\n나의 Windows 버전은 %winver%이며 문제가 발생하기 전의 작업은 다음과 같습니다... (몇 마디 해주세요)</MailBodyTemplate>
         <btnSend>보고서 보내기 (권장)</btnSend>
     </UnhandledExceptionHandler>
-
     <Setup>
         <other_tasks>기타 작업:</other_tasks>
         <install_service>추적 서비스 설치 ('설치 및 추적' 기능)</install_service>

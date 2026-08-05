@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Vai tiešām vēlaties noņemt šos vienumus?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Tas noņems priekšmetus virs no jūsu sistēmas reģistrā (start ēdienkarte) un viņi nekad palaist, kad Windows sāk.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Lai pabeigtu reģistrēšanu, jums ir jāpārstartē šī programma. \n\nVai vēlaties beigt darbu ar to tūlīt?</msgRegRestartRequired>
+        <msgRegSuccess>Paldies, ka aktivizējāt Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Reģistrētāja vārds vai reģistrēšanas atslēga ir ievadīta nepareizi. \n\nLūdzu, pārliecinieties, ka abi ir ievadīti tieši tāpat, kā norādīts reģistrācijas e-pastā.</msgRegFailed>
         <msgNewVersionAvailable>Jaunā versija %s ir pieejams:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Pašreizējā versija: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Kas jauns:</msgNewVersionAvailableWhatsNew>

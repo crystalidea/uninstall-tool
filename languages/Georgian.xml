@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>ნამდვილად გინდათ ამ ელემენტების წაშლა?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>ეს წაშლის ზემოთ მოცემულ ელემენტებს რეესტრიდან (სტარტ-მენიუდან) და ისინი აღარ ჩაირთვებიან Windows-ის ჩართვისას.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>რეგისტრაციის დასასრულებლად საჭიროა პროგრამის გადატვირთვა. \n\nგსურთ პროგრამის გადატვირთვა ახლა?</msgRegRestartRequired>
+        <msgRegSuccess>გმადლობთ Uninstall Tool-ის რეგისტრაციისთვის!</msgRegSuccess>
+        <msgRegFailed>თქვენ მიერ შეყვანილი სახელი ან სარეგისტრაციო კოდი არასწორია. \n\nდარწმუნდით, რომ ორივე ზუსტად ისეა შეყვანილი, როგორც სარეგისტრაციო e-mail-შია მითითებული.</msgRegFailed>
         <msgNewVersionAvailable>ხელმისაწვდომია %s-ის ახალი ვერსია:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>მიმდინარე ვერსია: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>რა არის ახალი:</msgNewVersionAvailableWhatsNew>

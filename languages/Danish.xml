@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Er du sikker på at du vil fjerne disse emner?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Dette vil fjerne emnet herover i dit system's register (start menu) og vil ikke køres når dit Windows starter.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>For komplet registréring skal du genstarte programmet. \n\nVil du gøre dette nu?</msgRegRestartRequired>
+        <msgRegSuccess>Tak fordi du aktivérede Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Det Registrérings Navn el. den Kode du har indtastet er ikke korrekt. \n\nSikr dig venligst at begge dele er indtastet præcis som i din registrérings email.</msgRegFailed>
         <msgNewVersionAvailable>Ny version %s er tilgængelig</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Nuværende version: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Hvad er Nyt:</msgNewVersionAvailableWhatsNew>

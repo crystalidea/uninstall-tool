@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.3" LangID="11274,16394,13322,9226,5130,7178,12298,17418,4106,18442,2058,19466,6154,15370,10250,20490,3082,1034,14346,8202" Author="ADX [the.adx@gmail.com] ; Updated by Victor Emmanuel [vicokoby@gmail.com]">
+<LanguageStrings version="3.7.4" LangID="1034" Author="ADX [the.adx@gmail.com] ; Updated by Victor Emmanuel [vicokoby@gmail.com] ; Updated by Juan Jesús Mora [juanjesusmora@outlook.es]">
     <MainMenu>
         <mnuFile>&amp;Archivo</mnuFile>
         <mnuFileExport>&amp;Exportar a HTML...</mnuFileExport>
@@ -14,11 +14,11 @@
         <mnuTracedData>Datos rastreados</mnuTracedData>
         <mnuTracedDataAsXML>Ver como XML...</mnuTracedDataAsXML>
         <mnuTracedDataUndoTracing>Deshacer rastreo</mnuTracedDataUndoTracing>
-        <mnuTracedDataAppend>Append traced data (Install and Trace)...</mnuTracedDataAppend>
+        <mnuTracedDataAppend>Añadir datos rastreados (Instalar y Rastrear)...</mnuTracedDataAppend>
         <mnuActionJumpToRegistry>&amp;Entrada de registro</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Carpeta de instalación</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Sitio Web del programa</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Open in Microsoft Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Abrir en la Tienda de Microsoft</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Examinar ubicación...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Examinar origen...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Buscar en Google por</mnuActionGoogleFor>
@@ -40,7 +40,7 @@
         <mnuToolsSystemInfo>Información del sistema</mnuToolsSystemInfo>
         <mnuToolsDefrag>Desfragmentador de disco</mnuToolsDefrag>
         <mnuToolsServices>Servicios</mnuToolsServices>
-        <mnuToolsTaskScheduler>Task Scheduler</mnuToolsTaskScheduler>
+        <mnuToolsTaskScheduler>Programador de tareas</mnuToolsTaskScheduler>
         <mnuToolsOptions>&amp;Preferencias...</mnuToolsOptions>
         <mnuHelp>Ay&amp;uda</mnuHelp>
         <mnuHelpOnline>&amp;Contenidos...</mnuHelpOnline>
@@ -68,9 +68,9 @@
         <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
         <sourceStartMenuAll>Menú Inicio de todos</sourceStartMenuAll>
         <sourceStartMenuCU>Menú Inicio de usuario actual</sourceStartMenuCU>
-        <sourceWindowsTask>Windows Task</sourceWindowsTask>
-        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
-        <staticNoProgramsInCategory>There're no programs in '%s' category</staticNoProgramsInCategory>
+        <sourceWindowsTask>Tarea de Windows</sourceWindowsTask>
+        <sourceWindowsStoreTask>Aplicación de la Tienda de Microsoft</sourceWindowsStoreTask>
+        <staticNoProgramsInCategory>No hay programas en '%s' esta categoría</staticNoProgramsInCategory>
         <staticNoStartupItems>No hay programas que se ejecuten automáticamente al inicio de Windows</staticNoStartupItems>
         <staticNoStartupItemsTip>Usted puede &lt;a&gt;añadir un nuevo programa&lt;/a&gt; manualmente</staticNoStartupItemsTip>
         <mark32bitItem>(32-bit)</mark32bitItem>
@@ -94,8 +94,8 @@
         <btnSystemToolTip>Componentes del sistema y actualizaciones</btnSystemToolTip>
         <btnHidden>Ocultos</btnHidden>
         <btnHiddenToolTip>Componentes ocultos</btnHiddenToolTip>
-        <btnStoreApps>Microsoft Store Apps</btnStoreApps>
-        <btnStoreAppsToolTip>Apps installed from Microsoft Store</btnStoreAppsToolTip>
+        <btnStoreApps>Aplicaciones de la Tienda de Microsoft</btnStoreApps>
+        <btnStoreAppsToolTip>Aplicaciones instaladas de la Tienda de Microsoft</btnStoreAppsToolTip>
         <btnRecentlyInstalled>Recientemente instalados (%u)</btnRecentlyInstalled>
         <btnRecentlyInstalledTooltip>Elementos recientemente instalados/actualizados</btnRecentlyInstalledTooltip>
         <btnInstallAndTrace>Instalar y rastrear</btnInstallAndTrace>
@@ -117,7 +117,7 @@
         <itemRegistryEntry>Ver entrada del registro</itemRegistryEntry>
         <itemUninstallInProgress>Desinstalación en progreso</itemUninstallInProgress>
         <itemUninstallInProgressTip>Desinstalando %s, por favor espere mientras se realiza el desinstalado...</itemUninstallInProgressTip>
-        <itemBatchUninstallInProgressTip>Batch uninstall in progress, please wait while removal of all apps is finished...</itemBatchUninstallInProgressTip>
+        <itemBatchUninstallInProgressTip>Desinstalación por lotes en progreso, por favor espera hasta que finalice la desinstalación de todas las aplicaciones...</itemBatchUninstallInProgressTip>
         <itemModifyInProgress>Modificación en proceso</itemModifyInProgress>
         <itemModifyInProgressTip>Modificando %s, por favor espere mientras la modificación se procesa...</itemModifyInProgressTip>
         <itemNothingFound>¡Nada encontrado!</itemNothingFound>
@@ -138,7 +138,7 @@
         <itemStatusRunning>Ejecutándose</itemStatusRunning>
         <itemStatusNotRunning>Sin ejecutar</itemStatusNotRunning>
         <itemStatusDisabled>Deshabilitado</itemStatusDisabled>
-        <itemStatusInvalid>Invalid</itemStatusInvalid>
+        <itemStatusInvalid>No válido</itemStatusInvalid>
         <itemCommandLineCaption>Línea de comandos:</itemCommandLineCaption>
         <itemSourceCaption>Fuente:</itemSourceCaption>
         <itemSourceRun_HKLM>Clave Run (Todos los usuarios)</itemSourceRun_HKLM>
@@ -147,8 +147,8 @@
         <itemSourceRunOnce_HKCU>Clave Run Once del usuario actual</itemSourceRunOnce_HKCU>
         <itemSourceStartMenu_All>Autorun del menú Inicio (Todos los usuarios)</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>Autorun del menú Inicio del usuario actual</itemSourceStartMenu_Current>
-        <itemSourceWindowsTask>Windows task scheduled on logon</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowsTask>Tarea de Windows programada al inicio</itemSourceWindowsTask>
+        <itemSourceWindowStoreTask>Tarea de Inicio de la Tienda de Microsoft</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Añadir un nuevo programa en Inicio</DlgAddNewStartupProgramCaption>
@@ -157,30 +157,30 @@
         <labelArguments>Argumentos (opcional):</labelArguments>
         <filterExecutableFiles>Archivos ejecutables</filterExecutableFiles>
         <filterAllFiles>Todos los archivos</filterAllFiles>
-        <checkHighestPriviledges>Run task with the highest privileges</checkHighestPriviledges>
+        <checkHighestPriviledges>Ejecutar tarea con privilegios elevados</checkHighestPriviledges>
     </DlgAddNewStartupProgram>
     <DlgPreferences>
         <DlgPreferencesCaption>Preferencias</DlgPreferencesCaption>
         <!-- general -->
         <categoryGeneral>General</categoryGeneral>
-        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
-        <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
+        <checkSkipUAC>Usar el Programador de Tareas de Windows para evitar el mensaje de confirmación del Control de Cuentas de Usuarios (cuando sea necesario)</checkSkipUAC>
+        <checkSkipUACHelpText>Activar esta opción permite omitir la confirmación del Control de Cuentas de Usuario al iniciar Uninstall Tool ("¿Quieres permitir que esta aplicación haga cambios en el dispositivo?"). La opción puede ser muy útil cuando Uninstall Tool se inicia con frecuencia.\n\nCuando está activada, Uninstall Tool crea una tarea con permisos elevados de administrador en el Programador de Tareas de Windows que se ejecuta cada vez que desea abrir la aplicación. \n\nSe aplica a Windows Vista y superiores cuando Control de Cuentas de Usuario está activado.</checkSkipUACHelpText>
         <checkCheckForUpdates>Comprobar actualizaciones al inicio del programa</checkCheckForUpdates>
         <checkCheckForBetaVersions>Comprobar versiones beta</checkCheckForBetaVersions>
         <staticInterfaceLanguage>Idioma:</staticInterfaceLanguage>
-        <checkControlPanelIcon>Mostrar icono de Uninstall Tool en el panel de control</checkControlPanelIcon>
-        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkControlPanelIcon>Mostrar icono de Uninstall Tool en el Panel de Control</checkControlPanelIcon>
+        <checkShellExtension>Añadir el comando "Instalar y Rastrear" al Explorador de Windows para los archivos de instalación (exe/msi)</checkShellExtension>
         <checkTotalCommander>Ir al directorio del programa con Total Commander</checkTotalCommander>
         <!-- interface -->
         <categoryInterface>Interfaz</categoryInterface>
         <checkToolBarCaptions>Mostrar textos en la barra de herramientas</checkToolBarCaptions>
         <categoryAppList>Lista de aplicaciones</categoryAppList>
         <checkSmallIcons>Iconos pequeños</checkSmallIcons>
-        <checkMark32bitApps>Mark 32-bit apps</checkMark32bitApps>
+        <checkMark32bitApps>Marcar aplicaciones de 32-bit</checkMark32bitApps>
         <frameColorScheme>Colores</frameColorScheme>
-        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
-        <colorSchemeLight>Light mode (default)</colorSchemeLight>
-        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <colorSchemeAuto>Coincidir modo con Windows Claro/Oscuro</colorSchemeAuto>
+        <colorSchemeLight>Modo Claro (Por Defecto)</colorSchemeLight>
+        <colorSchemeDark>Modo Oscuro</colorSchemeDark>
         <!-- Uninstaller -->
         <staticTreeLikeUpdates>Actualizaciones de software similar a un Árbol (sub-ítems):</staticTreeLikeUpdates>
         <checkDisplayUpdates>&amp;Mostrar actualizaciones de software</checkDisplayUpdates>
@@ -200,14 +200,14 @@
         <comboItemWizardOption3>Deshabilitar</comboItemWizardOption3>
     </DlgPreferences>
     <UninstallWizard>
-        <UninstallWizardLocalizedName>Asistente de desinstalación</UninstallWizardLocalizedName>
+        <UninstallWizardLocalizedName>Asistente de Desinstalación</UninstallWizardLocalizedName>
         <UninstallWizardCaption>Remover todos los rastros de %s - Asistente de desinstalación ™</UninstallWizardCaption>
-        <captionQuestionUninstall>Do you want to uninstall '%s'?</captionQuestionUninstall>
-        <captionQuestionUninstallBatch>Do you want to uninstall %u selected apps?</captionQuestionUninstallBatch>
-        <captionUninstalling>Uninstalling %s...</captionUninstalling>
-        <statusUninstallInfo>Uninstall Wizard first launches the associated default uninstall program and cleans up leftovers afterwards.</statusUninstallInfo>
-        <statusUninstallInfoBatch>Uninstall Wizard first launches the associated default uninstall program for each of the app. Then it displays the list of all leftovers to clean up. </statusUninstallInfoBatch>
-        <statusPerformingUninstall>Performing standard uninstall using built-in uninstaller, which may require user interaction.</statusPerformingUninstall>
+        <captionQuestionUninstall>¿Quieres desinstalar '%s'?</captionQuestionUninstall>
+        <captionQuestionUninstallBatch>¿Quieres desinstalar %u estas aplicaciones seleccionadas?</captionQuestionUninstallBatch>
+        <captionUninstalling>Desinstalando %s...</captionUninstalling>
+        <statusUninstallInfo>El Asistente de Desinstalación primero ejecuta el programa de desinstalación asociado por defecto y limpia todos los restos después.</statusUninstallInfo>
+        <statusUninstallInfoBatch>El Asistente de Desinstalación primero ejecuta el programa de desinstalación asociado por defecto por cada una de las aplicaciones. Después muestra una lista de todos los rastros para limpiarlos. </statusUninstallInfoBatch>
+        <statusPerformingUninstall>Ejecutando la desinstalación estándar usando el desinstalador integrado, puede requerir la interacción del usuario.</statusPerformingUninstall>
         <statusScanning>Buscando archivos restantes, carpetas y entradas del registro...</statusScanning>
         <statusScanningTraced>Generando la lista de elementos rastreados restantes, por favor espere...</statusScanningTraced>
         <statusForceRemoval>Forzar borrado de '%s'</statusForceRemoval>
@@ -220,9 +220,9 @@
         <staticScanStatusRemovedBatch>Todos los restantes seleccionados han sido removidos exitosamente.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Generando lista de rastros...</staticScanStatusGeneratingTracesList>
         <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
-        <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
-        <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
+        <staticHyperlinkRemovalLogTooltip>Crear registro detallado de la eliminación y ábrelo</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkExport>Exportar a XML</staticHyperlinkExport>
+        <staticHyperlinkExportTooltip>Exportar resultados del escaneo a un archivo XML</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Sistema de archivos (%d elementos)</treeItemFileSystem>
         <treeItemRegistry>Registro (%d elementos)</treeItemRegistry>
         <treeItemPopopMenuBrowse>Examinar...</treeItemPopopMenuBrowse>
@@ -230,35 +230,35 @@
         <btnFinish>Finalizar</btnFinish>
         <btnCancel>Cancelar</btnCancel>
         <btnClose>Cerrar</btnClose>
-        <btnUninstall>Uninstall</btnUninstall>
+        <btnUninstall>Desinstalar</btnUninstall>
     </UninstallWizard>
     <DelayedFilesRemovalDialog>
         <Title>Algunos archivos no han sido eliminados</Title>
         <Instruction1>Los siguientes archivos no han sido eliminados porque están siendo usados por el sistema:</Instruction1>
-        <Instruction2>Estos archivos serán removidos automáticamente después de reiniciar el sistema.</Instruction2>
+        <Instruction2>Estos archivos serán eliminados automáticamente después de reiniciar el sistema.</Instruction2>
         <btnReboot>Reiniciar ahora</btnReboot>
     </DelayedFilesRemovalDialog>
     <RunningProcessesDialog>
         <Title>¿Forzar la terminación de los procesos en ejecución?</Title>
         <Instruction1>Los siguientes procesos han sido detectados:</Instruction1>
-        <Instruction2>Es recomendable terminarlos manualmente antes de removerlos, pero el asistente de desinstalación puede forzar su terminación.</Instruction2>
+        <Instruction2>Es recomendable terminarlos manualmente antes de eliminarlos, pero el asistente de desinstalación puede forzar su terminación.</Instruction2>
     </RunningProcessesDialog>
     <InstallTracker>
         <InstallTrackerLocalizedName>Install Tracker</InstallTrackerLocalizedName>
         <Title>Instalar y rastrear una aplicación</Title>
-        <TitleAppend>Install and Trace, append traced data to '%s'</TitleAppend>
+        <TitleAppend>Instalar y Rastrear, añadir datos rastreados a '%s'</TitleAppend>
         <staticPathToProgram>Ruta al archivo ejecutable (.exe, .msi):</staticPathToProgram>
         <staticInstallProgress>Progreso de instalación:</staticInstallProgress>
         <checkMinimize>Minimizar Uninstall Tool a la barra de tareas durante la instalación</checkMinimize>
         <btnInstall>Instalar y rastrear</btnInstall>
         <btnStop>Detener</btnStop>
         <btnSave>Guardar</btnSave>
-        <btnSaveLog>Guardar Log...</btnSaveLog>
+        <btnSaveLog>Guardar Registro...</btnSaveLog>
         <btnNoAndRevert>No + Revertir</btnNoAndRevert>
         <staticRevertInfo>Las opciones de reversión intentan eliminar todos los elementos del sistema de archivos y del registro creados durante el rastreo de la instalación</staticRevertInfo>
         <installTip1>Proceda con la instalación como es usual mientras Uninstall Tool la observa. El rastreo será detenido automáticamente cuando todos los procesos finalicen o cuando usted la detenga manualmente cuando la instalación se haya completado</installTip1>
         <installTip2>Por favor asegúrese que no haya otra instalación ejecutándose actualmente</installTip2>
-        <installTip3>Si una versión anterior de esta aplicación ya está instalada, debería removerla antes de instalar una nueva versión</installTip3>
+        <installTip3>Si una versión anterior de esta aplicación ya está instalada, debería desinstalarla antes de instalar una nueva versión</installTip3>
         <trayIconTitle>Instalando '%s'...</trayIconTitle>
         <trayIconTooltip>Vea el menú de clic derecho para detener o ver el log de rastreo</trayIconTooltip>
         <trayIconText>Proceda con la instalación como es usual mientras Uninstall Tool la observa. El rastreo será detenido automáticamente cuando todos los procesos finalicen o cuando usted la detenga manualmente (menú de clic derecho) cuando la instalación se haya completado</trayIconText>
@@ -271,8 +271,8 @@
         <contextMenuCopy>Copiar</contextMenuCopy>
         <logEventCreateFile>Crear archivo</logEventCreateFile>
         <logEventCreateFolder>Crear carpeta</logEventCreateFolder>
-        <logEventRenameFile>Rename File</logEventRenameFile>
-        <logEventRenameFolder>Rename Folder</logEventRenameFolder>
+        <logEventRenameFile>Renombrar Archivo</logEventRenameFile>
+        <logEventRenameFolder>Renombrar Carpeta</logEventRenameFolder>
         <logEventCreateKey>Crear clave</logEventCreateKey>
         <logEventDeleteKey>Eliminar clave</logEventDeleteKey>
         <logEventSetValue>Establecer valor</logEventSetValue>
@@ -298,13 +298,13 @@
         <logTrackingCompleted>La instalación está completa</logTrackingCompleted>
         <logTracingAnalyzing>Analizando instalación, por favor espere...</logTracingAnalyzing>
         <logUninstallEntriesDetected>%u entradas de instalación detectadas</logUninstallEntriesDetected>
-        <logNewUninstallEntriesDetected>%u new installation entries detected:</logNewUninstallEntriesDetected>
-        <logTrackingDone>Done</logTrackingDone>
+        <logNewUninstallEntriesDetected>%u nueva entrada de instalación detectada:</logNewUninstallEntriesDetected>
+        <logTrackingDone>Hecho</logTrackingDone>
         <logReverting>Revirtiendo cambios...</logReverting>
         <logCompleted>Completado</logCompleted>
         <logMSIServiceWarning>Advertencia: El servicio MSI está deshabilitado</logMSIServiceWarning>
         <logMSIServiceError1>Error: Fallo al abrir servicio MSI</logMSIServiceError1>
-        <logMSIServiceError2>Error: no se puede iniciar el servicio MSI</logMSIServiceError2>
+        <logMSIServiceError2>Error: No se puede iniciar el servicio MSI</logMSIServiceError2>
         <logMSIServiceError3>Error: No se puede consultar el estado del servicio MSI</logMSIServiceError3>
     </InstallTracker>
     <InstallTrackerCustomEntryDialog>
@@ -327,9 +327,9 @@
         <btnOnlyCurrent>Sólo %s</btnOnlyCurrent>
     </DependentItemsDialog>
     <RelatedItemsDialog>
-        <Title>Uninstall '%s'</Title>
-        <Instruction>The following apps are related which means that uninstalling of them will removall all others. Are you sure you want to remove all these apps?</Instruction>
-        <btnUninstallAll>Uninstall All</btnUninstallAll>
+        <Title>Desinstalar '%s'</Title>
+        <Instruction>Las siguientes aplicaciones están relacionadas, lo que significa que al desinstalarlas se eliminarán todas las demás. ¿Está seguro que quiere eliminar todas estas aplicaciones?</Instruction>
+        <btnUninstallAll>Desinstalar Todo</btnUninstallAll>
     </RelatedItemsDialog>
     <UninstallWizardConfirmation>
         <staticConfirm>El desinstalador incorporado ha finalizado su trabajo. ¿Le gustaría realizar una búsqueda profunda en el registro de su sistema y en el sistema de archivos por entradas de registro no usadas y archivos restantes?</staticConfirm>
@@ -343,7 +343,7 @@
         <staticWebSite>Sitio Web</staticWebSite>
         <staticSupport>Soporte</staticSupport>
         <staticEULA>EULA</staticEULA>
-        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticPrivacyPolicy>Política de Privacidad</staticPrivacyPolicy>
         <staticRegisteredTo>Producto registrado a:</staticRegisteredTo>
         <staticChangeKey>Cambiar clave de licencia</staticChangeKey>
     </DlgAbout>
@@ -351,7 +351,7 @@
         <UnregDlgReminder>Recordatorio de evaluación</UnregDlgReminder>
         <UnregDlgExpired>Evaluación expirada</UnregDlgExpired>
         <staticExpired>La versión de prueba ha expirado. Ha sido capaz de probar este software durante 30 días.\n\nSi le ha gustado este software y quiere seguir utilizándolo, pulse 'Comprar ahora'.</staticExpired>
-        <staticTrial>Posee la versión de prueba libre durante 30 días. Después de este periodo debe comprar el producto o borrarlo de su sistema.</staticTrial>
+        <staticTrial>Posee la versión de prueba gratuita durante 30 días. Después de este periodo debe comprar el producto o borrarlo de su sistema.</staticTrial>
         <btnWebSite>Sitio Web</btnWebSite>
         <staticDaysLeft>Quedan %d días de evaluación</staticDaysLeft>
         <btnBuyNow>Comprar ahora</btnBuyNow>
@@ -407,11 +407,12 @@
         <msgRemoveMultipleItemsQuestion>¿Está seguro que quiere remover estos elementos?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Esto removerá los elementos de arriba del registro de su sistema (auto arranque) y ellos ya no se ejecutarán cuando inicie Windows.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Para completar el registro debe salir del programa. \n\n¿Desea salir del programa ahora?</msgRegRestartRequired>
+        <msgRegSuccess>¡Gracias por activar Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>El nombre de registro o la clave que ha introducido no son válidos. \n\nPor favor asegúrese de introducir ambos exactamente como aparecen en su e-mail de registro.</msgRegFailed>
         <msgNewVersionAvailable>Nueva versión %s está disponible:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Versión actual: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Que hay de nuevo:</msgNewVersionAvailableWhatsNew>
-        <msgNewVersionDownload>Download now</msgNewVersionDownload>
+        <msgNewVersionDownload>Descargar ahora</msgNewVersionDownload>
         <msgNewVersionPortableLink>Enlace de descarga de la versión portable</msgNewVersionPortableLink>
         <msgUsingLatestVersion>Está usando la última versión del programa</msgUsingLatestVersion>
         <msgCannotConnectToCrystalIDEA>No se puede conectar al sitio Web crystalidea.com, por favor compruebe su conexión de Internet</msgCannotConnectToCrystalIDEA>
@@ -419,7 +420,7 @@
         <msgRunningInWow64Title>Ejecutando en entorno WoW64</msgRunningInWow64Title>
         <msgCannotStartHelper>Imposible iniciar el proceso 'UninstallToolHelper.exe'. \n\nPor favor reinstale el programa.</msgCannotStartHelper>
         <msgUninstallingMyself>¿Quiere remover las preferencias de Uninstall Tool y todos los datos sobre las instalaciones rastreadas?</msgUninstallingMyself>
-        <msgUnableToCreateFile>Unable to create file:\n%s</msgUnableToCreateFile>
+        <msgUnableToCreateFile>No se puede crear el archivo:\n%s</msgUnableToCreateFile>
     </Messages>
     <Trial>
         <txtUnregisteredBig>VERSIÓN NO REGISTRADA</txtUnregisteredBig>
@@ -449,17 +450,17 @@
         <statusCalculatingOccupiedSize>Calculando el tamaño ocupado... %s</statusCalculatingOccupiedSize>
         <statusNewVersionAvailable>Nueva versión disponible:</statusNewVersionAvailable>
         <popupNewProgramsFound>¡%d nuevos encontrados!</popupNewProgramsFound>
-        <popupNewProgramsFoundDontNotify>Don't notify me next time</popupNewProgramsFoundDontNotify>
+        <popupNewProgramsFoundDontNotify>No me avises la próxima vez</popupNewProgramsFoundDontNotify>
         <WindowsUpdatesText>Actualizaciones de Windows</WindowsUpdatesText>
         <UninstallToolDescription>Desinstala aplicaciones completamente, Gestiona las aplicaciones que se ejecutan en el arranque</UninstallToolDescription>
     </Misc>
     <ShellExtension>
         <InstallWithInstallTracker>Instalar y rastrear con Install Tracker...</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>Instala y rastrea todos los cambios que un programa realiza en su computadora</InstallWithInstallTrackerTip>
-        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
-        <uninstallWithUninstallTool>Uninstall with Uninstall Tool</uninstallWithUninstallTool>
-        <uninstallWithUninstallToolFailed>Unable to detect any application based on the provided shortcut:</uninstallWithUninstallToolFailed>
-        <uninstallWithUninstallToolConfirm>Are you sure you want to completely remove '%s' and all of its components?</uninstallWithUninstallToolConfirm>
+        <InstallWithInstallTrackerShort>Instalar con Install Tracker</InstallWithInstallTrackerShort>
+        <uninstallWithUninstallTool>Desinstalar con Uninstall Tool</uninstallWithUninstallTool>
+        <uninstallWithUninstallToolFailed>No se detecta ninguna aplicación basada en el acceso directo proporcionado:</uninstallWithUninstallToolFailed>
+        <uninstallWithUninstallToolConfirm>¿Estás seguro de que quieres eliminar completamente '%s' y todos sus componentes?</uninstallWithUninstallToolConfirm>
     </ShellExtension>
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
@@ -472,11 +473,11 @@
     <Setup>
         <other_tasks>Otras tareas:</other_tasks>
         <install_service>Instalar servicio de rastreo (característica 'Instalar y rastrear')</install_service>
-        <control_panel_icon_text>Añadir icono de Uninstall Tool al panel de control</control_panel_icon_text>
+        <control_panel_icon_text>Añadir icono de Uninstall Tool al Panel de Control</control_panel_icon_text>
         <installing_driver>Instalando controlador de kernel...</installing_driver>
         <ut_initializing>Uninstall Tool está inicializándose...</ut_initializing>
-        <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
-        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
-        <register_msix>Registering Windows 11 context menu...</register_msix>
+        <pin_to_taskbar_text>Anclar icono de Uninstall Tool a la barra de tareas</pin_to_taskbar_text>
+        <skip_uac_option>Simplificar el inicio de la aplicación utilizando el Programador de Tareas de Windows para omitir la confirmación del Control de Cuentas de Usuario</skip_uac_option>
+        <register_msix>Registrando menú contextual de Windows 11...</register_msix>
     </Setup>
 </LanguageStrings>

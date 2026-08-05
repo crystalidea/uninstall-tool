@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>האם אתה בטוח שברצונך להסיר את הפריטים הללו?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>פעולה זו תסיר את הפריטים מלמעלה מיומן הרישום של המערכת ומתפריט ההתחלה והם לא יפעלו יותר יחד עם הפעלת חלונות.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>להשלמת הרישום יש צורך לאתחל את התוכנית. \n\nהאם ברצונך לבצע זאת כעת?</msgRegRestartRequired>
+        <msgRegSuccess>תודה על הפעלת כלי הסרת ההתקנה!</msgRegSuccess>
+        <msgRegFailed>שם בעל הרישיון או קוד הרישום שהקלדת אינם תקינים. \n\nאנא וודא כי שניהם זהים בדיוק לאלה המופיעים בהודעת הדואר האלקטרוני שקיבלת.</msgRegFailed>
         <msgNewVersionAvailable>קיימת %s גרסא חדשה</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>%s :הגרסא הנוכחית היא</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>מה חדש:</msgNewVersionAvailableWhatsNew>

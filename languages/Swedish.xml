@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Are you sure you want to remove these items?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>This will remove the items above from your system registry (start menu) and they will never run when your Windows starts.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>För att slutföra registreringen måste programmet startas om.\n\nVill du avsluta programmet nu?</msgRegRestartRequired>
+        <msgRegSuccess>Tack för att du har aktiverat Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Namnet eller produktnyckeln som du har angett är inte giltig.\n\nKontrollera att du har angett båda exakt som de står i ditt registreringsmejl.</msgRegFailed>
         <msgNewVersionAvailable>Ny version (%s) finns tillgänglig.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Current version: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>What's New:</msgNewVersionAvailableWhatsNew>

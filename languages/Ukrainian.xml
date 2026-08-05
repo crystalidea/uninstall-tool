@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Ви впевнені, що хочете видалити ці елементи?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Це видалить наведені вище елементи з вашого системного реєстру (меню "Пуск"), і вони ніколи не запускатимуться під час запуску Windows.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Для завершення реєстрації необхідно перезапустити програму. \n\nБажаєте зробити це зараз?</msgRegRestartRequired>
+        <msgRegSuccess>Дякуємо за активацію Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Введено недійсне реєстраційне ім'я або ключ. \n\nБудь ласка, переконайтеся, що обидва введено точно так, як у вашому листі про реєстрацію.</msgRegFailed>
         <msgNewVersionAvailable>Доступна нова версія %s</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Поточна версія: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Що нового:</msgNewVersionAvailableWhatsNew>

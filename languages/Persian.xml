@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>آیا میخواهید این موارد را حذف کنید؟</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>این موارد را از ریجیستری سیستم حذف میکند و آنها هرگز با ویندوز اجرا نمیشوند</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>برای کامل شدن ثبت نام برنامه باید ریستارت شود \n\nآیا میخواهید حالا آن را انجام دهید؟</msgRegRestartRequired>
+        <msgRegSuccess>از اینکه برنامه را فعال کردید متشکریم!</msgRegSuccess>
+        <msgRegFailed>نام ثبت نام یا کلید ثبت نامی که وارد کرده اید معتبر نیست. \n\nلطفا مطمئن شوید که هر دو را دقیقا همانطور که در ایمیل ثبت نام آمده وارد کرده اید.</msgRegFailed>
         <msgNewVersionAvailable>نسخه جدید %s موجود است</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>نسخه فعلی: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>تغییرات:</msgNewVersionAvailableWhatsNew>

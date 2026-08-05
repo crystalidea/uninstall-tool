@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.7.4" LangID="1033" Author="CrystalIDEA Software Team">
+<LanguageStrings version="3.8.1" LangID="1033" Author="CrystalIDEA Software Team">
     <MainMenu>
         <mnuFile>&amp;File</mnuFile>
         <mnuFileExport>&amp;Export to HTML...</mnuFileExport>
@@ -427,7 +427,8 @@
         <msgRemoveMultipleItemsQuestion>Are you sure you want to remove these items?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>This will remove the items above from your system registry (start menu) and they will never run when your Windows starts.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>To complete registration you must restart the program. \n\nDo you wish to do it now?</msgRegRestartRequired>
+        <msgRegSuccess>Thank you for activating Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>The registration name or key you have entered is not valid. \n\nPlease make sure that both of them are entered exactly as in your registration e-mail.</msgRegFailed>
         <msgNewVersionAvailable>New version %s is available</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Current version: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>What's New:</msgNewVersionAvailableWhatsNew>

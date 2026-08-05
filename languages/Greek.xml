@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Σίγουρα θέλετε αφαίρεση αυτών των στοιχείων;</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Όλα τα στοιχεία του μητρώου συστήματος (μενού έναρξης) θα αφαιρεθούν και δεν θα εκτελεστούν ξανά κατά την έναρξη των Windows.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Για ολοκλήρωση της δήλωσης επανεκκινήστε το πρόγραμμα. \n\nΘέλετε να το κάνετε τώρα;</msgRegRestartRequired>
+        <msgRegSuccess>Ευχαριστούμε που ενεργοποιήσατε το Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Το όνομα δήλωσης ή το κλειδί δήλωσης που εισαγάγατε δεν είναι έγκυρο. \n\nΠαρακαλώ βεβαιωθείτε ότι έχετε πληκτρολογήσει και τα δύο ακριβώς όπως αναγράφονται στο μήνυμα δήλωσης.</msgRegFailed>
         <msgNewVersionAvailable>Η νέα έκδοση %s είναι διαθέσιμη.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Τρέχουσα έκδοση: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Τι Νέο υπάρχει:</msgNewVersionAvailableWhatsNew>

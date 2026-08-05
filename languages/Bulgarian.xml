@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Наистина ли искате да премахнете тези елементи?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Това ще премахне елементите по-горе от системния регистър (меню 'Старт') и те няма да стартират при зареждане на Windows.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>За да завършите регистрацията трябва да рестартирате програмата. \n\nЖелаете ли да го направите сега?</msgRegRestartRequired>
+        <msgRegSuccess>Благодарим ви, че активирахте Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Въведените данни за регистрация не са валидни. \n\nМоля, уверете се, че името за регистрация и регистрационният ключ са въведени точно както са изписани в регистрационния имейл.</msgRegFailed>
         <msgNewVersionAvailable>Налична е нова версия (%s)</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Текуща версия: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Какво е новото:</msgNewVersionAvailableWhatsNew>

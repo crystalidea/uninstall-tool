@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.7.4" LangID="1049" Author="Denis Mikhailov">
+<LanguageStrings version="3.8.1" LangID="1049" Author="Denis Mikhailov">
     <MainMenu>
         <mnuFile>&amp;Файл</mnuFile>
         <mnuFileExport>&amp;Экспортировать список в HTML...</mnuFileExport>
@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Вы действительно хотите удалить эти элементы?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Это действие удалить выбранные элементы из вашего реестра (Главного Меню) и они больше не будут запускаться при запуске Windows.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Для завершения регистрации необходим перезапуск программы. \n\nВы хотите сделать это прямо сейчас?</msgRegRestartRequired>
+        <msgRegSuccess>Спасибо за регистрацию Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Регистрационное имя или ключ введены неверно. \n\nПожалуйста, убедитесь, что и имя, и ключ введены в точности так, как указано в письме, присланном после регистрации.</msgRegFailed>
         <msgNewVersionAvailable>Доступна новая версия %s</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Текущая версия: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Что нового:</msgNewVersionAvailableWhatsNew>

@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Ali ste prepričani, da želite te vnose odstraniti?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>S tem boste zgornje vnose odstranili iz sistemskega registra (Začetni meni) in nikoli več ne bodo zagnane ob zagonu vašega sistema Windows.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Za dokončanje registracije morate znova zagnati program. \n\nAli želite to storiti zdaj?</msgRegRestartRequired>
+        <msgRegSuccess>Hvala, ker ste aktivirali 'Uninstall Tool'!</msgRegSuccess>
+        <msgRegFailed>Registracijsko ime ali registracijski ključ, ki ste ga vnesli, ni veljaven. \n\nProsimo, prepričajte se, da sta oba vnesena natanko tako, kot sta navedena v vašem registracijskem e-poštnem sporočilu.</msgRegFailed>
         <msgNewVersionAvailable>Ns voljo je nova različica %s</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Trenutna različica: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Kaj je novega:</msgNewVersionAvailableWhatsNew>

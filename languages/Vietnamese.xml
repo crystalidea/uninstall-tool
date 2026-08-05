@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Bạn có chắc chắn bạn muốn loại bỏ các nhóm này?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Điều này sẽ loại bỏ các mục từ trên registry của hệ thống (trình đơn bắt đầu) và Nó sẽ không bao giờ chạy khi Windows khởi động.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Để hoàn tất đăng ký, bạn phải khởi động lại chương trình. \n \n Bạn có muốn làm điều đó bây giờ?</msgRegRestartRequired>
+        <msgRegSuccess>Cảm ơn bạn đã kích hoạt Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Tên đăng ký hoặc mã đăng ký bạn vừa nhập không hợp lệ. \n\nVui lòng kiểm tra lại để chắc chắn rằng cả hai đều được nhập chính xác như trong e-mail đăng ký của bạn.</msgRegFailed>
         <msgNewVersionAvailable>Phiên bản mới %s có sẵn</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Phiên bản hiện tại: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Có gì mới:</msgNewVersionAvailableWhatsNew>

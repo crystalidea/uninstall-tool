@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Bu maddeleri silmek istediğinize emin misiniz?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Yukarıdaki maddeler kayıt defterinden (başlat menüsü) silinecek ve Windows açıldığında tekrar yüklenmeyecektir.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Kayıt işleminin tamamlanması için program yeniden başlatılmalıdır. \n\nŞimdi yeniden başlatılsın mı?</msgRegRestartRequired>
+        <msgRegSuccess>Uninstall Tool'u etkinleştirdiğiniz için teşekkür ederiz!</msgRegSuccess>
+        <msgRegFailed>Girdiğiniz kayıt adı veya kayıt kodu geçerli değil. \n\nLütfen her ikisini de kayıt e-postanızdaki gibi birebir girdiğinizden emin olun.</msgRegFailed>
         <msgNewVersionAvailable>Yeni sürüm (%s) mevcut</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Güncel sürüm: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Yenilikler :</msgNewVersionAvailableWhatsNew>

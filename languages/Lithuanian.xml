@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Tikrai norite naikinti šiuos elementus?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Šis veiksmas pašalins pasirinktus elementus iš sistemos registro (paleisties).</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Registracijos užbaigimui programą reikia paleisti iš naujo. \n\nDaryti tai dabar?</msgRegRestartRequired>
+        <msgRegSuccess>Dėkojame, kad užregistravote Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Įrašytas vardas arba kodas yra neteisingas. \n\nĮsitikinkite, kad abu įrašėte lygiai taip, kaip nurodyta laiške, kurį gavote baigę registraciją.</msgRegFailed>
         <msgNewVersionAvailable>Yra nauja versija %s.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Esama versija: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Kas naujo:</msgNewVersionAvailableWhatsNew>

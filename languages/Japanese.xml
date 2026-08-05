@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>これらのアイテムを削除してもよろしいですか?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>これはシステム レジストリ (スタート メニュー) から上のアイテムを削除します、それらは二度と Windows の起動時に実行しません。</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>登録を完了するにはプログラムを再起動する必要があります。\n\n今すぐプログラムを終了しますか?</msgRegRestartRequired>
+        <msgRegSuccess>Uninstall Tool をご登録いただきありがとうございます!</msgRegSuccess>
+        <msgRegFailed>入力された登録名または登録キーが正しくありません。\n\nどちらも登録電子メールに記載されているとおりに正確に入力されているかご確認ください。</msgRegFailed>
         <msgNewVersionAvailable>新しいバージョン %s が利用可能です:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>現在のバージョン: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>What's New:</msgNewVersionAvailableWhatsNew>

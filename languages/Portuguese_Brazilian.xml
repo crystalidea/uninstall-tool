@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Deseja remover esses itens?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Isso removerá os itens acima do registro de seu sistema (menu iniciar) e não será possível iniciá-los novamente.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Para completar o registro você deve reiniciar o programa.\n\nDeseja fechar o programa agora?</msgRegRestartRequired>
+        <msgRegSuccess>Obrigado por ativar o Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>O nome de registro ou a chave de registro informados não são válidos.\n\nVerifique se ambos foram digitados exatamente como aparecem no seu e-mail de registro.</msgRegFailed>
         <msgNewVersionAvailable>Nova versão %s está disponível.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Versão Atual: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>O que há de novo:</msgNewVersionAvailableWhatsNew>

@@ -18,7 +18,7 @@
         <mnuActionJumpToRegistry>&amp;Entrée du registre</mnuActionJumpToRegistry>
         <mnuActionJumpToProgramFolder>&amp;Dossier d'installation</mnuActionJumpToProgramFolder>
         <mnuActionJumpToWebSite>&amp;Site web du programme</mnuActionJumpToWebSite>
-        <mnuActionOpenWindowsStore>Ovrir avec  Microsoft Store</mnuActionOpenWindowsStore>
+        <mnuActionOpenWindowsStore>Ovrir avec Microsoft Store</mnuActionOpenWindowsStore>
         <mnuActionBrowseLocation>Parcourir le dossier...</mnuActionBrowseLocation>
         <mnuActionBrowseSource>Parcourir le registre...</mnuActionBrowseSource>
         <mnuActionGoogleFor>Google pour</mnuActionGoogleFor>
@@ -51,7 +51,6 @@
         <mnuHelpCheckForUpdates>&amp;Vérifier les mises à jour...</mnuHelpCheckForUpdates>
         <mnuHelpAbout>À &amp;propos...</mnuHelpAbout>
     </MainMenu>
-
     <ListCtrl>
         <columnProgramName>Nom du programme</columnProgramName>
         <columnSize>Taille</columnSize>
@@ -76,7 +75,6 @@
         <staticNoStartupItemsTip>Vous pouvez ajouter manuellement &lt;a&gt;un nouveau programme&lt;/a&gt;</staticNoStartupItemsTip>
         <mark32bitItem>(32-bit)</mark32bitItem>
     </ListCtrl>
-
     <ToolBar>
         <btnUninstaller>Désinstaller</btnUninstaller>
         <btnUninstallerToolTip>Désinstaller les programmes existants ou installer et pister de nouveaux logiciels</btnUninstallerToolTip>
@@ -89,7 +87,6 @@
         <btnHelp>Aide</btnHelp>
         <btnHelpToolTip>Afficher l'aide du programme</btnHelpToolTip>
     </ToolBar>
-
     <SecondaryToolbar>
         <btnApps>Applications</btnApps>
         <btnAppsToolTip>Applications</btnAppsToolTip>
@@ -104,7 +101,6 @@
         <btnInstallAndTrace>Installer et pister un programme</btnInstallAndTrace>
         <btnInstallAndTraceTooltip>Installer un nouveau programme et regarder les changements qu'il apporte au système et au registre</btnInstallAndTraceTooltip>
     </SecondaryToolbar>
-
     <ExplorerBar>
         <itemUninstallIt>Désinstaller</itemUninstallIt>
         <itemModifyIt>Modifier</itemModifyIt>
@@ -154,7 +150,6 @@
         <itemSourceWindowsTask>Tâche Windows planifiée à la connexion</itemSourceWindowsTask>
         <itemSourceWindowStoreTask>Tâche de démarrage de l'application Microsoft Store</itemSourceWindowStoreTask>
     </ExplorerBar>
-
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>Ajouter un nouveau programme au démarrage</DlgAddNewStartupProgramCaption>
         <labelStartupType>Type de démarrage:</labelStartupType>
@@ -164,7 +159,6 @@
         <filterAllFiles>Tous les fichiers</filterAllFiles>
         <checkHighestPriviledges>Exécuter la tâche avec les privilèges les plus élevés</checkHighestPriviledges>
     </DlgAddNewStartupProgram>
-
     <DlgPreferences>
         <DlgPreferencesCaption>Préférences</DlgPreferencesCaption>
         <!-- general -->
@@ -205,7 +199,6 @@
         <comboItemWizardOption2>Toujours</comboItemWizardOption2>
         <comboItemWizardOption3>Non</comboItemWizardOption3>
     </DlgPreferences>
-
     <UninstallWizard>
         <UninstallWizardLocalizedName>Assistant de désinstallation</UninstallWizardLocalizedName>
         <UninstallWizardCaption>Suppression des traces de %s - UninstallWizard ™</UninstallWizardCaption>
@@ -239,20 +232,17 @@
         <btnClose>Fermer</btnClose>
         <btnUninstall>Désinstaller</btnUninstall>
     </UninstallWizard>
-
     <DelayedFilesRemovalDialog>
         <Title>Certains fichiers n'ont pas été supprimés</Title>
         <Instruction1>Les fichiers suivants n'ont pas été supprimés, car ils sont utilisés par le système :</Instruction1>
         <Instruction2>Ces fichiers seront supprimés automatiquement au prochain redémarrage du système.</Instruction2>
         <btnReboot>Redémarrer maintenant</btnReboot>
     </DelayedFilesRemovalDialog>
-
     <RunningProcessesDialog>
         <Title>Forcer à quitter un processus en cours ?</Title>
         <Instruction1>Les processus suivants ont été détectés:</Instruction1>
         <Instruction2>Il'est recommandé d'y mettre fin manuellement avant la suppression. Uninstall Wizard peut les forcer à y mettre fin.</Instruction2>
     </RunningProcessesDialog>
-
     <InstallTracker>
         <InstallTrackerLocalizedName>Installer et pister</InstallTrackerLocalizedName>
         <Title>Installer et pister un programme</Title>
@@ -317,36 +307,30 @@
         <logMSIServiceError2>Erreur: Impossible de démarrer le service MSI</logMSIServiceError2>
         <logMSIServiceError3>Erreur: impossible d'interroger l'état du service MSI</logMSIServiceError3>
     </InstallTracker>
-
     <InstallTrackerCustomEntryDialog>
         <Title>Aucune inscription nouvelle n'ont été trouvés pendant le pistage. Généralement cela signifie que le programme n'a pas été installé correctement, mais si vous êtes sûr que l'installation s'est bien passé vous pouvez créer un nouveau programme personnalisé dans la liste des applications. Toutes les traces actuellement trouvées y appartiendront.</Title>
         <staticName>Nom:</staticName>
         <checkCreateCustomEntry>Je voudrais créer un élément personnalisé dans la liste</checkCreateCustomEntry>
     </InstallTrackerCustomEntryDialog>
-
     <InstallTrackerMultipleEntries>
         <Caption>Entrées multiples d'installation détectées</Caption>
         <Title>Des entrées multiples de l'installation ont été détectés dans le registre Windows après l'installation. Veuillez sélectionner l'élément principal pour l'afficher dans la liste des applications. Une icône spéciale sera crée dans la colonne 'pistage'. Lors du retrait des données pistées de l'élément principal, Uninstall Tool supprime aussi ses éléments dépendants.</Title>
         <btnSelect>Sélectionner</btnSelect>
     </InstallTrackerMultipleEntries>
-
     <TracedXMLDialog>
         <TracedXMLDialogCaption>%s données tracées</TracedXMLDialogCaption>
     </TracedXMLDialog>
-
     <DependentItemsDialog>
         <Title>Désinstaller '%s'</Title>
         <Instruction>Supprimer aussi les éléments dépendants ?</Instruction>
         <Footer>l'installation '%s' s'est faite avec Install Tracker activé (cf éléments ci-dessus). Cela signifie que lorsque vous utilisez l'assistant de désinstallation, tous les éléments dépendants pistés seront supprimés aussi.Lors de la sélection de l'enlèvement de l'article actuel, les données de suivi seront ignorés et l'assistant de désinstallation va scanner les données laissées visées par ce programme.</Footer>
         <btnOnlyCurrent>Seulement %s</btnOnlyCurrent>
     </DependentItemsDialog>
-
     <RelatedItemsDialog>
         <Title>Désinstaller '%s'</Title>
         <Instruction>Les applications suivantes sont liées, ce qui signifie que leur désinstallation entraînera la suppression de toutes les autres. Voulez-vous vraiment supprimer toutes ces applications ?</Instruction>
         <btnUninstallAll>Désinstaller tout</btnUninstallAll>
     </RelatedItemsDialog>
-
     <UninstallWizardConfirmation>
         <staticConfirm>La désinstallation est terminée. Voulez vous scanner en profondeur votre système ? (Recommander)</staticConfirm>
         <learnMoreAboutWizard>En savoir plus sur l'assistant de désinstallation</learnMoreAboutWizard>
@@ -354,7 +338,6 @@
         <btnNo>Non</btnNo>
         <checkDontAskAgain>Se souvenir de mon choix et ne plus me demander. Peut être modifié dans l'option Préférences</checkDontAskAgain>
     </UninstallWizardConfirmation>
-
     <DlgAbout>
         <DlgAboutCaption>À propos d'Uninstall Tool</DlgAboutCaption>
         <staticWebSite>Site web</staticWebSite>
@@ -364,7 +347,6 @@
         <staticRegisteredTo>Ce produit est enregistré au nom de :</staticRegisteredTo>
         <staticChangeKey>Changer la clé de licence</staticChangeKey>
     </DlgAbout>
-
     <UnregDlg>
         <UnregDlgReminder>Rappel d'essai</UnregDlgReminder>
         <UnregDlgExpired>Essai expiré</UnregDlgExpired>
@@ -374,14 +356,12 @@
         <staticDaysLeft>%d jour(s) d'évaluation restant(s)</staticDaysLeft>
         <btnBuyNow>Acheter maintenant</btnBuyNow>
     </UnregDlg>
-
     <EnterKeyDlg>
         <EnterKeyDlgCaption>Entrer la clé d'enregistrement</EnterKeyDlgCaption>
         <Title>Veuillez entrer le nom et le code d'enregistrement reçu par e-mail:</Title>
         <staticName>Nom:</staticName>
         <staticKey>Clé d'enregistrement:</staticKey>
     </EnterKeyDlg>
-
     <Messages>
         <!-- messages related to Uninstaller -->
         <msgUninstallFailed>Èchec du processus de désinstallation.\nSouhaitez vous nettoyer cette entrée du registre ?</msgUninstallFailed>
@@ -427,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Êtes-vous sûr de vouloir supprimer ces éléments ?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>Supprimer les éléments ci-dessus à partir du registre système (menu démarrer). Ils ne seront donc plus exécutés lors du démarrage de windows.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Il convient de redémarrer pour compléter l'enregistrement.\n\nSouhaitez vous quitter maintenant?</msgRegRestartRequired>
+        <msgRegSuccess>Merci d'avoir enregistré Uninstall Tool !</msgRegSuccess>
+        <msgRegFailed>Le nom ou la clé d'enregistrement que vous avez entrés ne sont pas valides. \n\nVeuillez vérifier que ces deux informations correspondent exactement à celles figurant dans votre e-mail d'enregistrement.</msgRegFailed>
         <msgNewVersionAvailable>Une nouvelle version %s est disponible.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Version actuelle: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Quoi de neuf :</msgNewVersionAvailableWhatsNew>
@@ -441,14 +422,12 @@
         <msgUninstallingMyself>Voulez vous effacer les préférences de Uninstall Tool et toutes les données tracées ?</msgUninstallingMyself>
         <msgUnableToCreateFile>Impossible de créer le fichier:\n%s</msgUnableToCreateFile>
     </Messages>
-
     <Trial>
         <txtUnregisteredBig>VERSION NON ENREGISTRÈE</txtUnregisteredBig>
         <msgNotAvailableInTrial>Option uniquement disponible dans la version enregistrée</msgNotAvailableInTrial>
         <msgNotAvailableInTrial2>Vous pouvez enregistrer les données laissées et les supprimer plus tard, en utilisant la fonction suppression forcé '%s' sur l'élément de la liste.</msgNotAvailableInTrial2>
         <checkDeleteDataLater>Sauver et effacer les données restantes plus tard</checkDeleteDataLater>
     </Trial>
-
     <HTMLReport>
         <htmlFiles>Fichiers HTML</htmlFiles>
         <allFiles>Tous les fichiers</allFiles>
@@ -456,7 +435,6 @@
         <installedPrograms>Programmes installés (%s)</installedPrograms>
         <startupPrograms>Programmes de démarrage</startupPrograms>
     </HTMLReport>
-
     <Misc>
         <btnOK>Accepter</btnOK>
         <btnCancel>Annuler</btnCancel>
@@ -476,7 +454,6 @@
         <WindowsUpdatesText>Mises à jours Windows</WindowsUpdatesText>
         <UninstallToolDescription>Désinstaller les programmes complètement, gérer les programmes de démarrage</UninstallToolDescription>
     </Misc>
-
     <ShellExtension>
         <InstallWithInstallTracker>Installer et pister avec Install Tracker...</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>Installer et pister toutes les modifications qu'un programme fait sur ​​votre ordinateur</InstallWithInstallTrackerTip>
@@ -485,7 +462,6 @@
         <uninstallWithUninstallToolFailed>Impossible de détecter une application à partir du raccourci fourni:</uninstallWithUninstallToolFailed>
         <uninstallWithUninstallToolConfirm>Êtes-vous sûr de vouloir supprimer complètement '%s' et tous ses composants ?</uninstallWithUninstallToolConfirm>
     </ShellExtension>
-
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
         <msgTitleTemplate>%app_name% - Exception non gérée</msgTitleTemplate>
@@ -494,7 +470,6 @@
         <MailBodyTemplate>Bonjour, Support.\n\nJ'ai un problème avec %app_name%. Le fichier de vidage est joint.\n(n'oublie pas de joindre le fichier %dump_file%)\n\nMa version de Windows est %winver% et mes actions avant le problème étaient... (mettez quelques mots s'il vous plaît)</MailBodyTemplate>
         <btnSend>Envoyer un rapport (Recommendé)</btnSend>
     </UnhandledExceptionHandler>
-
     <Setup>
         <other_tasks>Autres tâches:</other_tasks>
         <install_service>Installer le service de trace (Fonctionnalités 'Install and Trace')</install_service>

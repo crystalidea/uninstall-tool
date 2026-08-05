@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>Are you sure you want to remove these items?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>This will remove the items above from your system registry (start menu) and they will never run when your Windows starts.</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>Pentru a completa înregistrarea trebuie să redemaraţi programul. \n\nDoriţi să faceţi aceasta acum?</msgRegRestartRequired>
+        <msgRegSuccess>Vă mulţumim că aţi activat Uninstall Tool!</msgRegSuccess>
+        <msgRegFailed>Numele sau cheia de înregistrare pe care le-aţi introdus nu sunt valide. \n\nAsiguraţi-vă că ambele sunt introduse exact aşa cum apar în e-mailul de înregistrare.</msgRegFailed>
         <msgNewVersionAvailable>Versiune %s disponibilă:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Current version: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>What's New:</msgNewVersionAvailableWhatsNew>

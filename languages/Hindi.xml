@@ -407,7 +407,8 @@
         <msgRemoveMultipleItemsQuestion>क्या आप यह चीजों को निकालना चाहते हैं?</msgRemoveMultipleItemsQuestion>
         <msgRemoveMultipleItemsDescription>इससे उपरकी चीजें सिस्टम रजिस्ट्री से निकल जायेंगी (स्टार्ट मेनू) तथा विन्डोक्ष के साथ वह कभी रन नहीं होगी।</msgRemoveMultipleItemsDescription>
         <!-- other messages -->
-        <msgRegRestartRequired>पंजीकरण संपूर्ण करन एके लिए प्रोग्राम को दोबारा शुरु करें। \n\nक्या आप अभी यह करना चाहते हैं?</msgRegRestartRequired>
+        <msgRegSuccess>अनईन्स्टोल टूल का कार्यशीलन करने के लिए धन्यवाद!</msgRegSuccess>
+        <msgRegFailed>आपने जो पंजीकरण नाम या पंजीकरण कुजी प्रविष्ट की है, वह वैध नहीं है। \n\nकृपया जांच लें कि ये दोनों ठीक वैसे ही प्रविष्ट किए गए हैं, जैसे आपके पंजीकरण ई-मेईल में दिए गए हैं।</msgRegFailed>
         <msgNewVersionAvailable>नया संस्करण %s उपलब्ध है</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>वर्तमान संस्करण: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>नया क्या है:</msgNewVersionAvailableWhatsNew>
