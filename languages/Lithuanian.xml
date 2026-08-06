@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s sėkmingai pašalinta iš kompiuterio</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>All selected leftovers have been successfully removed.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Elementų sąrašo generavimas...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Įrašyti šalinimo žurnalą</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Įrašyti išsamų šalinimo žurnalą į failą</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Failų sistema (%d elementų)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Are you sure you want to perform force removal of the following programs?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Priverstinis šio įrašo pašalinimas neįjungs standartinės šalinimo programos, o tik pašalins visus rastus elementus failų sistemoje ir registre, priklausančius šiai programai. Naudokite šią funkciją tik pasenusiems ir klaidingiems įrašams šalinti.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Force removal of a traced program will perform ultra fast and thorough removal without running its associated uninstaller. It will erase all file system and registry items traced during installation.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Pašalinus šį produktą, kai kurios Windows funkcijos ar kitos programos gali veikti netinkamai.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Batch Force Removal is an advanced feature and should be used carefuly. It will not run associated uninstallers and will only scan for leftover file system/registry items and display them in a merged list that requires a precise review. The most thorough and accurate removal is performed for programs traced with Install Tracker.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>dependent</msgForceRemovalItemDependent>
         <msgLearnMore>Learn more</msgLearnMore>

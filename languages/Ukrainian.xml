@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s успішно видалено з вашого комп'ютера.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Усі вибрані залишки успішно видалені.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Складання списку елементів...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Журнал видалення</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Створити детальний файл журналу видалення та відкрити його</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Зберегти журнал видалення</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Зберегти детальний журнал видалення у файл</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Експортувати в XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Експортувати результати сканування у файл XML</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Файлова система (%d елементів)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Ви впевнені, що хочете виконати примусове видалення наступних програм?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Примусове видалення програми не запустить пов'язаний з нею деінсталятор, а лише видалить усі знайдені файли й елементи реєстру, що належать програмі. Цю функцію слід використовувати лише для застарілих або недійсних записів.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Примусове видалення відстеженої програми виконає надшвидке та ретельне видалення без запуску пов'язаної з нею програми видалення. Це видалить усі елементи файлової системи та реєстру, відстежені під час встановлення.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Видалення цього продукту може призвести до неправильної роботи деяких компонентів Windows або інших програм.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Пакетне примусове видалення є розширеною функцією, і її слід використовувати обережно: пов'язані деінсталятори при цьому не запускаються, а скануються лише елементи файлової системи/реєстру, що залишилися, і відображються їх у об'єднаному списку, який потребує точного перегляду. Найбільш ретельне і точне видалення виконується для програм, відстежених за допомогою монітора відстеження.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>залежний</msgForceRemovalItemDependent>
         <msgLearnMore>Дізнатися більше</msgLearnMore>

@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s-ը հաջողությամբ հեռացվեց:</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Բոլոր մնացորդ ֆայլերը ջնջվել են։</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Ստեղծվում է մնացորդ ֆայլերի ցանկը...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Հեռացնելու մատյանը</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Ստեղծել և բացել հեռացնելու մանրամասն մատյան</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Պահպանել հեռացման մատյանը</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Պահպանել հեռացման մանրամասն մատյանը ֆայլում</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Արտահանել XML-ով</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Արտահանել ստուգելու արդյունքները XML ֆայլով</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Ֆայլային համակարգ (%d ֆայլ)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Ցանկանո՞ւմ եք կատարել հետևյալ ծրագրերի փաթեթային ջնջում։</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Այս գրանցման ստիպողաբար հեռացումը հնարավորություն չի տա բացել ջնջելու հիմնական ծրագիրը: Այն միայն կջնջի այս ծրագրին պատկանող Գրանցամատյանի և Ֆայլային համակարգի բոլոր գրառումները: Օգտագործեք այս հնարավորությունը միայն սխալ կամ վնասված ծրագրերի համար:</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Ծրագրի ստիպողաբար հեռացումը կհանգեցնի շատ արագ և մանրազննին ջնջման՝ առանց բացելու տվյալ ծրագրի ջնջելու ծրագիրը։ Այն կջնջի բոլոր ֆայլերը և գրանցման բանալիները։</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Այս արտադրանքի ջնջումը կարող է հանգեցնել նրան, որ Windows-ի որոշ գործառույթներ կամ այլ ծրագրեր ճիշտ չաշխատեն:</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Փաթեթային ջնջումը ընդլայնված հնարավորություն է և այն պետք է զգուշությամբ օգտագործել։ Այն չի բացելու ջնջելու հիմնական ծրագիրը, այլ միայն ստուգելու է Ֆայլային համակարգի/Գրանցամատյանի մնացորդ ֆայլերը և ցուցադրելու է դրանք մի միասնական ցանկով, որը պետք է շատ ուշադիր դիտել։ Ավելի մանրազննին և ճշգրիտ ջնջումը կկատարվի այն դեպքում, եթե տվյալ ծրագիրը տեղադրվել է Տեղադրման հետագծումով։</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>կախյալ</msgForceRemovalItemDependent>
         <msgLearnMore>Կարդալ ավելին</msgLearnMore>

@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s は正常に削除されました。</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>All selected leftovers have been successfully removed.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>トレースの一覧を生成しています...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>アンインストール ログを保存</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>詳細なアンインストール ログをファイルに保存します</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>ファイル システム (%d 個のアイテム)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Are you sure you want to perform force removal of the following programs?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>アプリケーションの強制削除は関連付けされたアンインストーラーは実行せず、プログラムに帰属する全ての見つかったファイル システムとレジストリのアイテムを抹消するだけです。この機能は古いまたは不正なエントリにのみ使用してください。</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Force removal of a traced program will perform ultra fast and thorough removal without running its associated uninstaller. It will erase all file system and registry items traced during installation.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>この製品を削除すると、一部の Windows 機能や他のソフトウェアが正常に動作しなくなる可能性があります。</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Batch Force Removal is an advanced feature and should be used carefuly. It will not run associated uninstallers and will only scan for leftover file system/registry items and display them in a merged list that requires a precise review. The most thorough and accurate removal is performed for programs traced with Install Tracker.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>dependent</msgForceRemovalItemDependent>
         <msgLearnMore>Learn more</msgLearnMore>

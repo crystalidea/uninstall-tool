@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s đã được gỡ bỏ thành công.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Tất cả mục thừa lựa chọn đã được gỡ bỏ thành công.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Tạo ra danh sách các dấu vết ...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Lưu nhật ký gỡ cài đặt</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Lưu nhật ký gỡ cài đặt chi tiết vào tệp</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Hệ thống tập tin (%d đối tượng)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Bạn có chắc chắn bạn muốn thực hiện Loại bỏ triệt để của các chương trình sau?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Loại bỏ các ứng dụng sẽ không chạy chương trình cài đặt liên quan của nó, nó sẽ chỉ xóa tất cả các hệ thống tập tin tìm thấy và các mặt hàng đăng ký thuộc chương trình. Nên sử dụng chức năng này chỉ dành cho các mục lỗi thời hoặc không hợp lệ.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Loại bỏ các chương trình truy tìm sẽ thực hiện cực nhanh và triệt để loại bỏ mà không cần chạy chương trình cài đặt liên quan của nó. Nó sẽ xóa tất cả các hệ thống tập tin và mục đăng ký bắt nguồn từ quá trình cài đặt.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Việc gỡ bỏ sản phẩm này có thể khiến một số tính năng của Windows hoặc phần mềm khác không hoạt động đúng cách.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Loại bỏ hàng loạt là một tính năng tiên tiến và nên được sử dụng cẩn thận. Nó sẽ không chạy chương trình gỡ bỏ liên kết sẽ chỉ quét cho hệ thống/đăng ký tập tin mục còn sót lại và hiển thị chúng trong một danh sách sáp nhập đòi hỏi phải có một đánh giá chính xác. Việc loại bỏ triệt để nhất và chính xác được thực hiện cho các chương trình truy tìm với Cài đặt Tracker.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>Phụ thuộc</msgForceRemovalItemDependent>
         <msgLearnMore>Tìm hiểu thêm</msgLearnMore>

@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s Succesvol Verwijderd.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Alle geselecteerde Resten zijn met succes verwijderd.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Lijst met achtergebleven Resten wordt aangemaakt...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Verwijderingslogboek</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Maak gedetailleerd Verwijderingslogboek en open deze</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Verwijderingslogboek opslaan</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Gedetailleerd verwijderingslogboek opslaan in een bestand</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Exporteer naar XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Exporteer gescande resultaten naar XML bestand</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Bestands Systeem (%d items)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Bent u er zeker van dat u een Geforceerde Verwijdering wilt van deze programma's?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Geforceerd Verwijderen van deze lijst maakt geen gebruik van de bij het geïnstalleerde programma behorende Uninstaller. Het zal alleen alle gevonden bestanden en register items verwijderen die bij het programma horen. U dient deze funktie alleen te gebruiken bij verouderde of ongeldige vermeldingen.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Geforceerd Verwijderen van een Gevolgd programma voert een ultra snel en grondige verwijdering uit zonder gebruik te maken van het standaard deïnstallatie programma. Het zal alle bestanden en registerverwijzingen verwijderen die tijdens het getraseerde installeren zijn waargenomen.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Het verwijderen van dit product kan ertoe leiden dat bepaalde Windows-onderdelen of andere software niet meer goed werken.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Batch Geforceerd Verwijderen is een geavanceerde eigenschap en dient voorzichtig gebruik te worden. Het maakt geen gebruik van de bijbehorende Uninstallers, maar scant alleen op overblijfselen van bestanden en registervermeldingen. Er wordt een lijst getoond die U uitvoerig dient te controleren. De meest grondige en nauwkeurige Verwijdering wordt uitgevoerd voor Programma's die geïnstalleerd zijn met Installatie Volgen.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>afhankelijk</msgForceRemovalItemDependent>
         <msgLearnMore>Leer meer</msgLearnMore>

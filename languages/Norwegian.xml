@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s er fjernet.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>All selected leftovers have been successfully removed.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Genererer sporliste...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Lagre avinstallasjonslogg</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Lagre en detaljert avinstallasjonslogg i en fil</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Filsystem (%d elementer)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Are you sure you want to perform force removal of the following programs?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Tvungen fjerning av listen vil ikke kjøre tilhørende avinstallerer. Den vil kun slette alle systemfiler og registeroppføringer som tilhører dette programmet. Du bør kun bruke denne funksjonen på foreldete eller ugyldige oppføringer.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Force removal of a traced program will perform ultra fast and thorough removal without running its associated uninstaller. It will erase all file system and registry items traced during installation.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Fjerning av dette produktet kan føre til at enkelte Windows-funksjoner eller annen programvare ikke fungerer riktig.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Batch Force Removal is an advanced feature and should be used carefuly. It will not run associated uninstallers and will only scan for leftover file system/registry items and display them in a merged list that requires a precise review. The most thorough and accurate removal is performed for programs traced with Install Tracker.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>dependent</msgForceRemovalItemDependent>
         <msgLearnMore>Learn more</msgLearnMore>

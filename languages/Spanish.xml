@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s ha sido removido exitosamente.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Todos los restantes seleccionados han sido removidos exitosamente.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Generando lista de rastros...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Crear registro detallado de la eliminación y ábrelo</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Guardar registro de desinstalación</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Guardar un registro detallado de la desinstalación en un archivo</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Exportar a XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Exportar resultados del escaneo a un archivo XML</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Sistema de archivos (%d elementos)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>¿Está seguro que quiere realizar el borrado forzoso de los siguientes programas?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Forzar el borrado de esta aplicación no ejecutará el desinstalador asociado, sólo borrará todos los elementos encontrados en el sistema de archivos y en el registro que pertenecen al programa. Usted sólo debería usar esta función para entradas obsoletas o inválidas.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>El borrado forzoso de la aplicación rastreada realizará un borrado ultra rápido y minucioso sin ejecutar su desinstalador asociado. Borrará todos los elementos en el sistema de archivos y en el registro que fueron rastreados durante la instalación.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>La eliminación de este producto puede provocar que algunas características de Windows u otros programas no funcionen correctamente.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>El borrado forzoso en masa es una característica avanzada y debería ser usada cuidadosamente. No ejecutará los desinstaladores asociados y sólo buscará los elementos restantes en el registro y en el sistema de archivos y los mostrará en una lista asociada que requiere una revisión precisa. El borrado más cabal y preciso es realizado para programas rastreados con el rastreador de instalación.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>Dependiente</msgForceRemovalItemDependent>
         <msgLearnMore>Saber más</msgLearnMore>

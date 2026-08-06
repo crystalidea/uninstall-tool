@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>Program %s je uspješno uklonjen.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Svi izabrani ostaci programa uspješno su uklonjeni.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Generiranje spiska tragova...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Spremi dnevnik deinstalacije</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Spremi detaljan dnevnik deinstalacije u datoteku</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Sistem datoteka (stavki: %d)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Sigurno hoćete provesti prisilno uklanjanje slijedećih programa?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Čišćenje tragova programa neće pokrenuti pridruženi program za deinstalaciju, već će samo izbrisati sve datoteke i registarske unose koji pripadaju programu. Ovu mogućnost treba koristiti samo za zastarjele ili netočne unose.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Prisili uklanjanje, izabrani program biti će brzo i točno uklonjen bez pokretanja pridruženog programa za deinstalaciju. On će obrisati sve sistemske i registarske stavke ostavljene za vrijeme instalacije.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Uklanjanje ovog proizvoda može uzrokovati da neke značajke sustava Windows ili drugi programi ne rade ispravno.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Skupno prisilno uklanjanje je dodatna značajka i treba ju pažljivo koristiti. Ona neće pozvati pridruženi deinstalator, nego će pregledati stavke sistema/registra i prikazati ih na skupnom spisku kojega treba pažljivo proučiti. Najtemeljitije i najtočnije uklanjanje se obavlja za programe čija se je instalacija nadgledala s "Nadgledanjem instalacije".</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>ovisnost</msgForceRemovalItemDependent>
         <msgLearnMore>Nauči više</msgLearnMore>

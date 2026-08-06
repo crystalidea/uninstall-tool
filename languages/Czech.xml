@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>Program %s byl úspěšně odstraněn.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>All selected leftovers have been successfully removed.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Vytvářím zoznam zapomenutých záznamů...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Uložit záznam odinstalace</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Uložit podrobný záznam odinstalace do souboru</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Souborový systém (záznamů: %d)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Are you sure you want to perform force removal of the following programs?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Násilné odstranění této položky seznamu nespustí asociovaný odinstalační program. Odstrání jenom všechny nalezené položky registru a souborového systému přislouchající tomuto programu. Měli by jste používat tuto funkci jenom na neplatné nebo poškozené položky seznamu.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Force removal of a traced program will perform ultra fast and thorough removal without running its associated uninstaller. It will erase all file system and registry items traced during installation.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Odebrání tohoto produktu může způsobit, že některé funkce systému Windows nebo jiné programy nebudou fungovat správně.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Batch Force Removal is an advanced feature and should be used carefuly. It will not run associated uninstallers and will only scan for leftover file system/registry items and display them in a merged list that requires a precise review. The most thorough and accurate removal is performed for programs traced with Install Tracker.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>dependent</msgForceRemovalItemDependent>
         <msgLearnMore>Learn more</msgLearnMore>

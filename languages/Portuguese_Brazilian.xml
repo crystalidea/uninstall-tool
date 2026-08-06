@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s foi removido com sucesso.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Todas os resíduos selecionados foram removidos com sucesso.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Gerando lista de vestígios...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Registro de remoção</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Criar arquivo de registro de remoção detalhado e abri-lo</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Salvar registro de desinstalação</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Salvar registro detalhado da desinstalação em um arquivo</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Exportar para XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Exportar resultados verificados para arquivo XML</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Sistema de Arquivos (%d itens)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Deseja realizar a remoção forçada dos seguintes programas?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Forçar a remoção deste item na lista não irá executar o desinstalador associado. Isto apenas apagará todos os itens do sistema de arquivos e chaves de registro pertencentes a esse programa. Use essa função apenas em entradas inválidas ou obsoletas.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Forçar a remoção de um programa rastreado irá realizar uma remoção ultra-rápida e completa sem executar o desinstalador associado. Isso irá apagar todos os itens do sistema de arquivo e registro rastreados durante a instalação.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>A remoção deste produto pode fazer com que alguns recursos do Windows ou outros programas parem de funcionar corretamente.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Forçar Remoção em Lote é um recurso avançado e deve ser usado com cuidado. Não será executados desinstaladores associados e sim procurar por resíduos de itens do sistema/registro e exibi-los em uma lista mesclada que exige uma precisa avaliação. A remoção mais completa e precisa é realizada por programas rastreados com o rastreador de instalação.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>dependente</msgForceRemovalItemDependent>
         <msgLearnMore>Saiba Mais</msgLearnMore>

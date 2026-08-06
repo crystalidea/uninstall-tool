@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>تم ازالته بنجاح %s.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>تم ازالة كل البقايا المختارة بنجاح</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>معالجة قائمــة المخلفات</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>ازالة السجل</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>انشاء ملف سجل ازالة مفصل وفتحه</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>حفظ سجل الإزالة</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>حفظ سجل مفصل للإزالة في ملف</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport> XML تصدير الى</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>XML تصدير نتائج المسح الى ملف </staticHyperlinkExportTooltip>
         <treeItemFileSystem>ملفات نظام (%d عناصر)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>هل انت تريد اجراء الازالة بقوة البرامج التالية؟</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>الحذف الاجباري سيقوم بازالة جميع مدخلات التسجيلات \nعليك باستخدام هذا الخيار في حال كان هناك اثار متبقية من البرنامج المزال.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>للازالة بقوة برنامج تتبع سوف تؤدي لازالة سريعة ودقيقة جدا دون تشغيل الغاء التثبيت المقترنة به. فانه سوف يمحو كل ملف التسجيل ونظام العناصر تتبع اثناء التثبيت.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>قد تؤدي إزالة هذا المنتج إلى عدم عمل بعض ميزات ويندوز أو برامج أخرى بشكل صحيح.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch> دفعة للازالة بقوة هذة ميزة متقدمة، وينبغي ان تستخدم بعناية. لن تشغيل الغاء التثبيتات المرتبطة بها وسوف تفحص فقط لملف بقايا النظام/مكتب التسجيل الأصناف وعرضها في قائمة مدمجة تتطلب استعراضا دقيقا. يتم ازالة الاكثر شمولية ودقيقة لبرامج تتبع مع تثبيت المقتفي</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>التابع</msgForceRemovalItemDependent>
         <msgLearnMore>تعلم اكثر</msgLearnMore>

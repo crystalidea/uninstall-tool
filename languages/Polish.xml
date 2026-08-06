@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s został pomyślnie usunięty.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Wszystkie zaznaczone pozostałości zostały usunięte.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Generuję listę pozostałości...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Dziennik usuwania</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Tworzy szczegółowy plik dziennika usuwania i otwiera go</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Zapisz dziennik usuwania</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Zapisuje szczegółowy dziennik usuwania do pliku</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Eksport do pliku XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Eksportuje wyniki skanowania do pliku XML</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Pliki systemowe (%d elementy(ów))</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Czy na pewno chcesz wykonać wymuszone usunięcie tych programów?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Wymuszone usunięcie nie uruchamia przypisanego programu odinstalowującego. Usunięte zostaną jedynie wszystkie znalezione pliki oraz wpisy w rejestrze przypisane do tego programu. Z tej funkcji powinno się korzystać jedynie przy przestarzałych lub błędnych wpisach na liście.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Wymuszone usunięcie monitorowanego programu przeprowadzi ultra szybkie skanowanie bez użycia wbudowanego w program monitorowany modułu do usuwania. Usunie wszystkie pliki i wpisy w rejestrze które zostały zapisane podczas monitorowanej instalacji.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Usunięcie tego produktu może spowodować nieprawidłowe działanie niektórych składników systemu Windows lub innego oprogramowania.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Wymuszone usuwanie wielu pozycji (programów) to zaawansowana funkcja z której powinno korzystać się ostrożnie. Nie zostaną uruchomione wbudowane w programy moduły do usuwania, natomiast zostanie przeprowadzone szczegółowe skanowanie w poszukiwaniu pozostałości plików i wpisów w rejestrze. Znalezione pliki/wpisy zostaną wyświetlone jako lista którą należy szczegółowo przejrzeć. Najbardziej gruntowne i dokładne usuwanie jest wykonywane dla programów które zostały zainstalowane za pomocą funkcji Install Tracker.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>zależny</msgForceRemovalItemDependent>
         <msgLearnMore>Dowiedz się więcej</msgLearnMore>

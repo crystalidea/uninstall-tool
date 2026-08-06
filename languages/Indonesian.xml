@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s telah berhasil dihapus dengan sukses.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Semua sisa berkas terpilih telah berhasil dihapus dengan sukses.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Membuat daftar jejak...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Catatan penghapusan</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Buat berkas catatan penghapusan mendetail lalu membukanya</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Simpan catatan penghapusan</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Simpan catatan penghapusan mendetail ke berkas</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Ekspor ke XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Ekspor hasil pindaian ke berkas XML</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Berkas sistem (%d item)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Apakah Anda yakin ingin melakukan hapus paksa program berikut?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Memaksa menghapus aplikasi tidak akan menjalankan penghapus bersangkutan, hal ini hanya akan menghapus semua berkas sistem dan item registri yang ditemukan milik program. Gunakan fungsi ini hanya untuk entri lama atau entri tidak benar.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Memaksa menghapus program tertelusuri akan melakukan penghapusan sangat cepat tanpa menjalankan penghapus bersangkutan. Hal ini akan menghapus semua berkas sistem dan item registri tertelusuri selama instalasi.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Menghapus produk ini dapat menyebabkan beberapa fitur Windows atau perangkat lunak lain tidak berfungsi dengan baik.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Batch hapus paksa adalah fitur lanjutan dan harus dipakai dengan hati-hati. Fitur ini tidak menjalankan penghapus bersangkutan dan hanya memindai sisa berkas sistem/item registri dan menampilkanya dalam daftar yang memerlukan perhatian khusus. Penghapussan yang paling tepat dan akurat adalah melakukan penelusuran program mengunakan Install Tracker.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>bersangkutan</msgForceRemovalItemDependent>
         <msgLearnMore>Pelajari lainnya</msgLearnMore>

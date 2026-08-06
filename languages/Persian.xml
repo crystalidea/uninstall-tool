@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s با موفقیت حذف شد.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>همه بقایای انتخاب شده با موفقیت حذف شد</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>تولید لیست ردها...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>حذف وقایع</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>ایجاد فایل حذف وقایع با جزئیات و بازکردن آن</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>ذخیره گزارش حذف</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>ذخیره گزارش مفصل حذف در یک فایل</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>خروجیگیری به ایکس اِم اِل</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>خروجیگیری نتایج اسکن به ایکس اِم اِل</staticHyperlinkExportTooltip>
         <treeItemFileSystem>فایل سیستم (%d مورد)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>آیا میخواهید حذف اجباری را برای برنامه های زیر اِجرا کنید؟</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>حذف اجباری برنامه با حذف کننده وابسته سازی شده اجرا نمیشود،آن فقط همه موارد فایل و ریجیستری متعلق به برنامه را حذف میکند.از این فقط باید در زمانی استفاده کنید که ورودی نامعتبر و غیر حقیقی دارد</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>حذف اجباری یک برنامه ضبط شده بطور فوق سریع و بطور کامل بدون حذف کننده خود برنامه اجرا خواهد شد.آن همه فایل سیستمی ها و موارد ریجیستری که حین ضبط نصب رخ داده را حذف خواهد کرد</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>حذف این محصول ممکن است باعث شود برخی قابلیت های ویندوز یا نرم افزارهای دیگر به درستی کار نکنند.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>ویژگی حذف اجباری گروهی یک ویژگی پیشرفته است که باید با احتیاط استفاده شود.آن حذف کننده وابسته سازی شده را اجرا نمیکند و فقط فایل سیستم/آیتم ریجیستری باقیمانده را اسکن میکند و آنها را در لیست ادغام شده که نیاز به بازبینی دقیق دارد نشان میدهد</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>وابسته</msgForceRemovalItemDependent>
         <msgLearnMore>بیشتر بدانید</msgLearnMore>

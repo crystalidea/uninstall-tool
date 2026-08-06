@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s wurde erfolgreich deinstalliert.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Alle ausgewählten Überreste wurden erfolgreich entfernt.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Protokoll wird generiert...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Deinstallationsprotokoll</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Detailliertes Deinstallationsprotokoll erstellen und öffnen</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Deinstallationsprotokoll speichern</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Detailliertes Deinstallationsprotokoll in einer Datei speichern</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Exportieren nach XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Ergebnisse in XML-Datei exportieren</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Dateisystem (%d Elemente)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Soll die Deinstallation der folgenden Anwendungen und deren Spuren wirklich erzwungen werden?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Bei der erzwungenen Deinstallation der Anwendung wird das zugehörige Deinstallationsprogramm nicht ausgeführt. Es werden nur alle gefundenen Dateien und Registrierungseinträge gelöscht, die zur Anwendung gehören. Diese Funktion sollte nur für veraltete oder ungültige Einträge verwendet werden.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Die erzwungene Deinstallation einer protokollierten Anwendung führt eine extrem schnelle und gründliche Deinstallation durch, ohne dass das zugehörige Deinstallationsprogramm ausgeführt wird. Sie löscht alle Dateien und Registrierungseinträge, die während der Installation protokolliert wurden.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Das Entfernen dieses Produkts kann dazu führen, dass einige Windows-Features oder andere Software nicht mehr richtig funktionieren.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Die erzwungene Deinstallation im Stapel ist eine erweiterte Funktion und sollte mit Bedacht eingesetzt werden. Sie führt keine zugehörigen Deinstallationsprogramme aus, sondern sucht nur nach übrig gebliebenen Dateien und Registrierungseinträgen. Diese werden in einer zusammengefassten Übersicht angezeigt, die eine genaue Überprüfung erfordert. Die gründlichste und genaueste Deinstallation wird für Anwendungen erzielt, die durch die Installationsprotokollierung aufgezeichnet wurden.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>Abhängigkeiten</msgForceRemovalItemDependent>
         <msgLearnMore>Mehr erfahren</msgLearnMore>

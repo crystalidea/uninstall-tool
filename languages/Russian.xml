@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.8.1" LangID="1049" Author="Denis Mikhailov">
+<LanguageStrings version="3.8.2" LangID="1049" Author="Denis Mikhailov">
     <MainMenu>
         <mnuFile>&amp;Файл</mnuFile>
         <mnuFileExport>&amp;Экспортировать список в HTML...</mnuFileExport>
@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>Программа %s успешно удалена с вашего компьютера</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Все выбранные элементы были удалены.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Генерирование списка элементов...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Лог удаления</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Создать и открыть файл с подробный логом выполнения всех операций удаления</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Сохранить лог удаления</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Сохранить подробный лог удаления в файл</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Экспортировать в XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Экспортировать результаты сканирования в файл XML</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Файловая система (%d элементов)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Вы действительно хотите произвести принудительное удаление следующих программ?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Принудительное удаление этой записи не приведет к запуску стандартной программы удаления, а только удалит все найденные элементы файловой системы и реестра, принадлежащие этой программе. Вы должны использовать эту функцию для устаревших или ошибочных записей.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Принудительное удаление отслеженной программы произведет очень быстрое и полное удаление программы без запуска стандартной программы удаления. Будет удалено всё, чтобы было найдено в ходе мониторинга установки.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Удаление этого продукта может привести к неправильной работе некоторых компонентов Windows или других программ.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Пакетное принудительное удаление - продвинутая функция, ей следует пользоваться с особой осторожностью. Стандартные программы удаления не запущены не будут, произойдет сканирование файловой системы и реестра, а найденное будет отображено в общем списке. Будьте крайне внимательны, проверьте этот список перед тем, как удалять. Наиболее точное и чистое удаление производится для программ, при установке которых использовался Монитор Установки ПО (функция 'Установить и Следить').</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>зависимая</msgForceRemovalItemDependent>
         <msgLearnMore>Узнать больше</msgLearnMore>

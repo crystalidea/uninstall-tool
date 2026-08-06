@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s ir veiksmīgi noņemts.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Visi atlasītie pārpalikumi ir veiksmīgi noņemts.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Radīt pēdas saraksts...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Saglabāt atinstalēšanas žurnālu</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Saglabāt detalizētu atinstalēšanas žurnālu failā</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Failu sistēmas (%d preces)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Vai tiešām vēlaties veikt spēku izvešanu no šīm programmām?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Spēks izņemšana no pieteikuma nedarbosies ar to saistīto atinstalētājs, tas būs tikai dzēst visu atrasto failu sistēmu un reģistru priekšmetus, kas pieder pie šīs programmas. Jums vajadzētu izmantot šo funkciju tikai novecojušu vai nederīgu ierakstu.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Spēku izvešana no izsekot programmu uzstāsies ultra ātru un pamatīgu noņemšanu bez gaitas ar to saistīto atinstalētājs. Tas izdzēsīs visus failu sistēmu un reģistru priekšmetus apvilkto instalēšanas laikā.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Šī produkta noņemšana var izraisīt to, ka daži Windows līdzekļi vai cita programmatūra nedarbojas pareizi.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Partijas grupa Pārcelšanās ir uzlabotas iezīme, un ir jāizmanto uzmanīgi. Tas nedarbosies saistītos uninstallers un būs tikai meklēt leftover failu sistēmas / reģistra posteņiem un parādīt tos apvienotā saraksta, kas prasa precīzu pārskatu. Visvairāk rūpīgu un precīzu noņemšana tiek veikta programmām izsekot ar Instalēt Tracker.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>dependent</msgForceRemovalItemDependent>
         <msgLearnMore>Uzzināt vairāk</msgLearnMore>

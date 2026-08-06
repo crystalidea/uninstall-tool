@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s הוסרו בהצלחה</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>כל השאריות שנבחרו הוסרו בהצלחה.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>יצירת רשימת עקבות...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>שמור יומן הסרה</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>שמור יומן הסרה מפורט לקובץ</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>מערכת קבצים (%d פריטים)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>האם אתה בטוח שברצונך לבצע הסרה בכוח של התוכנות הבאות?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>הסרה בכוח של היישום לא תפעיל את מנגנון הסרת ההתקנה שלו, הפעולה תמחק רק את כל פריטי הרישום וקבצי המערכת של התוכנית. עליך להשתמש באופן הסרה זה רק עבור רשומות מיושנות וחסרות תוקף.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>הסרה בכוח של תוכנה שבוצע עיקוב אחר התקנתה תבצע הסרה מהירה ויסודית של התוכנה מבלי להפעיל את תוכנת ההסרה העצמית שלו. תהליך זה ימחוק את כל קבצי התוכנה ופריטי הרגיסטרי שנרשמו במהלך המעקב אחר ההתקנה.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>הסרת מוצר זה עלולה לגרום לכך שחלק מהתכונות של Windows או תוכנות אחרות לא יפעלו כראוי.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>הסרה בכוח בשרשרת היא אופציה מתקדמת ונדרש להפעילה בזהירות רבה. בדרך זו לא יופעלו תוכנות ההסרה העצמיות של האפליקציות המוסרות אלא רק יסרק אחר שאריות פרטי קבצים ומפתחות רגיסטרי והם יוצגו ברשימה מעורבת הדורשת עיון רב. תהליך ההסרה והמדוייק ביותר יבוצע אך ורק על אפליקציות אשר הופעל לגביהן מלכתחילה תהליך של מעקב אחר ההתקנה.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>תלוי</msgForceRemovalItemDependent>
         <msgLearnMore>למד עוד</msgLearnMore>

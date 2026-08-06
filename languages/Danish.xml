@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s er succesfuldt blevet fjernet.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Alle valgte tilbageblevne emner er succesfuldt blevet fjernet.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Generérer spor liste...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Gem afinstallationslog</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Gem en detaljeret afinstallationslog i en fil</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Fil System (%d emner)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Er du sikker på at du vil udføre en tvungen fjernelse af de følgende programmer?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>En tvungen fjernelse af dette program vil ikke køre det's associérede afinstallérer, det vil kun slette alle de fundne system filer og register emner som tilhøre programmet. Bør kun bruges til ufuldstændige og ugyldige angivelser.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Tvungen fjernelse af et sporet program vil udføres utroligt hurtigt og hele vejen igennem fjernelse uden at køre det's associérede afinstallérer. Det vil slette alle system filer og register emner sporet under installationen.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Fjernelse af dette produkt kan medføre, at nogle Windows-funktioner eller anden software ikke fungerer korrekt.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Batch Tving Fjernelse er en avanceret feature og bør bruges med omtanke. Det vil ikke køre associérede afinstallerer og vil kun skanne for tilbageblevne system filer/register emner og vise dem i en indsat liste som kræver et præcist overblik. Den mest fuldstændige og præcise fjernelse udføres for programmer sporet med Installérings Sporer.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>afhængig</msgForceRemovalItemDependent>
         <msgLearnMore>Lær mere</msgLearnMore>

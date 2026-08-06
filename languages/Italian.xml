@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s è stato correttamente rimosso.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Tutti i residui selezionati sono stati correttamente rimossi.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Generazione elenco tracce...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Registro eventi rimozione</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Crea file registro eventi dettagliato e aprilo</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Salva registro di disinstallazione</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Salva un registro dettagliato della disinstallazione su file</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Esporta in XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Esporta risultati scansione in file XML</staticHyperlinkExportTooltip>
         <treeItemFileSystem>File system (%d elementi)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Sei sicuro di voler procedere alla rimozione forzata di questi programmi?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>La rimozione forzata non usa il disinstallatore associato al programma. Elimina soltanto tutti gli elementi relativi al programma rilevati nel registro e nel file system. Dovrebbe essere usata solo con elementi obsoleti o non validi.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>La rimozione di un programma tracciato verrà effettuata molto velocemente ed efficacemente senza usare il suo disinstallatore associato. Verranno eliminati tutti gli elementi del file system e del registro tracciati durante l'installazione.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>La rimozione di questo prodotto potrebbe causare il malfunzionamento di alcune funzionalità di Windows o di altri programmi.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>La rimozione forzata batch è una funzione avanzata da usare con attenzione. Non verranno usati i disinstallatori associati ma verrà effettuata una scansione alla ricerca di residui nel file system e nel registro, che verranno visualizzati in un elenco che dovrà essere attentamente esaminato. La rimozione più completa ed accurata viene effettuata sui programmi installati con 'Installa e traccia'.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>dipendente</msgForceRemovalItemDependent>
         <msgLearnMore>Altre informazioni</msgLearnMore>

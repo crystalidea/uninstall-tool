@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s-(ი) წაიშალა.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>All selected leftovers have been successfully removed.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>მიმდინარეობს ნარჩენი ელემენტების სიის შედგენა...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>წაშლის ჟურნალის შენახვა</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>დეტალური წაშლის ჟურნალის ფაილში შენახვა</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>ფაილური სისტემა (%d ელემენტი)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>ნამდვილად გინდათ შემდეგი პროგრამების იძულებითი წაშლა?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>იძულებითი დეინტალაცია არ გაუშვებს პროგრამის ჩაშენებულ დეინსტალატორს. იგი წაშლის მხოლოდ პროგრამის ფაილებს და რეესტრის ჩანაწერებს. ამ ფუნქციის გამოყენება სასურველია მხოლოდ იმ შემთხვევაში, თუ ჩანაწერი დაზიანებულია ან ძველია.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>დაკვირვებული პროგრამის იძულებითი დეინსტალაცია წარმართავს ძალიან სწრაფ და სრულ დეინსტალაციას ჩაშენებული დეინსტალატორის გაშვების გარეშე. მოიშლება ყველა ფაილური სისტემისა და რეესტრის ელემენტი, რომლებიც ნაპოვნი იქნა პროგრამის ინსტალაციის მონიტორინგის დროს.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>ამ პროდუქტის წაშლამ შეიძლება გამოიწვიოს Windows-ის ზოგიერთი ფუნქციის ან სხვა პროგრამების არასწორი მუშაობა.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>ერთდროული იძულებითი დეინსტალაცია არის დამატებითი შესაძლებლობა და გამოყენებულ უნდა იქნას ფრთხილად. ის არ გაუშვებს პროგრამების შესაბამის დეინსტალატორებს. მხოლოდ შეამოწმებს პროგრამის დარჩენილ ფაილებს/რეესტრის ჩანაწერებს და აჩვენებს მათ გაერთიანებულ სიაში, რომელიც მოითხოვს დაწვრილებით გადახედვას. ყველაზე სრული და ზუსტი წაშლა შესრულდება პროგრამებისთვის, რომლებიც დაინსტალირდნენ ინსტალაციის მონიტორით.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>დამოკიდებული</msgForceRemovalItemDependent>
         <msgLearnMore>მეტის გაგება</msgLearnMore>

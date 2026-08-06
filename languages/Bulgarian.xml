@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s беше премахната успешно.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Всички избрани остатъци бяха премахнати успешно.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Генериране на списък със следи...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Лог премахване</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Създай подробен файл лог премахване и го отвори</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Запази лога на премахването</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Запази подробен лог на премахването във файл</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Експорт в XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Експорт на резултатите от сканирането в XML файл</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Файлова система (%d елемента)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Наистина ли искате силово премахване на следните програми?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Силовото премахване на програмата няма да стартира свързания с нея деинсталатор, тя само ще изтрие всички намерени файлове в системата и регистъра, принадлежащи на програмата. Тази функция трябва да се използва само за остарели или невалидни записи.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Силовото премахване на проследена програма ще извърши ултра бързо и задълбочено отстраняване, без да стартира асоциирания деинсталатор. То ще изтрие всички елементи на файловата система и регистъра, проследени по време на инсталацията.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Премахването на този продукт може да доведе до неправилна работа на някои компоненти на Windows или на друг софтуер.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Пакетно силово премахване е усъвършенствана функция и трябва да се използва внимателно. Тя няма да стартира асоциирания деинсталатор, а ще сканира само за останали елементи във файлова система/регистър и щи ги покаже в обединен списък, който изисква прецизен преглед. Най-пълно и точно отстраняването се извършва за програми, проследени с Монитор инсталация.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>зависими</msgForceRemovalItemDependent>
         <msgLearnMore>Научете повече</msgLearnMore>

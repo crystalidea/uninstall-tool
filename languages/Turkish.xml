@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s başarılı bir şekilde kaldırıldı.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Tüm izler başarılı bir şekilde kaldırıldı.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>İzler listesi oluşturuluyor...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Kaldırma kaydı</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Detaylı kaldırma kaydı oluştur ve görüntüle</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Kaldırma günlüğünü kaydet</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Ayrıntılı kaldırma günlüğünü dosyaya kaydet</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>XML olarak ver</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Tarama sonucunu XML olarak ver</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Dosya Sistemi (%d madde)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Bu programları zorla kaldırmak istediğinize emin misiniz?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Zorla kaldırma yerleşik kaldırıcıyı kullanmaz, dosya ve kayıt defterindeki programla ilişkili maddeleri bulur. Bu özelliği, sadece kullanılmayan ve hatalı girdileri temizlemek için tercih edin.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>İzlenen programların zorla kaldırılması, çok hızlı ve kapsamlı bir şekilde ilişkili kaldırıcı kullanılmadan gerçekleşir. Böylece dosya/kayıt defteri izlerinin tümü silinir.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Bu ürünün kaldırılması, bazı Windows özelliklerinin veya diğer yazılımların düzgün çalışmamasına neden olabilir.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Yığın Zorla Kaldırma dikkatle kullanılması gereken gelişmiş bir özelliktir. Bu özellik ilişkili kaldırıcıları çalıştırmaz. Sadece kalıntı dosya/kayıt defteri izlerini tarayarak, titizlikle gözden geçirdikten sonra toplu listeler. Daha kapsamlı ve doğru kaldırma 'Kur ve İzle' ile gerçekleşir.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>ilişkili</msgForceRemovalItemDependent>
         <msgLearnMore>Daha Fazla Bilgi</msgLearnMore>

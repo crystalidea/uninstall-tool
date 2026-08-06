@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s이(가) 성공적으로 제거되었습니다.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>선택한 나머지 항목이 모두 제거되었습니다.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>흔적 목록을 생성하는 중</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>로그 제거</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>상세 제거 로그 파일 생성 및 열기</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>제거 로그 저장</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>상세 제거 로그를 파일로 저장</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>XML로 내보내기</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>검색 결과를 XML 파일로 내보냅니다.</staticHyperlinkExportTooltip>
         <treeItemFileSystem>파일 시스템 (%d개 항목)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>다음 프로그램의 강제 제거를 수행하시겠습니까?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>응용 프로그램을 강제로 제거하면 연결된 제거 프로그램이 실행되지 않고 프로그램에 속한 모든 파일 시스템 및 레지스트리 항목만 삭제됩니다. 이 기능은 사용되지 않거나 잘못된 항목에 대해서만 사용해야 합니다.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>추적된 프로그램을 강제로 제거하면 관련 제거 프로그램을 실행하지 않고도 매우 빠르고 철저하게 제거할 수 있습니다. 설치 중에 추적된 모든 파일 시스템 및 레지스트리 항목이 삭제됩니다.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>이 제품을 제거하면 일부 Windows 기능 또는 다른 소프트웨어가 제대로 작동하지 않을 수 있습니다.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>일괄 강제 제거는 고급 기능으로 신중하게 사용해야 합니다. 연결된 제거 프로그램을 실행하지 않고 남은 파일 시스템/레지스트리 항목만 검색하여 정확한 검토가 필요한 병합 목록에 표시합니다. 설치 추적기로 추적된 프로그램에 대해 가장 철저하고 정확한 제거를 수행합니다.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>종속성</msgForceRemovalItemDependent>
         <msgLearnMore>자세히</msgLearnMore>

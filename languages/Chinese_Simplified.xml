@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s 已被成功删除。</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>所有选中的残留痕迹已经被成功删除。</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>正在生成痕迹列表...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>清除日志</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>创建详细的清除日志文件并打开</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>保存卸载日志</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>将详细的卸载日志保存到文件</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>导出为 XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>导出扫描结果为 XML 文件</staticHyperlinkExportTooltip>
         <treeItemFileSystem>文件系统 (%d 个项目)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>您确认要对下列程序执行强制删除吗?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>强制删除该应用程序将不会运行其关联的卸载程序，这只会清除所有找到的属于该程序的文件和注册表项目。您应该只对废弃或无效的项目使用该功能。</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>强制删除已追踪的程序执行速度极快并会跳过其关联的卸载程序。 这会清除安装时追踪到的所有文件和注册表项目。</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>删除此产品可能导致某些 Windows 功能或其他软件无法正常工作。</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>批量强制删除是一项高级功能应慎重使用。它将不会运行关联的卸载程序而只会扫描残留的文件系统/注册表项目并将它们显示于一份需准确检查的汇总清单中。\n最彻底和准确的清除对使用安装追踪器追踪的程序有效。</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>相关</msgForceRemovalItemDependent>
         <msgLearnMore>了解更多</msgLearnMore>

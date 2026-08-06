@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s a été désinstallé avec succès.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Tous les restes sélectionnés ont été supprimés avec succès.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Génération de la liste des traces restantes...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Journal d'effacement</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Créer un fichier journal détailé et l'ouvrir</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Enregistrer le journal de désinstallation</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Enregistrer le journal détaillé de désinstallation dans un fichier</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Exporter en xml</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Exporter les résultats de scan dans un fichier xml</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Fichier système (%d éléments)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Êtes-vous sûr de forcer la désinstallation de ces programmes ?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>La suppression forcé n'est pas associée au désinstalleur. Il effacera seulement les fichiers et clef du registre appartenant à ce programme. Utiliser cette fonction seulement pour les entrées obsolètes ou sans fondement.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Forcer le retrait d'un programme tracé effectuera un retrait ultra rapide et approfondie sans utiliser le programme de désinstallation associé. Il efface tous les éléments du système de fichiers et du registre tracées lors de l'installation.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>La suppression de ce produit peut empêcher certaines fonctionnalités de Windows ou d'autres logiciels de fonctionner correctement.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Forcer le retrait par lot est une fonctionnalité avancée et devrait être utilisé avec précaution. La désinstallation associés ne fonctionnera pas et analysera uniquement les restes d'articles système de fichiers/registre et les affichera dans une liste fusionnée qui nécessite un examen précis. L'élimination la plus complète et précise est effectuée pour les programmes tracés avec Installez Tracker.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>Dépendence</msgForceRemovalItemDependent>
         <msgLearnMore>En apprendre plus</msgLearnMore>

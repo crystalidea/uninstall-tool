@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s je bil uspešno odstranjen.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Vsi izbrani ostanki so bili uspešno odstranjeni.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Ustvarjanje seznama sledi...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Dnevnik odstranitve</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Ustvarite podrobno datoteko dnevnika odstranitve in jo odprite</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Shrani dnevnik odstranitve</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Shrani podroben dnevnik odstranitve v datoteko</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Izvozi v XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Izvozite rezultate pregleda v datoteko XML</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Datotečni sistem (%d vnosov)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Ali ste prepričani, da želite prisilno odstraniti naslednje programe?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Prisilna odstranitev aplikacije ne bo zagnala povezanega programa za odstranitev, ampak bo le izbrisala vse najdene vnose datotečnega sistema in registra, ki pripadajo programu. To funkcijo uporabite samo za zastarele ali neveljavne vnose.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Prisilna odstranitev sledenega programa bo izvedla izjemno hitro in temeljito odstranitev brez zagona povezanega programa za odstranitev. Izbrisal bo vse vnose datotečnega sistema in registra, izsledene med namestitvijo.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Odstranitev tega izdelka lahko povzroči, da nekatere funkcije sistema Windows ali druga programska oprema ne delujejo pravilno.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Paketna prisilna odstranitev je napredna funkcija in jo je treba uporabljati previdno. Ne bo zagnala povezanih programov za odstranitev in bo samo pregledala ostanke vnosov datotečnega sistema/registra in jih prikazala na združenem seznamu, ki zahteva natančen pregled. Najbolj temeljita in natančna odstranitev programov se izvede, če so bili sledeni s Sledilnikom namestitve.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>odvisno</msgForceRemovalItemDependent>
         <msgLearnMore>Več o tem</msgLearnMore>

@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s bol úspešne odstránený.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Všetky vybrané pozostatky boli úspešne odstránené.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Vytváranie zoznamu pozostatkov programu…</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Záznam odstránenia</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Vytvoriť podrobný záznam odstránenia a otvoriť ho</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Uložiť záznam odstránenia</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Uložiť podrobný záznam odstránenia do súboru</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Exportovať do XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Exportovať výsledok vyhľadávania do XML súboru</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Systém súborov (súbory: %d)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Ste si istý, že chcete vykonať násilné odstránenie nasledujúcich programov?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Násilné odstránenie nespustí vlastný odinštalačný program. Iba odstráni všetky nájdené súbory a položky registra patriace tomuto programu. Túto funkciu by ste mali použiť iba pre zastarané alebo neplatné položky.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Násilné odstránenie sledovaného programu bude veľmi rýchle a bez spustenia asociovaného odinštalátora. Tým sa odstránia všetky systémové súbory a položky registra zaznamenané počas inštalácie.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Odstránenie tohto produktu môže spôsobiť, že niektoré funkcie systému Windows alebo iné programy nebudú fungovať správne.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Hromadné násilné odstránenie je pokročilá funkcia a mala by sa požívať opatrne. Asociovaný odinštalátor sa nespúšťa, ale vykoná sa iba vyhľadávanie pozostatkov systémových súborov/položiek registra a zobrazí ich v jednom zozname, ktorý si vyžaduje dôslednú kontrolu. Najdôkladnejšie a presné odstránenie je za pomoci sledovania cez Install Tracker.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>závislý</msgForceRemovalItemDependent>
         <msgLearnMore>Zistiť viac</msgLearnMore>

@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>A(z) %s sikeresen el lett távolítva.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Az összes kiválasztott szükségtelen fájl el lett távolítva.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Összetevők lista generálása...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Eltávolítási napló</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Részletes eltávolítási naplófájl létrehozása és megnyitása</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Eltávolítási napló mentése</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Részletes eltávolítási napló mentése fájlba</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Exportálás XML-be</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Vizsgálati eredmények exportálása XML-fájlba</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Fájlrendszer (%d elem)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Valóban végrehajtja a következő programok kényszerített eltávolítását?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>A lista bejegyzés kényszerített eltávolításához nem a társított eltávolító lesz használva. Ez csak a programhoz tartozó fájlrendszer és rendszerleíró elemeket fogja törölni. Ez a funkció csak a nem használt vagy érvénytelen lista bejegyzések törlésére használható.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>A felügyelt program kényszerített eltávolítója, ultra gyors és alapos eltávolítást hajt végre a társított eltávolító futtatása nélkül. Ez törli a telepítés során nyomon követett összes fájlt és rendszerleíró elemet.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>A termék eltávolítása azt okozhatja, hogy egyes Windows-szolgáltatások vagy más programok nem működnek megfelelően.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>A csoportos kényszerített eltávolító nagy körültekintést igénylő speciális funkció. Ez nem fogja futtatni a társított eltávolítókat illetve csak ellenőrzi a hátramaradt fájl rendszer/rendszerleíró elemeket és megjeleníti azokat egy összevont listában, amely precíz felülvizsgálatot igényel. A legalaposabb és legpontosabb eltávolító a programok nyomon követését a telepítésfelügyelővel végzi.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>függő</msgForceRemovalItemDependent>
         <msgLearnMore>További információk</msgLearnMore>

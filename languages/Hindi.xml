@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s का सफलतापूर्वक निकाल हुआ।</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>बचे हुए सभी सुराग सगलतापूर्वक निकाले गए हैं।</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>सुरागों की सूची बन रही है...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>अनइंस्टॉल लॉग सहेजें</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>विस्तृत अनइंस्टॉल लॉग फ़ाइल में सहेजें</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>फाइल सिस्टम (%d चीजें)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>क्या आप नीचे के सभी प्रोग्राम्स का बलपूर्वक निकाल करना चाहते है?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>प्रोग्राम का बलपूर्वक निकाल, प्रोग्राम के आंतरिक अनईन्स्टोलर को रन नहीं करेगा. वह प्रोग्राम के संबंधित मिली प्रत्येक फाइल सिस्टम तथा रजिस्ट्री चीजों को मिटा देगा. मात्र पूरानी तथा अवैध प्रविष्टिओं के निकाल के लिए ही इसे उपयोग में लाना चाहिएं।</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>प्रोग्राम का बलपूर्वक निकाल, प्रोग्राम के आंतरिक अनईन्स्टोलर को रन किए सिवा ही अत्यंत गती से तथा संपूर्ण निकाल का कार्य करेगा। इन्स्टाल के दरम्यान मिली प्रत्येक फाइल सिस्टम तथा रजिस्ट्री चीजों का निकाल करेगा।</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>इस उत्पाद को हटाने से Windows की कुछ सुविधाएँ या अन्य सॉफ़्टवेयर ठीक से काम करना बंद कर सकते हैं।</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>सामुहिक प्रोग्राम का बलपूर्वक निकाल, एक आधुनिक विशेषता है, तथा इसे ध्यानपूर्वक उपयोग में लाना चाहिएं। यह प्रोग्राम के आंतरिक अनईन्स्टोलर को रन नहीं करेगा, तथा प्रोग्राम के बची-खूची फाइल सिस्टम/रजिस्ट्री प्रविष्टि को ही ढूंढेगा तथा उन्हें एक संयुक्त यादी के स्वरूप में दिखाएगा, जिसे ध्यानपूर्वक देखना आवश्यक है। इन्स्टाल ट्रेकर से ट्रए किये गये प्रोग्राम का संपूर्ण तथा सही निकाल होता है।</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>आधारित</msgForceRemovalItemDependent>
         <msgLearnMore>अतिरिक्त जानकारी</msgLearnMore>

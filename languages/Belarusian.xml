@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s паспяхова выдалена з вашага кампутара</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Усе выбраныя рэшткі паспяхова выдалены.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Генераванне спісу элементаў...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Журнал выдалення</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Стварыць падрабязны файл журналу выдалення і адкрыць яго</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Захаваць журнал выдалення</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Захаваць падрабязны журнал выдалення ў файл</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Экспарт у XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Эскпарт рэзультатаў сканавання ў файл XML</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Файлавая сістэма (%d элементаў)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Сапраўды выканаць прымусовае выдаленне наступных праграм?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Прымусовае выдаленне гэтага запісу не прывядзе да запуску стандартнай праграмы выдалення. Яно толькі выдаліць усе элементы файлавай сістэмы і рэестру, прыналежныя гэтай праграме. Вы павінны выкарыстоўваць гэтую функцыю для састарэлых або памылковых запісаў.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Прымусовае выдаленне адсочанай праграмы супершыбка і поўна выдаліць праграму без запуску яе ўласнай праграмы выдалення. Будуць выдалены ўсе змены файлавай сістэмы і рэестра, адсочаныя падчас усталявання.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Выдаленне гэтага прадукта можа прывесці да няправільнай працы некаторых кампанентаў Windows або іншых праграм.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Групавое прымусовае выдаленне — пашыраная функцыя, таму ім трэба карыстацца акуратна. Асацыяваныя праграмы выдалення не запускаюцца, файлавая сістэма/рэестр скануецца на наяўнасць рэштак, якія адлюстроўваюцца ў аб'яднаным спісе, які патрабуе дакладнага прагляду. Найбольш поўнае і акуратнае выдаленне выконваецца для праграм, адсочаных з дапамогай трэкера ўсталявання.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>залежны</msgForceRemovalItemDependent>
         <msgLearnMore>Даведацца больш</msgLearnMore>

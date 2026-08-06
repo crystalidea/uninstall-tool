@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s 已成功移除。</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>所有所選的殘餘項目已成功移除。</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>產生遺留項目清單...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>移除記錄</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>建立詳細的移除記錄檔並開啟它</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>儲存解除安裝記錄</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>將詳細的解除安裝記錄儲存到檔案</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>匯出到 XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>將掃瞄結果匯出到 XML 檔</staticHyperlinkExportTooltip>
         <treeItemFileSystem>檔案系統(%d 個項目)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>您確定要執行下列程式的強制移除嗎?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>強制移除應用程式將不會執行其關聯的解除安裝程式，它將只會抹除所有找到屬於該程式的檔案系統和登錄項目。應該只使用該功能於已過時或無效的項目。</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>強制移除追蹤程式將執行超快速、徹底去除而不需執行其關聯的解除安裝程式。它將抹除安裝過程中所安裝的所有檔案系統和登錄項目。</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>移除此產品可能導致某些 Windows 功能或其他軟體無法正常運作。</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>批次強制移除是進階的功能，應小心使用。它將不會執行關聯的解除安裝程式以及將僅掃瞄殘留的檔案系統/登錄項目並在需要精確檢視的合併清單中顯示它們。使用安裝追蹤器對程式執行最完整、精確的移除。</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>依存</msgForceRemovalItemDependent>
         <msgLearnMore>了解更多</msgLearnMore>

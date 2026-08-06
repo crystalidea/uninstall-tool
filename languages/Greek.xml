@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>Το %s αφαιρέθηκε επιτυχώς.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Όλα τα επιλεγμένα κατάλοιπα αφαιρέθηκαν επιτυχώς.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Δημιουργία λίστας κατάλοιπων...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Αποθήκευση καταγραφής απεγκατάστασης</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Αποθήκευση λεπτομερούς καταγραφής απεγκατάστασης σε αρχείο</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Σύστημα Αρχείων (%d στοιχεία)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Σίγουρα θέλετε υποχρεωτική αφαίρεση των ακόλουθων προγραμμάτων;</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Στην υποχρεωτική αφαίρεση καταχωρήσεων δεν εκτελείται ο απεγκαταστάτης. Θα σβήσουν μόνο τα αρχεία μητρώου και συστήματος που ανήκουν σε αυτό το πρόγραμμα. Χρησιμοποιήστε αυτή τη λειτουργία μόνο σε παλιές ή άκυρες καταχωρήσεις.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Η υποχρεωτική αφαίρεση ενός επισημασμένου προγράμματος θα εκτελεστεί άμεσα με πλήρη αφαίρεση χωρίς τον απεγκαταστάτη. Σβήνει όλα τα αρχεία/στοιχεία συστήματος - μητρώου που ανιχνεύθηκαν στην εγκατάσταση.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Η κατάργηση αυτού του προϊόντος ενδέχεται να εμποδίσει τη σωστή λειτουργία ορισμένων δυνατοτήτων των Windows ή άλλων προγραμμάτων.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Η Μαζική Υποχρεωτική Αφαίρεση είναι προηγμένη δυνατότητα που πρέπει να εκτελείται με προσοχή. Δεν τρέχει τους σχετικούς απεγκαταστάτες και ανιχνεύει μόνο για κατάλοιπα αρχείων/στοιχείων και τα εμφανίζει σε κοινή λίστα προς επιλογή για αφαίρεση. Η πιό λεπτομερής και ακριβής αφαίρεση γίνεται στα προγράμματα που εγκαταστάθηκαν με ανίχνευση.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>εξαρτημένο</msgForceRemovalItemDependent>
         <msgLearnMore>Μάθετε περισσότερα</msgLearnMore>

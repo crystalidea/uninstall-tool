@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.8.1" LangID="1033" Author="CrystalIDEA Software Team">
+<LanguageStrings version="3.8.2" LangID="1033" Author="CrystalIDEA Software Team">
     <MainMenu>
         <mnuFile>&amp;File</mnuFile>
         <mnuFileExport>&amp;Export to HTML...</mnuFileExport>
@@ -226,8 +226,8 @@
         <staticScanStatusRemoved>%s has been successfully removed.</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>All selected leftovers have been successfully removed.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Generating traces list...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Save Uninstall Log</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Save detailed uninstall log to a file</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>File System (%d items)</treeItemFileSystem>
@@ -389,8 +389,9 @@
         <msgForceRemovalTitleBatch>Batch Force Removal</msgForceRemovalTitleBatch>
         <msgForceRemovalQuestion>Are you sure you want to perform force removal of this program?</msgForceRemovalQuestion>
         <msgForceRemovalQuestionBatch>Are you sure you want to perform force removal of the following programs?</msgForceRemovalQuestionBatch>
-        <msgForceRemovalDescription>Force removal of the application will not run its associated uninstaller, it will only erase all found file system and registry items belonging to the program. One should use this function only for obsolete or invalid entries.</msgForceRemovalDescription>
+        <msgForceRemovalDescription>Force removal will not run the program's own uninstaller; it will only erase the file system and registry items that belong to it. Use this only for obsolete or invalid entries.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>Force removal of a traced program will perform ultra fast and thorough removal without running its associated uninstaller. It will erase all file system and registry items traced during installation.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Removing this product may cause some Windows features or other software to not work properly.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Batch Force Removal is an advanced feature and should be used carefully. It will not run associated uninstallers and will only scan for leftover file system/registry items and display them in a merged list that requires a precise review. The most thorough and accurate removal is performed for programs traced with Install Tracker.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>dependent</msgForceRemovalItemDependent>
         <msgLearnMore>Learn more</msgLearnMore>
@@ -398,7 +399,7 @@
         <msgRemoveUninstallTool>Are you sure you want to remove Uninstall Tool from your computer?</msgRemoveUninstallTool>
         <msgRemoveEntryQuestion>Are you sure you want to remove this entry?</msgRemoveEntryQuestion>
         <msgRemoveEntryQuestionBatch>Are you sure you want to remove these entries?</msgRemoveEntryQuestionBatch>
-        <msgRemoveEntryDescription>This function will only remove an item from the list. No leftover registry or file system items will be deleted. One should use it only for obsolete or invalid list entries.</msgRemoveEntryDescription>
+        <msgRemoveEntryDescription>This function will only remove an item from the list. No leftover registry or file system items will be deleted. Use this only for obsolete or invalid list entries.</msgRemoveEntryDescription>
         <msgRemoveEntryFailed>Failed to delete the registry entry of this item. \nYou probably have no access to do it.</msgRemoveEntryFailed>
         <msgForceCancelWaiting>Are you sure you want to force cancel uninstallation of this program?</msgForceCancelWaiting>
         <msgForceCancelWaitingFooter>Force cancellation should be performed only when default uninstall program is freezed or you urgently need to stop all currently running uninstall processes. Correct cancellation should be done in program's default uninstaller because force cancellation may cause unpredictable effects.</msgForceCancelWaitingFooter>

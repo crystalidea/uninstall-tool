@@ -219,8 +219,8 @@
         <staticScanStatusRemoved>%s Uğurla silindi</staticScanStatusRemoved>
         <staticScanStatusRemovedBatch>Bütün seçilmiş elementlər silindi.</staticScanStatusRemovedBatch>
         <staticScanStatusGeneratingTracesList>Elementlər siyahısı yarat...</staticScanStatusGeneratingTracesList>
-        <staticHyperlinkRemovalLog>Removal log</staticHyperlinkRemovalLog>
-        <staticHyperlinkRemovalLogTooltip>Create detailed removal log file and open it</staticHyperlinkRemovalLogTooltip>
+        <staticHyperlinkRemovalLog>Silinmə jurnalını yadda saxla</staticHyperlinkRemovalLog>
+        <staticHyperlinkRemovalLogTooltip>Ətraflı silinmə jurnalını fayla yadda saxla</staticHyperlinkRemovalLogTooltip>
         <staticHyperlinkExport>Export to XML</staticHyperlinkExport>
         <staticHyperlinkExportTooltip>Export scan results to XML file</staticHyperlinkExportTooltip>
         <treeItemFileSystem>Fayl sistemi (%d element)</treeItemFileSystem>
@@ -371,6 +371,7 @@
         <msgForceRemovalQuestionBatch>Siz həqiqətən növbəti proqramların məcburi silinməsini istəyirsiniz?</msgForceRemovalQuestionBatch>
         <msgForceRemovalDescription>Bu qeydi sihayıdan silməklə, proqram sərt diskinizdən silinməyəcək. Bu funksiyanı ancaq istifadə olunmayan Reyestr qeydlərində istifadə etməlisiniz.</msgForceRemovalDescription>
         <msgForceRemovalDescriptionTraced>İzlənmiş proqramın məcburi silinməsi, proqramın standar silinməni işə salınmadanç proqramı çox sürətli və tam siləcək. Quraşdırma monitorinqində tapılan hər şey silinəcək.</msgForceRemovalDescriptionTraced>
+        <msgForceRemovalDescriptionWindowsComponent>Bu məhsulun silinməsi Windows-un bəzi funksiyalarının və ya digər proqramların düzgün işləməməsinə səbəb ola bilər.</msgForceRemovalDescriptionWindowsComponent>
         <msgForceRemovalDescriptionBatch>Kütləvi məcburi silinmə - irəliləmiş funksiyadır, onu xüsusi ehtiyatlılıqla istifadə etmək lazımdır. PRoqramların standart silinməsi işə salınmayacaq, fayl sistemi və reyestr skan olunacaq, və tapılmış ümumiyyətlə siyahı əks etdiriləcək. Son dərəcə diqqətli olun, təsdiqləməzdən əvvəl bu siyahını yoxlayın. Ən dəqiq və təmiz silinmə, 'Quraşdır və İzlə' funksiyasından istifadə edərək quraşdırılan proqramlar üçün mümkündür.</msgForceRemovalDescriptionBatch>
         <msgForceRemovalItemDependent>asılı</msgForceRemovalItemDependent>
         <msgLearnMore>Daha çox</msgLearnMore>
