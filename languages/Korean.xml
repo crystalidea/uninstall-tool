@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>기타 작업:</other_tasks>
         <install_service>추적 서비스 설치 ('설치 및 추적' 기능)</install_service>
-        <control_panel_icon_text>제어판에 Uninstall Tool 아이콘 추가</control_panel_icon_text>
         <installing_driver>커널 드라이버 설치 중...</installing_driver>
         <ut_initializing>Uninstall Tool 초기화 중...</ut_initializing>
         <pin_to_taskbar_text>작업 표시줄에 Uninstall Tool 아이콘 고정</pin_to_taskbar_text>

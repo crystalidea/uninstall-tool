@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Другие действия:</other_tasks>
         <install_service>Устанавливать сервис слежения за установкой программ (без него слежение за установкой программ будет недоступно)</install_service>
-        <control_panel_icon_text>Добавить значок Uninstall Tool в Панель управления Windows</control_panel_icon_text>
         <installing_driver>Установка драйвера режима ядра...</installing_driver>
         <ut_initializing>Инициализация приложения...</ut_initializing>
         <pin_to_taskbar_text>Закрепить Uninstall Tool на панели задач</pin_to_taskbar_text>

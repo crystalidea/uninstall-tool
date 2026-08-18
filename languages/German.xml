@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Weitere Aufgaben:</other_tasks>
         <install_service>Protokollierungs-Dienst installieren (Funktion 'Installieren und Protokollieren')</install_service>
-        <control_panel_icon_text>Symbol für das Uninstall Tool der Systemsteuerung hinzufügen</control_panel_icon_text>
         <installing_driver>Kernel-Treiber wird installiert...</installing_driver>
         <ut_initializing>Uninstall Tool wird initialisiert...</ut_initializing>
         <pin_to_taskbar_text>Uninstall Tool an die Taskleiste anheften</pin_to_taskbar_text>

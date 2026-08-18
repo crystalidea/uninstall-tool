@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Autres tâches:</other_tasks>
         <install_service>Installer le service de trace (Fonctionnalités 'Install and Trace')</install_service>
-        <control_panel_icon_text>Ajouter l'icône Uninstall Tool dans le Panneau de configuration</control_panel_icon_text>
         <installing_driver>Installation du pilote kernel...</installing_driver>
         <ut_initializing>Uninstall Tool est en cours d'initialisation...</ut_initializing>
         <pin_to_taskbar_text>Épingler l'icône de l'Uninstall Tool à la barre des tâches</pin_to_taskbar_text>

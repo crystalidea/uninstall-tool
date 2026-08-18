@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>مهام اخرى:</other_tasks>
         <install_service>(تثبيت خدمة التتبع (ميزة 'تثبيت وتتبع'</install_service>
-        <control_panel_icon_text>اضافة رمز اداة الغاء تثبيت لوحة التحكم</control_panel_icon_text>
         <installing_driver>تثبيت برنامج تشغيل النواة...</installing_driver>
         <ut_initializing>اداة الغاء التثبيت تتم تهيئتها...</ut_initializing>
         <pin_to_taskbar_text>تثبيت ايقونة اداة الغاء التثبيت في شريط المهام</pin_to_taskbar_text>

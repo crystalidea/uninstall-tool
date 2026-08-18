@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Otras tareas:</other_tasks>
         <install_service>Instalar servicio de rastreo (característica 'Instalar y rastrear')</install_service>
-        <control_panel_icon_text>Añadir icono de Uninstall Tool al Panel de Control</control_panel_icon_text>
         <installing_driver>Instalando controlador de kernel...</installing_driver>
         <ut_initializing>Uninstall Tool está inicializándose...</ut_initializing>
         <pin_to_taskbar_text>Anclar icono de Uninstall Tool a la barra de tareas</pin_to_taskbar_text>

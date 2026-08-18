@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>სხვა დავალებები:</other_tasks>
         <install_service>მონიტორის სერვისის ინსტალაცია ('დააყენე და დააკვირდი' ფუნქცია)</install_service>
-        <control_panel_icon_text>Uninstall Tool-ის ხატულის დამატება მართვის პანელში</control_panel_icon_text>
         <installing_driver>მიმდინარეობს kernel-ის დრაივერის ინსტალაცია...</installing_driver>
         <ut_initializing>Uninstall Tool-ის ინიციალიზაცია...</ut_initializing>
         <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>

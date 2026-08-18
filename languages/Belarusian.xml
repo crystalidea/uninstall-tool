@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Іншыя задачы:</other_tasks>
         <install_service>Усталяваць службу адсочвання (функцыя 'Усталяваць і сачыць')</install_service>
-        <control_panel_icon_text>Дадаць іконку Uninstall Tool на Панэль Кіравання</control_panel_icon_text>
         <installing_driver>Усталяванне драйвера ядра...</installing_driver>
         <ut_initializing>Ініцыялізацыя Uninstall Tool...</ut_initializing>
         <pin_to_taskbar_text>Прышпіліць іконку Uninstall Tool на панэль задач</pin_to_taskbar_text>

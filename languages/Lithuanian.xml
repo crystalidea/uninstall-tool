@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Kiti veiksmai:</other_tasks>
         <install_service>Install tracing service ('Install and Trace' feature)</install_service>
-        <control_panel_icon_text>Pridėti Uninstall Tool piktogramą Valdymo skyde</control_panel_icon_text>
         <installing_driver>Diegti branduolio tvarkykles (drivers)...</installing_driver>
         <ut_initializing>Uninstall Tool pradeda darbą...</ut_initializing>
         <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>

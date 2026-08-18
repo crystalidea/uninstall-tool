@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Muud tegevused:</other_tasks>
         <install_service>Install tracing service ('Install and Trace' feature)</install_service>
-        <control_panel_icon_text>Lisa Uninstall Tool ikoon juhtpaneelile</control_panel_icon_text>
         <installing_driver>Paigalda kerneli ajur...</installing_driver>
         <ut_initializing>Uninstall Tool on initsialiseerimisel...</ut_initializing>
         <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>

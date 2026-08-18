@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>अन्य कार्य:</other_tasks>
         <install_service>ट्रेसिंग सर्विस इन्स्टोल करें (ईन्स्टोल तथा ट्रेस विशेषता)</install_service>
-        <control_panel_icon_text>अनईन्स्टोल टूल का आइकन कंट्रोल पेनल में जोडें</control_panel_icon_text>
         <installing_driver>कर्नेल ड्राइवर इन्स्टोल हो रहा है...</installing_driver>
         <ut_initializing>अनईन्स्टोल टूल शुरु हो रहा है...</ut_initializing>
         <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>

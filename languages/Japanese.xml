@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>その他のタスク:</other_tasks>
         <install_service>トレース サービス ('インストールとトレース' 機能) のインストール</install_service>
-        <control_panel_icon_text>コントロール パネルに Uninstall Tool のアイコンを追加する</control_panel_icon_text>
         <installing_driver>カーネル ドライバーをインストールしています...</installing_driver>
         <ut_initializing>Uninstall Tool は初期化中です...</ut_initializing>
         <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>

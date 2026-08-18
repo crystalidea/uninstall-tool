@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Altri processi:</other_tasks>
         <install_service>Installa servizio tracciamento (funzione 'Installa e traccia')</install_service>
-        <control_panel_icon_text>Aggiungi icona di 'Uninstall Tool' al 'Pannello di Controllo'</control_panel_icon_text>
         <installing_driver>Installazione driver kernel...</installing_driver>
         <ut_initializing>Inizializzazione di 'Uninstall Tool'...</ut_initializing>
         <pin_to_taskbar_text>Icona di 'Uninstall tool' nella barra di sistema</pin_to_taskbar_text>

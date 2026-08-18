@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Other Tasks:</other_tasks>
         <install_service>Install tracing service ('Install and Trace' feature)</install_service>
-        <control_panel_icon_text>Add Uninstall Tool icon to Control Panel</control_panel_icon_text>
         <installing_driver>Installing kernel driver...</installing_driver>
         <ut_initializing>Uninstall Tool is initializing...</ut_initializing>
         <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>

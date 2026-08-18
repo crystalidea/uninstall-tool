@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>其他任务:</other_tasks>
         <install_service>安装追踪服务 ('安装并追踪' 功能)</install_service>
-        <control_panel_icon_text>添加 Uninstall Tool 图标到控制面板</control_panel_icon_text>
         <installing_driver>正在安装内核驱动...</installing_driver>
         <ut_initializing>Uninstall Tool 正在初始化...</ut_initializing>
         <pin_to_taskbar_text>将 Uninstall Tool 图标固定到任务栏</pin_to_taskbar_text>

@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Άλλες Εργασίες:</other_tasks>
         <install_service>Εγκατάσταση υπηρεσίας ανίχνευσης ('Και δυνατοτήτων Ανίχνευσης')</install_service>
-        <control_panel_icon_text>Πρόσθεση Uninstall Tool σε Πίνακα Ελέγχου</control_panel_icon_text>
         <installing_driver>Εγκατάσταση οδηγών πυρήνα...</installing_driver>
         <ut_initializing>Αρχικοποίηση Uninstall Tool...</ut_initializing>
         <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>

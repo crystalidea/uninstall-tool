@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>其它工作:</other_tasks>
         <install_service>安裝追蹤服務(「安裝並追蹤」功能)</install_service>
-        <control_panel_icon_text>將 Uninstall Tool 圖示加入到控制台</control_panel_icon_text>
         <installing_driver>正在安裝核心驅動程式...</installing_driver>
         <ut_initializing>Uninstall Tool 正在初始化...</ut_initializing>
         <pin_to_taskbar_text>將 Uninstall Tool 圖示釘選到工作列</pin_to_taskbar_text>

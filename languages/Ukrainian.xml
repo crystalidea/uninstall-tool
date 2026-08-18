@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Інші завдання:</other_tasks>
         <install_service>Установити службу відстеження (функція "Встановити та відстежити")</install_service>
-        <control_panel_icon_text>Додати значок Uninstall Tool до Панелі Керування</control_panel_icon_text>
         <installing_driver>Встановлення драйвера режиму ядра...</installing_driver>
         <ut_initializing>Ініціалізація Uninstall Tool...</ut_initializing>
         <pin_to_taskbar_text>Закріпити значок Uninstall Tool в панелі завдань</pin_to_taskbar_text>

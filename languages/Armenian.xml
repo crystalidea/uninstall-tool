@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Այլ գործեր.</other_tasks>
         <install_service>Տեղադրման հետագծման ծառայություն ('Տեղադրել և հետևել' յուրահատկություն)</install_service>
-        <control_panel_icon_text>Ավելացնել Uninstall Tool-ի պատկերը Control Panel-ում</control_panel_icon_text>
         <installing_driver>Տեղադրում է kernel սարքավարը...</installing_driver>
         <ut_initializing>Uninstall Tool-ը տեղորոշվում է...</ut_initializing>
         <pin_to_taskbar_text>Ամրացնել Uninstall Tool-ի պատկերակը խնդրագոտիում</pin_to_taskbar_text>

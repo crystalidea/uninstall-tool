@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>سایر وظایف:</other_tasks>
         <install_service>نصب سرویس ضبطگر (نصب و ضبط ویژگی ها)</install_service>
-        <control_panel_icon_text>افزودن آیکون برنامه به کنترل پنل</control_panel_icon_text>
         <installing_driver>نصب هسته درایور...</installing_driver>
         <ut_initializing>برنامه در حال راه اندازی هست...</ut_initializing>
         <pin_to_taskbar_text>افزودن آیکون برنامه به نوار وظیفه</pin_to_taskbar_text>

@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Andere Taken:</other_tasks>
         <install_service>Installeer Monitor service ('Install and Trace' feature)</install_service>
-        <control_panel_icon_text>Voeg Uninstall Tool icon toe in Configuratiescherm</control_panel_icon_text>
         <installing_driver>Kernel driver wordt geïnstalleerd...</installing_driver>
         <ut_initializing>Uninstall Tool wordt geïnitializeerd...</ut_initializing>
         <pin_to_taskbar_text>Pin Uninstall Tool-pictogram op de taakbalk</pin_to_taskbar_text>

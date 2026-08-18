@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Egyéb feladatok:</other_tasks>
         <install_service>Telepítésfelügyeleti szolgáltatás ('Telepítés és felügyelet' funkció)</install_service>
-        <control_panel_icon_text>Uninstall Tool ikon hozzáadása a Vezérlőpulthoz</control_panel_icon_text>
         <installing_driver>Kernel-illesztőprogram telepítése...</installing_driver>
         <ut_initializing>Az Uninstall Tool előkészítése...</ut_initializing>
         <pin_to_taskbar_text>Uninstall Tool ikon rögzítése a tálcán</pin_to_taskbar_text>

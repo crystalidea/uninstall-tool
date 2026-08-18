@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Ďalšie úlohy:</other_tasks>
         <install_service>Inštalácia sledovacej služby (funkcia 'Inštalovať a zaznamenať')</install_service>
-        <control_panel_icon_text>Pridať ikonu programu Uninstall Tool do Ovládacieho panela</control_panel_icon_text>
         <installing_driver>Inštalácia ovládač jadra…</installing_driver>
         <ut_initializing>Uninstall Tool sa inicializuje…</ut_initializing>
         <pin_to_taskbar_text>Pripnúť ikonu Uninstall Tool na panel úloh</pin_to_taskbar_text>

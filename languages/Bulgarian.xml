@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Други задачи:</other_tasks>
         <install_service>Инсталиране на услугата за проследяване ('Инсталиране и проследяване' функция)</install_service>
-        <control_panel_icon_text>Добави иконата на Uninstall Tool в Контролен панел</control_panel_icon_text>
         <installing_driver>Инсталиране драйвер на ядрото...</installing_driver>
         <ut_initializing>Uninstall Tool е инициализиран...</ut_initializing>
         <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>

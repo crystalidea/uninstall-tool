@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Nhiệm vụ khác:</other_tasks>
         <install_service>Cài đặt dịch vụ theo dõi </install_service>
-        <control_panel_icon_text>Thêm biểu tượng Uninstall Tool trong Control Panel</control_panel_icon_text>
         <installing_driver>Đang cài đặt nhân trình điều khiển ...</installing_driver>
         <ut_initializing>Uninstall Tool được khởi tạo...</ut_initializing>
         <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>

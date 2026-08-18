@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Andre Opgaver:</other_tasks>
         <install_service>Installér sporings servicen ('Installér og Spor' feature)</install_service>
-        <control_panel_icon_text>Tilføj et Uninstall Tool ikon i Kontrol Panelet</control_panel_icon_text>
         <installing_driver>Installérer kernel driver...</installing_driver>
         <ut_initializing>Uninstall Tool initialisére...</ut_initializing>
         <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>

@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Tugas lain:</other_tasks>
         <install_service>Pasang layanan penelusur (fitur 'Pasang dan Telusuri')</install_service>
-        <control_panel_icon_text>Tambah ikon Uninstall Tool di Panel Kontrol</control_panel_icon_text>
         <installing_driver>Memasang kernel driver...</installing_driver>
         <ut_initializing>Memulai Uninstall Tool...</ut_initializing>
         <pin_to_taskbar_text>Semat ikon Uninstall Tool ke taskbar</pin_to_taskbar_text>

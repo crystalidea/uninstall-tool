@@ -474,7 +474,6 @@
     <Setup>
         <other_tasks>Други задаци:</other_tasks>
         <install_service>Инсталирај услугу надгледања (могућност надгледања инсталације)</install_service>
-        <control_panel_icon_text>Додај Uninstall Tool на Контролну таблу</control_panel_icon_text>
         <installing_driver>Инсталација управљачког уређаја...</installing_driver>
         <ut_initializing>Uninstall Tool се покреће...</ut_initializing>
         <pin_to_taskbar_text>Pin Uninstall Tool icon to the taskbar</pin_to_taskbar_text>
