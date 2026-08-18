@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Uninstall Tool'u etkinleştirdiğiniz için teşekkür ederiz!</msgRegSuccess>
         <msgRegFailed>Girdiğiniz kayıt adı veya kayıt kodu geçerli değil. \n\nLütfen her ikisini de kayıt e-postanızdaki gibi birebir girdiğinizden emin olun.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Lisansınız program klasöründeki 'license.dat' dosyasına kaydedildi. Böylece programı nereye taşırsanız taşıyın, lisansınız da onunla birlikte gelir.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Bu lisans tek bir bilgisayarda kullanılabilir.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Bu lisans %d bilgisayarda kullanılabilir.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Portable lisansınız Uninstall Tool'un Portable sürümü için geçerlidir. Kurulum gerektirmeyen bu sürüm, USB bellek dahil dilediğiniz klasörden çalışır. Lisansı yalnızca siz kullandığınız sürece, programı dilediğiniz sayıda bilgisayarda çalıştırabilirsiniz.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Portable sürümü indirin</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Bu anahtarla Portable sürüm etkinleştirilemez</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Portable sürüm için ayrı bir Portable lisans anahtarı gerekir. Bu lisans sayesinde tek bir kişi, kurulum yapmadan Uninstall Tool'u dilediği sayıda bilgisayarda kullanabilir. Girdiğiniz anahtar ise standart bir lisansa aittir; yalnızca bilgisayara kurulan Uninstall Tool ile çalışır.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Lisans seçeneklerine göz atın</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Yeni sürüm (%s) mevcut</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Güncel sürüm: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Yenilikler :</msgNewVersionAvailableWhatsNew>

@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Շնորհակալություն Uninstall Tool-ը գրանցելու համար։</msgRegSuccess>
         <msgRegFailed>Մուտքագրված գրանցվողի անունը կամ գրանցման բանալին վավեր չէ։ \n\nԽնդրում ենք համոզվել, որ երկուսն էլ մուտքագրված են ճիշտ այնպես, ինչպես Ձեզ ուղարկված գրանցման էլ. նամակում։</msgRegFailed>
+        <msgRegSuccessPortableSaved>Ձեր արտոնագիրը պահվել է ծրագրի պանակի 'license.dat' ֆայլում, ուստի այն ամենուր կտեղափոխվի պանակի հետ միասին։</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Այս արտոնագիրը կարող է օգտագործվել միայն մեկ համակարգչում։</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Այս արտոնագիրը կարող է օգտագործվել %d համակարգչում։</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Ձեր Դյուրակիր արտոնագիրը նախատեսված է Uninstall Tool-ի դյուրակիր տարբերակի համար, որը տեղադրում չի պահանջում և աշխատում է ցանկացած պանակից, այդ թվում՝ USB կրիչից։ Այդպիսի արտոնագրով մեկ օգտվող կարող է օգտագործել ծրագիրը ցանկացած թվով համակարգչում։</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Ներբեռնել դյուրակիր տարբերակը</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Այս բանալիով հնարավոր չէ գրանցել դյուրակիր տարբերակը</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Դյուրակիր տարբերակը գրանցվում է միայն Դյուրակիր արտոնագրի բանալիով, որը թույլ է տալիս մեկ օգտվողին օգտագործել Uninstall Tool-ը ցանկացած թվով համակարգչում՝ առանց տեղադրման։ Դուք մուտքագրել եք սովորական արտոնագրի բանալի, որը նախատեսված է համակարգչում տեղադրված Uninstall Tool-ի համար։</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Դիտել արտոնագրերի տեսակները</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Հասանելի է %s նոր տարբերակը:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Ընթացիկ տարբերակ՝ %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Ի՞նչն է նոր.</msgNewVersionAvailableWhatsNew>

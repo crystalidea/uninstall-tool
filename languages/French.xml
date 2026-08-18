@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Merci d'avoir enregistré Uninstall Tool !</msgRegSuccess>
         <msgRegFailed>Le nom ou la clé d'enregistrement que vous avez entrés ne sont pas valides. \n\nVeuillez vérifier que ces deux informations correspondent exactement à celles figurant dans votre e-mail d'enregistrement.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Votre licence a été enregistrée dans le fichier 'license.dat', situé dans le dossier du programme. Elle accompagne ainsi Uninstall Tool partout où vous l'emportez.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Cette licence est valable pour un seul ordinateur.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Cette licence est valable pour %d ordinateurs.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Votre licence Portable est destinée à la version portable d'Uninstall Tool : celle-ci ne nécessite aucune installation et s'exécute depuis n'importe quel dossier, y compris sur une clé USB. Une même personne peut l'utiliser sur un nombre illimité d'ordinateurs.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Télécharger la version portable</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Cette clé ne permet pas d'activer la version portable</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>La version portable ne s'active qu'avec une clé de licence Portable. Ce type de licence permet à une même personne d'utiliser Uninstall Tool sur un nombre illimité d'ordinateurs, sans aucune installation. La clé que vous avez entrée correspond à une licence standard, valable pour la version installée d'Uninstall Tool.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Voir les types de licence</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Une nouvelle version %s est disponible.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Version actuelle: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Quoi de neuf :</msgNewVersionAvailableWhatsNew>

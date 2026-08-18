@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Tak fordi du aktivérede Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>Det Registrérings Navn el. den Kode du har indtastet er ikke korrekt. \n\nSikr dig venligst at begge dele er indtastet præcis som i din registrérings email.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Din licens er gemt i filen 'license.dat' i programmappen, så den altid følger med programmet.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Denne licens gælder for én computer.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Denne licens gælder for %d computere.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Din licens er beregnet til den bærbare version af Uninstall Tool, som ikke kræver installation og kan køres fra en hvilken som helst mappe, også fra et USB-stik. Licensen giver én person ret til at bruge programmet på et ubegrænset antal computere.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Hent den bærbare version</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Denne nøgle kan ikke aktivere den bærbare version</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Den bærbare version kræver sin egen licensnøgle, som giver én person ret til at bruge Uninstall Tool på et ubegrænset antal computere, helt uden installation. Den nøgle, du har indtastet, er en almindelig licens, der gælder for den installerede version af programmet.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Se licensmuligheder</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Ny version %s er tilgængelig</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Nuværende version: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Hvad er Nyt:</msgNewVersionAvailableWhatsNew>

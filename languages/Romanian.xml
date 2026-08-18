@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Vă mulţumim că aţi activat Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>Numele sau cheia de înregistrare pe care le-aţi introdus nu sunt valide. \n\nAsiguraţi-vă că ambele sunt introduse exact aşa cum apar în e-mailul de înregistrare.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Licența dumneavoastră a fost salvată în fișierul license.dat din directorul programului, așa că însoțește programul oriunde îl mutați.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Această licență poate fi folosită pe un singur calculator.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Această licență poate fi folosită pe mai multe calculatoare (%d la număr).</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Licența dumneavoastră Portable este destinată versiunii Portable a programului Uninstall Tool: aceasta nu necesită instalare și rulează din orice director, inclusiv de pe un stick USB. Poate fi folosită de o singură persoană, însă pe oricâte calculatoare.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Descărcați versiunea Portable</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Această cheie nu poate activa versiunea Portable</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Versiunea Portable are nevoie de o cheie de înregistrare Portable: aceasta îi permite unei singure persoane să folosească Uninstall Tool pe oricâte calculatoare, fără să fie necesară instalarea. Cheia pe care ați introdus-o corespunde unei licențe standard, valabile pentru Uninstall Tool instalat pe calculator.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Vedeți tipurile de licență</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Versiune %s disponibilă:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Current version: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>What's New:</msgNewVersionAvailableWhatsNew>

@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Dank U voor het activeren van Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>De ingevoerde registratie naam of registratie code is niet geldig. \n\nControleer a.u.b. of beide gegevens precies zijn ingevoerd zoals vermeld in de registratie e-mail.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Uw licentie is opgeslagen als 'license.dat' in de programmamap en gaat zo altijd met het programma mee.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Deze licentie mag op één computer worden gebruikt.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Deze licentie mag op %d computers worden gebruikt.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Uw Portable licentie is bedoeld voor de Portable versie van Uninstall Tool: die hoeft niet geïnstalleerd te worden en draait vanuit elke map, ook vanaf een USB-stick. Één persoon mag deze licentie op een onbeperkt aantal computers gebruiken.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Portable versie downloaden</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Met deze code kunt U de Portable versie niet activeren</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Voor de Portable versie is een aparte Portable licentiecode nodig: daarmee mag één persoon Uninstall Tool op een onbeperkt aantal computers gebruiken, zonder installatie. De code die U hebt ingevoerd hoort bij een standaardlicentie en werkt alleen met de geïnstalleerde versie van Uninstall Tool.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Licentieopties bekijken</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Er is een nieuwe versie %s beschikbaar</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Huidige versie: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Wat is nieuw:</msgNewVersionAvailableWhatsNew>

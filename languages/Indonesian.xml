@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Terima kasih telah mengaktifkan Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>Nama pendaftar atau kunci pendaftaran yang Anda masukkan tidak valid. \n\nSilahkan pastikan keduanya dimasukkan persis sama seperti pada e-mail pendaftaran Anda.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Lisensi Anda telah disimpan ke berkas 'license.dat' di folder program, sehingga selalu ikut ke mana pun program dibawa.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Lisensi ini dapat digunakan pada satu komputer saja.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Lisensi ini dapat digunakan pada %d komputer.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Lisensi Portable Anda ditujukan untuk versi portable Uninstall Tool, yaitu versi yang tidak perlu dipasang dan dapat dijalankan dari folder mana pun, termasuk dari flashdisk. Satu orang dapat menggunakannya pada komputer mana saja, tanpa batasan jumlah.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Unduh versi portable</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Kunci ini tidak dapat mengaktifkan versi portable</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Versi portable memerlukan kunci lisensi Portable tersendiri. Dengan lisensi tersebut, satu orang dapat menggunakan Uninstall Tool pada komputer mana saja tanpa batasan jumlah dan tanpa perlu memasangnya. Kunci yang Anda masukkan adalah lisensi standar dan hanya berlaku untuk Uninstall Tool yang terpasang di komputer.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Lihat pilihan lisensi</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Versi baru program %s telah tersedia</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Versi sekarang: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Apa yang baru:</msgNewVersionAvailableWhatsNew>

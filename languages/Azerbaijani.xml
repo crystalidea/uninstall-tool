@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Uninstall Tool-u aktivləşdirdiyiniz üçün təşəkkür edirik!</msgRegSuccess>
         <msgRegFailed>Daxil etdiyiniz qeydiyyat adı və ya qeydiyyat kodu düzgün deyil. \n\nZəhmət olmasa hər ikisinin qeydiyyat məktubundakı kimi dəqiq yazıldığından əmin olun.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Lisenziyanız proqramın qovluğundakı 'license.dat' faylında saxlanıldı. Beləliklə, proqramı hara aparsanız, lisenziya da onunla birlikdə gedəcək.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Bu lisenziya yalnız bir kompüterdə istifadə oluna bilər.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Bu lisenziya %d kompüterdə istifadə oluna bilər.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Portable lisenziyanız Uninstall Tool-un Portable versiyası üçün nəzərdə tutulub. Bu versiya quraşdırma tələb etmir və istənilən qovluqdan, hətta USB diskdən də işləyir. Bu lisenziya ilə bir istifadəçi proqramdan istənilən sayda kompüterdə istifadə edə bilər.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Portable versiyanı yüklə</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Bu açarla Portable versiyanı aktivləşdirmək mümkün deyil</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Portable versiya üçün ayrıca Portable lisenziya açarı lazımdır. O, bir istifadəçiyə Uninstall Tool-dan istənilən sayda kompüterdə quraşdırma olmadan istifadə etməyə imkan verir. Daxil etdiyiniz açar isə standart lisenziya açarıdır və kompüterə quraşdırılmış Uninstall Tool üçün nəzərdə tutulub.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Lisenziya variantlarına bax</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Yeni versiya %s mövcuddur.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Haızrki versiya: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Nələr yenidir:</msgNewVersionAvailableWhatsNew>

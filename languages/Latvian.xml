@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Paldies, ka aktivizējāt Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>Reģistrētāja vārds vai reģistrēšanas atslēga ir ievadīta nepareizi. \n\nLūdzu, pārliecinieties, ka abi ir ievadīti tieši tāpat, kā norādīts reģistrācijas e-pastā.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Licence ir saglabāta programmas mapē failā 'license.dat', tāpēc tā vienmēr pārvietojas kopā ar programmu.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Šī licence ir paredzēta vienam datoram.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Šī licence ir paredzēta vairākiem datoriem. Atļautais skaits: %d.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Jūsu licence ir paredzēta Uninstall Tool portatīvajai versijai, kas nav jāinstalē un darbojas no jebkuras mapes, arī no USB zibatmiņas. Viens lietotājs to var izmantot neierobežotā datoru skaitā.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Lejupielādēt portatīvo versiju</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Ar šo atslēgu nevar aktivizēt portatīvo versiju</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Portatīvajai versijai ir vajadzīga sava atslēga — portatīvās versijas licence. Tā ļauj vienam lietotājam izmantot Uninstall Tool neierobežotā datoru skaitā, turklāt nekas nav jāinstalē. Jūsu ievadītā atslēga ir parasta licence: tā ir paredzēta datorā instalētai programmas versijai.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Apskatīt licenču veidus</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Jaunā versija %s ir pieejams:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Pašreizējā versija: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Kas jauns:</msgNewVersionAvailableWhatsNew>

@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>از اینکه برنامه را فعال کردید متشکریم!</msgRegSuccess>
         <msgRegFailed>نام ثبت نام یا کلید ثبت نامی که وارد کرده اید معتبر نیست. \n\nلطفا مطمئن شوید که هر دو را دقیقا همانطور که در ایمیل ثبت نام آمده وارد کرده اید.</msgRegFailed>
+        <msgRegSuccessPortableSaved>مجوز شما در فایل license.dat در پوشه برنامه ذخیره شد و هر جا برنامه را ببرید، همراه آن میماند.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>این مجوز فقط روی یک رایانه قابل استفاده است.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>این مجوز روی %d رایانه قابل استفاده است.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>مجوز پرتابل شما مخصوص نسخه پرتابل Uninstall Tool است: این نسخه نیازی به نصب ندارد و از هر پوشه دلخواه، حتی از روی درایو USB، اجرا میشود. یک نفر میتواند از این مجوز روی هر تعداد رایانه استفاده کند.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>دانلود نسخه پرتابل</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>این کلید نسخه پرتابل را فعال نمیکند</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>نسخه پرتابل به کلید مجوز مخصوص خودش نیاز دارد: با مجوز پرتابل، یک نفر میتواند بدون نیاز به نصب، روی هر تعداد رایانه از Uninstall Tool استفاده کند. کلیدی که وارد کردید یک مجوز معمولی است و با نسخه نصبی Uninstall Tool کار میکند.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>مشاهده انواع مجوز</msgRegNotForPortableLink>
         <msgNewVersionAvailable>نسخه جدید %s موجود است</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>نسخه فعلی: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>تغییرات:</msgNewVersionAvailableWhatsNew>

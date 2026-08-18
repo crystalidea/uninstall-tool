@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Tack för att du har aktiverat Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>Namnet eller produktnyckeln som du har angett är inte giltig.\n\nKontrollera att du har angett båda exakt som de står i ditt registreringsmejl.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Din licens har sparats i filen 'license.dat' i programkatalogen, så den följer med programmet vart du än flyttar det.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Licensen gäller för en dator.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Licensen gäller för %d datorer.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Din Portable-licens är avsedd för Portable-versionen av Uninstall Tool, som inte behöver installeras utan kan köras från vilken mapp som helst – även från ett USB-minne. En och samma person får använda licensen på hur många datorer som helst.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Ladda ner Portable-versionen</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Produktnyckeln gäller inte för Portable-versionen</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Portable-versionen kräver en egen Portable-licens. Med den får en och samma person använda Uninstall Tool på hur många datorer som helst, helt utan installation. Nyckeln du har angett är en vanlig produktnyckel, som gäller för Uninstall Tool installerat på en dator.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Visa licensalternativ</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Ny version (%s) finns tillgänglig.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Current version: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>What's New:</msgNewVersionAvailableWhatsNew>

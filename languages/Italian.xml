@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Grazie per aver attivato Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>Il nome o il codice inseriti non sono validi. \n\nAssicurati che entrambi corrispondano esattamente a quelli riportati nell'email di registrazione.</msgRegFailed>
+        <msgRegSuccessPortableSaved>La tua licenza è stata salvata nella cartella del programma, nel file 'license.dat': così resta sempre insieme a Uninstall Tool, ovunque tu lo porti.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Questa licenza può essere usata su un solo computer.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Questa licenza può essere usata su %d computer.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>La tua licenza Portatile è pensata per la versione portatile di Uninstall Tool, che non richiede installazione e si avvia da qualsiasi cartella, anche da una chiavetta USB. Può essere usata da una sola persona su un numero illimitato di computer.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Scarica la versione portatile</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Questo codice non può attivare la versione portatile</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>La versione portatile richiede un apposito codice licenza Portatile, che permette a una sola persona di usare Uninstall Tool su un numero illimitato di computer, senza doverlo installare. Il codice che hai inserito corrisponde invece a una licenza standard, valida per Uninstall Tool installato su un solo computer.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Scopri i tipi di licenza</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Nuova versione %s disponibile.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Versione attuale: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Novità:</msgNewVersionAvailableWhatsNew>

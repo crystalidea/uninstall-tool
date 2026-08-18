@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Хвала вам што сте активирали Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>Име или кључ који сте унели није исправан. \n\nПроверите да ли сте оба податка унели тачно онако како стоје у е-поруци коју сте добили приликом регистрације.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Ваша лиценца је сачувана у датотеци 'license.dat' у фасцикли програма, тако да остаје уз њега куда год да га понесете.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Ову лиценцу можете користити на једном рачунару.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Број рачунара на којима можете користити ову лиценцу: %d.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Ваша Portable лиценца намењена је Portable верзији програма Uninstall Tool, која не захтева инсталацију и покреће се из било које фасцикле, па и са USB меморије. Лиценцу може да користи само једна особа, али на неограниченом броју рачунара.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Преузмите Portable верзију</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Овим кључем није могуће активирати Portable верзију</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>За Portable верзију потребан је посебан Portable кључ. Он омогућава да једна особа користи Uninstall Tool на неограниченом броју рачунара, и то без инсталације. Кључ који сте унели припада стандардној лиценци, која важи за верзију инсталирану на рачунару.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Погледајте врсте лиценци</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Нова верзија %s је доступна</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Тренутна верзија: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Новине:</msgNewVersionAvailableWhatsNew>

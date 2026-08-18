@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Hvala vam što ste aktivirali Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>Uneseno ime ili ključ nije ispravan. \n\nProvjerite jesu li ime i ključ upisani točno onako kako stoje u e-poruci koju ste dobili pri registraciji.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Vaša licenca spremljena je u datoteku 'license.dat' u mapi programa, pa on ostaje aktiviran kamo god ga ponesete.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Ova licenca vrijedi za jedno računalo.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Ova licenca vrijedi za %d računala.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Vaša Portabl licenca namijenjena je portabl inačici programa Uninstall Tool i vrijedi za neograničen broj računala, ali samo za jednu osobu. Ta se inačica ne instalira, nego se pokreće iz bilo koje mape, pa i s USB memorije.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Preuzmite portabl inačicu</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Ovaj ključ ne vrijedi za portabl inačicu</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Za portabl inačicu potreban je poseban ključ Portabl licence: s njim jedna osoba može koristiti Uninstall Tool na neograničenom broju računala, i to bez ikakve instalacije. Ključ koji ste unijeli pripada standardnoj licenci i vrijedi za Uninstall Tool instaliran na računalu.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Pogledajte vrste licenci</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Nova inačica %s je dostupna</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Trenutna inačica: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Novine:</msgNewVersionAvailableWhatsNew>

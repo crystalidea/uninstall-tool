@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>感谢您激活 Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>您输入的注册名称或注册密钥无效。 \n\n请确认两者与您注册邮件中的内容完全一致。</msgRegFailed>
+        <msgRegSuccessPortableSaved>您的许可证已保存在程序所在文件夹的 'license.dat' 文件中，可随程序一起携带。</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>此许可证仅可在一台电脑上使用。</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>此许可证可在 %d 台电脑上使用。</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>您的便携版许可证适用于 Uninstall Tool 便携版。该版本无需安装，可放在任意文件夹 (包括 U 盘) 中直接运行。同一位用户可在多台电脑上使用，不限台数。</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>下载便携版</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>此密钥无法激活便携版</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>便携版需要专用的许可证密钥。这类许可证允许同一位用户无需安装即可在多台电脑上使用 Uninstall Tool，不限台数。您输入的是标准许可证密钥，它只能用于安装版的 Uninstall Tool。</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>查看授权方案</msgRegNotForPortableLink>
         <msgNewVersionAvailable>新版本 %s 可用</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>当前版本: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>更新信息:</msgNewVersionAvailableWhatsNew>

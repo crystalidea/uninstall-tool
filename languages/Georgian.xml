@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>გმადლობთ Uninstall Tool-ის რეგისტრაციისთვის!</msgRegSuccess>
         <msgRegFailed>თქვენ მიერ შეყვანილი სახელი ან სარეგისტრაციო კოდი არასწორია. \n\nდარწმუნდით, რომ ორივე ზუსტად ისეა შეყვანილი, როგორც სარეგისტრაციო e-mail-შია მითითებული.</msgRegFailed>
+        <msgRegSuccessPortableSaved>თქვენი ლიცენზია შენახულია პროგრამის საქაღალდეში, 'license.dat' ფაილში, ამიტომ ის ყოველთვის თან გაჰყვება პროგრამას.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>ამ ლიცენზიის გამოყენება შესაძლებელია მხოლოდ ერთ კომპიუტერზე.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>ამ ლიცენზიის გამოყენება შესაძლებელია %d კომპიუტერზე.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>თქვენი პორტატული ლიცენზია განკუთვნილია Uninstall Tool-ის პორტატული ვერსიისთვის: ეს ვერსია არ საჭიროებს ინსტალაციას და ეშვება ნებისმიერი საქაღალდიდან, მათ შორის USB მეხსიერებიდანაც. ერთ მომხმარებელს შეუძლია მისი გამოყენება ნებისმიერი რაოდენობის კომპიუტერზე.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>პორტატული ვერსიის გადმოწერა</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>ამ კოდით პორტატული ვერსიის რეგისტრაცია შეუძლებელია</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>პორტატულ ვერსიას ცალკე პორტატული ლიცენზიის კოდი სჭირდება: ის ერთ მომხმარებელს საშუალებას აძლევს, Uninstall Tool-ი ინსტალაციის გარეშე ნებისმიერი რაოდენობის კომპიუტერზე გამოიყენოს. თქვენ მიერ შეყვანილი კოდი ჩვეულებრივი ლიცენზიისაა და კომპიუტერზე დაინსტალირებული Uninstall Tool-ისთვის გამოდგება.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>ლიცენზიის ვარიანტების ნახვა</msgRegNotForPortableLink>
         <msgNewVersionAvailable>ხელმისაწვდომია %s-ის ახალი ვერსია:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>მიმდინარე ვერსია: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>რა არის ახალი:</msgNewVersionAvailableWhatsNew>

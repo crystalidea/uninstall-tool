@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Uninstall Tool을 활성화해 주셔서 감사합니다!</msgRegSuccess>
         <msgRegFailed>입력하신 등록 이름 또는 등록 키가 올바르지 않습니다. \n\n두 항목 모두 등록 이메일에 있는 그대로 입력하셨는지 확인하세요.</msgRegFailed>
+        <msgRegSuccessPortableSaved>라이선스가 프로그램 폴더의 'license.dat' 파일에 저장되었습니다. 폴더를 통째로 옮기면 라이선스도 함께 이동합니다.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>이 라이선스는 컴퓨터 한 대에서만 사용할 수 있습니다.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>이 라이선스는 컴퓨터 %d대에서 사용할 수 있습니다.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>입력하신 키는 Uninstall Tool 포터블 버전용 라이선스 키입니다. 포터블 버전은 설치할 필요 없이 어느 폴더에서나, USB 드라이브에서도 바로 실행할 수 있으며, 한 사람이 컴퓨터 대수에 제한 없이 사용할 수 있습니다.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>포터블 버전 다운로드</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>이 키로는 포터블 버전을 활성화할 수 없습니다</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>포터블 버전에는 별도의 포터블 라이선스 키가 필요합니다. 포터블 라이선스가 있으면 한 사람이 프로그램을 설치하지 않고도 컴퓨터 대수에 제한 없이 Uninstall Tool을 사용할 수 있습니다. 입력하신 키는 일반 라이선스 키로, 컴퓨터에 설치한 Uninstall Tool에서 사용할 수 있습니다.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>라이선스 종류 보기</msgRegNotForPortableLink>
         <msgNewVersionAvailable>새 버전 %s을(를) 사용할 수 있습니다</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>현재 버전: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>새로운 기능:</msgNewVersionAvailableWhatsNew>

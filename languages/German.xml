@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Vielen Dank für die Aktivierung von Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>Der eingegebene Name oder Lizenzschlüssel ist ungültig. \n\nBitte überprüfen, ob beide Angaben genau so eingegeben wurden, wie sie in der Registrierungs-E-Mail stehen.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Die Lizenz wurde in der Datei 'license.dat' im Programmordner gespeichert und bleibt damit immer beim Programm.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Diese Lizenz gilt für einen Computer.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Diese Lizenz gilt für %d Computer.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Die eingegebene Portable-Lizenz ist für die Portable Version von Uninstall Tool bestimmt. Diese benötigt keine Installation und lässt sich aus jedem Ordner starten, auch von einem USB-Stick. Die Lizenz darf von einer Person auf beliebig vielen Computern verwendet werden.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Portable Version herunterladen</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Dieser Lizenzschlüssel gilt nicht für die Portable Version</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Für die Portable Version wird ein eigener Portable-Lizenzschlüssel benötigt. Damit darf eine Person das Uninstall Tool ohne Installation auf beliebig vielen Computern nutzen. Der eingegebene Schlüssel gehört zu einer Standardlizenz und gilt für die installierte Version von Uninstall Tool.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Lizenzoptionen anzeigen</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Neue Version %s ist verfügbar</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Aktuelle Version: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Versionshinweise:</msgNewVersionAvailableWhatsNew>

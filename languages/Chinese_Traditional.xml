@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>感謝您啟用 Uninstall Tool！</msgRegSuccess>
         <msgRegFailed>您輸入的註冊名稱或註冊碼無效。\n\n請確認兩者皆與您的註冊電子郵件中的內容完全相同。</msgRegFailed>
+        <msgRegSuccessPortableSaved>您的授權已儲存至程式所在資料夾中的 'license.dat' 檔案，可隨程式一起帶著走。</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>此授權可用於一台電腦。</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>此授權可用於 %d 台電腦。</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>您的可攜式授權適用於 Uninstall Tool 的可攜式版本，此版本免安裝，可從任何資料夾(包括 USB 隨身碟)直接執行。同一位使用者可在多台電腦上使用，不限台數。</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>下載可攜式版本</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>此金鑰無法啟用可攜式版本</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>可攜式版本必須使用專屬的可攜式授權金鑰。這種授權可讓同一位使用者無須安裝，就能在多台電腦上使用 Uninstall Tool，不限台數。您輸入的是標準授權金鑰，只適用於安裝在電腦上的 Uninstall Tool。</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>查看授權方案</msgRegNotForPortableLink>
         <msgNewVersionAvailable>有新版本 %s 可用</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>目前版本: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>最新動向:</msgNewVersionAvailableWhatsNew>

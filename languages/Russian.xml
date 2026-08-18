@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Спасибо за регистрацию Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>Регистрационное имя или ключ введены неверно. \n\nПожалуйста, убедитесь, что и имя, и ключ введены в точности так, как указано в письме, присланном после регистрации.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Ваша лицензия сохранена в файл 'license.dat' в папке программы и переносится вместе с ней.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Эту лицензию можно использовать только на одном компьютере.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Количество компьютеров, на которых можно использовать эту лицензию: %d.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Ваша портативная лицензия предназначена для портативной версии Uninstall Tool, которая не требует установки и запускается из любой папки, в том числе с USB-накопителя. По такой лицензии один человек может пользоваться программой на неограниченном числе компьютеров.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Скачать портативную версию</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Этот ключ не подходит для портативной версии</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Портативная версия не требует установки, и зарегистрировать её можно только ключом портативной лицензии: по такой лицензии один человек может пользоваться Uninstall Tool на неограниченном числе компьютеров. Вы ввели ключ обычной лицензии — он подходит только для Uninstall Tool, установленной на компьютере.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Посмотреть варианты лицензий</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Доступна новая версия %s</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Текущая версия: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Что нового:</msgNewVersionAvailableWhatsNew>

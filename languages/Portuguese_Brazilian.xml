@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Obrigado por ativar o Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>O nome de registro ou a chave de registro informados não são válidos.\n\nVerifique se ambos foram digitados exatamente como aparecem no seu e-mail de registro.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Sua licença foi salva no arquivo 'license.dat', dentro da pasta do programa, e acompanha o Uninstall Tool para onde ele for.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Esta licença pode ser usada em um único computador.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Esta licença pode ser usada em %d computadores.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Sua licença Portátil é destinada à versão portátil do Uninstall Tool, que dispensa instalação e roda a partir de qualquer pasta, inclusive de um pen drive. Uma mesma pessoa pode usá-la em quantos computadores quiser.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Baixar a versão portátil</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Esta chave não ativa a versão portátil</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>A versão portátil exige uma chave de licença Portátil: com ela, uma mesma pessoa pode usar o Uninstall Tool em quantos computadores quiser, sem precisar instalar nada. A chave que você informou é de uma licença comum, válida para a versão instalada do Uninstall Tool.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Ver opções de licenciamento</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Nova versão %s está disponível.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Versão Atual: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>O que há de novo:</msgNewVersionAvailableWhatsNew>

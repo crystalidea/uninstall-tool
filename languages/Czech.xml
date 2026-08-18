@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Děkujeme za aktivaci programu Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>Zadané jméno nebo registrační kód není platný. \n\nZkontrolujte prosím, zda jste oba údaje zadali přesně tak, jak jsou uvedeny ve vašem registračním e-mailu.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Licence byla uložena do souboru 'license.dat' ve složce programu, takže ji máte k dispozici všude, kam program přenesete.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Tuto licenci lze používat na jednom počítači.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Tuto licenci lze používat na %d počítačích.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Vaše licence Portable je určena pro verzi Portable programu Uninstall Tool, která nevyžaduje instalaci a spouští se z libovolné složky, například z USB disku. S touto licencí může jeden uživatel program používat na libovolném počtu počítačů.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Stáhnout verzi Portable</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Tímto kódem nelze aktivovat verzi Portable</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Verze Portable vyžaduje vlastní kód licence Portable. S touto licencí může jeden uživatel používat Uninstall Tool na libovolném počtu počítačů, a to bez instalace. Kód, který jste zadali, patří ke standardní licenci a platí pro Uninstall Tool nainstalovaný v počítači.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Zobrazit typy licencí</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Je dostupná nová verze %s:</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Aktuální verze: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Co je nového:</msgNewVersionAvailableWhatsNew>

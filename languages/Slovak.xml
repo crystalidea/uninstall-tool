@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Ďakujeme Vám za aktiváciu programu Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>Registračné údaje, ktoré ste zadali, nie sú platné. \n\nSkontrolujte, prosím, či ste meno aj registračný kód zadali presne tak, ako sú uvedené vo Vašom registračnom e-maile.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Vaša licencia bola uložená do súboru 'license.dat' v priečinku programu, takže ju máte k dispozícii všade, kam program premiestnite.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Túto licenciu môžete používať na jednom počítači.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Túto licenciu môžete používať na %d počítačoch.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Vaša Portable licencia je určená pre Portable verziu Uninstall Tool, ktorá nevyžaduje inštaláciu a spúšťa sa z ľubovoľného priečinka, aj z USB kľúča. Táto licencia je viazaná na jednu osobu, nie na počítač, takže ju môžete používať na ľubovoľnom počte počítačov.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Stiahnuť Portable verziu</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Týmto kľúčom nemožno aktivovať Portable verziu</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Portable verzia vyžaduje vlastný kľúč pre Portable licenciu. Tá je viazaná na jednu osobu, nie na počítač, a umožňuje používať Uninstall Tool na ľubovoľnom počte počítačov, a to bez inštalácie. Kľúč, ktorý ste zadali, patrí k štandardnej licencii a platí pre nainštalovanú verziu Uninstall Tool.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Zobraziť možnosti licencií</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Je dostupná nová verzia %s</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Aktuálna verzia: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Čo je nové:</msgNewVersionAvailableWhatsNew>

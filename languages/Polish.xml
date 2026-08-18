@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Dziękujemy za aktywację programu Uninstall Tool!</msgRegSuccess>
         <msgRegFailed>Podana nazwa użytkownika lub klucz rejestracyjny jest nieprawidłowy. \n\nProszę sprawdzić, czy oba zostały wpisane dokładnie tak jak w wiadomości e-mail z potwierdzeniem rejestracji.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Licencja została zapisana w pliku 'license.dat' w folderze aplikacji, dzięki czemu możesz ją przenosić razem z programem.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Ta licencja pozwala korzystać z programu na jednym komputerze.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Ta licencja pozwala korzystać z programu na %d komputerach.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Ta licencja jest przeznaczona dla wersji Portable programu Uninstall Tool. Wersja Portable nie wymaga instalacji i działa z dowolnego folderu, także z pendrive'a. Jedna osoba może używać takiej licencji na dowolnej liczbie komputerów.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Pobierz wersję Portable</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Ten klucz nie aktywuje wersji Portable</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Wersję Portable aktywuje wyłącznie klucz licencji Portable. Taka licencja pozwala jednej osobie korzystać z programu Uninstall Tool na dowolnej liczbie komputerów, bez instalowania go w systemie. Podany klucz to zwykła licencja, przeznaczona dla wersji instalowanej na komputerze.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Zobacz dostępne licencje</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Dostępna jest nowa wersja %s.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Aktualna wersja: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Co nowego:</msgNewVersionAvailableWhatsNew>

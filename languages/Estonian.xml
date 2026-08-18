@@ -410,6 +410,14 @@
         <!-- other messages -->
         <msgRegSuccess>Täname, et aktiveerisid Uninstall Tool-i!</msgRegSuccess>
         <msgRegFailed>Sisestatud registreerimisnimi või registreerimisvõti ei ole kehtiv. \n\nPalun veendu, et mõlemad on sisestatud täpselt nii, nagu need on sinu registreerimise e-mailis.</msgRegFailed>
+        <msgRegSuccessPortableSaved>Sinu litsents salvestati programmi kausta faili 'license.dat', nii et see käib programmiga kaasas.</msgRegSuccessPortableSaved>
+        <msgRegSuccessOneComputer>Seda litsentsi tohib kasutada ühes arvutis.</msgRegSuccessOneComputer>
+        <msgRegSuccessManyComputers>Seda litsentsi tohib kasutada %d arvutis.</msgRegSuccessManyComputers>
+        <msgRegPortableLicenseText>Sinu Portable-litsents on mõeldud Uninstall Tool-i Portable-versioonile: see ei vaja paigaldamist ja käivitub ükskõik millisest kaustast, ka mälupulgalt. Litsentsi tohib kasutada üks inimene, kuid arvutite arv ei ole piiratud.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseLink>Laadi alla Portable-versioon</msgRegPortableLicenseLink>
+        <msgRegNotForPortableTitle>Selle võtmega ei saa Portable-versiooni aktiveerida</msgRegNotForPortableTitle>
+        <msgRegNotForPortableText>Portable-versiooni jaoks on vaja eraldi Portable-litsentsi võtit: sellega tohib üks inimene kasutada Uninstall Tool-i ilma paigaldamata ja arvutite arv ei ole piiratud. Sisestatud võti on tavaline litsents, mis sobib arvutisse paigaldatud Uninstall Tool-i jaoks.</msgRegNotForPortableText>
+        <msgRegNotForPortableLink>Vaata litsentsivalikuid</msgRegNotForPortableLink>
         <msgNewVersionAvailable>Uus versioon %s on saadaval.</msgNewVersionAvailable>
         <msgNewVersionAvailableCurrentVersion>Käesolev versioon: %s</msgNewVersionAvailableCurrentVersion>
         <msgNewVersionAvailableWhatsNew>Mi's on uut:</msgNewVersionAvailableWhatsNew>
