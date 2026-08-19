@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.5" LangID="1028,3076,5124,4100" Author="Danfong">
+<LanguageStrings version="3.8.2" LangID="1028,3076,5124" Author="Danfong">
     <MainMenu>
         <mnuFile>檔案(&amp;F)</mnuFile>
         <mnuFileExport>匯出成 HTML(&amp;E)...</mnuFileExport>
@@ -66,10 +66,10 @@
         <sourceHKLMRunOnce>HKLM RunOnce</sourceHKLMRunOnce>
         <sourceHKCURun>HKCU Run</sourceHKCURun>
         <sourceHKCURunOnce>HKCU RunOnce</sourceHKCURunOnce>
-        <sourceStartMenuAll>StartMenu All</sourceStartMenuAll>
-        <sourceStartMenuCU>StartMenu CU</sourceStartMenuCU>
+        <sourceStartMenuAll>開始功能表(所有使用者)</sourceStartMenuAll>
+        <sourceStartMenuCU>開始功能表(目前使用者)</sourceStartMenuCU>
         <sourceWindowsTask>Windows 工作</sourceWindowsTask>
-        <sourceWindowsStoreTask>Microsoft Store App</sourceWindowsStoreTask>
+        <sourceWindowsStoreTask>Microsoft Store 應用程式</sourceWindowsStoreTask>
         <staticNoProgramsInCategory>沒有程式在 '%s' 類別中</staticNoProgramsInCategory>
         <staticNoStartupItems>Windows 啟動時沒有程式自動執行</staticNoStartupItems>
         <staticNoStartupItemsTip>您可以手動 &lt;a&gt;加入一個新的程式&lt;/a&gt;</staticNoStartupItemsTip>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>所有使用者自動執行開始功能表</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>目前使用者自動執行開始功能表</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>登入時已排程的 Windows 工作</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store 應用程式的啟動工作</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>加入新的啟動程式</DlgAddNewStartupProgramCaption>
@@ -163,13 +163,13 @@
         <DlgPreferencesCaption>喜好設定</DlgPreferencesCaption>
         <!-- general -->
         <categoryGeneral>一般</categoryGeneral>
-        <checkSkipUAC>Use Windows Task Scheduler to bypass User Account Control confirmation dialog (when necessary)</checkSkipUAC>
+        <checkSkipUAC>使用 Windows 工作排程器略過使用者帳戶控制的確認對話方塊(必要時)</checkSkipUAC>
         <checkSkipUACHelpText>Activating this option allows to bypass UAC confirmation when launching Uninstall Tool ("Do you want to allow this app to make changes to your device?"). The option can be quite useful when Uninstall Tool is launched often.\n\nWhen turned on, Uninstall Tool creates a Windows Task Scheduler elevated task which is executed every time you'd like to run the app. \n\nApplies to Windows Vista and higher when UAC is turned on.</checkSkipUACHelpText>
         <checkCheckForUpdates>程式啟動時檢查更新</checkCheckForUpdates>
         <checkCheckForBetaVersions>以及檢查 beta 版本</checkCheckForBetaVersions>
         <staticInterfaceLanguage>介面語言:</staticInterfaceLanguage>
         <checkControlPanelIcon>在控制台顯示 Uninstall Tool 圖示</checkControlPanelIcon>
-        <checkShellExtension>Add 'Install and Trace' command for setup files (exe/msi) to the Windows Explorer context menu</checkShellExtension>
+        <checkShellExtension>在檔案總管的右鍵選單中，為安裝檔(exe/msi)加入「安裝並追蹤」命令</checkShellExtension>
         <checkTotalCommander>使用 Total Commander 操作程式目錄(若已安裝)</checkTotalCommander>
         <!-- interface -->
         <categoryInterface>介面</categoryInterface>
@@ -178,9 +178,9 @@
         <checkSmallIcons>小型圖示</checkSmallIcons>
         <checkMark32bitApps>標示 32 位元應用程式</checkMark32bitApps>
         <frameColorScheme>色彩配置</frameColorScheme>
-        <colorSchemeAuto>Match Windows light/dark mode</colorSchemeAuto>
-        <colorSchemeLight>Light mode (default)</colorSchemeLight>
-        <colorSchemeDark>Dark mode</colorSchemeDark>
+        <colorSchemeAuto>跟隨 Windows 淺色/深色模式</colorSchemeAuto>
+        <colorSchemeLight>淺色模式(預設)</colorSchemeLight>
+        <colorSchemeDark>深色模式</colorSchemeDark>
         <!-- Uninstaller -->
         <staticTreeLikeUpdates>樹狀軟體更新(子項目):</staticTreeLikeUpdates>
         <checkDisplayUpdates>顯示軟體更新</checkDisplayUpdates>
@@ -342,8 +342,8 @@
         <DlgAboutCaption>關於 Uninstall Tool</DlgAboutCaption>
         <staticWebSite>網站</staticWebSite>
         <staticSupport>技術支援</staticSupport>
-        <staticEULA>EULA</staticEULA>
-        <staticPrivacyPolicy>Privacy policy</staticPrivacyPolicy>
+        <staticEULA>使用者授權合約</staticEULA>
+        <staticPrivacyPolicy>隱私權政策</staticPrivacyPolicy>
         <staticRegisteredTo>此產品授權給:</staticRegisteredTo>
         <staticChangeKey>變更授權金鑰</staticChangeKey>
     </DlgAbout>
@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>您的授權已儲存至程式所在資料夾中的 'license.dat' 檔案，可隨程式一起帶著走。</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>此授權可用於一台電腦。</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>此授權可用於 %d 台電腦。</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>您的可攜式授權適用於 Uninstall Tool 的可攜式版本，此版本免安裝，可從任何資料夾(包括 USB 隨身碟)直接執行。同一位使用者可在多台電腦上使用，不限台數。</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>您的可攜式授權適用於 Uninstall Tool 的可攜式版本，此版本免安裝，同一位使用者可在多台電腦上使用，不限台數。安裝在電腦上使用時，此授權僅能用於該台電腦，其他電腦則需執行可攜式版本。</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>下載可攜式版本</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>此金鑰無法啟用可攜式版本</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>可攜式版本必須使用專屬的可攜式授權金鑰。這種授權可讓同一位使用者無須安裝，就能在多台電腦上使用 Uninstall Tool，不限台數。您輸入的是標準授權金鑰，只適用於安裝在電腦上的 Uninstall Tool。</msgRegNotForPortableText>
@@ -460,23 +460,23 @@
         <statusNewVersionAvailable>有新版本可用:</statusNewVersionAvailable>
         <popupNewProgramsFound>找到 %d 個新程式!</popupNewProgramsFound>
         <popupNewProgramsFoundDontNotify>下次別再通知我</popupNewProgramsFoundDontNotify>
-        <WindowsUpdatesText>Windows Updates</WindowsUpdatesText>
+        <WindowsUpdatesText>Windows 更新</WindowsUpdatesText>
         <UninstallToolDescription>解除安裝程式完成。安裝並追蹤軟體。管理啟動程式</UninstallToolDescription>
     </Misc>
     <ShellExtension>
         <InstallWithInstallTracker>安裝並以安裝追蹤器追蹤...</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>安裝並追蹤該程式在您的電腦上所做的所有變更</InstallWithInstallTrackerTip>
-        <InstallWithInstallTrackerShort>Install with Install Tracker</InstallWithInstallTrackerShort>
-        <uninstallWithUninstallTool>Uninstall with Uninstall Tool</uninstallWithUninstallTool>
-        <uninstallWithUninstallToolFailed>Unable to detect any application based on the provided shortcut:</uninstallWithUninstallToolFailed>
-        <uninstallWithUninstallToolConfirm>Are you sure you want to completely remove '%s' and all of its components?</uninstallWithUninstallToolConfirm>
+        <InstallWithInstallTrackerShort>以安裝追蹤器安裝</InstallWithInstallTrackerShort>
+        <uninstallWithUninstallTool>以 Uninstall Tool 解除安裝</uninstallWithUninstallTool>
+        <uninstallWithUninstallToolFailed>無法從指定的捷徑偵測到任何應用程式:</uninstallWithUninstallToolFailed>
+        <uninstallWithUninstallToolConfirm>您確定要完整移除 '%s' 及其所有元件嗎?</uninstallWithUninstallToolConfirm>
     </ShellExtension>
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->
         <msgTitleTemplate>%app_name% - 未處理的例外狀況</msgTitleTemplate>
         <msgTemplate>我們很抱歉，但未處理的例外狀況已經發生，\n%app_name% 已變得不穩定。\n請將電子郵件發送到 '%email%'\n附上下列損毀傾印檔:\n\n%dump_file%\n\n在按下 [傳送報告] 按鈕後，將開啟預設的郵件程式\n來撰寫郵件。</msgTemplate>
         <MailSubjectTemplate>%app_name% %app_version% 錯誤報告</MailSubjectTemplate>
-        <MailBodyTemplate>Hello, Support.\n\nI'm having a problem with %app_name%. The dump file is attached.\n(don't forget to attach the file '%dump_file%')\n\nMy Windows version is %winver% and my actions before the problem were... (put some words please)</MailBodyTemplate>
+        <MailBodyTemplate>技術支援團隊您好:\\n\\n我在使用 %app_name% 時遇到問題，損毀傾印檔已隨信附上。\\n(別忘了附上 '%dump_file%' 檔案)\\n\\n我的 Windows 版本是 %winver%，問題發生前我做的操作是... (請在此簡單說明)</MailBodyTemplate>
         <btnSend>傳送報告(建議使用)</btnSend>
     </UnhandledExceptionHandler>
     <Setup>
@@ -485,7 +485,7 @@
         <installing_driver>正在安裝核心驅動程式...</installing_driver>
         <ut_initializing>Uninstall Tool 正在初始化...</ut_initializing>
         <pin_to_taskbar_text>將 Uninstall Tool 圖示釘選到工作列</pin_to_taskbar_text>
-        <skip_uac_option>Simplify app launch by using Windows Task Scheduler to bypass User Account Control confirmation</skip_uac_option>
-        <register_msix>Registering Windows 11 context menu...</register_msix>
+        <skip_uac_option>使用 Windows 工作排程器略過使用者帳戶控制確認，以簡化程式啟動</skip_uac_option>
+        <register_msix>正在註冊 Windows 11 右鍵選單...</register_msix>
     </Setup>
 </LanguageStrings>

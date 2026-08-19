@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Ваша ліцэнзія захавана ў файле 'license.dat' у папцы праграмы і пераносіцца разам з ёй.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Гэтая ліцэнзія разлічана на адзін кампутар.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Колькасць кампутараў для гэтай ліцэнзіі: %d.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Ваша ліцэнзія прызначана для партатыўнай версіі Uninstall Tool, якая не патрабуе ўсталявання і запускаецца з любой папкі, нават з USB-флэшкі. Такая ліцэнзія дазваляе аднаму чалавеку карыстацца праграмай на любой колькасці кампутараў.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Ваша ліцэнзія прызначана для партатыўнай версіі Uninstall Tool, якая не патрабуе ўсталявання. Такая ліцэнзія дазваляе аднаму чалавеку карыстацца праграмай на любой колькасці кампутараў. Ва ўсталяванай версіі ліцэнзія дзейнічае толькі на адным кампутары — на астатніх запускайце партатыўную версію.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Спампаваць партатыўную версію</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Гэты ключ не падыходзіць для партатыўнай версіі</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>Для партатыўнай версіі патрэбна асобная ліцэнзія: яна дазваляе аднаму чалавеку карыстацца Uninstall Tool на любой колькасці кампутараў, і праграму не трэба ўсталёўваць. Вы ўвялі ключ звычайнай ліцэнзіі — яна прызначана для версіі, якая ўсталёўваецца на кампутар.</msgRegNotForPortableText>

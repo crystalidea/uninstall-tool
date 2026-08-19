@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Лицензът ви е записан във файла 'license.dat' в папката на програмата и я придружава навсякъде.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Този лиценз може да се използва само на един компютър.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Този лиценз може да се използва на %d компютъра.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Вашият Портативен лиценз е предназначен за портативната версия на Uninstall Tool, която не изисква инсталация и работи от всяка папка, включително от USB устройство. Лицензът е за един потребител и може да се използва на неограничен брой компютри.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Вашият Портативен лиценз е предназначен за портативната версия на Uninstall Tool: тя не изисква инсталация и един потребител може да я използва на неограничен брой компютри. Когато програмата е инсталирана на компютър, лицензът важи само за него; на всички останали компютри стартирайте портативната версия.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Изтеглете портативната версия</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Този ключ не може да активира портативната версия</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>За портативната версия е необходим отделен Портативен лицензионен ключ: с него един потребител може да използва Uninstall Tool на неограничен брой компютри, без да го инсталира. Ключът, който въведохте, е стандартен лиценз и важи за инсталираната версия на програмата.</msgRegNotForPortableText>

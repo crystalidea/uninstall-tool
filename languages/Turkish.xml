@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Lisansınız program klasöründeki 'license.dat' dosyasına kaydedildi. Böylece programı nereye taşırsanız taşıyın, lisansınız da onunla birlikte gelir.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Bu lisans tek bir bilgisayarda kullanılabilir.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Bu lisans %d bilgisayarda kullanılabilir.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Portable lisansınız Uninstall Tool'un Portable sürümü için geçerlidir. Kurulum gerektirmeyen bu sürüm, USB bellek dahil dilediğiniz klasörden çalışır. Lisansı yalnızca siz kullandığınız sürece, programı dilediğiniz sayıda bilgisayarda çalıştırabilirsiniz.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Portable lisansınız Uninstall Tool'un Portable sürümü içindir: kurulum gerektirmeyen bu sürümü, lisansı yalnızca siz kullandığınız sürece dilediğiniz sayıda bilgisayarda çalıştırabilirsiniz. Program bir bilgisayara kurulduğunda ise lisans yalnızca o bilgisayarı kapsar; diğer bilgisayarlarda Portable sürümü çalıştırın.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Portable sürümü indirin</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Bu anahtarla Portable sürüm etkinleştirilemez</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>Portable sürüm için ayrı bir Portable lisans anahtarı gerekir. Bu lisans sayesinde tek bir kişi, kurulum yapmadan Uninstall Tool'u dilediği sayıda bilgisayarda kullanabilir. Girdiğiniz anahtar ise standart bir lisansa aittir; yalnızca bilgisayara kurulan Uninstall Tool ile çalışır.</msgRegNotForPortableText>

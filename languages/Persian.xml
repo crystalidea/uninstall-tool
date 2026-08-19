@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>مجوز شما در فایل license.dat در پوشه برنامه ذخیره شد و هر جا برنامه را ببرید، همراه آن میماند.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>این مجوز فقط روی یک رایانه قابل استفاده است.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>این مجوز روی %d رایانه قابل استفاده است.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>مجوز پرتابل شما مخصوص نسخه پرتابل Uninstall Tool است: این نسخه نیازی به نصب ندارد و از هر پوشه دلخواه، حتی از روی درایو USB، اجرا میشود. یک نفر میتواند از این مجوز روی هر تعداد رایانه استفاده کند.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>مجوز پرتابل شما مخصوص نسخه پرتابل Uninstall Tool است: این نسخه نیازی به نصب ندارد و یک نفر میتواند روی هر تعداد رایانه از آن استفاده کند. با نصب برنامه روی یک رایانه، مجوز فقط برای همان رایانه اعتبار دارد. روی هر رایانه دیگری نسخه پرتابل را اجرا کنید.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>دانلود نسخه پرتابل</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>این کلید نسخه پرتابل را فعال نمیکند</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>نسخه پرتابل به کلید مجوز مخصوص خودش نیاز دارد: با مجوز پرتابل، یک نفر میتواند بدون نیاز به نصب، روی هر تعداد رایانه از Uninstall Tool استفاده کند. کلیدی که وارد کردید یک مجوز معمولی است و با نسخه نصبی Uninstall Tool کار میکند.</msgRegNotForPortableText>

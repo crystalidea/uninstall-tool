@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.5.9" LangID="2052" Author="Zhou Manlian; update by ZB_Sun">
+<LanguageStrings version="3.8.2" LangID="2052,4100" Author="Zhou Manlian; update by ZB_Sun">
     <MainMenu>
         <mnuFile>文件(&amp;F)</mnuFile>
         <mnuFileExport>导出为 HTML(&amp;E)...</mnuFileExport>
@@ -148,7 +148,7 @@
         <itemSourceStartMenu_All>所有用户开始菜单启动文件夹</itemSourceStartMenu_All>
         <itemSourceStartMenu_Current>当前用户开始菜单启动文件夹</itemSourceStartMenu_Current>
         <itemSourceWindowsTask>登陆时执行的 Windows 任务计划</itemSourceWindowsTask>
-        <itemSourceWindowStoreTask>Microsoft Store App Startup Task</itemSourceWindowStoreTask>
+        <itemSourceWindowStoreTask>Microsoft Store 应用的启动任务</itemSourceWindowStoreTask>
     </ExplorerBar>
     <DlgAddNewStartupProgram>
         <DlgAddNewStartupProgramCaption>添加新的自启动程序</DlgAddNewStartupProgramCaption>
@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>您的许可证已保存在程序所在文件夹的 'license.dat' 文件中，可随程序一起携带。</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>此许可证仅可在一台电脑上使用。</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>此许可证可在 %d 台电脑上使用。</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>您的便携版许可证适用于 Uninstall Tool 便携版。该版本无需安装，可放在任意文件夹 (包括 U 盘) 中直接运行。同一位用户可在多台电脑上使用，不限台数。</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>您的便携版许可证适用于 Uninstall Tool 便携版。该版本无需安装，同一位用户可在多台电脑上使用，不限台数。安装到电脑上使用时，此许可证仅对这台电脑有效，其他电脑上运行便携版即可。</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>下载便携版</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>此密钥无法激活便携版</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>便携版需要专用的许可证密钥。这类许可证允许同一位用户无需安装即可在多台电脑上使用 Uninstall Tool，不限台数。您输入的是标准许可证密钥，它只能用于安装版的 Uninstall Tool。</msgRegNotForPortableText>
@@ -467,9 +467,9 @@
         <InstallWithInstallTracker>安装并使用安装追踪器追踪...</InstallWithInstallTracker>
         <InstallWithInstallTrackerTip>安装并追踪程序对您的电脑做出的所有更改</InstallWithInstallTrackerTip>
         <InstallWithInstallTrackerShort>安装并使用安装追踪器追踪</InstallWithInstallTrackerShort>
-        <uninstallWithUninstallTool>Uninstall with Uninstall Tool</uninstallWithUninstallTool>
-        <uninstallWithUninstallToolFailed>Unable to detect any application based on the provided shortcut:</uninstallWithUninstallToolFailed>
-        <uninstallWithUninstallToolConfirm>Are you sure you want to completely remove '%s' and all of its components?</uninstallWithUninstallToolConfirm>
+        <uninstallWithUninstallTool>使用 Uninstall Tool 卸载</uninstallWithUninstallTool>
+        <uninstallWithUninstallToolFailed>无法根据该快捷方式检测到任何程序:</uninstallWithUninstallToolFailed>
+        <uninstallWithUninstallToolConfirm>您确认要完全删除 '%s' 及其所有组件吗?</uninstallWithUninstallToolConfirm>
     </ShellExtension>
     <UnhandledExceptionHandler>
         <!-- note for translators: please leave all %x% place-holders in strings. Use \n symbol for long lines. -->

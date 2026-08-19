@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Sinu litsents salvestati programmi kausta faili 'license.dat', nii et see käib programmiga kaasas.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Seda litsentsi tohib kasutada ühes arvutis.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Seda litsentsi tohib kasutada %d arvutis.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Sinu Portable-litsents on mõeldud Uninstall Tool-i Portable-versioonile: see ei vaja paigaldamist ja käivitub ükskõik millisest kaustast, ka mälupulgalt. Litsentsi tohib kasutada üks inimene, kuid arvutite arv ei ole piiratud.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Sinu Portable-litsents on mõeldud Uninstall Tool-i Portable-versioonile, mis ei vaja paigaldamist. Litsentsi tohib kasutada üks inimene, kuid arvutite arv ei ole piiratud. Kui kasutad arvutisse paigaldatud versiooni, kehtib litsents ainult selles arvutis. Mujal käivita Portable-versioon.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Laadi alla Portable-versioon</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Selle võtmega ei saa Portable-versiooni aktiveerida</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>Portable-versiooni jaoks on vaja eraldi Portable-litsentsi võtit: sellega tohib üks inimene kasutada Uninstall Tool-i ilma paigaldamata ja arvutite arv ei ole piiratud. Sisestatud võti on tavaline litsents, mis sobib arvutisse paigaldatud Uninstall Tool-i jaoks.</msgRegNotForPortableText>

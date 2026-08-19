@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>A sua licença foi guardada no ficheiro 'license.dat', na pasta do programa, e acompanha o Uninstall Tool para onde quer que o leve.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Esta licença pode ser utilizada num único computador.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Esta licença pode ser utilizada em %d computadores.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>A sua licença Portátil destina-se à versão portátil do Uninstall Tool, que não requer instalação e funciona a partir de qualquer pasta, incluindo uma unidade USB. Pode ser utilizada por um único utilizador em quantos computadores quiser.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>A sua licença Portátil destina-se à versão portátil do Uninstall Tool, que não requer instalação e pode ser utilizada por um único utilizador em quantos computadores quiser. Instalado num computador, o Uninstall Tool fica licenciado apenas nesse computador; nos restantes, utilize a versão portátil.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Descarregar a versão portátil</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Esta chave não activa a versão portátil</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>A versão portátil requer uma chave de licença Portátil: com ela, um único utilizador pode usar o Uninstall Tool em quantos computadores quiser, sem necessidade de instalação. A chave que inseriu corresponde a uma licença padrão, que funciona com a versão instalada do Uninstall Tool.</msgRegNotForPortableText>

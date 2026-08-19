@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Lisenziyanız proqramın qovluğundakı 'license.dat' faylında saxlanıldı. Beləliklə, proqramı hara aparsanız, lisenziya da onunla birlikdə gedəcək.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Bu lisenziya yalnız bir kompüterdə istifadə oluna bilər.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Bu lisenziya %d kompüterdə istifadə oluna bilər.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Portable lisenziyanız Uninstall Tool-un Portable versiyası üçün nəzərdə tutulub. Bu versiya quraşdırma tələb etmir və istənilən qovluqdan, hətta USB diskdən də işləyir. Bu lisenziya ilə bir istifadəçi proqramdan istənilən sayda kompüterdə istifadə edə bilər.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Portable lisenziyanız Uninstall Tool-un Portable versiyası üçün nəzərdə tutulub: bu versiya quraşdırma tələb etmir və bir istifadəçi ondan istənilən sayda kompüterdə istifadə edə bilər. Proqram kompüterə quraşdırıldıqda isə lisenziya yalnız həmin kompüter üçün keçərli olur — digər kompüterlərdə Portable versiyanı işə salın.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Portable versiyanı yüklə</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Bu açarla Portable versiyanı aktivləşdirmək mümkün deyil</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>Portable versiya üçün ayrıca Portable lisenziya açarı lazımdır. O, bir istifadəçiyə Uninstall Tool-dan istənilən sayda kompüterdə quraşdırma olmadan istifadə etməyə imkan verir. Daxil etdiyiniz açar isə standart lisenziya açarıdır və kompüterə quraşdırılmış Uninstall Tool üçün nəzərdə tutulub.</msgRegNotForPortableText>

@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Vaša licenca je shranjena v datoteki 'license.dat' v mapi programa, zato ostane pri njem, kamor koli ga prenesete.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>To licenco lahko uporabljate na enem računalniku.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>To licenco lahko uporabljate na %d računalnikih.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Vaša prenosna licenca je namenjena prenosni različici 'Uninstall Tool': ta ne potrebuje namestitve, zaženete pa jo lahko iz katere koli mape, tudi s ključka USB. S to licenco lahko ena oseba uporablja program na poljubnem številu računalnikov.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Vaša prenosna licenca je namenjena prenosni različici 'Uninstall Tool': ta ne potrebuje namestitve, uporablja pa jo lahko ena oseba na poljubnem številu računalnikov. Ko je program nameščen, licenca velja samo za ta računalnik – na vseh drugih zaženite prenosno različico.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Prenesite prenosno različico</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>S tem ključem ni mogoče aktivirati prenosne različice</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>Za prenosno različico potrebujete prenosni licenčni ključ: z njim lahko ena oseba uporablja 'Uninstall Tool' na poljubnem številu računalnikov, ne da bi ga bilo treba namestiti. Ključ, ki ste ga vnesli, je standardna licenca in velja za nameščeno različico programa.</msgRegNotForPortableText>

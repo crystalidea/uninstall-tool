@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Jūsų licencija išsaugota programos aplanke esančiame faile 'license.dat', todėl ji visada keliaus kartu su programa.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Ši licencija skirta naudoti viename kompiuteryje.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Ši licencija skirta naudoti keliuose kompiuteriuose. Leidžiamas kompiuterių skaičius: %d.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Jūsų licencija skirta nešiojamajai Uninstall Tool versijai: jos nereikia diegti, ji paleidžiama iš bet kurio aplanko, net ir iš USB atmintinės. Šia licencija gali naudotis vienas žmogus, o kompiuterių skaičius neribojamas.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Jūsų licencija skirta nešiojamajai Uninstall Tool versijai, kurios nereikia diegti. Šia licencija gali naudotis vienas žmogus, o kompiuterių skaičius neribojamas. Įdiegus programą į kompiuterį, licencija galioja tik tame kompiuteryje – visur kitur paleiskite nešiojamąją versiją.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Atsisiųsti nešiojamąją versiją</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Šiuo kodu nešiojamosios versijos aktyvuoti negalima</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>Nešiojamajai versijai reikia atskiro, tik jai tinkančio licencijos kodo: su juo vienas žmogus gali naudotis Uninstall Tool nieko nediegdamas, o kompiuterių skaičius neribojamas. Jūsų įvestas kodas – įprastos licencijos kodas, skirtas į kompiuterį įdiegtai Uninstall Tool versijai.</msgRegNotForPortableText>

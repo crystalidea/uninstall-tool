@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Ձեր արտոնագիրը պահվել է ծրագրի պանակի 'license.dat' ֆայլում, ուստի այն ամենուր կտեղափոխվի պանակի հետ միասին։</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Այս արտոնագիրը կարող է օգտագործվել միայն մեկ համակարգչում։</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Այս արտոնագիրը կարող է օգտագործվել %d համակարգչում։</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Ձեր Դյուրակիր արտոնագիրը նախատեսված է Uninstall Tool-ի դյուրակիր տարբերակի համար, որը տեղադրում չի պահանջում և աշխատում է ցանկացած պանակից, այդ թվում՝ USB կրիչից։ Այդպիսի արտոնագրով մեկ օգտվող կարող է օգտագործել ծրագիրը ցանկացած թվով համակարգչում։</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Ձեր Դյուրակիր արտոնագիրը նախատեսված է Uninstall Tool-ի դյուրակիր տարբերակի համար, որը տեղադրում չի պահանջում։ Այդպիսի արտոնագրով մեկ օգտվող կարող է օգտագործել ծրագիրը ցանկացած թվով համակարգչում։ Երբ ծրագիրը տեղադրված է համակարգչում, արտոնագիրը տարածվում է միայն այդ համակարգչի վրա։ Մյուս համակարգիչներում գործարկեք դյուրակիր տարբերակը։</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Ներբեռնել դյուրակիր տարբերակը</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Այս բանալիով հնարավոր չէ գրանցել դյուրակիր տարբերակը</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>Դյուրակիր տարբերակը գրանցվում է միայն Դյուրակիր արտոնագրի բանալիով, որը թույլ է տալիս մեկ օգտվողին օգտագործել Uninstall Tool-ը ցանկացած թվով համակարգչում՝ առանց տեղադրման։ Դուք մուտքագրել եք սովորական արտոնագրի բանալի, որը նախատեսված է համակարգչում տեղադրված Uninstall Tool-ի համար։</msgRegNotForPortableText>

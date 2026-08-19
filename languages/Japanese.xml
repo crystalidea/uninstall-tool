@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>ライセンスはプログラムと同じフォルダーの 'license.dat' に保存されました。フォルダーごとコピーすれば、ライセンスもそのまま一緒に持ち運べます。</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>このライセンスは 1 台のコンピューターでご利用いただけます。</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>このライセンスは %d 台のコンピューターでご利用いただけます。</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>お持ちのポータブル ライセンスは、Uninstall Tool のポータブル版向けのものです。ポータブル版はインストールが不要で、USB メモリ上のフォルダーなど、どこからでも実行できます。お一人でお使いいただく限り、コンピューターの台数に制限はありません。</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>お持ちのポータブル ライセンスは、Uninstall Tool のポータブル版向けのものです。ポータブル版はインストール不要で、お一人で何台のコンピューターでもご利用いただけます。ただし、コンピューターにインストールしてお使いの場合、ライセンスの対象となるのはその 1 台のみです。他のコンピューターではポータブル版をお使いください。</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>ポータブル版をダウンロード</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>このキーではポータブル版を登録できません</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>ポータブル版を登録するには、ポータブル ライセンスの登録キーが必要です。ポータブル ライセンスなら、インストール不要で、お一人で何台のコンピューターでもご利用いただけます。入力された登録キーは通常のライセンスのもので、コンピューターにインストールした Uninstall Tool でお使いいただけます。</msgRegNotForPortableText>

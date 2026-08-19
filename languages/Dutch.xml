@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Uw licentie is opgeslagen als 'license.dat' in de programmamap en gaat zo altijd met het programma mee.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Deze licentie mag op één computer worden gebruikt.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Deze licentie mag op %d computers worden gebruikt.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Uw Portable licentie is bedoeld voor de Portable versie van Uninstall Tool: die hoeft niet geïnstalleerd te worden en draait vanuit elke map, ook vanaf een USB-stick. Één persoon mag deze licentie op een onbeperkt aantal computers gebruiken.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Uw Portable licentie is bedoeld voor de Portable versie van Uninstall Tool: die hoeft niet geïnstalleerd te worden en mag door één persoon op een onbeperkt aantal computers worden gebruikt. Installeert U het programma op een computer, dan geldt de licentie alleen voor die ene computer – op alle andere computers gebruikt U de Portable versie.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Portable versie downloaden</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Met deze code kunt U de Portable versie niet activeren</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>Voor de Portable versie is een aparte Portable licentiecode nodig: daarmee mag één persoon Uninstall Tool op een onbeperkt aantal computers gebruiken, zonder installatie. De code die U hebt ingevoerd hoort bij een standaardlicentie en werkt alleen met de geïnstalleerde versie van Uninstall Tool.</msgRegNotForPortableText>

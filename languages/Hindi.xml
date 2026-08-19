@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>आपका अनुज्ञापत्र प्रोग्राम फोल्डर की 'license.dat' फाइल में सहेज दिया गया है, इसलिए प्रोग्राम जहां भी जाएगा, अनुज्ञापत्र भी उसके साथ जाएगा।</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>इस अनुज्ञापत्र का उपयोग एक ही कम्प्यूटर पर किया जा सकता है।</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>इस अनुज्ञापत्र का उपयोग %d कम्प्यूटरों पर किया जा सकता है।</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>आपका पोर्टेबल अनुज्ञापत्र Uninstall Tool के पोर्टेबल संस्करण के लिए है। उस संस्करण को इंस्टॉल करने की आवश्यकता नहीं होती और वह किसी भी फोल्डर से चलता है, यहां तक कि USB ड्राइव से भी। एक ही व्यक्ति उसका उपयोग कितने भी कम्प्यूटरों पर कर सकता है।</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>आपका पोर्टेबल अनुज्ञापत्र Uninstall Tool के पोर्टेबल संस्करण के लिए है। उस संस्करण को इंस्टॉल करने की आवश्यकता नहीं होती और एक ही व्यक्ति उसका उपयोग कितने भी कम्प्यूटरों पर कर सकता है। किसी कम्प्यूटर पर इंस्टॉल किए गए Uninstall Tool के साथ यह अनुज्ञापत्र केवल उसी कम्प्यूटर के लिए मान्य होता है। अन्य कम्प्यूटरों पर पोर्टेबल संस्करण चलाएं।</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>पोर्टेबल संस्करण डाउनलोड करें</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>इस कुंजी से पोर्टेबल संस्करण का कार्यशीलन नहीं हो सकता</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>पोर्टेबल संस्करण के लिए पोर्टेबल अनुज्ञापत्र की अलग कुंजी आवश्यक है। ऐसी कुंजी से एक ही व्यक्ति Uninstall Tool को कितने भी कम्प्यूटरों पर चला सकता है, वह भी बिना इंस्टॉल किए। आपने जो कुंजी प्रविष्ट की है, वह सामान्य अनुज्ञापत्र की कुंजी है और कम्प्यूटर पर इंस्टॉल किए गए Uninstall Tool के साथ ही काम करती है।</msgRegNotForPortableText>

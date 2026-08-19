@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>הרישיון שלך נשמר בקובץ 'license.dat' שבתיקיית התוכנית, כך שהוא עובר יחד איתה ממחשב למחשב.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>ניתן להשתמש ברישיון זה במחשב אחד בלבד.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>ניתן להשתמש ברישיון זה ב-%d מחשבים.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>הרישיון הנייד שברשותך מיועד לגרסה הניידת של Uninstall Tool, שאינה דורשת התקנה ופועלת מכל תיקייה, גם מכונן USB. משתמש יחיד רשאי להפעיל אותה במספר בלתי מוגבל של מחשבים.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>הרישיון הנייד שברשותך מיועד לגרסה הניידת של Uninstall Tool, שאינה דורשת התקנה. משתמש יחיד רשאי להפעיל אותה במספר בלתי מוגבל של מחשבים. כשהתוכנית מותקנת במחשב, הרישיון חל על אותו מחשב בלבד, ובכל מחשב אחר יש להפעיל את הגרסה הניידת.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>הורדת הגרסה הניידת</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>מפתח זה אינו מתאים להפעלת הגרסה הניידת</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>הגרסה הניידת דורשת מפתח של רישיון נייד. רישיון כזה מאפשר למשתמש יחיד להפעיל את Uninstall Tool במספר בלתי מוגבל של מחשבים, ללא צורך בהתקנה. המפתח שהזנת שייך לרישיון רגיל, המיועד לגרסה המותקנת של Uninstall Tool.</msgRegNotForPortableText>

@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Η άδεια χρήσης σας αποθηκεύτηκε στο αρχείο 'license.dat' μέσα στον φάκελο του προγράμματος, ώστε να τον συνοδεύει όπου κι αν τον μεταφέρετε.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Αυτή η άδεια μπορεί να χρησιμοποιηθεί σε έναν μόνο Η/Υ.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Αυτή η άδεια μπορεί να χρησιμοποιηθεί σε %d Η/Υ.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Διαθέτετε άδεια Φορητής Έκδοσης: προορίζεται για την έκδοση του Uninstall Tool που δεν απαιτεί εγκατάσταση και εκτελείται από οποιονδήποτε φάκελο, ακόμη και από μονάδα USB. Ένα άτομο μπορεί να τη χρησιμοποιεί σε όσους Η/Υ θέλει.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Διαθέτετε άδεια Φορητής Έκδοσης: προορίζεται για την έκδοση του Uninstall Tool που δεν απαιτεί εγκατάσταση, και ένα άτομο μπορεί να τη χρησιμοποιεί σε όσους Η/Υ θέλει. Όταν το πρόγραμμα εγκαθίσταται σε έναν Η/Υ, η άδεια ισχύει μόνο για αυτόν· σε όλους τους υπόλοιπους, χρησιμοποιήστε τη Φορητή Έκδοση.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Λήψη της Φορητής Έκδοσης</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Αυτό το κλειδί δεν ενεργοποιεί τη Φορητή Έκδοση</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>Η Φορητή Έκδοση ενεργοποιείται μόνο με κλειδί άδειας Φορητής Έκδοσης: με αυτό, ένα άτομο μπορεί να χρησιμοποιεί το Uninstall Tool σε όσους Η/Υ θέλει, χωρίς καμία εγκατάσταση. Το κλειδί που εισαγάγατε αντιστοιχεί σε κανονική άδεια, η οποία ισχύει για την έκδοση που εγκαθίσταται στον Η/Υ.</msgRegNotForPortableText>

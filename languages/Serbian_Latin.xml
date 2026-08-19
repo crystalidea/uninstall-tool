@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Vaša licenca je sačuvana u datoteku 'license.dat' u fascikli programa, pa putuje svuda zajedno sa njim.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Ovu licencu možete da koristite na jednom računaru.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Ovu licencu možete da koristite na više računara (%d).</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Vaša Portable licenca namenjena je Portable verziji programa Uninstall Tool, koja ne zahteva instalaciju i pokreće se iz bilo koje fascikle, pa i sa USB memorije. Jedna osoba može da je koristi na neograničenom broju računara.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Vaša Portable licenca namenjena je Portable verziji programa Uninstall Tool, koja ne zahteva instalaciju i koju jedna osoba može da koristi na neograničenom broju računara. Kada je program instaliran na računaru, licenca važi samo za taj računar; na ostalim računarima pokrećite Portable verziju.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Preuzmite Portable verziju</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Ovim ključem ne može da se aktivira Portable verzija</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>Za Portable verziju potreban je poseban Portable ključ. Uz njega jedna osoba može da koristi Uninstall Tool na neograničenom broju računara, i to bez ikakve instalacije. Ključ koji ste uneli pripada standardnoj licenci, koja važi za Uninstall Tool instaliran na računaru.</msgRegNotForPortableText>

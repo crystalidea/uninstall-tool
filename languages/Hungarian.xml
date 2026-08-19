@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>A licenc a program mappájában lévő 'license.dat' fájlba került, így mindenhová elkíséri a programot.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Ez a licenc egyetlen számítógépen használható.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Ez a licenc %d számítógépen használható.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>A Portable licenc az Uninstall Tool Portable verziójához készült, amely nem igényel telepítést, és bármelyik mappából futtatható, akár pendrive-ról is. Egy felhasználó tetszőleges számú számítógépen használhatja a programot.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>A Portable licenc az Uninstall Tool Portable verziójához készült, amely nem igényel telepítést. Egy felhasználó tetszőleges számú számítógépen használhatja a programot. A telepített verzióban viszont a licenc csak egyetlen számítógépre érvényes, ezért a többi gépen a Portable verziót futtassa.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Portable verzió letöltése</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Ezzel a kulccsal nem aktiválható a Portable verzió</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>A Portable verzióhoz külön Portable licenckulcs szükséges, amellyel egy felhasználó telepítés nélkül tetszőleges számú számítógépen használhatja az Uninstall Tool programot. A megadott kulcs viszont normál licenchez tartozik, amely a számítógépre telepített Uninstall Tool programhoz való.</msgRegNotForPortableText>

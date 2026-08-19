@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Licence ir saglabāta programmas mapē failā 'license.dat', tāpēc tā vienmēr pārvietojas kopā ar programmu.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Šī licence ir paredzēta vienam datoram.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Šī licence ir paredzēta vairākiem datoriem. Atļautais skaits: %d.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Jūsu licence ir paredzēta Uninstall Tool portatīvajai versijai, kas nav jāinstalē un darbojas no jebkuras mapes, arī no USB zibatmiņas. Viens lietotājs to var izmantot neierobežotā datoru skaitā.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Jūsu licence ir paredzēta Uninstall Tool portatīvajai versijai, kas nav jāinstalē un ko viens lietotājs var izmantot neierobežotā datoru skaitā. Ja programma ir instalēta datorā, licence attiecas tikai uz šo datoru — pārējos datoros lietojiet portatīvo versiju.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Lejupielādēt portatīvo versiju</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Ar šo atslēgu nevar aktivizēt portatīvo versiju</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>Portatīvajai versijai ir vajadzīga sava atslēga — portatīvās versijas licence. Tā ļauj vienam lietotājam izmantot Uninstall Tool neierobežotā datoru skaitā, turklāt nekas nav jāinstalē. Jūsu ievadītā atslēga ir parasta licence: tā ir paredzēta datorā instalētai programmas versijai.</msgRegNotForPortableText>

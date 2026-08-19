@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Giấy phép của bạn đã được lưu vào tập tin license.dat trong thư mục chương trình, nhờ vậy nó sẽ luôn đi cùng chương trình đến bất cứ đâu.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Giấy phép này dành cho một máy tính.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Giấy phép này dành cho %d máy tính.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Mã đăng ký của bạn là giấy phép dành cho phiên bản di động của Uninstall Tool: bản này không cần cài đặt, chạy trực tiếp từ bất kỳ thư mục nào, kể cả ổ USB. Một người có thể dùng giấy phép này trên bao nhiêu máy tính tùy ý.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Mã đăng ký của bạn là giấy phép dành cho phiên bản di động của Uninstall Tool: bản này không cần cài đặt và một người có thể dùng giấy phép này trên bao nhiêu máy tính tùy ý. Còn khi cài đặt Uninstall Tool lên một máy tính, giấy phép chỉ có hiệu lực cho riêng máy đó; ở những máy khác, hãy chạy phiên bản di động.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Tải về phiên bản di động</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Mã đăng ký này không kích hoạt được phiên bản di động</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>Phiên bản di động cần có giấy phép riêng: giấy phép đó cho phép một người sử dụng Uninstall Tool trên bao nhiêu máy tính tùy ý mà không cần cài đặt. Mã đăng ký bạn vừa nhập là giấy phép thông thường, chỉ dùng được cho bản Uninstall Tool đã cài đặt trên máy tính.</msgRegNotForPortableText>

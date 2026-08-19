@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>تم حفظ رخصتك في ملف license.dat داخل مجلد البرنامج، فتنتقل معه أينما نقلته.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>يمكن استخدام هذه الرخصة على جهاز واحد فقط.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>يمكن استخدام هذه الرخصة على %d من الأجهزة.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>رخصتك مخصصة للنسخة المحمولة من Uninstall Tool، وهي نسخة لا تحتاج إلى تثبيت وتعمل من أي مجلد، بما في ذلك ذاكرة USB. ويمكن لشخص واحد استخدامها على أي عدد من الأجهزة.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>رخصتك مخصصة للنسخة المحمولة من Uninstall Tool، وهي لا تحتاج إلى تثبيت ويمكن لشخص واحد استخدامها على أي عدد من الأجهزة. وعند تثبيت البرنامج على جهاز، تسري الرخصة على ذلك الجهاز وحده، أما على الأجهزة الأخرى فشغّل النسخة المحمولة.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>تحميل النسخة المحمولة</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>هذا المفتاح لا يصلح لتفعيل النسخة المحمولة</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>تحتاج النسخة المحمولة إلى مفتاح رخصة خاص بها، يتيح لشخص واحد استخدام Uninstall Tool على أي عدد من الأجهزة دون الحاجة إلى تثبيته. أما المفتاح الذي أدخلته فهو مفتاح رخصة عادية تعمل مع النسخة المثبتة على الجهاز.</msgRegNotForPortableText>

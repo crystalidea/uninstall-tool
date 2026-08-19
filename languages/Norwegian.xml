@@ -413,7 +413,7 @@
         <msgRegSuccessPortableSaved>Lisensen din er lagret i filen «license.dat» i programmappen og følger dermed alltid med programmet.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>Denne lisensen kan brukes på én datamaskin.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>Denne lisensen kan brukes på %d datamaskiner.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Portable-lisensen din er ment for Portable-versjonen av Uninstall Tool, som ikke krever installasjon og kan kjøres fra hvilken som helst mappe – også fra en USB-minnepinne. Med denne lisensen kan én person bruke programmet på et ubegrenset antall datamaskiner.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Portable-lisensen din er ment for Portable-versjonen av Uninstall Tool, som ikke krever installasjon. Med denne lisensen kan én person bruke programmet på et ubegrenset antall datamaskiner. Når Uninstall Tool er installert på en datamaskin, gjelder lisensen bare for den maskinen – på alle andre datamaskiner bruker du Portable-versjonen.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Last ned Portable-versjonen</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>Denne produktnøkkelen kan ikke aktivere Portable-versjonen</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>Portable-versjonen krever en egen Portable-lisens. Med den kan én person bruke Uninstall Tool på et ubegrenset antall datamaskiner, helt uten installasjon. Produktnøkkelen du har skrevet inn, er for en standardlisens og fungerer bare når Uninstall Tool er installert på en datamaskin.</msgRegNotForPortableText>

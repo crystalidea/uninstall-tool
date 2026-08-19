@@ -433,7 +433,7 @@
         <msgRegSuccessPortableSaved>Your license has been saved to 'license.dat' in the program folder, so it travels together with the program.</msgRegSuccessPortableSaved>
         <msgRegSuccessOneComputer>This license may be used on a single computer.</msgRegSuccessOneComputer>
         <msgRegSuccessManyComputers>This license may be used on %d computers.</msgRegSuccessManyComputers>
-        <msgRegPortableLicenseText>Your Portable license is meant for the portable version of Uninstall Tool: it requires no installation and runs from any folder, including a USB drive. One person may use it on any number of computers.</msgRegPortableLicenseText>
+        <msgRegPortableLicenseText>Your Portable license is meant for the portable version of Uninstall Tool: it requires no installation and one person may use it on any number of computers. Installed on a computer, the license covers that computer only - everywhere else, run the portable version.</msgRegPortableLicenseText>
         <msgRegPortableLicenseLink>Download the portable version</msgRegPortableLicenseLink>
         <msgRegNotForPortableTitle>This key cannot activate the portable version</msgRegNotForPortableTitle>
         <msgRegNotForPortableText>The portable version requires its own Portable license key: it lets one person use Uninstall Tool on any number of computers, with no installation needed. The key you entered is a standard license - it works with Uninstall Tool installed on a computer.</msgRegNotForPortableText>
